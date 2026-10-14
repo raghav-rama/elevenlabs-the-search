@@ -1,0 +1,13 @@
+{
+  "asset_id": "shot-02",
+  "tool": "built-in image_gen",
+  "source_image": "/Users/ritz/.codex/generated_images/01a13b59-af42-77d3-bb31-d320c6b60688/exec-6deb41d5-377b-495f-b95f-7ce0464df0bd.png",
+  "workspace_image": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/images/shot-02-v02.png",
+  "prompt": "Reframe image 1 as an EXTREME CLOSE-UP of the swinging employee badge. ONE standalone 16:9 image. The clear badge holder itself must occupy 80 percent of the entire image HEIGHT, from roughly y=10% to y=90%, centered with a slight diagonal tilt as it swings off the shirt. Achieve this by moving the camera very close, NOT by enlarging the physical card relative to her body. Most background is only white shirt fabric; just a small burgundy lanyard/metal clip segment above the card. No face, neck, waist, hand or whole bag visible. Image 2 is the exact flat artwork: preserve KORVEX, Riley Brooks, EMPLOYEE and the portrait accurately. Keep plastic holder and hardware from image 1, realistic motion pose, morning station cyan/magenta light subtly reflected in plastic. Crisp portrait and lettering, natural shadows under the swinging card. No full torso shot, no collage.",
+  "references": [
+    "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/images/shot-02-v01.png",
+    "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/03-badge/images/badge-02-v01.png"
+  ],
+  "review": "Visually inspected; close-up framing corrected and retained as test frame. Not user-approved final.",
+  "sha256": "4e9aa151d12f021bef61533d0d4ac557d360ec4e3ddfcb9fb0e1b4f30386d5a5"
+}

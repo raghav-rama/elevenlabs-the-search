@@ -1,0 +1,12 @@
+{
+  "asset_id": "wardrobe-03",
+  "tool": "built-in image_gen",
+  "source_image": "/Users/ritz/.codex/generated_images/01a13b59-af42-77d3-bb31-d320c6b60688/exec-18c4acc5-a78a-4283-8954-3ccf520ce0cb.png",
+  "workspace_image": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/02-wardrobe/images/wardrobe-03-v01.png",
+  "prompt": "Use case: product-mockup\n\nAsset: Bag construction reference\n\nComposition: 4:3 aspect ratio.\n\nCreate a three-view product reference sheet of the SAME selected bag: front, side, and three-quarter views on a neutral studio backdrop. Compact structured black leather shoulder bag, single short shoulder strap, restrained dark hardware, no logo. Preserve dimensions, strap attachment, seams, closure, and finish from the wardrobe reference. This bag is worn on Riley's right shoulder; it must not change into a backpack or crossbody bag.\n\nRendering: Photorealistic premium live-action commercial look, physically plausible materials, believable anatomy and construction, controlled contrast, natural detail. No illustration, game screenshot, plastic skin, excessive bloom, or baked-in cinematic motion blur. Reference assets should be sharp enough to inspect. No decorative watermarks; the official contest watermark will be added during final editing.\n\nReference handling: Use the supplied images in the listed order and for their specified roles. Preserve selected designs; do not invent a new identity or silently replace a missing dependency.\n\nInput images in order: wardrobe-01.",
+  "references": [
+    "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/02-wardrobe/images/wardrobe-01-v01.png"
+  ],
+  "review": "Visually inspected; retained as test reference. Not user-approved final.",
+  "sha256": "f03caf3d7f2556c5e8f31c5911ba7a46c1e5d6155ee37a444c4d4b707fa7cd9e"
+}

@@ -1,0 +1,13 @@
+{
+  "asset_id": "shot-01",
+  "tool": "built-in image_gen",
+  "source_image": "/Users/ritz/.codex/generated_images/01a13b59-af42-77d3-bb31-d320c6b60688/exec-fb28151c-89b7-418c-94b4-4a11a32e8fd5.png",
+  "workspace_image": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/images/shot-01-v02.png",
+  "prompt": "Edit image 1 into a MUCH TIGHTER low side-tracking close-up for a running-legs opening shot. Image 2 defines the exact black block-heel shoes and sheer black tights. Final image is ONE 16:9 scene. Frame ONLY from the knee-length black skirt's hem at the very top edge down to both shoes and the platform floor. No waist, shirt, hands, arms, bag, lanyard, or badge visible. Keep the skirt knee-length, not a miniskirt. Ordinary running stride moving LEFT to RIGHT, one grounded forward foot and a rear foot lifted, plausible leg anatomy. Preserve the exact shoes, sheer tights and damp neon-reflective platform. Lower the camera to shin height, point horizontally across the running lane, soften the train into an out-of-focus graphite and cyan background with no prominent doorway reveal. Keep morning light. Focus visual attention on heel contacts, shoes and lower legs. No full-body or torso shot, no collage, no text.",
+  "references": [
+    "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/images/shot-01-v01.png",
+    "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/02-wardrobe/images/wardrobe-02-v01.png"
+  ],
+  "review": "Framing corrected; refine tights to visibly sheer black and restore knee-length hem.",
+  "sha256": "fa343e58a2e243fa7187e49e089f666ed6398e33904d3f8da62b843d3c3f1dfe"
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "wardrobe-02",
+  "tool": "built-in image_gen",
+  "source_image": "/Users/ritz/.codex/generated_images/01a13b59-af42-77d3-bb31-d320c6b60688/exec-323a922b-ec60-4859-804a-65df5f314f18.png",
+  "workspace_image": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/02-wardrobe/images/wardrobe-02-v01.png",
+  "prompt": "Use case: product-mockup\n\nAsset: Heels and lower-body detail\n\nComposition: 16:9 aspect ratio.\n\nCreate a two-panel product reference: a large side view of both approved black pumps by themselves, and a standing knees-to-floor crop of Riley wearing the exact pumps and sheer black tights with the black skirt hem just visible. Clearly show heel thickness, toe shape, sole, material, and transparency of the tights. Plain neutral studio background. No opaque tights, stilettos, sneakers, exaggerated legs, or extra shoe straps.\n\nWardrobe continuity: White opaque long-sleeved collared shirt tucked into a knee-length black skirt; sheer black tights with visible natural skin tone beneath; moderately chunky black heels. Burgundy #8b1e2d lanyard with a portrait-format KORVEX employee badge. A bag is required.\n\nProvisional wardrobe construction: tailored straight skirt with a modest back walking vent; plain closed-toe black leather pumps with approximately 5 cm block heels; compact structured black leather shoulder bag, short strap on her RIGHT shoulder, body tucked beneath her right arm. Keep the lanyard and badge unobstructed. No additional jewelry or accessories. These construction details are working defaults, not user-approved designs.\n\nRendering: Photorealistic premium live-action commercial look, physically plausible materials, believable anatomy and construction, controlled contrast, natural detail. No illustration, game screenshot, plastic skin, excessive bloom, or baked-in cinematic motion blur. Reference assets should be sharp enough to inspect. No decorative watermarks; the official contest watermark will be added during final editing.\n\nReference handling: Use the supplied images in the listed order and for their specified roles. Preserve selected designs; do not invent a new identity or silently replace a missing dependency.\n\nInput images in order: wardrobe-01.",
+  "references": [
+    "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/02-wardrobe/images/wardrobe-01-v01.png"
+  ],
+  "review": "Visually inspected; retained as test reference. Not user-approved final.",
+  "sha256": "0c4d7565ce76472fcb0e19819d5e00e26308040e49774acfc6f3203e3e0235b7"
+}

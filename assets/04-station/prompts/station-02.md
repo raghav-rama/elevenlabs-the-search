@@ -1,15 +1,15 @@
 # station-02 — Ground-level running lane
 
-Status: prompt prepared; image not generated.
+Status: generated test asset; visually reviewed, pending user selection.
 
-Output: `assets/04-station/images/station-02-v01.png`
+Selected test output: `assets/04-station/images/station-02-v01.png`
 
 ## Required references
 
-Paths below are relative to `assets/`. Except for the supplied station image, these are planned outputs: generate and select them in manifest order before running this prompt.
+Paths below are relative to `assets/`. These point to the current selected test references. The generation records preserve the exact references used for each attempt.
 
 - `04-station/images/station-01-v01.png` — selected output from station-01
-- `05-train/images/train-01-v01.png` — selected output from train-01
+- `05-train/images/train-01-v02.png` — selected output from train-01
 
 ## Image generation prompt
 
@@ -34,3 +34,11 @@ Reference handling: Use the supplied images in the listed order and for their sp
 ## Review before selection
 
 Check the requested subject, reference continuity, framing, and any exact lettering. For Riley, verify the mole is under her anatomical left eye and the sheer tights and right-side bag remain consistent when visible. Save revisions as v02, v03, etc.; never overwrite a selected reference silently.
+
+## Generated versions
+
+The prompt above is the original reusable brief. Exact prompts, including corrective edits, are recorded beside each generated image.
+
+- Selected test: [station-02-v01.png](../images/station-02-v01.png); [exact generation record](../images/station-02-v01.generation.json).
+
+Review: Environment is consistent but camera remains wider/higher than a strict ground-level insert. Final running-leg frame provides the tighter shot.

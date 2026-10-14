@@ -1,0 +1,13 @@
+{
+  "asset_id": "shot-03",
+  "tool": "built-in image_gen",
+  "source_image": "/Users/ritz/.codex/generated_images/01a13b59-af42-77d3-bb31-d320c6b60688/exec-2f8f5709-081b-41c0-bb44-efb2010c1739.png",
+  "workspace_image": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/images/shot-03-v02.png",
+  "prompt": "Reframe image 1 into a much tighter low wide-angle/fisheye RUNNING FACE CLOSE-UP, one 16:9 image. Image 2 is the canonical identity reference. Face and head dominate: top of hair near the upper border, chin approximately 65 percent down the image; lower image shows only shoulders, collar, upper chest, burgundy lanyard segments and black right-shoulder bag strap. No waist, skirt, legs or whole badge. Camera below her eye level, angled upward, mild fisheye curvature in station ceiling lines without extreme facial distortion. Preserve the exact Riley face, age 27, brunette bob, natural skin and single mole beneath anatomical LEFT eye (viewer RIGHT). She is running and panting with parted lips, eyes focused ahead, bob lifted with motion. Keep the same morning station architecture and daylight, but ceiling and neon recede behind her; do not prominently reveal a train door. No additional characters, no new outfit, no implants, no text.",
+  "references": [
+    "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/images/shot-03-v01.png",
+    "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/01-riley/images/riley-01-v01.png"
+  ],
+  "review": "Visually inspected; close-up framing corrected and retained as test frame. Not user-approved final.",
+  "sha256": "fe2a5add910832d6e061bf9f73d10dca2aa10e3d0daccd2d535b00ca0c52b724"
+}

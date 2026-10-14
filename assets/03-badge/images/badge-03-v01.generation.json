@@ -1,0 +1,12 @@
+{
+  "asset_id": "badge-03",
+  "tool": "built-in image_gen",
+  "source_image": "/Users/ritz/.codex/generated_images/01a13b59-af42-77d3-bb31-d320c6b60688/exec-cd1c59be-5523-491c-b385-c8c4bc8fe9bf.png",
+  "workspace_image": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/03-badge/images/badge-03-v01.png",
+  "prompt": "Use case: product-mockup\n\nAsset: Badge back artwork\n\nComposition: 2:3 aspect ratio.\n\nCreate one flat portrait-format reverse of the approved KORVEX employee card with the same proportions, white/charcoal/burgundy palette and typography. Exact text: \"KORVEX\" only. Add a restrained geometric burgundy accent matching the front. No portrait, personal data, QR code, barcode, tiny filler text, or gibberish. This is the same physical card viewed from behind.\n\nRendering: Photorealistic premium live-action commercial look, physically plausible materials, believable anatomy and construction, controlled contrast, natural detail. No illustration, game screenshot, plastic skin, excessive bloom, or baked-in cinematic motion blur. Reference assets should be sharp enough to inspect. No decorative watermarks; the official contest watermark will be added during final editing.\n\nReference handling: Use the supplied images in the listed order and for their specified roles. Preserve selected designs; do not invent a new identity or silently replace a missing dependency.\n\nInput images in order: badge-02.",
+  "references": [
+    "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/03-badge/images/badge-02-v01.png"
+  ],
+  "review": "Needs flat-artwork correction: generated physical card with punched hole.",
+  "sha256": "18731843453bf8c956a37ed435ec504a5936ea48766cc03c751e2382745b80eb"
+}

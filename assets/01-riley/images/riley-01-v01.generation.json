@@ -1,0 +1,10 @@
+{
+  "asset_id": "riley-01",
+  "tool": "built-in image_gen",
+  "source_image": "/Users/ritz/.codex/generated_images/01a13b59-af42-77d3-bb31-d320c6b60688/exec-f12608f3-cb94-435b-bf16-2cc5bb4985f9.png",
+  "workspace_image": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/01-riley/images/riley-01-v01.png",
+  "prompt": "Create one photorealistic neutral chest-up casting portrait of Riley Brooks, a fictional 27-year-old American woman from Austin, Texas, slim build, brunette. A neat chin-length dark-brown bob with a subtle side part, worn loose. One small distinct mole beneath her anatomical LEFT eye: in this straight-on, unmirrored portrait, the mole must be on the viewer's RIGHT. Natural eyes and skin, realistic adult proportions, subtle natural skin texture, no beauty retouching. White opaque long-sleeved collared shirt, no badge or jewelry in this tight identity portrait. Facing camera with neutral relaxed expression against plain light-gray studio background, soft even daylight, clear eyes and mole. Premium live-action commercial casting photography, 4:5 portrait composition. No text, logos, implants, mechanical seams, glow, illustration, plastic skin, watermark, or motion blur. This portrait establishes the canonical face for all later assets.",
+  "references": [],
+  "review": "Visually inspected; retained as test reference. Not user-approved final.",
+  "sha256": "d64c12e39d1bdfe348917da7a5c4a79d3bc99f006fd73de365b3a347a4d46144"
+}

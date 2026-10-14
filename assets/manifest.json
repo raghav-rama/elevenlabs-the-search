@@ -2,249 +2,544 @@
   "scope": "Four-shot pre-upgrade opening hook only",
   "created": "2026-10-14",
   "source_reference": "references/station/user-inspiration-01.png",
-  "images_generated": false,
+  "images_generated": true,
   "assets": [
     {
       "id": "riley-01",
       "title": "Canonical identity portrait",
       "prompt": "01-riley/prompts/riley-01.md",
       "planned_image": "01-riley/images/riley-01-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [],
       "aspect_ratio": "4:5",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "01-riley/images/riley-01-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "d64c12e39d1bdfe348917da7a5c4a79d3bc99f006fd73de365b3a347a4d46144",
+      "generation_record": "01-riley/images/riley-01-v01.generation.json",
+      "versions": [
+        {
+          "image": "01-riley/images/riley-01-v01.png",
+          "generation_record": "01-riley/images/riley-01-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "riley-02",
       "title": "Three-quarter identity view",
       "prompt": "01-riley/prompts/riley-02.md",
       "planned_image": "01-riley/images/riley-02-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "riley-01"
       ],
       "aspect_ratio": "4:5",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "01-riley/images/riley-02-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "240062bd1fa019e580de23caaea4fa7e7181299f627b45a5029fc8431d09b345",
+      "generation_record": "01-riley/images/riley-02-v01.generation.json",
+      "versions": [
+        {
+          "image": "01-riley/images/riley-02-v01.png",
+          "generation_record": "01-riley/images/riley-02-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "riley-03",
       "title": "Left profile identity view",
       "prompt": "01-riley/prompts/riley-03.md",
       "planned_image": "01-riley/images/riley-03-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "riley-01",
         "riley-02"
       ],
       "aspect_ratio": "4:5",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "01-riley/images/riley-03-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "b645568f24c2058e421e697716c9ce67819fc87a78aac8ec4fcb0bf1355ae9cb",
+      "generation_record": "01-riley/images/riley-03-v01.generation.json",
+      "versions": [
+        {
+          "image": "01-riley/images/riley-03-v01.png",
+          "generation_record": "01-riley/images/riley-03-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "riley-04",
       "title": "Low-angle face reference",
       "prompt": "01-riley/prompts/riley-04.md",
       "planned_image": "01-riley/images/riley-04-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "riley-01",
         "riley-02"
       ],
       "aspect_ratio": "4:5",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "01-riley/images/riley-04-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "dd51e3b398f807242f06c67c8a64b533c16c18ec1ea67354be94408e0406aa3e",
+      "generation_record": "01-riley/images/riley-04-v01.generation.json",
+      "versions": [
+        {
+          "image": "01-riley/images/riley-04-v01.png",
+          "generation_record": "01-riley/images/riley-04-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "riley-05",
       "title": "Running expression reference",
       "prompt": "01-riley/prompts/riley-05.md",
       "planned_image": "01-riley/images/riley-05-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "riley-01"
       ],
       "aspect_ratio": "16:9",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "01-riley/images/riley-05-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1672,
+      "height": 941,
+      "sha256": "f382237772717de612963ff34d0cc536ff1ce9f331c9833bcbb5c7407015a3a2",
+      "generation_record": "01-riley/images/riley-05-v01.generation.json",
+      "versions": [
+        {
+          "image": "01-riley/images/riley-05-v01.png",
+          "generation_record": "01-riley/images/riley-05-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "wardrobe-01",
       "title": "Full outfit and bag turnaround",
       "prompt": "02-wardrobe/prompts/wardrobe-01.md",
       "planned_image": "02-wardrobe/images/wardrobe-01-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "riley-01",
         "riley-02",
         "riley-03"
       ],
       "aspect_ratio": "16:9",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "02-wardrobe/images/wardrobe-01-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1672,
+      "height": 941,
+      "sha256": "a612e5904e59672a503ae6a46f3ab51c031b66eb070a7132a8bc64a0cbb4d841",
+      "generation_record": "02-wardrobe/images/wardrobe-01-v01.generation.json",
+      "versions": [
+        {
+          "image": "02-wardrobe/images/wardrobe-01-v01.png",
+          "generation_record": "02-wardrobe/images/wardrobe-01-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "wardrobe-02",
       "title": "Heels and lower-body detail",
       "prompt": "02-wardrobe/prompts/wardrobe-02.md",
       "planned_image": "02-wardrobe/images/wardrobe-02-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "wardrobe-01"
       ],
       "aspect_ratio": "16:9",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "02-wardrobe/images/wardrobe-02-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1672,
+      "height": 941,
+      "sha256": "0c4d7565ce76472fcb0e19819d5e00e26308040e49774acfc6f3203e3e0235b7",
+      "generation_record": "02-wardrobe/images/wardrobe-02-v01.generation.json",
+      "versions": [
+        {
+          "image": "02-wardrobe/images/wardrobe-02-v01.png",
+          "generation_record": "02-wardrobe/images/wardrobe-02-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "wardrobe-03",
       "title": "Bag construction reference",
       "prompt": "02-wardrobe/prompts/wardrobe-03.md",
       "planned_image": "02-wardrobe/images/wardrobe-03-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "wardrobe-01"
       ],
       "aspect_ratio": "4:3",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "02-wardrobe/images/wardrobe-03-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1448,
+      "height": 1086,
+      "sha256": "f03caf3d7f2556c5e8f31c5911ba7a46c1e5d6155ee37a444c4d4b707fa7cd9e",
+      "generation_record": "02-wardrobe/images/wardrobe-03-v01.generation.json",
+      "versions": [
+        {
+          "image": "02-wardrobe/images/wardrobe-03-v01.png",
+          "generation_record": "02-wardrobe/images/wardrobe-03-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "badge-01",
       "title": "Employee headshot",
       "prompt": "03-badge/prompts/badge-01.md",
       "planned_image": "03-badge/images/badge-01-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "riley-01"
       ],
       "aspect_ratio": "4:5",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "03-badge/images/badge-01-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "09cc20d083c4308f64362413c820da3e40b14ee308395d110b4d3b328abe8948",
+      "generation_record": "03-badge/images/badge-01-v01.generation.json",
+      "versions": [
+        {
+          "image": "03-badge/images/badge-01-v01.png",
+          "generation_record": "03-badge/images/badge-01-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "badge-02",
       "title": "Badge front artwork",
       "prompt": "03-badge/prompts/badge-02.md",
       "planned_image": "03-badge/images/badge-02-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "badge-01"
       ],
       "aspect_ratio": "2:3",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "03-badge/images/badge-02-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1024,
+      "height": 1536,
+      "sha256": "5a8f93e8448ac2b0d51485785c818ab2b52cdcb0176a53f54e4f4479d710178e",
+      "generation_record": "03-badge/images/badge-02-v01.generation.json",
+      "versions": [
+        {
+          "image": "03-badge/images/badge-02-v01.png",
+          "generation_record": "03-badge/images/badge-02-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "badge-03",
       "title": "Badge back artwork",
       "prompt": "03-badge/prompts/badge-03.md",
       "planned_image": "03-badge/images/badge-03-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "badge-02"
       ],
       "aspect_ratio": "2:3",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "03-badge/images/badge-03-v02.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1024,
+      "height": 1536,
+      "sha256": "9942df322b6cefb9bef9c31743cc14267b98baedba60622677c06195953342b8",
+      "generation_record": "03-badge/images/badge-03-v02.generation.json",
+      "versions": [
+        {
+          "image": "03-badge/images/badge-03-v01.png",
+          "generation_record": "03-badge/images/badge-03-v01.generation.json",
+          "selected": false
+        },
+        {
+          "image": "03-badge/images/badge-03-v02.png",
+          "generation_record": "03-badge/images/badge-03-v02.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "badge-04",
       "title": "Physical badge and lanyard",
       "prompt": "03-badge/prompts/badge-04.md",
       "planned_image": "03-badge/images/badge-04-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "badge-02",
         "badge-03"
       ],
       "aspect_ratio": "16:9",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "03-badge/images/badge-04-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1672,
+      "height": 941,
+      "sha256": "01c1bc373d7648bbea3596941eeefa6db71853afd205657e89ea086146671c76",
+      "generation_record": "03-badge/images/badge-04-v01.generation.json",
+      "versions": [
+        {
+          "image": "03-badge/images/badge-04-v01.png",
+          "generation_record": "03-badge/images/badge-04-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "badge-05",
       "title": "Badge worn on Riley",
       "prompt": "03-badge/prompts/badge-05.md",
       "planned_image": "03-badge/images/badge-05-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "wardrobe-01",
         "badge-04"
       ],
       "aspect_ratio": "4:5",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "03-badge/images/badge-05-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "4b243b5c4f5d44cf8c0aad151104f4774482722ed78759996c61921410a34171",
+      "generation_record": "03-badge/images/badge-05-v01.generation.json",
+      "versions": [
+        {
+          "image": "03-badge/images/badge-05-v01.png",
+          "generation_record": "03-badge/images/badge-05-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Reference includes face and hips rather than the requested collar-to-waist crop; badge rests near waist. Usable for continuity, not a final shot."
     },
     {
       "id": "station-01",
       "title": "Station master environment",
       "prompt": "04-station/prompts/station-01.md",
       "planned_image": "04-station/images/station-01-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "source-station"
       ],
       "aspect_ratio": "16:9",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "04-station/images/station-01-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1672,
+      "height": 941,
+      "sha256": "451e056e320bb139ef9bb1c7f2b2b13613ecad26ca3f91cad36ab1c443e1a5c5",
+      "generation_record": "04-station/images/station-01-v01.generation.json",
+      "versions": [
+        {
+          "image": "04-station/images/station-01-v01.png",
+          "generation_record": "04-station/images/station-01-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "train-01",
       "title": "Train side and target door",
       "prompt": "05-train/prompts/train-01.md",
       "planned_image": "05-train/images/train-01-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "station-01"
       ],
       "aspect_ratio": "16:9",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "05-train/images/train-01-v02.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1672,
+      "height": 941,
+      "sha256": "6191d92b40f7cf54ebb763892720315cb15a4cb44b3a663cc31d732b762ed2b5",
+      "generation_record": "05-train/images/train-01-v02.generation.json",
+      "versions": [
+        {
+          "image": "05-train/images/train-01-v01.png",
+          "generation_record": "05-train/images/train-01-v01.generation.json",
+          "selected": false
+        },
+        {
+          "image": "05-train/images/train-01-v02.png",
+          "generation_record": "05-train/images/train-01-v02.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "train-02",
       "title": "Door states and visible interior",
       "prompt": "05-train/prompts/train-02.md",
       "planned_image": "05-train/images/train-02-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "train-01"
       ],
       "aspect_ratio": "16:9",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "05-train/images/train-02-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1672,
+      "height": 941,
+      "sha256": "2eb672e868b02f219e3800ec26d7bf96a7362031bf5babe96fd542d782df28d6",
+      "generation_record": "05-train/images/train-02-v01.generation.json",
+      "versions": [
+        {
+          "image": "05-train/images/train-02-v01.png",
+          "generation_record": "05-train/images/train-02-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Middle panel shows partially closed doors, not a mechanically exact halfway position."
     },
     {
       "id": "station-02",
       "title": "Ground-level running lane",
       "prompt": "04-station/prompts/station-02.md",
       "planned_image": "04-station/images/station-02-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "station-01",
         "train-01"
       ],
       "aspect_ratio": "16:9",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "04-station/images/station-02-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1672,
+      "height": 941,
+      "sha256": "84c05004fc45376e87fc5e7f3fe2a7cc56c444a36671b43bf0500c8ac06b8b85",
+      "generation_record": "04-station/images/station-02-v01.generation.json",
+      "versions": [
+        {
+          "image": "04-station/images/station-02-v01.png",
+          "generation_record": "04-station/images/station-02-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Environment is consistent but camera remains wider/higher than a strict ground-level insert. Final running-leg frame provides the tighter shot."
     },
     {
       "id": "station-03",
       "title": "Low-angle ceiling background",
       "prompt": "04-station/prompts/station-03.md",
       "planned_image": "04-station/images/station-03-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "station-01"
       ],
       "aspect_ratio": "16:9",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "04-station/images/station-03-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1672,
+      "height": 941,
+      "sha256": "30b3f8058bc7ddd64b9ab8b56846f5fbcc5a9241411f012083dfe5d58b1324a4",
+      "generation_record": "04-station/images/station-03-v01.generation.json",
+      "versions": [
+        {
+          "image": "04-station/images/station-03-v01.png",
+          "generation_record": "04-station/images/station-03-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "station-04",
       "title": "Target door environment plate",
       "prompt": "04-station/prompts/station-04.md",
       "planned_image": "04-station/images/station-04-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "station-01",
         "train-01",
         "train-02"
       ],
       "aspect_ratio": "16:9",
-      "kind": "reference"
+      "kind": "reference",
+      "selected_image": "04-station/images/station-04-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1672,
+      "height": 941,
+      "sha256": "bf3630b7ebab3b7e881124dca13e59479d845177f3d606af6fef91d2a19d9160",
+      "generation_record": "04-station/images/station-04-v01.generation.json",
+      "versions": [
+        {
+          "image": "04-station/images/station-04-v01.png",
+          "generation_record": "04-station/images/station-04-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "shot-01",
       "title": "Running legs starting frame",
       "prompt": "06-shots/prompts/shot-01.md",
       "planned_image": "06-shots/images/shot-01-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "wardrobe-01",
         "wardrobe-02",
@@ -252,14 +547,39 @@
         "train-01"
       ],
       "aspect_ratio": "16:9",
-      "kind": "shot_start"
+      "kind": "shot_start",
+      "selected_image": "06-shots/images/shot-01-v03.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1672,
+      "height": 941,
+      "sha256": "c6c5106131708fa6ee0f81b7518a6db8298494062c6ec59ef9e90b7039edc17b",
+      "generation_record": "06-shots/images/shot-01-v03.generation.json",
+      "versions": [
+        {
+          "image": "06-shots/images/shot-01-v01.png",
+          "generation_record": "06-shots/images/shot-01-v01.generation.json",
+          "selected": false
+        },
+        {
+          "image": "06-shots/images/shot-01-v02.png",
+          "generation_record": "06-shots/images/shot-01-v02.generation.json",
+          "selected": false
+        },
+        {
+          "image": "06-shots/images/shot-01-v03.png",
+          "generation_record": "06-shots/images/shot-01-v03.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Selected v03 improves framing and sheer-black tights. Running skirt hem still rides above knee; reconcile with the knee-length wardrobe before final production."
     },
     {
       "id": "shot-02",
       "title": "Bouncing badge starting frame",
       "prompt": "06-shots/prompts/shot-02.md",
       "planned_image": "06-shots/images/shot-02-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "badge-05",
         "badge-02",
@@ -267,14 +587,34 @@
         "station-01"
       ],
       "aspect_ratio": "16:9",
-      "kind": "shot_start"
+      "kind": "shot_start",
+      "selected_image": "06-shots/images/shot-02-v02.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1672,
+      "height": 941,
+      "sha256": "4e9aa151d12f021bef61533d0d4ac557d360ec4e3ddfcb9fb0e1b4f30386d5a5",
+      "generation_record": "06-shots/images/shot-02-v02.generation.json",
+      "versions": [
+        {
+          "image": "06-shots/images/shot-02-v01.png",
+          "generation_record": "06-shots/images/shot-02-v01.generation.json",
+          "selected": false
+        },
+        {
+          "image": "06-shots/images/shot-02-v02.png",
+          "generation_record": "06-shots/images/shot-02-v02.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "shot-03",
       "title": "Breathless face starting frame",
       "prompt": "06-shots/prompts/shot-03.md",
       "planned_image": "06-shots/images/shot-03-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "riley-01",
         "riley-04",
@@ -283,14 +623,34 @@
         "station-03"
       ],
       "aspect_ratio": "16:9",
-      "kind": "shot_start"
+      "kind": "shot_start",
+      "selected_image": "06-shots/images/shot-03-v02.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1672,
+      "height": 941,
+      "sha256": "fe2a5add910832d6e061bf9f73d10dca2aa10e3d0daccd2d535b00ca0c52b724",
+      "generation_record": "06-shots/images/shot-03-v02.generation.json",
+      "versions": [
+        {
+          "image": "06-shots/images/shot-03-v01.png",
+          "generation_record": "06-shots/images/shot-03-v01.generation.json",
+          "selected": false
+        },
+        {
+          "image": "06-shots/images/shot-03-v02.png",
+          "generation_record": "06-shots/images/shot-03-v02.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "shot-04a",
       "title": "Door reveal starting frame",
       "prompt": "06-shots/prompts/shot-04a.md",
       "planned_image": "06-shots/images/shot-04a-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "wardrobe-01",
         "badge-05",
@@ -299,19 +659,53 @@
         "riley-01"
       ],
       "aspect_ratio": "16:9",
-      "kind": "shot_start"
+      "kind": "shot_start",
+      "selected_image": "06-shots/images/shot-04a-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1672,
+      "height": 941,
+      "sha256": "b4a3b7798d91a1eaa88b3a990c67e668f46042152815b1f41498588103fb4834",
+      "generation_record": "06-shots/images/shot-04a-v01.generation.json",
+      "versions": [
+        {
+          "image": "06-shots/images/shot-04a-v01.png",
+          "generation_record": "06-shots/images/shot-04a-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
     },
     {
       "id": "shot-04b",
       "title": "Door reveal ending anchor",
       "prompt": "06-shots/prompts/shot-04b.md",
       "planned_image": "06-shots/images/shot-04b-v01.png",
-      "status": "prompt_ready",
+      "status": "generated_test_reviewed",
       "depends_on": [
         "shot-04a"
       ],
       "aspect_ratio": "16:9",
-      "kind": "shot_end_anchor"
+      "kind": "shot_end_anchor",
+      "selected_image": "06-shots/images/shot-04b-v01.png",
+      "generation_tool": "built-in image_gen",
+      "user_approved": false,
+      "width": 1672,
+      "height": 941,
+      "sha256": "7e699baaea4066fe8be20dd9fc496ea15534e7b886a7582085909f8d3318084d",
+      "generation_record": "06-shots/images/shot-04b-v01.generation.json",
+      "versions": [
+        {
+          "image": "06-shots/images/shot-04b-v01.png",
+          "generation_record": "06-shots/images/shot-04b-v01.generation.json",
+          "selected": true
+        }
+      ],
+      "review_notes": "Overall framing retained, but door-panel detail varies from the start frame and Riley stops a few steps from the doorway. Check start/end motion compatibility before video generation."
     }
-  ]
+  ],
+  "generation_completed_local_date": "2026-10-15",
+  "generated_asset_count": 24,
+  "generated_image_count": 30,
+  "batch_status": "test_assets_generated_pending_user_review"
 }

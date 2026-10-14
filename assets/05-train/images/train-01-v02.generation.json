@@ -1,0 +1,12 @@
+{
+  "asset_id": "train-01",
+  "tool": "built-in image_gen",
+  "source_image": "/Users/ritz/.codex/generated_images/01a13b59-af42-77d3-bb31-d320c6b60688/exec-cb7ce76f-302e-4645-bd5e-f11e3cf7f9bd.png",
+  "workspace_image": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/05-train/images/train-01-v02.png",
+  "prompt": "Edit the supplied train reference image. Remove the running woman and her backpack completely, reconstructing the train windows, seats, lower body panels and platform floor behind her. Keep EVERYTHING else unchanged: exact camera, framing, train shape, closed paired doorway, yellow vertical door lights, cyan stripes, 07 and double-line identifier, station architecture, daylight and reflections. The whole platform must be empty, no people, no human reflections, no character. This is an empty train exterior reference plate. Preserve 16:9 composition and photorealism.",
+  "references": [
+    "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/05-train/images/train-01-v01.png"
+  ],
+  "review": "Visually inspected; retained as test reference. Not user-approved final.",
+  "sha256": "6191d92b40f7cf54ebb763892720315cb15a4cb44b3a663cc31d732b762ed2b5"
+}

@@ -1,0 +1,10 @@
+# macOS metadata
+.DS_Store
+._*
+.AppleDouble/
+
+# Disposable local working files (keep asset images and generation records)
+/.cache/
+/tmp/
+*.swp
+*.swo

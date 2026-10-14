@@ -1,12 +1,12 @@
 # shot-02 — Bouncing badge starting frame
 
-Status: prompt prepared; image not generated.
+Status: generated test asset; visually reviewed, pending user selection.
 
-Output: `assets/06-shots/images/shot-02-v01.png`
+Selected test output: `assets/06-shots/images/shot-02-v02.png`
 
 ## Required references
 
-Paths below are relative to `assets/`. Except for the supplied station image, these are planned outputs: generate and select them in manifest order before running this prompt.
+Paths below are relative to `assets/`. These point to the current selected test references. The generation records preserve the exact references used for each attempt.
 
 - `03-badge/images/badge-05-v01.png` — selected output from badge-05
 - `03-badge/images/badge-02-v01.png` — selected output from badge-02
@@ -48,3 +48,12 @@ This is model-neutral direction for the user-selected MiniMax H3 workflow. Provi
 ## Review before selection
 
 Check the requested subject, reference continuity, framing, and any exact lettering. For Riley, verify the mole is under her anatomical left eye and the sheer tights and right-side bag remain consistent when visible. Save revisions as v02, v03, etc.; never overwrite a selected reference silently.
+
+## Generated versions
+
+The prompt above is the original reusable brief. Exact prompts, including corrective edits, are recorded beside each generated image.
+
+- Earlier attempt; not selected: [shot-02-v01.png](../images/shot-02-v01.png); [exact generation record](../images/shot-02-v01.generation.json).
+- Selected test: [shot-02-v02.png](../images/shot-02-v02.png); [exact generation record](../images/shot-02-v02.generation.json).
+
+Review: Visually checked and retained for this test batch; final user selection pending.

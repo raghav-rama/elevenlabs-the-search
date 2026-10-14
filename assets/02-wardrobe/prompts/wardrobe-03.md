@@ -1,12 +1,12 @@
 # wardrobe-03 — Bag construction reference
 
-Status: prompt prepared; image not generated.
+Status: generated test asset; visually reviewed, pending user selection.
 
-Output: `assets/02-wardrobe/images/wardrobe-03-v01.png`
+Selected test output: `assets/02-wardrobe/images/wardrobe-03-v01.png`
 
 ## Required references
 
-Paths below are relative to `assets/`. Except for the supplied station image, these are planned outputs: generate and select them in manifest order before running this prompt.
+Paths below are relative to `assets/`. These point to the current selected test references. The generation records preserve the exact references used for each attempt.
 
 - `02-wardrobe/images/wardrobe-01-v01.png` — selected output from wardrobe-01
 
@@ -27,3 +27,11 @@ Reference handling: Use the supplied images in the listed order and for their sp
 ## Review before selection
 
 Check the requested subject, reference continuity, framing, and any exact lettering. For Riley, verify the mole is under her anatomical left eye and the sheer tights and right-side bag remain consistent when visible. Save revisions as v02, v03, etc.; never overwrite a selected reference silently.
+
+## Generated versions
+
+The prompt above is the original reusable brief. Exact prompts, including corrective edits, are recorded beside each generated image.
+
+- Selected test: [wardrobe-03-v01.png](../images/wardrobe-03-v01.png); [exact generation record](../images/wardrobe-03-v01.generation.json).
+
+Review: Visually checked and retained for this test batch; final user selection pending.

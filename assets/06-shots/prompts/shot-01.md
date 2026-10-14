@@ -1,17 +1,17 @@
 # shot-01 — Running legs starting frame
 
-Status: prompt prepared; image not generated.
+Status: generated test asset; visually reviewed, pending user selection.
 
-Output: `assets/06-shots/images/shot-01-v01.png`
+Selected test output: `assets/06-shots/images/shot-01-v03.png`
 
 ## Required references
 
-Paths below are relative to `assets/`. Except for the supplied station image, these are planned outputs: generate and select them in manifest order before running this prompt.
+Paths below are relative to `assets/`. These point to the current selected test references. The generation records preserve the exact references used for each attempt.
 
 - `02-wardrobe/images/wardrobe-01-v01.png` — selected output from wardrobe-01
 - `02-wardrobe/images/wardrobe-02-v01.png` — selected output from wardrobe-02
 - `04-station/images/station-02-v01.png` — selected output from station-02
-- `05-train/images/train-01-v01.png` — selected output from train-01
+- `05-train/images/train-01-v02.png` — selected output from train-01
 
 ## Image generation prompt
 
@@ -50,3 +50,13 @@ This is model-neutral direction for the user-selected MiniMax H3 workflow. Provi
 ## Review before selection
 
 Check the requested subject, reference continuity, framing, and any exact lettering. For Riley, verify the mole is under her anatomical left eye and the sheer tights and right-side bag remain consistent when visible. Save revisions as v02, v03, etc.; never overwrite a selected reference silently.
+
+## Generated versions
+
+The prompt above is the original reusable brief. Exact prompts, including corrective edits, are recorded beside each generated image.
+
+- Earlier attempt; not selected: [shot-01-v01.png](../images/shot-01-v01.png); [exact generation record](../images/shot-01-v01.generation.json).
+- Earlier attempt; not selected: [shot-01-v02.png](../images/shot-01-v02.png); [exact generation record](../images/shot-01-v02.generation.json).
+- Selected test: [shot-01-v03.png](../images/shot-01-v03.png); [exact generation record](../images/shot-01-v03.generation.json).
+
+Review: Selected v03 improves framing and sheer-black tights. Running skirt hem still rides above knee; reconcile with the knee-length wardrobe before final production.

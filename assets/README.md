@@ -1,8 +1,14 @@
 # Opening-hook assets
 
-Prompt preparation only. **No test or final images have been generated.** The only
-image currently included is the user's supplied station inspiration. Empty
-`images/` folders are retained with `.gitkeep` files.
+**All 24 test assets have been generated with the built-in image generator.**
+There are 30 generated images including earlier attempts, plus the supplied
+station inspiration. Each category's `images/` folder contains its images and
+exact `.generation.json` records. Final production in ElevenCreative remains
+separate. These selections have not yet been approved by the user.
+
+Open [GALLERY.md](GALLERY.md) to review the selected images.
+[manifest.json](manifest.json) records selected versions, dimensions, hashes,
+reference dependencies, and review notes.
 
 Scope: running legs → bouncing ID badge → breathless face → closing train doors.
 The reaction, passenger, billboard reveal, clinic, and later chase are outside
@@ -122,7 +128,7 @@ The same order is recorded in [manifest.json](manifest.json).
 
 ## How to use the prompts
 
-Each file includes the planned destination, required reference images, a complete
+Each file includes the selected test destination, required reference images, a complete
 image prompt, and review notes. The four starting-frame files also include later
 video direction and native scene sound notes. There are no separate audio
 generation prompts in this batch.
@@ -152,3 +158,20 @@ billboards and portraits are not part of the four-shot hook.
 Exact badge graphics may need clean typesetting after visual exploration. Add
 the official competition watermark in final editing, rather than asking the
 image model to invent it. Preserve usable space at the bottom-right of the cut.
+
+## Batch review notes
+
+- The first train-side result introduced an unwanted runner; v02 removes her.
+- The badge reverse was corrected to flat artwork in v02.
+- The running-legs shot uses v03 for a tighter crop and more visible sheer-black
+  tights. The skirt hem still rides above the knee in that pose; review it
+  against the knee-length outfit before final production.
+- The badge and face shots use v02 to achieve the intended tight framing.
+- The door ending frame has minor panel-detail drift from the starting frame.
+  Check the pair in the video workflow before relying on it for interpolation.
+- The worn-badge reference is wider than requested and the ground-level station
+  reference remains relatively wide. Both are retained as test references;
+  composed shot frames provide the tighter crops.
+
+These are generated test assets, not completed video, final competition assets,
+user-approved selections, or a submitted entry.

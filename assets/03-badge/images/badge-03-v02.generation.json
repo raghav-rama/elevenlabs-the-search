@@ -1,0 +1,12 @@
+{
+  "asset_id": "badge-03",
+  "tool": "built-in image_gen",
+  "source_image": "/Users/ritz/.codex/generated_images/01a13b59-af42-77d3-bb31-d320c6b60688/exec-4b40c01f-5985-45d7-b173-7a3e18fcd243.png",
+  "workspace_image": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/03-badge/images/badge-03-v02.png",
+  "prompt": "Convert this badge-back design into FLAT PRINT ARTWORK, portrait 2:3. Preserve exactly the KORVEX logo lettering and its burgundy K accent, and the burgundy lower-right diagonal accent. Fill the entire rectangular canvas edge to edge with pure flat white artwork. Remove the punched slot entirely, remove the physical card edges, gray tabletop, rounded outside corners, perspective, cast shadow and paper/plastic texture. No physical object or mockup. No new text. This is the flat reverse artwork to insert into the same clear badge holder as the separately made front.",
+  "references": [
+    "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/03-badge/images/badge-03-v01.png"
+  ],
+  "review": "Visually inspected; retained as test reference. Not user-approved final.",
+  "sha256": "9942df322b6cefb9bef9c31743cc14267b98baedba60622677c06195953342b8"
+}

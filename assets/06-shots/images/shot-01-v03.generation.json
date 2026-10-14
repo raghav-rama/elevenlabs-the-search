@@ -1,0 +1,13 @@
+{
+  "asset_id": "shot-01",
+  "tool": "built-in image_gen",
+  "source_image": "/Users/ritz/.codex/generated_images/01a13b59-af42-77d3-bb31-d320c6b60688/exec-8629b156-1fa5-4d55-be4a-55f859065b01.png",
+  "workspace_image": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/images/shot-01-v03.png",
+  "prompt": "Precise wardrobe correction to image 1. Keep the same 16:9 tight running-legs composition, shoes, stride, camera, train blur and lighting. Both legs must be visibly covered in SHEER BLACK NYLON TIGHTS, approximately 20 denier: an even translucent charcoal-black tint across the knees, calves and ankles, with skin visible beneath, subtle fine hosiery texture and sheen. They must not look like bare tan legs. Also extend the black skirt hem to the TOP OF THE KNEES to match the knee-length skirt in image 2; preserve natural fabric movement and do not make a miniskirt. Keep the torso entirely out of frame and both shoes visible. Change only tights and skirt hem. Photorealistic ordinary running, no text or added objects.",
+  "references": [
+    "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/images/shot-01-v02.png",
+    "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/02-wardrobe/images/wardrobe-01-v01.png"
+  ],
+  "review": "Tighter framing and visible hosiery retained for test; moving hem rides above knee, review against final wardrobe.",
+  "sha256": "c6c5106131708fa6ee0f81b7518a6db8298494062c6ec59ef9e90b7039edc17b"
+}
