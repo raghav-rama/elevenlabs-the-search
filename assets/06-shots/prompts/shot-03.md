@@ -1,8 +1,10 @@
 # shot-03 — Breathless face starting frame
 
-Status: generated test asset; visually reviewed, pending user selection.
+Status: revised starting frame v03 generated and visually reviewed on 2026-10-15. User accepted the revised test still; video motion testing remains pending.
 
-Selected test output: `assets/06-shots/images/shot-03-v02.png`
+Previous test output: `assets/06-shots/images/shot-03-v02.png` (identity/environment only; outdated camera).
+
+Selected revised test output: `assets/06-shots/images/shot-03-v03.png`.
 
 ## Required references
 
@@ -13,6 +15,7 @@ Paths below are relative to `assets/`. These point to the current selected test 
 - `01-riley/images/riley-05-v01.png` — selected output from riley-05
 - `03-badge/images/badge-05-v01.png` — selected output from badge-05
 - `04-station/images/station-03-v01.png` — selected output from station-03
+- `references/fisheye/user-inspiration-01.png` — strong lens-distortion inspiration only; preserve Riley and use a below-chin viewpoint
 
 ## Image generation prompt
 
@@ -22,7 +25,7 @@ Asset: Breathless face starting frame
 
 Composition: 16:9 aspect ratio.
 
-Create ONE standalone widescreen starting frame of the same Riley running toward a retreating camera, viewed from below with mild fisheye character. Camera around upper-torso height angled upward; face and upper body dominate without extreme nostril or chin distortion. She looks toward the train door ahead, breathless with naturally parted lips and focused urgency, hair moving modestly. Preserve her exact face and the mole under her anatomical left eye; do not mirror it. Show white shirt collar, burgundy lanyard and right-shoulder bag strap where the crop permits, with the approved station ceiling behind her. Natural exertion, no comic grimace or sexualized framing.
+Create ONE standalone 16:9 starting frame of Riley running and panting, with pronounced ultra-wide fisheye distortion. Place the camera very close just BELOW AND SLIGHTLY IN FRONT OF HER CHIN, tilted steeply upward, as if fixed to a short invisible head-mounted rig. Anchor her chin near the lower center; enlarge her chin and lower face through perspective while her forehead recedes. Her recognizable face looms close over the lens, with parted lips and natural exertion. Station roof lines bow strongly around her, and her shoulders, white collar, burgundy lanyard segments, and right-shoulder bag strap appear near the edges. Maintain the same identity and anatomical-left mole. The camera moves with her head/chin during later animation, so this still must establish that fixed close relationship rather than an external camera retreating ahead of her. Full-frame fisheye filling the 16:9 canvas is the working presentation; no circular black border has been selected. Use the supplied lens image only for strength of distortion, not its person, sunglasses, overhead angle, location, text or watermarks. No visible camera rig, implants, smile, face replacement, or motion blur.
 
 Character continuity: Riley Brooks, a fictional 27-year-old American woman from Austin, Texas, slim build, brunette, with one small distinct mole beneath her anatomical LEFT eye. In a frontal unmirrored view the mole is on the viewer's RIGHT. Natural eyes and skin, no cybernetic implants, no glow or mechanical seams. Austin is biographical context, not an ethnicity or costume. Preserve realistic adult proportions and natural skin texture.
 
@@ -42,9 +45,7 @@ Reference handling: Use the supplied images in the listed order and for their sp
 
 ## Later video direction
 
-Camera retreats ahead of Riley at her running pace with restrained movement and consistent low-angle framing. Keep face identity stable as she pants, hair and lanyard moving naturally. Native sound: same adult running breath, footstep cadence, and a departure chime beginning ahead. Working edit duration approximately 0.85 s.
-
-This is model-neutral direction for the user-selected MiniMax H3 workflow. Provider controls, durations, and reference support must be checked when generating video. The scene sound should be native video audio; do not add unrelated generated music or narration. The separately produced ElevenCreative jingle is mixed across the final edit.
+The camera translates and rotates with Riley's running head motion while maintaining its short offset beneath the chin. The chin stays approximately anchored; jaw and lips move naturally with panting, while the station ceiling bobs and rolls around her. Use the complete [chin-following video prompt](../video-prompts/shot-03-chin-fisheye.md). This replaces the previous retreating-camera direction.
 
 ## Review before selection
 
@@ -52,9 +53,11 @@ Check the requested subject, reference continuity, framing, and any exact letter
 
 ## Generated versions
 
-The prompt above is the original reusable brief. Exact prompts, including corrective edits, are recorded beside each generated image.
+The prompt above is the revised brief. Exact submitted prompts and references are preserved in each generation record. v03 used five references (identity, low angle, wardrobe, station, and lens inspiration); the expression sheet was omitted to fit the tool reference limit. Earlier versions predate the confirmed camera direction.
 
 - Earlier attempt; not selected: [shot-03-v01.png](../images/shot-03-v01.png); [exact generation record](../images/shot-03-v01.generation.json).
-- Selected test: [shot-03-v02.png](../images/shot-03-v02.png); [exact generation record](../images/shot-03-v02.generation.json).
+- Previous test; camera superseded: [shot-03-v02.png](../images/shot-03-v02.png); [exact generation record](../images/shot-03-v02.generation.json).
 
-Review: Visually checked and retained for this test batch; final user selection pending.
+- Selected test: [shot-03-v03.png](../images/shot-03-v03.png); [exact generation record](../images/shot-03-v03.generation.json).
+
+Review: v03 has close upward under-chin perspective, pronounced roof curvature, parted lips and consistent wardrobe details. The mole is subtle at this angle; review continuity in motion. A still establishes perspective but cannot validate chin anchoring during running. User accepted this revised test still; final production remains separate.

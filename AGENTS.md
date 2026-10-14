@@ -87,8 +87,10 @@ project links so the production process can be demonstrated.
 ## Locked opening
 
 Latest production decisions: test stills with the built-in image generator;
-final assets through ElevenCreative; intended video model is MiniMax H3
-(user-supplied model name; capabilities have not been verified here). Use native
+final assets through ElevenCreative; intended video model is MiniMax H3.
+Official MiniMax and ElevenLabs pages checked on 2026-10-15 confirm reference-led
+video generation; MiniMax documents native stereo audio. Links and interface
+limits are recorded in assets/06-shots/video-prompts/README.md. Use native
 video audio for scene effects and ambience, then review continuity in the edit.
 The competition jingle remains a separate ElevenCreative deliverable.
 
@@ -106,8 +108,20 @@ before revealing superhuman abilities:
 
 1. Side tracking close-up of her running legs.
 2. Close-up of her ID badge bouncing as she runs, occupying roughly 80% of frame.
-3. Low fisheye view of her running and panting.
+3. Strong fisheye view from close beneath her chin while she runs and pants.
 4. Normal wider shot revealing the closing train doors; she misses the train.
+
+The user confirmed the shot-3 camera on 2026-10-15: it moves with her head/chin,
+as if mounted on a short invisible head rig below the chin. Keep the chin
+approximately anchored while the station bobs and rolls behind her. Preserve
+strong optical distortion. The previous mild fisheye and retreating camera are
+superseded; the user accepted shot-03-v03 as the improved replacement test frame.
+Video motion testing remains pending. Earlier versions remain historical. Full-frame
+16:9 remains a working default; a circular black border was not explicitly chosen.
+
+Maintain separate still prompts in assets/06-shots/prompts/ and complete video
+prompts in assets/06-shots/video-prompts/. Future takes belong in
+assets/06-shots/videos/, with their actual generation settings and reference files.
 
 The first three shots were discussed as taking 1–2 seconds total. The assistant
 recommended approximately 2 seconds, followed by 1–1.5 seconds for the wider shot.

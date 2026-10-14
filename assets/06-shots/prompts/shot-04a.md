@@ -42,11 +42,9 @@ Rendering: Photorealistic premium live-action commercial look, physically plausi
 
 Reference handling: Use the supplied images in the listed order and for their specified roles. Preserve selected designs; do not invent a new identity or silently replace a missing dependency.
 
-## Later video direction
+## Video prompt
 
-Hold the wider camera while Riley takes the last steps and slows as the paired doors slide fully closed before she reaches them. Keep the train stationary through door closure. Native sound: departure chime, sliding-door mechanism and seal, final heel contacts, then her breath. Working edit duration approximately 1–1.5 s; no hand or body enters the door gap.
-
-This is model-neutral direction for the user-selected MiniMax H3 workflow. Provider controls, durations, and reference support must be checked when generating video. The scene sound should be native video audio; do not add unrelated generated music or narration. The separately produced ElevenCreative jingle is mixed across the final edit.
+Use the complete [video direction](../video-prompts/shot-04-closing-doors.md) for action, camera, native sound, reference setup, and edit notes.
 
 ## Review before selection
 

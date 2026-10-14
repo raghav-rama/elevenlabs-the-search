@@ -39,11 +39,9 @@ Rendering: Photorealistic premium live-action commercial look, physically plausi
 
 Reference handling: Use the supplied images in the listed order and for their specified roles. Preserve selected designs; do not invent a new identity or silently replace a missing dependency.
 
-## Later video direction
+## Video prompt
 
-Track the torso; one clear badge swing toward camera then back toward the shirt, with readable artwork at the center of the swing. Maintain gravity and continuous attachment. Native sound: quiet holder/clip rattle, clothing rustle, heel strikes and breathing continuing across the cut. Working edit duration approximately 0.5 s.
-
-This is model-neutral direction for the user-selected MiniMax H3 workflow. Provider controls, durations, and reference support must be checked when generating video. The scene sound should be native video audio; do not add unrelated generated music or narration. The separately produced ElevenCreative jingle is mixed across the final edit.
+Use the complete [video direction](../video-prompts/shot-02-bouncing-badge.md) for action, camera, native sound, reference setup, and edit notes.
 
 ## Review before selection
 

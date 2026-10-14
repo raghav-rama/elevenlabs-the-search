@@ -41,11 +41,9 @@ Rendering: Photorealistic premium live-action commercial look, physically plausi
 
 Reference handling: Use the supplied images in the listed order and for their specified roles. Preserve selected designs; do not invent a new identity or silently replace a missing dependency.
 
-## Later video direction
+## Video prompt
 
-Side-track at ordinary running speed, maintaining left-to-right travel. Natural heel contacts and skirt movement; no acceleration into superhuman motion. Native sound: heel strikes and subtle clothing movement, with continuous station ambience. Working edit duration approximately 0.65 s; this is a trim target, not a claimed model generation duration.
-
-This is model-neutral direction for the user-selected MiniMax H3 workflow. Provider controls, durations, and reference support must be checked when generating video. The scene sound should be native video audio; do not add unrelated generated music or narration. The separately produced ElevenCreative jingle is mixed across the final edit.
+Use the complete [video direction](../video-prompts/shot-01-running-legs.md) for action, camera, native sound, reference setup, and edit notes.
 
 ## Review before selection
 

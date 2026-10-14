@@ -49,3 +49,7 @@ The prompt above is the original reusable brief. Exact prompts, including correc
 - Selected test: [shot-04b-v01.png](../images/shot-04b-v01.png); [exact generation record](../images/shot-04b-v01.generation.json).
 
 Review: Overall framing retained, but door-panel detail varies from the start frame and Riley stops a few steps from the doorway. Check start/end motion compatibility before video generation.
+
+## Video prompt
+
+Use the complete [video direction](../video-prompts/shot-04-closing-doors.md) for action, camera, native sound, reference setup, and edit notes.

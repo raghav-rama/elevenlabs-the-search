@@ -572,7 +572,8 @@
           "selected": true
         }
       ],
-      "review_notes": "Selected v03 improves framing and sheer-black tights. Running skirt hem still rides above knee; reconcile with the knee-length wardrobe before final production."
+      "review_notes": "Selected v03 improves framing and sheer-black tights. Running skirt hem still rides above knee; reconcile with the knee-length wardrobe before final production.",
+      "video_prompt": "06-shots/video-prompts/shot-01-running-legs.md"
     },
     {
       "id": "shot-02",
@@ -607,13 +608,14 @@
           "selected": true
         }
       ],
-      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending.",
+      "video_prompt": "06-shots/video-prompts/shot-02-bouncing-badge.md"
     },
     {
       "id": "shot-03",
       "title": "Breathless face starting frame",
       "prompt": "06-shots/prompts/shot-03.md",
-      "planned_image": "06-shots/images/shot-03-v01.png",
+      "planned_image": "06-shots/images/shot-03-v03.png",
       "status": "generated_test_reviewed",
       "depends_on": [
         "riley-01",
@@ -624,13 +626,13 @@
       ],
       "aspect_ratio": "16:9",
       "kind": "shot_start",
-      "selected_image": "06-shots/images/shot-03-v02.png",
+      "selected_image": "06-shots/images/shot-03-v03.png",
       "generation_tool": "built-in image_gen",
-      "user_approved": false,
+      "user_approved": true,
       "width": 1672,
       "height": 941,
-      "sha256": "fe2a5add910832d6e061bf9f73d10dca2aa10e3d0daccd2d535b00ca0c52b724",
-      "generation_record": "06-shots/images/shot-03-v02.generation.json",
+      "sha256": "4a2dc880ca02e10e96b1e351e838e1abc583ed683d7d150c829a10f161764a67",
+      "generation_record": "06-shots/images/shot-03-v03.generation.json",
       "versions": [
         {
           "image": "06-shots/images/shot-03-v01.png",
@@ -640,10 +642,20 @@
         {
           "image": "06-shots/images/shot-03-v02.png",
           "generation_record": "06-shots/images/shot-03-v02.generation.json",
+          "selected": false
+        },
+        {
+          "image": "06-shots/images/shot-03-v03.png",
+          "generation_record": "06-shots/images/shot-03-v03.generation.json",
           "selected": true
         }
       ],
-      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
+      "review_notes": "Visually inspected: close upward under-chin framing, strong ceiling curvature, parted lips, brown bob, white collar, burgundy lanyard and right-shoulder strap retained. Mole is subtle at this angle; verify continuity in the video test. User accepted the revised test still: \"Yup, that's much better.\" Final production remains separate. Camera-following motion cannot be validated in a still.",
+      "video_prompt": "06-shots/video-prompts/shot-03-chin-fisheye.md",
+      "selected_image_role": "test_starting_frame",
+      "composition_current": true,
+      "camera_direction": "Strong fisheye close beneath chin; camera follows head/chin, chin anchored while ceiling bobs and rolls.",
+      "approval_scope": "Test still framing and fisheye direction; video motion and final production remain untested."
     },
     {
       "id": "shot-04a",
@@ -674,7 +686,8 @@
           "selected": true
         }
       ],
-      "review_notes": "Visually checked and retained for this test batch; final user selection pending."
+      "review_notes": "Visually checked and retained for this test batch; final user selection pending.",
+      "video_prompt": "06-shots/video-prompts/shot-04-closing-doors.md"
     },
     {
       "id": "shot-04b",
@@ -701,11 +714,24 @@
           "selected": true
         }
       ],
-      "review_notes": "Overall framing retained, but door-panel detail varies from the start frame and Riley stops a few steps from the doorway. Check start/end motion compatibility before video generation."
+      "review_notes": "Overall framing retained, but door-panel detail varies from the start frame and Riley stops a few steps from the doorway. Check start/end motion compatibility before video generation.",
+      "video_prompt": "06-shots/video-prompts/shot-04-closing-doors.md"
     }
   ],
   "generation_completed_local_date": "2026-10-15",
   "generated_asset_count": 24,
-  "generated_image_count": 30,
-  "batch_status": "test_assets_generated_pending_user_review"
+  "generated_image_count": 31,
+  "batch_status": "test_assets_generated_pending_user_review",
+  "video_prompts": {
+    "directory": "06-shots/video-prompts",
+    "shot_count": 4,
+    "videos_generated": false,
+    "model": "MiniMax H3",
+    "provider": "ElevenCreative",
+    "verified_sources": [
+      "https://www.minimax.io/blog/minimax-h3",
+      "https://elevenlabs.io/video/minimax-h3"
+    ],
+    "verification_date": "2026-10-15"
+  }
 }

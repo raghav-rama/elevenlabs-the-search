@@ -2,6 +2,9 @@
 
 Generated using the built-in image generator. These are the selected **test** versions, pending your review. Earlier attempts and exact prompts remain in each category's image folder. See [README.md](README.md) for continuity notes.
 
+Shot 3 now uses the regenerated under-chin fisheye test frame, v03. See the
+[video guide](06-shots/video-prompts/README.md) for the chin-following movement.
+
 ## Four-shot hook
 
 ### shot-01 — Running legs starting frame
@@ -20,13 +23,13 @@ Selected v03 improves framing and sheer-black tights. Running skirt hem still ri
 
 Visually checked and retained for this test batch; final user selection pending.
 
-### shot-03 — Breathless face starting frame
+### shot-03 — Under-chin fisheye starting frame
 
-![Breathless face starting frame](06-shots/images/shot-03-v02.png)
+![Breathless face starting frame](06-shots/images/shot-03-v03.png)
 
-[Prompt](06-shots/prompts/shot-03.md) · [Exact generation record](06-shots/images/shot-03-v02.generation.json)
+[Prompt](06-shots/prompts/shot-03.md) · [Exact generation record](06-shots/images/shot-03-v03.generation.json)
 
-Visually checked and retained for this test batch; final user selection pending.
+Close upward framing and strong ceiling curvature. Mole is subtle at this angle; review continuity in video. User accepted v03 as the improved test still. Chin-following motion remains untested.
 
 ### shot-04a — Door reveal starting frame
 

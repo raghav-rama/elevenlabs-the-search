@@ -1,12 +1,15 @@
 # Opening-hook assets
 
 **All 24 test assets have been generated with the built-in image generator.**
-There are 30 generated images including earlier attempts, plus the supplied
-station inspiration. Each category's `images/` folder contains its images and
+There are 31 generated images including earlier attempts, plus the supplied
+station and fisheye inspiration references. Each category's `images/` folder contains its images and
 exact `.generation.json` records. Final production in ElevenCreative remains
-separate. These selections have not yet been approved by the user.
+separate. The user accepted shot-03-v03; other selections remain pending review.
 
 Open [GALLERY.md](GALLERY.md) to review the selected images.
+The [four video prompts](06-shots/video-prompts/README.md) now include action,
+camera, native sound, and edit notes. Shot 3 now uses v03 for the confirmed
+under-chin fisheye framing; the head-following movement still needs a video test.
 [manifest.json](manifest.json) records selected versions, dimensions, hashes,
 reference dependencies, and review notes.
 
@@ -92,6 +95,8 @@ assets/
   06-shots/
     prompts/                 # Four starting frames and optional ending anchor
     images/
+    video-prompts/           # Four video prompts and production guide
+    videos/                  # Future original takes
 ```
 
 ## Prompt index and generation order
@@ -129,8 +134,8 @@ The same order is recorded in [manifest.json](manifest.json).
 ## How to use the prompts
 
 Each file includes the selected test destination, required reference images, a complete
-image prompt, and review notes. The four starting-frame files also include later
-video direction and native scene sound notes. There are no separate audio
+image prompt, and review notes. The still prompts link to the separate
+video-prompts/ folder for motion direction and native scene sound notes. There are no separate audio
 generation prompts in this batch.
 
 1. Generate the canonical portrait first, then select a consistent reference.
@@ -166,7 +171,11 @@ image model to invent it. Preserve usable space at the bottom-right of the cut.
 - The running-legs shot uses v03 for a tighter crop and more visible sheer-black
   tights. The skirt hem still rides above the knee in that pose; review it
   against the knee-length outfit before final production.
-- The badge and face shots use v02 to achieve the intended tight framing.
+- The badge uses v02 for tight framing. The face v02 improved the crop but is
+  now superseded for camera composition: the user confirmed a strong fisheye
+  camera fixed close beneath the chin. The generated v03 replacement has
+  upward close framing and stronger ceiling curvature. Its mole is subtle at
+  this angle; review identity continuity and chin anchoring in the video test.
 - The door ending frame has minor panel-detail drift from the starting frame.
   Check the pair in the video workflow before relying on it for interpolation.
 - The worn-badge reference is wider than requested and the ground-level station
@@ -174,4 +183,4 @@ image model to invent it. Preserve usable space at the bottom-right of the cut.
   composed shot frames provide the tighter crops.
 
 These are generated test assets, not completed video, final competition assets,
-user-approved selections, or a submitted entry.
+or a submitted entry. User acceptance of shot-03-v03 covers the test still.
