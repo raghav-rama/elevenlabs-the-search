@@ -1,0 +1,317 @@
+{
+  "scope": "Four-shot pre-upgrade opening hook only",
+  "created": "2026-10-14",
+  "source_reference": "references/station/user-inspiration-01.png",
+  "images_generated": false,
+  "assets": [
+    {
+      "id": "riley-01",
+      "title": "Canonical identity portrait",
+      "prompt": "01-riley/prompts/riley-01.md",
+      "planned_image": "01-riley/images/riley-01-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [],
+      "aspect_ratio": "4:5",
+      "kind": "reference"
+    },
+    {
+      "id": "riley-02",
+      "title": "Three-quarter identity view",
+      "prompt": "01-riley/prompts/riley-02.md",
+      "planned_image": "01-riley/images/riley-02-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "riley-01"
+      ],
+      "aspect_ratio": "4:5",
+      "kind": "reference"
+    },
+    {
+      "id": "riley-03",
+      "title": "Left profile identity view",
+      "prompt": "01-riley/prompts/riley-03.md",
+      "planned_image": "01-riley/images/riley-03-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "riley-01",
+        "riley-02"
+      ],
+      "aspect_ratio": "4:5",
+      "kind": "reference"
+    },
+    {
+      "id": "riley-04",
+      "title": "Low-angle face reference",
+      "prompt": "01-riley/prompts/riley-04.md",
+      "planned_image": "01-riley/images/riley-04-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "riley-01",
+        "riley-02"
+      ],
+      "aspect_ratio": "4:5",
+      "kind": "reference"
+    },
+    {
+      "id": "riley-05",
+      "title": "Running expression reference",
+      "prompt": "01-riley/prompts/riley-05.md",
+      "planned_image": "01-riley/images/riley-05-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "riley-01"
+      ],
+      "aspect_ratio": "16:9",
+      "kind": "reference"
+    },
+    {
+      "id": "wardrobe-01",
+      "title": "Full outfit and bag turnaround",
+      "prompt": "02-wardrobe/prompts/wardrobe-01.md",
+      "planned_image": "02-wardrobe/images/wardrobe-01-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "riley-01",
+        "riley-02",
+        "riley-03"
+      ],
+      "aspect_ratio": "16:9",
+      "kind": "reference"
+    },
+    {
+      "id": "wardrobe-02",
+      "title": "Heels and lower-body detail",
+      "prompt": "02-wardrobe/prompts/wardrobe-02.md",
+      "planned_image": "02-wardrobe/images/wardrobe-02-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "wardrobe-01"
+      ],
+      "aspect_ratio": "16:9",
+      "kind": "reference"
+    },
+    {
+      "id": "wardrobe-03",
+      "title": "Bag construction reference",
+      "prompt": "02-wardrobe/prompts/wardrobe-03.md",
+      "planned_image": "02-wardrobe/images/wardrobe-03-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "wardrobe-01"
+      ],
+      "aspect_ratio": "4:3",
+      "kind": "reference"
+    },
+    {
+      "id": "badge-01",
+      "title": "Employee headshot",
+      "prompt": "03-badge/prompts/badge-01.md",
+      "planned_image": "03-badge/images/badge-01-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "riley-01"
+      ],
+      "aspect_ratio": "4:5",
+      "kind": "reference"
+    },
+    {
+      "id": "badge-02",
+      "title": "Badge front artwork",
+      "prompt": "03-badge/prompts/badge-02.md",
+      "planned_image": "03-badge/images/badge-02-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "badge-01"
+      ],
+      "aspect_ratio": "2:3",
+      "kind": "reference"
+    },
+    {
+      "id": "badge-03",
+      "title": "Badge back artwork",
+      "prompt": "03-badge/prompts/badge-03.md",
+      "planned_image": "03-badge/images/badge-03-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "badge-02"
+      ],
+      "aspect_ratio": "2:3",
+      "kind": "reference"
+    },
+    {
+      "id": "badge-04",
+      "title": "Physical badge and lanyard",
+      "prompt": "03-badge/prompts/badge-04.md",
+      "planned_image": "03-badge/images/badge-04-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "badge-02",
+        "badge-03"
+      ],
+      "aspect_ratio": "16:9",
+      "kind": "reference"
+    },
+    {
+      "id": "badge-05",
+      "title": "Badge worn on Riley",
+      "prompt": "03-badge/prompts/badge-05.md",
+      "planned_image": "03-badge/images/badge-05-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "wardrobe-01",
+        "badge-04"
+      ],
+      "aspect_ratio": "4:5",
+      "kind": "reference"
+    },
+    {
+      "id": "station-01",
+      "title": "Station master environment",
+      "prompt": "04-station/prompts/station-01.md",
+      "planned_image": "04-station/images/station-01-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "source-station"
+      ],
+      "aspect_ratio": "16:9",
+      "kind": "reference"
+    },
+    {
+      "id": "train-01",
+      "title": "Train side and target door",
+      "prompt": "05-train/prompts/train-01.md",
+      "planned_image": "05-train/images/train-01-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "station-01"
+      ],
+      "aspect_ratio": "16:9",
+      "kind": "reference"
+    },
+    {
+      "id": "train-02",
+      "title": "Door states and visible interior",
+      "prompt": "05-train/prompts/train-02.md",
+      "planned_image": "05-train/images/train-02-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "train-01"
+      ],
+      "aspect_ratio": "16:9",
+      "kind": "reference"
+    },
+    {
+      "id": "station-02",
+      "title": "Ground-level running lane",
+      "prompt": "04-station/prompts/station-02.md",
+      "planned_image": "04-station/images/station-02-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "station-01",
+        "train-01"
+      ],
+      "aspect_ratio": "16:9",
+      "kind": "reference"
+    },
+    {
+      "id": "station-03",
+      "title": "Low-angle ceiling background",
+      "prompt": "04-station/prompts/station-03.md",
+      "planned_image": "04-station/images/station-03-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "station-01"
+      ],
+      "aspect_ratio": "16:9",
+      "kind": "reference"
+    },
+    {
+      "id": "station-04",
+      "title": "Target door environment plate",
+      "prompt": "04-station/prompts/station-04.md",
+      "planned_image": "04-station/images/station-04-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "station-01",
+        "train-01",
+        "train-02"
+      ],
+      "aspect_ratio": "16:9",
+      "kind": "reference"
+    },
+    {
+      "id": "shot-01",
+      "title": "Running legs starting frame",
+      "prompt": "06-shots/prompts/shot-01.md",
+      "planned_image": "06-shots/images/shot-01-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "wardrobe-01",
+        "wardrobe-02",
+        "station-02",
+        "train-01"
+      ],
+      "aspect_ratio": "16:9",
+      "kind": "shot_start"
+    },
+    {
+      "id": "shot-02",
+      "title": "Bouncing badge starting frame",
+      "prompt": "06-shots/prompts/shot-02.md",
+      "planned_image": "06-shots/images/shot-02-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "badge-05",
+        "badge-02",
+        "badge-04",
+        "station-01"
+      ],
+      "aspect_ratio": "16:9",
+      "kind": "shot_start"
+    },
+    {
+      "id": "shot-03",
+      "title": "Breathless face starting frame",
+      "prompt": "06-shots/prompts/shot-03.md",
+      "planned_image": "06-shots/images/shot-03-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "riley-01",
+        "riley-04",
+        "riley-05",
+        "badge-05",
+        "station-03"
+      ],
+      "aspect_ratio": "16:9",
+      "kind": "shot_start"
+    },
+    {
+      "id": "shot-04a",
+      "title": "Door reveal starting frame",
+      "prompt": "06-shots/prompts/shot-04a.md",
+      "planned_image": "06-shots/images/shot-04a-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "wardrobe-01",
+        "badge-05",
+        "station-04",
+        "train-02",
+        "riley-01"
+      ],
+      "aspect_ratio": "16:9",
+      "kind": "shot_start"
+    },
+    {
+      "id": "shot-04b",
+      "title": "Door reveal ending anchor",
+      "prompt": "06-shots/prompts/shot-04b.md",
+      "planned_image": "06-shots/images/shot-04b-v01.png",
+      "status": "prompt_ready",
+      "depends_on": [
+        "shot-04a"
+      ],
+      "aspect_ratio": "16:9",
+      "kind": "shot_end_anchor"
+    }
+  ]
+}

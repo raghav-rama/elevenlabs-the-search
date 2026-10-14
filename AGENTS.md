@@ -86,6 +86,21 @@ project links so the production process can be demonstrated.
 
 ## Locked opening
 
+Latest production decisions: test stills with the built-in image generator;
+final assets through ElevenCreative; intended video model is MiniMax H3
+(user-supplied model name; capabilities have not been verified here). Use native
+video audio for scene effects and ambience, then review continuity in the edit.
+The competition jingle remains a separate ElevenCreative deliverable.
+
+Riley Brooks is 27, American, from Austin, Texas, slim, brunette, with a mole
+under her anatomical left eye. Nationality does not specify ethnicity. Her
+employer is the fictional KORVEX. Wardrobe: white long-sleeved shirt tucked into
+a knee-length black skirt, sheer black tights, moderately chunky black heels,
+and a bag. Use burgundy #8b1e2d for the lanyard as the current suggested color.
+The supplied station image is inspiration, with the scene set at 8:30 a.m.
+The current asset batch covers only the four-shot hook. See assets/README.md
+for prompt order, reference dependencies, and explicitly provisional details.
+
 The user explicitly settled this hook. Establish her as an ordinary commuter
 before revealing superhuman abilities:
 
@@ -100,9 +115,8 @@ Those exact timings remain editing guidance rather than a separately approved cu
 Carry heel strikes, badge movement, breathing, departure chime, and door hiss
 across the cuts. Give her reaction a brief pause after the doors close.
 
-The current wardrobe direction is heels, black tights, a black skirt, and a white
-shirt. It began as a tentative user idea and informed the settled opening.
-Confirm the final wardrobe reference before generating a full production batch.
+The wardrobe above is now user-confirmed; approve its visual reference before
+generating a full production batch.
 Earlier generated references used a technical jacket, charcoal shirt, utility
 trousers, and sneakers; those references need reconciliation with the new direction.
 
@@ -138,9 +152,9 @@ instead of independently inventing recurring assets in each prompt.
 
 - Protagonist: face, profile, three-quarter views, full-body proportions, hair,
   skin tone, outfit, shoes, ID badge, and any bag or accessories.
-- Earlier image references describe a young adult South Asian woman with a short
-  tousled black bob and athletic build. This is an existing reference direction,
-  not an independently confirmed casting requirement.
+- Earlier image references used a South Asian woman with a short black bob and
+  athletic build. Riley's latest description above supersedes that direction;
+  do not carry over an unrequested ethnicity, black hair, or athletic build.
 - Implants: exact location, geometry, material, and glow; define before-upgrade,
   upgraded-inactive, and activated states. Preserve natural eyes and no implant
   seams before the procedure.
