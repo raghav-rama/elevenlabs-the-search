@@ -360,3 +360,12 @@ as present or silently substitute another source.
 - Confirmed the imported baseline retains approved takes, deferred jingle work,
   the closing-door priority and deleted-source context.
 - Only AGENTS.md and the new STATUS.md are changed; commit/push is pending.
+
+## 2026-10-16T00:00:17+05:30 — Documentation split committed and pushed
+
+- User requested publication of the AGENTS.md / STATUS.md split.
+- Created commit `7c95e3e` and verified its SSH signature.
+- Successfully pushed it to `origin/main`; the branch advanced from `e6fc1cd`
+  to `7c95e3e`. This supersedes the earlier pending-publication entries.
+- This entry is a follow-up ledger record of that completed publication.
+- Next production task remains shot 4; jingle work remains deferred.
