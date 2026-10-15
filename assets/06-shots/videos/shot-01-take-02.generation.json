@@ -1,0 +1,50 @@
+{
+  "asset_id": "shot-01",
+  "take": 2,
+  "provider": "fal.ai",
+  "tool": "fal plugin",
+  "status": "COMPLETED",
+  "recipe": {
+    "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+    "input": {
+      "prompt": "Animate the supplied running-legs image as one continuous real-time 3-second shot. From the VERY FIRST FRAME she is ALREADY RUNNING FAST in mid-stride, moving LEFT TO RIGHT. Maintain a brisk, urgent cadence of approximately THREE alternating footfalls EVERY SECOND: approximately NINE foot contacts across this three-second clip. Count each left or right foot landing as one step, not one complete two-leg stride. She sustains this pace through the last frame, already running before the shot begins and continuing after it ends. No standing start, acceleration phase, walking, leisurely jogging, slow motion, pauses or slowing down.\n\nEach step has a quick grounded landing, brief weight transfer, immediate push-off and rapid opposite-leg recovery. Feet alternate in a clear fast rhythm, with believable knee and ankle movement. Preserve physical contact with the platform: no foot sliding, skating, hovering or extra limbs. The low camera tracks parallel beside her at shin height and matches her forward speed; her legs stay in the same area of frame while platform seams, reflections and the stationary train move rapidly behind her. Constant camera distance, no zoom, no cuts.\n\nKeep the starting image's tight skirt-hem-to-shoes crop, the same knee-length black skirt, sheer black tights and closed-toe black block heels. Preserve the station and diffuse 8:30 a.m. light. Her face and torso remain outside the crop.\n\nSound: one distinct running footfall per visible foot landing, about three footfalls per second, plus faint breathing, clothing rustle and quiet station ambience. Effects only. No voiceover, spoken words, dialogue, announcements, singing or music.",
+      "image_url": "https://v3b.fal.media/files/b/0aae7b6e/yPSeHn1_xpWS-hJDKJfcx_shot-01-v03.png",
+      "resolution": "480P",
+      "duration": 3,
+      "prompt_expansion_mode": "disabled",
+      "enable_safety_checker": true
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a13fc2-88bc-78f0-a526-937c4b60f146",
+  "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+  "status_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fc2-88bc-78f0-a526-937c4b60f146/status",
+  "response_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fc2-88bc-78f0-a526-937c4b60f146",
+  "cancel_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fc2-88bc-78f0-a526-937c4b60f146/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url to check status; once the job is COMPLETED, check_job returns its result too (get_job_result with response_url also works).",
+  "source_image": "assets/06-shots/images/shot-01-v03.png",
+  "source_sha256": "c6c5106131708fa6ee0f81b7518a6db8298494062c6ec59ef9e90b7039edc17b",
+  "planned_video": "assets/06-shots/videos/shot-01-take-02.mp4",
+  "estimated_cost_usd": 0.045,
+  "review_status": "rejected_slow_cadence",
+  "revision_reason": "User requests approximately nine steps in three seconds to match shot 3, already running from first frame. Test running legs before regenerating dependent badge and door shots.",
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aae7bc3/4MbNitZK9rKWYU3XfKUHK_minimax-h3.mp4",
+      "content_type": "video/mp4",
+      "file_name": "4MbNitZK9rKWYU3XfKUHK_minimax-h3.mp4",
+      "file_size": 2258566
+    },
+    "expanded_prompt": null,
+    "timings": {
+      "inference": 0.4389016060013091
+    }
+  },
+  "workspace_video": "assets/06-shots/videos/shot-01-take-02.mp4",
+  "sha256": "10b5fa40a0333c100154bf62a594b88408109072d39276e942435a1105c7e569",
+  "file_size": 2258566,
+  "verification": "Download matches provider byte count and MP4 header. Actual cadence and audio not yet reviewed.",
+  "user_feedback": "No visible improvement; still four steps. User rejects retiming and asks for a different prompt."
+}

@@ -9,7 +9,8 @@ review because the existing anchor has minor door-panel differences.
 - Optional ending anchor: [shot-04b-v01.png](../images/shot-04b-v01.png).
 - Optional door-design reference: [train-01-v02.png](../../05-train/images/train-01-v02.png).
 - Target edit segment: approximately 1–1.5 seconds showing closure and her stop.
-- Planned take path: `../videos/shot-04-take-01.mp4` (not generated).
+- Generated test: [shot-04-take-01.mp4](../videos/shot-04-take-01.mp4).
+- [Exact generation record](../videos/shot-04-take-01.generation.json): H3 Max Turbo, 480P, requested 3 seconds, prompt expansion disabled. Motion and audio review pending.
 
 Use the starting image alone initially. Add the ending anchor only after resolving
 its door-detail drift and checking the available first/last-frame controls. If an

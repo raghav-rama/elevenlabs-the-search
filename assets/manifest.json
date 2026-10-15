@@ -573,7 +573,59 @@
         }
       ],
       "review_notes": "Selected v03 improves framing and sheer-black tights. Running skirt hem still rides above knee; reconcile with the knee-length wardrobe before final production.",
-      "video_prompt": "06-shots/video-prompts/shot-01-running-legs.md"
+      "video_prompt": "06-shots/video-prompts/shot-01-running-legs.md",
+      "video_takes": [
+        {
+          "video": "06-shots/videos/shot-01-take-01.mp4",
+          "generation_record": "06-shots/videos/shot-01-take-01.generation.json",
+          "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+          "request_id": "01a13fb6-bf98-77b3-83d3-1d826633c718",
+          "status": "rejected_slow_cadence",
+          "user_approved": false
+        },
+        {
+          "video": "06-shots/videos/shot-01-take-02.mp4",
+          "generation_record": "06-shots/videos/shot-01-take-02.generation.json",
+          "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+          "request_id": "01a13fc2-88bc-78f0-a526-937c4b60f146",
+          "status": "rejected_slow_cadence",
+          "user_approved": false
+        },
+        {
+          "video": "06-shots/videos/shot-01-take-03.mp4",
+          "generation_record": "06-shots/videos/shot-01-take-03.generation.json",
+          "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+          "request_id": "01a13fc6-fc87-7c13-93dd-a8a8b7244710",
+          "status": "rejected_accelerating_pace_and_train_pass",
+          "user_approved": false
+        },
+        {
+          "video": "06-shots/videos/shot-01-take-04.mp4",
+          "generation_record": "06-shots/videos/shot-01-take-04.generation.json",
+          "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+          "request_id": "01a13fd1-af68-77c3-aff5-6063c0af8ce6",
+          "status": "assistant_rejected_slow_cadence_pending_user_review",
+          "user_approved": false
+        },
+        {
+          "video": "06-shots/videos/shot-01-take-05.mp4",
+          "generation_record": "06-shots/videos/shot-01-take-05.generation.json",
+          "endpoint_id": "minimax/h3-max/reference-to-video",
+          "request_id": "01a14057-1035-7893-aff1-9a76b15d8adf",
+          "status": "user_approved_visuals_audio_revision_requested",
+          "user_approved": false,
+          "visual_user_approved": true,
+          "audio_versions": [
+            {
+              "video": "06-shots/videos/shot-01-take-05-audio-v01.mp4",
+              "record": "06-shots/videos/shot-01-take-05-audio-v01.audio-edit.json",
+              "user_approved": false
+            }
+          ]
+        }
+      ],
+      "selected_video": "06-shots/videos/shot-01-take-05.mp4",
+      "selected_video_note": "User approved picture. Audio mix v01 prepared separately for listening review."
     },
     {
       "id": "shot-02",
@@ -609,7 +661,17 @@
         }
       ],
       "review_notes": "Visually checked and retained for this test batch; final user selection pending.",
-      "video_prompt": "06-shots/video-prompts/shot-02-bouncing-badge.md"
+      "video_prompt": "06-shots/video-prompts/shot-02-bouncing-badge.md",
+      "video_takes": [
+        {
+          "video": "06-shots/videos/shot-02-take-01.mp4",
+          "generation_record": "06-shots/videos/shot-02-take-01.generation.json",
+          "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+          "request_id": "01a13fb6-dcc8-7063-ba23-f80321834c58",
+          "status": "rejected_slow_cadence_and_unwanted_speech",
+          "user_approved": false
+        }
+      ]
     },
     {
       "id": "shot-03",
@@ -655,7 +717,42 @@
       "selected_image_role": "test_starting_frame",
       "composition_current": true,
       "camera_direction": "Strong fisheye close beneath chin; camera follows head/chin, chin anchored while ceiling bobs and rolls.",
-      "approval_scope": "Test still framing and fisheye direction; video motion and final production remain untested."
+      "approval_scope": "Test still framing and fisheye direction; video motion and final production remain untested.",
+      "video_takes": [
+        {
+          "video": "06-shots/videos/shot-03-take-01.mp4",
+          "generation_record": "06-shots/videos/shot-03-take-01.generation.json",
+          "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+          "request_id": "01a13e04-74ce-78f1-98a5-8a232f75b713",
+          "status": "rejected_camera_motion",
+          "user_approved": false
+        },
+        {
+          "video": "06-shots/videos/shot-03-take-02.mp4",
+          "generation_record": "06-shots/videos/shot-03-take-02.generation.json",
+          "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+          "request_id": "01a13f9f-b3d1-79a1-8ca8-aca7f03258ee",
+          "status": "rejected_camera_motion_and_background_artifacts",
+          "user_approved": false
+        },
+        {
+          "video": "06-shots/videos/shot-03-take-03.mp4",
+          "generation_record": "06-shots/videos/shot-03-take-03.generation.json",
+          "endpoint_id": "fal-ai/kling-video/v3/standard/image-to-video",
+          "request_id": "01a13fa6-4b07-7c60-834e-6383eded33b7",
+          "status": "rejected_running_start",
+          "user_approved": false
+        },
+        {
+          "video": "06-shots/videos/shot-03-take-04.mp4",
+          "generation_record": "06-shots/videos/shot-03-take-04.generation.json",
+          "endpoint_id": "fal-ai/kling-video/v3/standard/image-to-video",
+          "request_id": "01a13fab-7838-77d2-881b-4cfd775c4e96",
+          "status": "rejected_running_start",
+          "user_approved": false
+        }
+      ],
+      "video_review_notes": "All four takes rejected. H3 take 1 is the better running-motion baseline per user feedback but fails chin tracking. Kling takes 3 and 4 start running instead of continuous running and cost more; stop Kling tests for this shot. No successful video selected."
     },
     {
       "id": "shot-04a",
@@ -687,7 +784,17 @@
         }
       ],
       "review_notes": "Visually checked and retained for this test batch; final user selection pending.",
-      "video_prompt": "06-shots/video-prompts/shot-04-closing-doors.md"
+      "video_prompt": "06-shots/video-prompts/shot-04-closing-doors.md",
+      "video_takes": [
+        {
+          "video": "06-shots/videos/shot-04-take-01.mp4",
+          "generation_record": "06-shots/videos/shot-04-take-01.generation.json",
+          "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+          "request_id": "01a13fb7-0448-7670-bd6f-2a5388fa34da",
+          "status": "rejected_slow_cadence",
+          "user_approved": false
+        }
+      ]
     },
     {
       "id": "shot-04b",
@@ -725,13 +832,16 @@
   "video_prompts": {
     "directory": "06-shots/video-prompts",
     "shot_count": 4,
-    "videos_generated": false,
-    "model": "MiniMax H3",
-    "provider": "ElevenCreative",
+    "videos_generated": true,
+    "model": "MiniMax H3 Max Turbo",
+    "provider": "fal.ai",
     "verified_sources": [
       "https://www.minimax.io/blog/minimax-h3",
       "https://elevenlabs.io/video/minimax-h3"
     ],
-    "verification_date": "2026-10-15"
+    "verification_date": "2026-10-15",
+    "generated_take_count": 11,
+    "cadence_target": "User approved shot-01 take-05 picture despite assistant counting approximately seven new landings. Do not chase an exact count or regenerate accepted visuals. Audio fix v01 reuses shot-03 take-01 soundtrack; user listening review pending. Badge and door regeneration pending.",
+    "latest_test_model": "MiniMax H3 Max Reference to Video"
   }
 }

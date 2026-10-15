@@ -1,0 +1,25 @@
+{
+  "source_file": "assets/references/Slow motion running - side view (focus on legs).mp4",
+  "source_url": "https://www.youtube.com/watch?v=p7sKgRAkVmw",
+  "source_sha256": "dc151696c8b1768dfe8cd01a3f61569a0e0dbe340e8e8537aa1811988b98c52c",
+  "source_range_seconds": [
+    1.0,
+    24.4
+  ],
+  "speed_multiplier": 7.8,
+  "horizontal_flip": true,
+  "audio_removed": true,
+  "duration_seconds": 3.0,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "output_file": "assets/references/prepared-running/running-rightward-3s-v01.mp4",
+  "output_sha256": "95bd08d3dee9b8b483298730cd58804cbb619ca8d3e429ee99a199d3957cf9eb",
+  "file_size": 2438890,
+  "review_status": "superseded_by_v02",
+  "visual_review": "Initial 7.8x reference slightly below desired cadence.",
+  "original_and_generated_takes_modified": false,
+  "model_submission": false
+}

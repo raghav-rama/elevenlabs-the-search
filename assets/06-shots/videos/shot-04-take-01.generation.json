@@ -1,0 +1,65 @@
+{
+  "asset_id": "shot-04",
+  "take": 1,
+  "provider": "fal.ai",
+  "tool": "fal plugin",
+  "status": "COMPLETED",
+  "recipe": {
+    "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+    "input": {
+      "prompt": "Animate the supplied wide platform image as one continuous photorealistic 16:9 shot. The normal-perspective camera holds its position and framing. Riley approaches from the LEFT toward the selected train doorway on the RIGHT. Keep the same original graphite train, cyan stripes, yellow door-frame lights, carriage 07 identifier, platform geometry, and diffuse 8:30 a.m. daylight.\n\nAs Riley takes her last hurried steps, the paired train doors slide inward toward their shared center seam. The two leaves move evenly and mechanically, retaining their exact windows, seals, materials, and width. They meet and close completely just before she can reach the entrance. Riley notices, shortens her stride, and stops on the platform short of the doorway. Her momentum settles naturally through her shoulders, bag, skirt, and lanyard. She catches her breath with restrained disappointment, looking at the shut doors. The train stays stationary during this shot.\n\nPreserve the same Riley identity, white long-sleeved shirt, knee-length black skirt, sheer black tights, black block heels, burgundy KORVEX badge, and black bag on her anatomical RIGHT shoulder. Keep her feet grounded, her body scale consistent, and the target door in the same place. No hand in the door gap, track crossing, jump, superhuman movement, teleporting, premature boarding, sliding feet, new people, train departure, billboard reveal, camera zoom, cuts, or extra text.\n\nNative sound: continue one departure warning chime, then the synchronized sliding-door motor and closing seal, Riley's final heel contacts slowing to a stop, slight bag and badge movement, and her breath in the same station ambience. After the doors shut, leave a short audible beat of breath and room tone. No music, narration, spoken line, or new announcement. Hold the closed-door state and her settled position briefly at the end.",
+      "image_url": "https://v3b.fal.media/files/b/0aae7b6f/fMdtXSX-iVV51UCspedoj_shot-04a-v01.png",
+      "resolution": "480P",
+      "duration": 3,
+      "prompt_expansion_mode": "disabled",
+      "enable_safety_checker": true
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a13fb7-0448-7670-bd6f-2a5388fa34da",
+  "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+  "status_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fb7-0448-7670-bd6f-2a5388fa34da/status",
+  "response_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fb7-0448-7670-bd6f-2a5388fa34da",
+  "cancel_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fb7-0448-7670-bd6f-2a5388fa34da/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url to check status; once the job is COMPLETED, check_job returns its result too (get_job_result with response_url also works).",
+  "source_image": "assets/06-shots/images/shot-04a-v01.png",
+  "source_sha256": "b4a3b7798d91a1eaa88b3a990c67e668f46042152815b1f41498588103fb4834",
+  "planned_video": "assets/06-shots/videos/shot-04-take-01.mp4",
+  "estimated_cost_usd": 0.045,
+  "pricing_basis": "0.015 USD per second x 3 requested seconds; estimate, not actual charge.",
+  "review_status": "rejected_slow_cadence",
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aae7b78/UzwV_vgMth0yQz1SLiqdk_minimax-h3.mp4",
+      "content_type": "video/mp4",
+      "file_name": "UzwV_vgMth0yQz1SLiqdk_minimax-h3.mp4",
+      "file_size": 2781594
+    },
+    "expanded_prompt": null,
+    "timings": {
+      "inference": 0.5168100250884891
+    }
+  },
+  "workspace_video": "assets/06-shots/videos/shot-04-take-01.mp4",
+  "sha256": "7ce9bceb5a543b67ea16c8bed420ce61aee5218b7cf28e3b909cb640cc759dfa",
+  "file_size": 2781594,
+  "media_metadata": {
+    "tracks": [
+      {
+        "width": 832.0,
+        "height": 480.0,
+        "type": "vide"
+      },
+      {
+        "width": 0.0,
+        "height": 0.0,
+        "type": "soun"
+      }
+    ],
+    "duration_seconds": 3.072
+  },
+  "verification": "Download matches provider byte count. MP4 header and track metadata parsed; visual action and sound quality not reviewed.",
+  "user_feedback": "User reports approximately 4 steps per 3 seconds, slower than shot 3 at approximately 9 steps per 3 seconds."
+}

@@ -6,5 +6,6 @@
 # Disposable local working files (keep asset images and generation records)
 /.cache/
 /tmp/
+/.playwright-mcp/
 *.swp
 *.swo

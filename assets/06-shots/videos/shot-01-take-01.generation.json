@@ -1,0 +1,65 @@
+{
+  "asset_id": "shot-01",
+  "take": 1,
+  "provider": "fal.ai",
+  "tool": "fal plugin",
+  "status": "COMPLETED",
+  "recipe": {
+    "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+    "input": {
+      "prompt": "Animate the supplied running-legs starting image as one continuous photorealistic 16:9 shot. Riley is an ordinary commuter running LEFT TO RIGHT along the platform at natural speed. Stay tightly framed from the black skirt hem to both shoes and the floor. Her black skirt is knee-length, her tights are sheer black nylon with skin visible beneath, and the same closed-toe black block heels stay firmly on her feet.\n\nThe low camera tracks parallel beside her at shin height, matching her forward speed. Her legs remain near the same horizontal position while the graphite train and cyan/magenta reflections slide behind her. Show a readable stride cycle: one foot makes a believable contact, supports her weight, and pushes off while the other swings forward. Both legs move with natural knee and ankle articulation. Keep the camera distance and lens constant, with restrained movement from running; no orbit or zoom. Keep her torso and face outside the crop.\n\nMaintain the supplied sheltered futuristic station, damp reflective floor, and diffuse 8:30 a.m. daylight. The train is stationary; its apparent motion comes from the tracking camera. Preserve shoe design, heel thickness, sheer tights, and skirt length. No sliding feet, extra limbs, floating strides, superhuman speed, slow motion, outfit changes, cuts, or overlays.\n\nNative sound: crisp heel contacts synchronized with footfalls, lighter sole contacts between them, subtle skirt movement, quiet breath above the frame, and spacious low station ambience. Running is hurried but human. No music, narration, intelligible announcements, or spoken dialogue. Continue running through the end so the editor can choose a clean cut on a footfall.",
+      "image_url": "https://v3b.fal.media/files/b/0aae7b6e/yPSeHn1_xpWS-hJDKJfcx_shot-01-v03.png",
+      "resolution": "480P",
+      "duration": 3,
+      "prompt_expansion_mode": "disabled",
+      "enable_safety_checker": true
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a13fb6-bf98-77b3-83d3-1d826633c718",
+  "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+  "status_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fb6-bf98-77b3-83d3-1d826633c718/status",
+  "response_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fb6-bf98-77b3-83d3-1d826633c718",
+  "cancel_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fb6-bf98-77b3-83d3-1d826633c718/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url to check status; once the job is COMPLETED, check_job returns its result too (get_job_result with response_url also works).",
+  "source_image": "assets/06-shots/images/shot-01-v03.png",
+  "source_sha256": "c6c5106131708fa6ee0f81b7518a6db8298494062c6ec59ef9e90b7039edc17b",
+  "planned_video": "assets/06-shots/videos/shot-01-take-01.mp4",
+  "estimated_cost_usd": 0.045,
+  "pricing_basis": "0.015 USD per second x 3 requested seconds; estimate, not actual charge.",
+  "review_status": "rejected_slow_cadence",
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aae7b76/Up_EdrWEJlHaFljjKPFVO_minimax-h3.mp4",
+      "content_type": "video/mp4",
+      "file_name": "Up_EdrWEJlHaFljjKPFVO_minimax-h3.mp4",
+      "file_size": 2219073
+    },
+    "expanded_prompt": null,
+    "timings": {
+      "inference": 0.4833638140116818
+    }
+  },
+  "workspace_video": "assets/06-shots/videos/shot-01-take-01.mp4",
+  "sha256": "c17260b28af96d13009e583ebfa232be3932c7a702f4b59b50922bb4bb1512bc",
+  "file_size": 2219073,
+  "media_metadata": {
+    "tracks": [
+      {
+        "width": 832.0,
+        "height": 480.0,
+        "type": "vide"
+      },
+      {
+        "width": 0.0,
+        "height": 0.0,
+        "type": "soun"
+      }
+    ],
+    "duration_seconds": 3.072
+  },
+  "verification": "Download matches provider byte count. MP4 header and track metadata parsed; visual action and sound quality not reviewed.",
+  "user_feedback": "User reports approximately 4 steps per 3 seconds, slower than shot 3 at approximately 9 steps per 3 seconds."
+}

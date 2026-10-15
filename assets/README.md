@@ -9,7 +9,8 @@ separate. The user accepted shot-03-v03; other selections remain pending review.
 Open [GALLERY.md](GALLERY.md) to review the selected images.
 The [four video prompts](06-shots/video-prompts/README.md) now include action,
 camera, native sound, and edit notes. Shot 3 now uses v03 for the confirmed
-under-chin fisheye framing; the head-following movement still needs a video test.
+under-chin fisheye framing. The user is satisfied with the chin video and approved
+shot 1 take 5's picture. Badge and door motion still need improvement.
 [manifest.json](manifest.json) records selected versions, dimensions, hashes,
 reference dependencies, and review notes.
 
@@ -23,7 +24,7 @@ this batch. The closed-door anchor ends the fourth shot; it is not a fifth shot.
 |---|---|
 | Test stills | Built-in image generation |
 | Final assets | ElevenCreative |
-| Video | MiniMax H3, as named by the user; technical capabilities not yet checked |
+| Video | MiniMax H3 via fal; shot 1 take 5 uses H3 Max reference-to-video |
 | Scene audio | Native video audio; check continuity across clips in the edit |
 | Competition music | Separate original ElevenCreative jingle for the finished ad |
 | Character | Riley Brooks, 27, American, from Austin, Texas, slim, brunette |
@@ -182,5 +183,12 @@ image model to invent it. Preserve usable space at the bottom-right of the cut.
   reference remains relatively wide. Both are retained as test references;
   composed shot frames provide the tighter crops.
 
-These are generated test assets, not completed video, final competition assets,
+Eleven generated test takes are in `06-shots/videos/`. Shot 1 take 5's picture is
+user-approved; its [audio revision](06-shots/audio/README.md) awaits listening
+review. The user is satisfied with the chin shot, superseding earlier rejection
+notes; badge and doors remain unresolved. The full edit remains unfinished.
+See the [production scripts and reproduction commands](../scripts/README.md)
+for reference preparation, contact sheets, and local audio mixing.
+
+These are generated test assets, not final competition assets,
 or a submitted entry. User acceptance of shot-03-v03 covers the test still.

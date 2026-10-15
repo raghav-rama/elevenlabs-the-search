@@ -1,0 +1,61 @@
+{
+  "asset_id": "shot-01",
+  "take": 3,
+  "provider": "fal.ai",
+  "tool": "fal plugin",
+  "status": "COMPLETED",
+  "recipe": {
+    "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+    "input": {
+      "prompt": "A tight side-tracking close-up of a woman desperately sprinting to catch a train. The shot begins in the middle of her sprint: her legs are already cycling rapidly, taking quick, short, urgent steps. Each shoe barely touches the platform before pushing off; the opposite knee immediately drives forward. Fast, continuous footwork with no lingering on either foot. She keeps sprinting right through the end of the shot.\n\nThe low camera races alongside her legs at the same speed, keeping both shoes in frame while platform seams and the train slide rapidly past behind her. Play at normal real-time speed, with the urgency of a commuter seconds away from missing her train. No slow-motion treatment or starting from rest.\n\nPreserve the supplied image's framing, black skirt, sheer black tights, black block heels, station and morning lighting. Natural leg anatomy and grounded foot contacts. One unbroken shot.\n\nAudio consists only of rapid heel impacts, faint breath and station ambience. No speech, voiceover, announcements or music.",
+      "image_url": "https://v3b.fal.media/files/b/0aae7b6e/yPSeHn1_xpWS-hJDKJfcx_shot-01-v03.png",
+      "resolution": "480P",
+      "duration": 3,
+      "prompt_expansion_mode": "disabled",
+      "enable_safety_checker": true
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a13fc6-fc87-7c13-93dd-a8a8b7244710",
+  "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+  "status_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fc6-fc87-7c13-93dd-a8a8b7244710/status",
+  "response_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fc6-fc87-7c13-93dd-a8a8b7244710",
+  "cancel_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fc6-fc87-7c13-93dd-a8a8b7244710/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url to check status; once the job is COMPLETED, check_job returns its result too (get_job_result with response_url also works).",
+  "source_image": "assets/06-shots/images/shot-01-v03.png",
+  "source_sha256": "c6c5106131708fa6ee0f81b7518a6db8298494062c6ec59ef9e90b7039edc17b",
+  "planned_video": "assets/06-shots/videos/shot-01-take-03.mp4",
+  "estimated_cost_usd": 0.045,
+  "review_status": "rejected_accelerating_pace_and_train_pass",
+  "revision_reason": "User reports take 2 still has four steps, rejects retiming, and explicitly requests a different prompt. Describe an ongoing urgent sprint with quick short steps and immediate push-offs rather than numeric cadence.",
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aae7be0/HzijsP9LFRuW3GG0qkVYL_minimax-h3.mp4",
+      "content_type": "video/mp4",
+      "file_name": "HzijsP9LFRuW3GG0qkVYL_minimax-h3.mp4",
+      "file_size": 2261312
+    },
+    "expanded_prompt": null,
+    "timings": {
+      "inference": 0.5153175867162645
+    }
+  },
+  "workspace_video": "assets/06-shots/videos/shot-01-take-03.mp4",
+  "sha256": "d98cf236c3f2d7ab715e8f7c71fa8e8d1ce475b342bcbb09ee90e53301710722",
+  "file_size": 2261312,
+  "verification": "Download matches provider byte count and MP4 header; actual cadence and audio unreviewed. Original output, no retiming.",
+  "user_feedback": "Starts slow, picks up pace, then zooms past the train.",
+  "visual_review": {
+    "method": "24 sampled frames at 0.125-second intervals, AVFoundation decoding",
+    "contact_sheet": "assets/06-shots/reviews/shot-01-take-03-contact-sheet.png",
+    "observations": [
+      "Opening planted foot persists across several early samples; later leg cycles occur more quickly.",
+      "Train end becomes prominent around 2.375-2.5 seconds."
+    ],
+    "limits": "Sampled visual review, not full-frame contact counting or audio listening.",
+    "duration_seconds": 3.042,
+    "fps": 24
+  }
+}

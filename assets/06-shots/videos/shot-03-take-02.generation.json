@@ -1,0 +1,50 @@
+{
+  "asset_id": "shot-03",
+  "take": 2,
+  "provider": "fal.ai",
+  "tool": "fal plugin",
+  "status": "COMPLETED",
+  "recipe": {
+    "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+    "input": {
+      "prompt": "Animate this exact starting frame as a single 3-second head-mounted fisheye running shot.\n\nCAMERA LOCK: The camera is rigidly coupled to Riley's head immediately beneath her chin. It travels forward with her and matches every vertical and rotational movement of her head. Her chin remains pinned to EXACTLY the same screen coordinates as in the starting image, at the same size and distance from the lens throughout. Her face stays locked in the frame. Preserve the starting camera angle and strong fisheye distortion.\n\nBACKGROUND MOTION: Riley runs forward through the station. Roof beams and skylights visibly pass overhead and recede behind her. With each footstep the entire station background shifts up and down and rolls slightly AROUND her anchored face. The camera and Riley move together through the world; the station architecture itself is solid and does not deform. This is a head-attached camera view, with the face steady and the environment moving.\n\nHer shoulders bounce below her fixed chin, her bob flutters, and her lips part with breathless exertion. Keep her identity, anatomical-left mole, white collar, burgundy lanyard, right-shoulder black bag strap, and morning lighting exactly as in the image. Sustain the same running motion through the final frame.\n\nNo head bobbing within the frame, stationary background, detached tracking camera, zoom, face morphing, visible rig, or cuts. Sound: panting, rhythmic heel strikes, quiet station ambience. No speech or music.",
+      "image_url": "https://v3b.fal.media/files/b/0aae7040/RV-EHW-v6pnahTMuEZQdY_shot-03-v03.png",
+      "resolution": "480P",
+      "duration": 3,
+      "prompt_expansion_mode": "disabled",
+      "enable_safety_checker": true
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a13f9f-b3d1-79a1-8ca8-aca7f03258ee",
+  "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+  "status_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13f9f-b3d1-79a1-8ca8-aca7f03258ee/status",
+  "response_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13f9f-b3d1-79a1-8ca8-aca7f03258ee",
+  "cancel_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13f9f-b3d1-79a1-8ca8-aca7f03258ee/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url to check status; once the job is COMPLETED, check_job returns its result too (get_job_result with response_url also works).",
+  "source_image": "assets/06-shots/images/shot-03-v03.png",
+  "source_sha256": "4a2dc880ca02e10e96b1e351e838e1abc583ed683d7d150c829a10f161764a67",
+  "planned_video": "assets/06-shots/videos/shot-03-take-02.mp4",
+  "estimated_cost_usd": 0.045,
+  "review_status": "rejected_camera_motion_and_background_artifacts",
+  "revision_reason": "User reported stationary background and moving chin in take 1; emphasize rigid camera/head coupling and fixed chin screen coordinates.",
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aae7adf/HkOJZteFIBch3pfwYhD0g_minimax-h3.mp4",
+      "content_type": "video/mp4",
+      "file_name": "HkOJZteFIBch3pfwYhD0g_minimax-h3.mp4",
+      "file_size": 3786237
+    },
+    "expanded_prompt": null,
+    "timings": {
+      "inference": 0.4890421647578478
+    }
+  },
+  "workspace_video": "assets/06-shots/videos/shot-03-take-02.mp4",
+  "sha256": "787fbee76cd9946d2cab2c6ea36d3854a99d7cdbcfdfcd72f16773edc4a180ff",
+  "file_size": 3786237,
+  "verification": "Download matches provider byte count and has MP4 header; motion and audio unverified.",
+  "user_feedback": "Still the same camera failure; worse than take 1. Some subway windows are grainy. User suspects prompt complexity and requests a different model with a simpler prompt."
+}

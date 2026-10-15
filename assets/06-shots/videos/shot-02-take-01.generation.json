@@ -1,0 +1,65 @@
+{
+  "asset_id": "shot-02",
+  "take": 1,
+  "provider": "fal.ai",
+  "tool": "fal plugin",
+  "status": "COMPLETED",
+  "recipe": {
+    "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+    "input": {
+      "prompt": "Animate the supplied extreme badge close-up as one continuous photorealistic 16:9 shot while Riley runs. The portrait-format employee card remains in its clear rigid holder on the same burgundy lanyard and metal swivel clip. The holder occupies roughly 80 percent of frame height. Preserve the exact printed portrait and exact text: KORVEX, Riley Brooks, EMPLOYEE. The portrait is a static printed photograph throughout.\n\nThe close camera moves with her torso, keeping the badge centered while her running produces a small natural pendulum swing. Let the badge swing outward from the white shirt, tilt slightly toward the lens for one clearly readable beat, and settle back toward the fabric. The clip remains connected and the lanyard carries its weight continuously. Small secondary shirt ripples and plastic reflections follow the motion. Use the same physical badge size; achieve the tight framing through camera proximity. Keep the face, waist, hands, and whole bag out of frame.\n\nMaintain soft 8:30 a.m. station daylight and subtle cyan/magenta reflections on the plastic. No independent motion inside the portrait, changing letters, duplicated cards, detached clip, tangled strap, exaggerated spinning, abrupt zoom, cuts, or added graphics. Keep enough sharpness during the forward swing to register her portrait and employer immediately.\n\nNative sound: a light plastic-and-metal badge rattle, a soft tap against cotton, shirt rustle, continuing hurried heel strikes beneath the frame, and the same adult woman's running breath within spacious station ambience. Match the tempo of an ordinary hurried run. No music, narration, speech, or added announcement. Continue the motion naturally through the end.",
+      "image_url": "https://v3b.fal.media/files/b/0aae7b6f/m58KcsFV4iFrwUhDP0bvF_shot-02-v02.png",
+      "resolution": "480P",
+      "duration": 3,
+      "prompt_expansion_mode": "disabled",
+      "enable_safety_checker": true
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a13fb6-dcc8-7063-ba23-f80321834c58",
+  "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+  "status_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fb6-dcc8-7063-ba23-f80321834c58/status",
+  "response_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fb6-dcc8-7063-ba23-f80321834c58",
+  "cancel_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fb6-dcc8-7063-ba23-f80321834c58/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url to check status; once the job is COMPLETED, check_job returns its result too (get_job_result with response_url also works).",
+  "source_image": "assets/06-shots/images/shot-02-v02.png",
+  "source_sha256": "4e9aa151d12f021bef61533d0d4ac557d360ec4e3ddfcb9fb0e1b4f30386d5a5",
+  "planned_video": "assets/06-shots/videos/shot-02-take-01.mp4",
+  "estimated_cost_usd": 0.045,
+  "pricing_basis": "0.015 USD per second x 3 requested seconds; estimate, not actual charge.",
+  "review_status": "rejected_slow_cadence_and_unwanted_speech",
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aae7b77/4cT7cNLW3CliXjxdbMWgh_minimax-h3.mp4",
+      "content_type": "video/mp4",
+      "file_name": "4cT7cNLW3CliXjxdbMWgh_minimax-h3.mp4",
+      "file_size": 1888015
+    },
+    "expanded_prompt": null,
+    "timings": {
+      "inference": 0.5189498560503125
+    }
+  },
+  "workspace_video": "assets/06-shots/videos/shot-02-take-01.mp4",
+  "sha256": "8503e1dc12b51fee222f188f925b222fff75ba74ea6442223521e26efd5d4e30",
+  "file_size": 1888015,
+  "media_metadata": {
+    "tracks": [
+      {
+        "width": 832.0,
+        "height": 480.0,
+        "type": "vide"
+      },
+      {
+        "width": 0.0,
+        "height": 0.0,
+        "type": "soun"
+      }
+    ],
+    "duration_seconds": 3.072
+  },
+  "verification": "Download matches provider byte count. MP4 header and track metadata parsed; visual action and sound quality not reviewed.",
+  "user_feedback": "User reports approximately 4 steps per 3 seconds, slower than shot 3 at approximately 9 steps per 3 seconds. Also unwanted voiceover says Riley Brooks; speech must be absent."
+}

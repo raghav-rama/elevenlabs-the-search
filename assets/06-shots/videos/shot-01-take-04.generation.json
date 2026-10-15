@@ -1,0 +1,63 @@
+{
+  "asset_id": "shot-01",
+  "take": 4,
+  "provider": "fal.ai",
+  "tool": "fal plugin",
+  "status": "COMPLETED",
+  "recipe": {
+    "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+    "input": {
+      "prompt": "Side-on tracking close-up of the legs in the supplied image, already in a fast, steady run. This is a three-second excerpt from the middle of a longer run. The opening stride continues immediately with a quick push-off, and the same brisk tempo repeats evenly from beginning to end. Short, quick alternating steps; brief ground contact, immediate toe-off and rapid leg recovery. Keep a high step frequency with a short stride length, so the feet work quickly without the runner covering a huge distance. No slow opening, build-up, acceleration, speed ramp or final burst.\n\nThe camera stays beside her at shin height, travelling at exactly her constant forward speed. Her hips and legs remain centered at a constant size. The long stationary train extends beyond both sides of the frame for the entire shot; its carriage windows drift past at a steady, moderate rate. Never reach or reveal the train's front or rear. Keep the same tight crop, black skirt, sheer black tights, black block heels, realistic grounded steps and morning station lighting. One uninterrupted shot.\n\nOnly brisk synchronized footfalls, soft breathing and station ambience. No speech, narration or music.",
+      "image_url": "https://v3b.fal.media/files/b/0aae7b6e/yPSeHn1_xpWS-hJDKJfcx_shot-01-v03.png",
+      "resolution": "480P",
+      "duration": 3,
+      "prompt_expansion_mode": "disabled",
+      "enable_safety_checker": true
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a13fd1-af68-77c3-aff5-6063c0af8ce6",
+  "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+  "status_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fd1-af68-77c3-aff5-6063c0af8ce6/status",
+  "response_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fd1-af68-77c3-aff5-6063c0af8ce6",
+  "cancel_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13fd1-af68-77c3-aff5-6063c0af8ce6/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url to check status; once the job is COMPLETED, check_job returns its result too (get_job_result with response_url also works).",
+  "source_image": "assets/06-shots/images/shot-01-v03.png",
+  "source_sha256": "c6c5106131708fa6ee0f81b7518a6db8298494062c6ec59ef9e90b7039edc17b",
+  "planned_video": "assets/06-shots/videos/shot-01-take-04.mp4",
+  "estimated_cost_usd": 0.045,
+  "review_status": "assistant_rejected_slow_cadence_pending_user_review",
+  "revision_reason": "After frame inspection of take 3, replace accelerating sprint language with constant high cadence, short strides and moderate uniform background travel. Keep train end out of view.",
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aae7c26/T0aSh2xrwLJulFht59wyA_minimax-h3.mp4",
+      "content_type": "video/mp4",
+      "file_name": "T0aSh2xrwLJulFht59wyA_minimax-h3.mp4",
+      "file_size": 2250347
+    },
+    "expanded_prompt": null,
+    "timings": {
+      "inference": 0.4963858714327216
+    }
+  },
+  "workspace_video": "assets/06-shots/videos/shot-01-take-04.mp4",
+  "sha256": "9fbfb42b8cc6253d7bce8637374f5a73ff36049d248b10241300768f2242814b",
+  "file_size": 2250347,
+  "verification": "Download matches provider byte count. AVFoundation decoded 24 sampled frames at 0.125-second intervals. No retiming.",
+  "media_metadata": {
+    "duration_seconds": 3.042,
+    "fps": 24,
+    "audio_tracks": 1
+  },
+  "visual_review": {
+    "contact_sheet": "assets/06-shots/reviews/shot-01-take-04-contact-sheet.png",
+    "observations": [
+      "Train remains alongside throughout sampled sequence; no train end visible.",
+      "Pace is more even than take 3 but remains too slow.",
+      "Approximately five new foot landings after opening stance in sampled sequence; below requested nine contacts per three seconds."
+    ],
+    "limitations": "Sample-based approximate contact count; audio not listened to. Not user-approved."
+  }
+}

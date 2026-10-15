@@ -1,0 +1,47 @@
+{
+  "asset_id": "shot-03",
+  "take": 3,
+  "provider": "fal.ai",
+  "tool": "fal plugin",
+  "status": "COMPLETED",
+  "recipe": {
+    "endpoint_id": "fal-ai/kling-video/v3/standard/image-to-video",
+    "input": {
+      "prompt": "Head-mounted snorricam, fisheye lens beneath her chin. She runs through the station, panting. Her chin stays in the same place in frame while the station ceiling sweeps backward and bounces around her with each footstep. Preserve the starting image's angle, face and outfit. One continuous shot. Footsteps and breathing, no speech or music.",
+      "start_image_url": "https://v3b.fal.media/files/b/0aae7040/RV-EHW-v6pnahTMuEZQdY_shot-03-v03.png",
+      "duration": "3",
+      "generate_audio": true,
+      "negative_prompt": "",
+      "enable_safety_checker": true
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a13fa6-4b07-7c60-834e-6383eded33b7",
+  "endpoint_id": "fal-ai/kling-video/v3/standard/image-to-video",
+  "status_url": "https://queue.fal.run/fal-ai/kling-video/requests/01a13fa6-4b07-7c60-834e-6383eded33b7/status",
+  "response_url": "https://queue.fal.run/fal-ai/kling-video/requests/01a13fa6-4b07-7c60-834e-6383eded33b7",
+  "cancel_url": "https://queue.fal.run/fal-ai/kling-video/requests/01a13fa6-4b07-7c60-834e-6383eded33b7/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url to check status; once the job is COMPLETED, check_job returns its result too (get_job_result with response_url also works).",
+  "source_image": "assets/06-shots/images/shot-03-v03.png",
+  "source_sha256": "4a2dc880ca02e10e96b1e351e838e1abc583ed683d7d150c829a10f161764a67",
+  "planned_video": "assets/06-shots/videos/shot-03-take-03.mp4",
+  "estimated_base_cost_usd": 0.42,
+  "pricing_note": "Account tool rate 0.14 USD/second x 3. Public page lists 0.126 USD/second with audio; actual billing unverified.",
+  "review_status": "rejected_running_start",
+  "revision_reason": "User rejected take 2 as worse than take 1, with stationary background, moving chin and grainy subway windows. User requested a different model and simple prompt. Switched from H3 Max Turbo to Kling 3.0 Standard.",
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aae7b15/3Xe_01dCR3wFiskqL7GSg_output.mp4",
+      "content_type": "video/mp4",
+      "file_name": "output.mp4",
+      "file_size": 9860013
+    }
+  },
+  "workspace_video": "assets/06-shots/videos/shot-03-take-03.mp4",
+  "sha256": "0927c51601cf9ff8c8079cdee6445dd48030af263debfd730530f43edc56e9a2",
+  "file_size": 9860013,
+  "verification": "Download byte count matches provider and MP4 header is present. Motion and audio not yet reviewed.",
+  "user_feedback": "She starts running in take 3, whereas previous takes show her already running. User requests take 1 exact prompt on Kling."
+}

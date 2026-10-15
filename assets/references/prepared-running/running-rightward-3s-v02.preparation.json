@@ -1,0 +1,25 @@
+{
+  "source_file": "assets/references/Slow motion running - side view (focus on legs).mp4",
+  "source_url": "https://www.youtube.com/watch?v=p7sKgRAkVmw",
+  "source_sha256": "dc151696c8b1768dfe8cd01a3f61569a0e0dbe340e8e8537aa1811988b98c52c",
+  "source_range_seconds": [
+    1.0,
+    26.2
+  ],
+  "speed_multiplier": 8.4,
+  "horizontal_flip": true,
+  "audio_removed": true,
+  "duration_seconds": 3.0,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "output_file": "assets/references/prepared-running/running-rightward-3s-v02.mp4",
+  "output_sha256": "6506cf35e32931075fb55293f15aeaca2577cf75ce7b1c607568c930e2c04b82",
+  "file_size": 2440220,
+  "review_status": "recommended_reference_pending_user_review",
+  "visual_review": "v02: approximately nine new alternating landings across three seconds, reviewed using 0.125-second samples plus all native frames in final second. Contacts approximately one third second apart. Source overlays and stand remain.",
+  "original_and_generated_takes_modified": false,
+  "model_submission": false
+}

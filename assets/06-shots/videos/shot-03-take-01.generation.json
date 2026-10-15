@@ -1,0 +1,50 @@
+{
+  "asset_id": "shot-03",
+  "take": 1,
+  "provider": "fal.ai",
+  "tool": "fal plugin",
+  "status": "COMPLETED",
+  "recipe": {
+    "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+    "input": {
+      "prompt": "One continuous photorealistic 16:9 running shot with a pronounced ultra-wide fisheye lens. Riley is the same 27-year-old brunette woman in the reference, with the same brown bob, facial identity, natural skin, and mole beneath her anatomical LEFT eye. She is an ordinary breathless commuter before any upgrade, wearing the same white collared shirt, burgundy lanyard, and black bag strap over her right shoulder.\n\nThe tiny camera sits very close just BELOW AND SLIGHTLY IN FRONT OF HER CHIN, pointing steeply upward toward her face, as though carried on a short invisible rig fixed to her head. The camera translates and rotates with her head's running motion, keeping a nearly constant distance and angle to the chin. Her chin stays approximately anchored near the lower center of frame. It has small natural motion from her jaw and breathing; her face does not drift away from the lens. Her chin and lower face loom large, the forehead recedes, and the ceiling lines curve strongly around her. Preserve her recognizable facial features within the deliberate optical distortion.\n\nAs she runs, she pants through parted lips, her jaw moves naturally, her eyes remain focused ahead, and her bob flutters. Her shoulders bounce independently near the lower edges. Because the camera follows her head, the station ceiling, skylights, and cyan/magenta light strips bob and roll around the relatively anchored face. Forward motion carries the ceiling structure past overhead. This background movement is rhythmic and connected to real footfalls, not random camera shake.\n\nKeep the lens distortion constant throughout and retain diffuse 8:30 a.m. daylight. Use a full-frame fisheye image filling the 16:9 canvas as the working presentation. The camera is not an external tracking camera, a selfie held at arm's length, a chest-mounted camera, or a view from above. No visible rig, circular black border, sunglasses, copied stock-photo person, grin, dialogue, implants, face morphing, cuts, zooms, or unrelated wobble effects.\n\nNative sound: close, natural adult female panting and short exhales synchronized with her mouth and jaw, continued hurried heel impacts below frame, subtle collar and strap movement, and station ambience. A distant departure warning chime may begin near the end. No music, narration, or spoken words. Keep her running and panting through the end for a direct cut to the wider doorway shot.",
+      "image_url": "https://v3b.fal.media/files/b/0aae7040/RV-EHW-v6pnahTMuEZQdY_shot-03-v03.png",
+      "resolution": "480P",
+      "duration": 3,
+      "prompt_expansion_mode": "disabled",
+      "enable_safety_checker": true
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a13e04-74ce-78f1-98a5-8a232f75b713",
+  "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+  "status_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13e04-74ce-78f1-98a5-8a232f75b713/status",
+  "response_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13e04-74ce-78f1-98a5-8a232f75b713",
+  "cancel_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a13e04-74ce-78f1-98a5-8a232f75b713/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url to check status; once the job is COMPLETED, check_job returns its result too (get_job_result with response_url also works).",
+  "source_image": "assets/06-shots/images/shot-03-v03.png",
+  "source_sha256": "4a2dc880ca02e10e96b1e351e838e1abc583ed683d7d150c829a10f161764a67",
+  "planned_video": "assets/06-shots/videos/shot-03-take-01.mp4",
+  "estimated_cost_usd": 0.045,
+  "pricing_basis": "0.015 USD per second x 3 requested seconds; estimate, not actual charge.",
+  "review_status": "rejected_camera_motion",
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aae7058/87jqnNKzc5kSEhwozrEgl_minimax-h3.mp4",
+      "content_type": "video/mp4",
+      "file_name": "87jqnNKzc5kSEhwozrEgl_minimax-h3.mp4",
+      "file_size": 3519921
+    },
+    "expanded_prompt": null,
+    "timings": {
+      "inference": 0.4858277269813698
+    }
+  },
+  "workspace_video": "assets/06-shots/videos/shot-03-take-01.mp4",
+  "sha256": "8b41d5119b20dec4a2ca3140e1dea53f99334d636911cc3d58a3a8c13e5b6f92",
+  "file_size": 3519921,
+  "verification": "Downloaded size matches provider result; MP4 ftyp header present. ffprobe unavailable; duration, stream details and audio unverified.",
+  "user_feedback": "Camera placement is correct, but her chin moves while the subway background stays stationary. Camera does not follow the chin."
+}

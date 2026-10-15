@@ -1,0 +1,18 @@
+{
+  "source_file": "assets/references/Slow motion running - side view (focus on legs).mp4",
+  "source_url": "https://www.youtube.com/watch?v=p7sKgRAkVmw",
+  "sha256": "dc151696c8b1768dfe8cd01a3f61569a0e0dbe340e8e8537aa1811988b98c52c",
+  "duration_seconds": 32.032,
+  "nominal_fps": 29.97003,
+  "audio_tracks": 1,
+  "review_method": "AVFoundation timestamped contact sheets; 24 overview samples at 1.3 s requested intervals, 24 opening samples at 0.3336667 s requested intervals. Labels show actual decoded timestamps.",
+  "estimated_alternating_contact_interval_seconds": 2.6,
+  "target_contacts_per_second": 3,
+  "estimated_reference_speed_multiplier_for_target": 7.8,
+  "estimate_limits": "Approximate sampled visual measurement, not frame-exact event annotation. Multiplier matches the creative target; original real-time playback speed is not established by the export FPS.",
+  "changes_to_source": "None",
+  "derived_motion_video_created": true,
+  "generation_submitted": false,
+  "prepared_reference": "assets/references/prepared-running/running-rightward-3s-v02.mp4",
+  "prepared_reference_note": "User authorized reference-only speed adjustment and horizontal flip. Final selected preparation uses 8.4x following cadence review; original unchanged."
+}

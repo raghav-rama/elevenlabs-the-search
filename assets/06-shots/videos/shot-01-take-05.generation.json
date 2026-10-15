@@ -1,0 +1,93 @@
+{
+  "asset_id": "shot-01",
+  "take": 5,
+  "provider": "fal.ai",
+  "tool": "fal plugin",
+  "status": "COMPLETED",
+  "recipe": {
+    "endpoint_id": "minimax/h3-max/reference-to-video",
+    "input": {
+      "prompt": "Use Image 1 for the commuter's appearance, black skirt, sheer black tights, black block heels, futuristic train, morning lighting and tight side-on legs composition. Use Video 1 only for the running motion and its timing. Transfer its continuous alternating leg cycles and foot-contact rhythm at the reference's supplied playback speed: approximately nine footfalls across three seconds. She is already running in the opening frame and continues the same steady cadence through the end.\n\nShe runs to the right along the platform. The camera tracks beside her at shin height, keeping her legs centered at a constant size. The long stationary train remains alongside; its windows pass behind her at a uniform moderate rate. Preserve the train and platform from Image 1. Render clean photorealistic footage without the reference video's colored tracking lines, treadmill, stands or laboratory background. One uninterrupted shot, no start-up, acceleration or cuts.\n\nAudio: heel impacts and quiet station ambience only; no speech, narration or music.",
+      "reference_image_urls": [
+        "https://v3b.fal.media/files/b/0aae7f89/zxhkZH19wDQWfO0_zw7tz_shot-01-v03.png"
+      ],
+      "reference_video_urls": [
+        "https://v3b.fal.media/files/b/0aae7f8a/v-KvFEQnSeP8unlhVKKgO_running-rightward-3s-v02.mp4"
+      ],
+      "duration": 3,
+      "resolution": "480P",
+      "aspect_ratio": "16:9",
+      "seed": 20261015,
+      "prompt_expansion_mode": "disabled",
+      "enable_safety_checker": true
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a14057-1035-7893-aff1-9a76b15d8adf",
+  "endpoint_id": "minimax/h3-max/reference-to-video",
+  "status_url": "https://queue.fal.run/minimax/h3-max/requests/01a14057-1035-7893-aff1-9a76b15d8adf/status",
+  "response_url": "https://queue.fal.run/minimax/h3-max/requests/01a14057-1035-7893-aff1-9a76b15d8adf",
+  "cancel_url": "https://queue.fal.run/minimax/h3-max/requests/01a14057-1035-7893-aff1-9a76b15d8adf/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url to check status; once the job is COMPLETED, check_job returns its result too (get_job_result with response_url also works).",
+  "source_image": "assets/06-shots/images/shot-01-v03.png",
+  "source_motion_reference": "assets/references/prepared-running/running-rightward-3s-v02.mp4",
+  "planned_video": "assets/06-shots/videos/shot-01-take-05.mp4",
+  "estimated_cost_usd": 0.15,
+  "review_status": "user_approved_visuals_audio_revision_requested",
+  "revision_reason": "User approved prepared 8.4x rightward motion reference and requested a test. Change from Turbo I2V to H3 Max Reference to Video, using appearance image and motion video without a fixed first-frame constraint.",
+  "comparison_limitations": "Single reference-conditioned trial, not a controlled same-endpoint A/B. Earlier takes omitted seeds.",
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aae7f91/cO1t8hH-ckPpsz9xEzFXL_minimax-h3.mp4",
+      "content_type": "video/mp4",
+      "file_name": "cO1t8hH-ckPpsz9xEzFXL_minimax-h3.mp4",
+      "file_size": 2266273
+    },
+    "expanded_prompt": null,
+    "seed": 20261015,
+    "timings": {
+      "inference": 1.2488781390711665
+    }
+  },
+  "returned_seed": 20261015,
+  "workspace_video": "assets/06-shots/videos/shot-01-take-05.mp4",
+  "sha256": "9cb863866597d4ea69c0ec37b17a7004809c61069ed0781095f99f4deb37c2cd",
+  "file_size": 2266273,
+  "media_metadata": {
+    "duration_seconds": 3.042,
+    "fps": 24,
+    "audio_tracks": 1
+  },
+  "visual_review": {
+    "method": "24 sampled frames plus native-frame sheet covering 0 through 2.958 seconds at 24fps",
+    "contact_sheet": "assets/06-shots/reviews/shot-01-take-05-contact-sheet.png",
+    "native_frame_sheet": "assets/06-shots/reviews/shot-01-take-05-native-frames.jpg",
+    "approximate_new_contact_times_seconds": [
+      0.54,
+      0.96,
+      1.33,
+      1.71,
+      2.12,
+      2.5,
+      2.88
+    ],
+    "observations": [
+      "Approximately seven new landings after the opening planted-foot stance, below target of nine.",
+      "More frequent leg cycles than take 4, but opening stance persists before the first new landing.",
+      "Train remains alongside; no source tracking lines, treadmill or stand visible in reviewed frames."
+    ],
+    "limitations": "Manual visual contact timing is approximate; user subsequently approved the picture despite the counted cadence. Original audio was not listened to by the assistant. Single trial does not isolate endpoint from reference-conditioning effects."
+  },
+  "verification": "Provider byte count matches download; video decoded at native 24fps. No retiming of generated output.",
+  "visual_user_approved": true,
+  "user_feedback": "It looks perfect! Just need to fix audio. User wants train ambience like shot-03 take-01.",
+  "audio_edits": [
+    {
+      "video": "assets/06-shots/videos/shot-01-take-05-audio-v01.mp4",
+      "record": "assets/06-shots/videos/shot-01-take-05-audio-v01.audio-edit.json",
+      "status": "technical_checks_passed_pending_user_listening"
+    }
+  ]
+}

@@ -87,7 +87,19 @@ project links so the production process can be demonstrated.
 ## Locked opening
 
 Latest production decisions: test stills with the built-in image generator;
-final assets through ElevenCreative; intended video model is MiniMax H3.
+final still assets through ElevenCreative; video generation now uses fal.ai.
+The first test uses MiniMax H3 Max Turbo at 480P with a requested 3-second
+duration and prompt expansion disabled. Shot-03 take 1 was rejected because
+the chin moved against a stationary background. Take 2 was also rejected, with
+worse motion and grainy windows. The user requested a different model and a
+simple prompt; take 3 tested Kling 3.0 Standard with audio for 3 seconds.
+The user rejected take 3 because she starts running instead of already running.
+Take 4 used take 1's exact prompt on Kling and was also rejected for starting
+to run. Stop Kling tests for this shot: the user finds it unsuitable and more
+expensive. H3 take 1 remains the better running-motion baseline, but its chin
+tracking failed. The user chose to continue with H3 Max Turbo for the remaining
+shots. Shots 1, 2 and 4 now have first test takes at 480P, requested 3 seconds,
+with prompt expansion disabled; review is pending. No video take is approved.
 Official MiniMax and ElevenLabs pages checked on 2026-10-15 confirm reference-led
 video generation; MiniMax documents native stereo audio. Links and interface
 limits are recorded in assets/06-shots/video-prompts/README.md. Use native
@@ -225,3 +237,51 @@ commands. Keep production materials understandable and record new approved
 decisions as the project develops. Preserve the transcript as historical evidence;
 update this guidance when the user changes direction. Report created assets and
 checks honestly; distinguish proposals, generated outputs, and reviewed outputs.
+
+## Latest motion and audio feedback
+
+The user reports shots 1, 2 and 4 are too slow: roughly 4 footfalls in 3 seconds
+versus roughly 9 in shot 3. Match approximately 3 alternating footfalls per
+second, already running from the first frame, until shot 4 brakes. Badge take 1
+also contains unwanted narration saying Riley Brooks. Speech must be absent.
+The accepted next workflow is to test running legs first, review the cadence,
+then regenerate badge and doors and use a shared speech-free effects track in
+the edit. Shot-01 take 2 was rejected as unchanged at four steps. The user
+explicitly rejected speed adjustment and requested a different prompt. Take 3
+used qualitative sprint direction and was rejected for starting slow,
+accelerating and passing the train. Assistant inspected 24 sampled frames each
+of takes 3 and 4. Take 4 keeps the train alongside and has more even motion, but
+still fails the cadence target (about five new landings after the initial stance).
+No legs video is selected; badge and door regeneration remain pending.
+No generated ad take was retimed. The shared audio track has not been created.
+
+The user subsequently confirmed satisfaction with the existing chin shot; do not
+regenerate or stabilize it unless asked. They did not identify an exact take
+number in that acceptance. Shots 1, 2 and 4 still need improvement.
+
+The user supplied a slow-motion side-view running video and approved preparing
+a separate reference copy: `assets/references/prepared-running/running-rightward-3s-v02.mp4`.
+It uses a 1.0–26.2-second source excerpt at 8.4×, mirrored rightward, with no audio,
+for approximately nine new alternating contacts in three seconds. The user
+accepted this prepared reference and authorized a legs test with it. This
+reference-only timing change does not authorize retiming generated ad takes.
+Shot-01 take 5 tests `minimax/h3-max/reference-to-video` at 480P with the selected
+legs appearance image and prepared motion video. Keep the supplied source and
+preparation records; the reference's tracking lines and stand remain visible.
+Take 5 is generated. Assistant native-frame review finds approximately seven new
+landings after the opening stance, below nine; no source overlays or stand are
+visible in the reviewed output. User review is pending. No additional paid test
+or regeneration of the other shots has been submitted.
+
+Latest decision: the user says shot-01 take 5 looks perfect and requests only
+an audio fix, matching the train sound in shot-03 take 1. The picture is approved;
+do not regenerate it or continue chasing an exact nine-contact count. A local
+audio revision, `shot-01-take-05-audio-v01.mp4`, layers shot-03 take 1's full native
+soundtrack under the legs audio. Its compressed video payload and timestamps
+match the approved original. The source is not an isolated train stem and may
+include breathing/footsteps; the new audio balance awaits user listening review.
+
+Keep local editing and review scripts in the repository with reproduction
+commands; see `scripts/README.md`. Temporary script variants must be captured
+or consolidated into maintained scripts. The badge compositing approach in
+its shot document is a proposal, not an approved generated or edited take.
