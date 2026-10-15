@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-10-15T18:30:17.611Z",
+  "status": "exploratory_demo_not_selected",
+  "actual_duration_seconds": 12,
+  "file": "afterhuman-demo-v01.mp3",
+  "sha256": "c0fbbecbf21a2e66ba5be57b10a5b5788bd0923760f7449a4c66037fac18923d",
+  "file_verification": "MP3, stereo, 48000 Hz, 192 kbps; afinfo estimated container duration 12.024 seconds; 576000 valid audio frames. Listening review not performed.",
+  "provider": "ElevenLabs",
+  "transport": "ElevenLabs MCP",
+  "prompt": "A 12-second futuristic electro-funk advertising jingle at 120 BPM, playful and confidently aspirational, with a punchy syncopated synth bass, crisp drum-machine claps, bright glassy synth plucks and three rhythmic metallic clicks. Clear adult female lead vocals in English, dry and upfront, singing an instantly hummable four-note motif on 'Afterhuman' (AF-ter-HYOO-man), repeating exactly the same brand melody at the end with light vocal harmonies. Start singing immediately, fit the supplied lyrics comfortably, and end with a clean resolved sonic-logo chord; polished premium pop production, no spoken narration, no long intro or fadeout.",
+  "lyrics": "Afterhuman, a step ahead.\nMissed your train? Beat it there.\nAfterhuman, a step ahead.",
+  "model_id": "eleven_music_v2",
+  "duration_seconds": 12,
+  "model_parameters": {
+    "duration_seconds": 12,
+    "lyrics_type": "custom",
+    "instrumental": false,
+    "lyrics": "Afterhuman, a step ahead.\nMissed your train? Beat it there.\nAfterhuman, a step ahead."
+  },
+  "flow_id": "yEGTALXtr4AhdsV0DdYX",
+  "node_id": "kI7DYCQxIAsbgEzvV95d",
+  "session_ids": [
+    "EnW9c0Dj4GjbQwvP4EdJ"
+  ],
+  "generation_id": "jxDs53D0ihKQ4IDxn1mr",
+  "flow_url": "https://elevenlabs.io/app/flows/yEGTALXtr4AhdsV0DdYX",
+  "generations_count": 1,
+  "estimate": {
+    "credits": 164.83516483516482,
+    "price_cents": 528,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 71
+  },
+  "reported_credit_cost": 180,
+  "review": "User liked this as exploration, then explicitly clarified this exact demo will not be used. A more polished jingle is intended for the ad. No final lyric, melody, voice or arrangement is selected. Assistant listening review was not performed.",
+  "placement": "A future more polished jingle is intended after the opening hook and medical procedures; this exploratory take is not selected for placement.",
+  "feedback_recorded_at": "2026-10-16T00:05:10+05:30"
+}

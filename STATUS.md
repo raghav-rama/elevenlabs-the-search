@@ -369,3 +369,44 @@ as present or silently substitute another source.
   to `7c95e3e`. This supersedes the earlier pending-publication entries.
 - This entry is a follow-up ledger record of that completed publication.
 - Next production task remains shot 4; jingle work remains deferred.
+
+## 2026-10-16T00:02:40+05:30 — One short AFTERHUMAN jingle demo
+
+- User explicitly requested a demo jingle, reopening this work despite the prior
+  deferral, then requested low credit use and ElevenLabs MCP generation.
+- Generated exactly one 12-second take with `eleven_music_v2` through the MCP.
+  Requested electro-funk, adult female singing and the original proposed hook
+  “Afterhuman, a step ahead / Missed your train? Beat it there / Afterhuman, a step ahead.”
+- Read-only estimate was 164.835 credits; actual generation reported 180 credits.
+  No additional variations or paid review calls were made.
+- Saved [audio, lyrics and review notes](assets/07-jingle/README.md) and the
+  [exact prompt/settings/IDs](assets/07-jingle/afterhuman-demo-v01.generation.json).
+  Provider reported completed; local file inspection verified stereo MP3,
+  48 kHz, 192 kbps and 12 seconds of valid audio; SHA-256 recorded.
+- Initial sandbox download failed DNS resolution; the authorized host download
+  succeeded. This did not repeat generation or spend additional credits.
+- Listening review and user acceptance remain pending. This is a demo, not an
+  approved jingle or final mix. Opening visuals remain unchanged; shot 4 is still
+  unresolved. Public contest sharing and a Studio project remain future work.
+
+## 2026-10-16T00:04:40+05:30 — Jingle demo approved; commit and push requested
+
+- User approved demo v01 ("Ok this looks good") and intends to use it after the
+  original video hook, once the medical procedures are done. Exact edit timing
+  and the final mix remain pending; the opening pictures are unchanged.
+- Updated the jingle README and generation record to reflect user approval,
+  superseding the earlier pending-review entry. No further credits were used.
+- User requested committing and pushing the demo and notes. Verified the MP3
+  SHA-256 against its generation record. Publication outcome will be recorded
+  after the signed commit and push complete.
+
+## 2026-10-16T00:05:10+05:30 — Correction: exploration only; more polished jingle intended
+
+- User clarified: "I mean i will not put this, this is just exploration" and
+  "But something more polished". This supersedes the preceding interpretation
+  that demo v01 was approved or selected for placement.
+- Retain this take as exploration only. A future, more polished jingle is intended
+  after the original opening hook and medical procedures; exact timing is open.
+- Updated the README and generation record accordingly. No final lyric, melody,
+  voice or arrangement is selected. No additional generation or credits used.
+- The requested commit/push will preserve this corrected exploratory status.
