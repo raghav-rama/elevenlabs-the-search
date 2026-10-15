@@ -1,0 +1,41 @@
+{
+  "audio_removed": true,
+  "audio_tracks": 0,
+  "crop_normalized_top_left": {
+    "height": 0.8,
+    "width": 0.8,
+    "x": 0,
+    "y": 0
+  },
+  "duration_seconds": 3,
+  "file_size": 2757300,
+  "fps": 29.999998092651367,
+  "horizontal_flip": false,
+  "model_submission": true,
+  "notes": "User-recorded badge motion only. Appearance differs from Riley; pair with her badge still. Fixed crop, no time scaling or motion interpolation.",
+  "output_file": "assets/references/prepared-badge/badge-motion-3s-v02.mp4",
+  "output_sha256": "b952d9520e1a238d4ad0fed8c5564380da86d1fc84c396f13d26fbba719180dc",
+  "resolution": [
+    1280,
+    720
+  ],
+  "review_status": "user_approved",
+  "script": "assets/references/prepared-badge/prepare-reference.swift",
+  "source_display_size": [
+    3840,
+    2160
+  ],
+  "source_duration_seconds": 20.1,
+  "source_file": "assets/references/card-wiggle.MP4",
+  "source_nominal_fps": 30,
+  "source_range_seconds": [
+    3,
+    6
+  ],
+  "source_sha256": "6797bfc228c7e48c39ab7ad9df48167444aba1ba07daf3e397865d3d3ccc1d0b",
+  "speed_multiplier": 1,
+  "stabilization_applied": false,
+  "visual_review": "Reviewed frame-midpoint contact sheet over the three-second output. Holder remains visible with margin; small twists and recurring vertical motion. Shirt, strap and background differ from Riley. No footfall count inferred.",
+  "contact_sheet": "assets/references/prepared-badge/native-frames-v02.jpg",
+  "used_by": "assets/06-shots/videos/shot-02-take-02.generation.json"
+}

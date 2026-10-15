@@ -670,8 +670,27 @@
           "request_id": "01a13fb6-dcc8-7063-ba23-f80321834c58",
           "status": "rejected_slow_cadence_and_unwanted_speech",
           "user_approved": false
+        },
+        {
+          "video": "06-shots/videos/shot-02-take-02.mp4",
+          "generation_record": "06-shots/videos/shot-02-take-02.generation.json",
+          "endpoint_id": "minimax/h3-max/reference-to-video",
+          "request_id": "01a140a8-a7ea-77e0-9015-240a22d22e93",
+          "status": "rejected_pace_too_slow",
+          "user_approved": false,
+          "motion_reference": "references/prepared-badge/badge-motion-3s-v02.mp4"
+        },
+        {
+          "video": "06-shots/videos/shot-02-take-03.mp4",
+          "generation_record": "06-shots/videos/shot-02-take-03.generation.json",
+          "endpoint_id": "minimax/h3-max/reference-to-video",
+          "request_id": "01a140af-52d7-7a42-a25f-3a4aaf66ea8d",
+          "status": "user_approved",
+          "user_approved": true,
+          "motion_reference": "references/prepared-badge/badge-motion-3s-v03.mp4"
         }
-      ]
+      ],
+      "selected_video": "06-shots/videos/shot-02-take-03.mp4"
     },
     {
       "id": "shot-03",
@@ -840,8 +859,8 @@
       "https://elevenlabs.io/video/minimax-h3"
     ],
     "verification_date": "2026-10-15",
-    "generated_take_count": 11,
-    "cadence_target": "User approved shot-01 take-05 picture despite assistant counting approximately seven new landings. Do not chase an exact count or regenerate accepted visuals. Audio fix v01 reuses shot-03 take-01 soundtrack; user listening review pending. Badge and door regeneration pending.",
+    "generated_take_count": 13,
+    "cadence_target": "User approved shot-01 take-05 picture despite assistant counting approximately seven new landings. Do not chase an exact count or regenerate accepted visuals. Audio fix v01 reuses shot-03 take-01 soundtrack; user listening review pending. Badge take 3, generated from the 1.5x reference, is user-approved. Door regeneration pending.",
     "latest_test_model": "MiniMax H3 Max Reference to Video"
   }
 }

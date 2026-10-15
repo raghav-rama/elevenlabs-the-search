@@ -285,3 +285,26 @@ Keep local editing and review scripts in the repository with reproduction
 commands; see `scripts/README.md`. Temporary script variants must be captured
 or consolidated into maintained scripts. The badge compositing approach in
 its shot document is a proposal, not an approved generated or edited take.
+
+The user subsequently chose to record badge motion for a reference-led test,
+before attempting manual compositing, and supplied `assets/references/card-wiggle.MP4`.
+The local candidate `assets/references/prepared-badge/badge-motion-3s-v02.mp4`
+uses source seconds 3–6, cropped and silent at original speed. The user approved this reference and authorized shot 2 take 2, now generated
+to `minimax/h3-max/reference-to-video` at 480P for three seconds. Use the source
+for motion only; Riley's existing badge still defines appearance.
+
+Shot 2 take 2 is saved with its exact input recipe and a sampled-frame review.
+Appearance is retained, with some transient text distortion. The user rejected
+its pace, reporting six audible footsteps, and suggested speeding the prepared
+reference. Prepared badge v03 uses source 3–7.5 seconds at 1.5× into three seconds.
+Shot 2 take 3 tests that reference with take 2's exact prompt, seed, appearance
+image and output settings. This authorizes reference timing changes, not retiming
+approved generated footage. Do not equate generated audio impacts with measured
+visual steps; the badge view has no feet. Take 3 is generated. Frame inspection shows more frequent badge motion, with
+some remaining print deformation. The user subsequently approved take 3: “Looks
+good now.” Select it for the badge shot and preserve its motion. Assistant audio
+listening was not performed; that limitation does not override user acceptance.
+
+After approving badge take 3, the user requested deletion of the original
+`assets/references/card-wiggle.MP4`. It has been deleted. Preserve the prepared
+badge references, scripts, review sheets and provenance records.

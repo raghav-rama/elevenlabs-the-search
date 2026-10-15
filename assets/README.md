@@ -183,10 +183,11 @@ image model to invent it. Preserve usable space at the bottom-right of the cut.
   reference remains relatively wide. Both are retained as test references;
   composed shot frames provide the tighter crops.
 
-Eleven generated test takes are in `06-shots/videos/`. Shot 1 take 5's picture is
+Thirteen generated test takes are in `06-shots/videos/`. Shot 1 take 5's picture is
 user-approved; its [audio revision](06-shots/audio/README.md) awaits listening
 review. The user is satisfied with the chin shot, superseding earlier rejection
-notes; badge and doors remain unresolved. The full edit remains unfinished.
+notes. Badge take 3 is approved and selected; the closing-door shot remains
+unresolved. The full edit remains unfinished.
 See the [production scripts and reproduction commands](../scripts/README.md)
 for reference preparation, contact sheets, and local audio mixing.
 

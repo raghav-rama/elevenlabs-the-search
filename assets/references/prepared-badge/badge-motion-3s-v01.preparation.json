@@ -1,0 +1,40 @@
+{
+  "audio_removed": true,
+  "audio_tracks": 0,
+  "crop_normalized_top_left": {
+    "height": 0.72,
+    "width": 0.72,
+    "x": 0.04,
+    "y": 0.02
+  },
+  "duration_seconds": 3,
+  "file_size": 2740863,
+  "fps": 29.999998092651367,
+  "horizontal_flip": false,
+  "model_submission": false,
+  "notes": "User-recorded badge motion only. Appearance differs from Riley; pair with her badge still. Fixed crop, no time scaling or motion interpolation.",
+  "output_file": "assets/references/prepared-badge/badge-motion-3s-v01.mp4",
+  "output_sha256": "138222c8b2ef97e2bb0fddba1e560e7d7c74e07331854207256e45c075230398",
+  "resolution": [
+    1280,
+    720
+  ],
+  "review_status": "rejected_crop_clips_lower_badge_edge",
+  "script": "assets/references/prepared-badge/prepare-reference.swift",
+  "source_display_size": [
+    3840,
+    2160
+  ],
+  "source_duration_seconds": 20.1,
+  "source_file": "assets/references/card-wiggle.MP4",
+  "source_nominal_fps": 30,
+  "source_range_seconds": [
+    3,
+    6
+  ],
+  "source_sha256": "6797bfc228c7e48c39ab7ad9df48167444aba1ba07daf3e397865d3d3ccc1d0b",
+  "speed_multiplier": 1,
+  "stabilization_applied": false,
+  "visual_review": "Holder bottom reaches the frame boundary around 2.3 seconds; use v02.",
+  "contact_sheet": "assets/references/prepared-badge/contact-sheet-v01.jpg"
+}

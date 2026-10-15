@@ -1,7 +1,7 @@
 # Shot 02 — Bouncing KORVEX badge
 
-Status: take 1 rejected for slow motion and unwanted voiceover reading the badge.
-The layered animation below is a proposed next test, not an approved or rendered take.
+Status: **take 3 is user-approved and selected** (“Looks good now.”).
+Takes 1 and 2 remain rejected historical tests.
 
 ## Inputs
 
@@ -12,7 +12,25 @@ The layered animation below is a proposed next test, not an approved or rendered
 - Generated test: [shot-02-take-01.mp4](../videos/shot-02-take-01.mp4).
 - [Exact generation record](../videos/shot-02-take-01.generation.json): H3 Max Turbo, 480P, requested 3 seconds, prompt expansion disabled.
 
-## Proposed repair: controlled badge insert
+## Current approach: badge-specific motion reference
+
+Latest feedback: take 2 still feels too slow; the user reports six audible
+footsteps and suggested speeding the reference. Take 3 uses prepared v03 at
+1.5× speed (source 3–7.5 seconds into three seconds), with take 2's exact prompt,
+appearance image, seed and output settings. This changes the motion reference
+only among model inputs. The source window is longer to avoid looping.
+Audible impacts are not a measurement of visual gait; feet are outside frame.
+[Take 3 generation record](../videos/shot-02-take-03.generation.json).
+
+The user supplied `assets/references/card-wiggle.MP4`. Prepared v02 selects
+3–6 seconds at original speed, crops with margin for the swing, and removes
+audio. Use it only for the holder's movement, twist and timing; use the Riley
+still for all appearance and scene details. The source has a blue shirt and a
+different holder, strap and background, so appearance transfer needs checking.
+The source does not show feet and cannot establish an exact running cadence.
+Check generated audio for speech even though the motion reference is silent.
+
+## Fallback proposal: controlled badge insert
 
 Prepare a clean white-shirt background and separate masks for the rigid badge,
 clear holder, swivel clip, and burgundy lanyard from the approved shot frame.
@@ -55,3 +73,32 @@ Native sound: a light plastic-and-metal badge rattle, a soft tap against cotton,
 - A small perspective change is useful; a full rotation would hide the employer.
 - Check the portrait remains still on the card and the lettering never morphs.
 - Keep footsteps and breathing continuous across shots 1–3 in the edit.
+
+## Take 2 — approved motion-reference test
+
+Endpoint: `minimax/h3-max/reference-to-video`. Requested 3 seconds, 480P,
+16:9, seed 20261015, prompt expansion disabled. Appearance and motion are
+reference inputs; no fixed first-frame image. Estimated cost $0.15.
+[Exact generation record](../videos/shot-02-take-02.generation.json).
+
+```text
+Use Image 1 for the exact KORVEX employee badge, Riley Brooks printed portrait, white shirt, burgundy lanyard, metal swivel clip, clear rigid holder, tight framing and cyan/magenta morning reflections. Use Video 1 only for the badge's continuous bouncing motion, small twists and timing at its supplied playback speed. Transfer that ongoing motion from the opening frame through the end while Riley is already running.
+
+The camera moves with her torso in one uninterrupted close-up. The holder fills roughly 80 percent of frame height, with room for its swing; the shirt stays relatively anchored behind it. The badge bounces against the shirt and tilts naturally on its connected clip, following the rhythm in Video 1 without slowing down or starting from rest. Preserve Image 1's appearance throughout; exclude the blue shirt, plain card, different holder and room from Video 1. Keep the printed portrait still and the printed text unchanged: KORVEX, Riley Brooks, EMPLOYEE. No zoom or cuts.
+
+Audio: quiet train rumble and station air, light plastic badge taps and fabric rustle only. No speech, reading of the badge, narration, announcements or music.
+```
+
+Take 2 review: user rejected its pace and reported six audible footsteps.
+Sampled frames retain Riley's white shirt and badge design,
+with repeated motion. Lettering shows transient distortion/softness in some
+frames. Audio has not been listened to; absence of speech is unverified.
+
+## Take 3 result
+
+[Preview take 3](../videos/shot-02-take-03.mp4). Generation completed at 24 fps,
+3.042 seconds. Frame review shows more frequent badge motion than take 2, with
+some remaining print/portrait deformation. The user approved this take: “Looks
+good now.” Assistant audio listening was not performed.
+The submitted prompt is identical to take 2 above; only the motion-reference
+URL changes. Exact inputs are saved in the take 3 generation record.

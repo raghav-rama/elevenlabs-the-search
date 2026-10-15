@@ -152,4 +152,10 @@ train. [Take 4](../videos/shot-01-take-04.mp4) uses constant cadence/short-strid
 direction. Assistant reviewed sampled frames of both: take 4 fixes the train
 end reveal and has more even motion, but still fails the cadence target.
 Contact sheets and their extraction script are in `../reviews/`. No usable
-legs take has been selected; badge and doors are still awaiting pace resolution.
+legs take had been selected at that stage; badge and doors still awaited pace resolution.
+
+Latest selections supersede those historical review notes: shot 1 take 5's
+picture is approved, the user is satisfied with the chin shot, and shot 2 take 3
+is approved after using the 1.5× badge reference. Only the closing-door visual
+remains unresolved. The legs audio revision and final cross-shot mix remain
+separate editing work.

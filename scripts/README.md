@@ -57,6 +57,16 @@ per-version settings are in [prepared-running](../assets/references/prepared-run
 
 ## Inspect motion frame by frame
 
+For the newly supplied badge footage, the separate
+[badge preparation script and commands](../assets/references/prepared-badge/README.md)
+by default trim 3–6 seconds, crop and remove audio at original speed, with
+no horizontal flip.
+The optional speed argument `1.5` produces the latest v03 badge reference:
+source 3–7.5 seconds compressed into three seconds, without looping. Omit the
+argument to reproduce the previous original-speed v02 reference.
+The user subsequently requested deletion of `card-wiggle.MP4`; reproducing the
+crop from source requires restoring that file. Prepared badge references remain.
+
 ```sh
 review_dir=$(mktemp -d /private/tmp/afterhuman-review.XXXXXX)
 swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \

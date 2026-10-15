@@ -1,0 +1,77 @@
+{
+  "asset_id": "shot-02",
+  "take": 3,
+  "provider": "fal.ai",
+  "tool": "fal plugin",
+  "status": "COMPLETED",
+  "recipe": {
+    "endpoint_id": "minimax/h3-max/reference-to-video",
+    "input": {
+      "prompt": "Use Image 1 for the exact KORVEX employee badge, Riley Brooks printed portrait, white shirt, burgundy lanyard, metal swivel clip, clear rigid holder, tight framing and cyan/magenta morning reflections. Use Video 1 only for the badge's continuous bouncing motion, small twists and timing at its supplied playback speed. Transfer that ongoing motion from the opening frame through the end while Riley is already running.\n\nThe camera moves with her torso in one uninterrupted close-up. The holder fills roughly 80 percent of frame height, with room for its swing; the shirt stays relatively anchored behind it. The badge bounces against the shirt and tilts naturally on its connected clip, following the rhythm in Video 1 without slowing down or starting from rest. Preserve Image 1's appearance throughout; exclude the blue shirt, plain card, different holder and room from Video 1. Keep the printed portrait still and the printed text unchanged: KORVEX, Riley Brooks, EMPLOYEE. No zoom or cuts.\n\nAudio: quiet train rumble and station air, light plastic badge taps and fabric rustle only. No speech, reading of the badge, narration, announcements or music.",
+      "reference_image_urls": [
+        "https://v3b.fal.media/files/b/0aae81a3/5VZnNQE7YTFj-KibLpK_8_shot-02-v02.png"
+      ],
+      "reference_video_urls": [
+        "https://v3b.fal.media/files/b/0aae81d0/KY3dnULDxekf0ZmyGNz4M_badge-motion-3s-v03.mp4"
+      ],
+      "duration": 3,
+      "resolution": "480P",
+      "aspect_ratio": "16:9",
+      "seed": 20261015,
+      "prompt_expansion_mode": "disabled",
+      "enable_safety_checker": true
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a140af-52d7-7a42-a25f-3a4aaf66ea8d",
+  "endpoint_id": "minimax/h3-max/reference-to-video",
+  "status_url": "https://queue.fal.run/minimax/h3-max/requests/01a140af-52d7-7a42-a25f-3a4aaf66ea8d/status",
+  "response_url": "https://queue.fal.run/minimax/h3-max/requests/01a140af-52d7-7a42-a25f-3a4aaf66ea8d",
+  "cancel_url": "https://queue.fal.run/minimax/h3-max/requests/01a140af-52d7-7a42-a25f-3a4aaf66ea8d/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url to check status; once the job is COMPLETED, check_job returns its result too (get_job_result with response_url also works).",
+  "source_image": "assets/06-shots/images/shot-02-v02.png",
+  "source_motion_reference": "assets/references/prepared-badge/badge-motion-3s-v03.mp4",
+  "planned_video": "assets/06-shots/videos/shot-02-take-03.mp4",
+  "estimated_cost_usd": 0.15,
+  "pricing_basis": "0.05 USD per second x 3 requested seconds; estimate, not actual charge.",
+  "review_status": "user_approved",
+  "revision_reason": "User rejected take 2 as too slow, reporting six audible footsteps, and suggested speeding the prepared reference. New reference uses source 3.0-7.5 seconds at 1.5x into three seconds. Same prompt, appearance image, seed and output settings as take 2.",
+  "comparison_limitations": "Reference speed increased and source window extended to preserve a three-second reference without looping. Audible footstep count does not establish visual gait cadence; feet are not shown.",
+  "audio_note": "Effects-only audio requested by unchanged prompt. Audio quality, speech absence and cadence require separate review.",
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aae81d3/66JtOPpfE3EB7VOfF5CNb_minimax-h3.mp4",
+      "content_type": "video/mp4",
+      "file_name": "66JtOPpfE3EB7VOfF5CNb_minimax-h3.mp4",
+      "file_size": 2069952
+    },
+    "expanded_prompt": null,
+    "seed": 20261015,
+    "timings": {
+      "inference": 1.470454685997538
+    }
+  },
+  "workspace_video": "assets/06-shots/videos/shot-02-take-03.mp4",
+  "file_size": 2069952,
+  "sha256": "87b57c25c8c05311c952b3674c635de3e90dc7c0319870f1331c5f8bd0b526ed",
+  "media_metadata": {
+    "duration_seconds": 3.042,
+    "fps": 24,
+    "audio_tracks": 1
+  },
+  "visual_review": {
+    "method": "72 frame-midpoint samples across the first three seconds, compared with take 2 contact sheet",
+    "contact_sheet": "assets/06-shots/reviews/shot-02-take-03-native-frames.jpg",
+    "observations": [
+      "Badge vertical motion cycles more frequently than in take 2; already moving throughout the sampled interval.",
+      "White shirt, burgundy lanyard, clip and clear holder retained; no blue shirt or room from source.",
+      "Some printed text and portrait details still deform during motion."
+    ],
+    "limitations": "Manual frame inspection is not a gait measurement. Feet are not visible. Audio has not been listened to; audible step count, speech absence and subjective pace remain unverified."
+  },
+  "verification": "Download matches provider byte count; decodes at 24 fps with one audio track. Generated output was not retimed.",
+  "user_approved": true,
+  "user_feedback": "Looks good now."
+}

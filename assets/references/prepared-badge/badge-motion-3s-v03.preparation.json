@@ -1,0 +1,40 @@
+{
+  "audio_removed": true,
+  "audio_tracks": 0,
+  "crop_normalized_top_left": {
+    "height": 0.8,
+    "width": 0.8,
+    "x": 0,
+    "y": 0
+  },
+  "duration_seconds": 3,
+  "file_size": 2757856,
+  "fps": 29.999998092651367,
+  "horizontal_flip": false,
+  "model_submission": true,
+  "notes": "User-recorded badge motion only. Appearance differs from Riley; pair with her badge still. Fixed crop, explicit reference-only time scaling, no looping or motion interpolation. Generated ad takes are unchanged.",
+  "output_file": "assets/references/prepared-badge/badge-motion-3s-v03.mp4",
+  "output_sha256": "604f8163be8d0b04e830e02bec29c8efa3e24151280b2df0e902dfe20b98ff57",
+  "resolution": [
+    1280,
+    720
+  ],
+  "review_status": "frame_review_complete_generation_test_pending",
+  "script": "assets/references/prepared-badge/prepare-reference.swift",
+  "source_display_size": [
+    3840,
+    2160
+  ],
+  "source_duration_seconds": 20.1,
+  "source_file": "assets/references/card-wiggle.MP4",
+  "source_nominal_fps": 30,
+  "source_range_seconds": [
+    3,
+    7.5
+  ],
+  "source_sha256": "6797bfc228c7e48c39ab7ad9df48167444aba1ba07daf3e397865d3d3ccc1d0b",
+  "speed_multiplier": 1.5,
+  "stabilization_applied": false,
+  "used_by": "assets/06-shots/videos/shot-02-take-03.generation.json",
+  "visual_review": "90 sampled native-frame positions reviewed; holder stays in frame. No footfall count inferred."
+}
