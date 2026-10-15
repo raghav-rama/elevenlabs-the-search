@@ -17,6 +17,40 @@ from assistant proposals and older alternatives. This file summarizes the source
 it does not make every suggestion in that conversation an approved requirement.
 Keep this file as the single source of agent instructions; `CLAUDE.md` links here.
 
+## Current production state and next task
+
+Updated 2026-10-15. This section supersedes historical rejection/pending-review
+notes in older generation records. Thirteen test video takes have been generated;
+the four-shot opening has not yet been assembled into a finished cut.
+
+| Shot | Current selection and status |
+|---|---|
+| 1 — running legs | [Take 5](assets/06-shots/videos/shot-01-take-05.mp4): picture approved. The [train-audio revision](assets/06-shots/videos/shot-01-take-05-audio-v01.mp4) awaits explicit listening approval. |
+| 2 — bouncing badge | [Take 3](assets/06-shots/videos/shot-02-take-03.mp4): approved and selected after using a 1.5× motion reference. |
+| 3 — chin fisheye | The user is satisfied with the existing chin video; preserve it. They did not identify an exact take number when accepting it. Take 1 was explicitly named as the train-sound source, which does not separately establish the visual selection. |
+| 4 — closing doors | [Take 1](assets/06-shots/videos/shot-04-take-01.mp4) is rejected for slow running. This is the remaining unresolved opening visual. |
+
+The user agreed to work on shot 4 next:
+
+1. Review the existing take for usable material.
+2. Make Riley enter already running at a pace consistent with the accepted shots.
+3. The train doors close before she reaches them; she brakes and misses the train.
+4. Hold a brief breathless reaction so the missed commute registers.
+5. If the existing timing fails, prepare a suitable motion reference before the
+   next test. A reference for this wider running-and-stopping action is not yet
+   selected; the legs and badge references do not establish that full action.
+
+Once shot 4 works, assemble the four-shot hook and join train ambience, footsteps,
+badge sounds and breathing across cuts. Exact cut durations remain provisional.
+Preserve approved pictures and motion; do not reopen them simply to satisfy an
+older numerical cadence target.
+
+**Jingle work is deferred at the user's request.** Finish the opening work first
+and revisit the jingle later. No lyric, melody, singer or arrangement is approved.
+“Afterhuman… ahead of your day” was an assistant example only. The original
+ElevenCreative-generated jingle remains required for the eventual competition
+entry; deferring it does not make it optional.
+
 ## Competition brief and requirements
 
 Checked on 2026-10-14. Recheck these sources before final delivery:
@@ -60,8 +94,9 @@ The current creative gap is the jingle: the shared conversation developed a stor
 voiceover, and synth score, but did not settle an original sung brand hook.
 Do not treat a cinematic cut with background music alone as competition-ready.
 
-Develop and test the musical hook before committing to the full production batch.
-Make AFTERHUMAN's name and benefit easy to hear, sing, and remember. Build the
+When jingle work resumes, develop and test a musical hook that makes AFTERHUMAN's
+name and benefit easy to hear, sing, and remember. The user's current priority
+is completing the opening; do not block that work on jingle development. Build the
 action, mechanical clicks, sound design, dialogue pauses, and end card around
 that hook. Test whether viewers can hum it and name the brand after one viewing
 and the next day. Score draft cuts against all four judging criteria.
@@ -86,25 +121,23 @@ project links so the production process can be demonstrated.
 
 ## Locked opening
 
-Latest production decisions: test stills with the built-in image generator;
-final still assets through ElevenCreative; video generation now uses fal.ai.
-The first test uses MiniMax H3 Max Turbo at 480P with a requested 3-second
-duration and prompt expansion disabled. Shot-03 take 1 was rejected because
-the chin moved against a stationary background. Take 2 was also rejected, with
-worse motion and grainy windows. The user requested a different model and a
-simple prompt; take 3 tested Kling 3.0 Standard with audio for 3 seconds.
-The user rejected take 3 because she starts running instead of already running.
-Take 4 used take 1's exact prompt on Kling and was also rejected for starting
-to run. Stop Kling tests for this shot: the user finds it unsuitable and more
-expensive. H3 take 1 remains the better running-motion baseline, but its chin
-tracking failed. The user chose to continue with H3 Max Turbo for the remaining
-shots. Shots 1, 2 and 4 now have first test takes at 480P, requested 3 seconds,
-with prompt expansion disabled; review is pending. No video take is approved.
-Official MiniMax and ElevenLabs pages checked on 2026-10-15 confirm reference-led
-video generation; MiniMax documents native stereo audio. Links and interface
-limits are recorded in assets/06-shots/video-prompts/README.md. Use native
-video audio for scene effects and ambience, then review continuity in the edit.
-The competition jingle remains a separate ElevenCreative deliverable.
+Production choices: test stills with the built-in image generator; final still
+assets through ElevenCreative; video generation through fal.ai. Use low-resolution
+480P tests, usually three seconds, with prompt expansion disabled. The accepted
+legs and badge takes use `minimax/h3-max/reference-to-video`, with separate
+appearance images and prepared motion videos. Earlier tests used
+`minimax/h3-max-turbo/image-to-video`. Do not confuse those endpoints: the latter
+was not the reference-video workflow used for the accepted results.
+
+The user rejected Kling tests for the chin shot as unsuitable and more expensive;
+do not restart that model comparison. Preserve the accepted chin motion. Check
+live endpoint schemas and pricing before new model work; generation records
+capture actual settings, references, seeds and request IDs.
+
+Official MiniMax and ElevenLabs capabilities were checked on 2026-10-15; source
+links are in assets/06-shots/video-prompts/README.md. Use native video audio as
+scene-effect material, then review and mix it for continuity. Prompt-only
+suppression of speech is not a guarantee. The jingle is a separate deliverable.
 
 Riley Brooks is 27, American, from Austin, Texas, slim, brunette, with a mole
 under her anatomical left eye. Nationality does not specify ethnicity. Her
@@ -128,8 +161,9 @@ as if mounted on a short invisible head rig below the chin. Keep the chin
 approximately anchored while the station bobs and rolls behind her. Preserve
 strong optical distortion. The previous mild fisheye and retreating camera are
 superseded; the user accepted shot-03-v03 as the improved replacement test frame.
-Video motion testing remains pending. Earlier versions remain historical. Full-frame
-16:9 remains a working default; a circular black border was not explicitly chosen.
+The user subsequently accepted the existing chin video; the earlier still and
+motion rejections are historical. Full-frame 16:9 remains a working default;
+a circular black border was not explicitly chosen.
 
 Maintain separate still prompts in assets/06-shots/prompts/ and complete video
 prompts in assets/06-shots/video-prompts/. Future takes belong in
@@ -141,10 +175,10 @@ Those exact timings remain editing guidance rather than a separately approved cu
 Carry heel strikes, badge movement, breathing, departure chime, and door hiss
 across the cuts. Give her reaction a brief pause after the doors close.
 
-The wardrobe above is now user-confirmed; approve its visual reference before
-generating a full production batch.
-Earlier generated references used a technical jacket, charcoal shirt, utility
-trousers, and sneakers; those references need reconciliation with the new direction.
+The wardrobe above is user-confirmed and represented in the current opening
+assets. Technical jackets, charcoal shirts, utility trousers and sneakers from
+earlier discussion are superseded; do not reintroduce them. Approval of opening
+test takes does not settle every reference for the later full production batch.
 
 ## Story after the opening
 
@@ -238,73 +272,68 @@ decisions as the project develops. Preserve the transcript as historical evidenc
 update this guidance when the user changes direction. Report created assets and
 checks honestly; distinguish proposals, generated outputs, and reviewed outputs.
 
-## Latest motion and audio feedback
+## Motion references, audio and reproducibility
 
-The user reports shots 1, 2 and 4 are too slow: roughly 4 footfalls in 3 seconds
-versus roughly 9 in shot 3. Match approximately 3 alternating footfalls per
-second, already running from the first frame, until shot 4 brakes. Badge take 1
-also contains unwanted narration saying Riley Brooks. Speech must be absent.
-The accepted next workflow is to test running legs first, review the cadence,
-then regenerate badge and doors and use a shared speech-free effects track in
-the edit. Shot-01 take 2 was rejected as unchanged at four steps. The user
-explicitly rejected speed adjustment and requested a different prompt. Take 3
-used qualitative sprint direction and was rejected for starting slow,
-accelerating and passing the train. Assistant inspected 24 sampled frames each
-of takes 3 and 4. Take 4 keeps the train alongside and has more even motion, but
-still fails the cadence target (about five new landings after the initial stance).
-No legs video is selected; badge and door regeneration remain pending.
-No generated ad take was retimed. The shared audio track has not been created.
+### Running legs
 
-The user subsequently confirmed satisfaction with the existing chin shot; do not
-regenerate or stabilize it unless asked. They did not identify an exact take
-number in that acceptance. Shots 1, 2 and 4 still need improvement.
+The user approved [prepared running reference v02](assets/references/prepared-running/running-rightward-3s-v02.mp4)
+and then shot 1 take 5's picture (“looks perfect”). That reference uses source
+seconds 1.0–26.2 at 8.4×, mirrored rightward, silent, to provide fast continuous
+running motion. Its tracking lines, treadmill and stand are reference artifacts,
+not intended final content. Source details and preparation settings are retained
+in `assets/references/prepared-running/`.
 
-The user supplied a slow-motion side-view running video and approved preparing
-a separate reference copy: `assets/references/prepared-running/running-rightward-3s-v02.mp4`.
-It uses a 1.0–26.2-second source excerpt at 8.4×, mirrored rightward, with no audio,
-for approximately nine new alternating contacts in three seconds. The user
-accepted this prepared reference and authorized a legs test with it. This
-reference-only timing change does not authorize retiming generated ad takes.
-Shot-01 take 5 tests `minimax/h3-max/reference-to-video` at 480P with the selected
-legs appearance image and prepared motion video. Keep the supplied source and
-preparation records; the reference's tracking lines and stand remain visible.
-Take 5 is generated. Assistant native-frame review finds approximately seven new
-landings after the opening stance, below nine; no source overlays or stand are
-visible in the reviewed output. User review is pending. No additional paid test
-or regeneration of the other shots has been submitted.
+Earlier legs takes were rejected for slow motion, accelerating from a slow start,
+or passing the train. The older goal of roughly nine landings in three seconds
+is historical guidance; the user approved take 5 despite an approximate assistant
+count of seven new landings. Do not regenerate it to chase an exact count.
 
-Latest decision: the user says shot-01 take 5 looks perfect and requests only
-an audio fix, matching the train sound in shot-03 take 1. The picture is approved;
-do not regenerate it or continue chasing an exact nine-contact count. A local
-audio revision, `shot-01-take-05-audio-v01.mp4`, layers shot-03 take 1's full native
-soundtrack under the legs audio. Its compressed video payload and timestamps
-match the approved original. The source is not an isolated train stem and may
-include breathing/footsteps; the new audio balance awaits user listening review.
+### Badge
 
-Keep local editing and review scripts in the repository with reproduction
-commands; see `scripts/README.md`. Temporary script variants must be captured
-or consolidated into maintained scripts. The badge compositing approach in
-its shot document is a proposal, not an approved generated or edited take.
+The user recorded a badge motion reference. The original-speed v02 preparation
+used seconds 3–6 and drove shot 2 take 2. They rejected that take as too slow,
+reported six audible footsteps, and suggested speeding the reference.
 
-The user subsequently chose to record badge motion for a reference-led test,
-before attempting manual compositing, and supplied `assets/references/card-wiggle.MP4`.
-The local candidate `assets/references/prepared-badge/badge-motion-3s-v02.mp4`
-uses source seconds 3–6, cropped and silent at original speed. The user approved this reference and authorized shot 2 take 2, now generated
-to `minimax/h3-max/reference-to-video` at 480P for three seconds. Use the source
-for motion only; Riley's existing badge still defines appearance.
+[Prepared badge reference v03](assets/references/prepared-badge/badge-motion-3s-v03.mp4)
+uses source seconds 3–7.5 at 1.5× into three seconds, silent, with the same crop.
+It drove shot 2 take 3 using take 2's exact prompt, seed, appearance image and
+output settings. The user approved take 3 (“Looks good now”). Earlier observed
+print deformation remains a review note, not a reason to override that acceptance.
 
-Shot 2 take 2 is saved with its exact input recipe and a sampled-frame review.
-Appearance is retained, with some transient text distortion. The user rejected
-its pace, reporting six audible footsteps, and suggested speeding the prepared
-reference. Prepared badge v03 uses source 3–7.5 seconds at 1.5× into three seconds.
-Shot 2 take 3 tests that reference with take 2's exact prompt, seed, appearance
-image and output settings. This authorizes reference timing changes, not retiming
-approved generated footage. Do not equate generated audio impacts with measured
-visual steps; the badge view has no feet. Take 3 is generated. Frame inspection shows more frequent badge motion, with
-some remaining print deformation. The user subsequently approved take 3: “Looks
-good now.” Select it for the badge shot and preserve its motion. Assistant audio
-listening was not performed; that limitation does not override user acceptance.
+Use the reference video for motion and Riley's badge still for appearance.
+The source's blue shirt, different holder and room must not replace her design.
+Manual layered badge animation was an earlier fallback proposal; the accepted
+result uses reference-to-video generation. No manual badge composite was made.
 
-After approving badge take 3, the user requested deletion of the original
-`assets/references/card-wiggle.MP4`. It has been deleted. Preserve the prepared
-badge references, scripts, review sheets and provenance records.
+Do not infer visual footfall cadence from generated sound alone. The badge view
+has no feet, and audible impacts may not match its movement. Judge visible motion
+and soundtrack separately. The user authorized speed changes to reference clips;
+that does not authorize retiming approved generated ad footage.
+
+### Audio
+
+The user wanted the train sound from shot 3 take 1 added to the approved legs
+picture. `shot-01-take-05-audio-v01.mp4` layers that full native soundtrack under
+the legs audio. Compressed video payloads and presentation timestamps match the
+original across all 73 frames. The added source is not an isolated train stem;
+it can include breathing and footsteps. The mix awaits explicit listening approval.
+
+Badge take 1 contained unwanted narration reading Riley's name. Keep the opening
+free of that voiceover. Badge take 3 is user-approved; assistant audio listening
+was not performed, and this limitation does not override the user's acceptance.
+The final continuous sound mix across all four shots is still unfinished.
+
+### Scripts and source retention
+
+Keep local editing and review scripts in the repo with exact reproduction commands;
+see [scripts/README.md](scripts/README.md). This includes reference preparation,
+contact sheets, audio extraction, mixing and picture-preservation verification.
+Consolidate temporary script variants into maintained scripts. Preserve generated
+takes, prepared reference versions, provenance records and review artifacts.
+
+The original `assets/references/card-wiggle.MP4` was deleted at the user's request
+after badge take 3 was approved. Prepared badge clips and source hashes remain.
+The original downloaded running clip is also absent from its recorded path.
+Reproducing either preparation from the source requires restoring that source;
+the prepared references can be reused directly. Do not describe deleted originals
+as present or silently substitute another source.
