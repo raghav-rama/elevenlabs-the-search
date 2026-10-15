@@ -410,3 +410,12 @@ as present or silently substitute another source.
 - Updated the README and generation record accordingly. No final lyric, melody,
   voice or arrangement is selected. No additional generation or credits used.
 - The requested commit/push will preserve this corrected exploratory status.
+
+## 2026-10-16T00:06:05+05:30 — Exploratory jingle committed and pushed
+
+- Created signed commit `a8a7ed1` and verified its SSH signature using the
+  configured public signing key and a temporary allowed-signers file.
+- Pushed successfully to `origin/main`, advancing it from `3a44575` to `a8a7ed1`.
+- The MP3, prompt/settings/provenance and corrected exploratory status are
+  published. This demo is not selected for the ad; a more polished jingle
+  remains future work. No further generation credits were used.
