@@ -419,3 +419,139 @@ as present or silently substitute another source.
 - The MP3, prompt/settings/provenance and corrected exploratory status are
   published. This demo is not selected for the ad; a more polished jingle
   remains future work. No further generation credits were used.
+
+## 2026-10-16T22:59:21+05:30 — Next-step status check
+
+- Read the current ledger and jingle notes before recommending next work.
+- Closing-door shot 4 remains the next production task: review take 1, then
+  repair the already-running approach, braking and missed-train reaction.
+- Preserve the accepted legs, badge and chin shots; assemble and mix the opening
+  once shot 4 works. The jingle demo remains exploration only, not a final selection.
+- No new media generation or spending was performed.
+
+## 2026-10-16T23:06:39+05:30 — Closing-door take accepted; one variation submitted
+
+- User says the existing closing-door shot looks fine, superseding its earlier
+  slow-cadence rejection, and requests exactly one additional variation.
+- Preserved take 1. Submitted take 2 on `minimax/h3-max-turbo/image-to-video`
+  with the same prompt/image and 480P, three-second settings; seed 20261016.
+- Request `01a145c9-8a58-7c73-8b3e-9fa887662366`; estimated cost $0.045, not a confirmed charge.
+- Exact recipe: [take 2 record](assets/06-shots/videos/shot-04-take-02.generation.json).
+- Generation and comparison review are pending; no other shots are changed.
+
+## 2026-10-16T23:08:52+05:30 — Closing-door variation completed
+
+- Completed exactly one additional take: [shot 4 take 2](assets/06-shots/videos/shot-04-take-02.mp4),
+  request `01a145c9-8a58-7c73-8b3e-9fa887662366`. Saved prompt/settings/provenance and frame review.
+- Verified provider byte count, SHA-256 and decode: 3.042 seconds, 24 fps, one
+  audio track. Estimated generation cost $0.045; actual charge not reported.
+- Initial frame review started before the download completed and failed. Retried
+  after completion; inspection succeeded, with no repeated generation.
+- Sampled frames show doors closing and Riley stopping outside. Approach becomes
+  walking-like; overhead displays change to red graphics. Audio not listened to.
+- Take 1 is now accepted based on latest user feedback; take 2 awaits comparison.
+  The manifest retains take 1 as the current selection. No other shot regenerated.
+
+## 2026-10-16T23:48:39+05:30 — Fast-paced closing-door test submitted
+
+- User rejected take 2 as feeling like slow motion and requested faster pacing.
+- Submitted take 3 with the same H3 Max Turbo endpoint, image, seed 20261016,
+  480P and three-second settings. Prompt now specifies already-running rapid
+  footfalls, a brisk approach, late quick braking and a brief stopped reaction.
+- Request `01a145f0-0045-7793-adcf-54628a9de77b`; live estimate $0.04875.
+- [Exact prompt and settings](assets/06-shots/videos/shot-04-take-03.generation.json).
+- Take 1 remains the previously accepted candidate; no generated clip retimed.
+
+## 2026-10-16T23:51:15+05:30 — Fast-paced closing-door take completed
+
+- Saved [shot 4 take 3](assets/06-shots/videos/shot-04-take-03.mp4), request `01a145f0-0045-7793-adcf-54628a9de77b`; exactly one generation in this revision.
+- Verified provider byte count and SHA-256, then decoded successfully: 3.042 seconds, 24 fps, one audio track. Estimate $0.04875; actual charge not reported.
+- [Frame review](assets/06-shots/reviews/shot-04-take-03-contact-sheet.jpg) shows an initial running approach, then several easing steps before settling outside the doors around 2.5 seconds. The requested sharp stop is not fully achieved; exact footfall cadence unverified. Overhead displays also change graphics.
+- Native audio has not been listened to; speech absence and continuity remain unverified.
+- Updated the manifest and exact generation record. Take 2 is rejected for slow-motion feel; take 3 awaits user comparison. Take 1 remains selected and other accepted shots are unchanged. No generated footage retimed.
+
+## 2026-10-16T23:53:26+05:30 — User-requested 2x closing-door preview
+
+- User still finds take 3 slowed and requests 2x playback. Marked the original
+  take 3 as rejected for slow-motion feel; kept the source and take 1 selection.
+- Created [2x preview](assets/06-shots/videos/shot-04-take-03-speed-2x.mp4)
+  locally, retiming the entire generated shot and native audio together.
+  Spectral audio pitch preservation requested; listening review pending.
+- Saved [reproducible script](scripts/retime-video.swift), README command and
+  [edit record](assets/06-shots/videos/shot-04-take-03-speed-2x.retime.json).
+- Verified decoding at 48 fps, 832x480, one audio track, 1.584-second container
+  duration including audio/export padding. Source and output SHA-256 recorded.
+  Saved a contact sheet at half the original sampling intervals.
+- This is a generated-footage speed edit explicitly requested by the user,
+  not a reference retime or a new generation. No provider spend. Review pending.
+
+## 2026-10-16T23:56:01+05:30 — 2x door edit approved; motion reference prepared
+
+- User approves shot 4 take 3 at 2x and requests one new generation using it as reference. Selected the approved edit in the manifest; original sources remain.
+- Live H3 Max reference-to-video schema requires reference clips of 2–15 seconds. Prepared a silent two-second reference preserving all 73 decoded source picture frames and their timestamps, adding 23 repeated final frames only. Running action is unchanged in speed.
+- Saved [reference](assets/references/prepared-doors/door-motion-2s-v01.mp4), preparation record and [script](scripts/pad-motion-reference.swift). Live estimate: $0.05/second, $0.10 for two output seconds at 480P. Submission pending.
+
+## 2026-10-16T23:57:11+05:30 — Reference-driven door take 4 submitted
+
+- Uploaded and verified the two-second prepared reference (1,554,640 bytes). Submitted exactly one job to `minimax/h3-max/reference-to-video`, 480P, two seconds, seed 20261016, prompt expansion disabled.
+- Request `01a145f7-8533-7842-a387-ec2dd49c17b7`; estimate $0.10. [Exact generation record](assets/06-shots/videos/shot-04-take-04.generation.json).
+- Prompt asks to follow the approved fast motion, stop by approximately 1.25 seconds, then show a small breathing reaction. Original shot-04a image anchors appearance. Effects-only native audio requested; output and review pending.
+- Approved 2x edit remains selected while this new test is reviewed.
+
+## 2026-10-16T23:58:19+05:30 — Reference-driven door take 4 completed; timing still drifts
+
+- Saved [take 4](assets/06-shots/videos/shot-04-take-04.mp4), request `01a145f7-8533-7842-a387-ec2dd49c17b7`, exact recipe, returned seed, provider output URL and SHA-256. Exactly one generation; estimated $0.10, actual charge not reported.
+- Verified byte count and decode: 2.334 seconds (two requested), 24 fps, one audio track. The provider documents possible duration overrun.
+- Frame comparison shows motion is stretched again: the reference is settled around 1.25 seconds, while take 4 is still approaching; braking continues beyond 1.8 seconds. This is not a faithful timing match. Saved contact and ending sheets.
+- Native audio has not been listened to; speech absence and sound continuity remain unverified.
+- Approved take 3 at 2x remains selected; take 4 awaits user comparison. No additional paid retry and no retiming of the new output. Preparation script and README command are saved.
+
+## 2026-10-17T00:01:04+05:30 — Three-second fast door generation requested
+
+- User rejects take 4 as still slow and explicitly requests a three-second generation matching the approved `shot-04-take-03-speed-2x.mp4` pace.
+- Prepared `assets/references/prepared-doors/door-motion-3s-24fps-v02.mp4`: 24 fps, 72 frames, three seconds, silent; timestamp-based sampling retains approved playback speed and repeats the final pose for remaining time. This changes sampling, not action speed. Source preserved.
+- Saved normalization script, preparation hashes/sample map and contact sheet. Frame-rate normalization is a precaution, not a proven explanation of prior model slowing.
+- Rechecked live schema/account/pricing: H3 Max reference-to-video, $0.05/second; three-second 480P test estimate $0.15. Submission pending.
+
+## 2026-10-17T00:01:46+05:30 — Three-second door take 5 submitted
+
+- Submitted exactly one H3 Max reference-to-video job, request `01a145fc-0084-7680-8078-0ded1bbbb842`, three requested seconds, 480P, 16:9, seed 20261016, prompt expansion disabled.
+- Used the verified three-second 24 fps reference derived from the approved 2x edit. Prompt specifies run/brake completed by 1.25 seconds and stationary reaction for the remainder.
+- Estimate $0.15. [Exact input and provenance](assets/06-shots/videos/shot-04-take-05.generation.json). Generation and user review pending; approved 2x edit remains selected.
+
+## 2026-10-17T00:03:04+05:30 — Three-second door take 5 matches reference timing more closely
+
+- Saved [take 5](assets/06-shots/videos/shot-04-take-05.mp4), request `01a145fc-0084-7680-8078-0ded1bbbb842`, prompt, inputs, returned seed, output URL and hashes. Exactly one paid generation; estimated $0.15, actual charge not reported.
+- Verified provider byte count and decode: 3.042 seconds returned for three requested, 24 fps, one audio track. Generated footage was not retimed.
+- [Frame review](assets/06-shots/reviews/shot-04-take-05-contact-sheet.jpg) now closely follows the prepared fast reference at corresponding timestamps: run/braking finishes around 1.25 seconds, followed by a planted stationary pose. Ending appears nearly still; overhead displays still change.
+- Playback feel, natural breathing and native audio remain for user review. No claim that frame-rate normalization alone caused the improvement; prompt and duration also changed.
+- Approved 2x edit remains selected until take 5 is reviewed. Saved the preparation script and reproducible README command; no additional generation.
+
+## 2026-10-19T23:03:05+05:30 — Door take 5 pace accepted; frozen ending revision requested
+
+- User says take 5 is okay but its final second is frozen, and requests regeneration. Recorded accepted pace with ending repair pending, not unconditional approval.
+- Preparing the first two seconds of the existing 24 fps reference to reduce copied final-pose padding while retaining playback speed. Server trim request `01a15539-1504-7070-bfa1-b311a781c181`, live price $0.001 per compute second; total unknown. Exact recipe in the v03 preparation record.
+- Plan: one three-second H3 Max reference-to-video generation at 480P, same seed, explicit continuous breathing/head-turn/bag-settling reaction. Generation estimate $0.15. Selected 2x edit stays preserved.
+
+## 2026-10-19T23:04:29+05:30 — Door take 6 submitted with moving ending
+
+- Trim utility completed; downloaded reference verified at two seconds, 24 fps, silent. Source pace preserved; first 1.25 seconds guide the run and stop.
+- Submitted exactly one new H3 generation, request `01a1553a-a29e-7742-9ab3-f84d53e39e08`, three seconds, 480P, same seed 20261016 and image. Generation estimate $0.15 plus utility compute charge.
+- Ending now explicitly calls for a visible inhale/exhale, shoulder movement, bag settling and a small head turn finishing at the last frame, overriding reference padding.
+- [Exact generation record](assets/06-shots/videos/shot-04-take-06.generation.json). Output and user review pending; previous approved assets preserved.
+
+## 2026-10-19T23:05:35+05:30 — Door take 6 completed with moving final second
+
+- Saved [take 6](assets/06-shots/videos/shot-04-take-06.mp4), request `01a1553a-a29e-7742-9ab3-f84d53e39e08`, exact recipe, returned seed, provider URL, checksums and [contact sheet](assets/06-shots/reviews/shot-04-take-06-contact-sheet.jpg).
+- Verified download byte count and decode: 3.042 seconds, 24 fps, one audio track. No generated-output retiming. One generation ($0.15 estimate) plus one reference trim ($0.001/compute second; actual compute charge unreported).
+- Frame review shows accepted fast approach/stop timing retained around 1.25 seconds. During the final second Riley visibly turns her head and upper body toward the camera with arm/hair movement, resolving the prior frozen final-second behavior in sampled frames.
+- Turn is larger than the requested small head turn; near-static interval between stopping and turning remains. Display change persists. Native audio has not been listened to.
+- New take awaits user approval. Previously selected 2x edit, accepted take 5 pace and all source/reference files preserved. Updated manifest and prompt outcome.
+
+## 2026-10-19T23:08:17+05:30 — Door take 6 approved; opening ready for assembly
+
+- User approves take 6 and requests committing everything, pushing, and next steps. Selected `assets/06-shots/videos/shot-04-take-06.mp4` in manifest and marked its generation record approved. Preserve earlier takes and references.
+- Next: identify the exact previously accepted chin visual take (prior acceptance did not name it), then assemble legs take 5, badge take 3, that chin take and door take 6 into a four-shot review cut. Review rhythm and continuity before locking the hook.
+- Listen to and unify train ambience, heel contacts, badge movement and breathing; remove unwanted speech and review the existing legs audio fix. Visual approval does not independently establish audio approval.
+- After the hook is locked, plan the train departure/billboard reveal and clinic sequence. Develop the polished jingle at the agreed later stage; existing demo remains exploration only.
+- Publication checks: asset JSON parses; pending text files contain no detected private-key/signed-upload URL patterns; media files are below GitHub single-file limits. All pending work belongs to shot production and reproducible review/preparation scripts; no new ignore rules needed. Signed commit and push follow.

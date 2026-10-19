@@ -1,0 +1,21 @@
+{
+  "audio_processing": "Same speed change as picture, AVFoundation spectral pitch preservation requested; listening review pending.",
+  "audio_tracks": 1,
+  "duration_seconds": 1.584,
+  "fps": 48,
+  "notes": "Whole generated clip retimed at user request. Source unchanged. Re-encoded locally; no AI generation or optical-flow interpolation requested.",
+  "output_file": "assets/06-shots/videos/shot-04-take-03-speed-2x.mp4",
+  "output_sha256": "be71b97113dea833954b96678f92e8bb41574a9077712ce7f34ce100c380050e",
+  "resolution": [
+    832,
+    480
+  ],
+  "review_status": "user_approved",
+  "script": "scripts/retime-video.swift",
+  "source_duration_seconds": 3.072,
+  "source_file": "assets/06-shots/videos/shot-04-take-03.mp4",
+  "source_sha256": "6bdee9a8a52feeb64f5d78e67c236024af2de15a552926f657b8746df2fd1e8f",
+  "speed_multiplier": 2,
+  "user_approved": true,
+  "user_feedback": "Yup i think this is good. Now try to do a new generation with this as a reference video"
+}

@@ -810,8 +810,59 @@
           "generation_record": "06-shots/videos/shot-04-take-01.generation.json",
           "endpoint_id": "minimax/h3-max-turbo/image-to-video",
           "request_id": "01a13fb7-0448-7670-bd6f-2a5388fa34da",
-          "status": "rejected_slow_cadence",
+          "status": "user_accepted_additional_variation_requested",
+          "user_approved": true
+        },
+        {
+          "video": "06-shots/videos/shot-04-take-02.mp4",
+          "generation_record": "06-shots/videos/shot-04-take-02.generation.json",
+          "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+          "request_id": "01a145c9-8a58-7c73-8b3e-9fa887662366",
+          "status": "rejected_slow_motion_feel",
           "user_approved": false
+        },
+        {
+          "video": "06-shots/videos/shot-04-take-03.mp4",
+          "generation_record": "06-shots/videos/shot-04-take-03.generation.json",
+          "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+          "request_id": "01a145f0-0045-7793-adcf-54628a9de77b",
+          "status": "rejected_slow_motion_feel",
+          "user_approved": false
+        },
+        {
+          "video": "06-shots/videos/shot-04-take-04.mp4",
+          "generation_record": "06-shots/videos/shot-04-take-04.generation.json",
+          "endpoint_id": "minimax/h3-max/reference-to-video",
+          "request_id": "01a145f7-8533-7842-a387-ec2dd49c17b7",
+          "status": "rejected_slow_motion_feel",
+          "user_approved": false
+        },
+        {
+          "video": "06-shots/videos/shot-04-take-05.mp4",
+          "generation_record": "06-shots/videos/shot-04-take-05.generation.json",
+          "endpoint_id": "minimax/h3-max/reference-to-video",
+          "request_id": "01a145fc-0084-7680-8078-0ded1bbbb842",
+          "status": "pace_accepted_frozen_ending_revision_requested",
+          "user_approved": false
+        },
+        {
+          "video": "06-shots/videos/shot-04-take-06.mp4",
+          "generation_record": "06-shots/videos/shot-04-take-06.generation.json",
+          "endpoint_id": "minimax/h3-max/reference-to-video",
+          "request_id": "01a1553a-a29e-7742-9ab3-f84d53e39e08",
+          "status": "user_approved",
+          "user_approved": true
+        }
+      ],
+      "selected_video": "06-shots/videos/shot-04-take-06.mp4",
+      "video_edits": [
+        {
+          "video": "06-shots/videos/shot-04-take-03-speed-2x.mp4",
+          "source_video": "06-shots/videos/shot-04-take-03.mp4",
+          "edit_record": "06-shots/videos/shot-04-take-03-speed-2x.retime.json",
+          "speed_multiplier": 2,
+          "status": "user_approved",
+          "user_approved": true
         }
       ]
     },
@@ -859,8 +910,8 @@
       "https://elevenlabs.io/video/minimax-h3"
     ],
     "verification_date": "2026-10-15",
-    "generated_take_count": 13,
-    "cadence_target": "User approved shot-01 take-05 picture despite assistant counting approximately seven new landings. Do not chase an exact count or regenerate accepted visuals. Audio fix v01 reuses shot-03 take-01 soundtrack; user listening review pending. Badge take 3, generated from the 1.5x reference, is user-approved. Door regeneration pending.",
+    "generated_take_count": 18,
+    "cadence_target": "User approved shot-01 take-05 picture despite assistant counting approximately seven new landings. Do not chase an exact count or regenerate accepted visuals. Audio fix v01 reuses shot-03 take-01 soundtrack; user listening review pending. Badge take 3, generated from the 1.5x reference, is user-approved. User accepts door take 1; take 2 was rejected as slow motion. Take 3 was also rejected as slowed. User approved the 2x local playback edit of take 3 and requested a new generation using it as motion reference; this edit is the current door selection. User rejected door take 4 as slow. User accepts take 5 pace but requests repair of its frozen final second. User approved and selected door take 6: fast approach and moving final reaction. Preserve this picture; audio continuity still needs review in the assembled hook.",
     "latest_test_model": "MiniMax H3 Max Reference to Video"
   }
 }

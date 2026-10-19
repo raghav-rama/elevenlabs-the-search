@@ -1,0 +1,385 @@
+{
+  "status": "completed",
+  "recipe": {
+    "endpoint_id": "minimax/h3-max/reference-to-video",
+    "input": {
+      "prompt": "Recreate Video 1 as a three-second shot with the SAME real-time movement speed and event timing. Video 1 is the authoritative motion reference. Image 1 supplies Riley's appearance and the station design. The fast approach occupies only the opening portion; most of the shot is the stopped reaction.\n\nTiming: 0.00-0.65 seconds: Riley is already running quickly from LEFT to RIGHT, matching Video 1's rapid leg cycle, arm drive and distance covered. The stationary train's doors slide shut just before she arrives. 0.65-1.25 seconds: match Video 1's quick final braking steps and settle outside the closed doorway. 1.25-3.00 seconds: her feet stay planted at the doorway. She catches her breath and looks at the shut doors, with a small natural shoulder movement and bag settling. Keep this reaction interval; do not spend it on more approach steps. No slow motion, speed ramp, slow start, or stretching the run over three seconds. Preserve Video 1's playback timing without halving the movement speed.\n\nOne continuous locked-off wide shot with the same framing. Preserve Riley's white long-sleeved shirt, knee-length black skirt, sheer black tights, black block heels, burgundy KORVEX lanyard, and black bag on her anatomical RIGHT shoulder. Preserve the graphite train, cyan stripes, carriage 07, yellow door lights, platform and 8:30 a.m. daylight. Train stays still, doors stay closed after sealing, Riley stays outside. Grounded feet, no camera movement, cuts, boarding, new people or changing displays. The reference's ending hold should become a natural stationary breathing reaction.\n\nAudio: quick synchronized running heel contacts and braking steps in the opening 1.25 seconds, door warning chime, sliding motor and seal, then quiet station/train rumble and her breath. No speech, narration, announcements, badge reading or music.",
+      "reference_image_urls": [
+        "https://v3b.fal.media/files/b/0aae7b6f/fMdtXSX-iVV51UCspedoj_shot-04a-v01.png"
+      ],
+      "reference_video_urls": [
+        "https://v3b.fal.media/files/b/0aaea487/COk_4PKcWAXJJBgdZWIUs_door-motion-3s-24fps-v02.mp4"
+      ],
+      "duration": 3,
+      "resolution": "480P",
+      "aspect_ratio": "16:9",
+      "seed": 20261016,
+      "prompt_expansion_mode": "disabled",
+      "enable_safety_checker": true
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a145fc-0084-7680-8078-0ded1bbbb842",
+  "endpoint_id": "minimax/h3-max/reference-to-video",
+  "status_url": "https://queue.fal.run/minimax/h3-max/requests/01a145fc-0084-7680-8078-0ded1bbbb842/status",
+  "response_url": "https://queue.fal.run/minimax/h3-max/requests/01a145fc-0084-7680-8078-0ded1bbbb842",
+  "cancel_url": "https://queue.fal.run/minimax/h3-max/requests/01a145fc-0084-7680-8078-0ded1bbbb842/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url: it waits up to 40 seconds per call while the job runs and returns its result in the same call once it is COMPLETED (get_job_result with response_url also works).",
+  "asset_id": "shot-04",
+  "take": 5,
+  "provider": "fal.ai",
+  "tool": "fal plugin",
+  "source_image": "assets/06-shots/images/shot-04a-v01.png",
+  "source_motion_reference": "assets/references/prepared-doors/door-motion-3s-24fps-v02.mp4",
+  "approved_motion_source": "assets/06-shots/videos/shot-04-take-03-speed-2x.mp4",
+  "planned_video": "assets/06-shots/videos/shot-04-take-05.mp4",
+  "estimated_cost_usd": 0.15,
+  "pricing_basis": "0.05 USD per second x 3 requested seconds; estimate, not confirmed charge.",
+  "review_status": "pace_accepted_frozen_ending_revision_requested",
+  "revision_reason": "User rejected take 4 as slow; requests a three-second generation matching approved 2x pace. Timestamp-normalized 24 fps reference holds the final pose, and prompt gives an explicit 0-1.25 second approach/brake and 1.25-3 second reaction timeline.",
+  "comparison_limitations": "Reference cadence, prompt and duration changed together. This is not a controlled test of frame-rate normalization as the cause of previous slow output.",
+  "reference_preparation": {
+    "audio_removed": true,
+    "duration_seconds": 3,
+    "file_size": 1634260,
+    "fps": 24,
+    "motion_speed_changed": false,
+    "notes": "Timestamp-based frame selection preserves playback pace; final pose repeats after source picture ends. No optical flow, looping or time scaling. Source is unchanged.",
+    "output_file": "assets/references/prepared-doors/door-motion-3s-24fps-v02.mp4",
+    "output_frames": 72,
+    "output_sha256": "9b420d8c686c87a27ff5eb2e2671f764de37fb10521c19658531627bee80f0c5",
+    "sample_map": [
+      {
+        "output_seconds": 0,
+        "source_seconds": 0
+      },
+      {
+        "output_seconds": 0.041666666666666664,
+        "source_seconds": 0.041666666666666664
+      },
+      {
+        "output_seconds": 0.08333333333333333,
+        "source_seconds": 0.08333333333333333
+      },
+      {
+        "output_seconds": 0.125,
+        "source_seconds": 0.125
+      },
+      {
+        "output_seconds": 0.16666666666666666,
+        "source_seconds": 0.16666666666666666
+      },
+      {
+        "output_seconds": 0.20833333333333334,
+        "source_seconds": 0.20833333333333334
+      },
+      {
+        "output_seconds": 0.25,
+        "source_seconds": 0.25
+      },
+      {
+        "output_seconds": 0.2916666666666667,
+        "source_seconds": 0.2916666666666667
+      },
+      {
+        "output_seconds": 0.3333333333333333,
+        "source_seconds": 0.3333333333333333
+      },
+      {
+        "output_seconds": 0.375,
+        "source_seconds": 0.375
+      },
+      {
+        "output_seconds": 0.4166666666666667,
+        "source_seconds": 0.4166666666666667
+      },
+      {
+        "output_seconds": 0.4583333333333333,
+        "source_seconds": 0.4583333333333333
+      },
+      {
+        "output_seconds": 0.5,
+        "source_seconds": 0.5
+      },
+      {
+        "output_seconds": 0.5416666666666666,
+        "source_seconds": 0.5416666666666666
+      },
+      {
+        "output_seconds": 0.5833333333333334,
+        "source_seconds": 0.5833333333333334
+      },
+      {
+        "output_seconds": 0.625,
+        "source_seconds": 0.625
+      },
+      {
+        "output_seconds": 0.6666666666666666,
+        "source_seconds": 0.6666666666666666
+      },
+      {
+        "output_seconds": 0.7083333333333334,
+        "source_seconds": 0.7083333333333334
+      },
+      {
+        "output_seconds": 0.75,
+        "source_seconds": 0.75
+      },
+      {
+        "output_seconds": 0.7916666666666666,
+        "source_seconds": 0.7916666666666666
+      },
+      {
+        "output_seconds": 0.8333333333333334,
+        "source_seconds": 0.8333333333333334
+      },
+      {
+        "output_seconds": 0.875,
+        "source_seconds": 0.875
+      },
+      {
+        "output_seconds": 0.9166666666666666,
+        "source_seconds": 0.9166666666666666
+      },
+      {
+        "output_seconds": 0.9583333333333334,
+        "source_seconds": 0.9583333333333334
+      },
+      {
+        "output_seconds": 1,
+        "source_seconds": 1
+      },
+      {
+        "output_seconds": 1.0416666666666667,
+        "source_seconds": 1.0416666666666667
+      },
+      {
+        "output_seconds": 1.0833333333333333,
+        "source_seconds": 1.0833333333333333
+      },
+      {
+        "output_seconds": 1.125,
+        "source_seconds": 1.125
+      },
+      {
+        "output_seconds": 1.1666666666666667,
+        "source_seconds": 1.1666666666666667
+      },
+      {
+        "output_seconds": 1.2083333333333333,
+        "source_seconds": 1.2083333333333333
+      },
+      {
+        "output_seconds": 1.25,
+        "source_seconds": 1.25
+      },
+      {
+        "output_seconds": 1.2916666666666667,
+        "source_seconds": 1.2916666666666667
+      },
+      {
+        "output_seconds": 1.3333333333333333,
+        "source_seconds": 1.3333333333333333
+      },
+      {
+        "output_seconds": 1.375,
+        "source_seconds": 1.375
+      },
+      {
+        "output_seconds": 1.4166666666666667,
+        "source_seconds": 1.4166666666666667
+      },
+      {
+        "output_seconds": 1.4583333333333333,
+        "source_seconds": 1.4583333333333333
+      },
+      {
+        "output_seconds": 1.5,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 1.5416666666666667,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 1.5833333333333333,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 1.625,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 1.6666666666666667,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 1.7083333333333333,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 1.75,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 1.7916666666666667,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 1.8333333333333333,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 1.875,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 1.9166666666666667,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 1.9583333333333333,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.0416666666666665,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.0833333333333335,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.125,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.1666666666666665,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.2083333333333335,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.25,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.2916666666666665,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.3333333333333335,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.375,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.4166666666666665,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.4583333333333335,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.5,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.5416666666666665,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.5833333333333335,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.625,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.6666666666666665,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.7083333333333335,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.75,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.7916666666666665,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.8333333333333335,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.875,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.9166666666666665,
+        "source_seconds": 1.5
+      },
+      {
+        "output_seconds": 2.9583333333333335,
+        "source_seconds": 1.5
+      }
+    ],
+    "script": "scripts/normalize-motion-reference.swift",
+    "source_duration_seconds": 1.584,
+    "source_file": "assets/06-shots/videos/shot-04-take-03-speed-2x.mp4",
+    "source_fps": 48,
+    "source_sha256": "be71b97113dea833954b96678f92e8bb41574a9077712ce7f34ce100c380050e"
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaea48f/AF_70nNp1MD6d3LsHlAiQ_minimax-h3.mp4",
+      "content_type": "video/mp4",
+      "file_name": "AF_70nNp1MD6d3LsHlAiQ_minimax-h3.mp4",
+      "file_size": 2094021
+    },
+    "expanded_prompt": null,
+    "seed": 20261016,
+    "timings": {
+      "inference": 1.1616515930509195
+    }
+  },
+  "workspace_video": "assets/06-shots/videos/shot-04-take-05.mp4",
+  "file_size": 2094021,
+  "sha256": "795d29266bc15f05dcff9f30cafce4714f8e4e6d39aabe73ca6753c11fb36501",
+  "media_metadata": {
+    "duration_seconds": 3.042,
+    "fps": 24,
+    "audio_tracks": 1
+  },
+  "visual_review": {
+    "method": "24 frames sampled every 0.125 seconds, compared at the same times with the prepared three-second reference.",
+    "contact_sheet": "assets/06-shots/reviews/shot-04-take-05-contact-sheet.jpg",
+    "reference_contact_sheet": "assets/references/prepared-doors/door-motion-3s-24fps-v02-contact-sheet.jpg",
+    "observations": [
+      "Sampled poses and travel now closely follow the approved 2x reference at corresponding times.",
+      "Running and braking finish around 1.25 seconds, with feet planted at the doorway for the remaining interval.",
+      "The ending is nearly still in sampled frames; natural breathing subtlety needs playback review.",
+      "Overhead displays still change during the shot."
+    ],
+    "limitations": "Visual sampling supports much closer timing, not exact cadence equality. Audio has not been listened to; speech absence and sound continuity unverified. This iteration changed duration, reference frame rate and prompt together, so no single cause of improvement is established."
+  },
+  "verification": "Provider byte count and SHA-256 verified, output decodes at 24 fps with audio. Three seconds requested; provider returned 3.042 seconds. Generated output has not been retimed.",
+  "user_approved": false,
+  "user_feedback": "This one is ok, can you regenerate it? The last 1 second is frozen"
+}

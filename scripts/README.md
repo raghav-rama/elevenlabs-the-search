@@ -95,3 +95,64 @@ The generalized script replaces the temporary variants used for these reviews:
 
 These are visual sampling aids, not automated gait measurements. There is no
 badge compositing script yet: that repair is a [proposed next test](../assets/06-shots/video-prompts/shot-02-bouncing-badge.md).
+
+## Create a whole-clip speed preview
+
+```sh
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  scripts/retime-video.swift \
+  assets/06-shots/videos/shot-04-take-03.mp4 \
+  assets/06-shots/videos/shot-04-take-03-speed-2x.mp4 2
+```
+
+This retimes the generated picture and native audio together at the requested
+speed, using spectral pitch preservation for audio. It preserves source files,
+refuses to overwrite outputs, and saves a `.retime.json` record with hashes and
+verified metadata. No provider generation or optical-flow interpolation is used.
+The 2x preview decodes at 48 fps, 832x480 with one audio track; its container
+duration is 1.584 seconds, including audio/export padding. Listening review and
+user approval remain separate from metadata verification.
+
+## Pad a short motion reference with an ending hold
+
+```sh
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  scripts/pad-motion-reference.swift \
+  assets/06-shots/videos/shot-04-take-03-speed-2x.mp4 \
+  assets/references/prepared-doors/door-motion-2s-v01.mp4 2
+```
+
+Preserves the decoded picture frames and their presentation timestamps, then
+repeats the final frame to reach the requested duration. Removes audio for a
+motion-only reference, preserves the source, and refuses existing output paths.
+The `.preparation.json` records hashes, duration and frame counts. This prepares
+the approved 2x door clip for H3's two-second reference minimum without slowing
+the running action. The v01 output contains 73 source frames plus 23 held frames.
+
+## Normalize reference frame rate without changing playback speed
+
+```sh
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  scripts/normalize-motion-reference.swift \
+  assets/06-shots/videos/shot-04-take-03-speed-2x.mp4 \
+  assets/references/prepared-doors/door-motion-3s-24fps-v02.mp4 3 24
+```
+
+Samples source frames by their presentation timestamps at a constant 24 fps,
+then holds the final pose to reach three seconds. It removes audio and keeps
+source playback timing: converting from 48 to 24 fps does not slow the action.
+The preparation record includes every output-to-source timestamp mapping,
+source/output hashes, verified duration and rate. This script decodes the short
+source into memory; use it for short motion references. Existing outputs are
+refused. Frame-rate normalization is a precaution, not an established diagnosis
+of earlier model pacing failures.
+
+## Trim the door reference to reduce the held ending
+
+Door reference v03 uses fal's `fal-ai/workflow-utilities/trim-video` with the
+existing v02 public video URL, `start_time: 0` and `end_time: 2`. Exact submitted
+input, request ID, output URL and checksum are saved in
+`assets/references/prepared-doors/door-motion-2s-24fps-v03.preparation.json`.
+This server operation preserves playback speed and removes the final second;
+it is a reference preparation operation, not a generated-ad retime. Current
+recorded rate is $0.001 per compute second; actual charge was not reported.

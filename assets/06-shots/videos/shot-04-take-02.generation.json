@@ -1,0 +1,68 @@
+{
+  "asset_id": "shot-04",
+  "take": 2,
+  "provider": "fal.ai",
+  "tool": "fal plugin",
+  "status": "COMPLETED",
+  "recipe": {
+    "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+    "input": {
+      "prompt": "Animate the supplied wide platform image as one continuous photorealistic 16:9 shot. The normal-perspective camera holds its position and framing. Riley approaches from the LEFT toward the selected train doorway on the RIGHT. Keep the same original graphite train, cyan stripes, yellow door-frame lights, carriage 07 identifier, platform geometry, and diffuse 8:30 a.m. daylight.\n\nAs Riley takes her last hurried steps, the paired train doors slide inward toward their shared center seam. The two leaves move evenly and mechanically, retaining their exact windows, seals, materials, and width. They meet and close completely just before she can reach the entrance. Riley notices, shortens her stride, and stops on the platform short of the doorway. Her momentum settles naturally through her shoulders, bag, skirt, and lanyard. She catches her breath with restrained disappointment, looking at the shut doors. The train stays stationary during this shot.\n\nPreserve the same Riley identity, white long-sleeved shirt, knee-length black skirt, sheer black tights, black block heels, burgundy KORVEX badge, and black bag on her anatomical RIGHT shoulder. Keep her feet grounded, her body scale consistent, and the target door in the same place. No hand in the door gap, track crossing, jump, superhuman movement, teleporting, premature boarding, sliding feet, new people, train departure, billboard reveal, camera zoom, cuts, or extra text.\n\nNative sound: continue one departure warning chime, then the synchronized sliding-door motor and closing seal, Riley's final heel contacts slowing to a stop, slight bag and badge movement, and her breath in the same station ambience. After the doors shut, leave a short audible beat of breath and room tone. No music, narration, spoken line, or new announcement. Hold the closed-door state and her settled position briefly at the end.",
+      "image_url": "https://v3b.fal.media/files/b/0aae7b6f/fMdtXSX-iVV51UCspedoj_shot-04a-v01.png",
+      "resolution": "480P",
+      "duration": 3,
+      "prompt_expansion_mode": "disabled",
+      "enable_safety_checker": true,
+      "seed": 20261016
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a145c9-8a58-7c73-8b3e-9fa887662366",
+  "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+  "status_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a145c9-8a58-7c73-8b3e-9fa887662366/status",
+  "response_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a145c9-8a58-7c73-8b3e-9fa887662366",
+  "cancel_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a145c9-8a58-7c73-8b3e-9fa887662366/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url: it waits up to 40 seconds per call while the job runs and returns its result in the same call once it is COMPLETED (get_job_result with response_url also works).",
+  "source_image": "assets/06-shots/images/shot-04a-v01.png",
+  "source_sha256": "b4a3b7798d91a1eaa88b3a990c67e668f46042152815b1f41498588103fb4834",
+  "planned_video": "assets/06-shots/videos/shot-04-take-02.mp4",
+  "estimated_cost_usd": 0.045,
+  "pricing_basis": "0.015 USD per second x 3 requested seconds; estimate, not actual charge.",
+  "review_status": "rejected_slow_motion_feel",
+  "revision_reason": "User says existing closing-door shot looks fine and requests exactly one more variation. Same input image, prompt, duration, resolution, safety and expansion settings; explicit seed 20261016 added.",
+  "comparison_limitations": "Take 1 omitted a seed and its stored result did not return one; take 2 records an explicit seed. No motion reference, ending image or target audio added.",
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaea344/Bn_WtTU7_UGAsrhSAXrdU_minimax-h3.mp4",
+      "content_type": "video/mp4",
+      "file_name": "Bn_WtTU7_UGAsrhSAXrdU_minimax-h3.mp4",
+      "file_size": 2598968
+    },
+    "expanded_prompt": null,
+    "timings": {
+      "inference": 0.4421316770003614
+    }
+  },
+  "workspace_video": "assets/06-shots/videos/shot-04-take-02.mp4",
+  "sha256": "8858b016fc9368821b6f6baf156178b8ecf2029d1bf54a9b53fba3dbb76358cd",
+  "file_size": 2598968,
+  "media_metadata": {
+    "duration_seconds": 3.042,
+    "fps": 24,
+    "audio_tracks": 1
+  },
+  "visual_review": {
+    "method": "24 sampled frames at 0.125-second intervals",
+    "contact_sheet": "assets/06-shots/reviews/shot-04-take-02-contact-sheet.jpg",
+    "observations": [
+      "Doors close before Riley reaches them; she settles to a stop outside the doorway.",
+      "Camera framing and train position remain broadly consistent in sampled frames.",
+      "Approach becomes walking-like before the stop; overhead displays change to red graphics during the shot."
+    ],
+    "limitations": "Full-speed pace and audio have not been perceptually reviewed. User comparison with accepted take 1 remains pending."
+  },
+  "verification": "Downloaded byte count matches provider output and MP4 decodes at 24 fps. Initial review ran before download completed and failed; rerun succeeded after complete download. No generation retry or additional spend.",
+  "user_feedback": "Feels like it is slow motion. Can you ask the model to keep it fast paced?"
+}

@@ -1,0 +1,306 @@
+{
+  "audio_removed" : true,
+  "duration_seconds" : 3,
+  "file_size" : 1634260,
+  "fps" : 24,
+  "motion_speed_changed" : false,
+  "notes" : "Timestamp-based frame selection preserves playback pace; final pose repeats after source picture ends. No optical flow, looping or time scaling. Source is unchanged.",
+  "output_file" : "assets\/references\/prepared-doors\/door-motion-3s-24fps-v02.mp4",
+  "output_frames" : 72,
+  "output_sha256" : "9b420d8c686c87a27ff5eb2e2671f764de37fb10521c19658531627bee80f0c5",
+  "sample_map" : [
+    {
+      "output_seconds" : 0,
+      "source_seconds" : 0
+    },
+    {
+      "output_seconds" : 0.041666666666666664,
+      "source_seconds" : 0.041666666666666664
+    },
+    {
+      "output_seconds" : 0.083333333333333329,
+      "source_seconds" : 0.083333333333333329
+    },
+    {
+      "output_seconds" : 0.125,
+      "source_seconds" : 0.125
+    },
+    {
+      "output_seconds" : 0.16666666666666666,
+      "source_seconds" : 0.16666666666666666
+    },
+    {
+      "output_seconds" : 0.20833333333333334,
+      "source_seconds" : 0.20833333333333334
+    },
+    {
+      "output_seconds" : 0.25,
+      "source_seconds" : 0.25
+    },
+    {
+      "output_seconds" : 0.29166666666666669,
+      "source_seconds" : 0.29166666666666669
+    },
+    {
+      "output_seconds" : 0.33333333333333331,
+      "source_seconds" : 0.33333333333333331
+    },
+    {
+      "output_seconds" : 0.375,
+      "source_seconds" : 0.375
+    },
+    {
+      "output_seconds" : 0.41666666666666669,
+      "source_seconds" : 0.41666666666666669
+    },
+    {
+      "output_seconds" : 0.45833333333333331,
+      "source_seconds" : 0.45833333333333331
+    },
+    {
+      "output_seconds" : 0.5,
+      "source_seconds" : 0.5
+    },
+    {
+      "output_seconds" : 0.54166666666666663,
+      "source_seconds" : 0.54166666666666663
+    },
+    {
+      "output_seconds" : 0.58333333333333337,
+      "source_seconds" : 0.58333333333333337
+    },
+    {
+      "output_seconds" : 0.625,
+      "source_seconds" : 0.625
+    },
+    {
+      "output_seconds" : 0.66666666666666663,
+      "source_seconds" : 0.66666666666666663
+    },
+    {
+      "output_seconds" : 0.70833333333333337,
+      "source_seconds" : 0.70833333333333337
+    },
+    {
+      "output_seconds" : 0.75,
+      "source_seconds" : 0.75
+    },
+    {
+      "output_seconds" : 0.79166666666666663,
+      "source_seconds" : 0.79166666666666663
+    },
+    {
+      "output_seconds" : 0.83333333333333337,
+      "source_seconds" : 0.83333333333333337
+    },
+    {
+      "output_seconds" : 0.875,
+      "source_seconds" : 0.875
+    },
+    {
+      "output_seconds" : 0.91666666666666663,
+      "source_seconds" : 0.91666666666666663
+    },
+    {
+      "output_seconds" : 0.95833333333333337,
+      "source_seconds" : 0.95833333333333337
+    },
+    {
+      "output_seconds" : 1,
+      "source_seconds" : 1
+    },
+    {
+      "output_seconds" : 1.0416666666666667,
+      "source_seconds" : 1.0416666666666667
+    },
+    {
+      "output_seconds" : 1.0833333333333333,
+      "source_seconds" : 1.0833333333333333
+    },
+    {
+      "output_seconds" : 1.125,
+      "source_seconds" : 1.125
+    },
+    {
+      "output_seconds" : 1.1666666666666667,
+      "source_seconds" : 1.1666666666666667
+    },
+    {
+      "output_seconds" : 1.2083333333333333,
+      "source_seconds" : 1.2083333333333333
+    },
+    {
+      "output_seconds" : 1.25,
+      "source_seconds" : 1.25
+    },
+    {
+      "output_seconds" : 1.2916666666666667,
+      "source_seconds" : 1.2916666666666667
+    },
+    {
+      "output_seconds" : 1.3333333333333333,
+      "source_seconds" : 1.3333333333333333
+    },
+    {
+      "output_seconds" : 1.375,
+      "source_seconds" : 1.375
+    },
+    {
+      "output_seconds" : 1.4166666666666667,
+      "source_seconds" : 1.4166666666666667
+    },
+    {
+      "output_seconds" : 1.4583333333333333,
+      "source_seconds" : 1.4583333333333333
+    },
+    {
+      "output_seconds" : 1.5,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 1.5416666666666667,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 1.5833333333333333,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 1.625,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 1.6666666666666667,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 1.7083333333333333,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 1.75,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 1.7916666666666667,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 1.8333333333333333,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 1.875,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 1.9166666666666667,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 1.9583333333333333,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.0416666666666665,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.0833333333333335,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.125,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.1666666666666665,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.2083333333333335,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.25,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.2916666666666665,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.3333333333333335,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.375,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.4166666666666665,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.4583333333333335,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.5,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.5416666666666665,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.5833333333333335,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.625,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.6666666666666665,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.7083333333333335,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.75,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.7916666666666665,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.8333333333333335,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.875,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.9166666666666665,
+      "source_seconds" : 1.5
+    },
+    {
+      "output_seconds" : 2.9583333333333335,
+      "source_seconds" : 1.5
+    }
+  ],
+  "script" : "scripts\/normalize-motion-reference.swift",
+  "source_duration_seconds" : 1.5840000000000001,
+  "source_file" : "assets\/06-shots\/videos\/shot-04-take-03-speed-2x.mp4",
+  "source_fps" : 48,
+  "source_sha256" : "be71b97113dea833954b96678f92e8bb41574a9077712ce7f34ce100c380050e"
+}

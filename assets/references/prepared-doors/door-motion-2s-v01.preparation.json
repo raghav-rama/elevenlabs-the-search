@@ -1,0 +1,17 @@
+{
+  "appended_hold_frames" : 23,
+  "audio_removed" : true,
+  "duration_seconds" : 2,
+  "file_size" : 1554640,
+  "fps" : 47.960033416748047,
+  "motion_speed_changed" : false,
+  "notes" : "Decoded source frames retain their timestamps. Final frame repeated to meet provider minimum duration. Silent motion reference; source unchanged.",
+  "output_file" : "assets\/references\/prepared-doors\/door-motion-2s-v01.mp4",
+  "output_sha256" : "4288e2d3685717a3aab107e6245b717a993b16581be179489ebfaca8b2de1a66",
+  "script" : "scripts\/pad-motion-reference.swift",
+  "source_duration_seconds" : 1.5840000000000001,
+  "source_file" : "assets\/06-shots\/videos\/shot-04-take-03-speed-2x.mp4",
+  "source_frames_preserved" : 73,
+  "source_sha256" : "be71b97113dea833954b96678f92e8bb41574a9077712ce7f34ce100c380050e",
+  "source_video_end_seconds" : 1.5208333333333333
+}

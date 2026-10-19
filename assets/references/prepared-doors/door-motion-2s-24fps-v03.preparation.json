@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "recipe": {
+    "endpoint_id": "fal-ai/workflow-utilities/trim-video",
+    "input": {
+      "video_url": "https://v3b.fal.media/files/b/0aaea487/COk_4PKcWAXJJBgdZWIUs_door-motion-3s-24fps-v02.mp4",
+      "start_time": 0,
+      "end_time": 2
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a15539-1504-7070-bfa1-b311a781c181",
+  "endpoint_id": "fal-ai/workflow-utilities/trim-video",
+  "status_url": "https://queue.fal.run/fal-ai/workflow-utilities/requests/01a15539-1504-7070-bfa1-b311a781c181/status",
+  "response_url": "https://queue.fal.run/fal-ai/workflow-utilities/requests/01a15539-1504-7070-bfa1-b311a781c181",
+  "cancel_url": "https://queue.fal.run/fal-ai/workflow-utilities/requests/01a15539-1504-7070-bfa1-b311a781c181/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url: it waits up to 40 seconds per call while the job runs and returns its result in the same call once it is COMPLETED (get_job_result with response_url also works).",
+  "source_file": "assets/references/prepared-doors/door-motion-3s-24fps-v02.mp4",
+  "planned_output": "assets/references/prepared-doors/door-motion-2s-24fps-v03.mp4",
+  "pricing_basis": "0.001 USD per compute second; total not known before processing",
+  "motion_speed_changed": false,
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaf086c/YtKT7XkKBrfXDHoqu6V5u_output.mp4",
+      "content_type": "application/octet-stream",
+      "file_name": "output.mp4",
+      "file_size": 635833
+    },
+    "original_duration": 3,
+    "trimmed_duration": 2
+  },
+  "sha256": "a0722a5422bdac1cd8665437049a3a7a62fb274a5d6b001e35c170e110ac1d3a",
+  "file_size": 635833,
+  "verified_metadata": {
+    "duration_seconds": 2,
+    "fps": 24,
+    "audio_tracks": 0
+  }
+}

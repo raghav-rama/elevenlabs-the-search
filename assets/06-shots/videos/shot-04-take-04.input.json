@@ -1,0 +1,15 @@
+{
+  "prompt": "Use Video 1 as the motion and timing reference at its supplied playback speed. Match its brisk running approach, quick braking steps and doors closing just before Riley arrives. Use Image 1 for Riley's identity and wardrobe, the original graphite train with cyan stripes and carriage 07, the platform geometry and diffuse 8:30 a.m. light.\n\nOne continuous locked-off wide shot. Riley is already running from LEFT to RIGHT in the opening frame. Follow Video 1's rapid leg cycle and body travel without slowing down or stretching the approach across the whole clip. The doors close during her approach; by about 1.25 seconds she has stopped outside the shut doorway. Spend the remaining time on her small natural breathing reaction, looking at the closed doors. The train remains stationary. Keep the same framing, grounded feet and original door geometry, with no boarding, hand in the gap, camera movement or cuts.\n\nPreserve Riley's white long-sleeved shirt, knee-length black skirt, sheer black tights, black block heels, burgundy KORVEX lanyard and black bag on her anatomical RIGHT shoulder. Keep station displays consistent with Image 1. The final still frames in Video 1 represent a settled pose, not a freeze effect: allow only subtle breathing there.\n\nAudio: rapid synchronized heel contacts followed by a short braking shuffle, a brief door warning chime, sliding-door motor and seal, quiet train rumble and Riley's breath. No speech, narration, announcement, badge reading or music.",
+  "reference_image_urls": [
+    "https://v3b.fal.media/files/b/0aae7b6f/fMdtXSX-iVV51UCspedoj_shot-04a-v01.png"
+  ],
+  "reference_video_urls": [
+    "https://v3b.fal.media/files/b/0aaea46c/ULhkJ22pj-kROIhk12L-F_door-motion-2s-v01.mp4"
+  ],
+  "duration": 2,
+  "resolution": "480P",
+  "aspect_ratio": "16:9",
+  "seed": 20261016,
+  "prompt_expansion_mode": "disabled",
+  "enable_safety_checker": true
+}

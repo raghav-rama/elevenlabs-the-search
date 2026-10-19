@@ -1,0 +1,94 @@
+{
+  "status": "completed",
+  "recipe": {
+    "endpoint_id": "minimax/h3-max/reference-to-video",
+    "input": {
+      "prompt": "Use Video 1 as the motion and timing reference at its supplied playback speed. Match its brisk running approach, quick braking steps and doors closing just before Riley arrives. Use Image 1 for Riley's identity and wardrobe, the original graphite train with cyan stripes and carriage 07, the platform geometry and diffuse 8:30 a.m. light.\n\nOne continuous locked-off wide shot. Riley is already running from LEFT to RIGHT in the opening frame. Follow Video 1's rapid leg cycle and body travel without slowing down or stretching the approach across the whole clip. The doors close during her approach; by about 1.25 seconds she has stopped outside the shut doorway. Spend the remaining time on her small natural breathing reaction, looking at the closed doors. The train remains stationary. Keep the same framing, grounded feet and original door geometry, with no boarding, hand in the gap, camera movement or cuts.\n\nPreserve Riley's white long-sleeved shirt, knee-length black skirt, sheer black tights, black block heels, burgundy KORVEX lanyard and black bag on her anatomical RIGHT shoulder. Keep station displays consistent with Image 1. The final still frames in Video 1 represent a settled pose, not a freeze effect: allow only subtle breathing there.\n\nAudio: rapid synchronized heel contacts followed by a short braking shuffle, a brief door warning chime, sliding-door motor and seal, quiet train rumble and Riley's breath. No speech, narration, announcement, badge reading or music.",
+      "reference_image_urls": [
+        "https://v3b.fal.media/files/b/0aae7b6f/fMdtXSX-iVV51UCspedoj_shot-04a-v01.png"
+      ],
+      "reference_video_urls": [
+        "https://v3b.fal.media/files/b/0aaea46c/ULhkJ22pj-kROIhk12L-F_door-motion-2s-v01.mp4"
+      ],
+      "duration": 2,
+      "resolution": "480P",
+      "aspect_ratio": "16:9",
+      "seed": 20261016,
+      "prompt_expansion_mode": "disabled",
+      "enable_safety_checker": true
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a145f7-8533-7842-a387-ec2dd49c17b7",
+  "endpoint_id": "minimax/h3-max/reference-to-video",
+  "status_url": "https://queue.fal.run/minimax/h3-max/requests/01a145f7-8533-7842-a387-ec2dd49c17b7/status",
+  "response_url": "https://queue.fal.run/minimax/h3-max/requests/01a145f7-8533-7842-a387-ec2dd49c17b7",
+  "cancel_url": "https://queue.fal.run/minimax/h3-max/requests/01a145f7-8533-7842-a387-ec2dd49c17b7/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url: it waits up to 40 seconds per call while the job runs and returns its result in the same call once it is COMPLETED (get_job_result with response_url also works).",
+  "asset_id": "shot-04",
+  "take": 4,
+  "provider": "fal.ai",
+  "tool": "fal plugin",
+  "source_image": "assets/06-shots/images/shot-04a-v01.png",
+  "source_motion_reference": "assets/references/prepared-doors/door-motion-2s-v01.mp4",
+  "approved_motion_source": "assets/06-shots/videos/shot-04-take-03-speed-2x.mp4",
+  "planned_video": "assets/06-shots/videos/shot-04-take-04.mp4",
+  "estimated_cost_usd": 0.1,
+  "pricing_basis": "0.05 USD per second x 2 requested seconds; estimate, not confirmed charge.",
+  "review_status": "rejected_slow_motion_feel",
+  "revision_reason": "User approved the 2x edit and requested a new generation using it as reference. Prepared a silent two-second reference with final-frame hold only, preserving motion speed.",
+  "reference_preparation": {
+    "appended_hold_frames": 23,
+    "audio_removed": true,
+    "duration_seconds": 2,
+    "file_size": 1554640,
+    "fps": 47.96003341674805,
+    "motion_speed_changed": false,
+    "notes": "Decoded source frames retain their timestamps. Final frame repeated to meet provider minimum duration. Silent motion reference; source unchanged.",
+    "output_file": "assets/references/prepared-doors/door-motion-2s-v01.mp4",
+    "output_sha256": "4288e2d3685717a3aab107e6245b717a993b16581be179489ebfaca8b2de1a66",
+    "script": "scripts/pad-motion-reference.swift",
+    "source_duration_seconds": 1.584,
+    "source_file": "assets/06-shots/videos/shot-04-take-03-speed-2x.mp4",
+    "source_frames_preserved": 73,
+    "source_sha256": "be71b97113dea833954b96678f92e8bb41574a9077712ce7f34ce100c380050e",
+    "source_video_end_seconds": 1.5208333333333333
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaea471/9gB8ZXzMgq734Gk7GBwSP_minimax-h3.mp4",
+      "content_type": "video/mp4",
+      "file_name": "9gB8ZXzMgq734Gk7GBwSP_minimax-h3.mp4",
+      "file_size": 1797238
+    },
+    "expanded_prompt": null,
+    "seed": 20261016,
+    "timings": {
+      "inference": 1.032305140979588
+    }
+  },
+  "workspace_video": "assets/06-shots/videos/shot-04-take-04.mp4",
+  "file_size": 1797238,
+  "sha256": "ee46c8f13942f1711aeb0ccdbe8056e83e1bee71fb2ec981bc2f23ef9e896baa",
+  "media_metadata": {
+    "duration_seconds": 2.334,
+    "fps": 24,
+    "audio_tracks": 1
+  },
+  "visual_review": {
+    "method": "Contact sheet across first two seconds and ending detail sheet to approximately 2.21 seconds, compared with prepared reference.",
+    "contact_sheet": "assets/06-shots/reviews/shot-04-take-04-contact-sheet.jpg",
+    "ending_sheet": "assets/06-shots/reviews/shot-04-take-04-ending.jpg",
+    "observations": [
+      "Model reproduces the approach and door closure but stretches the motion relative to the approved reference.",
+      "At approximately 1.25 seconds, the approved reference is settled; generated take 4 is still approaching. Braking steps continue beyond 1.8 seconds.",
+      "Overhead displays change during the clip."
+    ],
+    "limitations": "Frame sampling does not establish precise gait cadence. Native audio exists but has not been listened to; speech absence and continuity unverified."
+  },
+  "verification": "Provider byte count and SHA-256 checked; output decodes successfully. New generated footage has not been retimed.",
+  "user_approved": false,
+  "user_feedback": "No it is still slow. Generate 3 second video only but it should be as fast as shot-04-take-03-speed-2x.mp4"
+}

@@ -1,0 +1,15 @@
+{
+  "prompt": "Create one continuous three-second shot. Match Video 1's fast approach and braking timing ONLY through 1.25 seconds; then continue into a clearly moving live-action reaction through the final frame. Image 1 supplies Riley's appearance and the station design. The still tail of Video 1 is reference padding: replace it with the moving reaction described below.\n\n0.00-0.65 seconds: Riley is already running quickly from LEFT to RIGHT, matching Video 1's rapid leg cycle, arm drive and distance covered. The stationary train's doors slide shut just before she arrives. 0.65-1.25 seconds: match Video 1's quick final braking steps and stop outside the closed doorway. Preserve this pace without slowing down, starting from rest or stretching the run across the clip.\n\n1.25-2.00 seconds: with her feet planted, Riley takes a visible recovery breath; her shoulders and upper chest rise, her elbows relax, and the bag swings once with the stopping momentum. 2.00-3.00 seconds: she exhales, visibly lowers her shoulders and slowly turns her head about fifteen degrees to her left, away from the shut door, with a small disappointed expression. Her hair and lanyard settle during this movement. The head turn is still finishing at the last frame. Her body and face continue moving throughout the final second. This is live action after stopping: no frozen frame, still-image hold, repeated-frame tail, pause or loop. Keep her feet in place after 1.25 seconds and generate new upper-body motion instead of further approach steps.\n\nLocked-off wide camera, same framing. Preserve Riley's white long-sleeved shirt, knee-length black skirt, sheer black tights, black block heels, burgundy KORVEX lanyard, and black bag on her anatomical RIGHT shoulder. Preserve the graphite train, cyan stripes, carriage 07, yellow door lights, platform and 8:30 a.m. daylight. Train stays still, doors stay closed after sealing, Riley stays outside. No camera movement, cuts, boarding, new people or changing displays.\n\nAudio: quick synchronized running heel contacts and braking steps in the opening 1.25 seconds, door warning chime, sliding motor and seal, then quiet station/train rumble, an audible recovery breath and soft bag/fabric movement. No speech, narration, announcements, badge reading or music.",
+  "reference_image_urls": [
+    "https://v3b.fal.media/files/b/0aae7b6f/fMdtXSX-iVV51UCspedoj_shot-04a-v01.png"
+  ],
+  "reference_video_urls": [
+    "https://v3b.fal.media/files/b/0aaf086c/YtKT7XkKBrfXDHoqu6V5u_output.mp4"
+  ],
+  "duration": 3,
+  "resolution": "480P",
+  "aspect_ratio": "16:9",
+  "seed": 20261016,
+  "prompt_expansion_mode": "disabled",
+  "enable_safety_checker": true
+}

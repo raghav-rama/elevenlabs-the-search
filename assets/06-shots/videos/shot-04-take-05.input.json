@@ -1,0 +1,15 @@
+{
+  "prompt": "Recreate Video 1 as a three-second shot with the SAME real-time movement speed and event timing. Video 1 is the authoritative motion reference. Image 1 supplies Riley's appearance and the station design. The fast approach occupies only the opening portion; most of the shot is the stopped reaction.\n\nTiming: 0.00-0.65 seconds: Riley is already running quickly from LEFT to RIGHT, matching Video 1's rapid leg cycle, arm drive and distance covered. The stationary train's doors slide shut just before she arrives. 0.65-1.25 seconds: match Video 1's quick final braking steps and settle outside the closed doorway. 1.25-3.00 seconds: her feet stay planted at the doorway. She catches her breath and looks at the shut doors, with a small natural shoulder movement and bag settling. Keep this reaction interval; do not spend it on more approach steps. No slow motion, speed ramp, slow start, or stretching the run over three seconds. Preserve Video 1's playback timing without halving the movement speed.\n\nOne continuous locked-off wide shot with the same framing. Preserve Riley's white long-sleeved shirt, knee-length black skirt, sheer black tights, black block heels, burgundy KORVEX lanyard, and black bag on her anatomical RIGHT shoulder. Preserve the graphite train, cyan stripes, carriage 07, yellow door lights, platform and 8:30 a.m. daylight. Train stays still, doors stay closed after sealing, Riley stays outside. Grounded feet, no camera movement, cuts, boarding, new people or changing displays. The reference's ending hold should become a natural stationary breathing reaction.\n\nAudio: quick synchronized running heel contacts and braking steps in the opening 1.25 seconds, door warning chime, sliding motor and seal, then quiet station/train rumble and her breath. No speech, narration, announcements, badge reading or music.",
+  "reference_image_urls": [
+    "https://v3b.fal.media/files/b/0aae7b6f/fMdtXSX-iVV51UCspedoj_shot-04a-v01.png"
+  ],
+  "reference_video_urls": [
+    "https://v3b.fal.media/files/b/0aaea487/COk_4PKcWAXJJBgdZWIUs_door-motion-3s-24fps-v02.mp4"
+  ],
+  "duration": 3,
+  "resolution": "480P",
+  "aspect_ratio": "16:9",
+  "seed": 20261016,
+  "prompt_expansion_mode": "disabled",
+  "enable_safety_checker": true
+}

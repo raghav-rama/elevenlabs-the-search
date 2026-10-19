@@ -1,0 +1,66 @@
+{
+  "asset_id": "shot-04",
+  "take": 3,
+  "provider": "fal.ai",
+  "tool": "fal plugin",
+  "status": "completed",
+  "recipe": {
+    "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+    "input": {
+      "prompt": "Play this shot at normal real-time speed with urgent, fast-paced running. Animate the supplied wide platform image as one continuous photorealistic 16:9 shot. The normal-perspective camera holds its position and framing. Riley approaches from the LEFT toward the selected train doorway on the RIGHT. Keep the same original graphite train, cyan stripes, yellow door-frame lights, carriage 07 identifier, platform geometry, and diffuse 8:30 a.m. daylight.\n\nRiley is already running fast in the opening frame, with a forward lean, quick arm drive and rapid alternating foot contacts, roughly three contacts per second during the approach. She covers the distance to the doorway briskly in the first half of the shot. Keep her feet cycling quickly all the way to the final braking steps; no walking, slow motion, floating strides, gradual acceleration or prolonged easing into a stop. Meanwhile the paired doors slide inward promptly and seal just before she reaches the entrance. Only then does she plant her feet in a quick controlled stop outside the closed doorway. Her bag and lanyard follow through briefly as she catches her breath and looks at the shut doors. The action is a fast approach followed by a brief stationary reaction, not a slow approach stretched across the clip. The train stays stationary, and the doors retain their original geometry.\n\nPreserve the same Riley identity, white long-sleeved shirt, knee-length black skirt, sheer black tights, black block heels, burgundy KORVEX badge, and black bag on her anatomical RIGHT shoulder. Keep her feet grounded, her body scale consistent, and the target door in the same place. No hand in the door gap, track crossing, jump, superhuman movement, teleporting, premature boarding, sliding feet, new people, train departure, billboard reveal, camera zoom, cuts, or extra text.\n\nNative sound: continue one departure warning chime, then the synchronized sliding-door motor and closing seal, Riley's rapid, closely spaced running heel contacts ending with quick braking steps, slight bag and badge movement, and her breath in the same station ambience. After the doors shut, leave a short audible beat of breath and room tone. No music, narration, spoken line, or new announcement. Hold the closed-door state and her settled position briefly at the end.",
+      "image_url": "https://v3b.fal.media/files/b/0aae7b6f/fMdtXSX-iVV51UCspedoj_shot-04a-v01.png",
+      "resolution": "480P",
+      "duration": 3,
+      "prompt_expansion_mode": "disabled",
+      "enable_safety_checker": true,
+      "seed": 20261016
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a145f0-0045-7793-adcf-54628a9de77b",
+  "endpoint_id": "minimax/h3-max-turbo/image-to-video",
+  "status_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a145f0-0045-7793-adcf-54628a9de77b/status",
+  "response_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a145f0-0045-7793-adcf-54628a9de77b",
+  "cancel_url": "https://queue.fal.run/minimax/h3-max-turbo/requests/01a145f0-0045-7793-adcf-54628a9de77b/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url: it waits up to 40 seconds per call while the job runs and returns its result in the same call once it is COMPLETED (get_job_result with response_url also works).",
+  "source_image": "assets/06-shots/images/shot-04a-v01.png",
+  "source_sha256": "b4a3b7798d91a1eaa88b3a990c67e668f46042152815b1f41498588103fb4834",
+  "planned_video": "assets/06-shots/videos/shot-04-take-03.mp4",
+  "estimated_cost_usd": 0.04875,
+  "pricing_basis": "0.01625 USD per second x 3 requested seconds; live rate, estimate not confirmed charge.",
+  "review_status": "rejected_slow_motion_feel",
+  "revision_reason": "User says take 2 feels like slow motion and asks for fast-paced direction. Same model, image, seed 20261016 and settings; prompt changes to already-running real-time cadence, brisk approach, late sharp braking and matching fast heel contacts.",
+  "comparison_limitations": "Prompt-only iteration; numeric cadence and timing are instructions, not guarantees.",
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaea440/3xDrLnN0-Snjn-Uj66toI_minimax-h3.mp4",
+      "content_type": "video/mp4",
+      "file_name": "3xDrLnN0-Snjn-Uj66toI_minimax-h3.mp4",
+      "file_size": 2608098
+    },
+    "expanded_prompt": null,
+    "timings": {
+      "inference": 0.4656399049999891
+    }
+  },
+  "video": "assets/06-shots/videos/shot-04-take-03.mp4",
+  "sha256": "6bdee9a8a52feeb64f5d78e67c236024af2de15a552926f657b8746df2fd1e8f",
+  "verification": {
+    "duration_seconds": 3.042,
+    "fps": 24.0,
+    "audio_tracks": 1,
+    "provider_file_size_verified": true,
+    "contact_sheet": "assets/06-shots/reviews/shot-04-take-03-contact-sheet.jpg",
+    "method": "Existing extract-contact-sheet.swift; 24 frames at 0.125 second intervals from 0 seconds."
+  },
+  "review_notes": [
+    "Sampled frames show an initial running approach followed by several easing/braking steps, settling outside the closed doorway around 2.5 seconds. Prompt request for a short sharp stop is not fully achieved.",
+    "Do not claim exact cadence from sparse sampled frames or native audio. Numeric prompt cadence remains unverified.",
+    "Overhead displays change graphics during the shot.",
+    "Native audio track is present but has not been listened to; speech absence and sound continuity remain unverified.",
+    "User comparison pending; take 1 remains selected. No generated footage retimed."
+  ],
+  "user_feedback": "No still feels slowed. Maybe do it 2x?"
+}

@@ -29,7 +29,7 @@
   "planned_video": "assets/06-shots/videos/shot-04-take-01.mp4",
   "estimated_cost_usd": 0.045,
   "pricing_basis": "0.015 USD per second x 3 requested seconds; estimate, not actual charge.",
-  "review_status": "rejected_slow_cadence",
+  "review_status": "user_accepted_additional_variation_requested",
   "result": {
     "video": {
       "url": "https://v3b.fal.media/files/b/0aae7b78/UzwV_vgMth0yQz1SLiqdk_minimax-h3.mp4",
@@ -61,5 +61,7 @@
     "duration_seconds": 3.072
   },
   "verification": "Download matches provider byte count. MP4 header and track metadata parsed; visual action and sound quality not reviewed.",
-  "user_feedback": "User reports approximately 4 steps per 3 seconds, slower than shot 3 at approximately 9 steps per 3 seconds."
+  "user_feedback": "I think it looks fine. Can you generate 1 more variation?",
+  "prior_user_feedback": "User reports approximately 4 steps per 3 seconds, slower than shot 3 at approximately 9 steps per 3 seconds.",
+  "user_approved": true
 }
