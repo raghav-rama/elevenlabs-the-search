@@ -555,3 +555,9 @@ as present or silently substitute another source.
 - Listen to and unify train ambience, heel contacts, badge movement and breathing; remove unwanted speech and review the existing legs audio fix. Visual approval does not independently establish audio approval.
 - After the hook is locked, plan the train departure/billboard reveal and clinic sequence. Develop the polished jingle at the agreed later stage; existing demo remains exploration only.
 - Publication checks: asset JSON parses; pending text files contain no detected private-key/signed-upload URL patterns; media files are below GitHub single-file limits. All pending work belongs to shot production and reproducible review/preparation scripts; no new ignore rules needed. Signed commit and push follow.
+
+## 2026-10-19T23:09:19+05:30 — Production assets committed and pushed
+
+- Signed commit `2993247` includes all pending production assets, prompts, generation/provenance records, frame reviews, media scripts and take 6 selection (39 files).
+- Verified the SSH commit signature with the configured public signing key and a temporary allowed-signers file. Included `Co-authored-by: codex <noreply@openai.com>`.
+- Successfully pushed `main` to `origin` (`2ff82e9` → `2993247`). JSON and whitespace checks passed. This follow-up entry records the completed publication; next work is the opening assembly and audio continuity review documented above.
