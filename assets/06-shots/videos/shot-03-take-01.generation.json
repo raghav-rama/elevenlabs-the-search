@@ -29,7 +29,7 @@
   "planned_video": "assets/06-shots/videos/shot-03-take-01.mp4",
   "estimated_cost_usd": 0.045,
   "pricing_basis": "0.015 USD per second x 3 requested seconds; estimate, not actual charge.",
-  "review_status": "rejected_camera_motion",
+  "review_status": "user_approved",
   "result": {
     "video": {
       "url": "https://v3b.fal.media/files/b/0aae7058/87jqnNKzc5kSEhwozrEgl_minimax-h3.mp4",
@@ -46,5 +46,15 @@
   "sha256": "8b41d5119b20dec4a2ca3140e1dea53f99334d636911cc3d58a3a8c13e5b6f92",
   "file_size": 3519921,
   "verification": "Downloaded size matches provider result; MP4 ftyp header present. ffprobe unavailable; duration, stream details and audio unverified.",
-  "user_feedback": "Camera placement is correct, but her chin moves while the subway background stays stationary. Camera does not follow the chin."
+  "user_feedback": "User explicitly selected assets/06-shots/videos/shot-03-take-01.mp4 as the chin shot.",
+  "review_history": [
+    {
+      "review_status": "rejected_camera_motion",
+      "user_feedback": "Camera placement is correct, but her chin moves while the subway background stays stationary. Camera does not follow the chin.",
+      "event_time": "unknown",
+      "note": "Earlier feedback preserved; superseded by explicit take selection."
+    }
+  ],
+  "user_approved": true,
+  "selection_timestamp": "2026-10-19T23:14:38+05:30"
 }

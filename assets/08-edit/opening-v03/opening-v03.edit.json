@@ -1,0 +1,93 @@
+{
+  "audio_bridges": [
+    {
+      "duration_seconds": 2,
+      "gain_db": -2,
+      "source": "assets/06-shots/videos/shot-03-take-01.mp4",
+      "source_in_seconds": 0,
+      "source_sha256": "8b41d5119b20dec4a2ca3140e1dea53f99334d636911cc3d58a3a8c13e5b6f92",
+      "timeline_start_seconds": 2
+    }
+  ],
+  "audio_tracks": 1,
+  "clips": [
+    {
+      "audio": "assets/06-shots/videos/shot-01-take-05-audio-v01.mp4",
+      "audio_gain_db": -0.06572608815256586,
+      "audio_sha256": "856e11c596c6b205397f4bc4afbf017ccfce6149e4ba3d501f67f9efc816812c",
+      "duration_seconds": 2,
+      "picture": "assets/06-shots/videos/shot-01-take-05.mp4",
+      "picture_sha256": "9cb863866597d4ea69c0ec37b17a7004809c61069ed0781095f99f4deb37c2cd",
+      "post_handle_samples": 1200,
+      "pre_handle_samples": 0,
+      "shot": "legs",
+      "source_audio_rms_dbfs": -21.934273911847434,
+      "source_in_seconds": 0.5,
+      "timeline_start_seconds": 0
+    },
+    {
+      "audio": "assets/06-shots/videos/shot-02-take-03.mp4",
+      "audio_gain_db": 3,
+      "audio_sha256": "87b57c25c8c05311c952b3674c635de3e90dc7c0319870f1331c5f8bd0b526ed",
+      "duration_seconds": 2,
+      "picture": "assets/06-shots/videos/shot-02-take-03.mp4",
+      "picture_sha256": "87b57c25c8c05311c952b3674c635de3e90dc7c0319870f1331c5f8bd0b526ed",
+      "post_handle_samples": 1200,
+      "pre_handle_samples": 1200,
+      "shot": "badge",
+      "source_audio_rms_dbfs": -35.1585325190668,
+      "source_in_seconds": 0.5,
+      "timeline_start_seconds": 2
+    },
+    {
+      "audio": "assets/06-shots/videos/shot-03-take-01.mp4",
+      "audio_gain_db": -1.2234492403533466,
+      "audio_sha256": "8b41d5119b20dec4a2ca3140e1dea53f99334d636911cc3d58a3a8c13e5b6f92",
+      "duration_seconds": 2,
+      "picture": "assets/06-shots/videos/shot-03-take-01.mp4",
+      "picture_sha256": "8b41d5119b20dec4a2ca3140e1dea53f99334d636911cc3d58a3a8c13e5b6f92",
+      "post_handle_samples": 1200,
+      "pre_handle_samples": 1200,
+      "shot": "chin",
+      "source_audio_rms_dbfs": -20.776550759646653,
+      "source_in_seconds": 0.5,
+      "timeline_start_seconds": 4
+    },
+    {
+      "audio": "assets/06-shots/videos/shot-04-take-06.mp4",
+      "audio_gain_db": 3,
+      "audio_sha256": "2d97ceaec3c6ae7bfdb06f184a4946c8e0b36e8ce4df9561563b8b4d8ac0d7ce",
+      "duration_seconds": 2,
+      "picture": "assets/06-shots/videos/shot-04-take-06.mp4",
+      "picture_sha256": "2d97ceaec3c6ae7bfdb06f184a4946c8e0b36e8ce4df9561563b8b4d8ac0d7ce",
+      "post_handle_samples": 0,
+      "pre_handle_samples": 1200,
+      "shot": "doors",
+      "source_audio_rms_dbfs": -25.831264995792758,
+      "source_in_seconds": 0.5,
+      "timeline_start_seconds": 6
+    }
+  ],
+  "crossfade_half_seconds": 0.025,
+  "decoded_aac_peak_dbfs": -1.730022547301674,
+  "duration_seconds": 8,
+  "fps": 24,
+  "master_gain": 1,
+  "mixed_wav": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/08-edit/opening-v03/opening-v03.mix.wav",
+  "notes": "Hard picture cuts; source frame ranges at original speed, aspect-fit to canvas. Picture re-encoded, not bitstream copied. Audio levels adjusted conservatively using RMS, not perceptual loudness. Existing legs train mix is provisional; no new synthesis, speech removal or isolated ambience stem. Audio content and subjective transitions require listening review.",
+  "output": "assets/08-edit/opening-v03/opening-v03.mp4",
+  "output_sha256": "2361f3fb1b7808d2a8213ced850f9cf8fb7bd7b7ef51a8fb250fe76dc7d23f49",
+  "pcm_peak_dbfs": -1.7313001876845655,
+  "pcm_rms_dbfs": -22.26307383584701,
+  "resolution": [
+    832,
+    480
+  ],
+  "review_status": "user_approved",
+  "script": "scripts/assemble-opening.swift",
+  "speed_multiplier": 1,
+  "timeline": "assets/08-edit/opening-v03/timeline.json",
+  "timeline_sha256": "1da6e1ba95e61d05682344b988aa2c4aeba51e2827c17d538bd1810f97617a21",
+  "user_approved": true,
+  "user_feedback": "Looks great. Now I need upscaled versions of these clips."
+}

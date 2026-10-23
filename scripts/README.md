@@ -1,5 +1,13 @@
 # Local production scripts
 
+## Prepare a compact identity reference
+
+`sh scripts/prepare-identity-reference.sh SOURCE.png NEW_OUTPUT.jpg` reproduces
+the 512px, JPEG quality 65 Riley reference used for H3 1080p tests (shot 2 take 4
+and shot 4 take 7). It checks the 64 KiB inline-upload limit and refuses overwrite.
+The original portrait remains unchanged. Upload and generation are separate fal
+plugin operations; exact model inputs and results live beside the video takes.
+
 These are the actual Swift scripts used to prepare the motion reference, inspect
 generated frames, and mix the train audio. They live beside their assets. Run
 from the repository root on macOS with Xcode Command Line Tools installed.
@@ -156,3 +164,24 @@ input, request ID, output URL and checksum are saved in
 This server operation preserves playback speed and removes the final second;
 it is a reference preparation operation, not a generated-ad retime. Current
 recorded rate is $0.001 per compute second; actual charge was not reported.
+
+## Assemble the opening review cut
+
+```sh
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  scripts/assemble-opening.swift \
+  assets/08-edit/opening-v02/timeline.json \
+  /private/tmp/afterhuman-opening-review.mp4
+```
+
+Run from the repository root with unused output paths. JSON specifies the
+approved sources, source in-points, frame counts, canvas and audio mix settings.
+The script preserves playback speed, uses hard picture cuts, aspect-fit
+rendering, conservative RMS-based audio gains and short audio crossfades.
+Optional `audio_bridges` reuse existing audio under a quiet section. No new
+synthesis, optical flow, source deletion or source modification is performed.
+Outputs are the MP4, `.mix.wav` and `.edit.json` with hashes and level checks.
+Picture is re-encoded; audio and subjective pacing still need listening review.
+
+Review the full five seconds with the existing contact-sheet script using
+`0 0.2083333333 24 4 416 240` after the input/output arguments.

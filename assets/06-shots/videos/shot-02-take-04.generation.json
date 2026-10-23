@@ -1,0 +1,79 @@
+{
+  "status": "COMPLETED",
+  "recipe": {
+    "endpoint_id": "minimax/h3-max/reference-to-video",
+    "input": {
+      "prompt": "Recreate Video 1 as a three-second high-resolution shot, closely matching its existing continuous fast badge bounce, small twists, framing and timing at the supplied playback speed. The running motion is already underway in the first frame and continues through the last frame; retain every bounce without a slow start or slow motion. The camera stays attached to the torso as in Video 1.\n\nImage 1 is the clean badge and wardrobe appearance. Image 2 is Riley's face, to reproduce only as the flat printed photograph on this badge. Correct the distorted printed portrait in Video 1 using these images: the photograph remains a static, undistorted print fixed to the rigid card as it swings, with consistent eyes, nose, mouth and the small mole beneath her anatomical left eye. Keep the exact printed text 'KORVEX', 'Riley Brooks', 'EMPLOYEE', white shirt, burgundy lanyard, metal swivel clip, clear holder and cyan/magenta reflections from Image 1. Preserve Video 1's composition and moving lighting. No animated face inside the photograph, zoom, cuts or new objects.\n\nAudio: soft train rumble, plastic badge taps and fabric movement only. No speech, narration, announcements, reading of names or music.",
+      "reference_image_urls": [
+        "https://v3b.fal.media/files/b/0aae81a3/5VZnNQE7YTFj-KibLpK_8_shot-02-v02.png",
+        "https://v3b.fal.media/files/b/0aaf0965/f7XmQrd_MN-85h_rapYF7_riley-reference-512.jpg"
+      ],
+      "reference_video_urls": [
+        "https://v3b.fal.media/files/b/0aae81d3/66JtOPpfE3EB7VOfF5CNb_minimax-h3.mp4"
+      ],
+      "duration": 3,
+      "resolution": "1080P",
+      "aspect_ratio": "16:9",
+      "seed": 20261015,
+      "prompt_expansion_mode": "disabled",
+      "enable_safety_checker": true
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a1555f-dcf0-77f0-a224-012a1a485add",
+  "endpoint_id": "minimax/h3-max/reference-to-video",
+  "status_url": "https://queue.fal.run/minimax/h3-max/requests/01a1555f-dcf0-77f0-a224-012a1a485add/status",
+  "response_url": "https://queue.fal.run/minimax/h3-max/requests/01a1555f-dcf0-77f0-a224-012a1a485add",
+  "cancel_url": "https://queue.fal.run/minimax/h3-max/requests/01a1555f-dcf0-77f0-a224-012a1a485add/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url: it waits up to 40 seconds per call while the job runs and returns its result in the same call once it is COMPLETED (get_job_result with response_url also works).",
+  "asset_id": "shot-02",
+  "take": 4,
+  "provider": "fal.ai",
+  "tool": "fal plugin",
+  "source_image": "assets/06-shots/images/shot-02-v02.png",
+  "source_identity_image": "assets/references/prepared-identity/riley-reference-512.jpg",
+  "source_motion_reference": "assets/06-shots/videos/shot-02-take-03.mp4",
+  "planned_video": "assets/06-shots/videos/shot-02-take-04.mp4",
+  "review_status": "pending_user_review",
+  "estimated_base_cost_usd": 0.15,
+  "pricing_basis": "Live catalog rate $0.05 per second x 3 seconds. Resolution adjustments not specified by pricing response; actual total unreported.",
+  "revision_reason": "User requests H3 high-resolution generation using accepted video and image references to address face distortion.",
+  "comparison_limitations": "Generative recreation at 1080P (provider describes 768P native with latent refinement). No guarantee of source motion, frame, facial or text identity; original selected sources preserved.",
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaf096a/BdhJb8BK8VgoN1oVEtjuO_minimax-h3.mp4",
+      "content_type": "video/mp4",
+      "file_name": "BdhJb8BK8VgoN1oVEtjuO_minimax-h3.mp4",
+      "file_size": 7502211
+    },
+    "expanded_prompt": null,
+    "seed": 20261015,
+    "timings": {
+      "inference": 4.787222129991278
+    }
+  },
+  "workspace_video": "assets/06-shots/videos/shot-02-take-04.mp4",
+  "sha256": "a22c8161cf1e552ccbbd1772cc1ffedf36b1e43662e6c25dde1d090de5bd5fbc",
+  "file_size": 7502211,
+  "media_metadata": {
+    "duration_seconds": 3.042,
+    "fps": 24,
+    "width": 1920,
+    "height": 1080,
+    "audio_tracks": 1
+  },
+  "visual_review": {
+    "method": "24 sampled frames across first three seconds; not continuous playback.",
+    "contact_sheet": "assets/06-shots/reviews/shot-02-take-04-contact-sheet.jpg",
+    "observations": [
+      "Printed portrait has recognizable facial detail in sampled frames.",
+      "Printed name and EMPLOYEE lettering still warp in some samples, notably around 1.25 seconds.",
+      "Badge continues bouncing and twisting; exact cadence preservation has not been established."
+    ],
+    "limitations": "No listening review. Speech absence, temporal facial stability and exact motion match remain unverified."
+  },
+  "verification": "Download matches provider byte count; SHA-256 recorded. AVFoundation decode confirms 3.042 seconds, 24 fps and one audio track. MP4 tkhd dimensions 1920x1080. No output retiming.",
+  "user_approved": false
+}

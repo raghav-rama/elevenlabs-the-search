@@ -561,3 +561,161 @@ as present or silently substitute another source.
 - Signed commit `2993247` includes all pending production assets, prompts, generation/provenance records, frame reviews, media scripts and take 6 selection (39 files).
 - Verified the SSH commit signature with the configured public signing key and a temporary allowed-signers file. Included `Co-authored-by: codex <noreply@openai.com>`.
 - Successfully pushed `main` to `origin` (`2ff82e9` → `2993247`). JSON and whitespace checks passed. This follow-up entry records the completed publication; next work is the opening assembly and audio continuity review documented above.
+
+## 2026-10-19T23:14:38+05:30 — Exact chin take confirmed; opening selections complete
+
+- User explicitly selected [shot 3 take 1](assets/06-shots/videos/shot-03-take-01.mp4) as the chin shot. This resolves the previously unspecified take and supersedes its earlier camera-motion rejection. Historical feedback retained in the generation record.
+- Verified the selected local file against its recorded SHA-256. Updated manifest selection and generation approval; video unchanged.
+- Opening picture selections: legs take 5, badge take 3, chin take 1, door take 6. Next task is a four-shot assembly followed by audio continuity and timing review. Existing legs audio fix remains a candidate pending listening review.
+- No generation, retiming, commit or push in this selection update.
+
+## 2026-10-19T23:19:17+05:30 — Four-shot opening assembled for review
+
+- User asked to continue after confirming chin take 1. Created [five-second opening v02](assets/08-edit/opening-v02/opening-v02.mp4), preserving all accepted sources. First three shots total two seconds (legs 16 frames, badge 12, chin 20); doors retain 72 frames. No picture speed changes. Timing is a proposed edit, not user-approved yet.
+- Saved v01 and v02 timelines, MP4s, mixed WAVs, exact edit records, contact sheets, [editing script](scripts/assemble-opening.swift), README and manifest review pointer. V01 has original working sound; v02 fills the measured quiet badge interval with a short chin-source audio bridge. No model calls or provider spend.
+- Verified five seconds, 24 fps, 832x480, one audio track, matching source/output hashes, and decoded AAC sample peak -1.73 dBFS (no sample clipping). V02 PCM RMS -23.12 dBFS. Source videos remain unchanged.
+- Visual review shows correct shot order, fast motion and moving door reaction. Existing badge text deformation and station-display changes persist; final typography repair remains later work.
+- Audio mix uses the existing legs train mix and native tracks with conservative gains/crossfades. Chin-source bridge includes full soundtrack, not isolated ambience. Listening quality, speech absence, rhythm and breathing continuity have not been verified; user review remains required before locking the hook.
+- Next: review the assembled hook, adjust pacing/sound as needed, then plan the departing-train/billboard continuation. Jingle remains deferred; no commit or push performed this turn.
+
+## 2026-10-19T23:28:29+05:30 — Opening revised to two seconds per shot
+
+- User found the five-second cut too rushed and requested two seconds for every clip. Created [opening v03](assets/08-edit/opening-v03/opening-v03.mp4): legs 0–2, badge 2–4, chin 4–6, doors 6–8 seconds.
+- Each source uses 0.5–2.5 seconds at original playback speed. Door closure and beginning of the moving head-turn reaction remain; its final half-second is trimmed. Approved sources and previous edits preserved.
+- Extended the existing chin-source audio bridge over the longer badge interval. Audio remains provisional, without a listening verdict.
+- Verified exact eight-second duration, 24 fps, one audio track, two-second timeline intervals, unchanged source hashes and decoded AAC sample peak -1.73 dBFS. Saved timeline, mix WAV, edit record and contact sheet; updated review pointer and README.
+- No new generation or provider spend. User playback review pending; no commit/push this turn.
+
+## 2026-10-19T23:32:59+05:30 — Eight-second cut approved; upscale approach investigated
+
+- User approves opening v03 and asks whether to use dedicated fal video upscalers or regenerate higher-resolution takes, and whether outputs remain byte-identical. Marked assembly approved in manifest/edit record.
+- Checked live fal catalog, schemas and pricing. Recommended candidate: `topaz/upscale/video/precision`, Proteus or softer Proteus Natural; keep target FPS at source 24 to avoid interpolation. Official API: https://fal.ai/models/topaz/upscale/video/precision/api . Generative Topaz variants rebuild details; they are less conservative candidates for approved face/badge footage.
+- Live rate lookup returns Topaz $0.01 per unspecified unit; this alone does not establish an exact job total. SeedVR2 returns $0.001 per megapixel; no complete cost estimate submitted. Automatic recommendation initially misclassified the detailed query as interpolation/recast; rejected that mismatch and verified dedicated upscalers directly.
+- Recommendation: test a selected source clip with conservative dedicated upscale, inspect facial/text artifacts and verify frame count/timestamps, then upscale approved sources separately and rebuild the unchanged eight-second timeline with the existing soundtrack. Higher-resolution regeneration may alter action and cannot guarantee the approved take even with the same seed.
+- Upscaling changes pixel data and encoded bytes. Timing/action preservation is a goal to verify, not byte identity; the existing audio can be remuxed separately. No paid upscale, generation or upload performed in this comparison.
+
+## 2026-10-19T23:37:09+05:30 — Face distortion raised before upscaling
+
+- User reports distorted faces in shots 2 and 4 and asks about face-reference inputs. Preserve approval of the eight-second edit and its pacing; facial fidelity now needs repair/review before final mastering.
+- Live schemas confirm Topaz Precision (including Iris) has no identity-reference input. Its face recovery cannot be instructed to match the approved Riley portrait. Source: https://fal.ai/models/topaz/upscale/video/precision/api .
+- Reference-driven video edits are separate candidates: PixVerse Swap accepts video plus target image, person/object/background modes, a mapping keyframe and up to 720p output; it normalizes input to 24 fps. Schema does not specify a minimum duration. This establishes available inputs, not proven face-only repair or preservation of this footage. Source: https://fal.ai/models/fal-ai/pixverse/swap/api .
+- H3 Max Recast accepts reference photos but requires a 5–30 second input, so the selected approximately three-second source takes do not fit directly. It recasts people rather than guaranteeing a localized face repair. Source: https://fal.ai/models/minimax/h3-max/recast/api .
+- Proposed workflow, not yet executed or approved: track/composite clean badge portrait and exact typography for shot 2, matching perspective, occlusions and motion blur; test reference-guided repair of the moving face in shot 4, checking running pace, identity and temporal stability. A final-resolution badge insert can follow gentle background upscaling. Keep the accepted timeline and soundtrack.
+- No paid repair, upscale, upload or generation performed. No video changed.
+
+## 2026-10-19T23:45:31+05:30 — H3 reference regeneration submitted at 1080p
+
+- User requests H3 with video and image references at high resolution. Verified `minimax/h3-max/reference-to-video` supports 2–15 second video references and 1080P output; the earlier five-second input minimum applies only to Recast. 1080P is described as latent refinement from native 768P.
+- Submitted one three-second test each: shot 2 take 4 (`01a1555f-dcf0-77f0-a224-012a1a485add`) and shot 4 take 7 (`01a1555f-ee0b-77d1-996f-e1c0924268c1`). Motion references are the accepted generated takes 3 and 6, respectively, at original speed. Each also receives its clean shot still plus canonical Riley portrait resized to a 512px JPEG. Exact requests/prompts saved beside takes.
+- Live catalog rate $0.05/second gives a $0.30 combined base estimate; resolution adjustments and actual total are unreported. No claim of byte-identical or motion-identical output.
+- Outputs pending. Existing selected sources, eight-second cut and soundtrack remain unchanged.
+
+## 2026-10-19T23:47:04+05:30 — H3 1080p tests completed for shots 2 and 4
+
+- Downloaded shot 2 take 4 and shot 4 take 7, both 1920×1080, 24 fps, 3.042 seconds, one audio track. Provider byte counts and hashes verified; no output retiming. Exact prompts, inputs, request IDs, output URLs, source identity preparation and contact sheets saved. Added compact identity preparation script and README instructions.
+- Sampled frame review: badge portrait is recognizable, but name/EMPLOYEE lettering still deforms briefly, notably near 1.25 seconds. Door clip shows the approach, stop around 1.25 seconds and head turn around 2–2.375 seconds; similar later poses require playback to assess any static tail. Facial consistency and exact pace match are not established by these frame samples. Native audio has not been listened to.
+- Both new takes await user playback approval. Existing accepted source selections and eight-second edit remain unchanged. Manifest records the new candidates. No additional generation, commit or push.
+
+## 2026-10-19T23:57:36+05:30 — Shot 4 high-resolution take rejected for facial likeness
+
+- User reports Riley’s face is still off in shot 4 take 7. Marked that take rejected for facial likeness in manifest, generation record and video prompt. Shot 2 take 4 remains pending review; no inferred approval.
+- Extracted full-resolution frame at 2.375 seconds and compared it with canonical Riley portrait. Likeness is not reliably retained; more pixels did not resolve the identity issue. This single-frame check does not diagnose temporal distortion or its cause. Saved frame under `assets/06-shots/reviews/shot-04-take-07-face-review.jpg`, using the existing contact-sheet script with arguments `2.375 0.125 1 1 1920 1080`.
+- Proposed next direction: test a reference-guided identity repair and restrict/composite the correction to the face where practical, reviewing profile-to-front motion and blend boundaries. PixVerse Swap accepts video/image references but offers person-level replacement, not a guaranteed face-only mask; do not claim it preserves all other pixels. No repair method selected or paid generation submitted this turn.
+- Accepted shot 4 take 6 and the eight-second cut remain selected.
+
+## 2026-10-20T13:05:38+05:30 — Post-opening montage direction proposed
+
+- User proposes moving from Riley missing the train into direct advertising VO:
+  “Missed your train? Still running on flesh and blood? So UPGRADE!...”
+  followed by upgraded Riley demonstrating superhuman abilities, a top-down shot
+  overtaking a bullet train, and a spiral transition into AFTERHUMAN branding.
+  This is a direction under discussion, not approval of a finished script or shot list.
+- Assistant recommends building the montage toward the train reversal, retaining
+  the approved eight-second opening, introducing AFTERHUMAN at the upgrade beat,
+  and giving the original jingle a structural role from activation through end card.
+  Suggested treatment is roughly 32–35 seconds: opening, VO, brief implant
+  activation, escalating everyday ability demonstrations, overhead overtake,
+  motivated spiral and readable brand hold.
+- Proposed refinements, not user-approved: omit “So” for a sharper “UPGRADE”;
+  use reflexes, strength and acceleration as distinct montage beats; explicitly
+  separate the upgrade from a subsequent commute; let the overhead pass register
+  before rotating into a graphic transition echoing an implant iris.
+- Earlier billboard/“Fine”/calm-boarding continuation remains an older assistant
+  proposal; do not treat it as mandatory alongside this new direction. Specific
+  abilities, implant appearance, wording, music, transition and timing remain open.
+- Next planning step: settle the montage actions and upgrade reveal, then develop
+  their shot list and continuity references. Opening face repair and audio review
+  remain outstanding; accepted footage and timing are preserved. No generation,
+  provider spend, media edit, commit or push performed.
+
+## 2026-10-20T13:14:48+05:30 — Montage direction locked with four enhanced abilities
+
+- User explicitly locks the proposed post-opening creative direction and requires
+  retaining “So” before “UPGRADE.” Locked VO wording:
+  “Missed your train? Still running on flesh and blood? So UPGRADE!”
+  This supersedes the assistant suggestion to omit “So.”
+- Locked narrative structure: preserve the approved eight-second missed-train
+  opening; direct advertising VO; cybernetic upgrade reveal; enhanced-Riley
+  montage; top-down bullet-train race with Riley visibly overtaking it; spiral
+  transition into AFTERHUMAN branding. Brand introduction at the upgrade beat
+  and jingle integration through the montage/end card remain part of the accepted
+  treatment; no particular jingle composition or recording is approved.
+- User specifies four capabilities: improved intelligence represented through
+  a HUD display in her eyes, superhuman reflexes, speed, and strength. Include
+  all four in the shot plan. Assistant recommends intelligence → reflexes →
+  strength → speed, building toward the overhead train overtake; this exact
+  order remains a planning recommendation.
+- Exact demonstrations (including earlier coffee/shutter examples), HUD design,
+  implant appearance, upgrade/time-transition execution, spiral mechanics and
+  shot timings remain to be developed. The earlier roughly 32–35-second duration
+  is a working target, not a locked edit.
+- Next: develop a concrete shot plan demonstrating intelligence through a
+  readable problem/solution, followed by distinct reflex, strength and speed
+  beats. Keep Riley's identity/wardrobe and train continuity anchored to approved
+  references. Existing opening face repair and audio review remain outstanding.
+  This update records creative approval only; no generation, spend, media edit,
+  commit or push.
+
+## 2026-10-20T13:31:21+05:30 — Jingle integration developed for locked montage
+
+- User asks how the jingle fits the newly locked direction. Existing demo and
+  README checked: that recording remains exploration only, explicitly excluded
+  from final selection; no final lyrics, melody, voice or arrangement is approved.
+- Assistant proposes music entering on “UPGRADE,” rhythmic activation sounds
+  across the upgrade reveal, then the first sung AFTERHUMAN hook as upgraded
+  Riley enters the montage. Repeat the same brand melody at the spiral/end card.
+  Keep the spoken setup intelligible and leave musical space for action effects.
+- Proposed musical direction: playful, premium electro-funk/synth-pop with an
+  upfront adult vocal, short repeatable brand melody and crisp mechanical
+  percussion. This is a creative proposal, not a listening verdict or selection.
+- Draft lyric for discussion: “Afterhuman, a step ahead. / Why catch the train /
+  When you can beat it instead? / Afterhuman, a step ahead.” Reuses an exploratory
+  slogan without approving the earlier demo or its composition.
+- Recommended next planning priority: develop the polished hook and a rough
+  musical structure alongside the shot list, before locking montage cut lengths.
+  Exact composition, lyric fit, pacing and recall need listening review. No new
+  generation, provider call, spend, media edit, commit or push.
+
+## 2026-10-23T20:21:06+05:30 — Project status reviewed
+
+- Reviewed the latest ledger and local Git state for the requested status update. Latest creative work remains the October 20 montage/jingle planning; no new generation or media edit performed.
+- Approved eight-second opening and locked four-ability montage direction remain current. Opening facial repair/audio review, shot 2 high-resolution candidate review, concrete montage shot planning and final jingle development remain open.
+- Local opening assemblies, high-resolution tests and subsequent records are still uncommitted; current HEAD is `ff30db0`. No commit or push performed.
+
+## 2026-10-23T20:22:53+05:30 — Installed editing apps checked
+
+- User asked whether editing software is needed and requested an installed-app check. Read application bundles in `/Applications`, `~/Applications` and `/System/Applications`; verified versions from local Info.plist files.
+- Installed: Final Cut Pro 11.0.1, Motion 5.9, Logic Pro 11.1.2, Compressor 4.9, iMovie 10.4.3 and GarageBand 10.4.12. Presence/version confirmed; apps were not launched or license-tested.
+- Recommended Final Cut Pro for the master timeline and sound mix, with Motion optional for HUD, branding and transition compositing; Logic Pro and Compressor optional for deeper audio work and export control. No additional editor installation proposed. Apple documentation checked for general editing/tracking/companion-app capabilities; no claim that newer advertised features exist in these installed versions.
+- Existing scripted assemblies remain usable. No app configuration, project creation, installation, generation, spend, commit or push performed.
+
+## 2026-10-23T21:02:30+05:30 — All pending production work prepared for commit
+
+- User requested committing everything. Reviewed all 35 pending files: opening assemblies and approval records, high-resolution tests and facial-likeness review, identity references, reproducible scripts, and montage/jingle planning. Preserve pending/rejected take statuses and exploratory-only jingle status.
+- All 13 pending JSON files parse; scanned pending text for private keys, credential patterns and signed URLs with no matches. Total pending content is approximately 47.36 MiB; largest file is 7,502,211 bytes. No new media generation or media edits.
+- Preparing a signed local commit with the Codex co-author trailer. Push was not requested. Opening facial repair/audio review and montage/jingle development remain open.
+
+## 2026-10-23T21:03:08+05:30 — Signed production commit created
+
+- Created the requested signed commit containing all 35 pending files and the Codex co-author trailer. Verified its SSH signature using a temporary allowed-signers file; repository signing configuration unchanged. Staged whitespace and identity-script shell syntax checks passed, and the worktree was clean after commit.
+- This completion entry is being folded into that same local commit with a signed amend. Final commit ID is reported in the handoff. No push performed.

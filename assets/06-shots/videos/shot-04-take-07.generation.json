@@ -1,0 +1,90 @@
+{
+  "status": "COMPLETED",
+  "recipe": {
+    "endpoint_id": "minimax/h3-max/reference-to-video",
+    "input": {
+      "prompt": "Recreate Video 1 as a three-second high-resolution shot, closely preserving its choreography, fast running pace, camera framing and event timing. Image 1 supplies the station and wardrobe design. Image 2 supplies Riley's exact facial identity: brunette bob, natural adult facial proportions and small mole beneath her anatomical left eye. Correct the distorted face in Video 1 using Image 2, keeping her identity consistent in profile and during the head turn, with natural skin and stable eyes, nose and mouth.\n\nFollow Video 1's action at its original playback speed: Riley is already running quickly left to right at the first frame; the train doors close as she approaches. Preserve the rapid final steps and braking so she stops outside the closed door around 1.25 seconds. Then match the recovery breath and head/upper-body turn from Video 1 through the final frame. Keep the last second moving. Do not slow the run, start from rest, extend the approach or freeze the ending.\n\nKeep the locked camera, white long-sleeved shirt, knee-length black skirt, sheer black tights, black block heels, burgundy KORVEX lanyard and black bag on her anatomical right shoulder. Preserve the graphite train, cyan stripes, carriage 07, yellow door lights and morning station lighting. Train remains stationary and Riley remains outside; no cuts or new people.\n\nAudio: synchronized fast heel contacts, braking steps, closing-door motor and seal, train ambience and recovery breath. No speech, announcements, narration or music.",
+      "reference_image_urls": [
+        "https://v3b.fal.media/files/b/0aae7b6f/fMdtXSX-iVV51UCspedoj_shot-04a-v01.png",
+        "https://v3b.fal.media/files/b/0aaf0965/f7XmQrd_MN-85h_rapYF7_riley-reference-512.jpg"
+      ],
+      "reference_video_urls": [
+        "https://v3b.fal.media/files/b/0aaf0876/NtSObVGb6BcOlOyZmijs0_minimax-h3.mp4"
+      ],
+      "duration": 3,
+      "resolution": "1080P",
+      "aspect_ratio": "16:9",
+      "seed": 20261016,
+      "prompt_expansion_mode": "disabled",
+      "enable_safety_checker": true
+    },
+    "note": "These are the submitted inputs, not resolved server defaults. For a variation, copy them and change only requested fields; reuse returned_seed when supported by the schema. Source URLs may expire."
+  },
+  "request_id": "01a1555f-ee0b-77d1-996f-e1c0924268c1",
+  "endpoint_id": "minimax/h3-max/reference-to-video",
+  "status_url": "https://queue.fal.run/minimax/h3-max/requests/01a1555f-ee0b-77d1-996f-e1c0924268c1/status",
+  "response_url": "https://queue.fal.run/minimax/h3-max/requests/01a1555f-ee0b-77d1-996f-e1c0924268c1",
+  "cancel_url": "https://queue.fal.run/minimax/h3-max/requests/01a1555f-ee0b-77d1-996f-e1c0924268c1/cancel",
+  "poll_after_seconds": 20,
+  "polling_hint": "Wait poll_after_seconds before calling check_job with the same request_id and status_url. This interval is not an ETA. Report meaningful status changes rather than repeating unchanged progress. Do not submit another job to check progress.",
+  "hint": "Job submitted. Use check_job with status_url: it waits up to 40 seconds per call while the job runs and returns its result in the same call once it is COMPLETED (get_job_result with response_url also works).",
+  "asset_id": "shot-04",
+  "take": 7,
+  "provider": "fal.ai",
+  "tool": "fal plugin",
+  "source_image": "assets/06-shots/images/shot-04a-v01.png",
+  "source_identity_image": "assets/references/prepared-identity/riley-reference-512.jpg",
+  "source_motion_reference": "assets/06-shots/videos/shot-04-take-06.mp4",
+  "planned_video": "assets/06-shots/videos/shot-04-take-07.mp4",
+  "review_status": "rejected_facial_likeness",
+  "estimated_base_cost_usd": 0.15,
+  "pricing_basis": "Live catalog rate $0.05 per second x 3 seconds. Resolution adjustments not specified by pricing response; actual total unreported.",
+  "revision_reason": "User requests H3 high-resolution generation using accepted video and image references to address face distortion.",
+  "comparison_limitations": "Generative recreation at 1080P (provider describes 768P native with latent refinement). No guarantee of source motion, frame, facial or text identity; original selected sources preserved.",
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaf096b/avmocit6Ag-3Z10GOBhdj_minimax-h3.mp4",
+      "content_type": "video/mp4",
+      "file_name": "avmocit6Ag-3Z10GOBhdj_minimax-h3.mp4",
+      "file_size": 7400021
+    },
+    "expanded_prompt": null,
+    "seed": 20261016,
+    "timings": {
+      "inference": 4.901532809133641
+    }
+  },
+  "workspace_video": "assets/06-shots/videos/shot-04-take-07.mp4",
+  "sha256": "0b45db6df33df8b67356094340296e02dffb12497c5d9ada33f129bac799a2fd",
+  "file_size": 7400021,
+  "media_metadata": {
+    "duration_seconds": 3.042,
+    "fps": 24,
+    "width": 1920,
+    "height": 1080,
+    "audio_tracks": 1
+  },
+  "visual_review": {
+    "method": "24 sampled frames across first three seconds; not continuous playback.",
+    "contact_sheet": "assets/06-shots/reviews/shot-04-take-07-contact-sheet.jpg",
+    "observations": [
+      "Sampled frames show approach, braking to a stop around 1.25 seconds and head turn around 2.0\u20132.375 seconds.",
+      "Face is visible in profile and frontward at the ending; exact identity preservation needs playback review.",
+      "Several ending poses are very similar; sampled frames alone do not establish whether the tail is frozen.",
+      "Follow-up full-frame inspection at 2.375 seconds compared with canonical Riley portrait: facial likeness is not reliably preserved despite improved resolution; this is consistent with user rejection. Single-frame inspection cannot characterize temporal distortion."
+    ],
+    "limitations": "No listening review. Speech absence, temporal facial stability and exact motion match remain unverified.",
+    "detail_frame": "assets/06-shots/reviews/shot-04-take-07-face-review.jpg"
+  },
+  "verification": "Download matches provider byte count; SHA-256 recorded. AVFoundation decode confirms 3.042 seconds, 24 fps and one audio track. MP4 tkhd dimensions 1920x1080. No output retiming.",
+  "user_approved": false,
+  "user_feedback": "In shot 4, her face is still off :(",
+  "review_history": [
+    {
+      "timestamp": "2026-10-19T23:57:36+05:30",
+      "status": "rejected_facial_likeness",
+      "feedback": "In shot 4, her face is still off :(",
+      "scope": "Facial likeness; no new approval or rejection of pace inferred."
+    }
+  ]
+}

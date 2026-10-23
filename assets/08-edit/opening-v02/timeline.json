@@ -1,0 +1,48 @@
+{
+  "title": "Four-shot opening review v02 - badge audio bridge",
+  "fps": 24,
+  "render_width": 832,
+  "render_height": 480,
+  "audio_target_rms_dbfs": -22,
+  "audio_gain_limit_db": 3,
+  "crossfade_half_seconds": 0.025,
+  "clips": [
+    {
+      "shot": "legs",
+      "picture": "assets/06-shots/videos/shot-01-take-05.mp4",
+      "audio": "assets/06-shots/videos/shot-01-take-05-audio-v01.mp4",
+      "source_in_frames": 12,
+      "duration_frames": 16
+    },
+    {
+      "shot": "badge",
+      "picture": "assets/06-shots/videos/shot-02-take-03.mp4",
+      "audio": "assets/06-shots/videos/shot-02-take-03.mp4",
+      "source_in_frames": 12,
+      "duration_frames": 12
+    },
+    {
+      "shot": "chin",
+      "picture": "assets/06-shots/videos/shot-03-take-01.mp4",
+      "audio": "assets/06-shots/videos/shot-03-take-01.mp4",
+      "source_in_frames": 12,
+      "duration_frames": 20
+    },
+    {
+      "shot": "doors",
+      "picture": "assets/06-shots/videos/shot-04-take-06.mp4",
+      "audio": "assets/06-shots/videos/shot-04-take-06.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 72
+    }
+  ],
+  "audio_bridges": [
+    {
+      "source": "assets/06-shots/videos/shot-03-take-01.mp4",
+      "source_in_seconds": 0,
+      "timeline_start_seconds": 0.6666666666666666,
+      "duration_seconds": 0.5,
+      "gain_db": -2
+    }
+  ]
+}

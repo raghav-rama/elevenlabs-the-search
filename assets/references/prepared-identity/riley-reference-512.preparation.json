@@ -1,0 +1,10 @@
+{
+  "source": "assets/01-riley/images/riley-01-v01.png",
+  "source_sha256": "d64c12e39d1bdfe348917da7a5c4a79d3bc99f006fd73de365b3a347a4d46144",
+  "output": "assets/references/prepared-identity/riley-reference-512.jpg",
+  "output_sha256": "464b24d92212ea93ed5b023daf5355515939563401295d40d38f9e98627b4960",
+  "file_size": 29984,
+  "command": "sh scripts/prepare-identity-reference.sh assets/01-riley/images/riley-01-v01.png assets/references/prepared-identity/riley-reference-512.jpg",
+  "cdn_url": "https://v3b.fal.media/files/b/0aaf0965/f7XmQrd_MN-85h_rapYF7_riley-reference-512.jpg",
+  "note": "Resize and JPEG encode only; original identity reference unchanged."
+}

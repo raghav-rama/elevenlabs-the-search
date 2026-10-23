@@ -1,0 +1,16 @@
+{
+  "prompt": "Recreate Video 1 as a three-second high-resolution shot, closely matching its existing continuous fast badge bounce, small twists, framing and timing at the supplied playback speed. The running motion is already underway in the first frame and continues through the last frame; retain every bounce without a slow start or slow motion. The camera stays attached to the torso as in Video 1.\n\nImage 1 is the clean badge and wardrobe appearance. Image 2 is Riley's face, to reproduce only as the flat printed photograph on this badge. Correct the distorted printed portrait in Video 1 using these images: the photograph remains a static, undistorted print fixed to the rigid card as it swings, with consistent eyes, nose, mouth and the small mole beneath her anatomical left eye. Keep the exact printed text 'KORVEX', 'Riley Brooks', 'EMPLOYEE', white shirt, burgundy lanyard, metal swivel clip, clear holder and cyan/magenta reflections from Image 1. Preserve Video 1's composition and moving lighting. No animated face inside the photograph, zoom, cuts or new objects.\n\nAudio: soft train rumble, plastic badge taps and fabric movement only. No speech, narration, announcements, reading of names or music.",
+  "reference_image_urls": [
+    "https://v3b.fal.media/files/b/0aae81a3/5VZnNQE7YTFj-KibLpK_8_shot-02-v02.png",
+    "https://v3b.fal.media/files/b/0aaf0965/f7XmQrd_MN-85h_rapYF7_riley-reference-512.jpg"
+  ],
+  "reference_video_urls": [
+    "https://v3b.fal.media/files/b/0aae81d3/66JtOPpfE3EB7VOfF5CNb_minimax-h3.mp4"
+  ],
+  "duration": 3,
+  "resolution": "1080P",
+  "aspect_ratio": "16:9",
+  "seed": 20261015,
+  "prompt_expansion_mode": "disabled",
+  "enable_safety_checker": true
+}

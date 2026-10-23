@@ -1,0 +1,16 @@
+{
+  "prompt": "Recreate Video 1 as a three-second high-resolution shot, closely preserving its choreography, fast running pace, camera framing and event timing. Image 1 supplies the station and wardrobe design. Image 2 supplies Riley's exact facial identity: brunette bob, natural adult facial proportions and small mole beneath her anatomical left eye. Correct the distorted face in Video 1 using Image 2, keeping her identity consistent in profile and during the head turn, with natural skin and stable eyes, nose and mouth.\n\nFollow Video 1's action at its original playback speed: Riley is already running quickly left to right at the first frame; the train doors close as she approaches. Preserve the rapid final steps and braking so she stops outside the closed door around 1.25 seconds. Then match the recovery breath and head/upper-body turn from Video 1 through the final frame. Keep the last second moving. Do not slow the run, start from rest, extend the approach or freeze the ending.\n\nKeep the locked camera, white long-sleeved shirt, knee-length black skirt, sheer black tights, black block heels, burgundy KORVEX lanyard and black bag on her anatomical right shoulder. Preserve the graphite train, cyan stripes, carriage 07, yellow door lights and morning station lighting. Train remains stationary and Riley remains outside; no cuts or new people.\n\nAudio: synchronized fast heel contacts, braking steps, closing-door motor and seal, train ambience and recovery breath. No speech, announcements, narration or music.",
+  "reference_image_urls": [
+    "https://v3b.fal.media/files/b/0aae7b6f/fMdtXSX-iVV51UCspedoj_shot-04a-v01.png",
+    "https://v3b.fal.media/files/b/0aaf0965/f7XmQrd_MN-85h_rapYF7_riley-reference-512.jpg"
+  ],
+  "reference_video_urls": [
+    "https://v3b.fal.media/files/b/0aaf0876/NtSObVGb6BcOlOyZmijs0_minimax-h3.mp4"
+  ],
+  "duration": 3,
+  "resolution": "1080P",
+  "aspect_ratio": "16:9",
+  "seed": 20261016,
+  "prompt_expansion_mode": "disabled",
+  "enable_safety_checker": true
+}
