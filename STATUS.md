@@ -785,3 +785,9 @@ as present or silently substitute another source.
 
 - Created the signed ten-file production commit. The staged check additionally caught a trailing blank line in the newly tracked historical flow prompt, which the earlier unstaged check did not cover. Removed the blank line; including the correction and this completion record in a signed amend before pushing.
 - This corrects the earlier broad whitespace-pass statement. No media, prompt wording or approval state changed.
+
+## 2026-10-23T23:00:46+05:30 — Finalized Seedance shot committed and pushed
+
+- Verified signed production commit `3251c8f`, Codex co-author trailer, committed whitespace and clean worktree. Successfully pushed `main` to the existing private origin (`b571f59` → `3251c8f`).
+- The approved original Seedance shot, selected-take manifest, production/prototype model decision, prompt/provenance and review artifacts are published. This completion record follows in a signed documentation commit to the same remote.
+- Remaining edit work: integrate the chosen trim into the preserved opening and review audio continuity; production shot selection is finalized. No additional generation.
