@@ -725,3 +725,63 @@ as present or silently substitute another source.
 - User requested pushing the signed production commit. Successfully pushed `main` to `origin`, advancing `ff30db0` to `8c9476f` (all 35 production/planning files).
 - Initial automatic approval review blocked the push because the destination was unverified. Read-only checks confirmed `raghav-rama/elevenlabs-the-search` is private, the authenticated user has ADMIN access, and origin/main has prior successful pushes. The same push was then approved and completed; no alternate destination or bypass used.
 - This follow-up ledger entry is being saved in a signed documentation commit and pushed to the same remote. No creative selections changed; opening face/audio work and montage/jingle development remain outstanding.
+
+## 2026-10-23T21:13:34+05:30 — English voiceover copy and delivery cues drafted
+
+- User clarified that “script” means English narration copy and delivery cues, not executable API code.
+- Preserve locked copy: “Missed your train? Still running on flesh and blood? So UPGRADE!” Proposed performance: first question lightly sympathetic and knowing; second question dry and gently incredulous; “So” as a conversational setup, a tiny beat, then a bright, decisive “UPGRADE!”
+- Suggested narrator: smooth, confident, cheerfully persuasive commercial delivery, playing the corporate satire straight. Aim for approximately 5–6 seconds, subject to listening/editing. Bring music and upgrade action in on “UPGRADE”; leave the subsequent montage to the jingle. Delivery remains proposed, not audio-approved.
+- No audio generated, API code created, provider spend, commit or push.
+
+## 2026-10-23T21:24:05+05:30 — ElevenLabs Flows opened with Playwright MCP
+
+- User requested opening `https://elevenlabs.io/app/flows` with Playwright MCP. Navigation completed but redirected to the ElevenLabs sign-in page with Flows as the return destination. Browser sign-in is required before accessing Flows.
+- No credentials entered, flow created, generation submitted or credits spent.
+
+## 2026-10-23T21:29:48+05:30 — Riley face and wardrobe imported into ElevenLabs Flows
+
+- User confirmed browser sign-in and requested importing Riley’s face, then added wardrobe. Created [AFTERHUMAN — Riley references](https://elevenlabs.io/app/flows/xpF6wUyzsjzPNDOGzECM) using Playwright MCP.
+- Imported original `assets/01-riley/images/riley-01-v01.png` (canonical portrait; node `node_4685b2f4-219e-4823-a236-44ba5443aab7`) and `assets/02-wardrobe/images/wardrobe-01-v01.png` (full outfit/bag front-side-back turnaround; node `node_c1e42e4b-3e5d-4b00-b62b-8c19f2befc81`). Visually checked local references before upload; local sources and approval statuses unchanged.
+- Initial upload-menu selection did not expose a file picker; canvas drop was intercepted by the empty-canvas overlay. Used the observed toolbar file input through Playwright, continued through the upload-policy reminder, and confirmed both image nodes loaded. Reloaded the flow and verified both nodes persisted with loaded previews. Preview dimensions are 1024×1279 and 1024×576; these describe displayed previews, not a verified original-download resolution.
+- User reports their own voiceover generation deducted no credits and asks whether video may also be free. This is user-reported billing behavior, not verified promotion terms or authorization for generation; video pricing remains unverified. No generation submitted during this import. No commit or push.
+
+## 2026-10-23T21:39:15+05:30 — Shot-four Flows setup completed, unrun and still-reference-only
+
+- User requested a flow for shot four with required assets, explicitly forbidding execution. Created [AFTERHUMAN — Shot 04 — Closing doors (UNRUN)](https://elevenlabs.io/app/flows/lwD92czcmxJMUWEZ9hhN).
+- Initially imported face, wardrobe, station still and accepted take 6 as a motion reference. User deleted the video node and clarified that this should be generated from scratch. Read back the deletion; did not re-import it. Final flow contains only the three still-reference nodes plus generator `cddUN7wa50e9OaFpPtKl`, with three edges into `reference_images` and no video/audio/start/end-frame inputs. Local source videos unchanged.
+- Configured MiniMax H3 using live ElevenLabs model/schema guidance: this integration assigns multimodal reference generation to H3 and a five-second minimum. User explicitly chose 768p and five seconds after concurrent canvas changes to 4K/15 seconds; final settings verified as 768p, 16:9, five seconds. Prompt requests fresh fast running/braking, missed closing doors, a moving breathless reaction, and face/wardrobe/train continuity.
+- Saved exact prompt in `assets/06-shots/video-prompts/shot-04-elevenlabs-flow-v01.md` and node/asset IDs, edges and settings in `assets/06-shots/videos/shot-04-elevenlabs-flow-v01.setup.json`. Prompt enhancement remains enabled by the platform; an attempted MCP parameter update did not apply, and this is recorded rather than claimed disabled.
+- Verified generator status `not_run` and an empty generations list. No run/estimate submitted, no output generated and no source selection replaced. Existing accepted opening remains intact. No commit or push.
+
+## 2026-10-23T22:47:25+05:30 — User-run Seedance shot four preferred; credit charge verified
+
+- User generated shot four with Seedance 2.5 and reports it looks better than MiniMax H3, at roughly 33k credits. Record this as a comparative preference, not explicit final take selection or approval of every visual/audio detail.
+- Read-only Flows inspection confirms completed generation `4ZjZpeeBLkJ5P5NLlzlk`, session `IwbbkwsEd2NpL1C77Zuc`, model `bytedance-seedance-v2.5`, 1920×1080, 5.056 seconds. Recorded settings: 16:9, 1080p, five requested seconds, generated audio enabled. Provider reports 31,327.17 credits for this generation.
+- Saved available prompt/settings/pricing/provenance in `assets/06-shots/videos/shot-04-elevenlabs-seedance-v01.generation.json`. No video downloaded or playback/audio review performed. The older setup record remains a historical unrun configuration; the live node is now completed despite its unchanged UNRUN label.
+- Recommended next step: review this existing result for use in the cut and check an exact estimate before any further generation. The earlier possibility of free video does not apply to this charged run. No new generation or flow mutation, commit or push.
+
+## 2026-10-23T22:48:46+05:30 — fal Seedance 2.5 cost comparison checked
+
+- User asked what the same shot would cost on fal and explicitly invoked the fal plugin. Read live endpoint schema, pricing and advisory estimate for `bytedance/seedance-2.5/reference-to-video`; no generation or upload.
+- Official model page: https://fal.ai/models/bytedance/seedance-2.5/reference-to-video . Published approximate rates without video references: 1080p USD 1.164/sec, 720p USD 0.4730/sec, 480p USD 0.2205/sec. Five-second approximations: USD 5.82, 2.37 and 1.10 respectively. Live schema says audio on/off has the same generation price.
+- Pricing API exposes only the base USD 0.0214/1000-token rate; advisory estimator returned unknown quantity, not an exact configured quote. Model page specifies USD 0.0234/1000 tokens for 1080p: 1920×1080×5×24/1024 tokens gives USD 5.6862, or USD 5.7499 using the observed 5.056-second length. Report approximately USD 5.8, with token/rounding uncertainty, rather than an exact bill or using the lower base rate for 1080p.
+- No currency conversion or claim of a precise saving against ElevenLabs credits. No generation, provider spend, commit or push.
+
+## 2026-10-23T22:59:01+05:30 — Seedance shot four finalized as production selection
+
+- User explicitly selects Seedance 2.5 for production-grade shots and MiniMax for quick prototyping, and requests finalizing the downloaded shot four, committing and pushing. This supersedes the earlier comparative-only preference. Existing accepted shots are preserved.
+- Imported `/Users/ritz/Downloads/Shot 04 — Fresh generation — UNRUN.mp4` unchanged as `assets/06-shots/videos/shot-04-elevenlabs-seedance-v01.mp4`. Source/copy SHA-256 match; original retained, no retiming or re-encoding. Selected this take in the manifest and marked the generation record user-approved for production.
+- Verified local duration 5.042 seconds, 24 fps and one audio track; provider reports 1920×1080 and 5.056 seconds. Twenty-frame contact sheet shows approach, stop outside closed doors, then head/body turn. Native audio decoded successfully (5.0555 seconds, peak -3.58 dBFS). Sandbox decoding failed; the same commands succeeded outside the sandbox. Full playback and listening were not performed by the assistant; selection rests on user approval.
+- Corrected prompt provenance: earlier generation-status text was a truncated excerpt, not the full prompt. Preserved it as such and saved full current-node text/configuration separately. Current reference order differs from authored Image 1/2/3 roles; no claim that this is an immutable run-time request, and no correction/regeneration of the approved output.
+- Updated manifest and saved review/reproduction details. Approved opening v03 still uses the previous door take; its timing and soundtrack remain intact. Next editing work is choosing a trim from this five-second production source and reviewing the replacement in context. Shot-two portrait/typography and final sound mix remain open.
+- No new generation or provider spend. Signed commit and push follow.
+
+## 2026-10-23T22:59:47+05:30 — Finalized shot-four publication checks passed
+
+- Checked all ten pending files (approximately 9.65 MiB), including the imported original, contact sheet, flow setup, generation provenance, selection manifest, scripts documentation and ledger. Four JSON files parse; whitespace checks pass; source and imported-video hashes match; selected take and preserved opening-v03 pointer verified.
+- No private-key, credential, signed-URL or workspace-switch-token patterns detected in pending text; every media file is below 100 MiB. Confirmed existing origin `raghav-rama/elevenlabs-the-search` is private with ADMIN access. Preparing the user-requested signed commit and push.
+
+## 2026-10-23T23:00:12+05:30 — Production finalization commit created; whitespace correction
+
+- Created the signed ten-file production commit. The staged check additionally caught a trailing blank line in the newly tracked historical flow prompt, which the earlier unstaged check did not cover. Removed the blank line; including the correction and this completion record in a signed amend before pushing.
+- This corrects the earlier broad whitespace-pass statement. No media, prompt wording or approval state changed.

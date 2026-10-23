@@ -814,7 +814,7 @@
         }
       ],
       "review_notes": "Visually checked and retained for this test batch; final user selection pending.",
-      "video_prompt": "06-shots/video-prompts/shot-04-closing-doors.md",
+      "video_prompt": "06-shots/video-prompts/shot-04-elevenlabs-seedance-v01.md",
       "video_takes": [
         {
           "video": "06-shots/videos/shot-04-take-01.mp4",
@@ -873,9 +873,21 @@
           "user_approved": false,
           "resolution": "1080P",
           "motion_reference": "06-shots/videos/shot-04-take-06.mp4"
+        },
+        {
+          "video": "06-shots/videos/shot-04-elevenlabs-seedance-v01.mp4",
+          "generation_record": "06-shots/videos/shot-04-elevenlabs-seedance-v01.generation.json",
+          "provider": "ElevenLabs Flows",
+          "model_id": "bytedance-seedance-v2.5",
+          "generation_id": "4ZjZpeeBLkJ5P5NLlzlk",
+          "session_id": "IwbbkwsEd2NpL1C77Zuc",
+          "status": "user_approved_production_selected",
+          "user_approved": true,
+          "resolution": "1080p",
+          "sha256": "ab74edce0cbd8a75c6f4df1dfece53778cb9a573b6fe983e952dc0c1a226bd38"
         }
       ],
-      "selected_video": "06-shots/videos/shot-04-take-06.mp4",
+      "selected_video": "06-shots/videos/shot-04-elevenlabs-seedance-v01.mp4",
       "video_edits": [
         {
           "video": "06-shots/videos/shot-04-take-03-speed-2x.mp4",
@@ -885,7 +897,15 @@
           "status": "user_approved",
           "user_approved": true
         }
-      ]
+      ],
+      "selection_history": [
+        {
+          "video": "06-shots/videos/shot-04-take-06.mp4",
+          "superseded_at": "2026-10-23T22:59:01+05:30",
+          "reason": "User selected Seedance 2.5 production take; previous approved source preserved."
+        }
+      ],
+      "video_review_notes": "User selected the downloaded Seedance 2.5 take for production. Original file copied byte-for-byte; technical verification and sampled frame review recorded. Earlier takes retained. Audio listening/continuity and insertion into the opening remain pending."
     },
     {
       "id": "shot-04b",
@@ -931,9 +951,9 @@
       "https://elevenlabs.io/video/minimax-h3"
     ],
     "verification_date": "2026-10-15",
-    "generated_take_count": 20,
-    "cadence_target": "User approved shot-01 take-05 picture despite assistant counting approximately seven new landings. Do not chase an exact count or regenerate accepted visuals. Audio fix v01 reuses shot-03 take-01 soundtrack; user listening review pending. Badge take 3, generated from the 1.5x reference, is user-approved. User accepts door take 1; take 2 was rejected as slow motion. Take 3 was also rejected as slowed. User approved the 2x local playback edit of take 3 and requested a new generation using it as motion reference; this edit is the current door selection. User rejected door take 4 as slow. User accepts take 5 pace but requests repair of its frozen final second. User approved and selected door take 6: fast approach and moving final reaction. Preserve this picture; audio continuity still needs review in the assembled hook.",
-    "latest_test_model": "MiniMax H3 Max Reference to Video"
+    "generated_take_count": 21,
+    "cadence_target": "User approved shot-01 take-05 picture despite assistant counting approximately seven new landings. Do not chase an exact count or regenerate accepted visuals. Audio fix v01 reuses shot-03 take-01 soundtrack; user listening review pending. Badge take 3, generated from the 1.5x reference, is user-approved. User accepts door take 1; take 2 was rejected as slow motion. Take 3 was also rejected as slowed. User approved the 2x local playback edit of take 3 and requested a new generation using it as motion reference; this edit is the current door selection. User rejected door take 4 as slow. User accepts take 5 pace but requests repair of its frozen final second. User approved and selected door take 6: fast approach and moving final reaction. Preserve this picture; audio continuity still needs review in the assembled hook. Latest selection: user-approved Seedance 2.5 production take, imported 2026-10-23; this supersedes the earlier door selection, retaining all approved sources.",
+    "latest_test_model": "Seedance 2.5 via ElevenLabs Flows"
   },
   "opening_assembly": {
     "current_review": "08-edit/opening-v03/opening-v03.mp4",
@@ -948,6 +968,18 @@
       "08-edit/opening-v02/opening-v02.mp4",
       "08-edit/opening-v03/opening-v03.mp4"
     ],
-    "notes": "User approved the eight-second v03 cut, two seconds per shot. Preserve its timing and soundtrack for upscale comparisons."
+    "notes": "User approved the eight-second v03 cut, two seconds per shot. Preserve its timing and soundtrack for upscale comparisons. Shot-four production selection has since changed to Seedance 2.5; v03 still contains MiniMax take 6 and has not been rebuilt.",
+    "source_update_pending": {
+      "shot": "doors",
+      "selected_source": "06-shots/videos/shot-04-elevenlabs-seedance-v01.mp4",
+      "current_assembly_source": "06-shots/videos/shot-04-take-06.mp4",
+      "note": "Approved eight-second v03 is preserved; the new five-second source needs a separately reviewed trim and audio integration."
+    }
+  },
+  "production_model_strategy": {
+    "production_shots": "Seedance 2.5",
+    "quick_prototypes": "MiniMax",
+    "decided_at": "2026-10-23T22:59:01+05:30",
+    "basis": "Explicit user direction; existing approved shots remain selected unless separately replaced."
   }
 }

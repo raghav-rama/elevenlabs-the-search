@@ -65,6 +65,29 @@ per-version settings are in [prepared-running](../assets/references/prepared-run
 
 ## Inspect motion frame by frame
 
+### Verify the selected Seedance shot-four source
+
+The imported source is `assets/06-shots/videos/shot-04-elevenlabs-seedance-v01.mp4`.
+Its generation record contains the source/copy checksum, selection and review limits.
+Reproduce the sampled review and audio decode with unused output paths:
+
+```sh
+review_dir=$(mktemp -d /private/tmp/afterhuman-seedance-review.XXXXXX)
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  assets/06-shots/reviews/extract-contact-sheet.swift \
+  assets/06-shots/videos/shot-04-elevenlabs-seedance-v01.mp4 \
+  "$review_dir/contact-sheet.jpg" 0 0.25 20 4 480 270
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  assets/06-shots/audio/extract-audio.swift \
+  assets/06-shots/videos/shot-04-elevenlabs-seedance-v01.mp4 \
+  "$review_dir/native-audio.wav"
+```
+
+AVFoundation required execution outside the restricted sandbox for this source.
+Frame sampling and successful audio decoding do not establish full playback or
+listening approval. The user selected the original take; no source retime or
+re-encode was performed.
+
 For the newly supplied badge footage, the separate
 [badge preparation script and commands](../assets/references/prepared-badge/README.md)
 by default trim 3–6 seconds, crop and remove audio at original speed, with

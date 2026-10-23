@@ -1,0 +1,79 @@
+{
+  "status": "configured_not_run",
+  "configured_at": "2026-10-23T21:38:30+05:30",
+  "flow_id": "lwD92czcmxJMUWEZ9hhN",
+  "flow_url": "https://elevenlabs.io/app/flows/lwD92czcmxJMUWEZ9hhN",
+  "node_id": "cddUN7wa50e9OaFpPtKl",
+  "node_label": "Shot 04 — Fresh generation — UNRUN",
+  "model_id": "minimax-h3",
+  "model_parameters": {
+    "resolution": "768p",
+    "aspect_ratio": "16:9",
+    "duration_secs": 5,
+    "enhance_prompt": true,
+    "reference_images": [
+      {
+        "template_node_id": "node_18a5d61d-d602-4a48-85da-d43cee9801e5"
+      },
+      {
+        "template_node_id": "node_e14c6d06-e8ae-471d-84aa-c84dac98e921"
+      },
+      {
+        "template_node_id": "node_5c1fe57b-1f79-4b41-bcd5-6af03ef101a4"
+      }
+    ]
+  },
+  "prompt": "Photorealistic premium sci-fi, one continuous five-second shot, 16:9. Generate new motion from the three still-image references. Riley is an ordinary, unaugmented commuter.\n\nImage 1 defines Riley's exact facial identity: brunette bob, natural adult facial proportions, hazel-brown eyes and the small mole beneath her anatomical LEFT eye. Keep this identity consistent in profile and through her head turn. Image 2 defines her full outfit and bag. Image 3 defines the station, train, lighting, camera framing and initial composition. Prioritize Image 1 for her face over the smaller face in Image 3. Show ONE Riley; the wardrobe sheet contains multiple views of the same woman, not multiple people. Do not include the grey studio background.\n\n[0.00-0.65 seconds] Riley is already running quickly from LEFT to RIGHT at the first frame, with rapid natural footfalls, purposeful arm drive and forward momentum. The stationary train's doors slide shut just before she reaches them.\n[0.65-1.25 seconds] She takes quick final braking steps and comes to a complete stop outside the closed doorway by approximately 1.25 seconds. Real-time speed throughout: do not start from rest, use slow motion, stretch the approach across the clip, or turn the run into a walk.\n[1.25-3.00 seconds] Feet planted, she takes a visible recovery breath. Her shoulders and upper chest rise then fall, her elbows relax and the bag swings once before settling. She turns her head slightly away from the shut door toward camera, with a small disappointed expression. Preserve stable, natural facial anatomy throughout the turn.\n[3.00-5.00 seconds] Continue a believable breathless reaction, with subtle blinking and settling hair and lanyard. Keep her feet planted and her face and upper body naturally alive through the final frame. No frozen hold, repeated-frame tail, loop or renewed approach.\n\nLocked-off wide camera. Preserve the white long-sleeved shirt tucked into a knee-length black skirt, sheer black tights, moderately chunky black block heels, burgundy KORVEX lanyard and black bag on her anatomical RIGHT shoulder. Preserve the graphite train, cyan stripes, carriage 07, yellow door lights, platform markings, overhead displays and 8:30 a.m. daylight from Image 3. Train remains stationary; doors stay closed after sealing; Riley stays outside. No boarding, extra people, cuts, camera movement, changing signage, duplicated limbs, implants, HUD or superhuman effects.\n\nAudio: synchronized rapid heel contacts and braking steps in the opening 1.25 seconds, door warning chime, sliding-door motor and seal, then quiet station/train rumble, recovery breathing and soft bag/fabric movement. No speech, narration, announcements, badge reading or music.",
+  "reference_images": [
+    {
+      "node_id": "node_18a5d61d-d602-4a48-85da-d43cee9801e5",
+      "label": "riley-01-v01",
+      "content_asset_id": "e9enioDmVLpNYwbbUptx",
+      "local_file": "assets/01-riley/images/riley-01-v01.png"
+    },
+    {
+      "node_id": "node_e14c6d06-e8ae-471d-84aa-c84dac98e921",
+      "label": "wardrobe-01-v01",
+      "content_asset_id": "kE2dJil8bMaVJ7yvPy2a",
+      "local_file": "assets/02-wardrobe/images/wardrobe-01-v01.png"
+    },
+    {
+      "node_id": "node_5c1fe57b-1f79-4b41-bcd5-6af03ef101a4",
+      "label": "shot-04a-v01",
+      "content_asset_id": "cEawjD3Px2RNVQJw7mkM",
+      "local_file": "assets/06-shots/images/shot-04a-v01.png"
+    }
+  ],
+  "edges": [
+    {
+      "id": "node_18a5d61d-d602-4a48-85da-d43cee9801e5->cddUN7wa50e9OaFpPtKl:reference_images",
+      "source": "node_18a5d61d-d602-4a48-85da-d43cee9801e5",
+      "target": "cddUN7wa50e9OaFpPtKl",
+      "sourcePort": "output",
+      "targetPort": "reference_images"
+    },
+    {
+      "id": "node_e14c6d06-e8ae-471d-84aa-c84dac98e921->cddUN7wa50e9OaFpPtKl:reference_images",
+      "source": "node_e14c6d06-e8ae-471d-84aa-c84dac98e921",
+      "target": "cddUN7wa50e9OaFpPtKl",
+      "sourcePort": "output",
+      "targetPort": "reference_images"
+    },
+    {
+      "id": "node_5c1fe57b-1f79-4b41-bcd5-6af03ef101a4->cddUN7wa50e9OaFpPtKl:reference_images",
+      "source": "node_5c1fe57b-1f79-4b41-bcd5-6af03ef101a4",
+      "target": "cddUN7wa50e9OaFpPtKl",
+      "sourcePort": "output",
+      "targetPort": "reference_images"
+    }
+  ],
+  "generation_count": 0,
+  "notes": [
+    "User explicitly requested creating the flow without running it.",
+    "User removed the previously imported motion video and requested fresh generation from still references only.",
+    "User explicitly selected 768p and 5 seconds after concurrent settings changes.",
+    "Live model guide assigns image-reference generation to minimax-h3; no start/end frames or video/audio references are connected.",
+    "Prompt enhancement remains at the platform default true; an attempt to set it through model_parameters did not apply. Exact authored prompt is preserved here.",
+    "No generation, pricing estimate or billing claim is made."
+  ]
+}

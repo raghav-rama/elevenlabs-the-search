@@ -1,0 +1,75 @@
+{
+  "flow_id": "lwD92czcmxJMUWEZ9hhN",
+  "node_id": "cddUN7wa50e9OaFpPtKl",
+  "model_id": "bytedance-seedance-v2.5",
+  "prompt": "Photorealistic premium sci-fi, one continuous five-second shot, 16:9. Generate new motion from the three still-image references. Riley is an ordinary, unaugmented commuter.\n\nImage 1 defines Riley's exact facial identity: brunette bob, natural adult facial proportions, hazel-brown eyes and the small mole beneath her anatomical LEFT eye. Keep this identity consistent in profile and through her head turn. Image 2 defines her full outfit and bag. Image 3 defines the station, train, lighting, camera framing and initial composition. Prioritize Image 1 for her face over the smaller face in Image 3. Show ONE Riley; the wardrobe sheet contains multiple views of the same woman, not multiple people. Do not include the grey studio background.\n\n[0.00-0.65 seconds] Riley is already running quickly from LEFT to RIGHT at the first frame, with rapid natural footfalls, purposeful arm drive and forward momentum. The stationary train's doors slide shut just before she reaches them.\n[0.65-1.25 seconds] She takes quick final braking steps and comes to a complete stop outside the closed doorway by approximately 1.25 seconds. Real-time speed throughout: do not start from rest, use slow motion, stretch the approach across the clip, or turn the run into a walk.\n[1.25-3.00 seconds] Feet planted, she takes a visible recovery breath. Her shoulders and upper chest rise then fall, her elbows relax and the bag swings once before settling. She turns her head slightly away from the shut door toward camera, with a small disappointed expression. Preserve stable, natural facial anatomy throughout the turn.\n[3.00-5.00 seconds] Continue a believable breathless reaction, with subtle blinking and settling hair and lanyard. Keep her feet planted and her face and upper body naturally alive through the final frame. No frozen hold, repeated-frame tail, loop or renewed approach.\n\nLocked-off wide camera. Preserve the white long-sleeved shirt tucked into a knee-length black skirt, sheer black tights, moderately chunky black block heels, burgundy KORVEX lanyard and black bag on her anatomical RIGHT shoulder. Preserve the graphite train, cyan stripes, carriage 07, yellow door lights, platform markings, overhead displays and 8:30 a.m. daylight from Image 3. Train remains stationary; doors stay closed after sealing; Riley stays outside. No boarding, extra people, cuts, camera movement, changing signage, duplicated limbs, implants, HUD or superhuman effects.\n\nAudio: synchronized rapid heel contacts and braking steps in the opening 1.25 seconds, door warning chime, sliding-door motor and seal, then quiet station/train rumble, recovery breathing and soft bag/fabric movement. No speech, narration, announcements, badge reading or music.",
+  "model_parameters": {
+    "aspect_ratio": "16:9",
+    "resolution": "1080p",
+    "duration_secs": 5,
+    "generate_audio": true,
+    "reference_images": [
+      {
+        "template_node_id": "node_5c1fe57b-1f79-4b41-bcd5-6af03ef101a4"
+      },
+      {
+        "template_node_id": "node_18a5d61d-d602-4a48-85da-d43cee9801e5"
+      },
+      {
+        "template_node_id": "node_e14c6d06-e8ae-471d-84aa-c84dac98e921"
+      }
+    ]
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "start_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "end_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "node_5c1fe57b-1f79-4b41-bcd5-6af03ef101a4",
+          "label": "shot-04a-v01"
+        },
+        {
+          "id": "node_18a5d61d-d602-4a48-85da-d43cee9801e5",
+          "label": "riley-01-v01"
+        },
+        {
+          "id": "node_e14c6d06-e8ae-471d-84aa-c84dac98e921",
+          "label": "wardrobe-01-v01"
+        }
+      ]
+    },
+    {
+      "key": "reference_videos",
+      "modality": "video",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_audios",
+      "modality": "audio",
+      "required": false,
+      "connected_to": []
+    }
+  ],
+  "note": "Current node configuration read during finalization; not an immutable generation-time request. The run-status prompt is truncated."
+}
