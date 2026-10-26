@@ -1,0 +1,227 @@
+{
+  "scope": "Wardrobe and body styling references for post-upgrade Riley",
+  "updated_at": "2026-10-26T14:07:54+05:30",
+  "path_base": "assets/",
+  "style_references": [
+    "02-wardrobe/references/cyberpunk/user-style-02.png",
+    "02-wardrobe/references/cyberpunk/user-style-04-gold-dress.png"
+  ],
+  "character_manifest": "01-riley/cyberpunk-manifest.json",
+  "new_wardrobe_selected": true,
+  "notes": [
+    "User selected Riley cyberpunk concept 3 and explicitly requests replacing conventional office attire after the upgrade.",
+    "Pre-upgrade office outfit remains intact for the accepted opening.",
+    "Preserve the selected face, cybernetic anatomy, implant laterality and brown/cyan eyes as rendered.",
+    "User approved 05-v02 as rendered. Preserve its wardrobe, current boots and natural-skin/chrome-inlay body treatment; use Riley concept 3 for detailed face/neck design. Upscale remains unstarted."
+  ],
+  "selected_character": "01-riley/images/riley-cyberpunk-03-v01.png",
+  "status": "user_approved_wardrobe_selected",
+  "wardrobe_redesign_authorized": true,
+  "selected_wardrobe": "wardrobe-cyberpunk-05-v02",
+  "pre_upgrade_outfit": [
+    "02-wardrobe/images/wardrobe-01-v01.png",
+    "02-wardrobe/images/wardrobe-02-v01.png",
+    "02-wardrobe/images/wardrobe-03-v01.png"
+  ],
+  "concepts": [
+    {
+      "id": "wardrobe-cyberpunk-01-v01",
+      "title": "Executive exosuit",
+      "image": "02-wardrobe/images/wardrobe-cyberpunk-01-v01.png",
+      "prompt": "02-wardrobe/prompts/wardrobe-cyberpunk-01-v01.txt",
+      "generation_record": "02-wardrobe/images/wardrobe-cyberpunk-01-v01.generation.json",
+      "status": "rejected_wardrobe_direction",
+      "selected": false,
+      "upscaled": false
+    },
+    {
+      "id": "wardrobe-cyberpunk-02-v01",
+      "title": "Performance exosuit",
+      "image": "02-wardrobe/images/wardrobe-cyberpunk-02-v01.png",
+      "prompt": "02-wardrobe/prompts/wardrobe-cyberpunk-02-v01.txt",
+      "generation_record": "02-wardrobe/images/wardrobe-cyberpunk-02-v01.generation.json",
+      "status": "rejected_wardrobe_direction",
+      "selected": false,
+      "upscaled": false
+    },
+    {
+      "id": "wardrobe-cyberpunk-03-v01",
+      "title": "Armored asymmetric dress",
+      "image": "02-wardrobe/images/wardrobe-cyberpunk-03-v01.png",
+      "prompt": "02-wardrobe/prompts/wardrobe-cyberpunk-03-v01.txt",
+      "generation_record": "02-wardrobe/images/wardrobe-cyberpunk-03-v01.generation.json",
+      "status": "revision_base_not_final",
+      "selected": false,
+      "upscaled": false
+    },
+    {
+      "id": "wardrobe-cyberpunk-04-v01",
+      "title": "Street runner",
+      "image": "02-wardrobe/images/wardrobe-cyberpunk-04-v01.png",
+      "prompt": "02-wardrobe/prompts/wardrobe-cyberpunk-04-v01.txt",
+      "generation_record": "02-wardrobe/images/wardrobe-cyberpunk-04-v01.generation.json",
+      "status": "rejected_wardrobe_direction",
+      "selected": false,
+      "upscaled": false
+    },
+    {
+      "id": "wardrobe-cyberpunk-05-v01",
+      "title": "Liquid gold",
+      "batch": "wardrobe-batch-02",
+      "image": "02-wardrobe/images/wardrobe-cyberpunk-05-v01.png",
+      "prompt": "02-wardrobe/prompts/wardrobe-cyberpunk-05-v01.txt",
+      "generation_record": "02-wardrobe/images/wardrobe-cyberpunk-05-v01.generation.json",
+      "status": "user_preferred_outfit_limb_revision_requested",
+      "selected": false,
+      "upscaled": false
+    },
+    {
+      "id": "wardrobe-cyberpunk-06-v01",
+      "title": "Pearl and chrome",
+      "batch": "wardrobe-batch-02",
+      "image": "02-wardrobe/images/wardrobe-cyberpunk-06-v01.png",
+      "prompt": "02-wardrobe/prompts/wardrobe-cyberpunk-06-v01.txt",
+      "generation_record": "02-wardrobe/images/wardrobe-cyberpunk-06-v01.generation.json",
+      "status": "completed_pending_user_review",
+      "selected": false,
+      "upscaled": false
+    },
+    {
+      "id": "wardrobe-cyberpunk-07-v01",
+      "title": "Liquid silver",
+      "batch": "wardrobe-batch-02",
+      "image": "02-wardrobe/images/wardrobe-cyberpunk-07-v01.png",
+      "prompt": "02-wardrobe/prompts/wardrobe-cyberpunk-07-v01.txt",
+      "generation_record": "02-wardrobe/images/wardrobe-cyberpunk-07-v01.generation.json",
+      "status": "completed_pending_user_review",
+      "selected": false,
+      "upscaled": false
+    },
+    {
+      "id": "wardrobe-cyberpunk-08-v01",
+      "title": "Iridescent violet",
+      "batch": "wardrobe-batch-02",
+      "image": "02-wardrobe/images/wardrobe-cyberpunk-08-v01.png",
+      "prompt": "02-wardrobe/prompts/wardrobe-cyberpunk-08-v01.txt",
+      "generation_record": "02-wardrobe/images/wardrobe-cyberpunk-08-v01.generation.json",
+      "status": "completed_pending_user_review",
+      "selected": false,
+      "upscaled": false
+    },
+    {
+      "id": "wardrobe-cyberpunk-05-v02",
+      "title": "Liquid gold — natural skin and chrome inlays",
+      "batch": "wardrobe-batch-03",
+      "image": "02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "prompt": "02-wardrobe/prompts/wardrobe-cyberpunk-05-v02.txt",
+      "generation_record": "02-wardrobe/images/wardrobe-cyberpunk-05-v02.generation.json",
+      "status": "user_approved_selected",
+      "selected": true,
+      "upscaled": false,
+      "revision_of": "wardrobe-cyberpunk-05-v01",
+      "user_approved": true,
+      "approved_at": "2026-10-26T14:07:54+05:30"
+    }
+  ],
+  "flow_url": "https://elevenlabs.io/app/flows/NAqLdem9GbIcQI3EWlTo",
+  "batch_estimate": {
+    "credits": 267.208125,
+    "price_cents": 387.9861975,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 16
+  },
+  "gallery": "02-wardrobe/CYBERPUNK-GALLERY.md",
+  "revision_base": "wardrobe-cyberpunk-05-v01",
+  "current_direction": {
+    "exposed_chrome_limbs": false,
+    "futuristic_dress": true,
+    "thigh_high_boots": "Earlier suggestion; preserve the boot height and design of approved 05-v02",
+    "metallic_finish_reference": "02-wardrobe/references/cyberpunk/user-style-04-gold-dress.png",
+    "user_feedback": "User approves 05-v02: Looks perfetch",
+    "limb_design": "Mostly natural human skin with slim chrome inlays; full metal limbs rejected",
+    "outfit": "Approved 05-v02 liquid-gold dress and current black/gold boots",
+    "face_and_neck": "Preserve selected Riley cyberware"
+  },
+  "batches": [
+    {
+      "id": "wardrobe-batch-01",
+      "flow_url": "https://elevenlabs.io/app/flows/PNrpy43WuEckWFISFlqe",
+      "estimate": {
+        "credits": 1068.8325,
+        "currency": "inr",
+        "amount": 15.5194479
+      },
+      "actual_price": {
+        "credits": 1068.8325,
+        "currency": "inr",
+        "amount": 15.5194479,
+        "basis": "Sum of four completed generations provider-reported prices"
+      },
+      "concept_ids": [
+        "wardrobe-cyberpunk-01-v01",
+        "wardrobe-cyberpunk-02-v01",
+        "wardrobe-cyberpunk-03-v01",
+        "wardrobe-cyberpunk-04-v01"
+      ],
+      "status": "wardrobe_03_revision_base_other_directions_rejected"
+    },
+    {
+      "id": "wardrobe-batch-02",
+      "flow_url": "https://elevenlabs.io/app/flows/NAqLdem9GbIcQI3EWlTo",
+      "estimate": {
+        "credits": 1194.5774999999999,
+        "price_cents": 1734.5265299999999,
+        "generations_count": 1,
+        "currency": "inr",
+        "estimated_runtime_seconds": 16
+      },
+      "concept_ids": [
+        "wardrobe-cyberpunk-05-v01",
+        "wardrobe-cyberpunk-06-v01",
+        "wardrobe-cyberpunk-07-v01",
+        "wardrobe-cyberpunk-08-v01"
+      ],
+      "status": "completed_pending_user_review",
+      "actual_price": {
+        "credits": 1194.5775,
+        "currency": "inr",
+        "amount": 17.3452653,
+        "basis": "Sum of four completed generations provider-reported prices"
+      }
+    },
+    {
+      "id": "wardrobe-batch-03",
+      "flow_url": "https://elevenlabs.io/app/flows/NAqLdem9GbIcQI3EWlTo",
+      "estimate": {
+        "credits": 267.208125,
+        "price_cents": 387.9861975,
+        "generations_count": 1,
+        "currency": "inr",
+        "estimated_runtime_seconds": 16
+      },
+      "concept_ids": [
+        "wardrobe-cyberpunk-05-v02"
+      ],
+      "status": "user_approved_selected",
+      "actual_price": {
+        "credits": 267.208125,
+        "currency": "inr",
+        "amount": 3.879861975,
+        "basis": "Completed generation provider-reported price"
+      }
+    }
+  ],
+  "current_batch": "wardrobe-batch-03",
+  "preferred_outfit_concept": "wardrobe-cyberpunk-05-v01",
+  "latest_candidate": "wardrobe-cyberpunk-05-v02",
+  "batch_actual_price": {
+    "credits": 267.208125,
+    "currency": "inr",
+    "amount": 3.879861975,
+    "basis": "Completed generation provider-reported price"
+  },
+  "selected_image": "02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+  "selected_at": "2026-10-26T14:07:54+05:30",
+  "upscale_status": "selected_not_started"
+}

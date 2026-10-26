@@ -1,0 +1,17 @@
+{
+  "audio_tracks" : 1,
+  "export_preset" : "AVAssetExportPresetPassthrough",
+  "nominal_fps" : 24,
+  "notes" : "Trim from time zero to the requested frame endpoint, including audio. Passthrough export; decoded frame verification is recorded separately.",
+  "output_duration_seconds" : 9.3333333333333339,
+  "output_file" : "assets\/08-edit\/fcp-opening-trimmed-v01\/fcp-opening-trimmed-v01.mov",
+  "output_sha256" : "8bc7ed866eb7d5b3f3484fbe7173ac9cad86f61f98873ba46319aeb7449a75d9",
+  "playback_speed_changed" : false,
+  "removed_tail_seconds" : 0.041666666666666075,
+  "requested_keep_frames" : 224,
+  "script" : "scripts\/trim-video-end.swift",
+  "source_duration_seconds" : 9.375,
+  "source_file" : "assets\/08-edit\/fcp-opening-review-v01\/fcp-opening-review-v01.mov",
+  "source_modified" : false,
+  "source_sha256" : "11c0040f46db996c45986dc0dd970d5cc33f81db6c49ddbad7fef2f73cab1136"
+}

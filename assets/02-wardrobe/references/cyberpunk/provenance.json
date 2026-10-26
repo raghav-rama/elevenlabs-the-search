@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-10-26T12:45:24+05:30",
+  "source": "User-supplied screenshots in conversation",
+  "purpose": "Body/neck cyberware and wardrobe styling inspiration; not an approved outfit change",
+  "references": [
+    {
+      "source_path": "/var/folders/w1/7l882pl14b73zt97rm8r6qk80000gn/T/codex-clipboard-Q1YpQV.png",
+      "file": "assets/02-wardrobe/references/cyberpunk/user-style-02.png",
+      "sha256": "2d0d61f5f15db0c8b5ceab2f1029df747b41a357bcd4776142c6522a2d00a24b",
+      "previous_file": "assets/references/cyberpunk-upgrade/user-style-02.png",
+      "user_image_number": 2
+    }
+  ]
+}

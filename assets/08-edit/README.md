@@ -1,6 +1,18 @@
 # Opening review cuts
 
-Current review: [opening v03](opening-v03/opening-v03.mp4). Eight seconds, 24 fps,
+Current working export: [trimmed FCP opening v01](fcp-opening-trimmed-v01/fcp-opening-trimmed-v01.mov).
+The user requested removing the trailing black frame. This version is 224 frames,
+9.333333 seconds at 24 fps, with audio trimmed to the same endpoint. Passthrough
+export preserves the encoded media; the final decoded picture matches the
+original's last visible frame. No Final Cut timeline changes were made.
+
+Original user-supplied Final Cut review: [FCP opening v01](fcp-opening-review-v01/fcp-opening-review-v01.mov).
+It is 9.375 seconds, 1920x1080/24 fps with stereo audio, archived without changes.
+The [review notes](fcp-opening-review-v01/README.md) identify one trailing black
+frame and link the actual last visible frame for the next-shot match cut.
+This import does not change the previous approved cut's selection or files.
+
+Previous approved review: [opening v03](opening-v03/opening-v03.mp4). Eight seconds, 24 fps,
 832x480, native audio plus the existing train mix and an audio bridge. The user approved this eight-second cut. Preserve its timing and soundtrack
 while testing upscales; the assistant has not independently listened to it.
 
@@ -44,6 +56,7 @@ V03 extends the existing audio bridge across the two-second badge interval.
 Verified duration: 8.000 seconds, 24 fps, one audio track; decoded AAC peak
 -1.73 dBFS. V01/v02 remain for comparison. No source retiming or new generation.
 
-Next: review the eight-second cut, adjust timing or sound if needed, then lock
-the hook before planning the departing-train/billboard continuation. The jingle
-remains deferred; the exploratory demo is not included.
+The earlier departing-train/billboard continuation is superseded by the approved
+instant station upgrade, eye HUD and superhuman montage. See the
+[shot-five brief](../06-shots/video-prompts/shot-05-instant-upgrade-brief-v01.md).
+The final original jingle remains open; the exploratory demo is not selected.

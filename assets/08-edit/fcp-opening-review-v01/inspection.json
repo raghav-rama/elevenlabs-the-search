@@ -1,0 +1,33 @@
+{
+  "audio_tracks" : [
+    {
+      "channels" : 2,
+      "codec_fourcc" : "aac ",
+      "duration_seconds" : 9.375,
+      "sample_rate" : 48000
+    }
+  ],
+  "duration_seconds" : 9.375,
+  "extracted_frame_seconds" : 9.3333333333333339,
+  "frame_height" : 1080,
+  "frame_width" : 1920,
+  "last_frame_file" : "assets\/08-edit\/fcp-opening-review-v01\/final-frame.png",
+  "last_frame_sha256" : "dbee7c98c1bddf4c6002ff8d329f81e60d660b499649fa2351798f16be93c187",
+  "last_picture_frame_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/08-edit\/fcp-opening-review-v01\/last-picture-frame.png",
+  "last_picture_frame_seconds" : 9.2916666666666661,
+  "last_picture_frame_sha256" : "3ae87cdb6b5094cc75ba886c1a92a61a4f87790572294433503779b4694bfee6",
+  "last_video_sample_seconds" : 9.3333333333333339,
+  "near_black_detection" : "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+  "near_black_frame_times_seconds" : [
+    9.3333333333333339
+  ],
+  "nominal_fps" : 24,
+  "review_limits" : "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+  "script" : "scripts\/inspect-review-video.swift",
+  "source_file" : "assets\/08-edit\/fcp-opening-review-v01\/fcp-opening-review-v01.mov",
+  "source_modified" : false,
+  "source_sha256" : "11c0040f46db996c45986dc0dd970d5cc33f81db6c49ddbad7fef2f73cab1136",
+  "video_codec_fourcc" : "avc1",
+  "video_duration_seconds" : 9.375,
+  "video_samples" : 225
+}

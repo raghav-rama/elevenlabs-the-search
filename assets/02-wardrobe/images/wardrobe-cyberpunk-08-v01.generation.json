@@ -1,0 +1,90 @@
+{
+  "asset_id": "wardrobe-cyberpunk-08-v01",
+  "title": "Iridescent violet",
+  "category": "wardrobe",
+  "batch": "wardrobe-batch-02",
+  "status": "completed_pending_user_review",
+  "selected": false,
+  "user_approved": false,
+  "provider": "ElevenLabs",
+  "model_id": "gemini-2.5-flash-image",
+  "model_name": "Google Nano Banana",
+  "model_parameters": {
+    "aspect_ratio": "2:3"
+  },
+  "resolution_note": "Native inexpensive output; no upscale.",
+  "flow_id": "NAqLdem9GbIcQI3EWlTo",
+  "flow_url": "https://elevenlabs.io/app/flows/NAqLdem9GbIcQI3EWlTo",
+  "node_id": "uGE3dMVVw8vgAe8RNfs7",
+  "session_id": "nLo65PVXw8YjMmHnloZ9",
+  "generation_id": "FtUIxBq9mF3c17yO8dBg",
+  "generations_count": 1,
+  "seed": null,
+  "prompt_file": "assets/02-wardrobe/prompts/wardrobe-cyberpunk-08-v01.txt",
+  "prompt": "Create one photorealistic full-body fashion concept of Riley Brooks, a 27-year-old adult cybernetic woman, for an original premium sci-fi commercial. Use the three attached references with separate roles: the close-up cybernetic portrait is the authoritative face, hair, eye and neck design; the gold-dress woman supplies metallic fashion material inspiration only, never her identity or hairstyle; the graphite asymmetric-dress full-body image supplies Riley's slim build, simple standing pose and full-body studio composition, but its clothes and ordinary human limbs must be redesigned.\n\nKeep the selected Riley portrait's recognizable facial proportions, brunette chin-length bob with teal accents, natural brown eye on viewer LEFT, vivid luminous cyan ring eye on viewer RIGHT, and asymmetric titanium cheek/jaw hardware on anatomical LEFT (viewer RIGHT). Reproduce the substantial exposed mechanical neck with magenta and cyan accents. Preserve the natural human parts of her face; do not mirror her or replace her with the gold-reference woman.\n\nThe user wants visibly cybernetic arms and legs with futuristic high-fashion clothes. Both entire arms from shoulder to fingertips are uncovered polished silver-chrome prosthetic limbs: elegant slim metal shells, realistic shoulder and elbow bearings, dark seams, fine recessed cyan/magenta circuits, articulated five-finger metal hands. Show these actual mechanical arms, not fabric sleeves, gloves or metal pads attached over clothing. Chrome upper thighs must be plainly visible between the short dress hem and the tops of the thigh-high boots. The boots have futuristic metallic construction, articulated knee sections, narrow technical seams and stable sculpted low wedge soles; slender fashionable proportions. These legs read as enhanced mechanical anatomy integrated with footwear, not ordinary bare skin with decorative strips.\n\nDevelop the asymmetric dress silhouette into a fresh sleeveless mini dress ending around mid-thigh, with a fitted waist, dimensional metallic materials and an overlapping skirt construction allowing movement. A sculpted open neckline reveals her neck assembly. The dress is an opaque, complete fashion garment. This is confident futuristic couture with both exposed chrome arms prominent, not a tactical uniform or all-covering bodysuit. Keep torso, hips and pelvis clothed. No jacket, trousers, leggings, lanyard, handbag, weapons, logos, watermark or copied signature.\n\nSingle person standing naturally, hands slightly clear of hips so both arms and their joints are visible. Front-facing or very slight three-quarter body, face toward camera, neutral confident expression. Head and both complete boots in frame with generous margins. Vertical 2:3 composition matching the full-body dress reference. Clean graphite studio backdrop and floor, broad softbox reflections that reveal mirror metal, subtle cyan/magenta edges, realistic human skin and photographic materials, physically coherent joints and anatomy. One image, no collage, no text.\n\nSPECIFIC DESIGN: A deep iridescent violet-to-petrol sleeveless mini dress with a sculpted sweetheart neckline, asymmetric short wrap skirt and narrow satin-chrome edging. Opaque glossy technical fabric shifts magenta, purple and teal under light while the fitted shape remains elegant and uncluttered. Both uncovered arms and visible upper thighs are bright silver-chrome mechanical anatomy. Sleek thigh-high boots combine matching iridescent violet panels with silver articulated knee/ankle hardware and low wedge soles. The dress and boots feel like a coherent original luxury cyberpunk collection, with the chrome body equally prominent.",
+  "prompt_sha256": "0fa9ade14f3b7b43a39f7724c2efad41ad242bad4775ba4622c96533b43a3636",
+  "references": [
+    {
+      "role": "selected_face_hair_eyes_neck",
+      "file": "assets/01-riley/images/riley-cyberpunk-03-v01.png",
+      "generation_id": "MTCPGsxYC5HZK0tNPdKO",
+      "order": 1,
+      "node_id": "2CpCZq8jqEwyrlMiUaSV",
+      "sha256": "4df29f1f3ed615cc454ae91d983f56046e203cc0be225b854c22bcdffc5ca009"
+    },
+    {
+      "role": "metallic_dress_inspiration_only",
+      "file": "assets/02-wardrobe/references/cyberpunk/user-style-04-gold-dress.png",
+      "asset_id": "NitulLzeJPG0TWoClEnA",
+      "order": 2,
+      "node_id": "XOEVsMOsOnuKxYi2PUwE",
+      "sha256": "451489281d1e2dfac987fe5648e0f5ee2dbbba4e56598551906d2a684dfb15b0"
+    },
+    {
+      "role": "provisional_dress_silhouette_and_full_body_composition",
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-03-v01.png",
+      "generation_id": "MBx7OcVfYQRQOdNgs1Js",
+      "order": 3,
+      "node_id": "Sd8oz9rF22LuibSXiDuk",
+      "sha256": "504bc19e5a16ba6827b6d57bc8747c4288fde61ae2996f0250dc03c51376135b"
+    }
+  ],
+  "reported_run_credits": 298.64437499999997,
+  "batch_estimate": {
+    "credits": 1194.5774999999999,
+    "price_cents": 1734.5265299999999,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 16
+  },
+  "output_file": "assets/02-wardrobe/images/wardrobe-cyberpunk-08-v01.png",
+  "upscaled": false,
+  "recorded_at": "2026-10-26T13:46:30+05:30",
+  "notes": [
+    "User wants exposed chrome arms and legs, futuristic dress and possibly thigh-high boots.",
+    "Wardrobe 3 is a revision base only, not final approval.",
+    "Selected Riley face/cyberware portrait remains the identity target."
+  ],
+  "width": 832,
+  "height": 1248,
+  "bytes": 1607400,
+  "sha256": "5b59551573ed08a52d61d89bba7a2f1b8466b3dcf54df8cdecc0b6a999d038e7",
+  "actual_aspect_ratio": 0.6666666666666666,
+  "provider_reported_price": {
+    "credits": 298.64437499999997,
+    "price_cents": 433.63163249999997,
+    "cost_fiat_currency": "inr"
+  },
+  "completed_checked_at": "2026-10-26T13:47:04+05:30",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-10-26T13:49:42+05:30",
+    "observations": [
+      "Visually inspected original full-body image: uncovered chrome shoulder/arm/hand assemblies and chrome thighs are clearly visible, with complete dress and both boots in frame.",
+      "Broad selected face/hair and hardware laterality remain recognizable, but eye glow and facial/neck mechanical geometry are simplified compared with the selected portrait.",
+      "Boot tops are around knee height rather than true thigh-high; requested boot length remains unresolved. Articulation, hands, and running suitability need detail/motion review before production.",
+      "Costume exploration only; no user selection or upscale.",
+      "Iridescent violet dress and matching boots create the strongest color contrast with chrome limbs. Boots have raised block heels rather than the requested low wedges."
+    ],
+    "user_selection_pending": true
+  }
+}

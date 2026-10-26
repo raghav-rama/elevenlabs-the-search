@@ -1,0 +1,10 @@
+{
+  "method": "AVFoundation decode to 48 kHz stereo Float32 PCM using existing extract-audio.swift; sample measurements only",
+  "sample_rate": 48000,
+  "channels": 2,
+  "duration_seconds": 9.375,
+  "sample_peak_dbfs": -0.9534882361979341,
+  "rms_dbfs": -21.3931140187834,
+  "samples_at_or_above_full_scale": 0,
+  "listening_review_performed": false
+}

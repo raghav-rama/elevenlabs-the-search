@@ -87,6 +87,56 @@ per-version settings are in [prepared-running](../assets/references/prepared-run
 
 ## Inspect motion frame by frame
 
+### Trim an export's ending without re-encoding
+
+`trim-video-end.swift INPUT OUTPUT.mov KEEP_FRAMES` uses AVFoundation Passthrough
+to retain media from zero to the requested integer-frame endpoint. Audio follows
+the same endpoint. This helper requires an integer source frame rate, refuses
+existing output paths and records source/output hashes and settings. Verify the
+result's decoded frame count with the inspection helper below.
+
+The requested one-frame trim of the Final Cut opening keeps 224 of 225 frames:
+
+```sh
+trim_dir=$(mktemp -d /private/tmp/afterhuman-trim.XXXXXX)
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  scripts/trim-video-end.swift \
+  assets/08-edit/fcp-opening-review-v01/fcp-opening-review-v01.mov \
+  "$trim_dir/fcp-opening-trimmed-v01.mov" 224
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  scripts/inspect-review-video.swift "$trim_dir/fcp-opening-trimmed-v01.mov" \
+  "$trim_dir/final-frame.png" "$trim_dir/inspection.json"
+```
+
+### Inspect the user-supplied Final Cut opening
+
+`inspect-review-video.swift` decodes sample timestamps, records format metadata,
+scans a 16-pixel RGB grid for near-black frames, and extracts full-resolution PNGs
+of the final frame and the last frame above that threshold. Confirm the images
+visually; a dark scene can also trigger the numerical threshold. It preserves
+the source and refuses existing output paths. Compressed sample timestamps can
+differ from displayed frame timestamps, so this script uses decoded frames.
+
+```sh
+review_dir=$(mktemp -d /private/tmp/afterhuman-fcp-review.XXXXXX)
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  scripts/inspect-review-video.swift \
+  assets/08-edit/fcp-opening-review-v01/fcp-opening-review-v01.mov \
+  "$review_dir/final-frame.png" "$review_dir/inspection.json"
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  assets/06-shots/reviews/extract-contact-sheet.swift \
+  assets/08-edit/fcp-opening-review-v01/fcp-opening-review-v01.mov \
+  "$review_dir/contact-sheet.jpg" 0 0.375 25 5 384 216
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  assets/06-shots/audio/extract-audio.swift \
+  assets/08-edit/fcp-opening-review-v01/fcp-opening-review-v01.mov \
+  "$review_dir/audio.wav"
+```
+
+Successful audio decoding and numerical levels do not establish listening
+review, speech absence or perceptual continuity. The review export is archived
+unchanged; generated frames are inspection aids and prospective match references.
+
 ### Verify the selected Seedance shot-four source
 
 The imported source is `assets/06-shots/videos/shot-04-elevenlabs-seedance-v01.mp4`.

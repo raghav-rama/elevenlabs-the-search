@@ -1,0 +1,100 @@
+{
+  "asset_id": "riley-cyberpunk-04-v01",
+  "title": "Black ceramic and gold",
+  "category": "riley",
+  "purpose": "cyberpunk_look_development",
+  "status": "completed_pending_user_review",
+  "selected": false,
+  "user_approved": false,
+  "provider": "ElevenLabs",
+  "model_id": "gemini-2.5-flash-image",
+  "model_name": "Google Nano Banana",
+  "model_parameters": {
+    "aspect_ratio": "4:5"
+  },
+  "resolution_note": "Model's inexpensive native 1K-class output; no resolution control exposed.",
+  "seed": null,
+  "flow_id": "4osRqqkJAem3JCrPkFCF",
+  "flow_url": "https://elevenlabs.io/app/flows/4osRqqkJAem3JCrPkFCF",
+  "node_id": "Rvb2JxQQqtI1mM5yq1ik",
+  "session_id": "TjzkHGHsES85INQtAEH6",
+  "generation_id": "x8ObjgTvO9ggI8BDMkhm",
+  "generations_count": 1,
+  "prompt_file": "assets/01-riley/prompts/riley-cyberpunk-04-v01.txt",
+  "prompt": "Generate ONE original photorealistic cyberpunk character-design portrait of Riley Brooks, a fictional adult woman. This is an inexpensive look-development concept, not the final station shot. Output a single 4:5 vertical image, tightly framed from the upper chest to just above the hair, with the face and all neck implants clearly readable.\n\nReference 5, the close brunette portrait, is the identity master: preserve Riley's exact facial structure, nose, lips, jaw, natural skin tone, brown bob silhouette and the small mole beneath her anatomical LEFT eye (viewer RIGHT). Keep her recognizably Riley, not any person in the game screenshots. Reference 4 supplies her white office shirt and burgundy lanyard; retain these at the shoulders and neckline. References 1, 2 and 3 supply the boldness of cybernetic hardware, synthetic-eye color, machined materials and cyberpunk attitude ONLY. Invent an original implant design rather than reproducing their character, interface, symbols, logos or exact plate shapes.\n\nThe previous design was rejected for being too subtle. Make the augmentation immediately obvious: substantial physically integrated three-dimensional facial cyberware and neck engineering with machined edges, seams, sockets and convincing reflections. These are implanted components, not delicate tattoos, drawn circuit lines, jewelry or a removable costume mask. Keep the nose, mouth and enough of the cheeks visible to preserve identity; leave the mole visible. Believable anatomy, realistic pores and hair, high-end live-action photographic texture, no wounds or exposed tissue.\n\nA composed, confident expression and direct gaze. Dark softly defocused graphite background, controlled cyan and magenta rim light, neutral flattering key light that reveals her face and hardware clearly. One person, no text, no watermark, no game UI, no collage.\n\nDESIGN DIRECTION: Graphite-black ceramic plates contour the outer brow, temples and upper cheekbones with thick, clearly dimensional hardware, separated by luminous amber-gold seams and small titanium connectors. Keep the central face, mouth and mole uncovered. Her synthetic irises have bright amber concentric rings and radial optical segments around dark pupils. A prominent segmented black-and-gold cervical implant runs along both sides of the neck above her office collar. Original luxury cyberpunk engineering with a strong silhouette, not delicate linework. Preserve Riley's brunette bob.",
+  "references": [
+    {
+      "order": 1,
+      "asset_id": "bWz91W5Yp0QQLAC1rIom",
+      "node_id": "43vBWqT7tHuXNnzBsm5C",
+      "file": "assets/01-riley/references/cyberpunk/user-style-01.png",
+      "role": "user_style_inspiration",
+      "sha256": "c182720848fc7c14107f116f1a63d36eeaef787b759b9c1bc6171344e38ce69f"
+    },
+    {
+      "order": 2,
+      "asset_id": "yDD4knrCf1p5kpbFSFPN",
+      "node_id": "LkhYai77ad8eqea3Hi1E",
+      "file": "assets/02-wardrobe/references/cyberpunk/user-style-02.png",
+      "role": "user_style_inspiration",
+      "sha256": "2d0d61f5f15db0c8b5ceab2f1029df747b41a357bcd4776142c6522a2d00a24b"
+    },
+    {
+      "order": 3,
+      "asset_id": "XFmFzOBX19k1fSzEeRGy",
+      "node_id": "RMJFeL5xJYHErKdfbR9r",
+      "file": "assets/01-riley/references/cyberpunk/user-style-03.png",
+      "role": "user_style_inspiration",
+      "sha256": "7a03b83502e2e35866fbbe296fc3a2afb568adc4c7813af98b53cb4797d2fb80"
+    },
+    {
+      "order": 4,
+      "asset_id": "tczzXKtX8HHZQG9n3wkF",
+      "node_id": "Icn2USsbvvSI1T2dhgLV",
+      "file": "assets/02-wardrobe/images/wardrobe-01-v01.png",
+      "role": "wardrobe",
+      "sha256": "a612e5904e59672a503ae6a46f3ab51c031b66eb070a7132a8bc64a0cbb4d841"
+    },
+    {
+      "order": 5,
+      "asset_id": "O1gbnKMKdtVsQU1LJR0s",
+      "node_id": "vVdyCeqiiNyQYtZnQfsz",
+      "file": "assets/01-riley/images/riley-01-v01.png",
+      "role": "canonical_identity",
+      "sha256": "d64c12e39d1bdfe348917da7a5c4a79d3bc99f006fd73de365b3a347a4d46144"
+    }
+  ],
+  "quoted_credits": 330.080625,
+  "reported_run_credits": 330.080625,
+  "batch_estimate": {
+    "credits": 1320.3225,
+    "currency": "inr",
+    "price_cents": 1917.10827
+  },
+  "output_file": "assets/01-riley/images/riley-cyberpunk-04-v01.png",
+  "upscaled": false,
+  "notes": [
+    "One of four low-cost concepts authorized after v01 was rejected as too restrained.",
+    "No approved character/wardrobe selections changed.",
+    "Upscale only after user's choice.",
+    "Requested 4:5; actual output is 896x1152 (7:9). Original preserved without crop or upscale."
+  ],
+  "recorded_at": "2026-10-26T12:53:41+05:30",
+  "prompt_sha256": "33801b1a3b614754cdb925b933c34b073c0561fa855b3b16007059e404bb77c1",
+  "sha256": "63e7c189fef6ddcd7976b4e69c6a65f0414310b12f253b9b8f80ecb93507d35b",
+  "bytes": 1796446,
+  "width": 896,
+  "height": 1152,
+  "actual_aspect_ratio": 0.7777777777777778,
+  "provider_reported_price": {
+    "credits": 330.080625,
+    "price_cents": 479.2770675,
+    "cost_fiat_currency": "inr"
+  },
+  "completed_checked_at": "2026-10-26T12:54:09+05:30",
+  "assistant_review": {
+    "visually_inspected": true,
+    "notes": "Black ceramic face/neck plates, amber eyes and gold seams; cheek hardware obscures the identity mole.",
+    "user_selected": false
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "asset_id": "wardrobe-cyberpunk-05-v02",
+  "title": "Liquid gold — natural skin and chrome inlays",
+  "category": "wardrobe",
+  "batch": "wardrobe-batch-03",
+  "status": "user_approved_selected",
+  "selected": true,
+  "user_approved": true,
+  "provider": "ElevenLabs",
+  "model_id": "gemini-2.5-flash-image",
+  "model_name": "Google Nano Banana",
+  "model_parameters": {
+    "aspect_ratio": "2:3"
+  },
+  "flow_id": "NAqLdem9GbIcQI3EWlTo",
+  "flow_url": "https://elevenlabs.io/app/flows/NAqLdem9GbIcQI3EWlTo",
+  "node_id": "aRq2KyQSv08HhCUDTOfJ",
+  "session_id": "G17MI9WHtaLdioTfYj3c",
+  "generation_id": "WboGh1QOlITNwOVIn0Gj",
+  "generations_count": 1,
+  "seed": null,
+  "prompt_file": "assets/02-wardrobe/prompts/wardrobe-cyberpunk-05-v02.txt",
+  "prompt": "Edit the attached full-body image of Riley in the liquid-gold dress. Make a precise local revision to the exposed arms, hands and legs only.\n\nKeep the gold wrap dress exactly the same: its metallic fabric, sleeveless V-neck bodice, waist belt, folds, asymmetric hem and length. Keep the black-and-gold boots, their shape and height, and their decorative trim. Keep Riley's recognizable face, natural facial skin, brunette bob with teal highlights, eye colors, asymmetric cheek/jaw cyberware, and the existing mechanical neck unchanged. Also preserve her pose, slim adult proportions, framing, graphite studio background and lighting. This is the same 27-year-old woman and the same outfit.\n\nReplace the large metal arm and thigh surfaces with natural human skin matching her face and upper chest. Her shoulders, upper arms, elbows, forearms, wrists, hands, fingers, exposed thighs and visible knees should clearly be human: realistic skin texture, soft tissue, tendons and ordinary anatomical joints. Approximately 85–90 percent of each exposed limb should be natural skin.\n\nIntegrate a few narrow polished-chrome stripes into that skin: one or two slim 1–2 cm-wide flowing inlays along the outer upper arm and forearm, tiny understated chrome patches at the outer elbow and wrist, and two narrow curved chrome lines along each outer thigh toward the knee. Let continuous skin remain visible around every inlay. Add a few very fine cyan or magenta luminous edges to connect their design to her selected face implants. Her palms and fingers remain human skin, with at most a tiny metal accent on the back of each hand. The effect is elegant cybernetic augmentation embedded flush within a living human body, not body paint, jewelry, clothing sleeves or a complete prosthetic shell.\n\nRemove exposed pistons, circular robotic shoulder bearings, mechanical elbow hinges, metal finger skeletons and large chrome kneecaps from the exposed limbs. Keep a natural rounded shoulder and knee silhouette. The visible skin-to-chrome balance is the key change; do not redesign the approved face/neck assembly or the liked gold clothing to achieve it.\n\nPhotorealistic premium sci-fi fashion photograph, natural skin pores, believable anatomy and subtle integrated engineering. Exactly one full-body image. Preserve the input 2:3 aspect ratio and keep both boots and the full head in frame.",
+  "prompt_sha256": "2d3c40c82772e4c279403bf0e2b2da4c0a566c4f0ba4d6ac71184502b11f1af6",
+  "references": [
+    {
+      "order": 1,
+      "role": "user_preferred_gold_outfit_and_composition_to_edit",
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v01.png",
+      "sha256": "b006466d8a2276bab82e6ae8f78d0960aff925e8b260f0552612360c5232b3d6",
+      "generation_id": "c7HTJPEJhRN1UAs7fGZA",
+      "node_id": "b1Sh8uD2Rfgz6xOSBMCH"
+    }
+  ],
+  "reported_run_credits": 267.208125,
+  "estimate": {
+    "credits": 267.208125,
+    "price_cents": 387.9861975,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 16
+  },
+  "output_file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+  "upscaled": false,
+  "resolution_note": "Native inexpensive output; no upscale.",
+  "recorded_at": "2026-10-26T13:58:31+05:30",
+  "revision_of": "wardrobe-cyberpunk-05-v01",
+  "notes": [
+    "User prefers gold outfit but rejects fully metal arms/legs.",
+    "Single targeted edit restores human skin with narrow chrome inlays.",
+    "Requested preservation of outfit, current boots, face, hair, mechanical neck, pose and setting.",
+    "85–90 percent natural skin is a prompt target, not a measurement of the output."
+  ],
+  "width": 832,
+  "height": 1248,
+  "bytes": 1704001,
+  "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6",
+  "actual_aspect_ratio": 0.6666666666666666,
+  "provider_reported_price": {
+    "credits": 267.208125,
+    "price_cents": 387.9861975,
+    "cost_fiat_currency": "inr"
+  },
+  "completed_checked_at": "2026-10-26T13:59:00+05:30",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-10-26T14:01:23+05:30",
+    "observations": [
+      "Natural skin restored on shoulders, arms, hands, exposed thighs and knees; no complete prosthetic limb shells remain.",
+      "Fine angular chrome inlays with cyan-lit borders appear along arms and thighs; their visual emphasis is luminous tracing rather than broad polished metal.",
+      "Gold wrap dress, black/gold boots, pose, framing and broad face/hair/neck appearance remain visually consistent with 05-v01. This is visual continuity, not pixel identity.",
+      "Selected portrait remains the detailed face/neck authority; full-body eye glow and hardware detail are still simplified.",
+      "User review of the new body treatment is pending. Boot height intentionally unchanged."
+    ],
+    "user_selection_pending": false
+  },
+  "approved_at": "2026-10-26T14:07:54+05:30",
+  "approval_scope": "Post-upgrade wardrobe and body styling as rendered: gold wrap dress, current black/gold boots, natural skin with narrow chrome/cyan inlays",
+  "approval_evidence": "User: Looks perfetch"
+}

@@ -1,0 +1,84 @@
+{
+  "scope": "Cyberpunk Riley identity, hair, face and neck cyberware look development",
+  "updated_at": "2026-10-26T14:07:54+05:30",
+  "path_base": "assets/",
+  "canonical_identity": "01-riley/images/riley-01-v01.png",
+  "style_references": [
+    "01-riley/references/cyberpunk/user-style-01.png",
+    "01-riley/references/cyberpunk/user-style-03.png"
+  ],
+  "shared_body_style_reference": "02-wardrobe/references/cyberpunk/user-style-02.png",
+  "wardrobe_manifest": "02-wardrobe/cyberpunk-manifest.json",
+  "selected_concept": "riley-cyberpunk-03-v01",
+  "upscale_status": "selected_not_started",
+  "concepts": [
+    {
+      "id": "riley-cyberpunk-01-v01",
+      "title": "Chrome eye rails",
+      "image": "01-riley/images/riley-cyberpunk-01-v01.png",
+      "prompt": "01-riley/prompts/riley-cyberpunk-01-v01.txt",
+      "generation_record": "01-riley/images/riley-cyberpunk-01-v01.generation.json",
+      "status": "completed_pending_user_review",
+      "selected": false,
+      "upscaled": false
+    },
+    {
+      "id": "riley-cyberpunk-02-v01",
+      "title": "Turquoise cheek armor",
+      "image": "01-riley/images/riley-cyberpunk-02-v01.png",
+      "prompt": "01-riley/prompts/riley-cyberpunk-02-v01.txt",
+      "generation_record": "01-riley/images/riley-cyberpunk-02-v01.generation.json",
+      "status": "completed_pending_user_review",
+      "selected": false,
+      "upscaled": false
+    },
+    {
+      "id": "riley-cyberpunk-03-v01",
+      "title": "Asymmetric mechanical jaw",
+      "image": "01-riley/images/riley-cyberpunk-03-v01.png",
+      "prompt": "01-riley/prompts/riley-cyberpunk-03-v01.txt",
+      "generation_record": "01-riley/images/riley-cyberpunk-03-v01.generation.json",
+      "status": "user_selected_design_direction",
+      "selected": true,
+      "upscaled": false
+    },
+    {
+      "id": "riley-cyberpunk-04-v01",
+      "title": "Black ceramic and gold",
+      "image": "01-riley/images/riley-cyberpunk-04-v01.png",
+      "prompt": "01-riley/prompts/riley-cyberpunk-04-v01.txt",
+      "generation_record": "01-riley/images/riley-cyberpunk-04-v01.generation.json",
+      "status": "completed_pending_user_review",
+      "selected": false,
+      "upscaled": false
+    }
+  ],
+  "rejected_scene_tests": [
+    {
+      "image": "06-shots/images/shot-05-cyberpunk-riley-v01.png",
+      "generation_record": "06-shots/images/shot-05-cyberpunk-riley-v01.generation.json",
+      "status": "rejected_insufficient_cyberpunk"
+    }
+  ],
+  "batch_cost": {
+    "credits": 1320.3225,
+    "currency": "inr",
+    "amount": 19.1710827
+  },
+  "price_comparison": [
+    {
+      "model_id": "gemini-2.5-flash-image",
+      "four_image_credits": 1320.3225,
+      "selected": true
+    },
+    {
+      "model_id": "gemini-3.1-flash-lite-image",
+      "four_image_credits": 2884.56,
+      "selected": false,
+      "node_id": "AlYPeqMEY9Fr42EjdTFH",
+      "status": "estimate_only_never_run"
+    }
+  ],
+  "selection_scope": "User-selected face and cyberware design direction; not an upscaled production master",
+  "selected_wardrobe": "02-wardrobe/images/wardrobe-cyberpunk-05-v02.png"
+}

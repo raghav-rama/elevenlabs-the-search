@@ -989,5 +989,19 @@
     "estimated_duration_seconds": 5.564082,
     "status": "user_supplied_for_edit",
     "review_status": "pending_assistant_listening_and_phrase_timing"
+  },
+  "look_development": {
+    "status": "character_and_wardrobe_selected",
+    "riley_manifest": "01-riley/cyberpunk-manifest.json",
+    "wardrobe_manifest": "02-wardrobe/cyberpunk-manifest.json",
+    "selected_concept": "riley-cyberpunk-03-v01",
+    "upscale_started": false,
+    "selected_wardrobe": "wardrobe-cyberpunk-05-v02",
+    "wardrobe_gallery": "02-wardrobe/CYBERPUNK-GALLERY.md",
+    "wardrobe_revision_base": "wardrobe-cyberpunk-05-v01",
+    "preferred_outfit_concept": "wardrobe-cyberpunk-05-v01",
+    "wardrobe_candidate": "wardrobe-cyberpunk-05-v02",
+    "selected_wardrobe_image": "02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+    "wardrobe_approved_at": "2026-10-26T14:07:54+05:30"
   }
 }

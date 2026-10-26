@@ -1,0 +1,21 @@
+{
+  "recorded_at": "2026-10-26T12:45:24+05:30",
+  "source": "User-supplied screenshots in conversation",
+  "purpose": "Facial cyberware, synthetic eyes and hair styling inspiration",
+  "references": [
+    {
+      "source_path": "/var/folders/w1/7l882pl14b73zt97rm8r6qk80000gn/T/codex-clipboard-LRFrzn.png",
+      "file": "assets/01-riley/references/cyberpunk/user-style-01.png",
+      "sha256": "c182720848fc7c14107f116f1a63d36eeaef787b759b9c1bc6171344e38ce69f",
+      "previous_file": "assets/references/cyberpunk-upgrade/user-style-01.png",
+      "user_image_number": 1
+    },
+    {
+      "source_path": "/var/folders/w1/7l882pl14b73zt97rm8r6qk80000gn/T/codex-clipboard-URdGAV.png",
+      "file": "assets/01-riley/references/cyberpunk/user-style-03.png",
+      "sha256": "7a03b83502e2e35866fbbe296fc3a2afb568adc4c7813af98b53cb4797d2fb80",
+      "previous_file": "assets/references/cyberpunk-upgrade/user-style-03.png",
+      "user_image_number": 3
+    }
+  ]
+}

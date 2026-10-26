@@ -40,8 +40,15 @@ ad with stylish, playful corporate satire and believable sci-fi visuals.
 - Follow the user's current priorities in the ledger, including deferred work.
 - Check live provider schemas and pricing before new generation. Preserve exact
   prompts, inputs, settings, seeds, request IDs, outputs and review outcomes.
-- Keep still prompts in `assets/06-shots/prompts/`, video prompts in
-  `assets/06-shots/video-prompts/`, and takes/records in `assets/06-shots/videos/`.
+- Organize identity, hair and facial cyberware references/concepts under
+  `assets/01-riley/`; organize outfit, accessories and body styling references
+  under `assets/02-wardrobe/`. Keep each category's prompts in `prompts/`,
+  generated images and generation records in `images/`, and supplied inspiration
+  with provenance in `references/`. Link shared references instead of duplicating.
+- Keep composed-shot still prompts in `assets/06-shots/prompts/`, video prompts
+  in `assets/06-shots/video-prompts/`, and takes/records in `assets/06-shots/videos/`.
+  Track pending, rejected and selected concepts explicitly; upscale only the
+  user's selected look, then use its references to construct shot frames.
 - Save editing and review scripts with reproducible commands; maintain
   [scripts/README.md](scripts/README.md). Preserve source/provenance records and
   prepared references unless the user requests deletion.

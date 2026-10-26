@@ -1,0 +1,93 @@
+{
+  "asset_id": "shot-05-cyberpunk-riley-v01",
+  "status": "rejected_insufficient_cyberpunk",
+  "user_review_status": "rejected",
+  "provider": "ElevenLabs",
+  "model_id": "gemini-3-pro-image",
+  "model_name": "Google Nano Banana Pro",
+  "flow_id": "DMkRtzMLlE9Qeqw3RXcU",
+  "flow_url": "https://elevenlabs.io/app/flows/DMkRtzMLlE9Qeqw3RXcU",
+  "node_id": "gXU2V92Si7WxievelaxS",
+  "session_ids": [
+    "8KRYVnXPNhzoMnPxmwva"
+  ],
+  "generation_id": "yoJx08tPG9aOEl5xyWdF",
+  "generations_count": 1,
+  "model_parameters": {
+    "aspect_ratio": "16:9",
+    "resolution": "2K"
+  },
+  "seed": null,
+  "seed_note": "No seed parameter exposed by live model schema.",
+  "prompt_file": "assets/06-shots/prompts/shot-05-cyberpunk-riley-v01.txt",
+  "prompt": "Create one photorealistic 16:9 cinematic commercial frame of cybernetically upgraded Riley Brooks for AFTERHUMAN.\n\nUse the three references for distinct purposes. Reference 1, the close portrait, defines Riley's exact identity: face proportions, hazel-brown eyes, natural skin texture, brunette bob, and small mole beneath her left eye. Reference 2, the wardrobe turnaround, defines the white button-down shirt, fitted black knee-length skirt, sheer dark tights, black closed-toe block heels, burgundy lanyard and badge, and black bag on her anatomical right shoulder. Reference 3, the single wide station frame, is the composition and environment master. Edit that composition: retain the same 16:9 crop, camera position, full-body scale, Riley right of center, foot placement, closed train doors, train number 07, platform perspective, skyline, wet reflective floor, morning daylight, cyan train trim and warm gold door lighting. Produce a single scene, not a collage or turnaround.\n\nRiley has just upgraded. Give her balanced, relaxed shoulders, a steady upright stance, relaxed hands and a quietly confident expression with closed lips and a restrained hint of a smile. Her face must remain recognizably the same woman.\n\nMake the cyberpunk engineering elegant and physically integrated: a small flush brushed-titanium implant at her right temple with one fine cyan status light; delicate engineered seams following the side of her neck; low-profile satin-metal details at the exposed wrists and backs of the hands, following believable joints. Preserve normal human anatomy and natural skin around each implant. Keep the mole unobscured. Her irises remain brown with only a very fine, faint cyan concentric ring inside each iris. The later close-up will show the full HUD activation.\n\nPreserve the office outfit, badge, shoes, bag, hairstyle, body proportions and all station geometry. Match real daylight reflections on the metal and skin; premium believable science-fiction photography, crisp facial detail and realistic fabric. No exposed wounds, bulky armor, weapons, helmet, sunglasses, wardrobe change, extra people, floating interface panels, added captions, logos or watermark. Do not change the input scene's aspect ratio.",
+  "references": [
+    {
+      "order": 1,
+      "role": "canonical_identity",
+      "file": "assets/01-riley/images/riley-01-v01.png",
+      "asset_id": "O1gbnKMKdtVsQU1LJR0s",
+      "node_id": "t1WcOr98H91ud9MfNoG8",
+      "sha256": "d64c12e39d1bdfe348917da7a5c4a79d3bc99f006fd73de365b3a347a4d46144",
+      "bytes": 2130908
+    },
+    {
+      "order": 2,
+      "role": "approved_wardrobe",
+      "file": "assets/02-wardrobe/images/wardrobe-01-v01.png",
+      "asset_id": "tczzXKtX8HHZQG9n3wkF",
+      "node_id": "aKBpyBkjbsOcrIg29Ytt",
+      "sha256": "a612e5904e59672a503ae6a46f3ab51c031b66eb070a7132a8bc64a0cbb4d841",
+      "bytes": 1814530
+    },
+    {
+      "order": 3,
+      "role": "composition_master_current_edit_end",
+      "file": "assets/08-edit/fcp-opening-trimmed-v01/last-picture-frame.png",
+      "asset_id": "NbfpMcD975egzvNCRuNe",
+      "node_id": "j9gadKH4ISZHHcFpCFQr",
+      "sha256": "3ae87cdb6b5094cc75ba886c1a92a61a4f87790572294433503779b4694bfee6",
+      "bytes": 2737445
+    }
+  ],
+  "estimate": {
+    "credits": 3045.15,
+    "currency": "inr",
+    "price_cents": 4421.5578,
+    "estimated_runtime_seconds": 56
+  },
+  "reported_run_credit_cost": 3045.15,
+  "output_file": "assets/06-shots/images/shot-05-cyberpunk-riley-v01.png",
+  "notes": [
+    "Single image authorized by user; no video generation.",
+    "Provider signed URLs and workspace-switch URLs deliberately excluded.",
+    "Model schema and reference assets verified before estimation and execution.",
+    "Requested 16:9; provider returned 2752x1536, approximately 1.7917. Original output archived unchanged; slight framing normalization may be needed in the edit."
+  ],
+  "recorded_at": "2026-10-26T12:38:34+05:30",
+  "prompt_sha256": "f5c8a16c090b19d5b568c6df4a2078bd3fc74fc7473793ca054e329549f48c62",
+  "sha256": "6d469276aa28745e7faeab4455f0180283e1c420c65732a541b1cc9018d802d6",
+  "bytes": 5865531,
+  "width": 2752,
+  "height": 1536,
+  "actual_aspect_ratio": 1.7916666666666667,
+  "completed_checked_at": "2026-10-26T12:40:49+05:30",
+  "provider_reported_price": {
+    "credits": 3045.15,
+    "price_cents": 4421.5578,
+    "currency": "inr"
+  },
+  "review": {
+    "assistant_visual_inspection": true,
+    "user_approval": false,
+    "observations": [
+      "Office outfit, right-shoulder bag, full-body station setup and closed train doors broadly retained.",
+      "Temple/face, neck and wrist details are visible but restrained; this is a concept candidate.",
+      "Temple/eye implant appears on anatomical left (viewer right), whereas prompt requested right temple; design laterality needs review.",
+      "Expression remains slightly parted-lipped rather than the requested closed-lip confident smile.",
+      "Identity likeness, implant design and exact match-cut registration require user review; background is regenerated, not pixel-identical.",
+      "Actual 2752x1536 output is slightly wider than requested 16:9; preserve original and handle framing during later edit if selected."
+    ]
+  },
+  "user_feedback": "Nope, too little cyberpunk."
+}

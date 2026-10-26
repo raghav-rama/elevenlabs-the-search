@@ -1,4 +1,27 @@
-# Opening-hook assets
+# AFTERHUMAN assets
+
+## Current post-upgrade look development
+
+Character designs, facial cyberware and hair references live in
+[01-riley](01-riley/README.md); clothing, accessories and body styling live in
+[02-wardrobe](02-wardrobe/README.md). Each category keeps prompts, versioned
+images, generation records, supplied references and a concept manifest together.
+Composed station frames stay in `06-shots` and point back to these references.
+
+The user selected **Riley concept 3, asymmetric mechanical jaw**, from the
+[character batch](01-riley/CYBERPUNK-GALLERY.md) and requested a new post-upgrade
+outfit. The user approved [wardrobe 05-v02](02-wardrobe/CYBERPUNK-GALLERY.md):
+gold wrap dress, current black/gold boots and natural skin with slim chrome/cyan
+inlays. These two selected references define the upgraded look. No upscale or
+video test has started. The earlier
+restrained station design was rejected. The approved opening and its office
+wardrobe remain preserved; current exported-edit files are indexed in
+[08-edit](08-edit/README.md).
+
+The opening-reference batch notes below describe the earlier pre-upgrade work;
+consult `STATUS.md` and the relevant category manifest for current decisions.
+
+## Original opening-hook reference batch
 
 **All 24 test assets have been generated with the built-in image generator.**
 There are 31 generated images including earlier attempts, plus the supplied

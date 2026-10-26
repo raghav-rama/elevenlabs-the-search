@@ -1,0 +1,74 @@
+{
+  "asset_id": "wardrobe-cyberpunk-04-v01",
+  "title": "Street runner",
+  "category": "wardrobe",
+  "status": "rejected_wardrobe_direction",
+  "selected": false,
+  "user_approved": false,
+  "provider": "ElevenLabs",
+  "model_id": "gemini-2.5-flash-image",
+  "model_name": "Google Nano Banana",
+  "model_parameters": {
+    "aspect_ratio": "2:3"
+  },
+  "resolution_note": "Native inexpensive 1K-class output; no upscale.",
+  "flow_id": "PNrpy43WuEckWFISFlqe",
+  "flow_url": "https://elevenlabs.io/app/flows/PNrpy43WuEckWFISFlqe",
+  "node_id": "R4U6uO3XJTYxVBJoerFw",
+  "session_id": "w7OYEHRpeWBnThUCtuo9",
+  "generation_id": "MflZ0Fk4cGm9y7P7lfDh",
+  "generations_count": 1,
+  "seed": null,
+  "prompt_file": "assets/02-wardrobe/prompts/wardrobe-cyberpunk-04-v01.txt",
+  "prompt": "Create ONE original photorealistic full-body wardrobe concept for upgraded Riley Brooks in the attached reference. Single vertical 2:3 image, head to boots fully visible with generous margins, one person, relaxed upright standing pose, hands at her sides, face toward camera, clean graphite studio backdrop and floor. This is a low-cost costume-development option for an energetic premium sci-fi advertisement.\n\nPreserve the attached selected portrait's exact recognizable face, slim adult build, brunette bob with teal accent, natural brown eye on viewer LEFT and luminous cyan cybernetic eye on viewer RIGHT. Preserve the asymmetric satin-titanium face/jaw hardware on her anatomical LEFT (viewer RIGHT) and the substantial dark mechanical neck with magenta and cyan accents. Keep the natural skin and facial proportions, not a new identity. Do not mirror the character or redesign the selected implants.\n\nThe user explicitly wants a new post-upgrade wardrobe instead of conventional office attire. Replace the white shirt, pencil skirt, burgundy badge/lanyard and shoulder handbag completely. Dress her for superhuman running, reflexes and strength: a coherent fashion-forward cyberpunk outfit with visible high-quality material construction, flexible joints and grounded sprint-capable boots. The neck hardware remains clearly exposed and integrated with the garment neckline. Use graphite, black and satin titanium with selective cyan/magenta accents that echo her implants. Elegant athletic proportions, realistic fabric folds and metal reflections, not a bulky combat robot. Both hands have believable five-finger anatomy. Outfit fully covers the torso; editorial confidence without a pin-up pose.\n\nNeutral studio key light makes all garment details readable, restrained cyan/magenta edge lights, crisp realistic photography. No weapons, helmet, sunglasses, shopping bag, office badge, logos, captions, UI or collage. Keep the complete outfit and both shoes in frame.\n\nWARDROBE DIRECTION: A cropped charcoal technical moto jacket with a sculpted asymmetric collar opened below the exposed mechanical neck, subtle petrol/teal iridescent shoulder panels and magenta recessed seam lights. Under it, a fully covering matte-black technical top. Tapered dark utility trousers with restrained cargo pockets, articulated knee inserts and an integrated low-profile waist harness. Flexible black and titanium mid-calf sprint boots with cyan sole accents. A confident stylish cyberpunk streetwear silhouette, premium practical clothing rather than random straps or oversized armor.",
+  "references": [
+    {
+      "order": 1,
+      "role": "user_selected_face_hair_and_cyberware",
+      "file": "assets/01-riley/images/riley-cyberpunk-03-v01.png",
+      "generation_id": "MTCPGsxYC5HZK0tNPdKO",
+      "node_id": "2fsRn1wFxc0I3yX7ywq9",
+      "sha256": "4df29f1f3ed615cc454ae91d983f56046e203cc0be225b854c22bcdffc5ca009"
+    }
+  ],
+  "reported_run_credits": 267.208125,
+  "batch_estimate": {
+    "credits": 1068.8325,
+    "price_cents": 1551.94479,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 16
+  },
+  "output_file": "assets/02-wardrobe/images/wardrobe-cyberpunk-04-v01.png",
+  "upscaled": false,
+  "notes": [
+    "User selected Riley concept 3 and requested a post-upgrade outfit replacing conventional office clothes.",
+    "Selected rendered implant side and eye design are preserved as the target; new costume proposals await user choice.",
+    "Prior office wardrobe remains intact for pre-upgrade opening."
+  ],
+  "recorded_at": "2026-10-26T13:05:13+05:30",
+  "prompt_sha256": "57ddd05ede978b2e3a9fdb70ef92db8a67ff8c5dbd644c613a6b46951f59c8bc",
+  "sha256": "4db7ed269e930c3b41aa0e68d077da80c687535cbc814e3236bc011edf596df6",
+  "bytes": 1455459,
+  "width": 832,
+  "height": 1248,
+  "actual_aspect_ratio": 0.6666666666666666,
+  "provider_reported_price": {
+    "credits": 267.208125,
+    "price_cents": 387.9861975,
+    "cost_fiat_currency": "inr"
+  },
+  "completed_checked_at": "2026-10-26T13:05:35+05:30",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-10-26T13:11:19+05:30",
+    "observations": [
+      "Visually inspected full-body original: one person, entire outfit and both shoes visible.",
+      "Broad face/hair and anatomical-left (viewer-right) facial hardware placement retained, but mechanical geometry is simplified and the selected portrait cyan eye glow is weakened.",
+      "Costume candidate only; selected Riley portrait remains the face/cyberware target for refinement. User wardrobe selection and production identity review pending.",
+      "Cropped technical jacket, articulated trousers and boots are readable; assistant recommends this option for its street-cyberpunk silhouette, not a user selection."
+    ],
+    "user_selection_pending": true
+  },
+  "user_feedback": "First wardrobe batch covers too much of the body and lacks chrome arms and legs. Wardrobe 3 looks fine but not great: revise rather than finalize.",
+  "feedback_recorded_at": "2026-10-26T13:41:58+05:30"
+}
