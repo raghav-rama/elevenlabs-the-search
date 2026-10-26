@@ -1,0 +1,66 @@
+{
+  "shot": "shot-01",
+  "flow_url": "https://elevenlabs.io/app/flows/W5GJuVaTpCVOJDDORvle",
+  "flow_name": "AFTERHUMAN — Shot 01 — Running legs (UNRUN)",
+  "status": "configured_not_run",
+  "created_via": "Playwright MCP browser UI",
+  "generator_node_id": "node_12d35076-667d-4357-9649-717d392b864b",
+  "model_display_name": "Seedance 2.5",
+  "settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "1080p",
+    "duration_seconds": 5,
+    "generate_audio": true
+  },
+  "prompt_file": "assets/06-shots/video-prompts/shot-01-elevenlabs-seedance-flow-v01.md",
+  "prompt": "Create a fresh five-second continuous photorealistic shot for AFTERHUMAN. Image 1 (shot-01-v03) defines the exact legs-only composition, station, train, lighting and direction. Image 2 (wardrobe-01-v01) defines Riley's clothing proportions; Image 3 (wardrobe-02-v01) defines the tights and shoes. These are still references, not a montage. Animate one continuous running shot.\n\nRiley is already running at full ordinary human pace on the first frame and sustains it through the last frame. Tight side-on tracking camera at shin height follows her LEFT TO RIGHT, maintaining the same crop and subject size. Only her lower black knee-length skirt, legs, sheer black tights and moderate black block heels are visible. Rapid short alternating strides, brief believable ground contacts, natural knee flexion and consistent brisk cadence. Preserve real anatomy, the shoes and heel height. No foot sliding, skating, extra limbs, shoe deformation, slow motion, speed ramp, starting from rest, stopping or superhuman speed.\n\nThe long stationary graphite commuter train with cyan strips fills the background and extends beyond both edges throughout. Camera tracking makes windows pass at a moderate uniform rate. Never reveal the train's front or rear; she does not outrun it. Keep platform perspective, contact shadows and morning cyan/magenta reflections consistent with Image 1. No cuts, reframing to face or torso, captions, HUD, implants or new props.\n\nNative audio: synchronized brisk heel impacts and restrained station/train ambience. No speech, narration, singing or music.",
+  "observed_prompt_inner_text_after_reload": "Create a fresh five-second continuous photorealistic shot for AFTERHUMAN. Image 1 (shot-01-v03) defines the exact legs-only composition, station, train, lighting and direction. Image 2 (wardrobe-01-v01) defines Riley's clothing proportions; Image 3 (wardrobe-02-v01) defines the tights and shoes. These are still references, not a montage. Animate one continuous running shot.\n\n\n\n\nRiley is already running at full ordinary human pace on the first frame and sustains it through the last frame. Tight side-on tracking camera at shin height follows her LEFT TO RIGHT, maintaining the same crop and subject size. Only her lower black knee-length skirt, legs, sheer black tights and moderate black block heels are visible. Rapid short alternating strides, brief believable ground contacts, natural knee flexion and consistent brisk cadence. Preserve real anatomy, the shoes and heel height. No foot sliding, skating, extra limbs, shoe deformation, slow motion, speed ramp, starting from rest, stopping or superhuman speed.\n\n\n\n\nThe long stationary graphite commuter train with cyan strips fills the background and extends beyond both edges throughout. Camera tracking makes windows pass at a moderate uniform rate. Never reveal the train's front or rear; she does not outrun it. Keep platform perspective, contact shadows and morning cyan/magenta reflections consistent with Image 1. No cuts, reframing to face or torso, captions, HUD, implants or new props.\n\n\n\n\nNative audio: synchronized brisk heel impacts and restrained station/train ambience. No speech, narration, singing or music.",
+  "references": [
+    {
+      "image_number": 1,
+      "node_id": "node_7f758bff-56dd-451b-afb4-ae1be7b07019",
+      "path": "assets/06-shots/images/shot-01-v03.png",
+      "input_handle": "referenceImages"
+    },
+    {
+      "image_number": 2,
+      "node_id": "node_48c68563-24da-4fa3-b2a9-74c639fab8ac",
+      "path": "assets/02-wardrobe/images/wardrobe-01-v01.png",
+      "input_handle": "referenceImages"
+    },
+    {
+      "image_number": 3,
+      "node_id": "node_bea46550-6e3a-4989-9da2-2bd4590dd059",
+      "path": "assets/02-wardrobe/images/wardrobe-02-v01.png",
+      "input_handle": "referenceImages"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node_7f758bff-56dd-451b-afb4-ae1be7b07019-node_12d35076-667d-4357-9649-717d392b864b-referenceImages",
+      "label": "Edge from node_7f758bff-56dd-451b-afb4-ae1be7b07019 to node_12d35076-667d-4357-9649-717d392b864b"
+    },
+    {
+      "id": "edge-node_48c68563-24da-4fa3-b2a9-74c639fab8ac-node_12d35076-667d-4357-9649-717d392b864b-referenceImages",
+      "label": "Edge from node_48c68563-24da-4fa3-b2a9-74c639fab8ac to node_12d35076-667d-4357-9649-717d392b864b"
+    },
+    {
+      "id": "edge-node_bea46550-6e3a-4989-9da2-2bd4590dd059-node_12d35076-667d-4357-9649-717d392b864b-referenceImages",
+      "label": "Edge from node_bea46550-6e3a-4989-9da2-2bd4590dd059 to node_12d35076-667d-4357-9649-717d392b864b"
+    }
+  ],
+  "verification": {
+    "method": "Reloaded flow and inspected rendered browser UI",
+    "all_reference_previews_loaded": true,
+    "ordered_reference_thumbnails_match_prompt": true,
+    "output_placeholder": "Your generation will appear here",
+    "download_disabled": true,
+    "video_elements": 0,
+    "run_clicked": false
+  },
+  "notes": [
+    "Fresh motion from still references; no prior video, audio, start-frame or end-frame input.",
+    "Previously approved take selections and opening edit unchanged.",
+    "No estimate or generation submitted. Pricing should be checked before any later run."
+  ]
+}

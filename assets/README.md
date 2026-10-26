@@ -71,6 +71,11 @@ If one of these changes, update the affected prompt files before generation.
 
 ## Folder map
 
+Post-opening narration: [09-voiceover/README.md](09-voiceover/README.md) contains
+the user's existing ElevenLabs VO, its original-file provenance and cue-planning
+notes. The selected instant station reveal is described in
+[shot 05's brief](06-shots/video-prompts/shot-05-instant-upgrade-brief-v01.md).
+
 ```text
 assets/
   README.md

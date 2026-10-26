@@ -24,3 +24,25 @@ M4A mix files are retained for further audio editing.
 
 Exact commands to reproduce the edit in a new directory are in the
 [production script guide](../../../scripts/README.md).
+
+## Train-background cleanup draft v01
+
+User requested just train ambience across the opening, excluding heel clacks.
+The existing `shot-03-take-01-source.wav` is the full native soundtrack, not an
+isolated ambience stem. Sources and the earlier mix remain unchanged.
+
+Prepared local DSP candidates in `train-background-draft-v01/`:
+
+- `train-background-cleanup-draft-v01.wav`: source-length cleanup, 3.0608 seconds.
+- `train-background-bed-draft-v01.wav`: twelve-second bed with overlapping repeats.
+- `train-background-draft-v01.processing.json`: provenance, exact settings and checks.
+
+These are stereo 48 kHz, 24-bit PCM WAV files. A shared stereo spectral mask
+suppresses variable energy relative to a persistent-background estimate. This
+can reduce transient energy, but does not identify train, heel or breath sources
+semantically. Train details may also be affected. The bed repeats the cleaned
+source with 350 ms equal-power crossfades and short fades at its outer edges.
+
+Numerical checks pass with no clipped samples. **Listening review is pending;
+neither file is certified heel-free or selected for the edit.** No paid service,
+model call, source retiming or Final Cut timeline modification was performed.

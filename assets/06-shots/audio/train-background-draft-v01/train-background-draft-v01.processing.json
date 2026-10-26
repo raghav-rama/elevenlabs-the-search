@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-10-24T00:07:46+05:30",
+  "source": "assets/06-shots/audio/shot-03-take-01-source.wav",
+  "source_sha256": "e2942bf12bc761c35312598b20f6858b1cf4e5d709be39b55a2459dbd05db868",
+  "script": "scripts/prepare-train-ambience.py",
+  "numpy_version": "2.4.1",
+  "method": "Persistent spectral-energy estimate with shared stereo mask; source-phase reconstruction",
+  "settings": {
+    "nfft": 2048,
+    "hop": 256,
+    "noise_floor_quantile": 0.25,
+    "excess_penalty": 6,
+    "core_trim_each_end_seconds": 0.15,
+    "repeat_crossfade_seconds": 0.35,
+    "output_edge_fade_seconds": 0.04,
+    "gain": 1.0,
+    "source_retimed": false
+  },
+  "source_stats": {
+    "duration_seconds": 3.0608333333333335,
+    "sample_rate": 48000,
+    "channels": 2,
+    "rms_dbfs": -20.50675037986336,
+    "sample_peak_dbfs": -6.931975450057224,
+    "clipped_samples": 0
+  },
+  "outputs": [
+    {
+      "path": "assets/06-shots/audio/train-background-draft-v01/train-background-cleanup-draft-v01.wav",
+      "sha256": "3e841df28d0692c9ff97285ecfc759bc8ee1ed9ebf957746bdba7d7b65e4f29f",
+      "duration_seconds": 3.0608333333333335,
+      "sample_rate": 48000,
+      "channels": 2,
+      "rms_dbfs": -29.646075599896502,
+      "sample_peak_dbfs": -17.44380678442557,
+      "clipped_samples": 0
+    },
+    {
+      "path": "assets/06-shots/audio/train-background-draft-v01/train-background-bed-draft-v01.wav",
+      "sha256": "f53ec3d4d6bb34966f7eebc6b5625de287de9fbb35334a4665731122c81ce755",
+      "duration_seconds": 12.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "rms_dbfs": -29.392328923293327,
+      "sample_peak_dbfs": -17.44380678442557,
+      "clipped_samples": 0
+    }
+  ],
+  "review_status": "draft_pending_listening_not_selected",
+  "limitations": [
+    "No semantic train/heel/breath source separation.",
+    "Transient suppression can affect train detail and leave residual heel/breath sounds.",
+    "No claim that the draft is heel-free; numerical checks are not listening approval.",
+    "Long bed repeats cleaned source with overlaps; it is not new generated ambience."
+  ],
+  "provider_calls": 0
+}

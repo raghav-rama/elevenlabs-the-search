@@ -44,6 +44,28 @@ including breathing and incidental sounds; it does not isolate a train stem.
 AAC peaks can differ slightly from the PCM ceiling. Listening review is separate
 from sample-level verification. See [audio notes](../assets/06-shots/audio/README.md).
 
+## Prepare a train-background cleanup draft
+
+`prepare-train-ambience.py` requires Python with NumPy. It estimates persistent
+spectral energy in the full shot-three soundtrack and suppresses variable energy
+with a common stereo mask. This is a local DSP draft, not semantic source
+separation or proof that heels and breathing have been removed. It also writes
+a twelve-second bed using equal-power overlaps of the cleaned source, without
+retiming. Both outputs are stereo 48 kHz, 24-bit PCM WAV; sources are unchanged.
+
+Actual interpreter used: `/Users/ritz/miniconda3/envs/bio-lit-api-cleaned/bin/python`.
+Reproduce with a Python environment containing NumPy and a new output directory:
+
+```sh
+ambience_dir=$(mktemp -d /private/tmp/afterhuman-ambience.XXXXXX)
+python scripts/prepare-train-ambience.py \
+  assets/06-shots/audio/shot-03-take-01-source.wav "$ambience_dir" --seconds 12
+```
+
+The processing JSON records settings, checksums, audio measurements and pending
+listening status. Transient suppression may also affect train detail; do not
+label the output an approved isolated ambience stem without listening review.
+
 ## Prepare the running reference
 
 ```sh

@@ -1,0 +1,76 @@
+{
+  "shot": "shot-02",
+  "flow_url": "https://elevenlabs.io/app/flows/WMA2fD5AAdvaadniUgP2",
+  "flow_name": "AFTERHUMAN — Shot 02 — Bouncing badge (UNRUN)",
+  "status": "configured_not_run",
+  "created_via": "Playwright MCP browser UI",
+  "generator_node_id": "node_b631d4fb-4f70-446f-9fb1-5805680ebef3",
+  "model_display_name": "Seedance 2.5",
+  "settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "1080p",
+    "duration_seconds": 5,
+    "generate_audio": true
+  },
+  "prompt_file": "assets/06-shots/video-prompts/shot-02-elevenlabs-seedance-flow-v01.md",
+  "prompt": "Create a fresh five-second continuous photorealistic shot for AFTERHUMAN. Image 3 (shot-02-v02) defines the exact extreme close-up composition, shirt, badge and lighting. Image 1 (badge-02-v01) is the exact flat badge artwork. Image 4 (riley-01-v01) supplies identity for the small PRINTED employee portrait only. Image 2 (badge-04-v01) defines the physical clear rigid badge holder, metal swivel and burgundy lanyard construction. These are still references, not a montage.\n\nRiley is already running briskly on the first frame and continues at constant ordinary human pace. The camera follows her torso while the badge fills about 80 percent of frame height. The rigid rectangular badge bounces rapidly with small natural twists, inertia lag and light taps against her white shirt. The connected metal swivel and burgundy strap visibly carry its weight. Plausible motion only: no detached clip, floating holder, full spinning, duplicated badge or bending plastic.\n\nPreserve the exact static printed artwork: KORVEX, Riley Brooks, EMPLOYEE, with the same layout and portrait. The printed face remains a motionless photograph, never a live animated face. Keep lettering sharp and stable rather than morphing. Reflections move over the transparent plastic naturally without replacing the print. Preserve the burgundy lanyard and morning cyan/magenta station reflections.\n\nMaintain this extreme close-up throughout; no live face, waist, hands or bag enter frame. No cuts, slow motion, speed ramps, captions, HUD or implants.\n\nNative audio: restrained train/station rumble, small plastic taps and fabric rustle. No spoken words, reading the badge, narration, singing or music.",
+  "observed_prompt_inner_text_after_reload": "Create a fresh five-second continuous photorealistic shot for AFTERHUMAN. Image 3 (shot-02-v02) defines the exact extreme close-up composition, shirt, badge and lighting. Image 1 (badge-02-v01) is the exact flat badge artwork. Image 4 (riley-01-v01) supplies identity for the small PRINTED employee portrait only. Image 2 (badge-04-v01) defines the physical clear rigid badge holder, metal swivel and burgundy lanyard construction. These are still references, not a montage.\n\n\n\n\nRiley is already running briskly on the first frame and continues at constant ordinary human pace. The camera follows her torso while the badge fills about 80 percent of frame height. The rigid rectangular badge bounces rapidly with small natural twists, inertia lag and light taps against her white shirt. The connected metal swivel and burgundy strap visibly carry its weight. Plausible motion only: no detached clip, floating holder, full spinning, duplicated badge or bending plastic.\n\n\n\n\nPreserve the exact static printed artwork: KORVEX, Riley Brooks, EMPLOYEE, with the same layout and portrait. The printed face remains a motionless photograph, never a live animated face. Keep lettering sharp and stable rather than morphing. Reflections move over the transparent plastic naturally without replacing the print. Preserve the burgundy lanyard and morning cyan/magenta station reflections.\n\n\n\n\nMaintain this extreme close-up throughout; no live face, waist, hands or bag enter frame. No cuts, slow motion, speed ramps, captions, HUD or implants.\n\n\n\n\nNative audio: restrained train/station rumble, small plastic taps and fabric rustle. No spoken words, reading the badge, narration, singing or music.",
+  "references": [
+    {
+      "image_number": 1,
+      "node_id": "node_101446a9-d8ff-48f6-b26a-3e50690af503",
+      "path": "assets/03-badge/images/badge-02-v01.png",
+      "input_handle": "referenceImages"
+    },
+    {
+      "image_number": 2,
+      "node_id": "node_1e73f0cb-1601-4e77-96ce-a35ed0e84c9b",
+      "path": "assets/03-badge/images/badge-04-v01.png",
+      "input_handle": "referenceImages"
+    },
+    {
+      "image_number": 3,
+      "node_id": "node_b4bdca33-78f7-4f11-a999-9629cd714cb6",
+      "path": "assets/06-shots/images/shot-02-v02.png",
+      "input_handle": "referenceImages"
+    },
+    {
+      "image_number": 4,
+      "node_id": "node_d6ebd78f-5b87-4c72-8394-3220cc06df37",
+      "path": "assets/01-riley/images/riley-01-v01.png",
+      "input_handle": "referenceImages"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node_101446a9-d8ff-48f6-b26a-3e50690af503-node_b631d4fb-4f70-446f-9fb1-5805680ebef3-referenceImages",
+      "label": "Edge from node_101446a9-d8ff-48f6-b26a-3e50690af503 to node_b631d4fb-4f70-446f-9fb1-5805680ebef3"
+    },
+    {
+      "id": "edge-node_1e73f0cb-1601-4e77-96ce-a35ed0e84c9b-node_b631d4fb-4f70-446f-9fb1-5805680ebef3-referenceImages",
+      "label": "Edge from node_1e73f0cb-1601-4e77-96ce-a35ed0e84c9b to node_b631d4fb-4f70-446f-9fb1-5805680ebef3"
+    },
+    {
+      "id": "edge-node_b4bdca33-78f7-4f11-a999-9629cd714cb6-node_b631d4fb-4f70-446f-9fb1-5805680ebef3-referenceImages",
+      "label": "Edge from node_b4bdca33-78f7-4f11-a999-9629cd714cb6 to node_b631d4fb-4f70-446f-9fb1-5805680ebef3"
+    },
+    {
+      "id": "edge-node_d6ebd78f-5b87-4c72-8394-3220cc06df37-node_b631d4fb-4f70-446f-9fb1-5805680ebef3-referenceImages",
+      "label": "Edge from node_d6ebd78f-5b87-4c72-8394-3220cc06df37 to node_b631d4fb-4f70-446f-9fb1-5805680ebef3"
+    }
+  ],
+  "verification": {
+    "method": "Reloaded flow and inspected rendered browser UI",
+    "all_reference_previews_loaded": true,
+    "ordered_reference_thumbnails_match_prompt": true,
+    "output_placeholder": "Your generation will appear here",
+    "download_disabled": true,
+    "video_elements": 0,
+    "run_clicked": false
+  },
+  "notes": [
+    "Fresh motion from still references; no prior video, audio, start-frame or end-frame input.",
+    "Previously approved take selections and opening edit unchanged.",
+    "No estimate or generation submitted. Pricing should be checked before any later run."
+  ]
+}

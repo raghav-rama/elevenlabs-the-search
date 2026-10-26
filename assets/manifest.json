@@ -981,5 +981,13 @@
     "quick_prototypes": "MiniMax",
     "decided_at": "2026-10-23T22:59:01+05:30",
     "basis": "Explicit user direction; existing approved shots remain selected unless separately replaced."
+  },
+  "voiceover": {
+    "asset_id": "afterhuman-vo-v01",
+    "path": "assets/09-voiceover/afterhuman-vo-v01.mp3",
+    "record_path": "assets/09-voiceover/afterhuman-vo-v01.provenance.json",
+    "estimated_duration_seconds": 5.564082,
+    "status": "user_supplied_for_edit",
+    "review_status": "pending_assistant_listening_and_phrase_timing"
   }
 }

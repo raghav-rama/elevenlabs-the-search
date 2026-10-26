@@ -1,0 +1,29 @@
+{
+  "asset_id": "afterhuman-vo-v01",
+  "imported_at": "2026-10-26T11:40:30+05:30",
+  "path": "assets/09-voiceover/afterhuman-vo-v01.mp3",
+  "original_filename": "ElevenLabs_2026-10-23T15_49_03__s50_v4.mp3",
+  "original_path": "ElevenLabs_2026-10-23T15_49_03__s50_v4.mp3",
+  "source": "User-generated ElevenLabs voiceover supplied by local path",
+  "operation": "Moved and renamed, byte-identical; no re-encoding or retiming",
+  "sha256": "53871b600356ce16cc4deabcb4f0fe855243f71edc7dd47d3da069d82a8ad95d",
+  "size_bytes": 106379,
+  "media_probe": {
+    "tool": "macOS afinfo",
+    "format": "MP3",
+    "channels": 1,
+    "sample_rate_hz": 44100,
+    "estimated_duration_seconds": 5.564082,
+    "bitrate_bits_per_second": 127999
+  },
+  "intended_copy": "Missed your train? Still running on flesh and blood? So UPGRADE!",
+  "intended_copy_is_transcript": false,
+  "provider_model": null,
+  "provider_voice_id": null,
+  "provider_request_id": null,
+  "provider_settings": null,
+  "status": "user_supplied_for_edit",
+  "listening_review": "Not performed by assistant; wording, performance and exact phrase boundaries not independently verified",
+  "cue_alignment": "Pending waveform/listening review; match cut planned on UPGRADE",
+  "new_provider_calls": 0
+}

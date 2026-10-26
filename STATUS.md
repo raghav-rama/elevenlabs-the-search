@@ -791,3 +791,81 @@ as present or silently substitute another source.
 - Verified signed production commit `3251c8f`, Codex co-author trailer, committed whitespace and clean worktree. Successfully pushed `main` to the existing private origin (`b571f59` → `3251c8f`).
 - The approved original Seedance shot, selected-take manifest, production/prototype model decision, prompt/provenance and review artifacts are published. This completion record follows in a signed documentation commit to the same remote.
 - Remaining edit work: integrate the chosen trim into the preserved opening and review audio continuity; production shot selection is finalized. No additional generation.
+
+## 2026-10-23T23:15:53+05:30 — Opening shots one to three configured in Flows, unrun
+
+- User requested similar flows for the other shots using Playwright MCP, explicitly forbidding execution. Created separate flows for the remaining opening shots: [Shot 01 — Running legs](https://elevenlabs.io/app/flows/W5GJuVaTpCVOJDDORvle), [Shot 02 — Bouncing badge](https://elevenlabs.io/app/flows/WMA2fD5AAdvaadniUgP2), and [Shot 03 — Chin fisheye](https://elevenlabs.io/app/flows/q6CJNtZoqZuJHsvnO6Od). Each is named UNRUN.
+- Matched the selected production shot-four settings: Seedance 2.5, 1080p, 16:9, five seconds, native audio enabled. Adapted the existing shot definitions for continuous fresh motion from still references. No old video, audio, start-frame or end-frame inputs.
+- Shot one connects the approved shot still, wardrobe turnaround and shoe/tights reference. Shot two connects badge artwork, badge hardware, approved shot still and canonical portrait; the prompt explicitly limits the portrait to printed identity. Shot three connects its approved still, canonical portrait and wardrobe turnaround. All ten reference connections were checked, with prompt Image numbers matching the actual thumbnail order.
+- Initial shot-three uploads reverted to empty nodes; reimported into those same nodes and waited for completed uploads. Recovered two initially missing shot-two connections and corrected prompt numbering. Reloaded each flow and verified loaded image previews, complete prompt wording, model/settings, empty generation placeholder, disabled output download and no video output. No Run or Run from here action clicked; no generation or estimate submitted.
+- Saved exact authored prompts and browser-observed setup/provenance in `assets/06-shots/video-prompts/shot-0{1,2,3}-elevenlabs-seedance-flow-v01.md` and `assets/06-shots/videos/shot-0{1,2,3}-elevenlabs-seedance-flow-v01.setup.json`. UI-rendered prompt whitespace is separately recorded. Existing approved videos, selected-take manifest, shot-four flow and opening edit remain unchanged. No commit or push requested for this setup task.
+- Next step: user review and explicit execution when desired; check the current price before running. These are prepared flows, not generated or approved replacement takes.
+
+## 2026-10-23T23:18:24+05:30 — Recorded badge motion added to shot-two flow
+
+- User corrected the still-only setup and explicitly requested `assets/references/prepared-badge/badge-motion-3s-v01.mp4`. Imported that exact file into the existing [shot-two flow](https://elevenlabs.io/app/flows/WMA2fD5AAdvaadniUgP2) using Playwright MCP and connected video node `node_8555bedb-84e4-40a2-9567-ba4e1b165c75` to the generator's `referenceVideos` input. Existing four still references remain connected.
+- Verified source SHA-256 against its preparation record. Three-second, silent, 1280×720 source was uploaded unchanged. Reviewed its existing contact sheet and preparation notes: v01 historically clipped the holder near 2.3 seconds. The latest explicit path selection was followed; no silent substitution with v02/v03 or retiming. Historical rejection remains preserved.
+- Updated prompt to follow Video 1's bounce, twists, perspective changes and timing at supplied speed, continue naturally through five seconds, and use the stills for Riley's appearance, printed badge and framing. Explicitly excludes copying the blue shirt, blank card, beige holder, room or tight bottom crop. Full holder visibility is requested, not claimed as a generated result.
+- Reload verification confirms the video preview and fifth edge persist, four image-reference positions are unchanged, the full revised prompt is saved, and the output remains empty with download disabled. Seedance 2.5, 1080p, five seconds and native audio remain set. Connecting the video automatically switched the aspect-ratio control to disabled Auto; source and prompt are 16:9. Browser preview metadata is approximately 3.033 seconds at 852×480, not a claim about original-upload resolution.
+- Saved revised prompt/setup as `shot-02-elevenlabs-seedance-flow-v02` in the established video-prompts and videos directories; v01 stays as historical still-only setup. No Run action, generation, estimate, commit or push. Existing footage and selected takes unchanged.
+
+## 2026-10-23T23:35:23+05:30 — Final Cut Pro editing recommendation refreshed
+
+- User asks whether to use Final Cut Pro for the ad. Recommend it as the main editor for shot trims, VO/jingle timing, color matching, sound mixing and final export; Motion is optional for custom HUD and spiral/end-card graphics. This is advice, not a newly approved editing decision.
+- Rechecked installed application metadata: Final Cut Pro 11.0.1, Motion 5.9 and Logic Pro 11.1.2 are present in /Applications. Apps were not launched or license-tested. Checked current Apple product documentation at https://www.apple.com/final-cut-pro/ for general editing, audio, effects and color capabilities; do not assume all features of the latest release exist in these installed versions.
+- Suggested first editing milestone: rebuild the approved eight-second opening from source clips, incorporate the selected Seedance shot-four trim, and place the generated VO before timing the montage and jingle. No project created, media edited, flow run, purchase, commit or push.
+
+## 2026-10-23T23:49:34+05:30 — Final Cut opening assembly and audio-continuity guidance
+
+- User opened Final Cut Pro and supplied a screenshot of a 1080p/24p project containing legs, badge, chin and selected Seedance door footage, with attached audio waveforms. Screenshot shows shot-02-take-04 in the timeline; this is evidence of current use, not explicit replacement-take approval. No manifest change.
+- Recommended a continuous station ambience layer, a consistent running-footstep rhythm through the first three views and into the stop, breathing that bridges the chin/door cut, localized badge and door effects, short audio-only crossfades, and ambience reduction under the VO. Treat suggested fade durations as starting points requiring listening.
+- Checked Apple's documentation for Expand Audio (Control-S), Crossfade (Option-T), manual fade handles and range-based volume keyframes. Suggested preserving picture timing if a crossfade lacks source handles. No claim of listening review from the screenshot, and no exact EQ or loudness diagnosis.
+- Existing opening audio README confirms the earlier train mix contains breathing/incidental sounds; opening-v03.mix.wav is an older eight-second mix, not a clean station-ambience source or verified fit for the current edit. No timeline mutation, new audio generation, commit or push.
+
+## 2026-10-23T23:55:09+05:30 — Expanded-audio screenshot reviewed; overlap explained
+
+- User supplied a closer timeline screenshot and requested clarification of independent audio overlaps. Visible: four picture clips, expanded audio on alternating rows, small overlaps and fade ramps at the joins. This confirms layout only, not audible continuity.
+- Explained using chin-to-door cut: extend only the outgoing audio right edge approximately six frames (0.25 seconds at 24 fps), retain picture and clip sync, and fade that tail down while the incoming audio fades up through the same overlap. Additional source audio is needed; resizing an audio edge differs from moving the whole waveform or dragging a fade handle. Review for doubled breaths/footfalls and preserve the door transient.
+- Screenshot project duration reads 09:08 versus 09:10 in the first screenshot, a two-frame reduction if the displayed values remain total duration at 24 fps. Cause is unverified; flag for checking unintended picture changes. No direct application edit, media generation, commit or push.
+
+## 2026-10-24T00:00:17+05:30 — Reusing shot-one heel audio under the badge shot
+
+- User identifies heel sounds in shot one and requests instructions to duplicate them under shot two. Explained source-browser audio-only insertion: reveal shot one with Shift-F, choose Audio Only with Shift-3, drag the source range beneath shot two, trim and align the copy, then restore All mode with Shift-1. Existing shot-one audio remains attached.
+- Checked Apple's source-reveal and audio-only editing documentation. Recommended adjusting the copied clip's timing to maintain the heel rhythm and balancing shot-two audio to avoid duplicated impacts. Copying the soundtrack includes its background sounds, not isolated heel stems. Guidance only; no direct timeline edit, generation, commit or push.
+
+## 2026-10-24T00:08:38+05:30 — Train-background cleanup draft prepared for listening
+
+- User requests shot-three train ambience across all shots and clarifies that heel clacks must be excluded. Confirmed the earlier WAV is the complete native soundtrack, not an isolated train stem.
+- Prepared local DSP candidates with `scripts/prepare-train-ambience.py`: source-length cleanup and a twelve-second stereo bed in `assets/06-shots/audio/train-background-draft-v01/`. Uses persistent spectral-energy estimation, shared stereo masking and overlapping repeats; no source retiming, provider call or spend. Exact settings and provenance are in the processing JSON.
+- This method does not semantically isolate train sounds and may retain heel/breath residue or alter train detail. Listening was not performed; files are drafts pending listening, not certified heel-free or selected for production. No new claim that the user's ambience-only target is fully achieved.
+- Verified original source checksum unchanged, output checksums and valid stereo 48 kHz/24-bit PCM WAV metadata, exact output durations of 3.0608 and 12 seconds, and zero clipped samples. Twelve-second bed measures RMS -29.39 dBFS and sample peak -17.44 dBFS. Numerical checks do not establish perceptual quality.
+- Updated audio notes and scripts documentation with reproduction instructions. Existing media and Final Cut timeline untouched; no commit or push. Next step is listening to the draft for residual clacks, breathing and repeated-pattern artifacts before use.
+
+## 2026-10-24T00:18:16+05:30 — Native Final Cut control availability checked
+
+- User asks whether this session can control Final Cut Pro. Available browser automation is Playwright; no dedicated desktop-control tool was found. macOS osascript and Final Cut's ProEditor.sdef are present.
+- Read-only accessibility check via JXA/ApplicationServices AXIsProcessTrusted returned false for the current automation process. The installed Final Cut scripting dictionary declares only a get command and mainly read-only library/project/sequence properties; it does not establish timeline-editing control. No application focus, click, keystroke, permission change or timeline mutation was attempted.
+- Direct UI control is unverified and unavailable through the current permission state. Local media preparation and file-based interchange remain possible. Enabling Accessibility might permit UI automation, but requires a separate harmless verification before promising reliable editing.
+
+## 2026-10-26T11:38:43+05:30 — Opening ready in Final Cut; instant station upgrade reveal selected
+
+- User reports the shot/opening is ready in Final Cut Pro and asks to proceed. Treat this as readiness to advance, not independent playback/audio verification or a claim that a current export is archived. Existing manifests and accepted files are unchanged.
+- User explicitly selects an instant reveal at the station: match cut from breathless Riley to composed upgraded Riley, followed by eye HUD activation. This chooses the reveal approach; no implant-installation insert is needed for this transition.
+- Prepared `assets/06-shots/video-prompts/shot-05-instant-upgrade-brief-v01.md` with the approved direction, cue-based proposed execution, continuity references and remaining inputs. Keep the exact “Missed your train? Still running on flesh and blood? So UPGRADE!” VO. Proposed execution uses existing reaction under the questions, a distinct “So,” hard match cut on “UPGRADE,” then the eye/HUD beat. Exact timing, detailed HUD graphics and final jingle remain open.
+- Asked for the path to the user's already-generated VO. Targeted search of project audio and ElevenLabs/voice/AFTERHUMAN-named audio in Downloads found no matching narration file; this is not proof the recording is absent elsewhere. The latest Final Cut ending frame/duration also remains unavailable for precise match framing.
+- Next: mark phrase timing from the existing VO, use the current cut's ending composition for upgraded Riley, then prepare the HUD/intelligence beat. No generation, provider spend, new Flow creation, timeline mutation, commit or push.
+
+## 2026-10-26T11:41:17+05:30 — Existing ElevenLabs voiceover moved into production assets
+
+- User supplied the root-level `ElevenLabs_2026-10-23T15_49_03__s50_v4.mp3` and requested placing it appropriately. Moved and renamed it to `assets/09-voiceover/afterhuman-vo-v01.mp3`; source and destination SHA-256 match (`53871b600356ce16cc4deabcb4f0fe855243f71edc7dd47d3da069d82a8ad95d`). No re-encoding or retiming; original export filename/path preserved in provenance.
+- macOS afinfo reports approximately 5.564082 seconds, mono, 44.1 kHz MP3 at approximately 128 kbps. This is duration/format evidence, not a verified transcript or word-level timing. Voice/model/provider request IDs are unknown; do not infer them from the filename.
+- Added the narration README and provenance record, registered it in the asset manifest, linked it from the asset index, and updated the instant-upgrade brief to use this file. Verified JSON, linked paths, byte identity, completed move and whitespace checks.
+- Exact “So”/“UPGRADE” cue positions still need listening/waveform alignment; current Final Cut ending frame is also needed for precise visual match. User-selected instant station reveal remains the next beat, followed by eye HUD activation. No replacement VO, generation, provider spend, Final Cut edit, commit or push.
+
+## 2026-10-26T11:59:08+05:30 — Reveal direction accepted; full production batch checked for publication
+
+- User likes the instant-reveal direction and explicitly requests committing everything and pushing. Recorded approval in the shot-five brief while retaining open exact timing, HUD design and jingle selection.
+- Reviewed all 21 pending files (approximately 4.43 MiB): shot-one/two/three Flows prompts and setup histories, corrected badge motion reference, instant-reveal brief, original VO/provenance, ambience cleanup drafts/recipe, asset manifest, documentation and ledger. Existing accepted footage remains selected; the ambience files remain pending listening.
+- Seven JSON files parse; reference and prompt paths resolve; VO and ambience/source checksums match; script syntax and WAV format checks pass. Re-ran the ambience recipe into a temporary directory and reproduced both WAVs byte-for-byte. All files are below 100 MiB.
+- Credential scan found only an old ledger sentence naming a workspace-token pattern, not a credential; reviewed that match and checked for actual key/token assignments. No secret or signed-upload-URL content identified. Staged whitespace validation follows before commit.
+- Refreshed origin/main and confirmed the existing destination `raghav-rama/elevenlabs-the-search` is private with ADMIN access. Preparing a signed commit with the required Codex co-author trailer, followed by push to main. No new provider generation or Final Cut mutation.

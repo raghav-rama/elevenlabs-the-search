@@ -1,0 +1,109 @@
+{
+  "shot": "shot-02",
+  "flow_url": "https://elevenlabs.io/app/flows/WMA2fD5AAdvaadniUgP2",
+  "flow_name": "AFTERHUMAN — Shot 02 — Bouncing badge (UNRUN)",
+  "status": "configured_not_run",
+  "created_via": "Playwright MCP browser UI",
+  "generator_node_id": "node_b631d4fb-4f70-446f-9fb1-5805680ebef3",
+  "model_display_name": "Seedance 2.5",
+  "settings": {
+    "aspect_ratio": "Auto (disabled by UI with reference video)",
+    "resolution": "1080p",
+    "duration_seconds": 5,
+    "generate_audio": true,
+    "intended_aspect_ratio": "16:9"
+  },
+  "prompt_file": "assets/06-shots/video-prompts/shot-02-elevenlabs-seedance-flow-v02.md",
+  "prompt": "Create a fresh five-second continuous photorealistic shot for AFTERHUMAN. Image 3 (shot-02-v02) defines the exact extreme close-up composition, shirt, badge and lighting. Image 1 (badge-02-v01) is the exact flat badge artwork. Image 4 (riley-01-v01) supplies identity for the small PRINTED employee portrait only. Image 2 (badge-04-v01) defines the physical clear rigid badge holder, metal swivel and burgundy lanyard construction. Generate one continuous 16:9 shot, not a montage.\n\nVideo 1 (badge-motion-3s-v01.mp4) is the user's three-second recorded MOTION reference. Follow its real-time vertical bounce, small twists, perspective changes, pendulum motion, inertial lag and strap-to-holder timing. Use its motion at the supplied playback speed; do not stretch three seconds into five or slow it down. Continue that same natural movement seamlessly through the full five-second output, without a loop jump, freeze or restart. Transfer motion only: do not copy the recording's blue shirt, blank card, beige holder, room, body proportions or tight bottom-edge crop. The four still images above control Riley's appearance, badge hardware, print, framing and station lighting. Keep the complete holder visible with a little bottom margin throughout.\n\nRiley is already running briskly on the first frame and continues at constant ordinary human pace. The camera follows her torso while the badge fills about 80 percent of frame height. The rigid rectangular badge follows Video 1's bounce and small twists, with natural inertia lag and light taps against her white shirt. The connected metal swivel and burgundy strap visibly carry its weight. Plausible motion only: no detached clip, floating holder, full spinning, duplicated badge or bending plastic.\n\nPreserve the exact static printed artwork: KORVEX, Riley Brooks, EMPLOYEE, with the same layout and portrait. The printed face remains a motionless photograph, never a live animated face. Keep lettering sharp and stable rather than morphing. Reflections move over the transparent plastic naturally without replacing the print. Preserve the burgundy lanyard and morning cyan/magenta station reflections.\n\nMaintain this extreme close-up throughout; no live face, waist, hands or bag enter frame. No cuts, slow motion, speed ramps, captions, HUD or implants.\n\nNative audio: restrained train/station rumble, small plastic taps and fabric rustle. No spoken words, reading the badge, narration, singing or music.",
+  "observed_prompt_inner_text_after_reload": "Create a fresh five-second continuous photorealistic shot for AFTERHUMAN. Image 3 (shot-02-v02) defines the exact extreme close-up composition, shirt, badge and lighting. Image 1 (badge-02-v01) is the exact flat badge artwork. Image 4 (riley-01-v01) supplies identity for the small PRINTED employee portrait only. Image 2 (badge-04-v01) defines the physical clear rigid badge holder, metal swivel and burgundy lanyard construction. Generate one continuous 16:9 shot, not a montage.\n\n\n\n\nVideo 1 (badge-motion-3s-v01.mp4) is the user's three-second recorded MOTION reference. Follow its real-time vertical bounce, small twists, perspective changes, pendulum motion, inertial lag and strap-to-holder timing. Use its motion at the supplied playback speed; do not stretch three seconds into five or slow it down. Continue that same natural movement seamlessly through the full five-second output, without a loop jump, freeze or restart. Transfer motion only: do not copy the recording's blue shirt, blank card, beige holder, room, body proportions or tight bottom-edge crop. The four still images above control Riley's appearance, badge hardware, print, framing and station lighting. Keep the complete holder visible with a little bottom margin throughout.\n\n\n\n\nRiley is already running briskly on the first frame and continues at constant ordinary human pace. The camera follows her torso while the badge fills about 80 percent of frame height. The rigid rectangular badge follows Video 1's bounce and small twists, with natural inertia lag and light taps against her white shirt. The connected metal swivel and burgundy strap visibly carry its weight. Plausible motion only: no detached clip, floating holder, full spinning, duplicated badge or bending plastic.\n\n\n\n\nPreserve the exact static printed artwork: KORVEX, Riley Brooks, EMPLOYEE, with the same layout and portrait. The printed face remains a motionless photograph, never a live animated face. Keep lettering sharp and stable rather than morphing. Reflections move over the transparent plastic naturally without replacing the print. Preserve the burgundy lanyard and morning cyan/magenta station reflections.\n\n\n\n\nMaintain this extreme close-up throughout; no live face, waist, hands or bag enter frame. No cuts, slow motion, speed ramps, captions, HUD or implants.\n\n\n\n\nNative audio: restrained train/station rumble, small plastic taps and fabric rustle. No spoken words, reading the badge, narration, singing or music.",
+  "references": [
+    {
+      "image_number": 1,
+      "node_id": "node_101446a9-d8ff-48f6-b26a-3e50690af503",
+      "path": "assets/03-badge/images/badge-02-v01.png",
+      "input_handle": "referenceImages"
+    },
+    {
+      "image_number": 2,
+      "node_id": "node_1e73f0cb-1601-4e77-96ce-a35ed0e84c9b",
+      "path": "assets/03-badge/images/badge-04-v01.png",
+      "input_handle": "referenceImages"
+    },
+    {
+      "image_number": 3,
+      "node_id": "node_b4bdca33-78f7-4f11-a999-9629cd714cb6",
+      "path": "assets/06-shots/images/shot-02-v02.png",
+      "input_handle": "referenceImages"
+    },
+    {
+      "image_number": 4,
+      "node_id": "node_d6ebd78f-5b87-4c72-8394-3220cc06df37",
+      "path": "assets/01-riley/images/riley-01-v01.png",
+      "input_handle": "referenceImages"
+    },
+    {
+      "video_number": 1,
+      "node_id": "node_8555bedb-84e4-40a2-9567-ba4e1b165c75",
+      "path": "assets/references/prepared-badge/badge-motion-3s-v01.mp4",
+      "input_handle": "referenceVideos",
+      "role": "motion_only",
+      "sha256": "138222c8b2ef97e2bb0fddba1e560e7d7c74e07331854207256e45c075230398",
+      "source_duration_seconds": 3,
+      "source_resolution": [
+        1280,
+        720
+      ],
+      "source_audio_tracks": 0,
+      "source_preparation_record": "assets/references/prepared-badge/badge-motion-3s-v01.preparation.json",
+      "version_selection": "Exact path explicitly requested by user; historical v01 crop rejection retained in preparation record."
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node_101446a9-d8ff-48f6-b26a-3e50690af503-node_b631d4fb-4f70-446f-9fb1-5805680ebef3-referenceImages",
+      "label": "Edge from node_101446a9-d8ff-48f6-b26a-3e50690af503 to node_b631d4fb-4f70-446f-9fb1-5805680ebef3"
+    },
+    {
+      "id": "edge-node_1e73f0cb-1601-4e77-96ce-a35ed0e84c9b-node_b631d4fb-4f70-446f-9fb1-5805680ebef3-referenceImages",
+      "label": "Edge from node_1e73f0cb-1601-4e77-96ce-a35ed0e84c9b to node_b631d4fb-4f70-446f-9fb1-5805680ebef3"
+    },
+    {
+      "id": "edge-node_b4bdca33-78f7-4f11-a999-9629cd714cb6-node_b631d4fb-4f70-446f-9fb1-5805680ebef3-referenceImages",
+      "label": "Edge from node_b4bdca33-78f7-4f11-a999-9629cd714cb6 to node_b631d4fb-4f70-446f-9fb1-5805680ebef3"
+    },
+    {
+      "id": "edge-node_d6ebd78f-5b87-4c72-8394-3220cc06df37-node_b631d4fb-4f70-446f-9fb1-5805680ebef3-referenceImages",
+      "label": "Edge from node_d6ebd78f-5b87-4c72-8394-3220cc06df37 to node_b631d4fb-4f70-446f-9fb1-5805680ebef3"
+    },
+    {
+      "id": "edge-node_8555bedb-84e4-40a2-9567-ba4e1b165c75-node_b631d4fb-4f70-446f-9fb1-5805680ebef3-referenceVideos",
+      "label": "Edge from node_8555bedb-84e4-40a2-9567-ba4e1b165c75 to node_b631d4fb-4f70-446f-9fb1-5805680ebef3"
+    }
+  ],
+  "verification": {
+    "method": "Reloaded flow and inspected rendered browser UI",
+    "all_reference_previews_loaded": true,
+    "ordered_image_reference_thumbnails_match_prompt": true,
+    "video_reference_edge_persisted": true,
+    "reference_video_preview": {
+      "duration": 3.033333,
+      "width": 852,
+      "height": 480,
+      "ready": 4
+    },
+    "output_placeholder": "Your generation will appear here",
+    "download_disabled": true,
+    "run_clicked": false
+  },
+  "notes": [
+    "User correction adds their recorded badge motion to the existing four appearance references.",
+    "Source imported unchanged, no speed adjustment. Prompt extends the motion through five seconds without slowing the three-second reference.",
+    "The v01 crop clips the holder near 2.3 seconds; prompt retains the still-image composition and requests full holder visibility. This does not claim the historical crop issue is fixed.",
+    "Connecting a video automatically changed the UI aspect ratio to disabled Auto. Source is 16:9 and prompt requests 16:9; final output ratio is not verified because flow remains unrun.",
+    "Browser preview after reload is 852x480 and about 3.033 seconds; these are preview metadata, not verified original-upload transcode settings.",
+    "No generation or estimate submitted. Prior approved take selections and opening edit unchanged."
+  ],
+  "revision": 2,
+  "updated_at": "2026-10-23T23:18:24+05:30",
+  "supersedes": "assets/06-shots/videos/shot-02-elevenlabs-seedance-flow-v01.setup.json"
+}
