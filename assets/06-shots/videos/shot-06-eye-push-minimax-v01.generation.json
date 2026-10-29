@@ -1,0 +1,83 @@
+{
+  "asset_id": "shot-06-eye-push-minimax-v01",
+  "status": "completed_sampled_review_pending_user",
+  "provider": "ElevenLabs",
+  "model_id": "minimax-h3",
+  "model_parameters": {
+    "start_frame": {
+      "template_node_id": "aHn7u1oG34NgRnQKZIQT"
+    },
+    "end_frame": {
+      "template_node_id": "OSMcJK5qm94UdtL9np0d"
+    },
+    "resolution": "768p",
+    "duration_secs": 5,
+    "enhance_prompt": true
+  },
+  "prompt": "Five-second continuous photorealistic live-action camera push-in, continuing directly from the supplied START frame of already-upgraded Riley at the station. The END frame defines the exact final eye framing and identity details. She has already finished transforming and examining her hands. Preserve her face, brunette bob, cyan eye and facial hardware on viewer RIGHT, brown eye viewer LEFT, mechanical neck, gold wrap dress and human skin with thin chrome inlays. No second transformation and no reset to office clothes.\n\n[0.00 to 1.40 seconds] Riley lifts her gaze directly toward the lens and gives a clearly readable small confident, mischievous SMIRK: one corner of her closed mouth rises, a slight eyebrow lift, a knowing look as she realizes what she can do. Not a broad smile, laugh or dialogue. Begin moving the camera toward her while her mouth is still visible so the smirk reads.\n\n[1.40 to 3.60 seconds] The camera makes a brisk, smooth straight push/zoom from the wider starting view through a head-and-shoulders close-up into an extreme close-up of both eyes matching the end frame. Riley keeps her gaze fixed and head mostly steady. The viewer-RIGHT cyan cybernetic iris tightens and glows a little brighter while preserving a detailed pupil; the viewer-LEFT eye stays naturally brown. Real lens perspective, continuous focus pull, smooth background falloff. Her mouth naturally leaves the frame as the camera closes on the eyes; do not warp or cross-dissolve faces.\n\n[3.60 to 5.00 seconds] Hold the extreme eye framing with alert, focused confidence, preparing for the following explosive takeoff. One subtle eye movement toward her route is enough. No new eyelid/eye anatomy or mirror flip. Keep the skin human, the original titanium hardware and the same soft station daylight with cyan/magenta reflections.\n\nOne shot, no cuts, no teleporting camera, no montage within the generation. No text, floating HUD, weapons, added people or logos. Audio: low continuous station ventilation and one quiet precise electronic iris-focus tone as the cyan ring tightens. No speech, lip-sync, grunts, music or narrator. The supplied recorded VO belongs to the preceding transformation and is added during editing.",
+  "prompt_file": "assets/06-shots/video-prompts/shot-06-eye-push-minimax-v01.txt",
+  "flow_id": "1KlNu0Dsak5777WphodD",
+  "flow_url": "https://elevenlabs.io/app/flows/1KlNu0Dsak5777WphodD",
+  "node_id": "UEXGC0I4YOOvWp6o0aFV",
+  "session_id": "t6FfFm1LIMPDzeyxsyqa",
+  "generation_id": "D1RNLQa6U4f3wxwJFBVC",
+  "reported_run_credits": 1818.0000000000002,
+  "estimate": {
+    "credits": 1818.0000000000002,
+    "price_cents": 2639.7360000000003,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 240
+  },
+  "generations_count": 1,
+  "seed": null,
+  "selected": false,
+  "user_approved": false,
+  "output_file": "assets/06-shots/videos/shot-06-eye-push-minimax-v01.mp4",
+  "references": [
+    {
+      "node_id": "aHn7u1oG34NgRnQKZIQT",
+      "file": "assets/06-shots/reviews/shot-05-transformation-minimax-v01/last-frame.png",
+      "role": "start_frame",
+      "sha256": "15dedb46df4d4464dafdc4333ccbe509ef256e5cbccb190973a03a3266a12a1f"
+    },
+    {
+      "node_id": "OSMcJK5qm94UdtL9np0d",
+      "file": "assets/06-shots/images/shot-06-eye-push-end-v01.png",
+      "role": "end_frame",
+      "sha256": "c488691407d09574253db7c64b81019a6f29a37ee1298e939413bd94ff2baa40"
+    }
+  ],
+  "notes": [
+    "Start frame extracted from actual transformation video at 6.541667s, not a separate pose reset.",
+    "Exact submitted prompt saved. Provider default enhance_prompt=true; internal rewritten prompt unavailable."
+  ],
+  "recorded_at": "2026-10-26T15:32:47+05:30",
+  "prompt_sha256": "0fedd9760e182c859391b59c7679bc48bbd113d597c9e2b72d0f219d3af3a6c5",
+  "bytes": 3474923,
+  "sha256": "12a9c52ac871654d98123f653c54210c4d5778d5708540dfedf050d5301d7d13",
+  "width": 1344,
+  "height": 768,
+  "provider_duration_seconds": 5.184,
+  "provider_reported_price": {
+    "credits": 1818.0000000000002,
+    "price_cents": 2639.7360000000003,
+    "cost_fiat_currency": "inr"
+  },
+  "completed_at": "2026-10-26T15:35:30+05:30",
+  "inspection_file": "assets/06-shots/reviews/shot-06-eye-push-minimax-v01/inspection.json",
+  "review": {
+    "reviewed_at": "2026-10-26T15:38:01+05:30",
+    "method": "14 sampled frames and decoded media inspection",
+    "full_playback_review_performed": false,
+    "listening_review_performed": false,
+    "user_approved": false,
+    "notes": [
+      "Continuous push from the actual preceding end pose into a face close-up and extreme eyes.",
+      "A visible smile/smirk develops around 1.5-2.25 seconds, before the mouth leaves frame.",
+      "Selected eye laterality is retained; cyan iris becomes clearer toward the end.",
+      "Mechanical-neck geometry and train numeral detail drift during the push; final identity/hardware fidelity still needs review.",
+      "Requested five seconds, actual 124 frames / about 5.167 seconds."
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "sampled_picture_and_automated_audio_qa_complete_pending_user",
+  "fps": 24,
+  "opening_prefix_frames": 146,
+  "corrected_shot_four_frames_used": 121,
+  "corrected_shot_four_native_frames": 124,
+  "shot_four_last_included_sample_seconds": 5.0,
+  "continuation_start_frame": 267,
+  "voiceover_start_frame": 189,
+  "voiceover_start_seconds": 7.875,
+  "so_start_seconds": 11.595,
+  "upgrade_frame": 297,
+  "upgrade_seconds": 12.375,
+  "upgrade_local_continuation_seconds": 1.25,
+  "source_modifications": false,
+  "basis": "Dense sampled comparison shows the shot-four 5.000s frame and shot-five opening have similar train distance; gold face texture begins around shot-five 1.25s. Retain original VO timing; speech QA pending.",
+  "eye_source_in_frames": 12,
+  "eye_duration_frames": 108,
+  "observed_so_seconds": 11.6,
+  "observed_upgrade_seconds": 12.38
+}

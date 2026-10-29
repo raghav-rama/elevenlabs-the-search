@@ -1,0 +1,108 @@
+{
+  "operation": "assembled_preview_speech_and_timing_check",
+  "provider": "ElevenLabs",
+  "model_id": "eleven_scribe_v1",
+  "source_file": "assets/08-edit/transformation-sequence-v01/afterhuman-transformation-preview-v01.mix.wav",
+  "flow_id": "1KlNu0Dsak5777WphodD",
+  "flow_url": "https://elevenlabs.io/app/flows/1KlNu0Dsak5777WphodD",
+  "node_id": "rtZG5DkR9114aoXIAATc",
+  "asset_id": "JCYK0EVPMwghoZUSytEk",
+  "source_node_id": "YHkUAFQXYy6xdYfeAeC2",
+  "generation_id": "rxp8AtJ6lqwaSdk1tTuJ",
+  "session_id": "28A8C7VUpxaQcniS4G0V",
+  "estimate": {
+    "credits": 9.151238767111783,
+    "price_cents": 13.287598689846309,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 10
+  },
+  "reported_run_credits": 135.89589569160995,
+  "provider_reported_price": {
+    "credits": 135.89589569160995,
+    "price_cents": 197.32084054421767,
+    "cost_fiat_currency": "inr"
+  },
+  "transcript": {
+    "text": "Missed your train? Still running on flesh and blood? So upgrade. ",
+    "words": [
+      {
+        "text": "Missed",
+        "type": "word",
+        "start": 8.06,
+        "end": 8.28
+      },
+      {
+        "text": "your",
+        "type": "word",
+        "start": 8.32,
+        "end": 8.4
+      },
+      {
+        "text": "train?",
+        "type": "word",
+        "start": 8.48,
+        "end": 8.82
+      },
+      {
+        "text": "Still",
+        "type": "word",
+        "start": 9.42,
+        "end": 9.66
+      },
+      {
+        "text": "running",
+        "type": "word",
+        "start": 9.76,
+        "end": 9.98
+      },
+      {
+        "text": "on",
+        "type": "word",
+        "start": 10.02,
+        "end": 10.12
+      },
+      {
+        "text": "flesh",
+        "type": "word",
+        "start": 10.26,
+        "end": 10.5
+      },
+      {
+        "text": "and",
+        "type": "word",
+        "start": 10.54,
+        "end": 10.64
+      },
+      {
+        "text": "blood?",
+        "type": "word",
+        "start": 10.72,
+        "end": 11.04
+      },
+      {
+        "text": "So",
+        "type": "word",
+        "start": 11.6,
+        "end": 11.96
+      },
+      {
+        "text": "upgrade.",
+        "type": "word",
+        "start": 12.38,
+        "end": 13.08
+      }
+    ],
+    "word_count": 11,
+    "language_code": "eng",
+    "truncated": false
+  },
+  "listening_review_performed": false,
+  "scope": "Mixed preview audio, not isolated native tracks; automated transcription is not proof that every vocal sound is absent.",
+  "expected_copy": "Missed your train? Still running on flesh and blood? So UPGRADE!",
+  "expected_upgrade_seconds": 12.375,
+  "observed_upgrade_seconds": 12.38,
+  "result": "Expected 11 spoken words transcribed; no additional words. So and UPGRADE remain distinct.",
+  "recorded_at": "2026-10-26T15:47:52+05:30",
+  "source_sha256": "4e0e8ec873a2d2fde03e89ded5881fc7571eb4f061772b05b1fd31edbf3185df"
+}

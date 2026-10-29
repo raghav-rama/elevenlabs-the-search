@@ -23,4 +23,6 @@ with the natural brown eye opposite. Do not mirror it to match the old prompt.
 The user approved [wardrobe 05-v02](../02-wardrobe/CYBERPUNK-GALLERY.md): gold
 wrap dress, current black/gold boots, natural limb skin and slim chrome/cyan
 inlays. Pair it with the selected Riley concept 3 for detailed face/neck design.
-Preserve both selections when preparing the station reveal. No upscale has started.
+Preserve both selections when preparing the station reveal. A prepared 2x reference derivative is now available below.
+
+Prepared reference: [riley-cyberpunk-03-v01-upscale-2x.png](images/riley-cyberpunk-03-v01-upscale-2x.png), Topaz 2x High Fidelity V3 with face enhancement and crop disabled. Assistant-reviewed for reference use; user approval still applies to the native original. A thin dark edge is visible on the derivative.

@@ -1,0 +1,87 @@
+{
+  "asset_id": "shot-05-transformation-departure-minimax-v02",
+  "status": "completed_sampled_review_pending_user",
+  "provider": "ElevenLabs",
+  "model_id": "minimax-h3",
+  "model_parameters": {
+    "resolution": "768p",
+    "aspect_ratio": "16:9",
+    "duration_secs": 6,
+    "enhance_prompt": true,
+    "reference_images": [
+      {
+        "template_node_id": "zzXeiuGvsZiKlODcyWcZ"
+      }
+    ],
+    "reference_videos": [
+      {
+        "template_node_id": "3mLlbF4m91CXfRll7MK1"
+      }
+    ]
+  },
+  "prompt": "Six-second photorealistic continuous shot. Use Video 1 ONLY for Riley's existing transformation and hand-inspection performance, identity, gold outfit and cyberware. Use Image 1 as the authoritative first-moment composition and station/train continuity from the corrected preceding shot. Override Video 1's stationary train: Image 1 shows the nearby track already clear, with the rear of the departing train small in the far-left distance. Continue it receding toward SCREEN LEFT and out of sight. Never bring a carriage back beside Riley.\n\n[0.00 to 1.25 seconds] Human Riley continues naturally from Image 1 in her white blouse, black skirt, red badge lanyard, black bag and heels. She releases a tired breath, standing in the same place. The small distant train continues receding toward the left-hand vanishing point and disappears. The nearby track behind her remains clear from the very first frame; match the opposite station platform, support pillars, rails and skyline visible in Image 1. No nearby moving train or carriage may be introduced.\n[1.25 to 3.55 seconds] Riley transforms through the same traveling surface ripple as Video 1: brunette bob with teal accent, viewer-RIGHT cyan eye and asymmetric face hardware, mechanical neck, gold sleeveless wrap dress, black/gold boots, natural human arms and legs with narrow chrome/cyan inlays. Bag and badge dissolve within the wave. Keep her covered throughout. The train has completely departed into the far-left distance. Preserve the empty track and opposite side of the station from Image 1 throughout the transformation; the train never returns behind her.\n[3.55 to 5.10 seconds] Fully upgraded, she raises both natural hands to lower chest level, palms toward herself, looks down from one to the other and briefly flexes her fingers. Retain the original performance's pleased discovery. Finish the outfit and boots before this hold.\n[5.10 to 6.00 seconds] She lowers her hands and looks toward camera, composed and ready for the close-up. Keep the track behind her clear. End on the same wide framing, station geometry and lighting throughout.\n\nFixed camera, no cuts or zoom. Preserve Riley's face, mostly human limbs, gold wrap dress and current boots; no fully metallic limbs. Maintain train direction and perspective, stable platform and city, believable anatomy. Do not retain or restore the parked train from Video 1. No new characters, text or graphics.\nAudio: far-away electric train and wheel sound receding into the distance, continuous soft station ambience, restrained metallic transformation ripple and clothing movement. No dialogue, grunts, voiceover or music.",
+  "prompt_file": "assets/06-shots/video-prompts/shot-05-transformation-departure-minimax-v02.txt",
+  "flow_id": "A3IyZdzDXLKJFfEAS3R0",
+  "flow_url": "https://elevenlabs.io/app/flows/A3IyZdzDXLKJFfEAS3R0",
+  "node_id": "fex845lglmWbEB6nOJmU",
+  "estimate": {
+    "credits": 2181.6000000000004,
+    "price_cents": 3167.6832000000004,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 240
+  },
+  "generations_count": 1,
+  "seed": null,
+  "selected": false,
+  "user_approved": false,
+  "output_file": "assets/06-shots/videos/shot-05-transformation-departure-minimax-v02.mp4",
+  "references": [
+    {
+      "file": "assets/06-shots/videos/shot-05-transformation-minimax-v01.mp4",
+      "role": "reference_videos",
+      "node_id": "3mLlbF4m91CXfRll7MK1",
+      "generation_id": "6DFsFOKDMXhdjHXftnL2",
+      "sha256": "513325e13aec4450410bb406641d509d97640ba277ae650e71a91ea314d8c5b3"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-04-train-departure-minimax-v02/last-frame.png",
+      "role": "reference_images",
+      "node_id": "zzXeiuGvsZiKlODcyWcZ",
+      "asset_id": "aMrBcJTeXvEgX1Df9W8z",
+      "sha256": "523e0baba63808cb5e54141c56f32c72777a8d9b5a40734c50405dd4de731d65"
+    }
+  ],
+  "notes": [
+    "Use actual corrected shot-four endpoint; track already clear beside Riley, train receding at far left.",
+    "Original performance remains a reference, not a pixel-preservation guarantee.",
+    "Provider enhance_prompt default true; internal enhanced text unavailable."
+  ],
+  "session_id": "iP07GppP7U25ZhVj1XcO",
+  "generation_id": "VhDSxh0TbJb7Q3K37Yky",
+  "reported_run_credits": 2181.6000000000004,
+  "recorded_at": "2026-10-29T17:57:19+05:30",
+  "prompt_sha256": "f8a33187439a773f019999bd3f651814506f1d4469b695c75d8d49fea819e61f",
+  "bytes": 8487794,
+  "sha256": "828bc456834c8e97f69cec11b602527cbb792257972441734916fcea73182f46",
+  "completed_at": "2026-10-29T18:02:11+05:30",
+  "width": 1344,
+  "height": 768,
+  "provider_duration_seconds": 6.592,
+  "provider_reported_price": {
+    "credits": 2181.6000000000004,
+    "price_cents": 3167.6832000000004,
+    "cost_fiat_currency": "inr"
+  },
+  "inspection_file": "assets/06-shots/reviews/shot-05-transformation-departure-minimax-v02/inspection.json",
+  "review": {
+    "method": "sampled contact sheet and decoded media inspection",
+    "full_playback_review_performed": false,
+    "listening_review_performed": false,
+    "notes": [
+      "Train stays distant and recedes left; near track stays clear throughout.",
+      "Start makes the distant train larger than the preceding full endpoint, so assembly cut must match departure position instead of blindly concatenating full clips.",
+      "Original ripple and hand inspection retained. Brief haze near head precedes the gold texture; boots still finish late."
+    ]
+  }
+}

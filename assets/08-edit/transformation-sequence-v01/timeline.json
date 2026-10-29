@@ -1,0 +1,75 @@
+{
+  "title": "AFTERHUMAN \u2014 original hook, full shot 04, transformation, eyes and speed launch \u2014 prototype v01",
+  "fps": 24,
+  "render_width": 1920,
+  "render_height": 1080,
+  "framing": "fill",
+  "audio_target_rms_dbfs": -28,
+  "audio_gain_limit_db": 12,
+  "crossfade_half_seconds": 0.06,
+  "clips": [
+    {
+      "shot": "User Final Cut opening \u2014 first three shots",
+      "picture": "assets/08-edit/fcp-opening-trimmed-v01/fcp-opening-trimmed-v01.mov",
+      "audio": "assets/08-edit/fcp-opening-trimmed-v01/fcp-opening-trimmed-v01.mov",
+      "source_in_frames": 0,
+      "duration_frames": 146,
+      "audio_gain_db": 0
+    },
+    {
+      "shot": "Full selected Seedance shot 04",
+      "picture": "assets/06-shots/videos/shot-04-elevenlabs-seedance-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-04-elevenlabs-seedance-v01.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 121
+    },
+    {
+      "shot": "05 \u2014 visible transformation and hand inspection",
+      "picture": "assets/06-shots/videos/shot-05-transformation-minimax-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-05-transformation-minimax-v01.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 158
+    },
+    {
+      "shot": "06 \u2014 confident smirk and eye push-in",
+      "picture": "assets/06-shots/videos/shot-06-eye-push-minimax-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-06-eye-push-minimax-v01.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 108
+    },
+    {
+      "shot": "07 \u2014 turn, plant and superhuman launch",
+      "picture": "assets/06-shots/videos/shot-07-speed-launch-minimax-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-07-speed-launch-minimax-v01.mp4",
+      "source_in_frames": 12,
+      "duration_frames": 60
+    }
+  ],
+  "audio_ducks": [
+    {
+      "start_seconds": 7.875,
+      "end_seconds": 13.438749999999999,
+      "gain_db": -8,
+      "fade_seconds": 0.15
+    }
+  ],
+  "audio_bridges": [
+    {
+      "source": "assets/08-edit/transformation-sequence-v01/voiceover-decoded-review.wav",
+      "source_in_seconds": 0,
+      "timeline_start_seconds": 7.875,
+      "duration_seconds": 5.56375,
+      "gain_db": 0
+    }
+  ],
+  "notes": [
+    "No retiming. New review assembly preserves source files.",
+    "First 146 frames retain user opening; full source shot 04 replaces its shorter slice for this requested continuation.",
+    "Actual shot-05 final frame drives shot 06. Shot 07 deliberately returns to station wide.",
+    "Aspect-fill conforms 1344x768 prototype clips to 16:9 with a small vertical crop, no stretching.",
+    "The original narration is used; no regenerated speech or new jingle.",
+    "Scribe-derived UPGRADE onset at preview frame 297 / 12.375s aligns to sampled surface-change onset near local 1.25s. Listening review pending.",
+    "VO bridge uses all 267060 decoded stereo frames at 48kHz (5.56375s). The MP3 container estimate is slightly longer; original MP3 is unchanged.",
+    "Assembly reads the prepared 48kHz stereo float WAV decoded from the original MP3 to avoid repeated MP3 decoder length differences; speech content and timing are unchanged."
+  ]
+}

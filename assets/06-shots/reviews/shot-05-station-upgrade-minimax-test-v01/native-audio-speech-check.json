@@ -1,0 +1,39 @@
+{
+  "operation": "native_video_audio_speech_check",
+  "source_file": "assets/06-shots/reviews/shot-05-station-upgrade-minimax-test-v01/native-audio.wav",
+  "source_video": "assets/06-shots/videos/shot-05-station-upgrade-minimax-test-v01.mp4",
+  "provider": "ElevenLabs",
+  "model_id": "eleven_scribe_v1",
+  "flow_id": "52Cd3TRtBtv33mwKHgdn",
+  "flow_url": "https://elevenlabs.io/app/flows/52Cd3TRtBtv33mwKHgdn",
+  "node_id": "xjrx4mxTfDnhWBmPRnDV",
+  "source_node_id": "50Ipcc7UOIv5obwkChBV",
+  "asset_id": "2sq3vu2Ys37wGye2EjgH",
+  "generation_id": "34UhrKDEfZ4r8WrCEAYi",
+  "session_ids": [
+    "h9k5X2YTLfUfbHe9xmzt"
+  ],
+  "estimate": {
+    "credits": 1.9198202737885277,
+    "price_cents": 2.7875790375409424,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 10
+  },
+  "reported_run_credits": 28.509331065759635,
+  "provider_reported_price": {
+    "credits": 28.509331065759635,
+    "price_cents": 41.395548707482995,
+    "cost_fiat_currency": "inr"
+  },
+  "transcript": {
+    "text": "",
+    "language_code": "eng",
+    "words": [],
+    "truncated": false
+  },
+  "listening_review_performed": false,
+  "result": "No speech transcribed by Scribe; this does not certify audible continuity or prove absence of every vocal sound.",
+  "recorded_at": "2026-10-26T14:46:42+05:30",
+  "source_sha256": "32dce384b7d08d656d6ef4dc598e5780caa77f49f39c2c7720f2a7ac0ebf6e04"
+}

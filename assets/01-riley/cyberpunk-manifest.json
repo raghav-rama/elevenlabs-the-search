@@ -1,6 +1,6 @@
 {
   "scope": "Cyberpunk Riley identity, hair, face and neck cyberware look development",
-  "updated_at": "2026-10-26T14:07:54+05:30",
+  "updated_at": "2026-10-26T14:36:25+05:30",
   "path_base": "assets/",
   "canonical_identity": "01-riley/images/riley-01-v01.png",
   "style_references": [
@@ -10,7 +10,7 @@
   "shared_body_style_reference": "02-wardrobe/references/cyberpunk/user-style-02.png",
   "wardrobe_manifest": "02-wardrobe/cyberpunk-manifest.json",
   "selected_concept": "riley-cyberpunk-03-v01",
-  "upscale_status": "selected_not_started",
+  "upscale_status": "completed_assistant_reviewed_reference",
   "concepts": [
     {
       "id": "riley-cyberpunk-01-v01",
@@ -80,5 +80,12 @@
     }
   ],
   "selection_scope": "User-selected face and cyberware design direction; not an upscaled production master",
-  "selected_wardrobe": "02-wardrobe/images/wardrobe-cyberpunk-05-v02.png"
+  "selected_wardrobe": "02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+  "prepared_upscale": {
+    "source_concept": "riley-cyberpunk-03-v01",
+    "image": "01-riley/images/riley-cyberpunk-03-v01-upscale-2x.png",
+    "generation_record": "01-riley/images/riley-cyberpunk-03-v01-upscale-2x.generation.json",
+    "status": "completed_assistant_reviewed_reference",
+    "user_approved": false
+  }
 }

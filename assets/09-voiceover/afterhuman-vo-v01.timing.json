@@ -1,0 +1,142 @@
+{
+  "operation": "existing_voiceover_timing_transcription",
+  "source_file": "assets/09-voiceover/afterhuman-vo-v01.mp3",
+  "source_sha256": "53871b600356ce16cc4deabcb4f0fe855243f71edc7dd47d3da069d82a8ad95d",
+  "provider": "ElevenLabs",
+  "model_id": "eleven_scribe_v1",
+  "flow_id": "52Cd3TRtBtv33mwKHgdn",
+  "flow_url": "https://elevenlabs.io/app/flows/52Cd3TRtBtv33mwKHgdn",
+  "node_id": "yQ9IjdxrCQeDaeJsCCKM",
+  "source_node_id": "8HJ9kpnK4JvNJS8nX0aX",
+  "asset_id": "wfuAFW4WoqgogYkHXsoT",
+  "generation_id": "TBDh4C9SOUqnmoCzmNby",
+  "session_id": "qXPb2r8ehD8Vip1mwljO",
+  "status": "automated_word_timing_ready",
+  "estimate": {
+    "credits": 2.044444444444444,
+    "price_cents": 2.968533333333333,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 10
+  },
+  "reported_run_credits": 30.359999999999996,
+  "recorded_at": "2026-10-26T14:27:04+05:30",
+  "notes": [
+    "Existing user narration only, no replacement TTS.",
+    "Automated transcription/word timing is not independent listening review.",
+    "Run cost differs from estimate; retain both and verify final reported price."
+  ],
+  "completed_at": "2026-10-26T14:28:04+05:30",
+  "transcript": {
+    "generation_id": "TBDh4C9SOUqnmoCzmNby",
+    "text": "Missed your train? Still running on flesh and blood? So upgrade",
+    "model_id": "eleven_scribe_v1",
+    "word_count": 11,
+    "words": [
+      {
+        "text": "Missed",
+        "type": "word",
+        "start": 0.18,
+        "end": 0.38
+      },
+      {
+        "text": "your",
+        "type": "word",
+        "start": 0.44,
+        "end": 0.56
+      },
+      {
+        "text": "train?",
+        "type": "word",
+        "start": 0.6,
+        "end": 0.92
+      },
+      {
+        "text": "Still",
+        "type": "word",
+        "start": 1.52,
+        "end": 1.76
+      },
+      {
+        "text": "running",
+        "type": "word",
+        "start": 1.86,
+        "end": 2.1
+      },
+      {
+        "text": "on",
+        "type": "word",
+        "start": 2.14,
+        "end": 2.28
+      },
+      {
+        "text": "flesh",
+        "type": "word",
+        "start": 2.36,
+        "end": 2.6
+      },
+      {
+        "text": "and",
+        "type": "word",
+        "start": 2.64,
+        "end": 2.74
+      },
+      {
+        "text": "blood?",
+        "type": "word",
+        "start": 2.84,
+        "end": 3.14
+      },
+      {
+        "text": "So",
+        "type": "word",
+        "start": 3.72,
+        "end": 4.08
+      },
+      {
+        "text": "upgrade",
+        "type": "word",
+        "start": 4.5,
+        "end": 5.2
+      }
+    ],
+    "language_code": "eng",
+    "language_probability": 0.902617335319519,
+    "spoken_duration_secs": 5.2
+  },
+  "provider_reported_price": {
+    "credits": 30.359999999999996,
+    "price_cents": 44.082719999999995,
+    "cost_fiat_currency": "inr"
+  },
+  "listening_review_performed": false,
+  "cue_map": [
+    {
+      "phrase": "Missed your train?",
+      "start_seconds": 0.18,
+      "end_seconds": 0.92
+    },
+    {
+      "phrase": "Still running on flesh and blood?",
+      "start_seconds": 1.52,
+      "end_seconds": 3.14
+    },
+    {
+      "phrase": "So",
+      "start_seconds": 3.72,
+      "end_seconds": 4.08
+    },
+    {
+      "phrase": "UPGRADE!",
+      "start_seconds": 4.5,
+      "end_seconds": 5.2
+    }
+  ],
+  "upgrade_cut": {
+    "relative_to_voiceover_start_seconds": 4.5,
+    "timeline_fps": 24,
+    "relative_frame": 108,
+    "relative_timecode": "00:00:04:12",
+    "basis": "Automated Scribe word onset; fine adjustment by listening remains pending"
+  }
+}

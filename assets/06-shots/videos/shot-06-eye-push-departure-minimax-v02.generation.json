@@ -1,0 +1,88 @@
+{
+  "asset_id": "shot-06-eye-push-departure-minimax-v02",
+  "status": "completed_sampled_review_pending_user",
+  "provider": "ElevenLabs",
+  "model_id": "minimax-h3",
+  "model_parameters": {
+    "resolution": "768p",
+    "aspect_ratio": "16:9",
+    "duration_secs": 5,
+    "enhance_prompt": true,
+    "reference_images": [
+      {
+        "template_node_id": "sQu0mRsh9Gx6k2O54NO4"
+      }
+    ],
+    "reference_videos": [
+      {
+        "template_node_id": "udVYVzj3sYUZqSpjMzJ0"
+      }
+    ]
+  },
+  "prompt": "Five-second photorealistic continuous camera push into Riley's eyes. Use Video 1 for the existing smirk, camera movement, face identity and selected cyberware. Use Image 1 as the authoritative starting composition and background from the corrected preceding transformation: the train has ALREADY DEPARTED, leaving a clear track and the station architecture. Replace Video 1's parked train background with this cleared station throughout the push. Do not introduce any train doors, carriage number or warm train windows.\n\nStart exactly with the upgraded Riley from Image 1: brunette bob with teal accent, gold wrap dress, black/gold boots, natural skin with narrow chrome inlays, mechanical neck, face hardware and cyan eye on viewer RIGHT, natural brown eye on viewer LEFT. Push smoothly from the same wide view into her face. She gives a small confident closed-mouth smirk before her mouth leaves the composition. Continue into the same extreme eye framing as Video 1. Preserve face identity, eye laterality and the actual hardware geometry; no changing neck plate design during the push. Background becomes optically soft as the camera approaches, retaining the same morning light and direction.\n\nSingle physical camera push, no cuts, no new pose or new environment, no mirrored face, no subtitles or floating HUD. The departed train stays absent. Audio: low station ambience with distant receding train hum, subtle eye activation tick. No speech, voiceover, music or vocalizations.",
+  "prompt_file": "assets/06-shots/video-prompts/shot-06-eye-push-departure-minimax-v02.txt",
+  "flow_id": "A3IyZdzDXLKJFfEAS3R0",
+  "flow_url": "https://elevenlabs.io/app/flows/A3IyZdzDXLKJFfEAS3R0",
+  "node_id": "kmOdk67hS5rDSRWbQFTS",
+  "batch_estimate": {
+    "credits": 3636.0000000000005,
+    "price_cents": 5279.472000000001,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 240
+  },
+  "generations_count": 1,
+  "seed": null,
+  "selected": false,
+  "user_approved": false,
+  "output_file": "assets/06-shots/videos/shot-06-eye-push-departure-minimax-v02.mp4",
+  "references": [
+    {
+      "file": "assets/06-shots/videos/shot-06-eye-push-minimax-v01.mp4",
+      "role": "reference_videos",
+      "node_id": "udVYVzj3sYUZqSpjMzJ0",
+      "generation_id": "D1RNLQa6U4f3wxwJFBVC",
+      "sha256": "12a9c52ac871654d98123f653c54210c4d5778d5708540dfedf050d5301d7d13"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-05-transformation-departure-minimax-v02/last-frame.png",
+      "role": "reference_images",
+      "node_id": "sQu0mRsh9Gx6k2O54NO4",
+      "asset_id": "exwg3cLSlZtYfu1bxnMA",
+      "sha256": "d91a9e6a0747fb8550ce39b81b6116efe362d7e9b36fed4182aeaadebdcec61c"
+    }
+  ],
+  "notes": [
+    "Train already departed: actual corrected transformation ending controls the background.",
+    "Reference video controls original performance and identity; pixel preservation not guaranteed.",
+    "Provider enhance_prompt default true; internal enhanced prompt unavailable."
+  ],
+  "session_id": "NKKTS6YzRbf7Xgl4bstp",
+  "generation_id": "cxjrmGtZEvZblCPXjft0",
+  "reported_run_credits": 1818.0000000000002,
+  "recorded_at": "2026-10-29T18:02:11+05:30",
+  "prompt_sha256": "d1fd777fed3de162315860bfda32a3eb3d02750c9dbdf80fe265cbd6db836324",
+  "bytes": 9233199,
+  "sha256": "0c493b8dbf0abec159aad5b209e3f1c56d35cec084f5bb3c5d1a45494fb2f96f",
+  "width": 1344,
+  "height": 768,
+  "provider_duration_seconds": 5.184,
+  "provider_reported_price": {
+    "credits": 1818.0000000000002,
+    "price_cents": 2639.7360000000003,
+    "cost_fiat_currency": "inr"
+  },
+  "completed_at": "2026-10-29T18:07:06+05:30",
+  "inspection_file": "assets/06-shots/reviews/shot-06-eye-push-departure-minimax-v02/inspection.json",
+  "review": {
+    "reviewed_at": "2026-10-29T18:07:06+05:30",
+    "method": "sampled contact sheet and decoded media inspection",
+    "full_playback_review_performed": false,
+    "listening_review_performed": false,
+    "notes": [
+      "Near track stays clear; departed train does not reset beside Riley.",
+      "Original smirk and eye push retained, but push reaches extreme eye framing later than v01. Preview trims first 0.5s and retains through source 5.0s.",
+      "Face/hardware detail fidelity still needs user playback review."
+    ]
+  }
+}

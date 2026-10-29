@@ -32,5 +32,7 @@ Preserve this approved body/outfit design; fully metal limbs remain rejected.
 The earlier metallic-dress batch (05–08) cost 1,194.5775 credits (approximately
 INR 17.35), and the first batch cost 1,068.8325 credits (approximately INR 15.52).
 All original files remain intact. The native-resolution wardrobe/body reference
-is approved; no upscale has started. Pair it with Riley concept 3 for detailed
+is approved; a prepared 2x reference derivative is now available below. Pair it with Riley concept 3 for detailed
 facial hardware and eye glow when preparing the station reveal.
+
+Prepared reference: [wardrobe-cyberpunk-05-v02-upscale-2x.png](images/wardrobe-cyberpunk-05-v02-upscale-2x.png), Topaz 2x High Fidelity V3 with face enhancement and crop disabled. Assistant-reviewed for reference use; user approval still applies to the native original. A thin dark edge is visible on the derivative.

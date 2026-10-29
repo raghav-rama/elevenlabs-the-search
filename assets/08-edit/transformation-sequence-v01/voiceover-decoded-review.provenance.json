@@ -1,0 +1,17 @@
+{
+  "operation": "AVFoundation decode for preview assembly",
+  "source_file": "assets/09-voiceover/afterhuman-vo-v01.mp3",
+  "source_sha256": "53871b600356ce16cc4deabcb4f0fe855243f71edc7dd47d3da069d82a8ad95d",
+  "output_file": "assets/08-edit/transformation-sequence-v01/voiceover-decoded-review.wav",
+  "output_sha256": "2da79a20d4868f13e95d58f8267d41d2a277d44c45d8a158bbc4aa98fc28bb10",
+  "sample_rate": 48000,
+  "channels": 2,
+  "frames": 267060,
+  "duration_seconds": 5.56375,
+  "rms_dbfs": -20.762506012095052,
+  "peak_dbfs": -1.6273782636975023,
+  "script": "assets/06-shots/audio/extract-audio.swift",
+  "source_modified": false,
+  "recorded_at": "2026-10-26T15:47:52+05:30",
+  "notes": "Original mono MP3 decoded to stereo float WAV for stable assembly length; no speech synthesis or time stretching."
+}

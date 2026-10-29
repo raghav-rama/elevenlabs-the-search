@@ -1,0 +1,43 @@
+{
+  "scope": "This train-departure correction only: four MiniMax videos and one mixed-preview speech QA. Excludes prior generation passes.",
+  "items": [
+    {
+      "name": "shot-04-train-departure-minimax-v02",
+      "generation_id": "3vH2kjRfdXoJAGsVo5VQ",
+      "record": "assets/06-shots/videos/shot-04-train-departure-minimax-v02.generation.json",
+      "credits": 1818.0000000000002,
+      "inr": 26.397360000000003
+    },
+    {
+      "name": "shot-05-transformation-departure-minimax-v02",
+      "generation_id": "VhDSxh0TbJb7Q3K37Yky",
+      "record": "assets/06-shots/videos/shot-05-transformation-departure-minimax-v02.generation.json",
+      "credits": 2181.6000000000004,
+      "inr": 31.676832000000005
+    },
+    {
+      "name": "shot-06-eye-push-departure-minimax-v02",
+      "generation_id": "cxjrmGtZEvZblCPXjft0",
+      "record": "assets/06-shots/videos/shot-06-eye-push-departure-minimax-v02.generation.json",
+      "credits": 1818.0000000000002,
+      "inr": 26.397360000000003
+    },
+    {
+      "name": "shot-07-speed-launch-departure-minimax-v02",
+      "generation_id": "ej2C9dJQ3zVUYbMXcOTm",
+      "record": "assets/06-shots/videos/shot-07-speed-launch-departure-minimax-v02.generation.json",
+      "credits": 1818.0000000000002,
+      "inr": 26.397360000000003
+    },
+    {
+      "name": "Mixed-preview speech QA",
+      "generation_id": "nddzTqeuAXkEaSJlh9o8",
+      "record": "assets/08-edit/transformation-sequence-v02/preview-speech-check.json",
+      "credits": 135.89589569160995,
+      "inr": 1.9732084054421768
+    }
+  ],
+  "total_credits": 7771.495895691611,
+  "total_inr": 112.84212040544219,
+  "recorded_at": "2026-10-29T18:10:10+05:30"
+}

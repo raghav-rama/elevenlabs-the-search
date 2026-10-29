@@ -1,0 +1,70 @@
+{
+  "asset_id": "wardrobe-cyberpunk-05-v02-upscale-2x",
+  "operation": "reference_upscale",
+  "provider": "ElevenLabs",
+  "model_id": "topaz-image-upscale-v2",
+  "model_name": "Topaz Image Upscale",
+  "model_parameters": {
+    "upscale_factor": 2,
+    "model": "High Fidelity V3",
+    "crop_to_fill": false,
+    "output_format": "png",
+    "subject_detection": "all",
+    "enhance_faces": false,
+    "enhance_faces_strength": 0.8,
+    "enhance_faces_creativity": 0,
+    "autoprompt": false
+  },
+  "source_file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+  "source_sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6",
+  "output_file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02-upscale-2x.png",
+  "status": "completed_assistant_reviewed_reference",
+  "selected": false,
+  "user_approved": false,
+  "source_user_selected": true,
+  "flow_id": "52Cd3TRtBtv33mwKHgdn",
+  "flow_url": "https://elevenlabs.io/app/flows/52Cd3TRtBtv33mwKHgdn",
+  "node_id": "ZY9l4EXmVdV4gUMClj5w",
+  "source_node_id": "JEnwSMo3in99B5cyhpFR",
+  "generation_id": "udikkEFsaQ4DuGEaSQvW",
+  "session_id": "ZfzqqnGjLNLCYDOkJaeE",
+  "generations_count": 1,
+  "seed": null,
+  "prompt": "Full body photograph of Riley in a gold wrap dress and black and gold boots, natural skin with narrow chrome inlays.",
+  "prompt_role": "Optional short subject description, not a creative redesign instruction",
+  "batch_estimate": {
+    "credits": 969.6,
+    "price_cents": 1407.8592,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 41
+  },
+  "reported_run_credits": 484.8,
+  "recorded_at": "2026-10-26T14:27:04+05:30",
+  "notes": [
+    "User approved upscaling selected references.",
+    "Current Topaz v2 selected via Playwright because the connector enum only exposes the obsolete identifier.",
+    "2x High Fidelity V3, face enhancement disabled, cropping disabled. Original preserved."
+  ],
+  "width": 1664,
+  "height": 2496,
+  "bytes": 4132982,
+  "sha256": "207fc20a36d2a8d9c8198e0e0ddaaea344e80effa3c484077fa54a8f24bc5a99",
+  "provider_reported_price": {
+    "credits": 484.8,
+    "price_cents": 703.9296,
+    "cost_fiat_currency": "inr"
+  },
+  "completed_at": "2026-10-26T14:28:04+05:30",
+  "review": {
+    "reviewed_at": "2026-10-26T14:36:25+05:30",
+    "reviewer": "assistant",
+    "design_preserved_for_reference_use": true,
+    "user_review_pending": true,
+    "notes": [
+      "Selected design and implant side broadly retained; no claim of pixel identity.",
+      "Thin dark edge visible; original output retained without crop.",
+      "Selected native source remains canonical; this is a prepared derivative."
+    ]
+  }
+}

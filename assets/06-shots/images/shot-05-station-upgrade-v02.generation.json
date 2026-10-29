@@ -1,0 +1,89 @@
+{
+  "asset_id": "shot-05-station-upgrade-v02",
+  "provider": "ElevenLabs",
+  "model_id": "gemini-3-pro-image",
+  "model_parameters": {
+    "images": [
+      {
+        "template_node_id": "oJD41dn70Qj89kQMy241"
+      },
+      {
+        "template_node_id": "ZY9l4EXmVdV4gUMClj5w"
+      },
+      {
+        "template_node_id": "x37OEvyXqGuK9yO9qtP1"
+      }
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "2K"
+  },
+  "prompt": "Create the AFTER shot of an instantaneous cinematic match cut by editing the attached train-station frame. The station frame is the composition and background master: retain its camera position, perspective, focal length, crop, morning light, wet reflective platform, skyline, overhead structure, yellow safety lines and the same closed graphite train doors with cyan/magenta accents and carriage 07 marking. Keep the train stationary and the doors shut. Change only Riley and the corresponding local shadows/reflections needed for the new outfit.\n\nUse the close-up cyberpunk portrait for Riley's exact face, hair, eyes and mechanical neck; use the gold-dress full-body reference for her outfit, proportions and body augmentation. The portrait's office shirt/lanyard/bag are not wardrobe references. The gold-dress reference's studio background is not the scene.\n\nRiley remains full-body in exactly the place occupied by the woman in the station frame, slightly right of center. Match the original head height, body scale, stance and foot contact points so the old and upgraded versions can cut together without a camera jump. Her head center is approximately 58 percent across the frame, near 18 percent down; her boots meet the same platform around 86 percent down. Maintain the original perspective instead of making her larger, moving her to the center, or changing the station architecture. Natural believable anatomy and five fingers on each hand.\n\nReplace the office clothes with the selected liquid-gold sleeveless wrap dress: identical V neckline, waist belt, supple metallic folds, asymmetric overlapping hem and skirt length. Match the selected black boots with gold structural trim and cyan details at their existing knee height. Remove the office shoulder bag, lanyard and ID badge. Keep natural human skin on shoulders, arms, hands, thighs and visible knees, with the same sparse narrow chrome/cyan inlays as the gold reference. Her limbs must not become fully robotic or covered by metal shells.\n\nReproduce the selected portrait's recognizable face and brunette bob with subtle teal accent. Natural brown eye on viewer LEFT; luminous cyan ring eye and asymmetric satin-titanium cheek/jaw hardware on anatomical LEFT, viewer RIGHT. Preserve the substantial mechanical neck with magenta/cyan accents. Do not mirror her implants, simplify away the cheek armor, change her identity, or put the office shirt back on. She is composed and quietly confident, shoulders relaxed, mouth gently closed, looking toward camera. This is her immediate upgraded state before a later eye-HUD close-up; no floating interface here.\n\nBlend her skin, metallic gold fabric and chrome hardware into the station's actual soft morning illumination and train reflections, with grounded contact shadows. Premium photorealistic live-action sci-fi advertising, not a game render or studio cutout. One wide 16:9 frame. No motion blur, transformation effects, added text, branding, captions, glowing aura or extra people. Keep the background structure and the shot's visual geography as close to the supplied station master as possible.",
+  "prompt_file": "assets/06-shots/prompts/shot-05-station-upgrade-v02.txt",
+  "flow_id": "52Cd3TRtBtv33mwKHgdn",
+  "flow_url": "https://elevenlabs.io/app/flows/52Cd3TRtBtv33mwKHgdn",
+  "node_id": "mCycCJe45cOeKDHuHZfi",
+  "session_ids": [
+    "HmViTGj2GnkoYpaopgD7"
+  ],
+  "generation_id": "RqWQ1QxB8urMoElSuOVo",
+  "estimate": {
+    "credits": 3045.15,
+    "price_cents": 4421.5578000000005,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 56
+  },
+  "reported_run_credits": 3045.15,
+  "generations_count": 1,
+  "seed": null,
+  "status": "completed_assistant_reviewed_for_motion_prototype",
+  "selected": false,
+  "user_approved": false,
+  "references": [
+    {
+      "node_id": "oJD41dn70Qj89kQMy241",
+      "file": "assets/01-riley/images/riley-cyberpunk-03-v01-upscale-2x.png",
+      "role": "face and cyberware",
+      "sha256": "995a31dcc42ece417283424a346f7624973b38f614535eaa0dee34bd7e991118"
+    },
+    {
+      "node_id": "ZY9l4EXmVdV4gUMClj5w",
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02-upscale-2x.png",
+      "role": "wardrobe and body",
+      "sha256": "207fc20a36d2a8d9c8198e0e0ddaaea344e80effa3c484077fa54a8f24bc5a99"
+    },
+    {
+      "node_id": "x37OEvyXqGuK9yO9qtP1",
+      "file": "assets/08-edit/fcp-opening-trimmed-v01/last-picture-frame.png",
+      "role": "station composition master",
+      "sha256": "3ae87cdb6b5094cc75ba886c1a92a61a4f87790572294433503779b4694bfee6"
+    }
+  ],
+  "output_file": "assets/06-shots/images/shot-05-station-upgrade-v02.png",
+  "recorded_at": "2026-10-26T14:36:25+05:30",
+  "prompt_sha256": "52196f8c7049b8f27705826e13a0817af6c32b1fc0dafea55f2aa1b7587b426b",
+  "width": 2752,
+  "height": 1536,
+  "bytes": 5963448,
+  "sha256": "a7e9f49adf15444bfc3709badcdbff29d67650b8d9a2dae114b175ad18c132bb",
+  "provider_reported_price": {
+    "credits": 3045.15,
+    "price_cents": 4421.5578000000005,
+    "cost_fiat_currency": "inr"
+  },
+  "completed_at": "2026-10-26T14:36:56+05:30",
+  "review": {
+    "reviewed_at": "2026-10-26T14:41:15+05:30",
+    "reviewer": "assistant",
+    "approved_for_single_motion_test": true,
+    "user_review_pending": true,
+    "observations": [
+      "Station geography, closed train, morning lighting, broad head/foot placement and selected gold wardrobe are preserved closely enough for a motion prototype.",
+      "Human skin and slim limb inlays retained; facial cyberware on viewer right.",
+      "Cyan eye glow is subdued at this distance; fine facial detail and exact likeness still require user review.",
+      "Stance and body silhouette differ across the upgrade, including more evenly planted feet.",
+      "Background is regenerated rather than pixel-identical; match cut remains an editing review item.",
+      "Output is 2752x1536, ratio 1.791667 rather than exact 16:9; original output preserved without cropping."
+    ]
+  }
+}

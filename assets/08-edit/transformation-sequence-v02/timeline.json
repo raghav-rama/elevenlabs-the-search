@@ -1,0 +1,76 @@
+{
+  "title": "AFTERHUMAN \u2014 train departure correction \u2014 prototype v02",
+  "fps": 24,
+  "render_width": 1920,
+  "render_height": 1080,
+  "framing": "fill",
+  "audio_target_rms_dbfs": -28,
+  "audio_gain_limit_db": 12,
+  "crossfade_half_seconds": 0.06,
+  "clips": [
+    {
+      "shot": "User Final Cut opening \u2014 first three shots",
+      "picture": "assets/08-edit/fcp-opening-trimmed-v01/fcp-opening-trimmed-v01.mov",
+      "audio": "assets/08-edit/fcp-opening-trimmed-v01/fcp-opening-trimmed-v01.mov",
+      "source_in_frames": 0,
+      "duration_frames": 146,
+      "audio_gain_db": 0
+    },
+    {
+      "shot": "04 \u2014 doors close and train departs",
+      "picture": "assets/06-shots/videos/shot-04-train-departure-minimax-v02.mp4",
+      "audio": "assets/06-shots/videos/shot-04-train-departure-minimax-v02.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 121
+    },
+    {
+      "shot": "05 \u2014 transformation and hands as train recedes",
+      "picture": "assets/06-shots/videos/shot-05-transformation-departure-minimax-v02.mp4",
+      "audio": "assets/06-shots/videos/shot-05-transformation-departure-minimax-v02.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 158
+    },
+    {
+      "shot": "06 \u2014 smirk and eye push with cleared track",
+      "picture": "assets/06-shots/videos/shot-06-eye-push-departure-minimax-v02.mp4",
+      "audio": "assets/06-shots/videos/shot-06-eye-push-departure-minimax-v02.mp4",
+      "source_in_frames": 12,
+      "duration_frames": 108
+    },
+    {
+      "shot": "07 \u2014 launch after departed train",
+      "picture": "assets/06-shots/videos/shot-07-speed-launch-departure-minimax-v02.mp4",
+      "audio": "assets/06-shots/videos/shot-07-speed-launch-departure-minimax-v02.mp4",
+      "source_in_frames": 12,
+      "duration_frames": 60
+    }
+  ],
+  "audio_ducks": [
+    {
+      "start_seconds": 7.875,
+      "end_seconds": 13.438749999999999,
+      "gain_db": -8,
+      "fade_seconds": 0.15
+    }
+  ],
+  "audio_bridges": [
+    {
+      "source": "assets/08-edit/transformation-sequence-v01/voiceover-decoded-review.wav",
+      "source_in_seconds": 0,
+      "timeline_start_seconds": 7.875,
+      "duration_seconds": 5.56375,
+      "gain_db": 0
+    }
+  ],
+  "notes": [
+    "Preserve first 146 frames of the user opening; replace only the affected shots with new departure-correction takes.",
+    "No source retiming. Keep original videos unchanged.",
+    "Use first 121 of 124 frames in corrected shot four: endpoint at 5.0s best matches the train distance and front-facing Riley at the corrected shot-five opening.",
+    "Gold facial texture begins around local 1.25s in corrected shot five, so retain existing So/UPGRADE timing and original narration.",
+    "The model introduces a brief head haze before the gold texture; remaining visual polish, not a new narrative beat.",
+    "Aspect-fill to 1920x1080 with a small vertical crop and no stretching.",
+    "Original VO uses the previously verified 267060-frame 48kHz stereo decoded WAV; no regeneration or voice change.",
+    "Native audio crossfades at cuts, ducks under VO, and is sample-peak limited by the existing assembler.",
+    "Eye correction reaches final eye framing later than v01; use source 0.5\u20135.0s (108 frames) to retain the close-up without extending the edit."
+  ]
+}

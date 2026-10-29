@@ -1,0 +1,48 @@
+{
+  "completed_at": "2026-10-29T21:15:37+05:30",
+  "generation_id": "IADlmr2zGOc0HC4A4WL7",
+  "session_id": "YS7RXjSdp0iXSC4BWeyM",
+  "actual_price": {
+    "credits": 18578.0052864,
+    "price_cents": 26975.263675852802,
+    "cost_fiat_currency": "inr"
+  },
+  "output": {
+    "bytes": 5179510,
+    "sha256": "3c3413da46200a72926418e20ec5fa6cc2177af0d0dcdf203353f976111abf39"
+  },
+  "observed_timing": {
+    "door_departure_seconds_approx": 1.5,
+    "front_facing_seconds_approx": 4.5,
+    "head_haze_seconds_approx": 6.625,
+    "gold_ripple_seconds_approx": 6.75,
+    "hands_raise_seconds_approx": 8.75,
+    "boots_complete_seconds_approx": 9.5,
+    "end_gaze_seconds_approx": 11.5
+  },
+  "observations": [
+    "One generated 854x480 take contains arrival, door closure/departure, transformation, hand inspection and raised gaze.",
+    "Frame samples through 4.5–6.5s and consecutive frames 4.9167–5.4167s show stable Riley placement and station geometry with a continuously receding train; no obvious old-cut pose/background reset is visible.",
+    "Adjacent-frame measurements show no isolated scene-change spike around the former join; this is supporting evidence, not proof of perceptual smoothness.",
+    "Head haze precedes the gold ripple despite its exclusion in the prompt. Gold ripple begins about 6.75s, later than the requested 6.3s.",
+    "Hands rise before the boots fully finish changing, contrary to the requested order; facial and hardware detail is soft at 480p.",
+    "Cab-like lit train rear inherited from the references remains.",
+    "Native audio decodes without sample clipping. No speech-transcription or complete listening/playback review was performed."
+  ],
+  "audio": {
+    "frames": 579047,
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 12.063479166666667,
+    "rms_dbfs": -24.611847095494657,
+    "peak_dbfs": -5.200089444349608
+  },
+  "actual_spend_this_attempt": 18578.0052864,
+  "no_retries": true,
+  "user_approved": true,
+  "selected": true,
+  "approved_at": "2026-10-29T21:23:21+05:30",
+  "user_feedback": "Great. This shot looks good. Lock it in. Commit everything and push to github",
+  "status": "approved_selected_locked",
+  "assistant_review_observations_note": "Preserved as pre-approval review evidence; user subsequently accepted the shot as rendered."
+}

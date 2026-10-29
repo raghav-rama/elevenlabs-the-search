@@ -9,14 +9,16 @@ Measured with macOS `afinfo`: approximately **5.564 seconds**, mono MP3,
 44.1 kHz, approximately 128 kbps. The export filename does not establish the
 provider model, voice, settings or request ID; those are not independently known.
 
-Intended locked copy, not a verified transcript:
+Locked copy, also returned by automated Scribe transcription:
 
 > Missed your train? Still running on flesh and blood? So UPGRADE!
 
-The user selected an instant upgrade reveal at the station. Place the hard
-match cut on the actual spoken “UPGRADE,” retaining the preceding “So,” then
-follow with eye-HUD activation. Mark exact phrase boundaries by listening before
-locking the edit. The measured file duration is not a cue map.
+The latest user direction replaces the instant cut with a visible transformation,
+hand inspection, eye push/smirk and speed launch. [Automated phrase cues](afterhuman-vo-v01-cues.md)
+place So at 3.72 seconds and UPGRADE at 4.50 seconds from the VO start. The new
+preview starts this recording at 7.875 seconds, with UPGRADE at 12.375 seconds.
+Mixed-preview Scribe QA confirms So at 11.60s and UPGRADE at 12.38s, with only
+the intended 11 words transcribed. Fine-tune by listening before locking the edit.
 
-See [the next-shot brief](../06-shots/video-prompts/shot-05-instant-upgrade-brief-v01.md).
+See [the current sequence brief](../06-shots/video-prompts/shot-05-07-transform-sequence-v01.md).
 No replacement speech was generated. Assistant listening review is pending.

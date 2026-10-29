@@ -1,0 +1,70 @@
+{
+  "asset_id": "riley-cyberpunk-03-v01-upscale-2x",
+  "operation": "reference_upscale",
+  "provider": "ElevenLabs",
+  "model_id": "topaz-image-upscale-v2",
+  "model_name": "Topaz Image Upscale",
+  "model_parameters": {
+    "upscale_factor": 2,
+    "model": "High Fidelity V3",
+    "crop_to_fill": false,
+    "output_format": "png",
+    "subject_detection": "all",
+    "enhance_faces": false,
+    "enhance_faces_strength": 0.8,
+    "enhance_faces_creativity": 0,
+    "autoprompt": false
+  },
+  "source_file": "assets/01-riley/images/riley-cyberpunk-03-v01.png",
+  "source_sha256": "4df29f1f3ed615cc454ae91d983f56046e203cc0be225b854c22bcdffc5ca009",
+  "output_file": "assets/01-riley/images/riley-cyberpunk-03-v01-upscale-2x.png",
+  "status": "completed_assistant_reviewed_reference",
+  "selected": false,
+  "user_approved": false,
+  "source_user_selected": true,
+  "flow_id": "52Cd3TRtBtv33mwKHgdn",
+  "flow_url": "https://elevenlabs.io/app/flows/52Cd3TRtBtv33mwKHgdn",
+  "node_id": "oJD41dn70Qj89kQMy241",
+  "source_node_id": "oHm6UcTrq6mOnDKdvppx",
+  "generation_id": "Oj7ngnQ0H8h43G2qla4E",
+  "session_id": "m9ZKsAjCQJDE2EmEoza3",
+  "generations_count": 1,
+  "seed": null,
+  "prompt": "Photorealistic portrait of Riley with asymmetric facial cyberware and a mechanical neck.",
+  "prompt_role": "Optional short subject description, not a creative redesign instruction",
+  "batch_estimate": {
+    "credits": 969.6,
+    "price_cents": 1407.8592,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 41
+  },
+  "reported_run_credits": 484.8,
+  "recorded_at": "2026-10-26T14:27:04+05:30",
+  "notes": [
+    "User approved upscaling selected references.",
+    "Current Topaz v2 selected via Playwright because the connector enum only exposes the obsolete identifier.",
+    "2x High Fidelity V3, face enhancement disabled, cropping disabled. Original preserved."
+  ],
+  "width": 1792,
+  "height": 2304,
+  "bytes": 6008445,
+  "sha256": "995a31dcc42ece417283424a346f7624973b38f614535eaa0dee34bd7e991118",
+  "provider_reported_price": {
+    "credits": 484.8,
+    "price_cents": 703.9296,
+    "cost_fiat_currency": "inr"
+  },
+  "completed_at": "2026-10-26T14:28:04+05:30",
+  "review": {
+    "reviewed_at": "2026-10-26T14:36:25+05:30",
+    "reviewer": "assistant",
+    "design_preserved_for_reference_use": true,
+    "user_review_pending": true,
+    "notes": [
+      "Selected design and implant side broadly retained; no claim of pixel identity.",
+      "Thin dark edge visible; original output retained without crop.",
+      "Selected native source remains canonical; this is a prepared derivative."
+    ]
+  }
+}

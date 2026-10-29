@@ -1,0 +1,33 @@
+{
+  "audio_tracks" : [
+    {
+      "channels" : 2,
+      "codec_fourcc" : "aac ",
+      "duration_seconds" : 12.064,
+      "sample_rate" : 32000
+    }
+  ],
+  "duration_seconds" : 12.042,
+  "extracted_frame_seconds" : 12,
+  "frame_height" : 480,
+  "frame_width" : 854,
+  "last_frame_file" : "assets\/06-shots\/reviews\/shot-04-05-continuous-seedance-480p-v01\/last-frame.png",
+  "last_frame_sha256" : "c0e544d85a36ece78e5455ca84632130e692f9e5ed9c9c3835a8047dc8ea3ba0",
+  "last_picture_frame_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/shot-04-05-continuous-seedance-480p-v01\/last-picture-frame.png",
+  "last_picture_frame_seconds" : 12,
+  "last_picture_frame_sha256" : "c0e544d85a36ece78e5455ca84632130e692f9e5ed9c9c3835a8047dc8ea3ba0",
+  "last_video_sample_seconds" : 12,
+  "near_black_detection" : "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+  "near_black_frame_times_seconds" : [
+
+  ],
+  "nominal_fps" : 24,
+  "review_limits" : "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+  "script" : "scripts\/inspect-review-video.swift",
+  "source_file" : "assets\/06-shots\/videos\/shot-04-05-continuous-seedance-480p-v01.mp4",
+  "source_modified" : false,
+  "source_sha256" : "3c3413da46200a72926418e20ec5fa6cc2177af0d0dcdf203353f976111abf39",
+  "video_codec_fourcc" : "avc1",
+  "video_duration_seconds" : 12.042,
+  "video_samples" : 289
+}

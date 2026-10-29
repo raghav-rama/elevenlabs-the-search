@@ -17,7 +17,7 @@ slim cyan-edged metallic inlays replace the large robot assemblies. The gold dre
 black/gold boots, framing and overall face/neck design remain visually consistent.
 The stripes read mainly as luminous fine traces with metallic borders. The user
 approved this skin/chrome balance and outfit as rendered. Use the selected Riley
-portrait for detailed face/neck continuity; no upscale has started.
+portrait for detailed face/neck continuity; a [prepared 2x derivative](images/wardrobe-cyberpunk-05-v02-upscale-2x.png) is now available for reference use.
 
 The earlier 85–90% skin wording was a prompt target, not a measured output ratio.
 Preserve the current boot height and shape in this approved reference. The original
@@ -95,7 +95,7 @@ selected portrait before production. Option 1 partly covers the neck; option 2
 introduces a low neckline; option 3's stride clearance needs motion review.
 
 The earlier assistant recommendation of option 4 is superseded by the user's
-dress and exposed-chrome direction. No upscale or video generation has started.
+dress and exposed-chrome direction. This earlier batch remains preserved; current upscale and video work is tracked in [STATUS.md](../../STATUS.md).
 
 Exact prompts and generation records are beside the category's images and in
 `prompts/`; [the manifest](cyberpunk-manifest.json) tracks state and dependencies.

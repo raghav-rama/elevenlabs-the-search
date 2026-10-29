@@ -1,6 +1,16 @@
 # AFTERHUMAN assets
 
-## Current post-upgrade look development
+## Current post-upgrade look and continuation
+
+Locked shot: [continuous Seedance departure and transformation](06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/README.md).
+The user approved this 12-second 480p take as rendered on October 29, 2026.
+Use it in place of separate shots 04 and 05 in the next assembly.
+Existing assembled previews and original sources remain preserved.
+
+Previous assembled review: [train-departure correction v02](08-edit/transformation-sequence-v02/README.md),
+including the assembled preview and four individual corrected clips. The train
+departs after door closure and stays away in the following shots. User review
+is pending; approved sources and earlier prototypes remain preserved.
 
 Character designs, facial cyberware and hair references live in
 [01-riley](01-riley/README.md); clothing, accessories and body styling live in
@@ -12,8 +22,8 @@ The user selected **Riley concept 3, asymmetric mechanical jaw**, from the
 [character batch](01-riley/CYBERPUNK-GALLERY.md) and requested a new post-upgrade
 outfit. The user approved [wardrobe 05-v02](02-wardrobe/CYBERPUNK-GALLERY.md):
 gold wrap dress, current black/gold boots and natural skin with slim chrome/cyan
-inlays. These two selected references define the upgraded look. No upscale or
-video test has started. The earlier
+inlays. These two selected references define the upgraded look. Both have prepared Topaz 2x derivatives. The new station still and first MiniMax
+H3 motion prototype are tracked in [the reveal brief](06-shots/video-prompts/shot-05-07-transform-sequence-v01.md). The earlier
 restrained station design was rejected. The approved opening and its office
 wardrobe remain preserved; current exported-edit files are indexed in
 [08-edit](08-edit/README.md).
@@ -96,8 +106,8 @@ If one of these changes, update the affected prompt files before generation.
 
 Post-opening narration: [09-voiceover/README.md](09-voiceover/README.md) contains
 the user's existing ElevenLabs VO, its original-file provenance and cue-planning
-notes. The selected instant station reveal is described in
-[shot 05's brief](06-shots/video-prompts/shot-05-instant-upgrade-brief-v01.md).
+notes. The requested visible transformation, eye push and speed launch are described in
+[shot 05's brief](06-shots/video-prompts/shot-05-07-transform-sequence-v01.md).
 
 ```text
 assets/

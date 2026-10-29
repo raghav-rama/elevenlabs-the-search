@@ -1,0 +1,33 @@
+{
+  "audio_tracks" : [
+    {
+      "channels" : 2,
+      "codec_fourcc" : "aac ",
+      "duration_seconds" : 24.708333333333332,
+      "sample_rate" : 48000
+    }
+  ],
+  "duration_seconds" : 24.708333333333332,
+  "extracted_frame_seconds" : 24.666666666666668,
+  "frame_height" : 1080,
+  "frame_width" : 1920,
+  "last_frame_file" : "assets\/08-edit\/transformation-sequence-v01\/last-frame.png",
+  "last_frame_sha256" : "b82e4fea4aeab7524a0ed8f17355188b63ae3ae1eb281e37ff66dc0753d6eaf1",
+  "last_picture_frame_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/08-edit\/transformation-sequence-v01\/last-picture-frame.png",
+  "last_picture_frame_seconds" : 24.666666666666668,
+  "last_picture_frame_sha256" : "b82e4fea4aeab7524a0ed8f17355188b63ae3ae1eb281e37ff66dc0753d6eaf1",
+  "last_video_sample_seconds" : 24.666666666666668,
+  "near_black_detection" : "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+  "near_black_frame_times_seconds" : [
+
+  ],
+  "nominal_fps" : 24,
+  "review_limits" : "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+  "script" : "scripts\/inspect-review-video.swift",
+  "source_file" : "assets\/08-edit\/transformation-sequence-v01\/afterhuman-transformation-preview-v01.mp4",
+  "source_modified" : false,
+  "source_sha256" : "476fc168180d435d1b5a506b1fa0c984432e2bcdad31cf5acd1e2e5fef9a434f",
+  "video_codec_fourcc" : "avc1",
+  "video_duration_seconds" : 24.708333333333332,
+  "video_samples" : 593
+}

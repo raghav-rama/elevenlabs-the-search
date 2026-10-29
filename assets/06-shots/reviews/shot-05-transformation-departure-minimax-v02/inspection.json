@@ -1,0 +1,33 @@
+{
+  "audio_tracks" : [
+    {
+      "channels" : 2,
+      "codec_fourcc" : "aac ",
+      "duration_seconds" : 6.5919999999999996,
+      "sample_rate" : 32000
+    }
+  ],
+  "duration_seconds" : 6.5839999999999996,
+  "extracted_frame_seconds" : 6.541666666666667,
+  "frame_height" : 768,
+  "frame_width" : 1344,
+  "last_frame_file" : "assets\/06-shots\/reviews\/shot-05-transformation-departure-minimax-v02\/last-frame.png",
+  "last_frame_sha256" : "d91a9e6a0747fb8550ce39b81b6116efe362d7e9b36fed4182aeaadebdcec61c",
+  "last_picture_frame_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/shot-05-transformation-departure-minimax-v02\/last-picture-frame.png",
+  "last_picture_frame_seconds" : 6.541666666666667,
+  "last_picture_frame_sha256" : "d91a9e6a0747fb8550ce39b81b6116efe362d7e9b36fed4182aeaadebdcec61c",
+  "last_video_sample_seconds" : 6.541666666666667,
+  "near_black_detection" : "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+  "near_black_frame_times_seconds" : [
+
+  ],
+  "nominal_fps" : 24,
+  "review_limits" : "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+  "script" : "scripts\/inspect-review-video.swift",
+  "source_file" : "assets\/06-shots\/videos\/shot-05-transformation-departure-minimax-v02.mp4",
+  "source_modified" : false,
+  "source_sha256" : "828bc456834c8e97f69cec11b602527cbb792257972441734916fcea73182f46",
+  "video_codec_fourcc" : "avc1",
+  "video_duration_seconds" : 6.5839999999999996,
+  "video_samples" : 158
+}

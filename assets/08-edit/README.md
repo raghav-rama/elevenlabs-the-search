@@ -1,5 +1,17 @@
 # Opening review cuts
 
+Selected for the next assembly: [continuous Seedance shots 04–05](../06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/README.md),
+approved and locked by the user on October 29, 2026. It replaces the separate
+departure/transformation clips. Existing assembled previews below have not yet
+been updated to include it; later shots and final sound mixing remain open.
+
+Current continuation prototype: [train-departure correction v02](transformation-sequence-v02/README.md).
+It retains the first three FCP shots and original VO, with four new MiniMax
+corrections from door closure through launch. The train departs and the later
+shots maintain the cleared track. This version awaits user review.
+The [original transformation prototype](transformation-sequence-v01/README.md)
+and earlier opening exports below remain preserved.
+
 Current working export: [trimmed FCP opening v01](fcp-opening-trimmed-v01/fcp-opening-trimmed-v01.mov).
 The user requested removing the trailing black frame. This version is 224 frames,
 9.333333 seconds at 24 fps, with audio trimmed to the same endpoint. Passthrough

@@ -1,0 +1,13 @@
+{
+  "provider": "ElevenLabs",
+  "operation": "attach_existing_local_preview",
+  "source_file": "assets/08-edit/transformation-sequence-v01/afterhuman-transformation-preview-v01.mp4",
+  "source_sha256": "476fc168180d435d1b5a506b1fa0c984432e2bcdad31cf5acd1e2e5fef9a434f",
+  "flow_url": "https://elevenlabs.io/app/flows/1KlNu0Dsak5777WphodD",
+  "asset_id": "G7JfnJsGOslxgHfq4DLH",
+  "name": "ASSEMBLED PREVIEW — Hook to launch — VO timed",
+  "mime_type": "video/mp4",
+  "size_bytes": 29856197,
+  "flow_id": "1KlNu0Dsak5777WphodD",
+  "node_id": "TeacY3V3yxXUgirgOSm6"
+}

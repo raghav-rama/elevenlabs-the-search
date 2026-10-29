@@ -1,0 +1,79 @@
+{
+  "asset_id": "shot-05-transform-hands-end-v01",
+  "status": "rejected_by_assistant_pose_mismatch",
+  "provider": "ElevenLabs",
+  "model_id": "gemini-2.5-flash-image",
+  "model_parameters": {
+    "images": [
+      {
+        "template_node_id": "nHEd5dEgL1hxUoMIBM00"
+      },
+      {
+        "template_node_id": "Zur4iWNgXYyYaCFFOzEg"
+      },
+      {
+        "template_node_id": "iwrdhTmTwEogFkQISOR7"
+      }
+    ],
+    "aspect_ratio": "16:9"
+  },
+  "prompt": "Edit the supplied full-body train-station frame into the final frame of Riley's cybernetic upgrade. Image 1 is the exact composition and station master. Preserve its camera, perspective, morning daylight, closed graphite train doors, carriage 07, cyan/magenta strips, skyline, yellow safety line, wet platform and Riley's foot contact position and scale. Image 2 is the authority for her face, brunette bob with teal accent, asymmetric cheek/jaw and mechanical neck. Image 3 is the authority for her liquid-gold sleeveless wrap dress, belt, asymmetric skirt, existing black/gold knee-height boots and mostly human limbs with slim chrome/cyan inlays. Remove the office shirt, black skirt, ID, lanyard and shoulder bag; the transformation is fully complete. Do not transfer the portrait's office clothes or the wardrobe studio background.\n\nRiley has just realized she has upgraded. She raises both HUMAN hands to lower-chest height, elbows comfortably bent, palms tilted toward herself and fingers naturally separated, and looks down at them with surprised delight. Both hands have five believable fingers and natural skin; only narrow chrome traces continue from her forearms onto the backs of her hands. Her feet stay grounded in the original station position. Preserve natural skin on arms and thighs; no full robot limbs. Keep the selected face with natural brown eye viewer LEFT and cyan-ring eye plus titanium cheek hardware viewer RIGHT, and the full mechanical neck with cyan/magenta accents. Her mouth is gently parted in a small amazed breath, not a large smile. Her body remains fully dressed, with identical outfit coverage to the gold reference.\n\nPhotorealistic live-action sci-fi, convincing skin and metallic fabric, physically grounded reflections. One 16:9 wide full-body image, same world and person as the supplied opening frame. No extra people, weapon, blue skin, costume borrowed from other characters, captions, graphic overlay, motion blur, glow cloud or transformation effect still in progress.",
+  "prompt_file": "assets/06-shots/prompts/shot-05-transform-hands-end-v01.txt",
+  "flow_id": "1KlNu0Dsak5777WphodD",
+  "flow_url": "https://elevenlabs.io/app/flows/1KlNu0Dsak5777WphodD",
+  "node_id": "v6FEE8UGiMnEHoApUizU",
+  "session_id": "XFDfg2rvMfkdUao5vVB9",
+  "generation_id": "AGUSBc8mJdP55lKJ7GqO",
+  "reported_run_credits": 298.64437499999997,
+  "batch_estimate": {
+    "credits": 581.570625,
+    "price_cents": 844.4405475,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 16
+  },
+  "generations_count": 1,
+  "seed": null,
+  "selected": false,
+  "user_approved": false,
+  "output_file": "assets/06-shots/images/shot-05-transform-hands-end-v01.png",
+  "references": [
+    {
+      "node_id": "nHEd5dEgL1hxUoMIBM00",
+      "file": "assets/06-shots/reviews/shot-04-full-continuation-source-v01/last-frame.png",
+      "sha256": "99bb9b57c2c048ce08da52282151b60c230bfcdd18326295e212799b5bb67275"
+    },
+    {
+      "node_id": "Zur4iWNgXYyYaCFFOzEg",
+      "file": "assets/01-riley/images/riley-cyberpunk-03-v01-upscale-2x.png",
+      "sha256": "995a31dcc42ece417283424a346f7624973b38f614535eaa0dee34bd7e991118"
+    },
+    {
+      "node_id": "iwrdhTmTwEogFkQISOR7",
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02-upscale-2x.png",
+      "sha256": "207fc20a36d2a8d9c8198e0e0ddaaea344e80effa3c484077fa54a8f24bc5a99"
+    }
+  ],
+  "recorded_at": "2026-10-26T15:16:05+05:30",
+  "prompt_sha256": "599d24ce25941aa860564874f42c5b47a58a4efa7a088f83210cc4949a5bf2e2",
+  "bytes": 2591923,
+  "sha256": "8e5c3013d631c104d739bc14f44b2734aeac0965cae8fee88eed61c65796f811",
+  "width": 1344,
+  "height": 768,
+  "provider_reported_price": {
+    "credits": 298.64437499999997,
+    "price_cents": 433.63163249999997,
+    "cost_fiat_currency": "inr"
+  },
+  "completed_at": "2026-10-26T15:16:27+05:30",
+  "review": {
+    "reviewed_at": "2026-10-26T15:19:25+05:30",
+    "reviewer": "assistant",
+    "notes": [
+      "Palms face the viewer and hands are raised near the head; gaze is forward rather than down at hands.",
+      "Open-mouthed surprise is too broad for the intended hand inspection.",
+      "Not used as a video endpoint. Retained for provenance; no image retry."
+    ],
+    "user_approved": false
+  }
+}

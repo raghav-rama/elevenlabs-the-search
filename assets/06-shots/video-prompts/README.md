@@ -1,5 +1,16 @@
 # Four-shot opening — video prompts
 
+Locked take: [continuous departure and transformation prompt](shot-04-05-continuous-seedance-480p-v01.txt),
+generated once with Seedance 2.5 at 480p / 12 seconds using the two corrected v02
+videos as references. [Clip and review](../reviews/shot-04-05-continuous-seedance-480p-v01/README.md)
+are user-approved and selected for the departure/transformation sequence;
+the earlier assembled preview remains unchanged.
+
+Current post-opening work: [train-departure correction](shot-04-07-train-departure-correction-v02.md),
+with an [assembled v02 prototype](../../08-edit/transformation-sequence-v02/README.md).
+The [original transformation brief](shot-05-07-transform-sequence-v01.md) remains archived.
+This uses ElevenLabs MiniMax H3; the earlier opening-generation history follows.
+
 Motion-control research (2026-10-15): see the [evidence and proposed next tests](../../../research/video-motion-control-2026-10-15.md)
 for motion-reference conditioning, chin stabilization, and speech-free audio.
 Those were research recommendations; the later user-authorized motion-reference test

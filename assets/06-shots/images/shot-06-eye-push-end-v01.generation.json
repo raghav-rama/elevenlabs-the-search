@@ -1,0 +1,70 @@
+{
+  "asset_id": "shot-06-eye-push-end-v01",
+  "status": "assistant_reviewed_for_prototype_endpoint",
+  "provider": "ElevenLabs",
+  "model_id": "gemini-2.5-flash-image",
+  "model_parameters": {
+    "images": [
+      {
+        "template_node_id": "Zur4iWNgXYyYaCFFOzEg"
+      },
+      {
+        "template_node_id": "nHEd5dEgL1hxUoMIBM00"
+      }
+    ],
+    "aspect_ratio": "16:9"
+  },
+  "prompt": "Create a photorealistic extreme close-up of the selected cybernetic Riley's EYES as the endpoint of a rapid camera push-in at the same futuristic morning train station. Image 1 is the exact identity, eye and cyberware reference. Image 2 supplies only the station daylight, warm train-window bounce and cyan/magenta reflections. Preserve Riley's young adult face and skin texture, eyebrow shape, asymmetry, brunette hair and the selected cyberware side. Never replace her identity with another person.\n\nVery tight cinematic frontal framing: both eyes, eyebrows and the bridge of her nose dominate a horizontal 16:9 frame; only a sliver of upper cheeks and forehead is visible, chin and mouth are outside frame. Natural brown eye on viewer LEFT. Clearly luminous but detailed cyan cybernetic iris ring on viewer RIGHT; preserve its realistic pupil and the visible edge of titanium cheek/temple hardware on that same side. Her eyes meet the lens with alert intelligence and playful confidence, eyebrows relaxed with a subtle one-sided lift suggesting the smirk that preceded this close-up. Sharp eyes and real skin detail, gentle shallow focus, natural morning light with restrained gold/cyan bounce. The eye is a solid physical implant, not a floating HUD panel. No new eye colors, mirrored implants, split-face collage, text, logos, extra eyes, blue skin, injury, full metal face or UI. Maintain the same Riley rather than a new character.",
+  "prompt_file": "assets/06-shots/prompts/shot-06-eye-push-end-v01.txt",
+  "flow_id": "1KlNu0Dsak5777WphodD",
+  "flow_url": "https://elevenlabs.io/app/flows/1KlNu0Dsak5777WphodD",
+  "node_id": "OSMcJK5qm94UdtL9np0d",
+  "session_id": "qJHmXdftscl38ct5ACgL",
+  "generation_id": "xlaC27Br3fzaZFaf2rI4",
+  "reported_run_credits": 282.92625,
+  "batch_estimate": {
+    "credits": 581.570625,
+    "price_cents": 844.4405475,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 16
+  },
+  "generations_count": 1,
+  "seed": null,
+  "selected": false,
+  "user_approved": false,
+  "output_file": "assets/06-shots/images/shot-06-eye-push-end-v01.png",
+  "references": [
+    {
+      "node_id": "Zur4iWNgXYyYaCFFOzEg",
+      "file": "assets/01-riley/images/riley-cyberpunk-03-v01-upscale-2x.png",
+      "sha256": "995a31dcc42ece417283424a346f7624973b38f614535eaa0dee34bd7e991118"
+    },
+    {
+      "node_id": "nHEd5dEgL1hxUoMIBM00",
+      "file": "assets/06-shots/reviews/shot-04-full-continuation-source-v01/last-frame.png",
+      "sha256": "99bb9b57c2c048ce08da52282151b60c230bfcdd18326295e212799b5bb67275"
+    }
+  ],
+  "recorded_at": "2026-10-26T15:16:05+05:30",
+  "prompt_sha256": "fdbd54697566a6b46e75831b297d29881f924e2e3c33a3de148e3221910d24af",
+  "bytes": 2245777,
+  "sha256": "c488691407d09574253db7c64b81019a6f29a37ee1298e939413bd94ff2baa40",
+  "width": 1344,
+  "height": 768,
+  "provider_reported_price": {
+    "credits": 282.92625,
+    "price_cents": 410.808915,
+    "cost_fiat_currency": "inr"
+  },
+  "completed_at": "2026-10-26T15:16:29+05:30",
+  "review": {
+    "reviewed_at": "2026-10-26T15:19:25+05:30",
+    "reviewer": "assistant",
+    "notes": [
+      "Eye framing and implant laterality retained; brown eye viewer left, cyan eye/hardware viewer right.",
+      "Suitable as push-in endpoint; fine likeness and lighting require user review."
+    ],
+    "user_approved": false
+  }
+}

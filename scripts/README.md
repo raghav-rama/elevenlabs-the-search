@@ -1,5 +1,148 @@
 # Local production scripts
 
+## Review the continuous Seedance departure and transformation
+
+The [approved 480p take](../assets/06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/README.md)
+was generated once from both corrected MiniMax clips. The review tools preserve the native source.
+Choose a fresh output directory:
+
+```sh
+continuous_review_dir=$(mktemp -d /private/tmp/afterhuman-continuous.XXXXXX)
+continuous_input=assets/06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  scripts/inspect-review-video.swift "$continuous_input" \
+  "$continuous_review_dir/last-frame.png" "$continuous_review_dir/inspection.json"
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  assets/06-shots/reviews/extract-contact-sheet.swift "$continuous_input" \
+  "$continuous_review_dir/contact-sheet.jpg" 0 0.5 25 5 427 240
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  assets/06-shots/reviews/extract-contact-sheet.swift "$continuous_input" \
+  "$continuous_review_dir/join-detail.jpg" 4.5 0.125 17 4 427 240
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  assets/06-shots/reviews/extract-contact-sheet.swift "$continuous_input" \
+  "$continuous_review_dir/join-frames.jpg" 4.9166666667 0.0416666667 13 3 640 360
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  assets/06-shots/reviews/extract-contact-sheet.swift "$continuous_input" \
+  "$continuous_review_dir/upgrade-detail.jpg" 6.0 0.125 13 4 427 240
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  scripts/inspect-frame-continuity.swift "$continuous_input" \
+  "$continuous_review_dir/frame-continuity.json"
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  assets/06-shots/audio/extract-audio.swift "$continuous_input" \
+  "$continuous_review_dir/native-audio.wav"
+```
+
+`inspect-frame-continuity.swift` measures normalized adjacent RGB differences
+on an eight-pixel grid for the full image, upper background and subject region.
+It refuses existing output paths and stores the input hash and every measured pair.
+The measurements are not motion-compensated: natural motion can score highly,
+and low scores do not establish smooth playback or correct anatomy.
+No audio transcription or full listening review is implied.
+
+
+## Review and assemble the train-departure correction
+
+The v02 correction uses the existing review and assembly scripts. Original
+Seedance/MiniMax sources remain intact; the corrected takes are new files.
+Use fresh output directories when reproducing checks:
+
+```sh
+departure_review_dir=$(mktemp -d /private/tmp/afterhuman-departure.XXXXXX)
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  scripts/inspect-review-video.swift \
+  assets/06-shots/videos/shot-04-train-departure-minimax-v02.mp4 \
+  "$departure_review_dir/last-frame.png" "$departure_review_dir/inspection.json"
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  assets/06-shots/reviews/extract-contact-sheet.swift \
+  assets/06-shots/videos/shot-04-train-departure-minimax-v02.mp4 \
+  "$departure_review_dir/contact-sheet.jpg" 0 0.25 21 4 480 274
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  assets/06-shots/reviews/extract-contact-sheet.swift \
+  assets/06-shots/videos/shot-04-train-departure-minimax-v02.mp4 \
+  "$departure_review_dir/closure-detail.jpg" 0.9166666667 0.0833333333 11 3 672 384
+```
+
+For shot 05 use 0 / 0.375 / 18 / 3 / 560 / 320 for contact-sheet arguments;
+for shots 06 and 07 use 0 / 0.375 / 14 / 4 / 480 / 274. Actual sample times
+are labeled in each sheet. Generated action timing may differ from the prompt.
+The [correction brief](../assets/06-shots/video-prompts/shot-04-07-train-departure-correction-v02.md)
+records continuity requirements and the actual endpoint adaptation.
+
+To reproduce the v02 assembly, choose a new output path:
+
+```sh
+departure_edit_dir=$(mktemp -d /private/tmp/afterhuman-departure-edit.XXXXXX)
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  scripts/assemble-continuation.swift \
+  assets/08-edit/transformation-sequence-v02/timeline.json \
+  "$departure_edit_dir/afterhuman-transformation-preview-v02.mp4"
+```
+
+The original VO is read from the verified decoded WAV in the v01 folder; no
+duplicate source or generated speech is needed. Native take files are untouched.
+
+## Assemble the visible-transformation continuation
+
+`assemble-continuation.swift` derives from the existing opening assembler and
+adds optional per-clip audio gains, native-audio ducking under narration, and
+explicit fit/fill framing. Sources are read-only; output paths must be new.
+The timeline stores the exact cuts, source paths, VO placement and audio settings.
+
+```sh
+continuation_review_dir=$(mktemp -d /private/tmp/afterhuman-continuation.XXXXXX)
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  scripts/assemble-continuation.swift \
+  assets/08-edit/transformation-sequence-v01/timeline.json \
+  "$continuation_review_dir/afterhuman-transformation-preview-v01.mp4"
+```
+
+The saved prototype is [indexed here](../assets/08-edit/transformation-sequence-v01/README.md).
+It keeps the first 146 frames of the Final Cut export, then full Seedance shot
+four and the three new MiniMax shots. Original source speed is preserved.
+Narration begins at 7.875s; its UPGRADE onset is 12.375s / 00:00:12:09 at 24fps.
+Native 1344x768 clips are scaled to fill 1920x1080 with a small vertical crop;
+this affects only the preview, not downloaded originals.
+
+To reproduce native take reviews, use `inspect-review-video.swift` as above and
+`assets/06-shots/reviews/extract-contact-sheet.swift` with these arguments:
+
+| Input basename | Start | Interval | Count | Columns | Tile width | Tile height |
+|---|---:|---:|---:|---:|---:|---:|
+| shot-05-transformation-minimax-v01 | 0 | 0.375 | 18 | 3 | 560 | 320 |
+| shot-06-eye-push-minimax-v01 | 0 | 0.375 | 14 | 4 | 480 | 274 |
+| shot-07-speed-launch-minimax-v01 | 0 | 0.375 | 14 | 4 | 480 | 274 |
+
+Inputs are in `assets/06-shots/videos/`; review evidence is in matching
+subdirectories of `assets/06-shots/reviews/`. Sampling and automated speech
+checks do not substitute for final playback/listening review.
+
+## Review the station-upgrade MiniMax prototype
+
+The original downloaded MP4 is preserved. Reproduce its frame inspection,
+11-frame contact sheet and decoded native-audio copy in a new directory:
+
+```sh
+shot05_review_dir=$(mktemp -d /private/tmp/afterhuman-shot05-review.XXXXXX)
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  scripts/inspect-review-video.swift \
+  assets/06-shots/videos/shot-05-station-upgrade-minimax-test-v01.mp4 \
+  "$shot05_review_dir/last-frame.png" "$shot05_review_dir/inspection.json"
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  assets/06-shots/reviews/extract-contact-sheet.swift \
+  assets/06-shots/videos/shot-05-station-upgrade-minimax-test-v01.mp4 \
+  "$shot05_review_dir/contact-sheet.jpg" 0 0.5 11 4 448 256
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  assets/06-shots/audio/extract-audio.swift \
+  assets/06-shots/videos/shot-05-station-upgrade-minimax-test-v01.mp4 \
+  "$shot05_review_dir/native-audio.wav"
+```
+
+Saved evidence is in [the shot-five review directory](../assets/06-shots/reviews/shot-05-station-upgrade-minimax-test-v01/).
+Sampled frames and automated speech checks do not establish complete playback
+or listening approval. The source is 1344x768, 24 fps, 124 picture frames despite
+the five-second request. Keep the actual aspect ratio in mind when conforming
+to the 1920x1080 edit; no crop, retime or transcode has been applied here.
+
 ## Prepare a compact identity reference
 
 `sh scripts/prepare-identity-reference.sh SOURCE.png NEW_OUTPUT.jpg` reproduces

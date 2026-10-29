@@ -1,0 +1,111 @@
+{
+  "asset_id": "shot-05-station-upgrade-minimax-test-v01",
+  "purpose": "Single inexpensive motion prototype, not production-selected footage",
+  "provider": "ElevenLabs",
+  "model_id": "minimax-h3",
+  "model_parameters": {
+    "start_frame": {
+      "template_node_id": "mCycCJe45cOeKDHuHZfi"
+    },
+    "resolution": "768p",
+    "duration_secs": 5,
+    "enhance_prompt": true
+  },
+  "prompt": "Five-second photorealistic live-action sci-fi advertising shot, one continuous locked-off wide shot. Use the supplied starting frame as the exact initial composition and as the authority for Riley's identity, gold dress, skin/chrome inlays, black-and-gold boots, facial cyberware, station and lighting. Riley has ALREADY upgraded when the clip begins. This is a calm confident reveal, not a transformation.\n\nFrom the first frame she stands with her feet planted beside the closed train doors. She makes one small natural exhale, subtly relaxes her shoulders and lifts her chin just a fraction, maintaining a composed forward gaze. Her mouth stays closed. The movement is restrained and believable. Her bob shifts slightly in the station air; gold fabric catches the existing light with tiny natural movements. The cyan eye on viewer RIGHT stays softly illuminated without a flash, floating HUD or change of face. Hold her confident pose through the end, allowing clean edit handles.\n\nKeep the camera completely fixed: no push-in, zoom, pan, tilt, reframing, shake or cuts. Keep her head size and position, body proportions, feet, five-finger hands, gold dress silhouette, natural skin and sparse chrome inlays consistent. Preserve the asymmetric facial hardware on viewer RIGHT and the mechanical neck. Do not mirror her, replace her arms or legs with metal, make her walk or run, or change her outfit. The train remains stationary with the doors closed. Preserve carriage 07, platform architecture, skyline, wet reflections, morning light, cyan/magenta accents and existing background geometry.\n\nAudio: only a quiet steady distant station and train ventilation ambience. No speech, lip-sync, announcements, music, footsteps, voiceover or activation sound. No added text, captions, logos, new people, particles, morphs, energy bursts or transition effects. The instant upgrade cut and the original narration will be added separately during editing.",
+  "prompt_file": "assets/06-shots/video-prompts/shot-05-station-upgrade-minimax-test-v01.txt",
+  "flow_id": "52Cd3TRtBtv33mwKHgdn",
+  "flow_url": "https://elevenlabs.io/app/flows/52Cd3TRtBtv33mwKHgdn",
+  "node_id": "nH8SAuhKdiR868kY68Eh",
+  "session_ids": [
+    "oknHdrEfovxplFy6IKXT"
+  ],
+  "generation_id": "brM3hvfRH9FOuxNzsU7X",
+  "estimate": {
+    "credits": 1818.0000000000002,
+    "price_cents": 2639.7360000000003,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 240
+  },
+  "reported_run_credits": 1818.0000000000002,
+  "generations_count": 1,
+  "seed": null,
+  "status": "user_feedback_too_static_continuation_unresolved",
+  "selected": false,
+  "user_approved": false,
+  "references": [
+    {
+      "node_id": "mCycCJe45cOeKDHuHZfi",
+      "file": "assets/06-shots/images/shot-05-station-upgrade-v02.png",
+      "role": "start_frame",
+      "sha256": "a7e9f49adf15444bfc3709badcdbff29d67650b8d9a2dae114b175ad18c132bb"
+    }
+  ],
+  "output_file": "assets/06-shots/videos/shot-05-station-upgrade-minimax-test-v01.mp4",
+  "notes": [
+    "Actual image-to-video settings inherit starting-frame aspect ratio; no incompatible aspect_ratio or reference_images passed.",
+    "Provider default enhance_prompt=true remained after an attempted connector update to false; verified actual value before run.",
+    "Exact submitted prompt is saved; provider-internal enhanced prompt is not exposed.",
+    "User approved one MiniMax H3 test after still review; assistant reviewed the still for prototype use. New still is not user-approved."
+  ],
+  "recorded_at": "2026-10-26T14:41:15+05:30",
+  "prompt_sha256": "1337e29c2170a149f42661ce181d9dc3b86d0ff5fa33c6160b7bd240f6e59656",
+  "provider_reported_price": {
+    "credits": 1818.0000000000002,
+    "price_cents": 2639.7360000000003,
+    "cost_fiat_currency": "inr"
+  },
+  "width": 1344,
+  "height": 768,
+  "provider_duration_seconds": 5.184,
+  "bytes": 1598921,
+  "sha256": "9624013538425cb35ee3b6579ed3b8cbf4d9bee23d1f233124447edcea796e4e",
+  "completed_at": "2026-10-26T14:42:42+05:30",
+  "inspection_file": "assets/06-shots/reviews/shot-05-station-upgrade-minimax-test-v01/inspection.json",
+  "actual_media": {
+    "frame_width": 1344,
+    "frame_height": 768,
+    "nominal_fps": 24,
+    "video_samples": 124,
+    "video_duration_seconds": 5.167,
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 5.184,
+        "sample_rate": 32000
+      }
+    ]
+  },
+  "review": {
+    "reviewed_at": "2026-10-26T14:46:42+05:30",
+    "reviewer": "assistant",
+    "method": "11 sampled frames every 0.5 seconds plus metadata and automated native-audio transcription",
+    "full_playback_review_performed": false,
+    "listening_review_performed": false,
+    "user_review_pending": true,
+    "observations": [
+      "Composition and background remain broadly stable across sampled frames; camera is not visibly reframed.",
+      "Gold dress, human skin and chrome inlays remain consistent; motion is subtle.",
+      "Face and cyan eye remain small and soft at wide-shot scale; detailed likeness still needs review.",
+      "No near-black frames found by the inspection helper.",
+      "Requested five seconds; actual picture has 124 frames at 24 fps (about 5.167s), audio track is 5.184s.",
+      "Actual 1344x768 ratio is 1.75 rather than exact 16:9; keep original, conform deliberately during editing.",
+      "Scribe returned no speech. Native-audio quality and continuity remain listening-review items."
+    ]
+  },
+  "native_audio_review": {
+    "record": "assets/06-shots/reviews/shot-05-station-upgrade-minimax-test-v01/native-audio-speech-check.json",
+    "decoded_rms_dbfs": -23.550552657529906,
+    "decoded_sample_peak_dbfs": -13.12958056881623,
+    "decoded_sample_rate": 48000,
+    "decoded_channels": 2,
+    "decoded_duration_seconds": 5.1835,
+    "source_audio_sample_rate": 32000
+  },
+  "user_feedback": {
+    "recorded_at": "2026-10-26T14:55:34+05:30",
+    "summary": "Riley is just standing; user questions how this continues the opening hook.",
+    "scope": "Performance and narrative continuity; no rejection of the approved character or wardrobe inferred."
+  }
+}

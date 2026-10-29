@@ -1,0 +1,2621 @@
+{
+  "frame_count": 289,
+  "grid_step_pixels": 8,
+  "pairs": [
+    {
+      "from_seconds": 0,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.011245902306924462,
+        "subject": 0.006972753436079483,
+        "upper_background": 0.006734279918864076
+      },
+      "to_seconds": 0.041666666666666664
+    },
+    {
+      "from_seconds": 0.041666666666666664,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.012171726426810872,
+        "subject": 0.002562737028967957,
+        "upper_background": 0.0025512733829163767
+      },
+      "to_seconds": 0.08333333333333333
+    },
+    {
+      "from_seconds": 0.08333333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.013412945655935805,
+        "subject": 0.0017009602194787323,
+        "upper_background": 0.0016046878521523502
+      },
+      "to_seconds": 0.125
+    },
+    {
+      "from_seconds": 0.125,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.013760104249383506,
+        "subject": 0.0017407676376449013,
+        "upper_background": 0.0016707985876342822
+      },
+      "to_seconds": 0.16666666666666666
+    },
+    {
+      "from_seconds": 0.16666666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.015335043674789845,
+        "subject": 0.0025691922859678766,
+        "upper_background": 0.002737585455638185
+      },
+      "to_seconds": 0.20833333333333334
+    },
+    {
+      "from_seconds": 0.20833333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.015870136216479334,
+        "subject": 0.0023680034428037256,
+        "upper_background": 0.002582826233941844
+      },
+      "to_seconds": 0.25
+    },
+    {
+      "from_seconds": 0.25,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.015388593651374812,
+        "subject": 0.0014201565399822433,
+        "upper_background": 0.0013402449102246218
+      },
+      "to_seconds": 0.2916666666666667
+    },
+    {
+      "from_seconds": 0.2916666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.013170647282796268,
+        "subject": 0.001638559401812846,
+        "upper_background": 0.0018195477424686292
+      },
+      "to_seconds": 0.3333333333333333
+    },
+    {
+      "from_seconds": 0.3333333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.014198277441817127,
+        "subject": 0.0027176631969660203,
+        "upper_background": 0.0018556081436405922
+      },
+      "to_seconds": 0.375
+    },
+    {
+      "from_seconds": 0.375,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.014513672551054894,
+        "subject": 0.0028489200892977133,
+        "upper_background": 0.0017804823078656693
+      },
+      "to_seconds": 0.4166666666666667
+    },
+    {
+      "from_seconds": 0.4166666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.01346731008083377,
+        "subject": 0.01210253099868215,
+        "upper_background": 0.0006400721208023421
+      },
+      "to_seconds": 0.4583333333333333
+    },
+    {
+      "from_seconds": 0.4583333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.014019506037097982,
+        "subject": 0.024330939508862632,
+        "upper_background": 0.0007347306738787448
+      },
+      "to_seconds": 0.5
+    },
+    {
+      "from_seconds": 0.5,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.015124101561704297,
+        "subject": 0.02894106888297188,
+        "upper_background": 0.0015536022838254027
+      },
+      "to_seconds": 0.5416666666666666
+    },
+    {
+      "from_seconds": 0.5416666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.01399059312198347,
+        "subject": 0.024889319239355875,
+        "upper_background": 0.0012966719254751669
+      },
+      "to_seconds": 0.5833333333333334
+    },
+    {
+      "from_seconds": 0.5833333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.014582086209353518,
+        "subject": 0.02839237203797889,
+        "upper_background": 0.0008399068439636366
+      },
+      "to_seconds": 0.625
+    },
+    {
+      "from_seconds": 0.625,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.014834768798484528,
+        "subject": 0.0324860808520944,
+        "upper_background": 0.0019953421981819494
+      },
+      "to_seconds": 0.6666666666666666
+    },
+    {
+      "from_seconds": 0.6666666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.016280007330033968,
+        "subject": 0.04162457301164622,
+        "upper_background": 0.006424761475471404
+      },
+      "to_seconds": 0.7083333333333334
+    },
+    {
+      "from_seconds": 0.7083333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.01511473540610345,
+        "subject": 0.045626832351596563,
+        "upper_background": 0.009441815040192307
+      },
+      "to_seconds": 0.75
+    },
+    {
+      "from_seconds": 0.75,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.015461079551238576,
+        "subject": 0.05370451061082891,
+        "upper_background": 0.01016753061377806
+      },
+      "to_seconds": 0.7916666666666666
+    },
+    {
+      "from_seconds": 0.7916666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.01669354346099738,
+        "subject": 0.05568519863363742,
+        "upper_background": 0.015261062279317955
+      },
+      "to_seconds": 0.8333333333333334
+    },
+    {
+      "from_seconds": 0.8333333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.01656221367051395,
+        "subject": 0.05573791656580367,
+        "upper_background": 0.014084591691082633
+      },
+      "to_seconds": 0.875
+    },
+    {
+      "from_seconds": 0.875,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.01698593040539063,
+        "subject": 0.059933833615750796,
+        "upper_background": 0.01616707985876359
+      },
+      "to_seconds": 0.9166666666666666
+    },
+    {
+      "from_seconds": 0.9166666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.018601795858529394,
+        "subject": 0.06506038354985326,
+        "upper_background": 0.022578318683795624
+      },
+      "to_seconds": 0.9583333333333334
+    },
+    {
+      "from_seconds": 0.9583333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.02054547675768028,
+        "subject": 0.06994486134645861,
+        "upper_background": 0.02140034557884485
+      },
+      "to_seconds": 1
+    },
+    {
+      "from_seconds": 1,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.021355241992953508,
+        "subject": 0.0668743107668301,
+        "upper_background": 0.025455638193975217
+      },
+      "to_seconds": 1.0416666666666667
+    },
+    {
+      "from_seconds": 1.0416666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.017527131309427995,
+        "subject": 0.04834664730089542,
+        "upper_background": 0.022570806100218114
+      },
+      "to_seconds": 1.0833333333333333
+    },
+    {
+      "from_seconds": 1.0833333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.01690122778083083,
+        "subject": 0.033104709647920234,
+        "upper_background": 0.02750807602734618
+      },
+      "to_seconds": 1.125
+    },
+    {
+      "from_seconds": 1.125,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.017176104086493182,
+        "subject": 0.03005567659162503,
+        "upper_background": 0.02851175719329918
+      },
+      "to_seconds": 1.1666666666666667
+    },
+    {
+      "from_seconds": 1.1666666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.02421619530470332,
+        "subject": 0.034943382016730834,
+        "upper_background": 0.038924198031703564
+      },
+      "to_seconds": 1.2083333333333333
+    },
+    {
+      "from_seconds": 1.2083333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.02503430863518616,
+        "subject": 0.032915355442589334,
+        "upper_background": 0.04085042446097257
+      },
+      "to_seconds": 1.25
+    },
+    {
+      "from_seconds": 1.25,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.018943049701706908,
+        "subject": 0.024095322628366358,
+        "upper_background": 0.028522274810307616
+      },
+      "to_seconds": 1.2916666666666667
+    },
+    {
+      "from_seconds": 1.2916666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.030915439903892623,
+        "subject": 0.026918421689664643,
+        "upper_background": 0.052203440763279055
+      },
+      "to_seconds": 1.3333333333333333
+    },
+    {
+      "from_seconds": 1.3333333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.02659580966342728,
+        "subject": 0.037534091826031526,
+        "upper_background": 0.04072421305687078
+      },
+      "to_seconds": 1.375
+    },
+    {
+      "from_seconds": 1.375,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.035658379655078024,
+        "subject": 0.04119960192581879,
+        "upper_background": 0.057534370069867544
+      },
+      "to_seconds": 1.4166666666666667
+    },
+    {
+      "from_seconds": 1.4166666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.029624132103514136,
+        "subject": 0.03571370935205461,
+        "upper_background": 0.0491082563293522
+      },
+      "to_seconds": 1.4583333333333333
+    },
+    {
+      "from_seconds": 1.4583333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.03804654572108917,
+        "subject": 0.04996153742704209,
+        "upper_background": 0.05974607467508113
+      },
+      "to_seconds": 1.5
+    },
+    {
+      "from_seconds": 1.5,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0353472603994837,
+        "subject": 0.04325129777562644,
+        "upper_background": 0.05713920817369148
+      },
+      "to_seconds": 1.5416666666666667
+    },
+    {
+      "from_seconds": 1.5416666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.03221998248935845,
+        "subject": 0.043320153850291934,
+        "upper_background": 0.051641499511682676
+      },
+      "to_seconds": 1.5833333333333333
+    },
+    {
+      "from_seconds": 1.5833333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.03962637183637419,
+        "subject": 0.04611420425509042,
+        "upper_background": 0.06302005859815232
+      },
+      "to_seconds": 1.625
+    },
+    {
+      "from_seconds": 1.625,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.03994074888522063,
+        "subject": 0.040742354554991325,
+        "upper_background": 0.06431522800691206
+      },
+      "to_seconds": 1.6666666666666667
+    },
+    {
+      "from_seconds": 1.6666666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.04265978457841749,
+        "subject": 0.03726081927970191,
+        "upper_background": 0.06881526556982988
+      },
+      "to_seconds": 1.7083333333333333
+    },
+    {
+      "from_seconds": 1.7083333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.04589314438132132,
+        "subject": 0.06500551386535387,
+        "upper_background": 0.06346931109608632
+      },
+      "to_seconds": 1.75
+    },
+    {
+      "from_seconds": 1.75,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.04467086107547581,
+        "subject": 0.061628338578229865,
+        "upper_background": 0.06086544962812766
+      },
+      "to_seconds": 1.7916666666666667
+    },
+    {
+      "from_seconds": 1.7916666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.04222527640339293,
+        "subject": 0.07075499609994892,
+        "upper_background": 0.05501615205469211
+      },
+      "to_seconds": 1.8333333333333333
+    },
+    {
+      "from_seconds": 1.8333333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.04628550485614472,
+        "subject": 0.0811328976034852,
+        "upper_background": 0.05556306813913363
+      },
+      "to_seconds": 1.875
+    },
+    {
+      "from_seconds": 1.875,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.048085232015959815,
+        "subject": 0.08700072621641167,
+        "upper_background": 0.04954699121027759
+      },
+      "to_seconds": 1.9166666666666667
+    },
+    {
+      "from_seconds": 1.9166666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.04846924439557443,
+        "subject": 0.07955566314317183,
+        "upper_background": 0.0696491623469317
+      },
+      "to_seconds": 1.9583333333333333
+    },
+    {
+      "from_seconds": 1.9583333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.05042229145032559,
+        "subject": 0.09674493665778951,
+        "upper_background": 0.07334986101720437
+      },
+      "to_seconds": 2
+    },
+    {
+      "from_seconds": 2,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.05599535764461126,
+        "subject": 0.120731595793323,
+        "upper_background": 0.08853429494403182
+      },
+      "to_seconds": 2.0416666666666665
+    },
+    {
+      "from_seconds": 2.0416666666666665,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.04966404007085355,
+        "subject": 0.09801124290594089,
+        "upper_background": 0.07942303358124914
+      },
+      "to_seconds": 2.0833333333333335
+    },
+    {
+      "from_seconds": 2.0833333333333335,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.04982367194021601,
+        "subject": 0.09194868070685032,
+        "upper_background": 0.07673503117722238
+      },
+      "to_seconds": 2.125
+    },
+    {
+      "from_seconds": 2.125,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.04942072363732281,
+        "subject": 0.0905457381855344,
+        "upper_background": 0.06913379911351572
+      },
+      "to_seconds": 2.1666666666666665
+    },
+    {
+      "from_seconds": 2.1666666666666665,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.04989860118501876,
+        "subject": 0.10315608273487596,
+        "upper_background": 0.0635128840808359
+      },
+      "to_seconds": 2.2083333333333335
+    },
+    {
+      "from_seconds": 2.2083333333333335,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.047716490542216085,
+        "subject": 0.10483444955485471,
+        "upper_background": 0.05377507324769029
+      },
+      "to_seconds": 2.25
+    },
+    {
+      "from_seconds": 2.25,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.04664264044142794,
+        "subject": 0.09403050108932315,
+        "upper_background": 0.04821726391706154
+      },
+      "to_seconds": 2.2916666666666665
+    },
+    {
+      "from_seconds": 2.2916666666666665,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.045073198542134575,
+        "subject": 0.08747733935823845,
+        "upper_background": 0.04620539403500903
+      },
+      "to_seconds": 2.3333333333333335
+    },
+    {
+      "from_seconds": 2.3333333333333335,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.05285464133732065,
+        "subject": 0.08724602598240803,
+        "upper_background": 0.07060326046127315
+      },
+      "to_seconds": 2.375
+    },
+    {
+      "from_seconds": 2.375,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.05497118889092166,
+        "subject": 0.0815514134323132,
+        "upper_background": 0.0945443618060251
+      },
+      "to_seconds": 2.4166666666666665
+    },
+    {
+      "from_seconds": 2.4166666666666665,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.05621525868914217,
+        "subject": 0.08687269695257997,
+        "upper_background": 0.08470888738637242
+      },
+      "to_seconds": 2.4583333333333335
+    },
+    {
+      "from_seconds": 2.4583333333333335,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.05289414208050524,
+        "subject": 0.0828069609187975,
+        "upper_background": 0.07900383141762482
+      },
+      "to_seconds": 2.5
+    },
+    {
+      "from_seconds": 2.5,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.051216378555572706,
+        "subject": 0.08165469754431191,
+        "upper_background": 0.06870107429945223
+      },
+      "to_seconds": 2.5416666666666665
+    },
+    {
+      "from_seconds": 2.5416666666666665,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.04673304420417958,
+        "subject": 0.07999569649533297,
+        "upper_background": 0.056792126812411275
+      },
+      "to_seconds": 2.5833333333333335
+    },
+    {
+      "from_seconds": 2.5833333333333335,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.05140695946083238,
+        "subject": 0.0809177223701547,
+        "upper_background": 0.0665239275786948
+      },
+      "to_seconds": 2.625
+    },
+    {
+      "from_seconds": 2.625,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.051525054466227925,
+        "subject": 0.06565426719384553,
+        "upper_background": 0.07779280294493299
+      },
+      "to_seconds": 2.6666666666666665
+    },
+    {
+      "from_seconds": 2.6666666666666665,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.04998920855984861,
+        "subject": 0.05774012211194494,
+        "upper_background": 0.06926902561791061
+      },
+      "to_seconds": 2.7083333333333335
+    },
+    {
+      "from_seconds": 2.7083333333333335,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.05363488282124585,
+        "subject": 0.060568600554075994,
+        "upper_background": 0.09274584929757362
+      },
+      "to_seconds": 2.75
+    },
+    {
+      "from_seconds": 2.75,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.05213527986479868,
+        "subject": 0.07397078996207479,
+        "upper_background": 0.09178123356622366
+      },
+      "to_seconds": 2.7916666666666665
+    },
+    {
+      "from_seconds": 2.7916666666666665,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.061986643047661306,
+        "subject": 0.06942951666263168,
+        "upper_background": 0.09646007061828571
+      },
+      "to_seconds": 2.8333333333333335
+    },
+    {
+      "from_seconds": 2.8333333333333335,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.07574674729704409,
+        "subject": 0.061441136125231416,
+        "upper_background": 0.11670047329276528
+      },
+      "to_seconds": 2.875
+    },
+    {
+      "from_seconds": 2.875,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.07612241158144972,
+        "subject": 0.04842626213722846,
+        "upper_background": 0.1173480579971451
+      },
+      "to_seconds": 2.9166666666666665
+    },
+    {
+      "from_seconds": 2.9166666666666665,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.07465966241116928,
+        "subject": 0.05016810565103982,
+        "upper_background": 0.10651491247840147
+      },
+      "to_seconds": 2.9583333333333335
+    },
+    {
+      "from_seconds": 2.9583333333333335,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.07974304155721935,
+        "subject": 0.06250948115871813,
+        "upper_background": 0.1216467583201864
+      },
+      "to_seconds": 3
+    },
+    {
+      "from_seconds": 3,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.07964184635431905,
+        "subject": 0.07316926221791825,
+        "upper_background": 0.12376380437232391
+      },
+      "to_seconds": 3.0416666666666665
+    },
+    {
+      "from_seconds": 3.0416666666666665,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.07612913078003261,
+        "subject": 0.05911831948142737,
+        "upper_background": 0.10038764931259885
+      },
+      "to_seconds": 3.0833333333333335
+    },
+    {
+      "from_seconds": 3.0833333333333335,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.09158226946021886,
+        "subject": 0.08731488205707458,
+        "upper_background": 0.13166704229584586
+      },
+      "to_seconds": 3.125
+    },
+    {
+      "from_seconds": 3.125,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.08756133813857245,
+        "subject": 0.10604373436617358,
+        "upper_background": 0.1226173841183986
+      },
+      "to_seconds": 3.1666666666666665
+    },
+    {
+      "from_seconds": 3.1666666666666665,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.08312972125505858,
+        "subject": 0.11235589983592767,
+        "upper_background": 0.11370144992863093
+      },
+      "to_seconds": 3.2083333333333335
+    },
+    {
+      "from_seconds": 3.2083333333333335,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.08273430659906135,
+        "subject": 0.09963689179375325,
+        "upper_background": 0.12440688152655717
+      },
+      "to_seconds": 3.25
+    },
+    {
+      "from_seconds": 3.25,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0833294647038403,
+        "subject": 0.08167944269614523,
+        "upper_background": 0.14656449553001305
+      },
+      "to_seconds": 3.2916666666666665
+    },
+    {
+      "from_seconds": 3.2916666666666665,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.08919247449758023,
+        "subject": 0.09535813227897383,
+        "upper_background": 0.1788325445120575
+      },
+      "to_seconds": 3.3333333333333335
+    },
+    {
+      "from_seconds": 3.3333333333333335,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.09779569564065814,
+        "subject": 0.13470722719814843,
+        "upper_background": 0.17962587333784072
+      },
+      "to_seconds": 3.375
+    },
+    {
+      "from_seconds": 3.375,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.10140736668498489,
+        "subject": 0.12482315285510538,
+        "upper_background": 0.17999999999999952
+      },
+      "to_seconds": 3.4166666666666665
+    },
+    {
+      "from_seconds": 3.4166666666666665,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.10379573636307421,
+        "subject": 0.11120256058527524,
+        "upper_background": 0.18594095109308093
+      },
+      "to_seconds": 3.4583333333333335
+    },
+    {
+      "from_seconds": 3.4583333333333335,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.10199091890130269,
+        "subject": 0.09835444740310248,
+        "upper_background": 0.1917346555480428
+      },
+      "to_seconds": 3.5
+    },
+    {
+      "from_seconds": 3.5,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.09790992201656698,
+        "subject": 0.1079878425993157,
+        "upper_background": 0.16212756366914605
+      },
+      "to_seconds": 3.5416666666666665
+    },
+    {
+      "from_seconds": 3.5416666666666665,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.09801091360738964,
+        "subject": 0.11195352214959968,
+        "upper_background": 0.13933739012846544
+      },
+      "to_seconds": 3.5833333333333335
+    },
+    {
+      "from_seconds": 3.5833333333333335,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.09135911062243697,
+        "subject": 0.11812367196535549,
+        "upper_background": 0.10835249042145607
+      },
+      "to_seconds": 3.625
+    },
+    {
+      "from_seconds": 3.625,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0808567996253492,
+        "subject": 0.1254396298985977,
+        "upper_background": 0.0907475020659607
+      },
+      "to_seconds": 3.6666666666666665
+    },
+    {
+      "from_seconds": 3.6666666666666665,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.07213222568362262,
+        "subject": 0.12386454719061761,
+        "upper_background": 0.07806175343700719
+      },
+      "to_seconds": 3.7083333333333335
+    },
+    {
+      "from_seconds": 3.7083333333333335,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.060723840938241125,
+        "subject": 0.10734662040399097,
+        "upper_background": 0.05820599504169502
+      },
+      "to_seconds": 3.75
+    },
+    {
+      "from_seconds": 3.75,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.055171543175938594,
+        "subject": 0.09409935716399001,
+        "upper_background": 0.044387348809255725
+      },
+      "to_seconds": 3.7916666666666665
+    },
+    {
+      "from_seconds": 3.7916666666666665,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.048330991794431094,
+        "subject": 0.0871954598025764,
+        "upper_background": 0.03070392908121115
+      },
+      "to_seconds": 3.8333333333333335
+    },
+    {
+      "from_seconds": 3.8333333333333335,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.04793863131960725,
+        "subject": 0.10265149681271558,
+        "upper_background": 0.02077830365862832
+      },
+      "to_seconds": 3.875
+    },
+    {
+      "from_seconds": 3.875,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.04314702828171577,
+        "subject": 0.11614943919954739,
+        "upper_background": 0.013651866877019005
+      },
+      "to_seconds": 3.9166666666666665
+    },
+    {
+      "from_seconds": 3.9166666666666665,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.042102091096041745,
+        "subject": 0.11738131741036545,
+        "upper_background": 0.010636315829013572
+      },
+      "to_seconds": 3.9583333333333335
+    },
+    {
+      "from_seconds": 3.9583333333333335,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.03682446602732344,
+        "subject": 0.09549154092363912,
+        "upper_background": 0.006163323566974675
+      },
+      "to_seconds": 4
+    },
+    {
+      "from_seconds": 4,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.031452568566365524,
+        "subject": 0.0701116221522904,
+        "upper_background": 0.005388024941777464
+      },
+      "to_seconds": 4.041666666666667
+    },
+    {
+      "from_seconds": 4.041666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.027571111518334156,
+        "subject": 0.05465020576131694,
+        "upper_background": 0.0032769889565021334
+      },
+      "to_seconds": 4.083333333333333
+    },
+    {
+      "from_seconds": 4.083333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.024722578543358038,
+        "subject": 0.04486188439710571,
+        "upper_background": 0.0029223950116444974
+      },
+      "to_seconds": 4.125
+    },
+    {
+      "from_seconds": 4.125,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.023449392217945682,
+        "subject": 0.04011189112133192,
+        "upper_background": 0.0023454285928930915
+      },
+      "to_seconds": 4.166666666666667
+    },
+    {
+      "from_seconds": 4.166666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.02536130963288649,
+        "subject": 0.04270582855913293,
+        "upper_background": 0.0029163849447825033
+      },
+      "to_seconds": 4.208333333333333
+    },
+    {
+      "from_seconds": 4.208333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.024629731435667674,
+        "subject": 0.03934479141450826,
+        "upper_background": 0.00261738411839831
+      },
+      "to_seconds": 4.25
+    },
+    {
+      "from_seconds": 4.25,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.023960458534399372,
+        "subject": 0.04091341886548842,
+        "upper_background": 0.0031192247013747967
+      },
+      "to_seconds": 4.291666666666667
+    },
+    {
+      "from_seconds": 4.291666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.02183922790299791,
+        "subject": 0.03039565346028722,
+        "upper_background": 0.0032634663060626466
+      },
+      "to_seconds": 4.333333333333333
+    },
+    {
+      "from_seconds": 4.333333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.021389041597946464,
+        "subject": 0.03020091987412309,
+        "upper_background": 0.003314551874389592
+      },
+      "to_seconds": 4.375
+    },
+    {
+      "from_seconds": 4.375,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.01874330625292579,
+        "subject": 0.022895720702547674,
+        "upper_background": 0.002970475546540446
+      },
+      "to_seconds": 4.416666666666667
+    },
+    {
+      "from_seconds": 4.416666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.01882332579968557,
+        "subject": 0.019906936711584902,
+        "upper_background": 0.0021335737360078074
+      },
+      "to_seconds": 4.458333333333333
+    },
+    {
+      "from_seconds": 4.458333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.01708631115997704,
+        "subject": 0.015082707980312336,
+        "upper_background": 0.002575313650364352
+      },
+      "to_seconds": 4.5
+    },
+    {
+      "from_seconds": 4.5,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.01601408995581534,
+        "subject": 0.00993786815137605,
+        "upper_background": 0.0022748103072646616
+      },
+      "to_seconds": 4.541666666666667
+    },
+    {
+      "from_seconds": 4.541666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.014176694561520802,
+        "subject": 0.007081416928911461,
+        "upper_background": 0.0014273908797235327
+      },
+      "to_seconds": 4.583333333333333
+    },
+    {
+      "from_seconds": 4.583333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.014684706696800696,
+        "subject": 0.006484305656418927,
+        "upper_background": 0.001208023439260758
+      },
+      "to_seconds": 4.625
+    },
+    {
+      "from_seconds": 4.625,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.013205261336101993,
+        "subject": 0.006656445843083442,
+        "upper_background": 0.001353767560664108
+      },
+      "to_seconds": 4.666666666666667
+    },
+    {
+      "from_seconds": 4.666666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.012857695518497678,
+        "subject": 0.007127679604077549,
+        "upper_background": 0.0013778078281120832
+      },
+      "to_seconds": 4.708333333333333
+    },
+    {
+      "from_seconds": 4.708333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.010700629161321503,
+        "subject": 0.00544823690793188,
+        "upper_background": 0.0011899932386747764
+      },
+      "to_seconds": 4.75
+    },
+    {
+      "from_seconds": 4.75,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.011080976523527082,
+        "subject": 0.004687592458108059,
+        "upper_background": 0.0011464202539253215
+      },
+      "to_seconds": 4.791666666666667
+    },
+    {
+      "from_seconds": 4.791666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.010101602427055507,
+        "subject": 0.004207751687780725,
+        "upper_background": 0.0014769739313349817
+      },
+      "to_seconds": 4.833333333333333
+    },
+    {
+      "from_seconds": 4.833333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.010309693971045909,
+        "subject": 0.004882326044272291,
+        "upper_background": 0.0019412515964240043
+      },
+      "to_seconds": 4.875
+    },
+    {
+      "from_seconds": 4.875,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.008109054629120442,
+        "subject": 0.004086177680948912,
+        "upper_background": 0.001502516715498456
+      },
+      "to_seconds": 4.916666666666667
+    },
+    {
+      "from_seconds": 4.916666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.008132266406042959,
+        "subject": 0.004789800693940116,
+        "upper_background": 0.0023829915107805534
+      },
+      "to_seconds": 4.958333333333333
+    },
+    {
+      "from_seconds": 4.958333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.008684258750228617,
+        "subject": 0.004717716990774349,
+        "upper_background": 0.0024355795958229975
+      },
+      "to_seconds": 5
+    },
+    {
+      "from_seconds": 5,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.009441695681387153,
+        "subject": 0.004839290997606161,
+        "upper_background": 0.0031988580872962104
+      },
+      "to_seconds": 5.041666666666667
+    },
+    {
+      "from_seconds": 5.041666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.008084417567649703,
+        "subject": 0.003408375695957385,
+        "upper_background": 0.0020494327999398924
+      },
+      "to_seconds": 5.083333333333333
+    },
+    {
+      "from_seconds": 5.083333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.00741819884755531,
+        "subject": 0.0037053175179536726,
+        "upper_background": 0.0014935016152054655
+      },
+      "to_seconds": 5.125
+    },
+    {
+      "from_seconds": 5.125,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.007202777268747302,
+        "subject": 0.0030597918179617435,
+        "upper_background": 0.0017504319735557
+      },
+      "to_seconds": 5.166666666666667
+    },
+    {
+      "from_seconds": 5.166666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0077789994502468094,
+        "subject": 0.004383119502945196,
+        "upper_background": 0.003224400871459684
+      },
+      "to_seconds": 5.208333333333333
+    },
+    {
+      "from_seconds": 5.208333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.006611080569299562,
+        "subject": 0.0031899728341267817,
+        "upper_background": 0.0017429193899782076
+      },
+      "to_seconds": 5.25
+    },
+    {
+      "from_seconds": 5.25,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.006381202532934406,
+        "subject": 0.0030350466661287186,
+        "upper_background": 0.0019081962286830376
+      },
+      "to_seconds": 5.291666666666667
+    },
+    {
+      "from_seconds": 5.291666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.006211186447580176,
+        "subject": 0.0027047526829661814,
+        "upper_background": 0.0019472616632859978
+      },
+      "to_seconds": 5.333333333333333
+    },
+    {
+      "from_seconds": 5.333333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.006983894284608813,
+        "subject": 0.003427741466957142,
+        "upper_background": 0.0027270678386296958
+      },
+      "to_seconds": 5.375
+    },
+    {
+      "from_seconds": 5.375,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.005549039969051115,
+        "subject": 0.002517550229968522,
+        "upper_background": 0.0013913304785515695
+      },
+      "to_seconds": 5.416666666666667
+    },
+    {
+      "from_seconds": 5.416666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.005774234927616063,
+        "subject": 0.002487425697302232,
+        "upper_background": 0.001491999098489966
+      },
+      "to_seconds": 5.458333333333333
+    },
+    {
+      "from_seconds": 5.458333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.005153218088897141,
+        "subject": 0.0017418435138115548,
+        "upper_background": 0.001475471414619483
+      },
+      "to_seconds": 5.5
+    },
+    {
+      "from_seconds": 5.5,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.005784822755685927,
+        "subject": 0.0025433712579681993,
+        "upper_background": 0.0025708061002178563
+      },
+      "to_seconds": 5.541666666666667
+    },
+    {
+      "from_seconds": 5.541666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.004334901146336118,
+        "subject": 0.0015557169369805484,
+        "upper_background": 0.0011524303207873152
+      },
+      "to_seconds": 5.583333333333333
+    },
+    {
+      "from_seconds": 5.583333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.004319223016309462,
+        "subject": 0.0016159660023131286,
+        "upper_background": 0.0008804747952820951
+      },
+      "to_seconds": 5.625
+    },
+    {
+      "from_seconds": 5.625,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.004455643108749305,
+        "subject": 0.0027908227762984397,
+        "upper_background": 0.001762452107279689
+      },
+      "to_seconds": 5.666666666666667
+    },
+    {
+      "from_seconds": 5.666666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.005308981328772498,
+        "subject": 0.004057129024449275,
+        "upper_background": 0.0028051987078356174
+      },
+      "to_seconds": 5.708333333333333
+    },
+    {
+      "from_seconds": 5.708333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0045421782420134475,
+        "subject": 0.005014658812770637,
+        "upper_background": 0.00206295545037938
+      },
+      "to_seconds": 5.75
+    },
+    {
+      "from_seconds": 5.75,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.004436503573392098,
+        "subject": 0.005405201861265754,
+        "upper_background": 0.0020073623319059363
+      },
+      "to_seconds": 5.791666666666667
+    },
+    {
+      "from_seconds": 5.791666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.004587990959623789,
+        "subject": 0.005975416229591958,
+        "upper_background": 0.0015836526181353717
+      },
+      "to_seconds": 5.833333333333333
+    },
+    {
+      "from_seconds": 5.833333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.005886017958585332,
+        "subject": 0.006907124989913646,
+        "upper_background": 0.002833746525430086
+      },
+      "to_seconds": 5.875
+    },
+    {
+      "from_seconds": 5.875,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0038368660028914765,
+        "subject": 0.0043852712552785045,
+        "upper_background": 0.0015866576515663688
+      },
+      "to_seconds": 5.916666666666667
+    },
+    {
+      "from_seconds": 5.916666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.003753181438723097,
+        "subject": 0.004077570671615686,
+        "upper_background": 0.0012230486064157425
+      },
+      "to_seconds": 5.958333333333333
+    },
+    {
+      "from_seconds": 5.958333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.004311689369413574,
+        "subject": 0.0038559401812851236,
+        "upper_background": 0.0021981819547742397
+      },
+      "to_seconds": 6
+    },
+    {
+      "from_seconds": 6,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0049005354997659805,
+        "subject": 0.0039495414077839516,
+        "upper_background": 0.0029238975283599933
+      },
+      "to_seconds": 6.041666666666667
+    },
+    {
+      "from_seconds": 6.041666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.003068230407428039,
+        "subject": 0.0022614917023050583,
+        "upper_background": 0.000921042746600553
+      },
+      "to_seconds": 6.083333333333333
+    },
+    {
+      "from_seconds": 6.083333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.003335776678272817,
+        "subject": 0.0022894644826380425,
+        "upper_background": 0.0008098565096536675
+      },
+      "to_seconds": 6.125
+    },
+    {
+      "from_seconds": 6.125,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0027860240669479383,
+        "subject": 0.001964549880308771,
+        "upper_background": 0.0011509278040718167
+      },
+      "to_seconds": 6.166666666666667
+    },
+    {
+      "from_seconds": 6.166666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0035127155742882186,
+        "subject": 0.002760698243632149,
+        "upper_background": 0.0016527683870483007
+      },
+      "to_seconds": 6.208333333333333
+    },
+    {
+      "from_seconds": 6.208333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002662431535438913,
+        "subject": 0.0018053202076440942,
+        "upper_background": 0.0009240477800315499
+      },
+      "to_seconds": 6.25
+    },
+    {
+      "from_seconds": 6.25,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.00245413637937022,
+        "subject": 0.001357755722316357,
+        "upper_background": 0.0008263841935241506
+      },
+      "to_seconds": 6.291666666666667
+    },
+    {
+      "from_seconds": 6.291666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002516034451163887,
+        "subject": 0.0016170418784797818,
+        "upper_background": 0.0010292239501164418
+      },
+      "to_seconds": 6.333333333333333
+    },
+    {
+      "from_seconds": 6.333333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0029727363427202408,
+        "subject": 0.0022012426369724773,
+        "upper_background": 0.0018060250920291432
+      },
+      "to_seconds": 6.375
+    },
+    {
+      "from_seconds": 6.375,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.00220674770427397,
+        "subject": 0.0011716291454853512,
+        "upper_background": 0.0007828112087746951
+      },
+      "to_seconds": 6.416666666666667
+    },
+    {
+      "from_seconds": 6.416666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0021849612118992365,
+        "subject": 0.0012114365636515204,
+        "upper_background": 0.0008098565096536673
+      },
+      "to_seconds": 6.458333333333333
+    },
+    {
+      "from_seconds": 6.458333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0024140247999514092,
+        "subject": 0.0014362946824820417,
+        "upper_background": 0.001470963864472988
+      },
+      "to_seconds": 6.5
+    },
+    {
+      "from_seconds": 6.5,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0037208071182786772,
+        "subject": 0.0024454665268027567,
+        "upper_background": 0.0037743219893321208
+      },
+      "to_seconds": 6.541666666666667
+    },
+    {
+      "from_seconds": 6.541666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0027172031844932294,
+        "subject": 0.0017461470184781675,
+        "upper_background": 0.0036631357523852375
+      },
+      "to_seconds": 6.583333333333333
+    },
+    {
+      "from_seconds": 6.583333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0032830411500014574,
+        "subject": 0.0018623416444767146,
+        "upper_background": 0.004238599654421146
+      },
+      "to_seconds": 6.625
+    },
+    {
+      "from_seconds": 6.625,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0033221346690290323,
+        "subject": 0.0020366335834745355,
+        "upper_background": 0.004158966268499727
+      },
+      "to_seconds": 6.666666666666667
+    },
+    {
+      "from_seconds": 6.666666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.004331643353084011,
+        "subject": 0.0034643212566233513,
+        "upper_background": 0.005013898279618347
+      },
+      "to_seconds": 6.708333333333333
+    },
+    {
+      "from_seconds": 6.708333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0023152729419911554,
+        "subject": 0.0017386158853115957,
+        "upper_background": 0.003473818646232431
+      },
+      "to_seconds": 6.75
+    },
+    {
+      "from_seconds": 6.75,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0024863070877366522,
+        "subject": 0.0021108690389736095,
+        "upper_background": 0.003111712117797304
+      },
+      "to_seconds": 6.791666666666667
+    },
+    {
+      "from_seconds": 6.791666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002541282348869198,
+        "subject": 0.002416417870303122,
+        "upper_background": 0.003401697843888505
+      },
+      "to_seconds": 6.833333333333333
+    },
+    {
+      "from_seconds": 6.833333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.003379756887179022,
+        "subject": 0.0033685682777912173,
+        "upper_background": 0.003953121478476438
+      },
+      "to_seconds": 6.875
+    },
+    {
+      "from_seconds": 6.875,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0024335715594651476,
+        "subject": 0.0027058285591328377,
+        "upper_background": 0.003841935241529553
+      },
+      "to_seconds": 6.916666666666667
+    },
+    {
+      "from_seconds": 6.916666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0023427605725573637,
+        "subject": 0.0028478442131310623,
+        "upper_background": 0.003413717977612493
+      },
+      "to_seconds": 6.958333333333333
+    },
+    {
+      "from_seconds": 6.958333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002433164335308632,
+        "subject": 0.0031447860351273495,
+        "upper_background": 0.0036991961535571987
+      },
+      "to_seconds": 7
+    },
+    {
+      "from_seconds": 7,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0031602630668056348,
+        "subject": 0.003864547190618349,
+        "upper_background": 0.0036165577342047836
+      },
+      "to_seconds": 7.041666666666667
+    },
+    {
+      "from_seconds": 7.041666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002595646773766881,
+        "subject": 0.003973210683450324,
+        "upper_background": 0.003467808579370437
+      },
+      "to_seconds": 7.083333333333333
+    },
+    {
+      "from_seconds": 7.083333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.00251277665791156,
+        "subject": 0.003839802038785325,
+        "upper_background": 0.003455788445646449
+      },
+      "to_seconds": 7.125
+    },
+    {
+      "from_seconds": 7.125,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002556960478895882,
+        "subject": 0.0042809112671131425,
+        "upper_background": 0.003301029223950108
+      },
+      "to_seconds": 7.166666666666667
+    },
+    {
+      "from_seconds": 7.166666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002949728177875928,
+        "subject": 0.004349767341778947,
+        "upper_background": 0.0037442716550221515
+      },
+      "to_seconds": 7.208333333333333
+    },
+    {
+      "from_seconds": 7.208333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002621505507706972,
+        "subject": 0.004836063369106204,
+        "upper_background": 0.003893020809856499
+      },
+      "to_seconds": 7.25
+    },
+    {
+      "from_seconds": 7.25,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0025881131268709143,
+        "subject": 0.0052653379596008364,
+        "upper_background": 0.00400721208023438
+      },
+      "to_seconds": 7.291666666666667
+    },
+    {
+      "from_seconds": 7.291666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002663653207908607,
+        "subject": 0.0048812501681056355,
+        "upper_background": 0.003820900007512573
+      },
+      "to_seconds": 7.333333333333333
+    },
+    {
+      "from_seconds": 7.333333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0029033046240306516,
+        "subject": 0.0055902525619301036,
+        "upper_background": 0.0036225678010667756
+      },
+      "to_seconds": 7.375
+    },
+    {
+      "from_seconds": 7.375,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0023561989697230413,
+        "subject": 0.005613921837596476,
+        "upper_background": 0.0030681391330478454
+      },
+      "to_seconds": 7.416666666666667
+    },
+    {
+      "from_seconds": 7.416666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0026247633009592584,
+        "subject": 0.006440194733586143,
+        "upper_background": 0.003328074524829078
+      },
+      "to_seconds": 7.458333333333333
+    },
+    {
+      "from_seconds": 7.458333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002651029259055983,
+        "subject": 0.006209957233922356,
+        "upper_background": 0.003006535947712409
+      },
+      "to_seconds": 7.5
+    },
+    {
+      "from_seconds": 7.5,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0032730641581663364,
+        "subject": 0.007394496893407545,
+        "upper_background": 0.003215385771166694
+      },
+      "to_seconds": 7.541666666666667
+    },
+    {
+      "from_seconds": 7.541666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0026650784924564346,
+        "subject": 0.006601576158584126,
+        "upper_background": 0.002530238148899398
+      },
+      "to_seconds": 7.583333333333333
+    },
+    {
+      "from_seconds": 7.583333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.00268910471769209,
+        "subject": 0.007268619381909119,
+        "upper_background": 0.0023784839606340548
+      },
+      "to_seconds": 7.625
+    },
+    {
+      "from_seconds": 7.625,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002451693034431062,
+        "subject": 0.005796820785927523,
+        "upper_background": 0.0018841559612350627
+      },
+      "to_seconds": 7.666666666666667
+    },
+    {
+      "from_seconds": 7.666666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0028866084336126472,
+        "subject": 0.006634928319750376,
+        "upper_background": 0.0020839906843963577
+      },
+      "to_seconds": 7.708333333333333
+    },
+    {
+      "from_seconds": 7.708333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002491804613849925,
+        "subject": 0.006557465235751345,
+        "upper_background": 0.0017399143565472114
+      },
+      "to_seconds": 7.75
+    },
+    {
+      "from_seconds": 7.75,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002505446623093892,
+        "subject": 0.007360068856074643,
+        "upper_background": 0.001813537675606636
+      },
+      "to_seconds": 7.791666666666667
+    },
+    {
+      "from_seconds": 7.791666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0023956997129071867,
+        "subject": 0.006929718389413356,
+        "upper_background": 0.0016031853354368517
+      },
+      "to_seconds": 7.833333333333333
+    },
+    {
+      "from_seconds": 7.833333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0028674688982553557,
+        "subject": 0.007853896016568466,
+        "upper_background": 0.0024400871459694913
+      },
+      "to_seconds": 7.875
+    },
+    {
+      "from_seconds": 7.875,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0023187343473217025,
+        "subject": 0.006675811614083197,
+        "upper_background": 0.0017759747577191743
+      },
+      "to_seconds": 7.916666666666667
+    },
+    {
+      "from_seconds": 7.916666666666667,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0024299065420562652,
+        "subject": 0.007807633341402379,
+        "upper_background": 0.0013041845090526595
+      },
+      "to_seconds": 7.958333333333333
+    },
+    {
+      "from_seconds": 7.958333333333333,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0025101297008940974,
+        "subject": 0.007655934801904275,
+        "upper_background": 0.001574637517842381
+      },
+      "to_seconds": 8
+    },
+    {
+      "from_seconds": 8,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002605012929367257,
+        "subject": 0.006569299873584528,
+        "upper_background": 0.002059950416948382
+      },
+      "to_seconds": 8.041666666666666
+    },
+    {
+      "from_seconds": 8.041666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0023578278663492383,
+        "subject": 0.0070426853869119425,
+        "upper_background": 0.0014664563143264927
+      },
+      "to_seconds": 8.083333333333334
+    },
+    {
+      "from_seconds": 8.083333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0022503206890234265,
+        "subject": 0.007285833400575569,
+        "upper_background": 0.0008609420779806149
+      },
+      "to_seconds": 8.125
+    },
+    {
+      "from_seconds": 8.125,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0024264451367257255,
+        "subject": 0.006925414884746742,
+        "upper_background": 0.0013056870257681576
+      },
+      "to_seconds": 8.166666666666666
+    },
+    {
+      "from_seconds": 8.166666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002495876855415319,
+        "subject": 0.006107748998090299,
+        "upper_background": 0.002090000751258351
+      },
+      "to_seconds": 8.208333333333334
+    },
+    {
+      "from_seconds": 8.208333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0023346160894266053,
+        "subject": 0.006669356357083278,
+        "upper_background": 0.001858613177071589
+      },
+      "to_seconds": 8.25
+    },
+    {
+      "from_seconds": 8.25,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0022454339991449827,
+        "subject": 0.007037306006078678,
+        "upper_background": 0.0014228833295770378
+      },
+      "to_seconds": 8.291666666666666
+    },
+    {
+      "from_seconds": 8.291666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0025730458330790813,
+        "subject": 0.007235267220742868,
+        "upper_background": 0.002237247389377202
+      },
+      "to_seconds": 8.333333333333334
+    },
+    {
+      "from_seconds": 8.333333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002694195019648848,
+        "subject": 0.007384814007907667,
+        "upper_background": 0.0028352490421455867
+      },
+      "to_seconds": 8.375
+    },
+    {
+      "from_seconds": 8.375,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002488343208519326,
+        "subject": 0.0075451195567389955,
+        "upper_background": 0.002016377432198928
+      },
+      "to_seconds": 8.416666666666666
+    },
+    {
+      "from_seconds": 8.416666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0023305438478611953,
+        "subject": 0.007830226740902098,
+        "upper_background": 0.0014694613477574912
+      },
+      "to_seconds": 8.458333333333334
+    },
+    {
+      "from_seconds": 8.458333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0023572170301144214,
+        "subject": 0.007035154253745373,
+        "upper_background": 0.0019021861618210457
+      },
+      "to_seconds": 8.5
+    },
+    {
+      "from_seconds": 8.5,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0027540569706597674,
+        "subject": 0.007466580596573311,
+        "upper_background": 0.00286229434302456
+      },
+      "to_seconds": 8.541666666666666
+    },
+    {
+      "from_seconds": 8.541666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002285952802720428,
+        "subject": 0.006774792221415296,
+        "upper_background": 0.002040417699646904
+      },
+      "to_seconds": 8.583333333333334
+    },
+    {
+      "from_seconds": 8.583333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0020719565084601783,
+        "subject": 0.006852255305414327,
+        "upper_background": 0.0011359026369168331
+      },
+      "to_seconds": 8.625
+    },
+    {
+      "from_seconds": 8.625,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0022871744751900356,
+        "subject": 0.006665052852416669,
+        "upper_background": 0.0015160393659379425
+      },
+      "to_seconds": 8.666666666666666
+    },
+    {
+      "from_seconds": 8.666666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.00257589640217481,
+        "subject": 0.007410635035907345,
+        "upper_background": 0.001664788520772289
+      },
+      "to_seconds": 8.708333333333334
+    },
+    {
+      "from_seconds": 8.708333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0022916539409119268,
+        "subject": 0.006995346835579205,
+        "upper_background": 0.0013733002779655883
+      },
+      "to_seconds": 8.75
+    },
+    {
+      "from_seconds": 8.75,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0019261702604198945,
+        "subject": 0.0066413835767502975,
+        "upper_background": 0.0010818120351588887
+      },
+      "to_seconds": 8.791666666666666
+    },
+    {
+      "from_seconds": 8.791666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.001751471097265494,
+        "subject": 0.0059786438580919175,
+        "upper_background": 0.0009525955976260212
+      },
+      "to_seconds": 8.833333333333334
+    },
+    {
+      "from_seconds": 8.833333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002621912731863459,
+        "subject": 0.007783964065736011,
+        "upper_background": 0.001822552775899626
+      },
+      "to_seconds": 8.875
+    },
+    {
+      "from_seconds": 8.875,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002338688330991928,
+        "subject": 0.007035154253745375,
+        "upper_background": 0.0015415821501014153
+      },
+      "to_seconds": 8.916666666666666
+    },
+    {
+      "from_seconds": 8.916666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0019005151385580287,
+        "subject": 0.006466015761585823,
+        "upper_background": 0.00100217864923747
+      },
+      "to_seconds": 8.958333333333334
+    },
+    {
+      "from_seconds": 8.958333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.001872213059678707,
+        "subject": 0.0062099572339223575,
+        "upper_background": 0.0009375704304710362
+      },
+      "to_seconds": 9
+    },
+    {
+      "from_seconds": 9,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0026724085272740524,
+        "subject": 0.007842061378735285,
+        "upper_background": 0.0015115318157914459
+      },
+      "to_seconds": 9.041666666666666
+    },
+    {
+      "from_seconds": 9.041666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0022043043593347046,
+        "subject": 0.006388552677586792,
+        "upper_background": 0.0013612801442416003
+      },
+      "to_seconds": 9.083333333333334
+    },
+    {
+      "from_seconds": 9.083333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0018475759982082333,
+        "subject": 0.0053428010435998645,
+        "upper_background": 0.0009976710990909742
+      },
+      "to_seconds": 9.125
+    },
+    {
+      "from_seconds": 9.125,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0018937959399752003,
+        "subject": 0.005096425401436279,
+        "upper_background": 0.0012065209225452598
+      },
+      "to_seconds": 9.166666666666666
+    },
+    {
+      "from_seconds": 9.166666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0021827214790382547,
+        "subject": 0.0057570133677613535,
+        "upper_background": 0.0013627826609570993
+      },
+      "to_seconds": 9.208333333333334
+    },
+    {
+      "from_seconds": 9.208333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0018524626880866905,
+        "subject": 0.0052276822937679735,
+        "upper_background": 0.001208023439260758
+      },
+      "to_seconds": 9.25
+    },
+    {
+      "from_seconds": 9.25,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.001664325127766575,
+        "subject": 0.00501250706043733,
+        "upper_background": 0.0009165351964540581
+      },
+      "to_seconds": 9.291666666666666
+    },
+    {
+      "from_seconds": 9.291666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0016952741636634006,
+        "subject": 0.004301352914279553,
+        "upper_background": 0.0011359026369168325
+      },
+      "to_seconds": 9.333333333333334
+    },
+    {
+      "from_seconds": 9.333333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.001898479017775385,
+        "subject": 0.005045859221603577,
+        "upper_background": 0.0011509278040718169
+      },
+      "to_seconds": 9.375
+    },
+    {
+      "from_seconds": 9.375,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0016584203774967874,
+        "subject": 0.004217434573280603,
+        "upper_background": 0.0013883254451205731
+      },
+      "to_seconds": 9.416666666666666
+    },
+    {
+      "from_seconds": 9.416666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.001521389448822099,
+        "subject": 0.004475644853277376,
+        "upper_background": 0.0011043497858913656
+      },
+      "to_seconds": 9.458333333333334
+    },
+    {
+      "from_seconds": 9.458333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0017928043491540384,
+        "subject": 0.004483175986443947,
+        "upper_background": 0.0010652843512884052
+      },
+      "to_seconds": 9.5
+    },
+    {
+      "from_seconds": 9.5,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002115122269053107,
+        "subject": 0.005421340003765551,
+        "upper_background": 0.0015761400345578795
+      },
+      "to_seconds": 9.541666666666666
+    },
+    {
+      "from_seconds": 9.541666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0014668214118461456,
+        "subject": 0.0031512412921272663,
+        "upper_background": 0.0010307264668319405
+      },
+      "to_seconds": 9.583333333333334
+    },
+    {
+      "from_seconds": 9.583333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0012216724696108932,
+        "subject": 0.003028591409128801,
+        "upper_background": 0.0008519269776876245
+      },
+      "to_seconds": 9.625
+    },
+    {
+      "from_seconds": 9.625,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0014425915745321964,
+        "subject": 0.0029941633717958977,
+        "upper_background": 0.001098339719029371
+      },
+      "to_seconds": 9.666666666666666
+    },
+    {
+      "from_seconds": 9.666666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.001559464907458305,
+        "subject": 0.0031706070631270246,
+        "upper_background": 0.0011644504545113028
+      },
+      "to_seconds": 9.708333333333334
+    },
+    {
+      "from_seconds": 9.708333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0012055871154276832,
+        "subject": 0.002026950697974657,
+        "upper_background": 0.0008158665765156612
+      },
+      "to_seconds": 9.75
+    },
+    {
+      "from_seconds": 9.75,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0009323397063913802,
+        "subject": 0.0016127383738131695,
+        "upper_background": 0.0005379009841484472
+      },
+      "to_seconds": 9.791666666666666
+    },
+    {
+      "from_seconds": 9.791666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0011884837008531305,
+        "subject": 0.001819306597810587,
+        "upper_background": 0.0008729622117046027
+      },
+      "to_seconds": 9.833333333333334
+    },
+    {
+      "from_seconds": 9.833333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0013165556980840058,
+        "subject": 0.002101186153473729,
+        "upper_background": 0.0009931635489444789
+      },
+      "to_seconds": 9.875
+    },
+    {
+      "from_seconds": 9.875,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0012526215055077025,
+        "subject": 0.0020527717259743346,
+        "upper_background": 0.0010081887160994635
+      },
+      "to_seconds": 9.916666666666666
+    },
+    {
+      "from_seconds": 9.916666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0010109339686030143,
+        "subject": 0.0018946179294763125,
+        "upper_background": 0.0007768011419127016
+      },
+      "to_seconds": 9.958333333333334
+    },
+    {
+      "from_seconds": 9.958333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.001321646000040718,
+        "subject": 0.002273326340138244,
+        "upper_background": 0.0008849823454285902
+      },
+      "to_seconds": 10
+    },
+    {
+      "from_seconds": 10,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0013481155702156208,
+        "subject": 0.00233895478630409,
+        "upper_background": 0.0010367365336939342
+      },
+      "to_seconds": 10.041666666666666
+    },
+    {
+      "from_seconds": 10.041666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0012874391708916132,
+        "subject": 0.002450845907636024,
+        "upper_background": 0.0009631132146345101
+      },
+      "to_seconds": 10.083333333333334
+    },
+    {
+      "from_seconds": 10.083333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0008225927962046681,
+        "subject": 0.001751526399311435,
+        "upper_background": 0.0006010066861993824
+      },
+      "to_seconds": 10.125
+    },
+    {
+      "from_seconds": 10.125,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0008488587543013023,
+        "subject": 0.0017859544366443376,
+        "upper_background": 0.000588986552475395
+      },
+      "to_seconds": 10.166666666666666
+    },
+    {
+      "from_seconds": 10.166666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0012988414472746479,
+        "subject": 0.002472363430969088,
+        "upper_background": 0.0009270528134625468
+      },
+      "to_seconds": 10.208333333333334
+    },
+    {
+      "from_seconds": 10.208333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0011583491132693953,
+        "subject": 0.0021173242959735272,
+        "upper_background": 0.0010126962662459587
+      },
+      "to_seconds": 10.25
+    },
+    {
+      "from_seconds": 10.25,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0009419094740699986,
+        "subject": 0.001936577099975787,
+        "upper_background": 0.0007888212756366891
+      },
+      "to_seconds": 10.291666666666666
+    },
+    {
+      "from_seconds": 10.291666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0015344206218312817,
+        "subject": 0.002667097017133321,
+        "upper_background": 0.0010487566674179218
+      },
+      "to_seconds": 10.333333333333334
+    },
+    {
+      "from_seconds": 10.333333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.002087431026408621,
+        "subject": 0.0032728152989590807,
+        "upper_background": 0.0013552700773796064
+      },
+      "to_seconds": 10.375
+    },
+    {
+      "from_seconds": 10.375,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.007960010587828425,
+        "subject": 0.009490303666048196,
+        "upper_background": 0.007903237923521872
+      },
+      "to_seconds": 10.416666666666666
+    },
+    {
+      "from_seconds": 10.416666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0004628102539042603,
+        "subject": 0.0017429193899782096,
+        "upper_background": 0.00020133723987679334
+      },
+      "to_seconds": 10.458333333333334
+    },
+    {
+      "from_seconds": 10.458333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0004880581516095522,
+        "subject": 0.001827913607143814,
+        "upper_background": 0.0003771316955901131
+      },
+      "to_seconds": 10.5
+    },
+    {
+      "from_seconds": 10.5,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.001473744222507274,
+        "subject": 0.002968342343796222,
+        "upper_background": 0.0013537675606641079
+      },
+      "to_seconds": 10.541666666666666
+    },
+    {
+      "from_seconds": 10.541666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0014238592633314961,
+        "subject": 0.0029457489442965045,
+        "upper_background": 0.0006535947712418286
+      },
+      "to_seconds": 10.583333333333334
+    },
+    {
+      "from_seconds": 10.583333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0009380408445828979,
+        "subject": 0.002587482180800984,
+        "upper_background": 0.0006611073548193208
+      },
+      "to_seconds": 10.625
+    },
+    {
+      "from_seconds": 10.625,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.00076334168142854,
+        "subject": 0.0018903144248097,
+        "upper_background": 0.0005814739688979025
+      },
+      "to_seconds": 10.666666666666666
+    },
+    {
+      "from_seconds": 10.666666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.001317777370553617,
+        "subject": 0.0027434842249657006,
+        "upper_background": 0.0009285553301780456
+      },
+      "to_seconds": 10.708333333333334
+    },
+    {
+      "from_seconds": 10.708333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0012391831083419828,
+        "subject": 0.0028349336991312243,
+        "upper_background": 0.0007722935917662065
+      },
+      "to_seconds": 10.75
+    },
+    {
+      "from_seconds": 10.75,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0011880764766965938,
+        "subject": 0.002809112671131548,
+        "upper_background": 0.0008504244609721259
+      },
+      "to_seconds": 10.791666666666666
+    },
+    {
+      "from_seconds": 10.791666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0010011605888461275,
+        "subject": 0.002944673068129854,
+        "upper_background": 0.0006505897378108318
+      },
+      "to_seconds": 10.833333333333334
+    },
+    {
+      "from_seconds": 10.833333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.001426302608270718,
+        "subject": 0.0033212297264584778,
+        "upper_background": 0.0010577717677109127
+      },
+      "to_seconds": 10.875
+    },
+    {
+      "from_seconds": 10.875,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.001300266731822528,
+        "subject": 0.003185669329460173,
+        "upper_background": 0.0010472541507024241
+      },
+      "to_seconds": 10.916666666666666
+    },
+    {
+      "from_seconds": 10.916666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0013485227943721581,
+        "subject": 0.003214717985959811,
+        "upper_background": 0.0013282247765006344
+      },
+      "to_seconds": 10.958333333333334
+    },
+    {
+      "from_seconds": 10.958333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0009588092765662836,
+        "subject": 0.003174910567793643,
+        "upper_background": 0.0008008414093606777
+      },
+      "to_seconds": 11
+    },
+    {
+      "from_seconds": 11,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0012031437704884617,
+        "subject": 0.0036439925764544423,
+        "upper_background": 0.0011178724363308517
+      },
+      "to_seconds": 11.041666666666666
+    },
+    {
+      "from_seconds": 11.041666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.001345061389041594,
+        "subject": 0.0033535060114580732,
+        "upper_background": 0.0012200435729847463
+      },
+      "to_seconds": 11.083333333333334
+    },
+    {
+      "from_seconds": 11.083333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0014692647567853677,
+        "subject": 0.003665510099787505,
+        "upper_background": 0.0017609495905641912
+      },
+      "to_seconds": 11.125
+    },
+    {
+      "from_seconds": 11.125,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0009767271394539095,
+        "subject": 0.00283385782296457,
+        "upper_background": 0.0013477574938021155
+      },
+      "to_seconds": 11.166666666666666
+    },
+    {
+      "from_seconds": 11.166666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0013927066153564184,
+        "subject": 0.004161489012614637,
+        "upper_background": 0.0013943355119825677
+      },
+      "to_seconds": 11.208333333333334
+    },
+    {
+      "from_seconds": 11.208333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0015961150815466325,
+        "subject": 0.004433685682777902,
+        "upper_background": 0.001534069566523925
+      },
+      "to_seconds": 11.25
+    },
+    {
+      "from_seconds": 11.25,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.001784659866023295,
+        "subject": 0.004662847306275037,
+        "upper_background": 0.001720381639245733
+      },
+      "to_seconds": 11.291666666666666
+    },
+    {
+      "from_seconds": 11.291666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.001282145256856633,
+        "subject": 0.0035396325882890794,
+        "upper_background": 0.0012651190744497006
+      },
+      "to_seconds": 11.333333333333334
+    },
+    {
+      "from_seconds": 11.333333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.001401461934721963,
+        "subject": 0.00405174964361601,
+        "upper_background": 0.0012756366914581892
+      },
+      "to_seconds": 11.375
+    },
+    {
+      "from_seconds": 11.375,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0015079510516563793,
+        "subject": 0.0040711154146157655,
+        "upper_background": 0.0011914957553902763
+      },
+      "to_seconds": 11.416666666666666
+    },
+    {
+      "from_seconds": 11.416666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0016808177061063288,
+        "subject": 0.004819925226606405,
+        "upper_background": 0.0014904965817744685
+      },
+      "to_seconds": 11.458333333333334
+    },
+    {
+      "from_seconds": 11.458333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0011931667786533057,
+        "subject": 0.004174399526614475,
+        "upper_background": 0.001173465554804295
+      },
+      "to_seconds": 11.5
+    },
+    {
+      "from_seconds": 11.5,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.001439537393358169,
+        "subject": 0.004492858871943825,
+        "upper_background": 0.0014183757794305422
+      },
+      "to_seconds": 11.541666666666666
+    },
+    {
+      "from_seconds": 11.541666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0016380591696699394,
+        "subject": 0.0047553726566072095,
+        "upper_background": 0.0012876568251821766
+      },
+      "to_seconds": 11.583333333333334
+    },
+    {
+      "from_seconds": 11.583333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0014409626779060484,
+        "subject": 0.004187310040614313,
+        "upper_background": 0.0013522650439486107
+      },
+      "to_seconds": 11.625
+    },
+    {
+      "from_seconds": 11.625,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0010335349092908158,
+        "subject": 0.0033847064202910146,
+        "upper_background": 0.0010562692509954155
+      },
+      "to_seconds": 11.666666666666666
+    },
+    {
+      "from_seconds": 11.666666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0013935210636694922,
+        "subject": 0.00432394631377927,
+        "upper_background": 0.0014544361806025055
+      },
+      "to_seconds": 11.708333333333334
+    },
+    {
+      "from_seconds": 11.708333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0014743550587420795,
+        "subject": 0.004071115414615765,
+        "upper_background": 0.0015145368492224432
+      },
+      "to_seconds": 11.75
+    },
+    {
+      "from_seconds": 11.75,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0012432553499073524,
+        "subject": 0.00427338013394657,
+        "upper_background": 0.0012831492750356823
+      },
+      "to_seconds": 11.791666666666666
+    },
+    {
+      "from_seconds": 11.791666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.001009508684055135,
+        "subject": 0.0036784206137873425,
+        "upper_background": 0.0012110284726917573
+      },
+      "to_seconds": 11.833333333333334
+    },
+    {
+      "from_seconds": 11.833333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0012556756866817299,
+        "subject": 0.004088329433282217,
+        "upper_background": 0.0012170385395537508
+      },
+      "to_seconds": 11.875
+    },
+    {
+      "from_seconds": 11.875,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0011842078472094927,
+        "subject": 0.003501976922456215,
+        "upper_background": 0.0010893246187363818
+      },
+      "to_seconds": 11.916666666666666
+    },
+    {
+      "from_seconds": 11.916666666666666,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0008523201596318667,
+        "subject": 0.002992011619462591,
+        "upper_background": 0.0008744647284201026
+      },
+      "to_seconds": 11.958333333333334
+    },
+    {
+      "from_seconds": 11.958333333333334,
+      "normalized_mean_absolute_rgb_difference": {
+        "full": 0.0006733451428338707,
+        "subject": 0.0022539605691384856,
+        "upper_background": 0.0007377357073097429
+      },
+      "to_seconds": 12
+    }
+  ],
+  "regions": {
+    "full": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "subject": [
+      0.4,
+      0.25,
+      0.65,
+      1
+    ],
+    "upper_background": [
+      0.45,
+      0,
+      1,
+      0.25
+    ]
+  },
+  "review_limits": "Adjacent decoded RGB changes, without motion compensation. High values may be natural motion; low values do not establish seamless playback, identity, or absence of subtle warping.",
+  "source_file": "assets/06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4",
+  "source_sha256": "3c3413da46200a72926418e20ec5fa6cc2177af0d0dcdf203353f976111abf39"
+}

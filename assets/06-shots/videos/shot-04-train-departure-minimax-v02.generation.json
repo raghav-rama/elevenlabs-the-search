@@ -1,0 +1,76 @@
+{
+  "asset_id": "shot-04-train-departure-minimax-v02",
+  "status": "completed_sampled_review_pending_user",
+  "provider": "ElevenLabs",
+  "model_id": "minimax-h3",
+  "model_parameters": {
+    "resolution": "768p",
+    "aspect_ratio": "16:9",
+    "duration_secs": 5,
+    "enhance_prompt": true,
+    "reference_videos": [
+      {
+        "template_node_id": "oIDkcn8m8SkXZn13WLD5"
+      }
+    ]
+  },
+  "prompt": "Five-second photorealistic live-action advertising shot. Use Video 1 as the precise source performance, character, wardrobe, camera and station reference. Correct one continuity error: the train MUST depart immediately when its doors have finished closing. Keep Riley's original appearance and failed-train-arrival action from Video 1. She is human throughout: brunette bob, white blouse, black pencil skirt, red lanyard and ID badge, black shoulder bag, black heels. Same wet platform, morning skyline, black train with cyan and magenta trim, warm window light, fixed wide camera and original composition.\n\n[0.00 to 2.50 seconds] Preserve the source action: Riley hurries to the doorway, stops just short, and watches the two sliding doors close in front of her. The train remains stopped only while the doors are still sliding shut. Her face, proportions and clothes remain identical to Video 1.\n\n[2.50 to 5.00 seconds] The instant the door panels meet, the whole train begins visibly moving toward SCREEN LEFT, away down the tracks toward the left-hand vanishing point. Smooth acceleration from rest, physically rigid carriages. Door frames, windows, carriage number and cyan/magenta reflections translate together with correct perspective. Carriages pass behind Riley; the original doorway must visibly leave her position. Continue increasing forward motion through the final frame. The long train is still passing at the end, for the next shot to continue its departure. Riley stays planted on the platform, shoulders drop in disappointment, and she turns toward camera just as in the source. Her position does not travel with the train.\n\nA single uninterrupted shot, no cut, pan or camera shake. Preserve station architecture and platform lines. No reversing train, no stationary closed-door hold, no bending carriage, no sliding Riley or moving platform, no new characters or wardrobe changes. Preserve natural human face and anatomy.\nAudio: original-style heel arrival, door motor and closing latch, followed immediately by a rising electric traction whine and smooth wheel/rail departure sound. Keep the station bed continuous. No speech, voiceover, grunts or music.",
+  "prompt_file": "assets/06-shots/video-prompts/shot-04-train-departure-minimax-v02.txt",
+  "flow_id": "A3IyZdzDXLKJFfEAS3R0",
+  "flow_url": "https://elevenlabs.io/app/flows/A3IyZdzDXLKJFfEAS3R0",
+  "node_id": "lNsOAJGNn6SfM3f3pNMU",
+  "estimate": {
+    "credits": 1818.0000000000002,
+    "price_cents": 2639.7360000000003,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 240
+  },
+  "generations_count": 1,
+  "seed": null,
+  "selected": false,
+  "user_approved": false,
+  "output_file": "assets/06-shots/videos/shot-04-train-departure-minimax-v02.mp4",
+  "references": [
+    {
+      "file": "assets/06-shots/videos/shot-04-elevenlabs-seedance-v01.mp4",
+      "role": "reference_videos",
+      "node_id": "oIDkcn8m8SkXZn13WLD5",
+      "asset_id": "zakASBOihjieul0e2aao",
+      "sha256": "ab74edce0cbd8a75c6f4df1dfece53778cb9a573b6fe983e952dc0c1a226bd38"
+    }
+  ],
+  "notes": [
+    "User explicitly authorized train departure correction; MiniMax prototype, one take.",
+    "Submitted prompt preserved; provider enhance_prompt default is true; internal rewritten prompt is not exposed.",
+    "Original footage remains unchanged. Reference-video generation can alter performance; output needs review."
+  ],
+  "recorded_at": "2026-10-29T17:50:39+05:30",
+  "prompt_sha256": "e888359a0c1f7b089320ddfeca9b2d18b15ae62e238dea0996476b5f693b2e8b",
+  "session_id": "1ZNTtssMDhvxR9mIWOMp",
+  "generation_id": "3vH2kjRfdXoJAGsVo5VQ",
+  "reported_run_credits": 1818.0000000000002,
+  "provider_reported_price": {
+    "credits": 1818.0000000000002,
+    "price_cents": 2639.7360000000003,
+    "cost_fiat_currency": "inr"
+  },
+  "width": 1344,
+  "height": 768,
+  "provider_duration_seconds": 5.184,
+  "bytes": 8792767,
+  "sha256": "5098c4fa7b78e9f397cf52dd059ffc35c6c5f7d54623fa716d9041ded2a0d296",
+  "completed_at": "2026-10-29T17:54:42+05:30",
+  "inspection_file": "assets/06-shots/reviews/shot-04-train-departure-minimax-v02/inspection.json",
+  "review": {
+    "reviewed_at": "2026-10-29T17:57:19+05:30",
+    "method": "contact sheet at 0.25-second intervals plus dense door-closure samples",
+    "full_playback_review_performed": false,
+    "listening_review_performed": false,
+    "notes": [
+      "Train translates left and recedes; near track clears before the endpoint, earlier than planned.",
+      "Door closure and departure occur around 1.4-1.6 seconds, earlier than the 2.5-second prompt target. Exact temporal overlap needs playback review.",
+      "Station remains broadly fixed and Riley continues arrival, stop and turn. Train rear has a cab-like lit end; detailed train/identity fidelity still needs user review."
+    ]
+  }
+}

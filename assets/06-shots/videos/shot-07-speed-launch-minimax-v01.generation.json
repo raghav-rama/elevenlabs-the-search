@@ -1,0 +1,74 @@
+{
+  "asset_id": "shot-07-speed-launch-minimax-v01",
+  "status": "completed_sampled_review_pending_user",
+  "provider": "ElevenLabs",
+  "model_id": "minimax-h3",
+  "model_parameters": {
+    "start_frame": {
+      "template_node_id": "KlYwnkHkgtZfxHIarcWy"
+    },
+    "resolution": "768p",
+    "duration_secs": 5,
+    "enhance_prompt": true
+  },
+  "prompt": "Five-second photorealistic live-action sci-fi action shot, starting from the supplied frame of upgraded Riley on the station platform. This is the payoff immediately after an eye close-up and confident smirk. Preserve the same woman, brunette bob with teal accent, viewer-RIGHT cyan eye and facial cyberware, mechanical neck, gold wrap dress, black/gold boots, and natural human arms and legs with slim chrome/cyan inlays. Keep the exact station geography, closed stationary train and morning lighting from the starting frame.\n\n[0.00 to 0.80 seconds] Riley's eyes lock onto her route along the platform toward screen LEFT and into the distance. She turns her torso toward that route, sets one boot firmly behind her and bends her knees into a compact ready stance. Her expression is confidently playful. Clear anticipation with weight loading onto the rear foot, not a static pose.\n\n[0.80 to 2.40 seconds] She drives hard off that planted rear boot and accelerates explosively along the platform toward screen LEFT, away into its vanishing point. Show two or three physically connected sprint strides before her speed becomes superhuman. Arms pump, knees drive and her gold dress and bob respond to the acceleration. A brief cyan/magenta electrical trace travels along her existing chrome inlays and stretches into a tight motion trail behind her. Visible launch and directional travel, not teleportation or an in-place glow. She stays on the platform, never crosses onto tracks or collides with the train.\n\n[2.40 to 5.00 seconds] She has shot out of view toward the left distance. The trailing light dissipates quickly, a low gust skims the wet floor, and the shot holds on the now-empty platform with its reflections settling. No duplicate bodies or ghost figure left behind.\n\nKeep the camera in the original wide framing with only a short controlled vibration at push-off; no cut, slow motion, spin or chase-camera change. Prioritize the planted foot, coherent limbs, real perspective travel and a very fast exit. Her body must remain human with sparse inlays, not a full chrome robot or a different superhero costume. No transformation, costume change, new people, readable added text, logos or weapon. Audio: quiet station bed, one firm boot push-off, two rapid boot strikes and a clean short rushing-air acceleration whoosh. No speech, screams, grunts, narration or music.",
+  "prompt_file": "assets/06-shots/video-prompts/shot-07-speed-launch-minimax-v01.txt",
+  "flow_id": "1KlNu0Dsak5777WphodD",
+  "flow_url": "https://elevenlabs.io/app/flows/1KlNu0Dsak5777WphodD",
+  "node_id": "ICkK07Dr4YarNrZbUGGV",
+  "session_id": "EbvBEVSVFkbE2AxDyjiP",
+  "generation_id": "wSKnKLHN7135OzjWbN2P",
+  "reported_run_credits": 1818.0000000000002,
+  "batch_estimate": {
+    "credits": 3999.6000000000004,
+    "price_cents": 5807.4192,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 240
+  },
+  "generations_count": 1,
+  "seed": null,
+  "selected": false,
+  "user_approved": false,
+  "output_file": "assets/06-shots/videos/shot-07-speed-launch-minimax-v01.mp4",
+  "references": [
+    {
+      "node_id": "KlYwnkHkgtZfxHIarcWy",
+      "file": "assets/06-shots/images/shot-05-station-upgrade-v02.png",
+      "role": "start_frame",
+      "sha256": "a7e9f49adf15444bfc3709badcdbff29d67650b8d9a2dae114b175ad18c132bb"
+    }
+  ],
+  "notes": [
+    "User authorized visible transformation, hand inspection, eye push/smirk and speed launch; MiniMax prototype first.",
+    "Exact submitted prompt retained; provider enhance_prompt default is true and any internally rewritten prompt is not exposed.",
+    "No aspect_ratio passed with start/end frames; aspect inherited from supplied frames."
+  ],
+  "recorded_at": "2026-10-26T15:21:44+05:30",
+  "prompt_sha256": "9df6de498174db4f530d75c6e6700f09a83cfb7d5f777c68655bec18277ce2ed",
+  "bytes": 2693744,
+  "sha256": "acf07017a7898f4090cde9270c0eff961d26df4b5456c9a8889541939fd8c941",
+  "width": 1344,
+  "height": 768,
+  "provider_duration_seconds": 5.184,
+  "provider_reported_price": {
+    "credits": 1818.0000000000002,
+    "price_cents": 2639.7360000000003,
+    "cost_fiat_currency": "inr"
+  },
+  "completed_at": "2026-10-26T15:26:19+05:30",
+  "inspection_file": "assets/06-shots/reviews/shot-07-speed-launch-minimax-v01/inspection.json",
+  "review": {
+    "reviewed_at": "2026-10-26T15:32:47+05:30",
+    "method": "sampled contact sheets and decoded media inspection",
+    "full_playback_review_performed": false,
+    "listening_review_performed": false,
+    "user_approved": false,
+    "notes": [
+      "Sampled frames show a turn, loaded crouch, fast exit toward screen-left depth and empty platform.",
+      "Cyan/magenta speed trail is very bright and broad; production refinement may need less bloom.",
+      "Some rear/outfit detail is newly invented as Riley turns; running anatomy and continuity need playback review.",
+      "Preview can omit the opening 0.5s reset and excess empty tail while preserving original speed."
+    ]
+  }
+}

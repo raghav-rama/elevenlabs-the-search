@@ -995,13 +995,75 @@
     "riley_manifest": "01-riley/cyberpunk-manifest.json",
     "wardrobe_manifest": "02-wardrobe/cyberpunk-manifest.json",
     "selected_concept": "riley-cyberpunk-03-v01",
-    "upscale_started": false,
+    "upscale_started": true,
     "selected_wardrobe": "wardrobe-cyberpunk-05-v02",
     "wardrobe_gallery": "02-wardrobe/CYBERPUNK-GALLERY.md",
     "wardrobe_revision_base": "wardrobe-cyberpunk-05-v01",
     "preferred_outfit_concept": "wardrobe-cyberpunk-05-v01",
     "wardrobe_candidate": "wardrobe-cyberpunk-05-v02",
     "selected_wardrobe_image": "02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
-    "wardrobe_approved_at": "2026-10-26T14:07:54+05:30"
+    "wardrobe_approved_at": "2026-10-26T14:07:54+05:30",
+    "upscale_status": "completed_assistant_reviewed_references",
+    "prepared_face": "01-riley/images/riley-cyberpunk-03-v01-upscale-2x.png",
+    "prepared_wardrobe": "02-wardrobe/images/wardrobe-cyberpunk-05-v02-upscale-2x.png",
+    "station_reveal_record": "06-shots/images/shot-05-station-upgrade-v02.generation.json",
+    "motion_test_record": "06-shots/videos/shot-05-station-upgrade-minimax-test-v01.generation.json",
+    "updated_at": "2026-10-26T14:42:26+05:30"
+  },
+  "upgrade_transformation_sequence": {
+    "updated_at": "2026-10-29T21:23:21+05:30",
+    "status": "continuous_departure_transformation_locked_later_shots_pending",
+    "direction": "Visible traveling transformation, hand inspection, eye push with confident smirk, then superhuman platform launch",
+    "supersedes": "Instant hard-cut-only reveal and stationary upgraded pose as the continuation",
+    "flow_url": "https://elevenlabs.io/app/flows/1KlNu0Dsak5777WphodD",
+    "brief": "06-shots/video-prompts/shot-05-07-transform-sequence-v01.md",
+    "preview": "08-edit/transformation-sequence-v01/afterhuman-transformation-preview-v01.mp4",
+    "timeline": "08-edit/transformation-sequence-v01/timeline.json",
+    "costs": "08-edit/transformation-sequence-v01/costs.json",
+    "source_shot_four": "06-shots/videos/shot-04-elevenlabs-seedance-v01.mp4",
+    "takes": [
+      "06-shots/videos/shot-05-transformation-minimax-v01.mp4",
+      "06-shots/videos/shot-06-eye-push-minimax-v01.mp4",
+      "06-shots/videos/shot-07-speed-launch-minimax-v01.mp4"
+    ],
+    "user_approved_takes": false,
+    "original_sources_preserved": true,
+    "current_preview": "08-edit/transformation-sequence-v02/afterhuman-transformation-preview-v02.mp4",
+    "train_departure_correction": {
+      "updated_at": "2026-10-29T18:10:10+05:30",
+      "status": "completed_sampled_review_pending_user",
+      "flow_url": "https://elevenlabs.io/app/flows/A3IyZdzDXLKJFfEAS3R0",
+      "brief": "06-shots/video-prompts/shot-04-07-train-departure-correction-v02.md",
+      "preview": "08-edit/transformation-sequence-v02/afterhuman-transformation-preview-v02.mp4",
+      "timeline": "08-edit/transformation-sequence-v02/timeline.json",
+      "costs": "08-edit/transformation-sequence-v02/costs.json",
+      "takes": [
+        "06-shots/videos/shot-04-train-departure-minimax-v02.mp4",
+        "06-shots/videos/shot-05-transformation-departure-minimax-v02.mp4",
+        "06-shots/videos/shot-06-eye-push-departure-minimax-v02.mp4",
+        "06-shots/videos/shot-07-speed-launch-departure-minimax-v02.mp4"
+      ],
+      "selected": false,
+      "user_approved_takes": false,
+      "original_sources_preserved": true
+    },
+    "continuous_departure_transformation": {
+      "status": "approved_selected_locked",
+      "model": "bytedance-seedance-v2.5",
+      "resolution": "480p",
+      "requested_seconds": 12,
+      "flow_url": "https://elevenlabs.io/app/flows/A3IyZdzDXLKJFfEAS3R0",
+      "video": "06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4",
+      "generation_record": "06-shots/videos/shot-04-05-continuous-seedance-480p-v01.generation.json",
+      "review": "06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/README.md",
+      "credits": 18578.0052864,
+      "selected": true,
+      "source_files_preserved": true,
+      "existing_assembled_preview_unchanged": true,
+      "user_approved": true,
+      "approved_at": "2026-10-29T21:23:21+05:30",
+      "selection_scope": "Replaces separate shots 04 and 05 in the next assembly; original sources and existing previews remain preserved."
+    },
+    "selected_departure_transformation_take": "06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4"
   }
 }

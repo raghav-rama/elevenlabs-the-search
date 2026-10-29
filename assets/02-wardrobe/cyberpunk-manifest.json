@@ -1,6 +1,6 @@
 {
   "scope": "Wardrobe and body styling references for post-upgrade Riley",
-  "updated_at": "2026-10-26T14:07:54+05:30",
+  "updated_at": "2026-10-26T14:36:25+05:30",
   "path_base": "assets/",
   "style_references": [
     "02-wardrobe/references/cyberpunk/user-style-02.png",
@@ -12,7 +12,7 @@
     "User selected Riley cyberpunk concept 3 and explicitly requests replacing conventional office attire after the upgrade.",
     "Pre-upgrade office outfit remains intact for the accepted opening.",
     "Preserve the selected face, cybernetic anatomy, implant laterality and brown/cyan eyes as rendered.",
-    "User approved 05-v02 as rendered. Preserve its wardrobe, current boots and natural-skin/chrome-inlay body treatment; use Riley concept 3 for detailed face/neck design. Upscale remains unstarted."
+    "User approved 05-v02 as rendered. Preserve its wardrobe, current boots and natural-skin/chrome-inlay body treatment; use Riley concept 3 for detailed face/neck design. Prepared 2x derivative is now available; original remains selected."
   ],
   "selected_character": "01-riley/images/riley-cyberpunk-03-v01.png",
   "status": "user_approved_wardrobe_selected",
@@ -110,7 +110,7 @@
     },
     {
       "id": "wardrobe-cyberpunk-05-v02",
-      "title": "Liquid gold — natural skin and chrome inlays",
+      "title": "Liquid gold \u2014 natural skin and chrome inlays",
       "batch": "wardrobe-batch-03",
       "image": "02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
       "prompt": "02-wardrobe/prompts/wardrobe-cyberpunk-05-v02.txt",
@@ -223,5 +223,12 @@
   },
   "selected_image": "02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
   "selected_at": "2026-10-26T14:07:54+05:30",
-  "upscale_status": "selected_not_started"
+  "upscale_status": "completed_assistant_reviewed_reference",
+  "prepared_upscale": {
+    "source_concept": "wardrobe-cyberpunk-05-v02",
+    "image": "02-wardrobe/images/wardrobe-cyberpunk-05-v02-upscale-2x.png",
+    "generation_record": "02-wardrobe/images/wardrobe-cyberpunk-05-v02-upscale-2x.generation.json",
+    "status": "completed_assistant_reviewed_reference",
+    "user_approved": false
+  }
 }

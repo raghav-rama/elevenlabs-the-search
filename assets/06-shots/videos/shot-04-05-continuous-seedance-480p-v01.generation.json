@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "status": "approved_selected_locked",
+  "session_id": "YS7RXjSdp0iXSC4BWeyM",
+  "generation_id": "IADlmr2zGOc0HC4A4WL7",
+  "created_at": "2026-10-29T21:06:47+05:30",
+  "provider": "ElevenLabs",
+  "model_id": "bytedance-seedance-v2.5",
+  "purpose": "Single continuous take replacing the choppy boundary between requested MiniMax departure and transformation videos.",
+  "authorization": "User asked to try generating the two specified clips as one shot if feasible; use one economical 480p attempt, with no automatic retries.",
+  "flow_id": "A3IyZdzDXLKJFfEAS3R0",
+  "flow_url": "https://elevenlabs.io/app/flows/A3IyZdzDXLKJFfEAS3R0",
+  "node_id": "fAflXamEGQoTLqJbyiY2",
+  "prompt_file": "assets/06-shots/video-prompts/shot-04-05-continuous-seedance-480p-v01.txt",
+  "prompt": "One continuous twelve-second photorealistic live-action shot at the same futuristic train station. Treat the two supplied videos as ordered action and design references for ONE uninterrupted camera take: Video 1 shows human Riley arriving too late and the train leaving; Video 2 shows that same Riley transforming and inspecting her hands. Re-stage their action continuously. Do not reproduce a cut between the references.\n\nKeep the fixed wide camera, lens, framing, platform lines, pillars, wet reflections, morning skyline and opposite platform established by Video 1 unchanged throughout. Riley arrives from screen left and stops beside the doorway in the same screen-right position; after stopping, her feet stay planted on that platform position. Her face and body remain the same person throughout.\n\n0.0\u20131.5s: Human Riley in her white blouse, black skirt, red badge lanyard, shoulder bag and black heels hurries toward the open train doorway and stops as the sliding doors shut. The train remains still until the door panels meet.\n1.5\u20135.0s: Immediately after full closure the train accelerates SCREEN LEFT toward the left-hand vanishing point. Windows, doors and carriage lights move rigidly together. Its rear passes Riley and recedes continuously down the track. Riley stays behind, shoulders dropping in disappointment, and turns toward the camera.\n5.0\u20136.3s: Continue that exact pose and movement smoothly. Riley exhales and holds her human appearance, with no frozen pause or pose reset. The train continues receding; its distance and scale never jump and no carriage returns. The camera and station remain completely continuous.\n6.3\u20139.2s: A single controlled traveling ripple rolls down Riley from her head through her clothes to her boots, revealing the upgraded design from Video 2. Preserve her face and brunette bob, the subtle teal hair accent, cyan eye and facial hardware on viewer RIGHT, mechanical neck, gold wrap dress and black/gold boots. Her arms and exposed legs stay mostly natural human skin with narrow chrome/cyan inlays. The bag and badge dissolve within the same surface wave. Keep her covered throughout. The wave hugs her body, with no smoke cloud, blinding flash or cut hiding the change. All clothing and boots finish changing by 9.2s.\n9.2\u201311.0s: Fully upgraded Riley raises both natural hands to lower-chest height, looks down from one hand to the other and gently flexes her fingers, discovering her upgrade with quiet satisfaction.\n11.0\u201312.0s: She lowers her hands and lifts her gaze toward camera, confident and composed, ending in the wide pose of Video 2. Keep the near track clear and the distant train gone.\n\nA single locked tripod take with continuous time, consistent anatomy, stable lighting and continuous background geometry. No edit, dissolve, jump cut, angle change, zoom, scene reset, duplicate Riley, reappearing train or fully metallic limbs. This shot ends before the separate eye close-up or speed launch.\nAudio: one continuous soft station bed, brief heel footsteps and door latch, receding electric train sound, restrained transformation shimmer and clothing rustle. No speech, narration, music or vocalizations. Existing narration will be mixed separately.",
+  "model_parameters": {
+    "resolution": "480p",
+    "duration_secs": 12,
+    "aspect_ratio": "16:9",
+    "generate_audio": true
+  },
+  "generations_count": 1,
+  "seed": null,
+  "seed_note": "No seed parameter exposed by the current provider schema.",
+  "inputs": [
+    {
+      "path": "assets/06-shots/videos/shot-04-train-departure-minimax-v02.mp4",
+      "bytes": 8792767,
+      "sha256": "5098c4fa7b78e9f397cf52dd059ffc35c6c5f7d54623fa716d9041ded2a0d296",
+      "port": "reference_videos",
+      "reference_order": 1,
+      "node_id": "lNsOAJGNn6SfM3f3pNMU",
+      "generation_id": "3vH2kjRfdXoJAGsVo5VQ"
+    },
+    {
+      "path": "assets/06-shots/videos/shot-05-transformation-departure-minimax-v02.mp4",
+      "bytes": 8487794,
+      "sha256": "828bc456834c8e97f69cec11b602527cbb792257972441734916fcea73182f46",
+      "port": "reference_videos",
+      "reference_order": 2,
+      "node_id": "fex845lglmWbEB6nOJmU",
+      "generation_id": "VhDSxh0TbJb7Q3K37Yky"
+    }
+  ],
+  "estimate": {
+    "credits": 18578.0052864,
+    "price_cents": 26975.263675852802,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "output_file": "assets/06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4",
+  "feasibility": {
+    "schema_supports_two_reference_videos": true,
+    "schema_supports_12_seconds_and_480p": true,
+    "source_picture_duration_seconds": 11.75,
+    "estimate_blocking_errors": [],
+    "assessment": "Same location and locked camera make this a supported continuous-take attempt. Model guide cautions that multi-beat action may drift; output quality and exact cue timing are unverified."
+  },
+  "review": {
+    "selected": true,
+    "user_approved": true,
+    "status": "approved_selected_locked",
+    "review_file": "assets/06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/review.json",
+    "inspection_file": "assets/06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/inspection.json",
+    "full_playback_review": false,
+    "full_listening_review": false,
+    "additional_paid_qa": false,
+    "approved_at": "2026-10-29T21:23:21+05:30",
+    "user_feedback": "Great. This shot looks good. Lock it in. Commit everything and push to github",
+    "approval_scope": "This continuous departure-to-transformation take as rendered; no blanket approval of other takes or final sound mix."
+  },
+  "completed_at": "2026-10-29T21:15:37+05:30",
+  "actual_price": {
+    "credits": 18578.0052864,
+    "price_cents": 26975.263675852802,
+    "cost_fiat_currency": "inr"
+  },
+  "prompt_sha256": "c0683f8c73a48580434e65c1c064562d8ab4cee1c090a1a977bc89c4cebc447b",
+  "output": {
+    "bytes": 5179510,
+    "sha256": "3c3413da46200a72926418e20ec5fa6cc2177af0d0dcdf203353f976111abf39",
+    "file": "assets/06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4",
+    "width": 854,
+    "height": 480,
+    "fps": 24,
+    "video_frames": 289,
+    "video_duration_seconds": 12.042,
+    "audio_duration_seconds": 12.064,
+    "native_unmodified": true
+  }
+}

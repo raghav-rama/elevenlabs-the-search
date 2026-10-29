@@ -1,0 +1,30 @@
+{
+  "status": "cue_adjusted_after_sampled_motion_review",
+  "fps": 24,
+  "opening_prefix_frames": 146,
+  "full_shot_four_frames": 121,
+  "full_shot_four_last_sample_seconds": 5.0,
+  "full_shot_four_picture_duration_seconds": 5.041666666666667,
+  "shot_four_start_frame": 146,
+  "continuation_start_frame": 267,
+  "voiceover_file": "assets/09-voiceover/afterhuman-vo-v01.mp3",
+  "voiceover_start_frame": 189,
+  "voiceover_start_seconds": 7.875,
+  "so_start_seconds": 11.595,
+  "upgrade_frame": 297,
+  "upgrade_seconds": 12.375,
+  "upgrade_local_continuation_frame": 30,
+  "upgrade_local_continuation_seconds": 1.25,
+  "basis": "Actual source decoded frames, opening cut-boundary contact sheet, existing Scribe word timings. Generation onset must be reviewed before final cue lock.",
+  "source_modifications": false,
+  "initial_plan": {
+    "voiceover_start_frame": 194,
+    "voiceover_start_seconds": 8.083333333333334,
+    "so_start_seconds": 11.803333333333335,
+    "upgrade_frame": 302,
+    "upgrade_seconds": 12.583333333333334,
+    "upgrade_local_continuation_frame": 35,
+    "upgrade_local_continuation_seconds": 1.4583333333333333
+  },
+  "adjustment_reason": "Sampled output begins its visible face/surface change around 1.2-1.3s, earlier than the requested 1.46s. Shift narration five frames earlier; no source retime."
+}

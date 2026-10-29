@@ -1,0 +1,26 @@
+{
+  "source_sha256": "3c3413da46200a72926418e20ec5fa6cc2177af0d0dcdf203353f976111abf39",
+  "window_seconds": [
+    4.5,
+    6.5
+  ],
+  "pairs": 49,
+  "regions": {
+    "full": {
+      "median_normalized_rgb_difference": 0.005774234927616063,
+      "max_normalized_rgb_difference": 0.01708631115997704,
+      "max_at_seconds": 4.5
+    },
+    "upper_background": {
+      "median_normalized_rgb_difference": 0.0015836526181353717,
+      "max_normalized_rgb_difference": 0.003224400871459684,
+      "max_at_seconds": 5.208333333333333
+    },
+    "subject": {
+      "median_normalized_rgb_difference": 0.0037053175179536726,
+      "max_normalized_rgb_difference": 0.015082707980312336,
+      "max_at_seconds": 4.5
+    }
+  },
+  "interpretation": "No isolated scene-change spike at the former join, consistent with dense sampled visual review. Not a substitute for full playback."
+}

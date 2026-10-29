@@ -1,0 +1,13 @@
+{
+  "provider": "ElevenLabs",
+  "operation": "attach_existing_local_preview",
+  "source_file": "assets/08-edit/transformation-sequence-v02/afterhuman-transformation-preview-v02.mp4",
+  "source_sha256": "c027c89dd9b4d9a8889023d0ba3bfd11fb00bb73023cb8065aa1dd1ba66aff47",
+  "flow_url": "https://elevenlabs.io/app/flows/A3IyZdzDXLKJFfEAS3R0",
+  "asset_id": "OB6POnAjCmHMCvJqgZSV",
+  "name": "PREVIEW v02 — Train departs — Original VO",
+  "mime_type": "video/mp4",
+  "size_bytes": 30085096,
+  "flow_id": "A3IyZdzDXLKJFfEAS3R0",
+  "node_id": "UjEzEh8nPpuAlU0SirW4"
+}

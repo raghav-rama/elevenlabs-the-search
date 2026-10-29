@@ -20,7 +20,7 @@ face/cyberware direction.** The other concepts remain unselected.
 
 ![4 — Black ceramic and gold](images/riley-cyberpunk-04-v01.png)
 
-Option 3 is a selected design direction, not an upscaled production master.
+Option 3 remains the selected design source. A [prepared 2x derivative](images/riley-cyberpunk-03-v01-upscale-2x.png) is assistant-reviewed for reference use, not separately user-approved.
 Preserve its actual anatomical-left hardware/cyan eye (viewer right), even though
 the original prompt requested the opposite side. Several designs obscure Riley's
 identity mole; check facial identity and mechanical detail during refinement.
