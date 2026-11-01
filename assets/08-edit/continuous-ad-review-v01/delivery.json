@@ -70,6 +70,16 @@
     ],
     "seedance_production": "deferred_by_user_due_to_cost; do not generate now",
     "next_step_note": "Documented creative recommendations only; no media edit or new generation in this review.",
-    "recommendations_file": "assets/08-edit/continuous-ad-review-v01/production-feedback.md"
+    "recommendations_file": "assets/08-edit/continuous-ad-review-v01/production-feedback.md",
+    "positive_followup": {
+      "recorded_at": "2026-11-01T16:16:56+05:30",
+      "source": "user_reported_audience_feedback",
+      "feedback": [
+        "The ad is catchy.",
+        "The script is strong.",
+        "The story is clear and easy to follow."
+      ],
+      "production_implication": "Preserve the working story, narration and music direction; focus proposed revisions on product clarity and coherent production visuals."
+    }
   }
 }

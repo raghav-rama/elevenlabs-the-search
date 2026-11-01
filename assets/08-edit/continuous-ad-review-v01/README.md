@@ -2,7 +2,7 @@
 
 [Watch the 45-second review cut](afterhuman-continuous-with-david-v01.mp4) · [Listen to the exported full mix](afterhuman-continuous-with-david-v01.mix.wav)
 
-**The user likes the assembled cut; production visual revisions remain pending.** Coffee reflex take remains locked. The latest feedback concerns product clarity, a consistent cyberpunk world and overhead quality. Seedance production is explicitly deferred due to cost. See [feedback and proposed next steps](production-feedback.md). Existing approved sources remain unchanged; no provider generation or credit spend in this review.
+**The user likes the assembled cut; production visual revisions remain pending.** Coffee reflex take remains locked. The user reports that viewers find the ad catchy, the script strong and the story clear. Remaining feedback concerns product clarity, a consistent cyberpunk world and overhead quality. Seedance production is explicitly deferred due to cost. See [feedback and proposed next steps](production-feedback.md). Existing approved sources remain unchanged; no provider generation or credit spend in this review.
 
 The cut retains the first three shots from the user's Final Cut opening, uses the locked continuous Seedance departure/transformation, omits the separate eye close-up, then proceeds through launch, intelligence, the complete coffee rescue, strength, speed, overhead race and a locally composed spiral/end card. Other prototype placements are not new source approvals.
 
