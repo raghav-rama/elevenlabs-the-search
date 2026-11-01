@@ -1,0 +1,191 @@
+{
+  "title": "AFTERHUMAN \u2014 Continuous narrated review v01",
+  "fps": 24,
+  "render_width": 1920,
+  "render_height": 1080,
+  "framing": "fill",
+  "audio_target_rms_dbfs": -28,
+  "audio_gain_limit_db": 12,
+  "crossfade_half_seconds": 0.04,
+  "clips": [
+    {
+      "shot": "01\u201303 \u2014 User FCP opening",
+      "picture": "assets/08-edit/fcp-opening-trimmed-v01/fcp-opening-trimmed-v01.mov",
+      "audio": "assets/08-edit/fcp-opening-trimmed-v01/fcp-opening-trimmed-v01.mov",
+      "source_in_frames": 0,
+      "duration_frames": 146,
+      "audio_gain_db": 0,
+      "selection_status": "approved user opening prefix",
+      "timeline_start_frames": 0,
+      "timeline_start_seconds": 0.0,
+      "timeline_end_seconds": 6.083333333333333,
+      "source_sha256": "8bc7ed866eb7d5b3f3484fbe7173ac9cad86f61f98873ba46319aeb7449a75d9"
+    },
+    {
+      "shot": "04\u201305 \u2014 Continuous Seedance departure and transformation",
+      "picture": "assets/06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 289,
+      "audio_gain_db": -10,
+      "selection_status": "user-approved locked",
+      "timeline_start_frames": 146,
+      "timeline_start_seconds": 6.083333333333333,
+      "timeline_end_seconds": 18.125,
+      "source_sha256": "3c3413da46200a72926418e20ec5fa6cc2177af0d0dcdf203353f976111abf39"
+    },
+    {
+      "shot": "07 \u2014 Station launch",
+      "picture": "assets/06-shots/videos/shot-07-speed-launch-departure-minimax-v02.mp4",
+      "audio": "assets/06-shots/videos/shot-07-speed-launch-departure-minimax-v02.mp4",
+      "source_in_frames": 24,
+      "duration_frames": 30,
+      "audio_gain_db": -8,
+      "selection_status": "retained prototype; not newly approved",
+      "timeline_start_frames": 435,
+      "timeline_start_seconds": 18.125,
+      "timeline_end_seconds": 19.375,
+      "source_sha256": "d8e5053657819ac1806a33a319aa7587d524f1dbee2f9684e86479314ad09314"
+    },
+    {
+      "shot": "08 \u2014 Rooftop intelligence HUD",
+      "picture": "assets/06-shots/videos/shot-08-intelligence-rooftop-minimax-startframe-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-08-intelligence-rooftop-minimax-startframe-v01.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 66,
+      "audio_gain_db": 6,
+      "selection_status": "prototype pending user review",
+      "timeline_start_frames": 465,
+      "timeline_start_seconds": 19.375,
+      "timeline_end_seconds": 22.125,
+      "source_sha256": "49a71e37672d02c8b02702c3d6e32bdf1ad081ead5e00dbf7d70e088d17e5418"
+    },
+    {
+      "shot": "09 \u2014 Coffee reflex rescue",
+      "picture": "assets/06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 243,
+      "audio_gain_db": -6,
+      "selection_status": "user-approved locked; full picture duration",
+      "timeline_start_frames": 531,
+      "timeline_start_seconds": 22.125,
+      "timeline_end_seconds": 32.25,
+      "source_sha256": "00caba5dfc91d5a09537f9b6eb75dd9355070c8d26884da341b6737705863bb0"
+    },
+    {
+      "shot": "10 \u2014 Steel-door strength",
+      "picture": "assets/06-shots/videos/shot-10-strength-steel-doors-minimax-startframe-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-10-strength-steel-doors-minimax-startframe-v01.mp4",
+      "source_in_frames": 30,
+      "duration_frames": 90,
+      "audio_gain_db": 3,
+      "selection_status": "prototype pending user review",
+      "timeline_start_frames": 774,
+      "timeline_start_seconds": 32.25,
+      "timeline_end_seconds": 36.0,
+      "source_sha256": "e321abb59de0bbd06e42b3310e8dae21d3e607ef3270099bdf737a78df64b7ef"
+    },
+    {
+      "shot": "11 \u2014 Boulevard speed",
+      "picture": "assets/06-shots/videos/shot-11-speed-boulevard-minimax-startframe-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-11-speed-boulevard-minimax-startframe-v01.mp4",
+      "source_in_frames": 12,
+      "duration_frames": 60,
+      "audio_gain_db": -10,
+      "selection_status": "prototype pending user review",
+      "timeline_start_frames": 864,
+      "timeline_start_seconds": 36.0,
+      "timeline_end_seconds": 38.5,
+      "source_sha256": "cdc8c84c4b5a9ae4eb5c304657cdd813b8d6b72bfd5fdb72a4c15980b6793912"
+    },
+    {
+      "shot": "12 \u2014 Coastal train race",
+      "picture": "assets/06-shots/videos/shot-12-overtake-coastal-minimax-startframe-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-12-overtake-coastal-minimax-startframe-v01.mp4",
+      "source_in_frames": 27,
+      "duration_frames": 96,
+      "audio_gain_db": -4,
+      "selection_status": "prototype pending user review; no clean winning lead",
+      "timeline_start_frames": 924,
+      "timeline_start_seconds": 38.5,
+      "timeline_end_seconds": 42.5,
+      "source_sha256": "55fb3ac74dd46fc808139d8d609f75989dc57dc38a3a6cc212d39d434dcd4355"
+    },
+    {
+      "shot": "13 \u2014 Spiral and AFTERHUMAN title",
+      "picture": "assets/08-edit/continuous-ad-review-v01/afterhuman-brand-outro-v01.mp4",
+      "audio": "assets/08-edit/continuous-ad-review-v01/david-chrome-swagger-arranged-v01.wav",
+      "source_in_frames": 0,
+      "duration_frames": 60,
+      "audio_gain_db": -120,
+      "selection_status": "new local editorial title treatment pending review",
+      "timeline_start_frames": 1020,
+      "timeline_start_seconds": 42.5,
+      "timeline_end_seconds": 45.0,
+      "source_sha256": "4e41371d3489a58defb148da692d08746c8f993de5237803167e3fa30cf61866"
+    }
+  ],
+  "audio_ducks": [
+    {
+      "start_seconds": 8.6333333333,
+      "end_seconds": 12.8333333333,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 19.49,
+      "end_seconds": 21.45,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 23.89,
+      "end_seconds": 26.12,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 32.57,
+      "end_seconds": 34.62,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 36.305,
+      "end_seconds": 37.516,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 39.742,
+      "end_seconds": 41.462,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 42.455,
+      "end_seconds": 44.582,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    }
+  ],
+  "audio_bridges": [
+    {
+      "source": "assets/08-edit/continuous-ad-review-v01/david-chrome-swagger-arranged-v01.wav",
+      "source_in_seconds": 0,
+      "timeline_start_seconds": 0,
+      "duration_seconds": 45,
+      "gain_db": 0
+    }
+  ],
+  "notes": [
+    "Original-speed picture with hard cuts and matched narration beats; no source retiming.",
+    "The first 146 FCP frames preserve the user's first three shots. The selected continuous Seedance take replaces the old shot-four-only or separate MiniMax departure/transformation.",
+    "Selected coffee take retained in full, 243 frames.",
+    "Source footage includes native 480p material scaled for a 1080p review canvas; this is not a production upscale or a claim of native HD detail.",
+    "Center-fill slightly crops non-16:9 sources. Scene native audio is attenuated/bridged and ducked under VO; independent listening review remains pending.",
+    "The end-card audio source reads the initial silent 2.5 seconds of the arranged soundtrack at -120 dB, while the full soundtrack bridge supplies its actual closing audio.",
+    "Other prototype shots are placed for edit review; this does not approve them."
+  ]
+}

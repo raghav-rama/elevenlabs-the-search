@@ -1,5 +1,48 @@
 # Local production scripts
 
+## Preview the jingle with the approved voiceover
+
+```sh
+python scripts/mix-voiceover-jingle.py \
+  assets/07-jingle/reviews/afterhuman-instrumental-metal-v01-preview-config.json \
+  /private/tmp/afterhuman-metal-with-david.wav
+```
+
+Decodes the configured voiceover and music with macOS `afconvert`, mixes at
+48 kHz stereo with the recorded start time/gain envelope, and applies a shared
+sample-peak ceiling. Optional `fixed_master_gain_db` preserves an earlier master
+gain for music-only volume revisions and refuses a render if that gain would
+exceed the configured ceiling. Optional `music_reference_rms_dbfs` matches the
+decoded music source RMS before applying its envelope, for approximate comparison
+between candidates; it is not perceptual LUFS matching. Any further music-only
+peak adjustment is recorded in the preview configuration. Outputs a listening WAV and `.mix.json`
+provenance/level report. Refuses existing outputs, verifies input hashes and
+preserves originals.
+The preview does not replace source audio or establish final picture alignment,
+perceived loudness, true-peak compliance or listening approval.
+
+For the three new surprise takes, substitute the matching configuration under
+`assets/07-jingle/reviews/` (`afterhuman-instrumental-overclock-v01-preview-config.json`,
+`afterhuman-instrumental-chrome-swagger-v01-preview-config.json`, or
+`afterhuman-instrumental-redline-v01-preview-config.json`). The configurations
+retain the same David gain and music entry; any additional music-only peak
+adjustment is already included in the saved envelope gains. Listen via the
+[jingle comparison index](../assets/07-jingle/README.md).
+
+## Inspect voiceover auditions
+
+```sh
+python scripts/inspect-voiceover-auditions.py \
+  assets/09-voiceover/auditions/american-bass-v01 \
+  /private/tmp/afterhuman-voice-audio-checks.json
+```
+
+Hashes the original MP3 auditions and decodes them with macOS `afconvert` into
+temporary 16-bit PCM at the source sample rate. Reports frame count, format,
+sample peak, RMS and full-scale sample count. It removes temporary audio and
+refuses an existing report path. No source edits or listening approval implied.
+See the [audition notes](../assets/09-voiceover/auditions/american-bass-v01/README.md).
+
 ## Review the continuous Seedance departure and transformation
 
 The [approved 480p take](../assets/06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/README.md)
@@ -423,3 +466,72 @@ Picture is re-encoded; audio and subjective pacing still need listening review.
 
 Review the full five seconds with the existing contact-sheet script using
 `0 0.2083333333 24 4 416 240` after the input/output arguments.
+
+## Review the POV chase prototype batch
+
+`review-pov-chase-prototypes.py` invokes existing macOS Swift helpers for decoded frame inspection, 14 sampled frames and native-audio WAV/level extraction. It preserves inputs and skips existing review outputs. Run from the repository root:
+
+```sh
+python scripts/review-pov-chase-prototypes.py assets/06-shots/videos/pov-chase-minimax-batch-v01.json
+```
+
+Its successful output does not establish full playback, listening or user approval. Saved findings and individual links are in the [batch review](../assets/06-shots/reviews/pov-chase-minimax-v01/README.md).
+
+## Add the intelligence HUD concept locally
+
+`add-pov-hud-preview.swift INPUT.mp4 NEW_OUTPUT.mp4` uses AVFoundation/CoreAnimation and rasterized text. It adds screen-space panels and a timed arrow, preserves the native source, retains audio, and writes hashes/provenance in an adjacent `.edit.json`. This helper targets the current five-second, 24 fps landscape plate; it is not a general tracker. No provider/API call. Outputs must be unused paths.
+
+```sh
+hud_dir=$(mktemp -d /private/tmp/afterhuman-hud.XXXXXX)
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache scripts/add-pov-hud-preview.swift assets/06-shots/videos/shot-08-pov-intelligence-minimax-v01.mp4 "$hud_dir/hud-preview.mp4"
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache scripts/inspect-review-video.swift "$hud_dir/hud-preview.mp4" "$hud_dir/last-frame.png" "$hud_dir/inspection.json"
+```
+
+Current deliverable is `shot-08-pov-intelligence-hud-preview-v02.mp4` under the batch review folder. v01 had missing text and an extra export frame; v02 fixes both locally. Picture is re-encoded, native audio retained, no music/voice added. Exported byte hashes may vary between runs. Use a fresh directory for inspection because the inspector also writes a fixed `last-picture-frame.png` name.
+
+## Build the starting-frame comparison gallery
+
+`build-startframe-gallery.py` reads a batch and its adjacent generation/review records and writes a responsive local HTML page linking the native images. No image processing, provider calls or source changes. Run from repository root; use a fresh output folder because an existing index is refused:
+
+```sh
+python scripts/build-startframe-gallery.py assets/06-shots/images/powers-startframes-batch-v01.json /private/tmp/afterhuman-startframes-review
+```
+
+The saved [comparison gallery](../assets/06-shots/reviews/powers-startframes-v01/index.html) and [review notes](../assets/06-shots/reviews/powers-startframes-v01/README.md) contain the current five image concepts. Opening the HTML locally requires no server or network access.
+
+The starting-frame gallery honors an optional latest_review_record on a batch shot, so it can show a revised still while retaining original batch output and cost provenance.
+
+## Review individual videos from the redesigned stills
+
+The same gallery builder supports native MP4/MOV/WebM players with source-image posters and optional batch `gallery_title`, `gallery_description`, `gallery_status` and `gallery_footer` fields. Native audio is retained; playback is manual. Existing still galleries and media files are unchanged.
+
+```sh
+python scripts/review-pov-chase-prototypes.py assets/06-shots/videos/powers-startframe-motion-batch-v01.json
+python scripts/build-startframe-gallery.py assets/06-shots/videos/powers-startframe-motion-batch-v01.json /private/tmp/afterhuman-motion-review-new
+```
+
+Use a fresh gallery destination. [Five-video gallery](../assets/06-shots/reviews/powers-startframe-motion-v01/index.html) and [review notes](../assets/06-shots/reviews/powers-startframe-motion-v01/README.md) document the generated results and remaining motion issues. Audio decoding/level checks do not establish a listening review.
+
+For longer clips, the review helper accepts optional batch fields `review_sample_count` and `review_interval_seconds`. The coffee-reflex ten-second test uses 24 samples spaced 0.4166666667 seconds apart so the handback and exit are included, instead of sampling only the first five seconds:
+
+```sh
+python scripts/review-pov-chase-prototypes.py assets/06-shots/videos/reflexes-coffee-test-batch-v01.json
+```
+
+Existing review derivatives are still preserved. If resampling an already inspected file, use a new review asset/destination or invoke the contact-sheet helper with a fresh output filename; do not overwrite prior review evidence.
+
+## Assemble the 45-second narrated ad review
+
+[Continuous review v01](../assets/08-edit/continuous-ad-review-v01/README.md) uses the selected coffee rescue, locked continuous Seedance shot, David and Chrome Swagger. Exact picture ranges, speech placements, music arrangement, native-audio gains and hashes are saved beside the output.
+
+- `mix-ad-review.py CONFIG.json NEW_OUTPUT.wav` decodes existing voice/music with macOS `afconvert`, places contiguous voice phrases at original speed, arranges two placements of the existing jingle, ducks music around speech and filters the coffee slow-motion beat. It saves a stereo WAV plus a provenance/levels report with a sample-peak ceiling; no provider call, source overwrite or voice time stretching.
+- `render-brand-outro.swift ENDING_FRAME.png NEW_OUTRO.mp4` creates 60 frames at 24 fps / 1920×1080: a rotating spiral from the ending frame and exact AFTERHUMAN / A STEP AHEAD typography. No audio or paid generation. Input/output hashes are recorded. The mark is a local editorial proposal awaiting review.
+- Existing `assemble-continuation.swift` combines the saved picture clips and arranged soundtrack, ducks/crossfades native sound, retains source speed and exports the 45-second review with a full-mix WAV and `.edit.json`.
+
+```sh
+python scripts/mix-ad-review.py assets/08-edit/continuous-ad-review-v01/soundtrack-config.json /private/tmp/afterhuman-review-soundtrack-new.wav
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache scripts/render-brand-outro.swift assets/06-shots/reviews/shot-12-overtake-coastal-minimax-startframe-v01/last-picture-frame.png /private/tmp/afterhuman-review-outro-new.mp4
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache scripts/assemble-continuation.swift assets/08-edit/continuous-ad-review-v01/timeline.json /private/tmp/afterhuman-continuous-review-new.mp4
+```
+
+Run from repository root with unused output paths. The assembly command reads the saved derivative paths in its timeline; to use newly rebuilt components elsewhere, copy the timeline and update those paths. The 1080p canvas includes scaled 480p footage. Decode, source-hash and sample-peak checks do not establish independent listening or final competition readiness.

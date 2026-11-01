@@ -1,0 +1,96 @@
+{
+  "status": "shortlist_for_user_audition",
+  "source": "ElevenLabs creative_list_voices live connector",
+  "purpose": "American English bass/baritone announcer for selected narration option A",
+  "audio_generation_performed": false,
+  "candidates": [
+    {
+      "voice_id": "2cW6cjkWenOhW7QrnJbJ",
+      "name": "Desmond - Trailer & Ad Voice",
+      "category": "professional",
+      "description": "Deep, expressive American male with real range. Trailer weight when you need it, warm and conversational when you don't. Built for commercials, promos, brand spots, and social ads. Also strong for explainers, documentary, podcast intros, and YouTube VO.",
+      "labels": {
+        "accent": "en-american",
+        "age": "middle-aged",
+        "gender": "male",
+        "language": "en"
+      },
+      "library_url": "https://elevenlabs.io/app/voice-library?voiceId=2cW6cjkWenOhW7QrnJbJ",
+      "public_library_preview_url": "https://storage.googleapis.com/eleven-public-prod/database/workspace/a2e0e770441b435caf6671599b0df1cf/voices/2cW6cjkWenOhW7QrnJbJ/dCfdOyCg9per48vBqS3G.mp3",
+      "selection_status": "candidate_not_auditioned_on_project_script"
+    },
+    {
+      "voice_id": "laTmoAT4stwoPzthxjZT",
+      "name": "David - The Movie Trailer",
+      "category": "professional",
+      "description": "Perfect for Movie Trailers, Movie Spoofs, and anything that requires that movie voice sound. David has voiced thousands of actual movie trailers.",
+      "labels": {
+        "age": "middle-aged",
+        "accent": "en-american",
+        "language": "en",
+        "gender": "male"
+      },
+      "library_url": "https://elevenlabs.io/app/voice-library?voiceId=laTmoAT4stwoPzthxjZT",
+      "public_library_preview_url": "https://storage.googleapis.com/eleven-public-prod/database/workspace/a266f44d8505448d8ff77f2753793b7b/voices/laTmoAT4stwoPzthxjZT/MxLm1YnLX0eEfzOfn2Ly.mp3",
+      "selection_status": "candidate_not_auditioned_on_project_script"
+    },
+    {
+      "voice_id": "cQrSgU1CeOOz73lBM5Cb",
+      "name": "K. V. Hagen - Exceptionally Deep Bass",
+      "category": "professional",
+      "description": "A rare, exceptionally deep male voice with a naturally low, effortless bass register. Warm, resonant and commanding, with a calm, measured, hypnotic delivery and natural, unforced depth, clarity and gravitas. Recorded in a professional, acoustically treated studio with a near-silent noise floor. Ideal for audiobooks, narration, documentaries, cinematic storytelling, trailers, meditation, sleep stories, commercials, true crime, history, mythology, poetry, fantasy, sci-fi, gothic fiction & horror.",
+      "labels": {
+        "language": "en",
+        "age": "middle-aged",
+        "gender": "male",
+        "accent": "en-american"
+      },
+      "library_url": "https://elevenlabs.io/app/voice-library?voiceId=cQrSgU1CeOOz73lBM5Cb",
+      "public_library_preview_url": "https://storage.googleapis.com/eleven-public-prod/database/workspace/34a8ed555e2240f2ae40dd74656b22ac/voices/cQrSgU1CeOOz73lBM5Cb/Gf3nv78Ar6FGYLwGZ4qq.mp3",
+      "selection_status": "candidate_not_auditioned_on_project_script"
+    },
+    {
+      "voice_id": "rTOopItG6FIkKMIVxsl5",
+      "name": "Markmont.",
+      "category": "professional",
+      "description": "Warm, deep and content for commercials. Confident and bold for speeches and assertiveness. Bright, smooth and affirming for more traditional brand representation. Direct, non-frill and low register for athletic activities and sport brands. Bright, slower paced and excitable for kid brands.",
+      "labels": {
+        "Accent": "American",
+        "Character": "Confident",
+        "Elicitations ": "Affirmation",
+        "Tone": "Calm and Warm",
+        "Register": "Low and Deep"
+      },
+      "library_url": "https://elevenlabs.io/app/voice-library?voiceId=rTOopItG6FIkKMIVxsl5",
+      "public_library_preview_url": "https://storage.googleapis.com/eleven-public-prod/database/user/f8RFBwQyy6Y2YkwG3yNyvvb1tph2/voices/rTOopItG6FIkKMIVxsl5/CzJ4FXdUKrZue1Pckuar.mp3",
+      "selection_status": "candidate_not_auditioned_on_project_script"
+    }
+  ],
+  "checked_at": "2026-10-29T22:40:53+05:30",
+  "preview_availability_checks": [
+    {
+      "voice_id": "2cW6cjkWenOhW7QrnJbJ",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "140781"
+    },
+    {
+      "voice_id": "laTmoAT4stwoPzthxjZT",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "168656"
+    },
+    {
+      "voice_id": "cQrSgU1CeOOz73lBM5Cb",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "content_length": "257681"
+    },
+    {
+      "voice_id": "rTOopItG6FIkKMIVxsl5",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "82337"
+    }
+  ]
+}

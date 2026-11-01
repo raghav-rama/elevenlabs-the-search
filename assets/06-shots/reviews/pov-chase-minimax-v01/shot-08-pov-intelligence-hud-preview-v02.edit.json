@@ -1,0 +1,19 @@
+{
+  "duration_seconds": 5.167,
+  "height": 480,
+  "limitations": "Screen-space concept overlay, not world-tracked VFX or a final brand design. Native source audio retained; no new music or speech.",
+  "output_file": "assets/06-shots/reviews/pov-chase-minimax-v01/shot-08-pov-intelligence-hud-preview-v02.mp4",
+  "output_sha256": "5ffac227553471cd268d2b44eb1739a2f7492b6194d1206db3a309125c1a782c",
+  "paid_generation": false,
+  "script": "scripts/add-pov-hud-preview.swift",
+  "source_file": "assets/06-shots/videos/shot-08-pov-intelligence-minimax-v01.mp4",
+  "source_modified": false,
+  "source_sha256": "8d5a4742ee27aab48ddd3c0bf9668b7c0389bc6d31beb9401d7b7525b22b512b",
+  "status": "superseded_with_user_rejected_sequence",
+  "width": 832,
+  "review_notes": "Rasterized text and arrow visible in sampled frames. 124 frames / 5.166667 seconds; native source preserved. Screen-space prototype only.",
+  "inspection_file": "assets/06-shots/reviews/pov-chase-minimax-v01/hud-inspection-v02/inspection.json",
+  "contact_sheet": "assets/06-shots/reviews/pov-chase-minimax-v01/hud-inspection/contact-sheet-v02.jpg",
+  "sequence_rejected_at": "2026-10-31T21:35:07+05:30",
+  "note": "User rejected the five-shot sequence including ineffective HUD. Exact viewed raw/overlay variant was not specified. Image-first redesign supersedes this concept."
+}

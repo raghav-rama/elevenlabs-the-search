@@ -1,0 +1,172 @@
+{
+  "flow_id": "RvZqvPiEMwNzDR2Oc5LG",
+  "flow_url": "https://elevenlabs.io/app/flows/RvZqvPiEMwNzDR2Oc5LG",
+  "status": "user_rejected",
+  "model_id": "minimax-h3",
+  "requested_generations": 5,
+  "estimate": {
+    "credits": 7575,
+    "price_cents": 10998.900000000001,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 240
+  },
+  "run_summary": {
+    "nodes_run": 5,
+    "generations_started": 5,
+    "failed": 0,
+    "generations_by_node": {
+      "klkRFdMRn2BNRsbNXJPx": 1,
+      "ACaLY6sfc85JwnAQ7Q1U": 1,
+      "5Jkccd41UcHqa8nlpFkQ": 1,
+      "m8Qcpzubw36CpcbD69Q0": 1,
+      "gluHzCtSW1aIwwtx8DrG": 1
+    }
+  },
+  "session_ids": [
+    "2fpGzrhuwH2LhGvBdijg",
+    "3JqzQogv8eGMZYSUQqRl",
+    "UJ1HgxsDPz8w7qsouGwW",
+    "LvWrhTvF2OnUAQr7YL1W",
+    "gDGCrB8RrPTVx3ry318F"
+  ],
+  "shots": [
+    {
+      "asset_id": "shot-08-pov-intelligence-minimax-v01",
+      "node_id": "klkRFdMRn2BNRsbNXJPx",
+      "session_id": "2fpGzrhuwH2LhGvBdijg",
+      "generation_id": "WmKYplcOM3OMPuCS7wAE",
+      "reported_run_credits": 1515,
+      "status": "user_rejected",
+      "output_file": "assets/06-shots/videos/shot-08-pov-intelligence-minimax-v01.mp4",
+      "sha256": "8d5a4742ee27aab48ddd3c0bf9668b7c0389bc6d31beb9401d7b7525b22b512b",
+      "record_file": "assets/06-shots/videos/shot-08-pov-intelligence-minimax-v01.generation.json",
+      "price": {
+        "credits": 1515,
+        "price_cents": 2199.78,
+        "cost_fiat_currency": "inr"
+      },
+      "review_outcome": "usable_route_plate_pending_user_review",
+      "review_file": "assets/06-shots/reviews/shot-08-pov-intelligence-minimax-v01/review.json",
+      "selected": false,
+      "user_approved": false,
+      "user_feedback": "HUD absent/ineffective in the delivered scene."
+    },
+    {
+      "asset_id": "shot-09-pov-reflexes-minimax-v01",
+      "node_id": "ACaLY6sfc85JwnAQ7Q1U",
+      "session_id": "3JqzQogv8eGMZYSUQqRl",
+      "generation_id": "vDMxz1iY6QlByuYnD3Kl",
+      "reported_run_credits": 1515,
+      "status": "user_rejected",
+      "output_file": "assets/06-shots/videos/shot-09-pov-reflexes-minimax-v01.mp4",
+      "sha256": "d924afe155e6debca39dd6eae71902be9946acc03b5799aa72bf598f99d9239a",
+      "record_file": "assets/06-shots/videos/shot-09-pov-reflexes-minimax-v01.generation.json",
+      "price": {
+        "credits": 1515,
+        "price_cents": 2199.78,
+        "cost_fiat_currency": "inr"
+      },
+      "review_outcome": "readable_catch_setup_needs_polish",
+      "review_file": "assets/06-shots/reviews/shot-09-pov-reflexes-minimax-v01/review.json",
+      "selected": false,
+      "user_approved": false,
+      "user_feedback": "Phone reads as a handoff rather than a reflex catch; needs deliberate sound design."
+    },
+    {
+      "asset_id": "shot-10-pov-strength-minimax-v01",
+      "node_id": "5Jkccd41UcHqa8nlpFkQ",
+      "session_id": "UJ1HgxsDPz8w7qsouGwW",
+      "generation_id": "4m1eQwsCvBtaxRSXTCpb",
+      "reported_run_credits": 1515,
+      "status": "user_rejected",
+      "output_file": "assets/06-shots/videos/shot-10-pov-strength-minimax-v01.mp4",
+      "sha256": "186ff4fcd1aaf4b327c113cbef5607d80bceaf701fcd127653b66fc5e70959f3",
+      "record_file": "assets/06-shots/videos/shot-10-pov-strength-minimax-v01.generation.json",
+      "price": {
+        "credits": 1515,
+        "price_cents": 2199.78,
+        "cost_fiat_currency": "inr"
+      },
+      "review_outcome": "readable_lift_pending_motion_review",
+      "review_file": "assets/06-shots/reviews/shot-10-pov-strength-minimax-v01/review.json",
+      "selected": false,
+      "user_approved": false,
+      "user_feedback": "Wheeled cart does not demonstrate strength; replace with a large solid object such as a rock."
+    },
+    {
+      "asset_id": "shot-11-pov-speed-minimax-v01",
+      "node_id": "m8Qcpzubw36CpcbD69Q0",
+      "session_id": "LvWrhTvF2OnUAQr7YL1W",
+      "generation_id": "fFQyApdjzR4TEVXVnkpu",
+      "reported_run_credits": 1515,
+      "status": "user_rejected",
+      "output_file": "assets/06-shots/videos/shot-11-pov-speed-minimax-v01.mp4",
+      "sha256": "ab47a4f685e32c75a458ef42687f35d91653e1427a5719bf82a36b981fe43bcd",
+      "record_file": "assets/06-shots/videos/shot-11-pov-speed-minimax-v01.generation.json",
+      "price": {
+        "credits": 1515,
+        "price_cents": 2199.78,
+        "cost_fiat_currency": "inr"
+      },
+      "review_outcome": "needs_direction_correction",
+      "review_file": "assets/06-shots/reviews/shot-11-pov-speed-minimax-v01/review.json",
+      "selected": false,
+      "user_approved": false,
+      "user_feedback": "Riley looks too slow."
+    },
+    {
+      "asset_id": "shot-12-overhead-overtake-minimax-v01",
+      "node_id": "gluHzCtSW1aIwwtx8DrG",
+      "session_id": "gDGCrB8RrPTVx3ry318F",
+      "generation_id": "ELwBrfCGYFVDe097bXxP",
+      "reported_run_credits": 1515,
+      "status": "user_rejected",
+      "output_file": "assets/06-shots/videos/shot-12-overhead-overtake-minimax-v01.mp4",
+      "sha256": "09c1fb61000c279e9f3e7bab708adcd796c9588bff864d1bea6f84745e96ad86",
+      "record_file": "assets/06-shots/videos/shot-12-overhead-overtake-minimax-v01.generation.json",
+      "price": {
+        "credits": 1515,
+        "price_cents": 2199.78,
+        "cost_fiat_currency": "inr"
+      },
+      "review_outcome": "needs_geography_and_overtake_correction",
+      "review_file": "assets/06-shots/reviews/shot-12-overhead-overtake-minimax-v01/review.json",
+      "selected": false,
+      "user_approved": false,
+      "user_feedback": "Overhead train lies at 90 degrees to the rails and faces Riley."
+    }
+  ],
+  "reused_launch": {
+    "path": "assets/06-shots/videos/shot-07-speed-launch-departure-minimax-v02.mp4",
+    "status": "existing_unselected_prototype_reused_for_continuity_test"
+  },
+  "locked_music": "assets/07-jingle/afterhuman-instrumental-chrome-swagger-v01.mp3",
+  "locked_voiceover": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3",
+  "plan": "assets/06-shots/video-prompts/pov-chase-minimax-prototypes-v01.md",
+  "completed_generations": 5,
+  "completed_checked_at": "2026-10-31T16:23:45+05:30",
+  "total_reported_price": {
+    "credits": 7575,
+    "price_cents": 10998.900000000001,
+    "currency": "inr"
+  },
+  "retries": 0,
+  "reviewed_at": "2026-10-31T16:29:44+05:30",
+  "review_index": "assets/06-shots/reviews/pov-chase-minimax-v01/README.md",
+  "selected": false,
+  "user_approved": false,
+  "review_summary": "First three capability setups are readable prototypes; both train-racing takes need direction/geography correction. No paid retries.",
+  "hud_preview": "assets/06-shots/reviews/pov-chase-minimax-v01/shot-08-pov-intelligence-hud-preview-v02.mp4",
+  "final_audio_picture_assembly": "pending; locked VO/music and prior picture selections unchanged",
+  "user_reviewed_at": "2026-10-31T21:31:44+05:30",
+  "user_feedback": [
+    "HUD absent/ineffective in the delivered scene.",
+    "Phone reads as a handoff rather than a reflex catch; needs deliberate sound design.",
+    "Wheeled cart does not demonstrate strength; replace with a large solid object such as a rock.",
+    "Riley looks too slow.",
+    "Overhead train lies at 90 degrees to the rails and faces Riley.",
+    "Every scene should not be in the station; redesign across different locations."
+  ],
+  "next_step": "Generate one beginning image per revised scene and await user review before video."
+}

@@ -1,0 +1,101 @@
+{
+  "status": "selection_complete",
+  "created_checked_at": "2026-10-31T15:53:47+05:30",
+  "authorization_quote": "Can you create three more 'surprise me' versions of it please?",
+  "flow_id": "1Wm2iEn6GL4TBWH62VVi",
+  "flow_url": "https://elevenlabs.io/app/flows/1Wm2iEn6GL4TBWH62VVi",
+  "requested_generations": 3,
+  "completed_generations": 3,
+  "retries": 0,
+  "model_id": "eleven_music_v2",
+  "estimate": {
+    "credits": 1636.363636363636,
+    "price_cents": 2376,
+    "currency": "inr"
+  },
+  "actual_price": {
+    "credits": 809.9999999999998,
+    "price_cents": 1176.12,
+    "currency": "inr"
+  },
+  "candidates": [
+    {
+      "asset_id": "afterhuman-instrumental-overclock-v01",
+      "title": "Overclock",
+      "direction": "Drum and bass with evolving percussion and crystalline synth accents",
+      "status": "completed_unselected_alternative",
+      "selected": false,
+      "user_approved": false,
+      "record_path": "assets/07-jingle/afterhuman-instrumental-overclock-v01.generation.json",
+      "model_id": "eleven_music_v2",
+      "node_id": "ke0GtRulCKgIYxHmIdyd",
+      "generation_id": "pHs7asto3BtfoNDI8PjK",
+      "session_id": "SH899t21Mg13O12TwIju",
+      "output_path": "assets/07-jingle/afterhuman-instrumental-overclock-v01.mp3",
+      "preview_path": "assets/07-jingle/reviews/afterhuman-instrumental-overclock-v01-with-david.wav",
+      "sha256": "ebc682cc873c721e9e87f13538b9d77c9a726338e2f6ae0592c105dcf4ebb09e",
+      "duration_seconds": 18,
+      "instrumental_requested": true,
+      "actual_price": {
+        "credits": 269.99999999999994,
+        "price_cents": 392.03999999999996,
+        "cost_fiat_currency": "inr"
+      }
+    },
+    {
+      "asset_id": "afterhuman-instrumental-chrome-swagger-v01",
+      "title": "Chrome Swagger",
+      "direction": "Playful futuristic spy-funk with brass, guitar and punchy electronic drums",
+      "status": "approved_selected_locked",
+      "selected": true,
+      "user_approved": true,
+      "record_path": "assets/07-jingle/afterhuman-instrumental-chrome-swagger-v01.generation.json",
+      "model_id": "eleven_music_v2",
+      "node_id": "3flOx8OEYk0pZWRLO0Jb",
+      "generation_id": "El2epp7p4WzyqA0GLEW2",
+      "session_id": "X3Leh0uET4j6i31ulmyT",
+      "output_path": "assets/07-jingle/afterhuman-instrumental-chrome-swagger-v01.mp3",
+      "preview_path": "assets/07-jingle/reviews/afterhuman-instrumental-chrome-swagger-v01-with-david.wav",
+      "sha256": "600ee8ec8049fb8196d5fb62365b26afab3ed7db33d634ec2b9f99ad45da7d6b",
+      "duration_seconds": 18,
+      "instrumental_requested": true,
+      "actual_price": {
+        "credits": 269.99999999999994,
+        "price_cents": 392.03999999999996,
+        "cost_fiat_currency": "inr"
+      }
+    },
+    {
+      "asset_id": "afterhuman-instrumental-redline-v01",
+      "title": "Redline",
+      "direction": "Industrial rave-metal with acid synth, guitar bursts and a rising final hook",
+      "status": "completed_unselected_alternative",
+      "selected": false,
+      "user_approved": false,
+      "record_path": "assets/07-jingle/afterhuman-instrumental-redline-v01.generation.json",
+      "model_id": "eleven_music_v2",
+      "node_id": "OanWtsjlGquROCfKZIGP",
+      "generation_id": "au2kugkhlXnjsxP54cIp",
+      "session_id": "FcZBQuK4c0tqU17S0vqV",
+      "output_path": "assets/07-jingle/afterhuman-instrumental-redline-v01.mp3",
+      "preview_path": "assets/07-jingle/reviews/afterhuman-instrumental-redline-v01-with-david.wav",
+      "sha256": "fda62fc337f3ec0219b7960e4e64ba068bec8e93bccfd8211b2c99d574d1841f",
+      "duration_seconds": 18,
+      "instrumental_requested": true,
+      "actual_price": {
+        "credits": 269.99999999999994,
+        "price_cents": 392.03999999999996,
+        "cost_fiat_currency": "inr"
+      }
+    }
+  ],
+  "review_index_path": "assets/07-jingle/README.md",
+  "comparison": "Each preview uses locked David with the same 4.36s music entry, voice gain and master gain. Music source RMS approximately matched to metal; Chrome Swagger lowered another 2.4 dB for fixed-master peak guard. Review standalone sources as well. Chrome Swagger is now selected by the user; these previews do not establish final picture placement or master mix.",
+  "selected_asset_id": "afterhuman-instrumental-chrome-swagger-v01",
+  "user_approval": {
+    "at": "2026-10-31T15:59:50+05:30",
+    "source": "explicit_user_message",
+    "quote": "Ok lock in chrome swagger",
+    "scope": "Lock this exact existing Chrome Swagger music take for the ad; retain the existing David preview as the listening reference. Final picture placement and master mix remain pending."
+  }
+}

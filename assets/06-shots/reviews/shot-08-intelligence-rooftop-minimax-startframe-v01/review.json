@@ -1,0 +1,22 @@
+{
+  "reviewed_at": "2026-10-31T22:31:22+05:30",
+  "status": "assistant_reviewed_pending_user",
+  "selected": false,
+  "user_approved": false,
+  "method": "14 sampled frames across the clip; final native frame additionally inspected for shots 08 and 12; AVFoundation decode and audio level checks.",
+  "observations": [
+    "A large cyan HUD stays visible. Amber routes fade and ROUTE LOCKED appears around 1.9 seconds, leaving one highlighted route.",
+    "The rooftop view and natural hand remain stable through the sampled frames."
+  ],
+  "limitations": [
+    "Typography and thin HUD lines need production-resolution review. The lock pose holds for much of the ending, so the final edit may use a shorter range.",
+    "Review used 14 sampled frames plus technical decoding; no full real-time playback or independent listening review. Native audio is preserved and needs sound-design/mix review."
+  ],
+  "assistant_verdict": "promising_hud_motion_prototype",
+  "full_playback_reviewed": false,
+  "audio_listened": false,
+  "contact_sheet": "assets/06-shots/reviews/shot-08-intelligence-rooftop-minimax-startframe-v01/contact-sheet.jpg",
+  "technical_inspection": "assets/06-shots/reviews/shot-08-intelligence-rooftop-minimax-startframe-v01/inspection.json",
+  "native_audio": "assets/06-shots/reviews/shot-08-intelligence-rooftop-minimax-startframe-v01/native-audio.wav",
+  "native_audio_levels": "assets/06-shots/reviews/shot-08-intelligence-rooftop-minimax-startframe-v01/native-audio-levels.txt"
+}

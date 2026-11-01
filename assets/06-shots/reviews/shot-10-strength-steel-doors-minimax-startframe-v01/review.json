@@ -1,0 +1,23 @@
+{
+  "reviewed_at": "2026-10-31T22:31:22+05:30",
+  "status": "assistant_reviewed_pending_user",
+  "selected": false,
+  "user_approved": false,
+  "method": "14 sampled frames across the clip; final native frame additionally inspected for shots 08 and 12; AVFoundation decode and audio level checks.",
+  "observations": [
+    "Both hands grip the opposing door edges in first person. The panels visibly crease and buckle outward from roughly 1.9\u20133.0 seconds.",
+    "The deformed doors stay open; hands release near the end and the view advances into the corridor."
+  ],
+  "limitations": [
+    "The setup takes nearly two seconds before the major bend; final pacing should favor the decisive pull.",
+    "Moving hand proportions and grip contact still need close playback review. No claim of frame-perfect anatomy.",
+    "Review used 14 sampled frames plus technical decoding; no full real-time playback or independent listening review. Native audio is preserved and needs sound-design/mix review."
+  ],
+  "assistant_verdict": "promising_strength_deformation_prototype",
+  "full_playback_reviewed": false,
+  "audio_listened": false,
+  "contact_sheet": "assets/06-shots/reviews/shot-10-strength-steel-doors-minimax-startframe-v01/contact-sheet.jpg",
+  "technical_inspection": "assets/06-shots/reviews/shot-10-strength-steel-doors-minimax-startframe-v01/inspection.json",
+  "native_audio": "assets/06-shots/reviews/shot-10-strength-steel-doors-minimax-startframe-v01/native-audio.wav",
+  "native_audio_levels": "assets/06-shots/reviews/shot-10-strength-steel-doors-minimax-startframe-v01/native-audio-levels.txt"
+}

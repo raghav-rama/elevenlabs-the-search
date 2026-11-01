@@ -1,0 +1,61 @@
+{
+  "status": "user_approved_locked",
+  "flow_id": "J725xEy49QY4xa6L66pw",
+  "flow_url": "https://elevenlabs.io/app/flows/J725xEy49QY4xa6L66pw",
+  "model_id": "minimax-h3",
+  "requested_generations": 1,
+  "generations_per_shot": 1,
+  "requested_settings": {
+    "resolution": "480p",
+    "aspect_ratio": "16:9",
+    "duration_secs": 10
+  },
+  "estimate": {
+    "credits": 3030,
+    "price_cents": 4399.56,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 240
+  },
+  "selected": true,
+  "user_approved": true,
+  "retries": 0,
+  "session_ids": [
+    "vSLHaPSutJ1nhgTcWBKa"
+  ],
+  "run_summary": {
+    "nodes_run": 1,
+    "generations_started": 1,
+    "failed": 0,
+    "generations_by_node": {
+      "YxNgvhN4CkOZaufMn02v": 1
+    }
+  },
+  "review_sample_count": 24,
+  "review_interval_seconds": 0.4166666667,
+  "shots": [
+    {
+      "asset_id": "shot-09-reflexes-coffee-fpp-tpp-minimax-v01",
+      "record_file": "assets/06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.generation.json",
+      "prompt_file": "assets/06-shots/video-prompts/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.txt",
+      "output_file": "assets/06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+      "node_id": "YxNgvhN4CkOZaufMn02v",
+      "generation_id": "lKb7MLX932jQ6PQS9rU1",
+      "status": "user_approved_locked",
+      "sha256": "00caba5dfc91d5a09537f9b6eb75dd9355070c8d26884da341b6737705863bb0",
+      "session_id": "vSLHaPSutJ1nhgTcWBKa",
+      "review_file": "assets/06-shots/reviews/shot-09-reflexes-coffee-fpp-tpp-minimax-v01/review.json"
+    }
+  ],
+  "completed_at": "2026-10-31T22:50:50+05:30",
+  "completed_generations": 1,
+  "total_reported_price": {
+    "credits": 3030,
+    "price_cents": 4399.56,
+    "currency": "inr"
+  },
+  "reviewed_at": "2026-10-31T22:53:56+05:30",
+  "review_index": "assets/06-shots/reviews/shot-09-reflexes-coffee-fpp-tpp-minimax-v01/README.md",
+  "review_summary": "Full story beats present; release physics, stronger acceleration and likeness/camera polish remain.",
+  "user_approved_at": "2026-10-31T22:58:47+05:30"
+}

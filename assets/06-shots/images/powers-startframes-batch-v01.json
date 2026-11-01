@@ -1,0 +1,436 @@
+{
+  "status": "latest_startframes_pending_user_review",
+  "flow_id": "rZN7nVDHnd64A9UCsrwK",
+  "flow_url": "https://elevenlabs.io/app/flows/rZN7nVDHnd64A9UCsrwK",
+  "model_id": "gpt-image-2",
+  "settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "1K",
+    "quality": "low"
+  },
+  "requested_generations": 5,
+  "generations_per_scene": 1,
+  "estimate": {
+    "credits": 1478.9675675675678,
+    "price_cents": 2147.460908108108,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "retries": 0,
+  "selected": false,
+  "user_approved": false,
+  "scope": "Five redesigned scene opening stills only; video and sound production deferred until user review.",
+  "schema": {
+    "model_id": "gpt-image-2",
+    "model_name": "GPT Image 2",
+    "node_type": "image-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "16:9",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "4:5",
+            "value": "4:5"
+          },
+          {
+            "label": "5:4",
+            "value": "5:4"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "2:3",
+            "value": "2:3"
+          },
+          {
+            "label": "3:2",
+            "value": "3:2"
+          },
+          {
+            "label": "1:2",
+            "value": "1:2"
+          },
+          {
+            "label": "2:1",
+            "value": "2:1"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "1:3",
+            "value": "1:3"
+          },
+          {
+            "label": "3:1",
+            "value": "3:1"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "1K",
+        "options": [
+          {
+            "label": "1K",
+            "value": "1K"
+          },
+          {
+            "label": "2K",
+            "value": "2K"
+          },
+          {
+            "label": "4K",
+            "value": "4K"
+          }
+        ]
+      },
+      {
+        "name": "quality",
+        "type": "select",
+        "required": false,
+        "default": "medium",
+        "options": [
+          {
+            "label": "low",
+            "value": "low"
+          },
+          {
+            "label": "medium",
+            "value": "medium"
+          },
+          {
+            "label": "high",
+            "value": "high"
+          }
+        ]
+      },
+      {
+        "name": "custom_width",
+        "type": "number",
+        "required": false,
+        "min_value": 64,
+        "max_value": 3840,
+        "number_type": "int"
+      },
+      {
+        "name": "custom_height",
+        "type": "number",
+        "required": false,
+        "min_value": 64,
+        "max_value": 3840,
+        "number_type": "int"
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "images",
+        "modality": "image",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "1:1",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "2:3",
+        "3:2",
+        "1:2",
+        "2:1",
+        "9:16",
+        "16:9",
+        "21:9",
+        "1:3",
+        "3:1"
+      ],
+      "quality": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "resolution": [
+        "1K",
+        "2K",
+        "4K"
+      ]
+    }
+  },
+  "shots": [
+    {
+      "asset_id": "shot-08-intelligence-rooftop-start-v01",
+      "node_id": "jQkW34lRC1R02EOpMlJS",
+      "prompt_file": "assets/06-shots/prompts/shot-08-intelligence-rooftop-start-v01.txt",
+      "output_file": "assets/06-shots/images/shot-08-intelligence-rooftop-start-v01.png",
+      "record_file": "assets/06-shots/images/shot-08-intelligence-rooftop-start-v01.generation.json",
+      "session_id": "4aIX0KD4FBvqgskJeK8k",
+      "generation_id": "Cs36Pu0MghXF1G5grPiF",
+      "status": "generated_visual_review_pending_user",
+      "sha256": "fa4b8db8cc0c7ea492b7d53ba85e63f8b328bd7641423cc0aa0ab933ec6c8cce",
+      "width": 1280,
+      "height": 720,
+      "price": {
+        "credits": 252.11783783783784,
+        "price_cents": 366.0751005405406,
+        "cost_fiat_currency": "inr"
+      },
+      "selected": false,
+      "user_approved": false,
+      "review_summary": {
+        "observations": [
+          "Visible integrated cyan HUD with legible AFTERHUMAN, INTERCEPT ROUTE and CALCULATING text.",
+          "Cyan selected route, amber alternate routes and magenta train target appear over a distinct rooftop city view.",
+          "First-person left hand has mostly natural skin and thin chrome/cyan inlays."
+        ],
+        "limitations": [
+          "Map is a compositional concept, not a validated or tracked geographic route.",
+          "HUD resolution/animation and final text should be controlled in the edit; no moving HUD proven."
+        ],
+        "reviewed_at": "2026-10-31T21:35:07+05:30",
+        "method": "Full-resolution visual inspection of generated still; no motion or listening claim.",
+        "user_selection_pending": true
+      }
+    },
+    {
+      "asset_id": "shot-09-reflexes-cafe-start-v01",
+      "node_id": "fpbJfjrvcnDJIsUm1Cic",
+      "prompt_file": "assets/06-shots/prompts/shot-09-reflexes-cafe-start-v01.txt",
+      "output_file": "assets/06-shots/images/shot-09-reflexes-cafe-start-v01.png",
+      "record_file": "assets/06-shots/images/shot-09-reflexes-cafe-start-v01.generation.json",
+      "session_id": "ugc1H3zaBZSFAiZmlNuC",
+      "generation_id": "aoMq0FDztGdKeWgQEWo7",
+      "status": "generated_visual_review_pending_user",
+      "sha256": "f4791a7718b289006d4b25ebf5905fbc18d0d611ff71ad250cc3235a51519309",
+      "width": 1280,
+      "height": 720,
+      "price": {
+        "credits": 252.11783783783784,
+        "price_cents": 366.0751005405406,
+        "cost_fiat_currency": "inr"
+      },
+      "selected": false,
+      "user_approved": false,
+      "review_summary": {
+        "observations": [
+          "One phone is clearly airborne between the stranger and Riley, with neither hand touching it.",
+          "The stranger's hand is above/left; Riley's right hand reaches from bottom-right.",
+          "Outdoor copper-accented caf\u00e9 plaza creates a distinct location."
+        ],
+        "limitations": [
+          "A still cannot establish whether the phone is falling versus tossed; the video must begin with downward rotation, no exchange motion.",
+          "Riley's hand is already extended; animation needs a decisive fast catch rather than slow reaching.",
+          "Time-dilation sound plan is documented, not generated or mixed."
+        ],
+        "reviewed_at": "2026-10-31T21:35:07+05:30",
+        "method": "Full-resolution visual inspection of generated still; no motion or listening claim.",
+        "user_selection_pending": true
+      }
+    },
+    {
+      "asset_id": "shot-10-strength-boulder-start-v01",
+      "node_id": "SQNzWX1gfzmJtklHNN9r",
+      "prompt_file": "assets/06-shots/prompts/shot-10-strength-boulder-start-v01.txt",
+      "output_file": "assets/06-shots/images/shot-10-strength-boulder-start-v01.png",
+      "record_file": "assets/06-shots/images/shot-10-strength-boulder-start-v01.generation.json",
+      "session_id": "00baIim6NLuxuy0QLjRm",
+      "generation_id": "mVxFiLmsQCFmzYKFC5UQ",
+      "status": "user_rejected",
+      "sha256": "ae03042e9164fa6ba9fe82a7cb9a98bdfe7148ec7e0399d813f046d49c97a971",
+      "width": 1280,
+      "height": 720,
+      "price": {
+        "credits": 252.11783783783784,
+        "price_cents": 366.0751005405406,
+        "cost_fiat_currency": "inr"
+      },
+      "selected": false,
+      "user_approved": false,
+      "review_summary": {
+        "observations": [
+          "A large rough granite boulder blocks a forested mountain access road; no wheeled object.",
+          "One skin-dominant right palm cups the near underside; boulder retains ground contact on the far/left base.",
+          "Rock scale and road context establish a heavy obstacle."
+        ],
+        "limitations": [
+          "Near edge has a small gap around her grip; later animation must lift the whole boulder visibly off the ground.",
+          "Hand force, mass and stone-setdown continuity remain motion tests."
+        ],
+        "reviewed_at": "2026-10-31T21:35:07+05:30",
+        "method": "Full-resolution visual inspection of generated still; no motion or listening claim.",
+        "user_selection_pending": true
+      },
+      "latest_review_record": "assets/06-shots/images/shot-10-strength-steel-doors-start-v01.generation.json",
+      "latest_review_image": "assets/06-shots/images/shot-10-strength-steel-doors-start-v01.png",
+      "user_feedback": "User rejects the stretched/spaghetti arm and the boulder-lift premise: it reads as third person rather than a convincing view through Riley's eyes. Replace the shot concept.",
+      "replacement_concept": "User-approved first-person jammed steel doors; output pending review."
+    },
+    {
+      "asset_id": "shot-11-speed-boulevard-start-v01",
+      "node_id": "7HZWsgloHXLVT77Uj7wM",
+      "prompt_file": "assets/06-shots/prompts/shot-11-speed-boulevard-start-v01.txt",
+      "output_file": "assets/06-shots/images/shot-11-speed-boulevard-start-v01.png",
+      "record_file": "assets/06-shots/images/shot-11-speed-boulevard-start-v01.generation.json",
+      "session_id": "fFph6Lig13pW4qQfkWbP",
+      "generation_id": "R8CrhgAicrGxk236tvXZ",
+      "status": "generated_visual_review_pending_user",
+      "sha256": "de9b68191851f62fa7ebdb402ee1431aae76a0efcf0d27991bd43ac26bdf3560",
+      "width": 1280,
+      "height": 720,
+      "price": {
+        "credits": 252.11783783783784,
+        "price_cents": 366.0751005405406,
+        "cost_fiat_currency": "inr"
+      },
+      "selected": false,
+      "user_approved": false,
+      "review_summary": {
+        "observations": [
+          "First-person arm drive on an open futuristic boulevard.",
+          "Strong edge/parallax blur and directional cyan/magenta streaks establish a speed visual.",
+          "Central forward route is clear; no station/train/head-on geometry."
+        ],
+        "limitations": [
+          "Motion blur in a still does not prove convincing sprint speed; animation must provide rapid foreground displacement and arm action.",
+          "A clean or less-blurred anchor may be useful if the video model turns this into static blur; no additional image made."
+        ],
+        "reviewed_at": "2026-10-31T21:35:07+05:30",
+        "method": "Full-resolution visual inspection of generated still; no motion or listening claim.",
+        "user_selection_pending": true
+      }
+    },
+    {
+      "asset_id": "shot-12-overtake-coastal-start-v01",
+      "node_id": "2Ks8JIsGi3cjjaFne11e",
+      "prompt_file": "assets/06-shots/prompts/shot-12-overtake-coastal-start-v01.txt",
+      "output_file": "assets/06-shots/images/shot-12-overtake-coastal-start-v01.png",
+      "record_file": "assets/06-shots/images/shot-12-overtake-coastal-start-v01.generation.json",
+      "session_id": "t0YAOI6ln4VXxfyxwJ9m",
+      "generation_id": "k4Quj8mwM41qe36CgKEH",
+      "status": "generated_visual_review_pending_user",
+      "sha256": "674a07b721bb39076b9ae9ad58a9319bddf7c150c0edf2d8a82628426d763e23",
+      "width": 1280,
+      "height": 720,
+      "price": {
+        "credits": 470.4962162162163,
+        "price_cents": 683.160505945946,
+        "cost_fiat_currency": "inr"
+      },
+      "selected": false,
+      "user_approved": false,
+      "review_summary": {
+        "observations": [
+          "Top-down coastal railway has train lengthwise and parallel to the visible rail corridor.",
+          "Train nose points toward image top; carriages extend to bottom.",
+          "Gold-clad Riley is on the separate left lane, facing top, behind the train nose, with a cyan trail behind downward."
+        ],
+        "limitations": [
+          "Correct starting arrangement does not establish a completed overtake; both must move upward and Riley must gain during animation.",
+          "Distant scale prevents detailed face/cyberware likeness assessment; outfit silhouette is approximate."
+        ],
+        "reviewed_at": "2026-10-31T21:35:07+05:30",
+        "method": "Full-resolution visual inspection of generated still; no motion or listening claim.",
+        "user_selection_pending": true
+      }
+    }
+  ],
+  "supersedes_rejected_batch": "assets/06-shots/videos/pov-chase-minimax-batch-v01.json",
+  "prepared_at": "2026-10-31T21:31:44+05:30",
+  "run_summary": {
+    "nodes_run": 5,
+    "generations_started": 5,
+    "failed": 0,
+    "generations_by_node": {
+      "jQkW34lRC1R02EOpMlJS": 1,
+      "fpbJfjrvcnDJIsUm1Cic": 1,
+      "SQNzWX1gfzmJtklHNN9r": 1,
+      "7HZWsgloHXLVT77Uj7wM": 1,
+      "2Ks8JIsGi3cjjaFne11e": 1
+    }
+  },
+  "session_ids": [
+    "4aIX0KD4FBvqgskJeK8k",
+    "ugc1H3zaBZSFAiZmlNuC",
+    "00baIim6NLuxuy0QLjRm",
+    "fFph6Lig13pW4qQfkWbP",
+    "t0YAOI6ln4VXxfyxwJ9m"
+  ],
+  "completed_generations": 5,
+  "completed_at": "2026-10-31T21:35:07+05:30",
+  "total_reported_price": {
+    "credits": 1478.9675675675676,
+    "price_cents": 2147.4609081081085,
+    "currency": "inr"
+  },
+  "review_index": "assets/06-shots/reviews/powers-startframes-v01/README.md",
+  "gallery": "assets/06-shots/reviews/powers-startframes-v01/index.html",
+  "user_feedback": "Good start overall; not a final selection. Shot 10 hand too large.",
+  "followup_revisions": [
+    {
+      "asset_id": "shot-10-strength-boulder-start-v02",
+      "record_file": "assets/06-shots/images/shot-10-strength-boulder-start-v02.generation.json",
+      "output_file": "assets/06-shots/images/shot-10-strength-boulder-start-v02.png",
+      "generation_id": "jyxMXguhSN3IqAd53Suc",
+      "price": {
+        "credits": 252.11783783783784,
+        "price_cents": 366.0751005405406,
+        "cost_fiat_currency": "inr"
+      },
+      "status": "user_rejected",
+      "reason": "Explicit user correction to oversized hand/forearm.",
+      "user_feedback": "User rejects the stretched/spaghetti arm and the boulder-lift premise: it reads as third person rather than a convincing view through Riley's eyes. Replace the shot concept."
+    },
+    {
+      "asset_id": "shot-10-strength-steel-doors-start-v01",
+      "change_type": "concept_replacement",
+      "record_file": "assets/06-shots/images/shot-10-strength-steel-doors-start-v01.generation.json",
+      "output_file": "assets/06-shots/images/shot-10-strength-steel-doors-start-v01.png",
+      "generation_id": "CEqrHsUPs8vEan7F2i6E",
+      "price": {
+        "credits": 252.11783783783784,
+        "price_cents": 366.0751005405406,
+        "cost_fiat_currency": "inr"
+      },
+      "status": "generated_visual_review_pending_user",
+      "concept_approved": true,
+      "user_approved": false,
+      "reason": "User approved steel doors after rejecting boulder concept."
+    }
+  ],
+  "strength_replacement_status": "generated_visual_review_pending_user"
+}

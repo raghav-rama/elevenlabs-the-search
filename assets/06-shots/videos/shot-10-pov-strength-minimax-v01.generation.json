@@ -1,0 +1,149 @@
+{
+  "asset_id": "shot-10-pov-strength-minimax-v01",
+  "title": "10 \u2014 POV strength / one-handed cart lift",
+  "status": "user_rejected",
+  "provider": "ElevenLabs",
+  "model_id": "minimax-h3",
+  "model_parameters": {
+    "resolution": "480p",
+    "aspect_ratio": "16:9",
+    "duration_secs": 5,
+    "enhance_prompt": true,
+    "reference_images": [
+      {
+        "template_node_id": "bRA2EMN0b1qwCjCQLsEb"
+      },
+      {
+        "template_node_id": "VB3TcGGME10BAPj7UKuw"
+      }
+    ]
+  },
+  "flow_id": "RvZqvPiEMwNzDR2Oc5LG",
+  "flow_url": "https://elevenlabs.io/app/flows/RvZqvPiEMwNzDR2Oc5LG",
+  "node_id": "5Jkccd41UcHqa8nlpFkQ",
+  "selected": false,
+  "user_approved": false,
+  "authorization": {
+    "quote": "Great i like the direction. Split it across video generations. Use minimax for cheap prototyping video generation and ping me when the videos are ready. Use $elevenlabs",
+    "scope": "Approved chase direction; five new low-resolution prototypes, existing launch reused; no production final selection."
+  },
+  "prompt_file": "assets/06-shots/video-prompts/shot-10-pov-strength-minimax-v01.txt",
+  "output_file": "assets/06-shots/videos/shot-10-pov-strength-minimax-v01.mp4",
+  "generations_count": 1,
+  "seed": null,
+  "batch_estimate": {
+    "credits": 7575,
+    "price_cents": 10998.900000000001,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 240
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "start_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "end_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "bRA2EMN0b1qwCjCQLsEb",
+          "label": "REFERENCE 1 \u2014 Riley selected gold wardrobe and skin/chrome arms"
+        },
+        {
+          "id": "VB3TcGGME10BAPj7UKuw",
+          "label": "CONTINUITY \u2014 Approved transformed Riley and clear station"
+        }
+      ]
+    },
+    {
+      "key": "reference_videos",
+      "modality": "video",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_audios",
+      "modality": "audio",
+      "required": false,
+      "connected_to": []
+    }
+  ],
+  "references": [
+    {
+      "role": "reference_images",
+      "order": 1,
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "node_id": "bRA2EMN0b1qwCjCQLsEb",
+      "generation_id": "WboGh1QOlITNwOVIn0Gj",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6"
+    },
+    {
+      "role": "reference_images",
+      "order": 2,
+      "file": "assets/06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/last-picture-frame.png",
+      "node_id": "VB3TcGGME10BAPj7UKuw",
+      "asset_id": "31PjGeIKM3pQc1ShkXkD",
+      "sha256": "c0e544d85a36ece78e5455ca84632130e692f9e5ed9c9c3835a8047dc8ea3ba0"
+    }
+  ],
+  "notes": [
+    "Native 480p five-second prototype, no upscale or rerun.",
+    "Exact reference ports and order verified before generation.",
+    "Connector schema rejects enhance_prompt updates although exposable_parameters lists it. Effective provider default true retained; internal enhanced prompt not exposed.",
+    "Native audio requested as restrained scene effects only; no speech or music, listening review still required.",
+    "Identity/wardrobe/station references control appearance, not third-person composition; POV adherence requires output review."
+  ],
+  "prompt_sha256": "537da12b84d617b2df3cdde72026c1a063afd7f2f42b335ff3295b41627bbaf7",
+  "session_id": "UJ1HgxsDPz8w7qsouGwW",
+  "generation_id": "4m1eQwsCvBtaxRSXTCpb",
+  "reported_run_credits": 1515,
+  "completed_checked_at": "2026-10-31T16:23:45+05:30",
+  "bytes": 3748211,
+  "sha256": "186ff4fcd1aaf4b327c113cbef5607d80bceaf701fcd127653b66fc5e70959f3",
+  "width": 832,
+  "height": 480,
+  "provider_duration_seconds": 5.184,
+  "provider_reported_price": {
+    "credits": 1515,
+    "price_cents": 2199.78,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793443899466,
+  "review_file": "assets/06-shots/reviews/shot-10-pov-strength-minimax-v01/review.json",
+  "review_outcome": "readable_lift_pending_motion_review",
+  "native_inspection": {
+    "video_frames": 124,
+    "video_duration_seconds": 5.167,
+    "fps": 24,
+    "width": 832,
+    "height": 480,
+    "near_black_frames_detected": 0,
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 5.184,
+        "sample_rate": 32000
+      }
+    ]
+  },
+  "user_feedback": "Wheeled cart does not demonstrate strength; replace with a large solid object such as a rock.",
+  "user_reviewed_at": "2026-10-31T21:31:44+05:30"
+}

@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-10-31T23:11:13+05:30",
+  "status": "positive_user_review_production_visual_revisions_pending",
+  "selected": false,
+  "user_approved": false,
+  "output_file": "assets/08-edit/continuous-ad-review-v01/afterhuman-continuous-with-david-v01.mp4",
+  "output_sha256": "782a57621f92287c8ec29c86b443782c26b83df8413547a38449ff15253a9350",
+  "bytes": 51946663,
+  "duration_seconds": 45,
+  "video_frames": 1080,
+  "fps": 24,
+  "render_dimensions": [
+    1920,
+    1080
+  ],
+  "source_resolution_note": "Mixed source sizes including native 480p; 1080p is the review canvas, not newly generated HD detail.",
+  "source_speed_multiplier": 1,
+  "new_provider_generations": 0,
+  "new_provider_credits": 0,
+  "selected_coffee_take": "assets/06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+  "coffee_full_picture_frames": 243,
+  "voiceover_source": {
+    "path": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3",
+    "sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376"
+  },
+  "jingle_source": {
+    "path": "assets/07-jingle/afterhuman-instrumental-chrome-swagger-v01.mp3",
+    "sha256": "600ee8ec8049fb8196d5fb62365b26afab3ed7db33d634ec2b9f99ad45da7d6b"
+  },
+  "voiceover_source_coverage": "Every decoded source sample used once, in contiguous phrase source ranges; only pauses between phrases added. No split after So.",
+  "music_entry_seconds": 12.833333333333334,
+  "music_reset_on_catch_seconds": 27,
+  "picture_timeline": "assets/08-edit/continuous-ad-review-v01/timeline.json",
+  "soundtrack_config": "assets/08-edit/continuous-ad-review-v01/soundtrack-config.json",
+  "soundtrack_report": "assets/08-edit/continuous-ad-review-v01/david-chrome-swagger-arranged-v01.mix.json",
+  "export_record": "assets/08-edit/continuous-ad-review-v01/afterhuman-continuous-with-david-v01.edit.json",
+  "inspection_file": "assets/08-edit/continuous-ad-review-v01/inspection.json",
+  "contact_sheet": "assets/08-edit/continuous-ad-review-v01/contact-sheet.jpg",
+  "verification": {
+    "source_hashes_unchanged": true,
+    "all_picture_frames_decoded": true,
+    "near_black_frames": 0,
+    "pcm_peak_dbfs": -1.4999999999999996,
+    "decoded_aac_peak_dbfs": -1.4980269430947906,
+    "pcm_rms_dbfs": -21.813634816998846,
+    "soundtrack_full_scale_samples": 0,
+    "audio_tracks": 1,
+    "audio_sample_rate": 48000,
+    "audio_channels": 2
+  },
+  "assistant_visual_review": [
+    "Sampled exported frames show the correct FCP first three shots, selected continuous Seedance departure/transformation and new power sequence with the selected coffee rescue.",
+    "Exact AFTERHUMAN / A STEP AHEAD typography is readable on the closing frame; a local spiral links the overhead ending to the card.",
+    "Source-quality and motion limitations of the remaining unselected prototypes remain visible. The edit does not mark those source takes approved."
+  ],
+  "review_limits": [
+    "Sampled visual review and complete decode/level checks, not independent continuous playback or listening.",
+    "Native effects/music balance and newly spaced VO need user playback review.",
+    "This is an editorial review, not a submission-ready competition master; live delivery requirements have not been rechecked in this step."
+  ],
+  "user_review": {
+    "recorded_at": "2026-11-01T16:14:23+05:30",
+    "source": "explicit_user_message",
+    "overall_feedback": "Looks great.",
+    "scope": "Positive review of the assembled direction; production visuals, product clarity and world continuity still need work. This is not final-master approval or blanket selection of prototype source takes.",
+    "production_feedback": [
+      "The product is not apparent enough.",
+      "The four ability shots do not share a consistent world with the cyberpunk opening.",
+      "The overhead shot looks low quality."
+    ],
+    "seedance_production": "deferred_by_user_due_to_cost; do not generate now",
+    "next_step_note": "Documented creative recommendations only; no media edit or new generation in this review.",
+    "recommendations_file": "assets/08-edit/continuous-ad-review-v01/production-feedback.md"
+  }
+}

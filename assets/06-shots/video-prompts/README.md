@@ -170,3 +170,27 @@ picture is approved, the user is satisfied with the chin shot, and shot 2 take 3
 is approved after using the 1.5× badge reference. Only the closing-door visual
 remains unresolved. The legs audio revision and final cross-shot mix remain
 separate editing work.
+
+## POV chase prototypes — 2026-10-31
+
+The approved next sequence uses the existing launch, four first-person capabilities and an overhead overtake. [Production plan](pov-chase-minimax-prototypes-v01.md) and [five generated clips with review findings](../reviews/pov-chase-minimax-v01/README.md). MiniMax H3, five-second 480p requests, one take each; no retries. Speed and overhead need direction/geography correction. All results await user review; prior accepted selections remain intact.
+
+## Image-first redesign after video rejection — 2026-10-31
+
+All five new POV/race video prototypes above were rejected by the user. Five new beginning images across a rooftop, café street, mountain road, city boulevard and coastal railway are now [available for review](../reviews/powers-startframes-v01/README.md). Still prompts are in `../prompts/`; no replacement video generation has begun. Sound-design beats are documented in the review index for the later edit.
+
+## Individual start-frame videos — 2026-10-31
+
+The user subsequently rejected both boulder stills and approved the first-person steel-door concept, then authorized individual videos from the current five starting images. [Five native videos and findings](../reviews/powers-startframe-motion-v01/README.md) · [Playable gallery](../reviews/powers-startframe-motion-v01/index.html).
+
+One MiniMax H3 Max take per scene via ElevenLabs, 480p / five-second requests, exact starting images connected to `start_frame`, no additional reference slots or end frame. Total reported cost 7,575 credits / ₹109.989. No retries or upscaling. Exact prompts use the `*-minimax-startframe-v01.txt` filenames in this directory; settings, request IDs, costs and hashes are in the adjacent video generation records and `../videos/powers-startframe-motion-batch-v01.json`.
+
+HUD lock, steel deformation and forward sprint are visible in sampled-frame review. The phone rises before a slow catch; the overhead shot fixes train alignment/direction but does not establish a clear winning lead and Riley drifts inward. All remain prototypes pending user review. Native audio was decoded and level-checked, not independently listened to or approved as final sound design. Previous accepted footage and audio remain unchanged.
+
+## Coffee reflex experiment — 2026-10-31
+
+User requested a ten-second alternative to the phone catch: sidewalk POV run, dropped mug, third-person slow-motion rescue, handback and fast exit. [Native clip and review](../reviews/shot-09-reflexes-coffee-fpp-tpp-minimax-v01/README.md). One MiniMax H3 reference-to-video take, approved wardrobe and face references, 480p / 16:9 / 10 seconds; 3,030 credits / INR 43.9956. All main beats are visible, but the release still reads partly tossed and the exit needs a stronger speed burst. Camera/likeness and native audio need review. No final selection or extra paid retry.
+
+## Coffee selection and assembled review — 2026-10-31
+
+The user explicitly locked the coffee rescue take as rendered. It is retained in full in the [45-second continuous narrated review](../../08-edit/continuous-ad-review-v01/README.md), with David and Chrome Swagger. Earlier assistant concerns remain historical observations. Other power prototypes are placed for review and are not automatically selected. No additional generation or retiming.

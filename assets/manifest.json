@@ -982,13 +982,228 @@
     "decided_at": "2026-10-23T22:59:01+05:30",
     "basis": "Explicit user direction; existing approved shots remain selected unless separately replaced."
   },
+  "jingle": {
+    "status": "approved_selected_locked",
+    "selected": true,
+    "latest_candidate": {
+      "asset_id": "afterhuman-instrumental-redline-v01",
+      "record_path": "assets/07-jingle/afterhuman-instrumental-redline-v01.generation.json",
+      "model_id": "eleven_music_v2",
+      "generation_id": "au2kugkhlXnjsxP54cIp",
+      "sha256": "fda62fc337f3ec0219b7960e4e64ba068bec8e93bccfd8211b2c99d574d1841f",
+      "duration_seconds": 18,
+      "instrumental_requested": true,
+      "selected": false,
+      "user_approved": false,
+      "path": "assets/07-jingle/afterhuman-instrumental-redline-v01.mp3",
+      "status": "completed_unselected_alternative"
+    },
+    "listening_preview_path": "assets/07-jingle/reviews/afterhuman-instrumental-chrome-swagger-v01-with-david.wav",
+    "preview_music_start_seconds_relative_to_vo": 4.36,
+    "historical_unselected_demo": "assets/07-jingle/afterhuman-demo-v01.mp3",
+    "user_liked_candidates": [
+      "afterhuman-instrumental-metal-v01",
+      "afterhuman-instrumental-chrome-swagger-v01"
+    ],
+    "experiments": [
+      {
+        "asset_id": "afterhuman-instrumental-breakbeat-v01",
+        "status": "failed_no_audio",
+        "record_path": "assets/07-jingle/afterhuman-instrumental-breakbeat-v01.generation.json",
+        "generation_id": "sermFfLv5UvFtQMjJzr1",
+        "output_path": null,
+        "retried": true,
+        "retry_authorized_by_user": true,
+        "retry_asset_id": "afterhuman-instrumental-breakbeat-v02"
+      },
+      {
+        "asset_id": "afterhuman-instrumental-breakbeat-v02",
+        "status": "completed_unselected_alternative",
+        "record_path": "assets/07-jingle/afterhuman-instrumental-breakbeat-v02.generation.json",
+        "generation_id": "6RDGQ7tXF55zq2GCo8Ox",
+        "output_path": "assets/07-jingle/afterhuman-instrumental-breakbeat-v02.mp3",
+        "preview_path": "assets/07-jingle/reviews/afterhuman-instrumental-breakbeat-v02-with-david.wav",
+        "selected": false,
+        "user_approved": false,
+        "retry_of": "afterhuman-instrumental-breakbeat-v01"
+      },
+      {
+        "asset_id": "afterhuman-instrumental-overclock-v01",
+        "title": "Overclock",
+        "direction": "Drum and bass with evolving percussion and crystalline synth accents",
+        "status": "completed_unselected_alternative",
+        "selected": false,
+        "user_approved": false,
+        "record_path": "assets/07-jingle/afterhuman-instrumental-overclock-v01.generation.json",
+        "model_id": "eleven_music_v2",
+        "node_id": "ke0GtRulCKgIYxHmIdyd",
+        "generation_id": "pHs7asto3BtfoNDI8PjK",
+        "session_id": "SH899t21Mg13O12TwIju",
+        "output_path": "assets/07-jingle/afterhuman-instrumental-overclock-v01.mp3",
+        "preview_path": "assets/07-jingle/reviews/afterhuman-instrumental-overclock-v01-with-david.wav",
+        "sha256": "ebc682cc873c721e9e87f13538b9d77c9a726338e2f6ae0592c105dcf4ebb09e",
+        "duration_seconds": 18,
+        "instrumental_requested": true,
+        "actual_price": {
+          "credits": 269.99999999999994,
+          "price_cents": 392.03999999999996,
+          "cost_fiat_currency": "inr"
+        }
+      },
+      {
+        "asset_id": "afterhuman-instrumental-chrome-swagger-v01",
+        "title": "Chrome Swagger",
+        "direction": "Playful futuristic spy-funk with brass, guitar and punchy electronic drums",
+        "status": "approved_selected_locked",
+        "selected": true,
+        "user_approved": true,
+        "record_path": "assets/07-jingle/afterhuman-instrumental-chrome-swagger-v01.generation.json",
+        "model_id": "eleven_music_v2",
+        "node_id": "3flOx8OEYk0pZWRLO0Jb",
+        "generation_id": "El2epp7p4WzyqA0GLEW2",
+        "session_id": "X3Leh0uET4j6i31ulmyT",
+        "output_path": "assets/07-jingle/afterhuman-instrumental-chrome-swagger-v01.mp3",
+        "preview_path": "assets/07-jingle/reviews/afterhuman-instrumental-chrome-swagger-v01-with-david.wav",
+        "sha256": "600ee8ec8049fb8196d5fb62365b26afab3ed7db33d634ec2b9f99ad45da7d6b",
+        "duration_seconds": 18,
+        "instrumental_requested": true,
+        "actual_price": {
+          "credits": 269.99999999999994,
+          "price_cents": 392.03999999999996,
+          "cost_fiat_currency": "inr"
+        }
+      },
+      {
+        "asset_id": "afterhuman-instrumental-redline-v01",
+        "title": "Redline",
+        "direction": "Industrial rave-metal with acid synth, guitar bursts and a rising final hook",
+        "status": "completed_unselected_alternative",
+        "selected": false,
+        "user_approved": false,
+        "record_path": "assets/07-jingle/afterhuman-instrumental-redline-v01.generation.json",
+        "model_id": "eleven_music_v2",
+        "node_id": "OanWtsjlGquROCfKZIGP",
+        "generation_id": "au2kugkhlXnjsxP54cIp",
+        "session_id": "FcZBQuK4c0tqU17S0vqV",
+        "output_path": "assets/07-jingle/afterhuman-instrumental-redline-v01.mp3",
+        "preview_path": "assets/07-jingle/reviews/afterhuman-instrumental-redline-v01-with-david.wav",
+        "sha256": "fda62fc337f3ec0219b7960e4e64ba068bec8e93bccfd8211b2c99d574d1841f",
+        "duration_seconds": 18,
+        "instrumental_requested": true,
+        "actual_price": {
+          "credits": 269.99999999999994,
+          "price_cents": 392.03999999999996,
+          "cost_fiat_currency": "inr"
+        }
+      }
+    ],
+    "liked_metal_candidate": {
+      "asset_id": "afterhuman-instrumental-metal-v01",
+      "path": "assets/07-jingle/afterhuman-instrumental-metal-v01.mp3",
+      "record_path": "assets/07-jingle/afterhuman-instrumental-metal-v01.generation.json",
+      "model_id": "eleven_music_v2",
+      "generation_id": "PscCez0neu8ITWYUo7t7",
+      "sha256": "b712635357e2d36fd99f973fb0572b2eeb0af557c0fa28f578350b38740a8676",
+      "duration_seconds": 18,
+      "instrumental_requested": true,
+      "selected": false,
+      "status": "completed_unselected_alternative"
+    },
+    "liked_metal_preview_path": "assets/07-jingle/reviews/afterhuman-instrumental-metal-v01-with-david.wav",
+    "latest_batch": {
+      "record_path": "assets/07-jingle/surprise-batch-v01.json",
+      "asset_ids": [
+        "afterhuman-instrumental-overclock-v01",
+        "afterhuman-instrumental-chrome-swagger-v01",
+        "afterhuman-instrumental-redline-v01"
+      ],
+      "review_index_path": "assets/07-jingle/README.md",
+      "status": "selection_complete",
+      "selected_asset_id": "afterhuman-instrumental-chrome-swagger-v01"
+    },
+    "previous_single_candidate": {
+      "asset_id": "afterhuman-instrumental-breakbeat-v02",
+      "path": "assets/07-jingle/afterhuman-instrumental-breakbeat-v02.mp3",
+      "record_path": "assets/07-jingle/afterhuman-instrumental-breakbeat-v02.generation.json",
+      "model_id": "eleven_music_v2",
+      "generation_id": "6RDGQ7tXF55zq2GCo8Ox",
+      "sha256": "9f3e515391f50177e77d453ed08778b494d9d3b41d0bb3ed38c1a44c5e27f208",
+      "duration_seconds": 18,
+      "instrumental_requested": true,
+      "selected": false,
+      "user_approved": false,
+      "status": "completed_unselected_alternative"
+    },
+    "previous_single_preview_path": "assets/07-jingle/reviews/afterhuman-instrumental-breakbeat-v02-with-david.wav",
+    "user_approved": true,
+    "asset_id": "afterhuman-instrumental-chrome-swagger-v01",
+    "path": "assets/07-jingle/afterhuman-instrumental-chrome-swagger-v01.mp3",
+    "sha256": "600ee8ec8049fb8196d5fb62365b26afab3ed7db33d634ec2b9f99ad45da7d6b",
+    "record_path": "assets/07-jingle/afterhuman-instrumental-chrome-swagger-v01.generation.json",
+    "selected_candidate": {
+      "asset_id": "afterhuman-instrumental-chrome-swagger-v01",
+      "title": "Chrome Swagger",
+      "direction": "Playful futuristic spy-funk with brass, guitar and punchy electronic drums",
+      "status": "approved_selected_locked",
+      "selected": true,
+      "user_approved": true,
+      "record_path": "assets/07-jingle/afterhuman-instrumental-chrome-swagger-v01.generation.json",
+      "model_id": "eleven_music_v2",
+      "node_id": "3flOx8OEYk0pZWRLO0Jb",
+      "generation_id": "El2epp7p4WzyqA0GLEW2",
+      "session_id": "X3Leh0uET4j6i31ulmyT",
+      "output_path": "assets/07-jingle/afterhuman-instrumental-chrome-swagger-v01.mp3",
+      "preview_path": "assets/07-jingle/reviews/afterhuman-instrumental-chrome-swagger-v01-with-david.wav",
+      "sha256": "600ee8ec8049fb8196d5fb62365b26afab3ed7db33d634ec2b9f99ad45da7d6b",
+      "duration_seconds": 18,
+      "instrumental_requested": true,
+      "actual_price": {
+        "credits": 269.99999999999994,
+        "price_cents": 392.03999999999996,
+        "cost_fiat_currency": "inr"
+      }
+    },
+    "user_approval": {
+      "at": "2026-10-31T15:59:50+05:30",
+      "source": "explicit_user_message",
+      "quote": "Ok lock in chrome swagger",
+      "scope": "Lock this exact existing Chrome Swagger music take for the ad; retain the existing David preview as the listening reference. Final picture placement and master mix remain pending."
+    },
+    "listening_preview_sha256": "53927b918a824913338b23bebca0361c846e85fc00ce81488c2b3fcb2f238fa7",
+    "final_picture_alignment_status": "review_alignment_completed; production master pending",
+    "final_master_mix_status": "pending"
+  },
   "voiceover": {
-    "asset_id": "afterhuman-vo-v01",
-    "path": "assets/09-voiceover/afterhuman-vo-v01.mp3",
-    "record_path": "assets/09-voiceover/afterhuman-vo-v01.provenance.json",
-    "estimated_duration_seconds": 5.564082,
-    "status": "user_supplied_for_edit",
-    "review_status": "pending_assistant_listening_and_phrase_timing"
+    "asset_id": "afterhuman-vo-david-full-v01",
+    "path": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3",
+    "record_path": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.generation.json",
+    "duration_seconds": 16.92734693877551,
+    "sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376",
+    "voice_id": "laTmoAT4stwoPzthxjZT",
+    "voice_name": "David - The Movie Trailer",
+    "model_id": "eleven_v4",
+    "generation_id": "keqFQHx3Hu4Dr0dM0gGr",
+    "status": "approved_selected_locked",
+    "selected": true,
+    "user_approved": true,
+    "approved_at": "2026-10-29T23:01:30+05:30",
+    "review_status": "explicit_user_approval_as_rendered",
+    "edit_integration": "integrated_in_continuous_narrated_review_v01; Final Cut integration and final master pending",
+    "music_entry": "After the spoken upgrade finishes; provider-relative end around 4.36s is provisional until edit alignment.",
+    "latest_audition_batch": {
+      "path": "assets/09-voiceover/auditions/american-bass-v01/audition-batch.json",
+      "status": "completed_with_selected_take",
+      "selected_voice": "laTmoAT4stwoPzthxjZT",
+      "selected_output_file": "afterhuman-vo-david-full-v01.mp3"
+    },
+    "preserved_previous_opening": {
+      "asset_id": "afterhuman-vo-v01",
+      "path": "assets/09-voiceover/afterhuman-vo-v01.mp3",
+      "record_path": "assets/09-voiceover/afterhuman-vo-v01.provenance.json",
+      "estimated_duration_seconds": 5.564082,
+      "status": "user_supplied_for_edit",
+      "review_status": "pending_assistant_listening_and_phrase_timing"
+    }
   },
   "look_development": {
     "status": "character_and_wardrobe_selected",
@@ -1065,5 +1280,185 @@
       "selection_scope": "Replaces separate shots 04 and 05 in the next assembly; original sources and existing previews remain preserved."
     },
     "selected_departure_transformation_take": "06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4"
+  },
+  "pov_chase_prototypes": {
+    "updated_at": "2026-10-31T16:29:44+05:30",
+    "status": "user_rejected",
+    "provider": "ElevenLabs",
+    "model": "minimax-h3",
+    "resolution": "480p",
+    "requested_seconds_per_clip": 5,
+    "new_generations": 5,
+    "retries": 0,
+    "flow_url": "https://elevenlabs.io/app/flows/RvZqvPiEMwNzDR2Oc5LG",
+    "batch_record": "06-shots/videos/pov-chase-minimax-batch-v01.json",
+    "review_index": "06-shots/reviews/pov-chase-minimax-v01/README.md",
+    "hud_preview": "06-shots/reviews/pov-chase-minimax-v01/shot-08-pov-intelligence-hud-preview-v02.mp4",
+    "takes": [
+      "06-shots/videos/shot-08-pov-intelligence-minimax-v01.mp4",
+      "06-shots/videos/shot-09-pov-reflexes-minimax-v01.mp4",
+      "06-shots/videos/shot-10-pov-strength-minimax-v01.mp4",
+      "06-shots/videos/shot-11-pov-speed-minimax-v01.mp4",
+      "06-shots/videos/shot-12-overhead-overtake-minimax-v01.mp4"
+    ],
+    "selected": false,
+    "user_approved": false,
+    "reported_credits": 7575,
+    "reported_inr": 109.989,
+    "review_summary": "First three capability setups are readable prototypes; both train-racing takes need direction/geography correction. No paid retries.",
+    "reused_launch": "06-shots/videos/shot-07-speed-launch-departure-minimax-v02.mp4",
+    "separate_eye_closeup": "omitted from approved chase direction; old takes preserved",
+    "final_audio_picture_assembly": "pending",
+    "user_reviewed_at": "2026-10-31T21:31:44+05:30",
+    "user_feedback": [
+      "HUD absent/ineffective in the delivered scene.",
+      "Phone reads as a handoff rather than a reflex catch; needs deliberate sound design.",
+      "Wheeled cart does not demonstrate strength; replace with a large solid object such as a rock.",
+      "Riley looks too slow.",
+      "Overhead train lies at 90 degrees to the rails and faces Riley.",
+      "Every scene should not be in the station; redesign across different locations."
+    ]
+  },
+  "powers_startframes": {
+    "status": "latest_startframes_pending_user_review",
+    "updated_at": "2026-10-31T22:14:13+05:30",
+    "flow_url": "https://elevenlabs.io/app/flows/rZN7nVDHnd64A9UCsrwK",
+    "provider": "ElevenLabs",
+    "model": "gpt-image-2",
+    "quality": "low",
+    "requested_resolution": "1K",
+    "native_dimensions": [
+      1280,
+      720
+    ],
+    "count": 5,
+    "batch_record": "06-shots/images/powers-startframes-batch-v01.json",
+    "review_index": "06-shots/reviews/powers-startframes-v01/README.md",
+    "gallery": "06-shots/reviews/powers-startframes-v01/index.html",
+    "images": [
+      "06-shots/images/shot-08-intelligence-rooftop-start-v01.png",
+      "06-shots/images/shot-09-reflexes-cafe-start-v01.png",
+      "06-shots/images/shot-10-strength-steel-doors-start-v01.png",
+      "06-shots/images/shot-11-speed-boulevard-start-v01.png",
+      "06-shots/images/shot-12-overtake-coastal-start-v01.png"
+    ],
+    "selected": false,
+    "user_approved": false,
+    "retries": 0,
+    "video_generation_started": true,
+    "reported_credits": 1478.9675675675676,
+    "reported_inr": 21.474609081081084,
+    "latest_strength_revision": {
+      "image": "06-shots/images/shot-10-strength-steel-doors-start-v01.png",
+      "record": "06-shots/images/shot-10-strength-steel-doors-start-v01.generation.json",
+      "reported_credits": 252.11783783783784,
+      "status": "generated_visual_review_pending_user",
+      "concept_approved": true,
+      "user_approved": false,
+      "replaces_rejected_boulder_concept": true
+    },
+    "strength_replacement_status": "generated_visual_review_pending_user",
+    "motion_batch_record": "06-shots/videos/powers-startframe-motion-batch-v01.json",
+    "motion_authorized_at": "2026-10-31T22:24:30+05:30"
+  },
+  "powers_startframe_motion": {
+    "updated_at": "2026-10-31T22:31:22+05:30",
+    "status": "generated_reviewed_pending_user",
+    "provider": "ElevenLabs",
+    "model": "minimax-h3-max",
+    "resolution": "480p",
+    "requested_seconds_per_clip": 5,
+    "native_dimensions": [
+      832,
+      480
+    ],
+    "new_generations": 5,
+    "retries": 0,
+    "selected": false,
+    "user_approved": false,
+    "flow_url": "https://elevenlabs.io/app/flows/Po3Ew9qZ7xR4mOVZYC1Q",
+    "batch_record": "06-shots/videos/powers-startframe-motion-batch-v01.json",
+    "review_index": "06-shots/reviews/powers-startframe-motion-v01/README.md",
+    "gallery": "06-shots/reviews/powers-startframe-motion-v01/index.html",
+    "takes": [
+      "06-shots/videos/shot-08-intelligence-rooftop-minimax-startframe-v01.mp4",
+      "06-shots/videos/shot-09-reflexes-cafe-minimax-startframe-v01.mp4",
+      "06-shots/videos/shot-10-strength-steel-doors-minimax-startframe-v01.mp4",
+      "06-shots/videos/shot-11-speed-boulevard-minimax-startframe-v01.mp4",
+      "06-shots/videos/shot-12-overtake-coastal-minimax-startframe-v01.mp4"
+    ],
+    "reported_credits": 7575,
+    "reported_inr": 109.989,
+    "review_summary": "HUD route lock, permanently buckled steel and actual forward sprint visible. Phone initially rises and catch is too slow. Train geometry/direction fixed, but runner drifts inward and lacks a clear winning lead.",
+    "audio_review_status": "Native stereo audio decoded and level-checked only; not independently listened to. No sound-design or speech-free approval.",
+    "source_stills_authorized_for_motion_test": true,
+    "final_audio_picture_assembly": "pending",
+    "selected_reflex_replacement": "06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4"
+  },
+  "reflexes_coffee_test": {
+    "updated_at": "2026-10-31T22:53:56+05:30",
+    "status": "user_approved_locked",
+    "provider": "ElevenLabs",
+    "model": "minimax-h3",
+    "resolution": "480p",
+    "requested_duration_seconds": 10,
+    "native_dimensions": [
+      832,
+      480
+    ],
+    "native_picture_seconds": 10.125,
+    "selected": true,
+    "user_approved": true,
+    "generations": 1,
+    "retries": 0,
+    "flow_url": "https://elevenlabs.io/app/flows/J725xEy49QY4xa6L66pw",
+    "take": "06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+    "record": "06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.generation.json",
+    "batch_record": "06-shots/videos/reflexes-coffee-test-batch-v01.json",
+    "review_index": "06-shots/reviews/shot-09-reflexes-coffee-fpp-tpp-minimax-v01/README.md",
+    "reported_credits": 3030,
+    "reported_inr": 43.9956,
+    "review_summary": "Full story beats present; release physics, stronger acceleration and likeness/camera polish remain.",
+    "previous_phone_take_preserved": "06-shots/videos/shot-09-reflexes-cafe-minimax-startframe-v01.mp4",
+    "audio_listening_review": "pending",
+    "user_approved_at": "2026-10-31T22:58:47+05:30"
+  },
+  "continuous_narrated_review": {
+    "status": "positive_user_review_production_visual_revisions_pending",
+    "created_at": "2026-10-31T23:11:13+05:30",
+    "selected": false,
+    "user_approved": false,
+    "output_file": "08-edit/continuous-ad-review-v01/afterhuman-continuous-with-david-v01.mp4",
+    "output_sha256": "782a57621f92287c8ec29c86b443782c26b83df8413547a38449ff15253a9350",
+    "duration_seconds": 45,
+    "fps": 24,
+    "render_dimensions": [
+      1920,
+      1080
+    ],
+    "source_resolution_note": "Mixed source sizes including native 480p; 1080p is the review canvas, not newly generated HD detail.",
+    "review_index": "08-edit/continuous-ad-review-v01/README.md",
+    "player": "08-edit/continuous-ad-review-v01/index.html",
+    "timeline": "08-edit/continuous-ad-review-v01/timeline.json",
+    "delivery_record": "08-edit/continuous-ad-review-v01/delivery.json",
+    "selected_coffee_preserved": true,
+    "voiceover_regenerated": false,
+    "jingle_regenerated": false,
+    "source_retiming": false,
+    "new_provider_credits": 0,
+    "user_review": {
+      "recorded_at": "2026-11-01T16:14:23+05:30",
+      "source": "explicit_user_message",
+      "overall_feedback": "Looks great.",
+      "scope": "Positive review of the assembled direction; production visuals, product clarity and world continuity still need work. This is not final-master approval or blanket selection of prototype source takes.",
+      "production_feedback": [
+        "The product is not apparent enough.",
+        "The four ability shots do not share a consistent world with the cyberpunk opening.",
+        "The overhead shot looks low quality."
+      ],
+      "seedance_production": "deferred_by_user_due_to_cost; do not generate now",
+      "next_step_note": "Documented creative recommendations only; no media edit or new generation in this review.",
+      "recommendations_file": "assets/08-edit/continuous-ad-review-v01/production-feedback.md"
+    }
   }
 }

@@ -1,0 +1,167 @@
+{
+  "asset_id": "shot-11-pov-speed-minimax-v01",
+  "title": "11 \u2014 POV speed / run beside train",
+  "status": "user_rejected",
+  "provider": "ElevenLabs",
+  "model_id": "minimax-h3",
+  "model_parameters": {
+    "resolution": "480p",
+    "aspect_ratio": "16:9",
+    "duration_secs": 5,
+    "enhance_prompt": true,
+    "reference_images": [
+      {
+        "template_node_id": "bRA2EMN0b1qwCjCQLsEb"
+      },
+      {
+        "template_node_id": "VB3TcGGME10BAPj7UKuw"
+      }
+    ],
+    "reference_videos": [
+      {
+        "template_node_id": "7CvI9H8hL4HCtzT7s1B3"
+      }
+    ]
+  },
+  "flow_id": "RvZqvPiEMwNzDR2Oc5LG",
+  "flow_url": "https://elevenlabs.io/app/flows/RvZqvPiEMwNzDR2Oc5LG",
+  "node_id": "m8Qcpzubw36CpcbD69Q0",
+  "selected": false,
+  "user_approved": false,
+  "authorization": {
+    "quote": "Great i like the direction. Split it across video generations. Use minimax for cheap prototyping video generation and ping me when the videos are ready. Use $elevenlabs",
+    "scope": "Approved chase direction; five new low-resolution prototypes, existing launch reused; no production final selection."
+  },
+  "prompt_file": "assets/06-shots/video-prompts/shot-11-pov-speed-minimax-v01.txt",
+  "output_file": "assets/06-shots/videos/shot-11-pov-speed-minimax-v01.mp4",
+  "generations_count": 1,
+  "seed": null,
+  "batch_estimate": {
+    "credits": 7575,
+    "price_cents": 10998.900000000001,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 240
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "start_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "end_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "bRA2EMN0b1qwCjCQLsEb",
+          "label": "REFERENCE 1 \u2014 Riley selected gold wardrobe and skin/chrome arms"
+        },
+        {
+          "id": "VB3TcGGME10BAPj7UKuw",
+          "label": "CONTINUITY \u2014 Approved transformed Riley and clear station"
+        }
+      ]
+    },
+    {
+      "key": "reference_videos",
+      "modality": "video",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "7CvI9H8hL4HCtzT7s1B3",
+          "label": "REFERENCE \u2014 Locked station and departing train"
+        }
+      ]
+    },
+    {
+      "key": "reference_audios",
+      "modality": "audio",
+      "required": false,
+      "connected_to": []
+    }
+  ],
+  "references": [
+    {
+      "role": "reference_images",
+      "order": 1,
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "node_id": "bRA2EMN0b1qwCjCQLsEb",
+      "generation_id": "WboGh1QOlITNwOVIn0Gj",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6"
+    },
+    {
+      "role": "reference_images",
+      "order": 2,
+      "file": "assets/06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/last-picture-frame.png",
+      "node_id": "VB3TcGGME10BAPj7UKuw",
+      "asset_id": "31PjGeIKM3pQc1ShkXkD",
+      "sha256": "c0e544d85a36ece78e5455ca84632130e692f9e5ed9c9c3835a8047dc8ea3ba0"
+    },
+    {
+      "role": "reference_videos",
+      "order": 1,
+      "file": "assets/06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4",
+      "node_id": "7CvI9H8hL4HCtzT7s1B3",
+      "generation_id": "IADlmr2zGOc0HC4A4WL7",
+      "sha256": "3c3413da46200a72926418e20ec5fa6cc2177af0d0dcdf203353f976111abf39"
+    }
+  ],
+  "notes": [
+    "Native 480p five-second prototype, no upscale or rerun.",
+    "Exact reference ports and order verified before generation.",
+    "Connector schema rejects enhance_prompt updates although exposable_parameters lists it. Effective provider default true retained; internal enhanced prompt not exposed.",
+    "Native audio requested as restrained scene effects only; no speech or music, listening review still required.",
+    "Identity/wardrobe/station references control appearance, not third-person composition; POV adherence requires output review."
+  ],
+  "prompt_sha256": "c6d37bfc9c27139a8c002ac925e68fb4c893aa65a831c9e84170c10fe8bea496",
+  "session_id": "LvWrhTvF2OnUAQr7YL1W",
+  "generation_id": "fFQyApdjzR4TEVXVnkpu",
+  "reported_run_credits": 1515,
+  "completed_checked_at": "2026-10-31T16:23:45+05:30",
+  "bytes": 3756179,
+  "sha256": "ab47a4f685e32c75a458ef42687f35d91653e1427a5719bf82a36b981fe43bcd",
+  "width": 832,
+  "height": 480,
+  "provider_duration_seconds": 5.184,
+  "provider_reported_price": {
+    "credits": 1515,
+    "price_cents": 2199.78,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793443899465,
+  "review_file": "assets/06-shots/reviews/shot-11-pov-speed-minimax-v01/review.json",
+  "review_outcome": "needs_direction_correction",
+  "native_inspection": {
+    "video_frames": 124,
+    "video_duration_seconds": 5.167,
+    "fps": 24,
+    "width": 832,
+    "height": 480,
+    "near_black_frames_detected": 0,
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 5.184,
+        "sample_rate": 32000
+      }
+    ]
+  },
+  "user_feedback": "Riley looks too slow.",
+  "user_reviewed_at": "2026-10-31T21:31:44+05:30"
+}

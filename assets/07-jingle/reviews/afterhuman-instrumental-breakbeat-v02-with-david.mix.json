@@ -1,0 +1,76 @@
+{
+  "status": "listening_preview_not_final_mix",
+  "config_path": "assets/07-jingle/reviews/afterhuman-instrumental-breakbeat-v02-preview-config.json",
+  "config": {
+    "purpose": "Compare the successful user-authorized surprise breakbeat retry with the liked metal version, using the same locked David narration.",
+    "voiceover_path": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3",
+    "voiceover_sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376",
+    "music_path": "assets/07-jingle/afterhuman-instrumental-breakbeat-v02.mp3",
+    "music_sha256": "9f3e515391f50177e77d453ed08778b494d9d3b41d0bb3ed38c1a44c5e27f208",
+    "music_start_seconds": 4.36,
+    "timing_basis": "David provider alignment ends upgrade at 4.36s from VO start. Provisional audition cue, not final picture timing.",
+    "voiceover_gain_db": 0,
+    "music_under_voice_db": -15.6,
+    "music_initial_hit_db": -8.6,
+    "music_after_voice_db": -5.6,
+    "initial_hit_seconds": 0.12,
+    "initial_settle_seconds": 0.12,
+    "recovery_delay_seconds": 0.05,
+    "recovery_seconds": 0.5,
+    "sample_peak_ceiling_dbfs": -0.5,
+    "fixed_master_gain_db": -0.6078534327033005,
+    "music_reference_rms_dbfs": -15.177778078062008,
+    "comparison_reference": "assets/07-jingle/reviews/afterhuman-instrumental-metal-v01-with-david.mix.json",
+    "level_matching_note": "Music source RMS is matched approximately to metal before the envelope, then music alone is lowered by the documented peak adjustment. Not perceptual LUFS matching.",
+    "music_only_peak_adjustment": {
+      "reason": "Initial RMS-matched preview exceeded the fixed-master sample-peak ceiling; retain narration gain and lower only music.",
+      "exact_bound_db": -0.06491754998477998,
+      "applied_db": -0.1,
+      "pre_adjustment_gains_db": {
+        "music_initial_hit_db": -8.5,
+        "music_under_voice_db": -15.5,
+        "music_after_voice_db": -5.5
+      },
+      "pre_adjustment_sample_peak_dbfs": -0.49391876930067163
+    }
+  },
+  "sources": {
+    "voiceover": {
+      "path": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3",
+      "sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376",
+      "decoded_seconds": 16.927333333333333,
+      "decoded_levels": {
+        "sample_peak_dbfs": -0.7434420608022658,
+        "rms_dbfs": -18.684501787957903
+      }
+    },
+    "music": {
+      "path": "assets/07-jingle/afterhuman-instrumental-breakbeat-v02.mp3",
+      "sha256": "9f3e515391f50177e77d453ed08778b494d9d3b41d0bb3ed38c1a44c5e27f208",
+      "decoded_seconds": 18.0,
+      "decoded_levels": {
+        "sample_peak_dbfs": -0.6832999949347364,
+        "rms_dbfs": -15.614530681105034
+      }
+    }
+  },
+  "sample_rate": 48000,
+  "channels": 2,
+  "music_start_frame": 209280,
+  "music_start_seconds": 4.36,
+  "total_frames": 1073280,
+  "duration_seconds": 22.36,
+  "master_gain_db": -0.6078534327033005,
+  "music_rms_match_gain_db": 0.43675260304302554,
+  "levels": {
+    "sample_peak_dbfs": -0.5036471825781049,
+    "rms_dbfs": -19.876354556129773
+  },
+  "full_scale_pcm_samples": 0,
+  "output": {
+    "path": "assets/07-jingle/reviews/afterhuman-instrumental-breakbeat-v02-with-david.wav",
+    "sha256": "71202acb238a0fb826458f00f9996ede5168e101500e67863c6d4a2782c542c9",
+    "bytes": 4293164
+  },
+  "limitation": "Mix is for audition only; no perceptual listening approval or final picture alignment implied."
+}

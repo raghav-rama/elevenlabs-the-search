@@ -1,0 +1,158 @@
+{
+  "asset_id": "shot-09-reflexes-cafe-minimax-startframe-v01",
+  "title": "09 \u2014 Reflexes: phone catch",
+  "status": "generated_reviewed_pending_user",
+  "selected": false,
+  "user_approved": false,
+  "provider": "ElevenLabs",
+  "model_id": "minimax-h3-max",
+  "model_parameters": {
+    "start_frame": {
+      "template_node_id": "xPjyhmgnF8p1Ou85k8J6"
+    },
+    "resolution": "480p",
+    "duration_secs": 5,
+    "enhance_prompt": true
+  },
+  "flow_id": "Po3Ew9qZ7xR4mOVZYC1Q",
+  "flow_url": "https://elevenlabs.io/app/flows/Po3Ew9qZ7xR4mOVZYC1Q",
+  "node_id": "k4VYtaXaB5hFdAatOOwM",
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "start_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "xPjyhmgnF8p1Ou85k8J6",
+          "label": "09 \u2014 reflexes-cafe \u2014 EXACT START FRAME"
+        }
+      ]
+    },
+    {
+      "key": "end_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_images",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_videos",
+      "modality": "video",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_audios",
+      "modality": "audio",
+      "required": false,
+      "connected_to": []
+    }
+  ],
+  "prompt_file": "assets/06-shots/video-prompts/shot-09-reflexes-cafe-minimax-startframe-v01.txt",
+  "output_file": "assets/06-shots/videos/shot-09-reflexes-cafe-minimax-startframe-v01.mp4",
+  "references": [
+    {
+      "role": "exact_start_frame",
+      "order": 1,
+      "file": "assets/06-shots/images/shot-09-reflexes-cafe-start-v01.png",
+      "sha256": "f4791a7718b289006d4b25ebf5905fbc18d0d611ff71ad250cc3235a51519309",
+      "generation_id": "aoMq0FDztGdKeWgQEWo7",
+      "node_id": "xPjyhmgnF8p1Ou85k8J6"
+    }
+  ],
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "retimed": false,
+  "batch_estimate": {
+    "credits": 7575,
+    "price_cents": 10998.900000000001,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "authorization": "User: Ok then create videos of individual shots. Continued MiniMax/ElevenLabs cheap-prototyping strategy; five current starting stills including approved steel-door replacement.",
+  "notes": [
+    "Starting image bound to start_frame; no reference_images/video/audio or end_frame inputs.",
+    "Aspect ratio inherited from the 16:9 starting image; no aspect_ratio parameter supplied, per live model guide.",
+    "Native sound design is directed in the prompt; successful synthesis and audio quality require separate listening review.",
+    "Source still is authorized for this motion test, not automatically a final production selection.",
+    "Default enhance_prompt value, if exposed in effective parameters, is retained; internal expanded prompt is not supplied by connector."
+  ],
+  "prepared_at": "2026-10-31T22:24:30+05:30",
+  "prompt_sha256": "140765a59e5e2981f91008607d1e6a2a8856c2c5bd752ee9b52b271c869a2887",
+  "session_id": "21dZvoGHPrby05F7WynE",
+  "generation_id": "XQsbPIGklybYk2hcWfna",
+  "reported_run_credits": 1515,
+  "width": 832,
+  "height": 480,
+  "provider_duration_seconds": 5.184,
+  "provider_reported_price": {
+    "credits": 1515,
+    "price_cents": 2199.78,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793465671866,
+  "bytes": 3143881,
+  "sha256": "66f21b553ea67338d1d888a3897fbf64796ae56392bfee6ee7c817d686e4bbeb",
+  "completed_at": "2026-10-31T22:25:37+05:30",
+  "location": "Outdoor caf\u00e9 street",
+  "reviewed_at": "2026-10-31T22:31:22+05:30",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-10-31T22:31:22+05:30",
+    "status": "assistant_reviewed_pending_user",
+    "selected": false,
+    "user_approved": false,
+    "method": "14 sampled frames across the clip; final native frame additionally inspected for shots 08 and 12; AVFoundation decode and audio level checks.",
+    "observations": [
+      "One airborne phone ends in Riley's right hand; the stranger remains separate rather than directly handing it over.",
+      "The phone initially rises on screen, then drifts toward the palm and is caught around 2.6\u20133.0 seconds."
+    ],
+    "limitations": [
+      "The initial rise reads more like a toss or float than a clean accidental drop.",
+      "The hand and phone move too slowly together to clearly establish superhuman reflexes. The requested fast snap at 1\u20131.3 seconds did not land.",
+      "This remains a motion test, not a solved reflex shot.",
+      "Review used 14 sampled frames plus technical decoding; no full real-time playback or independent listening review. Native audio is preserved and needs sound-design/mix review."
+    ],
+    "assistant_verdict": "needs_drop_trajectory_and_reflex_timing_revision",
+    "full_playback_reviewed": false,
+    "audio_listened": false,
+    "contact_sheet": "assets/06-shots/reviews/shot-09-reflexes-cafe-minimax-startframe-v01/contact-sheet.jpg",
+    "technical_inspection": "assets/06-shots/reviews/shot-09-reflexes-cafe-minimax-startframe-v01/inspection.json",
+    "native_audio": "assets/06-shots/reviews/shot-09-reflexes-cafe-minimax-startframe-v01/native-audio.wav",
+    "native_audio_levels": "assets/06-shots/reviews/shot-09-reflexes-cafe-minimax-startframe-v01/native-audio-levels.txt"
+  },
+  "review_file": "assets/06-shots/reviews/shot-09-reflexes-cafe-minimax-startframe-v01/review.json",
+  "technical_review": {
+    "inspection_file": "assets/06-shots/reviews/shot-09-reflexes-cafe-minimax-startframe-v01/inspection.json",
+    "video_samples": 124,
+    "fps": 24,
+    "dimensions": [
+      832,
+      480
+    ],
+    "video_duration_seconds": 5.167,
+    "near_black_frames": 0,
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 5.184,
+        "sample_rate": 32000
+      }
+    ],
+    "audio_listened": false
+  }
+}

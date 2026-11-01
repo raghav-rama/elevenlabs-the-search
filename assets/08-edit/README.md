@@ -1,3 +1,11 @@
+# Current assembled review
+
+[**Watch the 45-second continuous cut with David and Chrome Swagger**](continuous-ad-review-v01/afterhuman-continuous-with-david-v01.mp4) · [Timing and review notes](continuous-ad-review-v01/README.md).
+
+The coffee reflex take is now user-approved and locked. This assembly uses it in full, preserves the first three FCP shots and locked continuous Seedance departure/transformation, spaces the existing narration around the action, and finishes with a local spiral/end card. The user likes the assembled cut, with product clarity, world continuity and overhead quality still to address. [Production recommendations](continuous-ad-review-v01/production-feedback.md) are documented; Seedance generation is explicitly deferred due to cost. Other prototype placements are not automatically approved. No new generation credits or Final Cut changes.
+
+The earlier notes and exports below remain historical records.
+
 # Opening review cuts
 
 Selected for the next assembly: [continuous Seedance shots 04–05](../06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/README.md),

@@ -1,0 +1,156 @@
+{
+  "asset_id": "shot-08-intelligence-rooftop-minimax-startframe-v01",
+  "title": "08 \u2014 Intelligence: route locked",
+  "status": "generated_reviewed_pending_user",
+  "selected": false,
+  "user_approved": false,
+  "provider": "ElevenLabs",
+  "model_id": "minimax-h3-max",
+  "model_parameters": {
+    "start_frame": {
+      "template_node_id": "xQS16DWE4QDIchiXYr9L"
+    },
+    "resolution": "480p",
+    "duration_secs": 5,
+    "enhance_prompt": true
+  },
+  "flow_id": "Po3Ew9qZ7xR4mOVZYC1Q",
+  "flow_url": "https://elevenlabs.io/app/flows/Po3Ew9qZ7xR4mOVZYC1Q",
+  "node_id": "jbOXTDrjmt0AJDMoCC5i",
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "start_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "xQS16DWE4QDIchiXYr9L",
+          "label": "08 \u2014 intelligence-rooftop \u2014 EXACT START FRAME"
+        }
+      ]
+    },
+    {
+      "key": "end_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_images",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_videos",
+      "modality": "video",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_audios",
+      "modality": "audio",
+      "required": false,
+      "connected_to": []
+    }
+  ],
+  "prompt_file": "assets/06-shots/video-prompts/shot-08-intelligence-rooftop-minimax-startframe-v01.txt",
+  "output_file": "assets/06-shots/videos/shot-08-intelligence-rooftop-minimax-startframe-v01.mp4",
+  "references": [
+    {
+      "role": "exact_start_frame",
+      "order": 1,
+      "file": "assets/06-shots/images/shot-08-intelligence-rooftop-start-v01.png",
+      "sha256": "fa4b8db8cc0c7ea492b7d53ba85e63f8b328bd7641423cc0aa0ab933ec6c8cce",
+      "generation_id": "Cs36Pu0MghXF1G5grPiF",
+      "node_id": "xQS16DWE4QDIchiXYr9L"
+    }
+  ],
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "retimed": false,
+  "batch_estimate": {
+    "credits": 7575,
+    "price_cents": 10998.900000000001,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "authorization": "User: Ok then create videos of individual shots. Continued MiniMax/ElevenLabs cheap-prototyping strategy; five current starting stills including approved steel-door replacement.",
+  "notes": [
+    "Starting image bound to start_frame; no reference_images/video/audio or end_frame inputs.",
+    "Aspect ratio inherited from the 16:9 starting image; no aspect_ratio parameter supplied, per live model guide.",
+    "Native sound design is directed in the prompt; successful synthesis and audio quality require separate listening review.",
+    "Source still is authorized for this motion test, not automatically a final production selection.",
+    "Default enhance_prompt value, if exposed in effective parameters, is retained; internal expanded prompt is not supplied by connector."
+  ],
+  "prepared_at": "2026-10-31T22:24:30+05:30",
+  "prompt_sha256": "6ba247aec01e7ad9bd7ad508745ac86e60934d4f07f4cb8e85787c57f65065f3",
+  "session_id": "tNMu86PgR5gmOcRtfAtt",
+  "generation_id": "yxsr0kEMJlyXfUsg7McL",
+  "reported_run_credits": 1515,
+  "width": 832,
+  "height": 480,
+  "provider_duration_seconds": 5.184,
+  "provider_reported_price": {
+    "credits": 1515,
+    "price_cents": 2199.78,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793465671863,
+  "bytes": 3317146,
+  "sha256": "49a71e37672d02c8b02702c3d6e32bdf1ad081ead5e00dbf7d70e088d17e5418",
+  "completed_at": "2026-10-31T22:25:37+05:30",
+  "location": "Rooftop overlooking the city",
+  "reviewed_at": "2026-10-31T22:31:22+05:30",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-10-31T22:31:22+05:30",
+    "status": "assistant_reviewed_pending_user",
+    "selected": false,
+    "user_approved": false,
+    "method": "14 sampled frames across the clip; final native frame additionally inspected for shots 08 and 12; AVFoundation decode and audio level checks.",
+    "observations": [
+      "A large cyan HUD stays visible. Amber routes fade and ROUTE LOCKED appears around 1.9 seconds, leaving one highlighted route.",
+      "The rooftop view and natural hand remain stable through the sampled frames."
+    ],
+    "limitations": [
+      "Typography and thin HUD lines need production-resolution review. The lock pose holds for much of the ending, so the final edit may use a shorter range.",
+      "Review used 14 sampled frames plus technical decoding; no full real-time playback or independent listening review. Native audio is preserved and needs sound-design/mix review."
+    ],
+    "assistant_verdict": "promising_hud_motion_prototype",
+    "full_playback_reviewed": false,
+    "audio_listened": false,
+    "contact_sheet": "assets/06-shots/reviews/shot-08-intelligence-rooftop-minimax-startframe-v01/contact-sheet.jpg",
+    "technical_inspection": "assets/06-shots/reviews/shot-08-intelligence-rooftop-minimax-startframe-v01/inspection.json",
+    "native_audio": "assets/06-shots/reviews/shot-08-intelligence-rooftop-minimax-startframe-v01/native-audio.wav",
+    "native_audio_levels": "assets/06-shots/reviews/shot-08-intelligence-rooftop-minimax-startframe-v01/native-audio-levels.txt"
+  },
+  "review_file": "assets/06-shots/reviews/shot-08-intelligence-rooftop-minimax-startframe-v01/review.json",
+  "technical_review": {
+    "inspection_file": "assets/06-shots/reviews/shot-08-intelligence-rooftop-minimax-startframe-v01/inspection.json",
+    "video_samples": 124,
+    "fps": 24,
+    "dimensions": [
+      832,
+      480
+    ],
+    "video_duration_seconds": 5.167,
+    "near_black_frames": 0,
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 5.184,
+        "sample_rate": 32000
+      }
+    ],
+    "audio_listened": false
+  }
+}

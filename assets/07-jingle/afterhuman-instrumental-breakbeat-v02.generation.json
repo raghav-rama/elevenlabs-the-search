@@ -1,0 +1,199 @@
+{
+  "status": "completed_unselected_alternative",
+  "selected": false,
+  "user_approved": false,
+  "attempt_number": 2,
+  "authorization": {
+    "source": "explicit_user_message",
+    "quote": "Yes retry",
+    "scope": "One fresh generation of the same breakbeat brief, followed by local David comparison preview if successful."
+  },
+  "retry_of": {
+    "generation_id": "sermFfLv5UvFtQMjJzr1",
+    "session_id": "YwRBxOVp1OU0phflCPdQ",
+    "record_path": "afterhuman-instrumental-breakbeat-v01.generation.json",
+    "status": "failed_no_audio",
+    "billing_status": "The failed generation response lists this price, but no debit/refund confirmation is exposed. Do not treat as verified net charge."
+  },
+  "flow_id": "rk8VvcpYBfzPKDD2YeE8",
+  "flow_url": "https://elevenlabs.io/app/flows/rk8VvcpYBfzPKDD2YeE8",
+  "node_id": "1omdZjuFETp8AL4KTEzl",
+  "model_id": "eleven_music_v2",
+  "model_parameters": {
+    "duration_seconds": 18,
+    "instrumental": true,
+    "lyrics_type": "instrumental",
+    "lyrics": ""
+  },
+  "prompt": "An original 18-second instrumental cyberpunk big-beat/electro-funk advertising jingle at 160 BPM in 4/4, exuberant, cocky and fast, with crisp syncopated breakbeat drums, a rubbery distorted synth-bass riff, bright staccato analog synth/brass stabs, and a catchy three-note lead motif repeated with playful call-and-response. Hit the groove immediately, keep the central arrangement clean and spacious for a low spoken announcer, then use a quick half-beat stop and a bigger return of the same hook in the final four seconds, ending on a tight two-hit bass/synth signature with a short clean tail. Completely instrumental with no singing, speech, chants, choirs or vocal samples; no long build, no slow section and no busy solo.",
+  "prompt_file": "prompts/afterhuman-instrumental-breakbeat-v01.txt",
+  "generations_count": 1,
+  "seed": null,
+  "seed_note": "No seed requested or returned.",
+  "estimate": {
+    "credits": 545.4545454545454,
+    "price_cents": 792,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 71
+  },
+  "schema": {
+    "model_id": "eleven_music_v2",
+    "model_name": "ElevenLabs Music v2",
+    "node_type": "music",
+    "parameters": [
+      {
+        "name": "duration_seconds",
+        "type": "number",
+        "required": false,
+        "min_value": 3,
+        "max_value": 600,
+        "number_type": "float"
+      },
+      {
+        "name": "lyrics_type",
+        "type": "select",
+        "required": false,
+        "default": "auto",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "custom",
+            "value": "custom"
+          },
+          {
+            "label": "instrumental",
+            "value": "instrumental"
+          }
+        ],
+        "description": "How lyrics are handled: auto-generated, custom-provided, or instrumental only."
+      },
+      {
+        "name": "instrumental",
+        "type": "boolean",
+        "required": false,
+        "default": false,
+        "description": "Generate instrumental music without vocals."
+      },
+      {
+        "name": "lyrics",
+        "type": "text",
+        "required": false,
+        "description": "Custom lyrics text or a reference to a text node's output. Ignored when lyrics_type is 'instrumental'."
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "lyrics",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "audio",
+        "modality": "audio",
+        "required": false
+      }
+    ]
+  },
+  "creative_direction": {
+    "user_request": "I like it. Can we experiment with another jingle? surprise me!",
+    "retained_constraints": "Instrumental, fast/upbeat, starts after So upgrade; use locked David narration. Preserve liked metal candidate and its raised-volume preview.",
+    "assistant_choices": "18 seconds, target 160 BPM, cyberpunk big beat/electro-funk, syncopated drums and bass, recurring three-note synth hook, contrasting sound, clean ending.",
+    "reference_usage": "Original descriptive prompt only; no reference song supplied or sampled."
+  },
+  "comparison_reference": {
+    "music_path": "assets/07-jingle/afterhuman-instrumental-metal-v01.mp3",
+    "music_sha256": "b712635357e2d36fd99f973fb0572b2eeb0af557c0fa28f578350b38740a8676",
+    "preview_path": "assets/07-jingle/reviews/afterhuman-instrumental-metal-v01-with-david.wav",
+    "preview_sha256": "c8538fb15f30155e677fee92fff2233b1d2240823b68ca6406fa3c5afcccf0b4",
+    "status": "user_liked_not_finally_selected"
+  },
+  "voiceover_reference": {
+    "path": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3",
+    "sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376",
+    "status": "approved_selected_locked",
+    "music_entry_seconds_relative_to_voiceover": 4.36
+  },
+  "run": {
+    "session_ids": [
+      "ISN15BS5amjiD470HgHk"
+    ],
+    "results": [
+      {
+        "success": true,
+        "node_id": "1omdZjuFETp8AL4KTEzl",
+        "session_id": "ISN15BS5amjiD470HgHk",
+        "credit_costs": {
+          "6RDGQ7tXF55zq2GCo8Ox": 269.99999999999994
+        }
+      }
+    ],
+    "summary": {
+      "nodes_run": 1,
+      "generations_started": 1,
+      "failed": 0,
+      "generations_by_node": {
+        "1omdZjuFETp8AL4KTEzl": 1
+      }
+    }
+  },
+  "generation_id": "6RDGQ7tXF55zq2GCo8Ox",
+  "session_id": "ISN15BS5amjiD470HgHk",
+  "completed_checked_at": "2026-10-29T23:52:07+05:30",
+  "provider_created_at_unix_ms": 1793297716242,
+  "actual_price": {
+    "credits": 269.99999999999994,
+    "price_cents": 392.03999999999996,
+    "cost_fiat_currency": "inr"
+  },
+  "output": {
+    "file": "afterhuman-instrumental-breakbeat-v02.mp3",
+    "bytes": 450322,
+    "sha256": "9f3e515391f50177e77d453ed08778b494d9d3b41d0bb3ed38c1a44c5e27f208",
+    "provider_duration_seconds": 18,
+    "container_duration_seconds": 18.024,
+    "valid_audio_frames": 864000,
+    "format": "MP3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "bitrate": 192000
+  },
+  "review": {
+    "status": "retained_unselected_not_rejected",
+    "checks": "Native MP3 downloaded, hash recorded, afinfo inspected and audio decoded successfully; separate comparison preview rendered.",
+    "preview": "reviews/afterhuman-instrumental-breakbeat-v02-with-david.wav",
+    "preview_record": "reviews/afterhuman-instrumental-breakbeat-v02-with-david.mix.json",
+    "preview_config": "reviews/afterhuman-instrumental-breakbeat-v02-preview-config.json",
+    "native_inspection": "reviews/afterhuman-instrumental-breakbeat-v02.afinfo.txt",
+    "requested_direction": "Cyberpunk big beat/electro-funk, target 160 BPM and recurring hook; these are prompt specifications, not measured tempo or assistant listening findings.",
+    "instrumental": "Both instrumental controls enabled, no lyrics; absence of vocal artifacts awaits user listening.",
+    "comparison": "Same David source, voice gain, master gain and 4.36s entrance; approximate source RMS matching followed by a 0.1 dB music-only reduction to satisfy sample-peak guard. Not perceptual LUFS matching.",
+    "validation": {
+      "narration_only_prefix_byte_identical_to_metal_preview": true,
+      "source_hashes_preserved": true,
+      "liked_metal_preview_preserved": true,
+      "duration_seconds": 22.36,
+      "music_start_seconds": 4.36,
+      "music_rms_match_gain_db": 0.43675260304302554,
+      "music_only_peak_adjustment_db": -0.1,
+      "sample_peak_dbfs": -0.5036471825781049,
+      "full_scale_pcm_samples": 0,
+      "preview_sha256": "71202acb238a0fb826458f00f9996ede5168e101500e67863c6d4a2782c542c9"
+    },
+    "local_render_note": "Initial configuration failed fixed-master peak guard at -0.493919 dBFS and wrote no preview. Lowered music envelope by 0.1 dB, then rendered successfully at -0.503647 dBFS. No extra provider generation.",
+    "publication": "No final music-share publication or contest submission."
+  },
+  "selection_record": {
+    "at": "2026-10-31T15:59:50+05:30",
+    "selected_asset_id": "afterhuman-instrumental-chrome-swagger-v01",
+    "outcome": "retained_alternative_not_rejected"
+  }
+}

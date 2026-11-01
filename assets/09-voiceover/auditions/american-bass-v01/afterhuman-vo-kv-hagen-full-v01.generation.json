@@ -1,0 +1,80 @@
+{
+  "status": "unselected_alternative_preserved",
+  "selected": false,
+  "user_approved": false,
+  "flow_id": "0DSYP67LuQmAF93hhGaq",
+  "flow_url": "https://elevenlabs.io/app/flows/0DSYP67LuQmAF93hhGaq",
+  "node_id": "r5D5oCS2hJYBBWuk7epK",
+  "session_id": "UIda0HIXad6NZwhr1EAp",
+  "generation_id": "UKJXG2L7A3mbABMxXjju",
+  "voice_id": "cQrSgU1CeOOz73lBM5Cb",
+  "voice_name": "K. V. Hagen - Exceptionally Deep Bass",
+  "model_id": "eleven_v4",
+  "model_parameters": {
+    "voice": "cQrSgU1CeOOz73lBM5Cb",
+    "voice_id": "cQrSgU1CeOOz73lBM5Cb",
+    "output_format": "mp3_44100_128",
+    "pronunciation_dictionary_locators": []
+  },
+  "seed": null,
+  "seed_note": "No seed requested or returned.",
+  "prompt": "[playful] Missed your train? Still running on flesh and blood?\n[matter of fact] So upgrade.\n[confident] Suddenly, everything clicks.\n[playful] The world moves in slow motion.\n[amused] Heavy lifting? Adorable.\n[excited] And that train you missed?\n[smug] It\u2019s trying to catch you now.\n[confident] AFTERHUMAN. A step ahead.",
+  "prompt_file": "afterhuman-vo-announcer-full-v01.txt",
+  "estimate": {
+    "credits": 320,
+    "price_cents": 464.64,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 5
+  },
+  "actual_price": {
+    "credits": 320,
+    "price_cents": 464.64,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793294243476,
+  "output": {
+    "file": "afterhuman-vo-kv-hagen-full-v01.mp3",
+    "bytes": 302217,
+    "sha256": "d737fbd4124a34aebe066dbe6d59e0572145ea12a91b5502b467308aedd991ff",
+    "provider_duration_secs": 17.76,
+    "format": "MP3",
+    "sample_rate": 44100,
+    "channels": 1,
+    "bitrate": 128000
+  },
+  "review": {
+    "automated_metadata": "Decoded container metadata checked with afinfo; original downloaded MP3 remains unchanged.",
+    "perceived_emphasis_review": "pending listening/user review",
+    "word_timing_source": "provider TTS-linked transcription/alignment; includes nonspoken delivery tags",
+    "so": {
+      "text": "So",
+      "type": "word",
+      "start": 3.68,
+      "end": 3.84
+    },
+    "upgrade": {
+      "text": "upgrade.",
+      "type": "word",
+      "start": 3.92,
+      "end": 4.68
+    },
+    "so_to_upgrade_gap_seconds": 0.08,
+    "note": "No long pause indicated by provider alignment. Alignment alone cannot establish naturalness or word emphasis.",
+    "transcript_file": "afterhuman-vo-kv-hagen-full-v01.timing.json",
+    "decoded_audio_checks_file": "audio-checks.json",
+    "decoded_audio_checks": {
+      "file": "afterhuman-vo-kv-hagen-full-v01.mp3",
+      "sha256": "d737fbd4124a34aebe066dbe6d59e0572145ea12a91b5502b467308aedd991ff",
+      "bytes": 302217,
+      "decoded_channels": 1,
+      "decoded_sample_rate": 44100,
+      "decoded_frames": 784512,
+      "decoded_duration_seconds": 17.78938775510204,
+      "decoded_sample_peak_dbfs": -2.937682991987716,
+      "decoded_rms_dbfs": -24.076193723779692,
+      "full_scale_pcm_samples": 0
+    }
+  },
+  "selection_note": "User selected the existing David full-v01 take; this alternative is preserved, not rejected."
+}

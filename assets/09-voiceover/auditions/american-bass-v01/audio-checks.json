@@ -1,0 +1,42 @@
+{
+  "method": "macOS afconvert decode to temporary 16-bit PCM at source sample rate",
+  "limitation": "Numerical decoding/level checks do not establish performance or listening approval.",
+  "files": [
+    {
+      "file": "afterhuman-vo-david-full-v01.mp3",
+      "sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376",
+      "bytes": 288424,
+      "decoded_channels": 1,
+      "decoded_sample_rate": 44100,
+      "decoded_frames": 746496,
+      "decoded_duration_seconds": 16.92734693877551,
+      "decoded_sample_peak_dbfs": -0.7059841937287497,
+      "decoded_rms_dbfs": -18.684506488807592,
+      "full_scale_pcm_samples": 0
+    },
+    {
+      "file": "afterhuman-vo-desmond-full-v01.mp3",
+      "sha256": "0dd8179380a716bc54f8a50ca49f3d942874a8a908eacc5395fc66c8516c1e78",
+      "bytes": 289678,
+      "decoded_channels": 1,
+      "decoded_sample_rate": 44100,
+      "decoded_frames": 749952,
+      "decoded_duration_seconds": 17.005714285714287,
+      "decoded_sample_peak_dbfs": -3.1183599173217496,
+      "decoded_rms_dbfs": -23.839312324378028,
+      "full_scale_pcm_samples": 0
+    },
+    {
+      "file": "afterhuman-vo-kv-hagen-full-v01.mp3",
+      "sha256": "d737fbd4124a34aebe066dbe6d59e0572145ea12a91b5502b467308aedd991ff",
+      "bytes": 302217,
+      "decoded_channels": 1,
+      "decoded_sample_rate": 44100,
+      "decoded_frames": 784512,
+      "decoded_duration_seconds": 17.78938775510204,
+      "decoded_sample_peak_dbfs": -2.937682991987716,
+      "decoded_rms_dbfs": -24.076193723779692,
+      "full_scale_pcm_samples": 0
+    }
+  ]
+}

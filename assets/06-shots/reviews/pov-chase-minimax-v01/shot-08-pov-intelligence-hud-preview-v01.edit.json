@@ -1,0 +1,15 @@
+{
+  "duration_seconds": 5.167,
+  "height": 480,
+  "limitations": "Screen-space concept overlay, not world-tracked VFX or a final brand design. Native source audio retained; no new music or speech.",
+  "output_file": "assets/06-shots/reviews/pov-chase-minimax-v01/shot-08-pov-intelligence-hud-preview-v01.mp4",
+  "output_sha256": "2f5d4a9405b50978e7364a047fae685038e0f7a199015b2d49502499f6d22a8c",
+  "paid_generation": false,
+  "script": "scripts/add-pov-hud-preview.swift",
+  "source_file": "assets/06-shots/videos/shot-08-pov-intelligence-minimax-v01.mp4",
+  "source_modified": false,
+  "source_sha256": "8d5a4742ee27aab48ddd3c0bf9668b7c0389bc6d31beb9401d7b7525b22b512b",
+  "status": "superseded_local_render_missing_text",
+  "width": 832,
+  "review_notes": "Panel borders and arrow exported but CATextLayer glyphs were absent. Retained as a failed local render; use v02. Export had one extra final frame. No paid retry."
+}

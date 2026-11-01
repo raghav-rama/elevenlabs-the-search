@@ -1,0 +1,18 @@
+{
+  "audio" : "none; assembled soundtrack supplied separately",
+  "dimensions" : [
+    1920,
+    1080
+  ],
+  "duration_seconds" : 2.5,
+  "fps" : 24,
+  "frames" : 60,
+  "note" : "Local spiral transition from the held ending frame into exact brand typography; not a newly approved identity\/logo design.",
+  "output_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/08-edit\/continuous-ad-review-v01\/afterhuman-brand-outro-v01.mp4",
+  "output_sha256" : "4e41371d3489a58defb148da692d08746c8f993de5237803167e3fa30cf61866",
+  "paid_generation" : false,
+  "script" : "scripts\/render-brand-outro.swift",
+  "source_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/shot-12-overtake-coastal-minimax-startframe-v01\/last-picture-frame.png",
+  "source_sha256" : "79330a05f670b8aff544517aeaeee491e1652e2cc0eebcfde6f1a8c164e6679b",
+  "status" : "editorial_end_card_pending_user_review"
+}

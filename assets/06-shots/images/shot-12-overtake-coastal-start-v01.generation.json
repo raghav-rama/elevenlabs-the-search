@@ -1,0 +1,118 @@
+{
+  "asset_id": "shot-12-overtake-coastal-start-v01",
+  "title": "12 \u2014 Payoff / aligned coastal race",
+  "location": "Coastal railway viaduct",
+  "status": "generated_visual_review_pending_user",
+  "selected": false,
+  "user_approved": false,
+  "provider": "ElevenLabs",
+  "model_id": "gpt-image-2",
+  "model_parameters": {
+    "images": [
+      {
+        "template_node_id": "oTttRPQOPwXT3RV1m5p5"
+      },
+      {
+        "template_node_id": "fHbp06Grf1cutz1fHsVr"
+      }
+    ],
+    "quality": "low",
+    "aspect_ratio": "16:9",
+    "resolution": "1K"
+  },
+  "flow_id": "rZN7nVDHnd64A9UCsrwK",
+  "flow_url": "https://elevenlabs.io/app/flows/rZN7nVDHnd64A9UCsrwK",
+  "node_id": "2Ks8JIsGi3cjjaFne11e",
+  "prompt_file": "assets/06-shots/prompts/shot-12-overtake-coastal-start-v01.txt",
+  "output_file": "assets/06-shots/images/shot-12-overtake-coastal-start-v01.png",
+  "references": [
+    {
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6",
+      "generation_id": "WboGh1QOlITNwOVIn0Gj",
+      "node_id": "oTttRPQOPwXT3RV1m5p5",
+      "role": "approved Riley wardrobe and natural skin/chrome inlays",
+      "order": 1
+    },
+    {
+      "file": "assets/05-train/images/train-01-v02.png",
+      "sha256": "6191d92b40f7cf54ebb763892720315cb15a4cb44b3a663cc31d732b762ed2b5",
+      "asset_id": "tFT9KA7avFVxxFzuLkMj",
+      "node_id": "fHbp06Grf1cutz1fHsVr",
+      "role": "established train livery only; earlier test reference, not a new final selection",
+      "order": 2
+    }
+  ],
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "oTttRPQOPwXT3RV1m5p5",
+          "label": "APPROVED \u2014 Riley gold wardrobe and skin/chrome inlays"
+        },
+        {
+          "id": "fHbp06Grf1cutz1fHsVr",
+          "label": "TRAIN LIVERY ONLY \u2014 graphite body, cyan trim, warm doors"
+        }
+      ]
+    }
+  ],
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "batch_estimate": {
+    "credits": 1478.9675675675678,
+    "price_cents": 2147.460908108108,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "authorization": "User rejected all five station-based video prototypes and requested the beginning shot of every scene as images first. One starting image per revised scene; no video/audio generation or automatic retry.",
+  "notes": [
+    "Four first-person capability stills and one overhead payoff setup in five different locations.",
+    "This is a beginning-frame concept, not evidence of successful future motion, sound, final likeness or user selection.",
+    "Selected face reference is available in the Flow but not connected: foreground hands only or distant overhead runner."
+  ],
+  "prepared_at": "2026-10-31T21:31:44+05:30",
+  "prompt_sha256": "276e08b0a94e684b8b302b91694e1aae8ce1bff40cc4ebca228de9522e8c32aa",
+  "session_id": "t0YAOI6ln4VXxfyxwJ9m",
+  "generation_id": "k4Quj8mwM41qe36CgKEH",
+  "reported_run_credits": 470.4962162162163,
+  "completed_at": "2026-10-31T21:35:07+05:30",
+  "width": 1280,
+  "height": 720,
+  "bytes": 1608003,
+  "sha256": "674a07b721bb39076b9ae9ad58a9319bddf7c150c0edf2d8a82628426d763e23",
+  "provider_reported_price": {
+    "credits": 470.4962162162163,
+    "price_cents": 683.160505945946,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793462505442,
+  "assistant_visual_review": {
+    "observations": [
+      "Top-down coastal railway has train lengthwise and parallel to the visible rail corridor.",
+      "Train nose points toward image top; carriages extend to bottom.",
+      "Gold-clad Riley is on the separate left lane, facing top, behind the train nose, with a cyan trail behind downward."
+    ],
+    "limitations": [
+      "Correct starting arrangement does not establish a completed overtake; both must move upward and Riley must gain during animation.",
+      "Distant scale prevents detailed face/cyberware likeness assessment; outfit silhouette is approximate."
+    ],
+    "reviewed_at": "2026-10-31T21:35:07+05:30",
+    "method": "Full-resolution visual inspection of generated still; no motion or listening claim.",
+    "user_selection_pending": true
+  },
+  "provider_prompt_summary": "Create one photorealistic live-action advertising frame for AFTERHUMAN, a fictional cybernetic upgrade brand. This is the STARTING FRAME of one future video shot, not a collage, storyboard sheet, post",
+  "provider_prompt_summary_truncated": true,
+  "prompt_verification": "Full prompt and input ports verified on node before run; completed-generation response exposes only first 200 characters, which match."
+}

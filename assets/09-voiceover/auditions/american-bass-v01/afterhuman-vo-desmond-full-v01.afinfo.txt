@@ -1,0 +1,15 @@
+File:           assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-desmond-full-v01.mp3
+File type ID:   MPG3
+Num Tracks:     1
+----
+Data format:     1 ch,  44100 Hz, .mp3 (0x00000000) 0 bits/channel, 0 bytes/packet, 1152 frames/packet, 0 bytes/frame
+                no channel layout.
+estimated duration: 17.005714 sec
+audio bytes: 272091
+audio packets: 651
+bit rate: 127999 bits per second
+packet size upper bound: 1052
+maximum packet size: 418
+audio data file offset: 17587
+optimized
+----

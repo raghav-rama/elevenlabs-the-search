@@ -1,0 +1,22 @@
+{
+  "purpose": "Compare one of three requested surprise instrumentals with locked David narration at the established voice gain and music entry.",
+  "voiceover_path": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3",
+  "voiceover_sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376",
+  "music_path": "assets/07-jingle/afterhuman-instrumental-overclock-v01.mp3",
+  "music_sha256": "ebc682cc873c721e9e87f13538b9d77c9a726338e2f6ae0592c105dcf4ebb09e",
+  "music_start_seconds": 4.36,
+  "timing_basis": "David provider alignment ends upgrade at 4.36s from VO start. Provisional audition cue, not final picture timing.",
+  "voiceover_gain_db": 0,
+  "music_under_voice_db": -15.5,
+  "music_initial_hit_db": -8.5,
+  "music_after_voice_db": -5.5,
+  "initial_hit_seconds": 0.12,
+  "initial_settle_seconds": 0.12,
+  "recovery_delay_seconds": 0.05,
+  "recovery_seconds": 0.5,
+  "sample_peak_ceiling_dbfs": -0.5,
+  "fixed_master_gain_db": -0.6078534327033005,
+  "music_reference_rms_dbfs": -15.177778078062008,
+  "comparison_reference": "assets/07-jingle/reviews/afterhuman-instrumental-metal-v01-with-david.mix.json",
+  "level_matching_note": "Music source RMS is approximately matched before the envelope; this is not perceptual LUFS matching. Any music-only peak guard adjustment is recorded separately."
+}

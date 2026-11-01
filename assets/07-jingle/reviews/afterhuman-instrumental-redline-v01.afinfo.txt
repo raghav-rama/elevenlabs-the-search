@@ -1,0 +1,16 @@
+File:           assets/07-jingle/afterhuman-instrumental-redline-v01.mp3
+File type ID:   MPG3
+Num Tracks:     1
+----
+Data format:     2 ch,  48000 Hz, .mp3 (0x00000000) 0 bits/channel, 0 bytes/packet, 1152 frames/packet, 0 bytes/frame
+                no channel layout.
+estimated duration: 18.024000 sec
+audio bytes: 432576
+audio packets: 751
+bit rate: 192000 bits per second
+packet size upper bound: 968
+maximum packet size: 576
+audio data file offset: 17746
+optimized
+audio 864000 valid frames + 576 priming + 576 remainder = 865152
+----

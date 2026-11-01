@@ -1,0 +1,99 @@
+{
+  "asset_id": "shot-10-strength-boulder-start-v02",
+  "title": "10 \u2014 Strength / corrected hand scale",
+  "location": "Forested mountain access road",
+  "status": "user_rejected",
+  "selected": false,
+  "user_approved": false,
+  "provider": "ElevenLabs",
+  "model_id": "gpt-image-2",
+  "model_parameters": {
+    "images": [
+      {
+        "template_node_id": "SQNzWX1gfzmJtklHNN9r"
+      }
+    ],
+    "quality": "low",
+    "aspect_ratio": "16:9",
+    "resolution": "1K"
+  },
+  "flow_id": "rZN7nVDHnd64A9UCsrwK",
+  "flow_url": "https://elevenlabs.io/app/flows/rZN7nVDHnd64A9UCsrwK",
+  "node_id": "0EGIHFQRXHI0NwxHQXrY",
+  "prompt_file": "assets/06-shots/prompts/shot-10-strength-boulder-start-v02.txt",
+  "output_file": "assets/06-shots/images/shot-10-strength-boulder-start-v02.png",
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "SQNzWX1gfzmJtklHNN9r",
+          "label": "10 \u2014 Strength / mountain boulder \u2014 START FRAME / REVIEW"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "file": "assets/06-shots/images/shot-10-strength-boulder-start-v01.png",
+      "sha256": "ae03042e9164fa6ba9fe82a7cb9a98bdfe7148ec7e0399d813f046d49c97a971",
+      "generation_id": "mVxFiLmsQCFmzYKFC5UQ",
+      "node_id": "SQNzWX1gfzmJtklHNN9r",
+      "role": "exact scene to edit; shrink only hand/forearm and reconstruct revealed ground",
+      "order": 1
+    }
+  ],
+  "revision_of": "shot-10-strength-boulder-start-v01",
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "estimate": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "authorization": "User: Good start. Her hand in shot-10-strength-boulder-start-v01.png looks way too big. Like giant. Fix that",
+  "scope": "One targeted still edit; no video or other scene generation.",
+  "prepared_at": "2026-10-31T21:42:12+05:30",
+  "prompt_sha256": "216fe94e193647087e445bd5f37789c9285ac5fb82f482787142d769bac5faa3",
+  "session_id": "w880ji9fDtoQh5E6anJR",
+  "generation_id": "jyxMXguhSN3IqAd53Suc",
+  "reported_run_credits": 252.11783783783784,
+  "provider_reported_price": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793463133214,
+  "width": 1280,
+  "height": 720,
+  "completed_at": "2026-10-31T21:44:23+05:30",
+  "bytes": 1980367,
+  "sha256": "a582d75aec87530c1f28533348526c5917d6126bd37bf08c3ef465950b91f7b1",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-10-31T21:44:23+05:30",
+    "method": "Full-resolution visual comparison of v01 and v02 stills.",
+    "observations": [
+      "Hand/palm and wrist are visibly smaller; foreground forearm is substantially narrower.",
+      "One adult right palm remains beneath the same near-right rock edge, with thin chrome/cyan inlays and continuous natural anatomy.",
+      "Boulder scale, placement and silhouette, mountain-road framing, cliffs, forest and light broadly match the source."
+    ],
+    "limitations": [
+      "Generated edit subtly changes rock/asphalt textures; visual continuity, not pixel-exact preservation.",
+      "No metric hand dimensions or future lifting motion verified."
+    ],
+    "user_selection_pending": false
+  },
+  "user_reviewed_at": "2026-10-31T22:08:19+05:30",
+  "user_feedback": "User rejects the stretched/spaghetti arm and the boulder-lift premise: it reads as third person rather than a convincing view through Riley's eyes. Replace the shot concept."
+}

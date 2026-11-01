@@ -1,0 +1,80 @@
+{
+  "status": "unselected_alternative_preserved",
+  "selected": false,
+  "user_approved": false,
+  "flow_id": "0DSYP67LuQmAF93hhGaq",
+  "flow_url": "https://elevenlabs.io/app/flows/0DSYP67LuQmAF93hhGaq",
+  "node_id": "Ak65j16u63aBBsxtVEea",
+  "session_id": "NQyshjw9CUnzDU1ko9Ka",
+  "generation_id": "jTPFRqFcGSlM5mgre7cA",
+  "voice_id": "2cW6cjkWenOhW7QrnJbJ",
+  "voice_name": "Desmond - Trailer & Ad Voice",
+  "model_id": "eleven_v4",
+  "model_parameters": {
+    "voice": "2cW6cjkWenOhW7QrnJbJ",
+    "voice_id": "2cW6cjkWenOhW7QrnJbJ",
+    "output_format": "mp3_44100_128",
+    "pronunciation_dictionary_locators": []
+  },
+  "seed": null,
+  "seed_note": "No seed requested or returned.",
+  "prompt": "[playful] Missed your train? Still running on flesh and blood?\n[matter of fact] So upgrade.\n[confident] Suddenly, everything clicks.\n[playful] The world moves in slow motion.\n[amused] Heavy lifting? Adorable.\n[excited] And that train you missed?\n[smug] It\u2019s trying to catch you now.\n[confident] AFTERHUMAN. A step ahead.",
+  "prompt_file": "afterhuman-vo-announcer-full-v01.txt",
+  "estimate": {
+    "credits": 320,
+    "price_cents": 464.64,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 5
+  },
+  "actual_price": {
+    "credits": 320,
+    "price_cents": 464.64,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793294243473,
+  "output": {
+    "file": "afterhuman-vo-desmond-full-v01.mp3",
+    "bytes": 289678,
+    "sha256": "0dd8179380a716bc54f8a50ca49f3d942874a8a908eacc5395fc66c8516c1e78",
+    "provider_duration_secs": 16.96,
+    "format": "MP3",
+    "sample_rate": 44100,
+    "channels": 1,
+    "bitrate": 128000
+  },
+  "review": {
+    "automated_metadata": "Decoded container metadata checked with afinfo; original downloaded MP3 remains unchanged.",
+    "perceived_emphasis_review": "pending listening/user review",
+    "word_timing_source": "provider TTS-linked transcription/alignment; includes nonspoken delivery tags",
+    "so": {
+      "text": "So",
+      "type": "word",
+      "start": 3.44,
+      "end": 3.52
+    },
+    "upgrade": {
+      "text": "upgrade.",
+      "type": "word",
+      "start": 3.6,
+      "end": 4.36
+    },
+    "so_to_upgrade_gap_seconds": 0.08,
+    "note": "No long pause indicated by provider alignment. Alignment alone cannot establish naturalness or word emphasis.",
+    "transcript_file": "afterhuman-vo-desmond-full-v01.timing.json",
+    "decoded_audio_checks_file": "audio-checks.json",
+    "decoded_audio_checks": {
+      "file": "afterhuman-vo-desmond-full-v01.mp3",
+      "sha256": "0dd8179380a716bc54f8a50ca49f3d942874a8a908eacc5395fc66c8516c1e78",
+      "bytes": 289678,
+      "decoded_channels": 1,
+      "decoded_sample_rate": 44100,
+      "decoded_frames": 749952,
+      "decoded_duration_seconds": 17.005714285714287,
+      "decoded_sample_peak_dbfs": -3.1183599173217496,
+      "decoded_rms_dbfs": -23.839312324378028,
+      "full_scale_pcm_samples": 0
+    }
+  },
+  "selection_note": "User selected the existing David full-v01 take; this alternative is preserved, not rejected."
+}

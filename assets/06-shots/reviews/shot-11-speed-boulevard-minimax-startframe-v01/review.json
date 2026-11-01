@@ -1,0 +1,23 @@
+{
+  "reviewed_at": "2026-10-31T22:31:22+05:30",
+  "status": "assistant_reviewed_pending_user",
+  "selected": false,
+  "user_approved": false,
+  "method": "14 sampled frames across the clip; final native frame additionally inspected for shots 08 and 12; AVFoundation decode and audio level checks.",
+  "observations": [
+    "Road markings, intersections and buildings move past the camera; the shot contains forward travel rather than only a static image with blur.",
+    "Arms alternate in and out of frame, and cyan speed streaks build toward the end."
+  ],
+  "limitations": [
+    "The perceived speed and running rhythm need real-time playback against the music. Sampled frames do not establish a physical speed.",
+    "Dense streaks dominate the ending; the final cut may need a shorter range and controlled effects.",
+    "Review used 14 sampled frames plus technical decoding; no full real-time playback or independent listening review. Native audio is preserved and needs sound-design/mix review."
+  ],
+  "assistant_verdict": "promising_forward_motion_prototype",
+  "full_playback_reviewed": false,
+  "audio_listened": false,
+  "contact_sheet": "assets/06-shots/reviews/shot-11-speed-boulevard-minimax-startframe-v01/contact-sheet.jpg",
+  "technical_inspection": "assets/06-shots/reviews/shot-11-speed-boulevard-minimax-startframe-v01/inspection.json",
+  "native_audio": "assets/06-shots/reviews/shot-11-speed-boulevard-minimax-startframe-v01/native-audio.wav",
+  "native_audio_levels": "assets/06-shots/reviews/shot-11-speed-boulevard-minimax-startframe-v01/native-audio-levels.txt"
+}

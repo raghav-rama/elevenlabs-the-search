@@ -1,0 +1,22 @@
+{
+  "reviewed_at": "2026-10-31T16:29:44+05:30",
+  "asset_id": "shot-10-pov-strength-minimax-v01",
+  "method": "Visual review of 14 sampled frames plus decoded-frame format/ending inspection; not full motion playback or listening.",
+  "outcome": "readable_lift_pending_motion_review",
+  "observations": [
+    "The loaded service cart rises and moves aside with one hand; elevated wheels are visible in sampled frames."
+  ],
+  "limitations_or_defects": [
+    "The view does not establish every wheel simultaneously; perceived weight and motion continuity need full playback review."
+  ],
+  "selected": false,
+  "user_approved": false,
+  "listening_review": "pending; native audio decoded and measured only",
+  "inspection": "assets/06-shots/reviews/shot-10-pov-strength-minimax-v01/inspection.json",
+  "contact_sheet": "assets/06-shots/reviews/shot-10-pov-strength-minimax-v01/contact-sheet.jpg",
+  "native_audio": "assets/06-shots/reviews/shot-10-pov-strength-minimax-v01/native-audio.wav",
+  "native_audio_levels": "assets/06-shots/reviews/shot-10-pov-strength-minimax-v01/native-audio-levels.txt",
+  "status": "user_rejected",
+  "user_feedback": "Wheeled cart does not demonstrate strength; replace with a large solid object such as a rock.",
+  "user_reviewed_at": "2026-10-31T21:31:44+05:30"
+}

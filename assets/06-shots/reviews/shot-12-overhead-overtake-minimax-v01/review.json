@@ -1,0 +1,24 @@
+{
+  "reviewed_at": "2026-10-31T16:29:44+05:30",
+  "asset_id": "shot-12-overhead-overtake-minimax-v01",
+  "method": "Visual review of 14 sampled frames plus decoded-frame format/ending inspection; not full motion playback or listening.",
+  "outcome": "needs_geography_and_overtake_correction",
+  "observations": [
+    "A vertical overhead view, distant gold-clad runner and cyan trail are present."
+  ],
+  "limitations_or_defects": [
+    "The train lies across the rail direction rather than along it.",
+    "Riley moves laterally instead of making a coherent longitudinal overtake.",
+    "This take is unsuitable for the intended final payoff."
+  ],
+  "selected": false,
+  "user_approved": false,
+  "listening_review": "pending; native audio decoded and measured only",
+  "inspection": "assets/06-shots/reviews/shot-12-overhead-overtake-minimax-v01/inspection.json",
+  "contact_sheet": "assets/06-shots/reviews/shot-12-overhead-overtake-minimax-v01/contact-sheet.jpg",
+  "native_audio": "assets/06-shots/reviews/shot-12-overhead-overtake-minimax-v01/native-audio.wav",
+  "native_audio_levels": "assets/06-shots/reviews/shot-12-overhead-overtake-minimax-v01/native-audio-levels.txt",
+  "status": "user_rejected",
+  "user_feedback": "Overhead train lies at 90 degrees to the rails and faces Riley.",
+  "user_reviewed_at": "2026-10-31T21:31:44+05:30"
+}

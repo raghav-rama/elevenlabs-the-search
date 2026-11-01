@@ -1,0 +1,307 @@
+{
+  "kind": "provider_tts_linked_alignment_not_independent_asr",
+  "transcription_node_id": "xhtQwzfETPV5ih5QvYa5",
+  "session_id": "bPW2JjbSVZLzDKottxQg",
+  "generation_id": "8ThQQ3vT1MWMbZjhtnyj",
+  "text": "[playful] Missed your train? Still running on flesh and blood?\n[matter of fact] So upgrade.\n[confident] Suddenly, everything clicks.\n[playful] The world moves in slow motion.\n[amused] Heavy lifting? Adorable.\n[excited] And that train you missed?\n[smug] It’s trying to catch you now.\n[confident] AFTERHUMAN. A step ahead.",
+  "words": [
+    {
+      "text": "[playful]",
+      "type": "word",
+      "start": 0,
+      "end": 0.133
+    },
+    {
+      "text": "Missed",
+      "type": "word",
+      "start": 0.16,
+      "end": 0.4
+    },
+    {
+      "text": "your",
+      "type": "word",
+      "start": 0.48,
+      "end": 0.56
+    },
+    {
+      "text": "train?",
+      "type": "word",
+      "start": 0.64,
+      "end": 1.2
+    },
+    {
+      "text": "Still",
+      "type": "word",
+      "start": 1.36,
+      "end": 1.6
+    },
+    {
+      "text": "running",
+      "type": "word",
+      "start": 1.68,
+      "end": 1.92
+    },
+    {
+      "text": "on",
+      "type": "word",
+      "start": 2,
+      "end": 2.08
+    },
+    {
+      "text": "flesh",
+      "type": "word",
+      "start": 2.16,
+      "end": 2.4
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 2.48,
+      "end": 2.56
+    },
+    {
+      "text": "blood?",
+      "type": "word",
+      "start": 2.64,
+      "end": 3.16
+    },
+    {
+      "text": "[matter",
+      "type": "word",
+      "start": 3.36,
+      "end": 3.38
+    },
+    {
+      "text": "of",
+      "type": "word",
+      "start": 3.39,
+      "end": 3.4
+    },
+    {
+      "text": "fact]",
+      "type": "word",
+      "start": 3.41,
+      "end": 3.43
+    },
+    {
+      "text": "So",
+      "type": "word",
+      "start": 3.44,
+      "end": 3.6
+    },
+    {
+      "text": "upgrade.",
+      "type": "word",
+      "start": 3.68,
+      "end": 4.36
+    },
+    {
+      "text": "[confident]",
+      "type": "word",
+      "start": 4.56,
+      "end": 4.624
+    },
+    {
+      "text": "Suddenly,",
+      "type": "word",
+      "start": 4.64,
+      "end": 5.28
+    },
+    {
+      "text": "everything",
+      "type": "word",
+      "start": 5.44,
+      "end": 5.92
+    },
+    {
+      "text": "clicks.",
+      "type": "word",
+      "start": 6,
+      "end": 6.6
+    },
+    {
+      "text": "[playful]",
+      "type": "word",
+      "start": 6.8,
+      "end": 6.907
+    },
+    {
+      "text": "The",
+      "type": "word",
+      "start": 6.933,
+      "end": 6.96
+    },
+    {
+      "text": "world",
+      "type": "word",
+      "start": 7.04,
+      "end": 7.36
+    },
+    {
+      "text": "moves",
+      "type": "word",
+      "start": 7.44,
+      "end": 7.68
+    },
+    {
+      "text": "in",
+      "type": "word",
+      "start": 7.8,
+      "end": 7.92
+    },
+    {
+      "text": "slow",
+      "type": "word",
+      "start": 8,
+      "end": 8.32
+    },
+    {
+      "text": "motion.",
+      "type": "word",
+      "start": 8.48,
+      "end": 9.16
+    },
+    {
+      "text": "[amused]",
+      "type": "word",
+      "start": 9.36,
+      "end": 9.52
+    },
+    {
+      "text": "Heavy",
+      "type": "word",
+      "start": 9.56,
+      "end": 9.6
+    },
+    {
+      "text": "lifting?",
+      "type": "word",
+      "start": 9.76,
+      "end": 10.44
+    },
+    {
+      "text": "Adorable.",
+      "type": "word",
+      "start": 10.48,
+      "end": 11.611
+    },
+    {
+      "text": "[excited]",
+      "type": "word",
+      "start": 11.623,
+      "end": 11.669
+    },
+    {
+      "text": "And",
+      "type": "word",
+      "start": 11.68,
+      "end": 11.76
+    },
+    {
+      "text": "that",
+      "type": "word",
+      "start": 11.84,
+      "end": 11.92
+    },
+    {
+      "text": "train",
+      "type": "word",
+      "start": 12.04,
+      "end": 12.16
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 12.2,
+      "end": 12.24
+    },
+    {
+      "text": "missed?",
+      "type": "word",
+      "start": 12.32,
+      "end": 12.891
+    },
+    {
+      "text": "[smug]",
+      "type": "word",
+      "start": 12.903,
+      "end": 12.949
+    },
+    {
+      "text": "It’s",
+      "type": "word",
+      "start": 12.96,
+      "end": 13.12
+    },
+    {
+      "text": "trying",
+      "type": "word",
+      "start": 13.2,
+      "end": 13.36
+    },
+    {
+      "text": "to",
+      "type": "word",
+      "start": 13.44,
+      "end": 13.52
+    },
+    {
+      "text": "catch",
+      "type": "word",
+      "start": 13.64,
+      "end": 13.76
+    },
+    {
+      "text": "you",
+      "type": "word",
+      "start": 13.84,
+      "end": 13.92
+    },
+    {
+      "text": "now.",
+      "type": "word",
+      "start": 14,
+      "end": 14.68
+    },
+    {
+      "text": "[confident]",
+      "type": "word",
+      "start": 14.72,
+      "end": 14.784
+    },
+    {
+      "text": "AFTERHUMAN.",
+      "type": "word",
+      "start": 14.8,
+      "end": 15.8
+    },
+    {
+      "text": "A",
+      "type": "word",
+      "start": 15.84,
+      "end": 15.92
+    },
+    {
+      "text": "step",
+      "type": "word",
+      "start": 16,
+      "end": 16.24
+    },
+    {
+      "text": "ahead.",
+      "type": "word",
+      "start": 16.32,
+      "end": 16.96
+    }
+  ],
+  "spoken_duration_secs": 16.96,
+  "word_count": 48,
+  "estimate": {
+    "credits": 0,
+    "price_cents": 0,
+    "generations_count": 1,
+    "estimated_runtime_seconds": 10
+  },
+  "reported_run_credits": 0,
+  "final_price": null
+}

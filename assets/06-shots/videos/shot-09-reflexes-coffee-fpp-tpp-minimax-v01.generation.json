@@ -1,0 +1,196 @@
+{
+  "asset_id": "shot-09-reflexes-coffee-fpp-tpp-minimax-v01",
+  "title": "09 \u2014 Coffee rescue: POV to third person",
+  "location": "Futuristic cafe sidewalk",
+  "status": "user_approved_locked",
+  "selected": true,
+  "user_approved": true,
+  "provider": "ElevenLabs",
+  "model_id": "minimax-h3",
+  "model_parameters": {
+    "resolution": "480p",
+    "aspect_ratio": "16:9",
+    "duration_secs": 10,
+    "enhance_prompt": true,
+    "reference_images": [
+      {
+        "template_node_id": "K6MAgMWzBizRlUuc5tYV"
+      },
+      {
+        "template_node_id": "ek70pI2z7KWOjwc0U44W"
+      }
+    ]
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "start_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "end_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "K6MAgMWzBizRlUuc5tYV",
+          "label": "IMAGE 1 \u2014 Selected gold outfit, boots and skin/chrome body"
+        },
+        {
+          "id": "ek70pI2z7KWOjwc0U44W",
+          "label": "IMAGE 2 \u2014 Selected Riley face, bob, eye and neck cyberware"
+        }
+      ]
+    },
+    {
+      "key": "reference_videos",
+      "modality": "video",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_audios",
+      "modality": "audio",
+      "required": false,
+      "connected_to": []
+    }
+  ],
+  "flow_id": "J725xEy49QY4xa6L66pw",
+  "flow_url": "https://elevenlabs.io/app/flows/J725xEy49QY4xa6L66pw",
+  "node_id": "YxNgvhN4CkOZaufMn02v",
+  "prompt_file": "assets/06-shots/video-prompts/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.txt",
+  "output_file": "assets/06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+  "references": [
+    {
+      "role": "Image 1: approved wardrobe, boots and skin/chrome body",
+      "order": 1,
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6",
+      "generation_id": "WboGh1QOlITNwOVIn0Gj",
+      "node_id": "K6MAgMWzBizRlUuc5tYV"
+    },
+    {
+      "role": "Image 2: approved Riley face, bob and facial/neck cyberware only",
+      "order": 2,
+      "file": "assets/01-riley/images/riley-cyberpunk-03-v01.png",
+      "sha256": "4df29f1f3ed615cc454ae91d983f56046e203cc0be225b854c22bcdffc5ca009",
+      "generation_id": "MTCPGsxYC5HZK0tNPdKO",
+      "node_id": "ek70pI2z7KWOjwc0U44W"
+    }
+  ],
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "retimed": false,
+  "retries": 0,
+  "estimate": {
+    "credits": 3030,
+    "price_cents": 4399.56,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 240
+  },
+  "authorization": "User requested a ten-second reflex test: sidewalk run in FPP, stranger drops coffee mug, transition to TPP, slow-motion catch before ground, return mug, speed away.",
+  "previous_phone_take": "assets/06-shots/videos/shot-09-reflexes-cafe-minimax-startframe-v01.mp4",
+  "notes": [
+    "MiniMax H3 supports multiple identity references; H3 Max guide excludes reference-to-video.",
+    "No old phone frame, video, station reference or audio reference is connected.",
+    "No fresh still generation; user specifically requested the ten-second motion experiment.",
+    "Native sound requested; effectiveness and speech absence require listening review.",
+    "enhance_prompt true is provider default; internal expanded prompt not returned.",
+    "Exactly one take authorized, no automatic retry or final selection."
+  ],
+  "prepared_at": "2026-10-31T22:49:26+05:30",
+  "prompt_sha256": "49d2815f73abcd4f1fe10555cb8186a7ea94829b5773675f67ece9d82e56ab1f",
+  "session_ids": [
+    "vSLHaPSutJ1nhgTcWBKa"
+  ],
+  "run_summary": {
+    "nodes_run": 1,
+    "generations_started": 1,
+    "failed": 0,
+    "generations_by_node": {
+      "YxNgvhN4CkOZaufMn02v": 1
+    }
+  },
+  "generation_id": "lKb7MLX932jQ6PQS9rU1",
+  "reported_run_credits": 3030,
+  "provider_duration_seconds": 10.144,
+  "width": 832,
+  "height": 480,
+  "provider_reported_price": {
+    "credits": 3030,
+    "price_cents": 4399.56,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793467175003,
+  "sha256": "00caba5dfc91d5a09537f9b6eb75dd9355070c8d26884da341b6737705863bb0",
+  "bytes": 6269937,
+  "completed_at": "2026-10-31T22:50:50+05:30",
+  "reviewed_at": "2026-10-31T22:53:56+05:30",
+  "review_file": "assets/06-shots/reviews/shot-09-reflexes-coffee-fpp-tpp-minimax-v01/review.json",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-10-31T22:53:56+05:30",
+    "status": "assistant_reviewed_pending_user",
+    "selected": false,
+    "user_approved": false,
+    "method": "24 sampled frames across 0\u20139.583 seconds; 16 closer samples over 1.125\u20132.333 seconds; AVFoundation full decode, last-frame extraction and audio-level checks.",
+    "observations": [
+      "First-person sidewalk approach with pumping arms and visible forward parallax, followed by a third-person Riley reveal from the left around 1.4\u20131.8 seconds.",
+      "A single mug becomes airborne and descends in slow motion. Riley crouches and catches it just above the pavement around 4.6\u20135.0 seconds, then raises it intact.",
+      "She returns the mug around 6.3\u20137.8 seconds; the stranger visibly retains it when she turns and runs away.",
+      "Third-person view stays near the stranger during her departure, with a cyan trail and real movement into the distance."
+    ],
+    "limitations": [
+      "The initial mug release rises/flicks upward before descending, so it still reads partly as a toss rather than a clean slip-and-drop.",
+      "The exit reads closer to a brisk run than an instantaneous super-speed launch. Trail alone does not solve the acceleration beat.",
+      "The camera switches perspective, but Riley enters from the left rather than achieving a clearly demonstrated continuous orbit out of her eyes.",
+      "The handback is legible, but the precise handle-first grip choreography differs from the prompt. Mug scale/perspective and hand contact need playback scrutiny.",
+      "Gold dress, bob, boots and cyan body inlays are recognizable; facial chrome is less prominent and looks stylized at this resolution. Exact likeness is not approved.",
+      "No independent real-time playback or listening review. Native sound decoded successfully; specific effects and absence of speech remain unverified."
+    ],
+    "assistant_verdict": "Full story beats present; release physics, stronger acceleration and likeness/camera polish remain.",
+    "full_playback_reviewed": false,
+    "audio_listened": false,
+    "contact_sheet": "assets/06-shots/reviews/shot-09-reflexes-coffee-fpp-tpp-minimax-v01/contact-sheet.jpg",
+    "transition_detail": "assets/06-shots/reviews/shot-09-reflexes-coffee-fpp-tpp-minimax-v01/pov-transition-detail.jpg",
+    "technical_inspection": "assets/06-shots/reviews/shot-09-reflexes-coffee-fpp-tpp-minimax-v01/inspection.json",
+    "native_audio": "assets/06-shots/reviews/shot-09-reflexes-coffee-fpp-tpp-minimax-v01/native-audio.wav",
+    "native_audio_levels": "assets/06-shots/reviews/shot-09-reflexes-coffee-fpp-tpp-minimax-v01/native-audio-levels.txt"
+  },
+  "technical_review": {
+    "inspection_file": "assets/06-shots/reviews/shot-09-reflexes-coffee-fpp-tpp-minimax-v01/inspection.json",
+    "video_samples": 243,
+    "fps": 24,
+    "dimensions": [
+      832,
+      480
+    ],
+    "video_duration_seconds": 10.125,
+    "near_black_frames": 0,
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 10.144,
+        "sample_rate": 32000
+      }
+    ],
+    "audio_listened": false
+  },
+  "user_approved_at": "2026-10-31T22:58:47+05:30",
+  "user_feedback": "Ok lock this in. Let's create the continuos shot with the voice over now"
+}

@@ -1,0 +1,31 @@
+{
+  "reviewed_at": "2026-10-31T22:53:56+05:30",
+  "status": "user_approved_locked",
+  "selected": true,
+  "user_approved": true,
+  "method": "24 sampled frames across 0\u20139.583 seconds; 16 closer samples over 1.125\u20132.333 seconds; AVFoundation full decode, last-frame extraction and audio-level checks.",
+  "observations": [
+    "First-person sidewalk approach with pumping arms and visible forward parallax, followed by a third-person Riley reveal from the left around 1.4\u20131.8 seconds.",
+    "A single mug becomes airborne and descends in slow motion. Riley crouches and catches it just above the pavement around 4.6\u20135.0 seconds, then raises it intact.",
+    "She returns the mug around 6.3\u20137.8 seconds; the stranger visibly retains it when she turns and runs away.",
+    "Third-person view stays near the stranger during her departure, with a cyan trail and real movement into the distance."
+  ],
+  "limitations": [
+    "The initial mug release rises/flicks upward before descending, so it still reads partly as a toss rather than a clean slip-and-drop.",
+    "The exit reads closer to a brisk run than an instantaneous super-speed launch. Trail alone does not solve the acceleration beat.",
+    "The camera switches perspective, but Riley enters from the left rather than achieving a clearly demonstrated continuous orbit out of her eyes.",
+    "The handback is legible, but the precise handle-first grip choreography differs from the prompt. Mug scale/perspective and hand contact need playback scrutiny.",
+    "Gold dress, bob, boots and cyan body inlays are recognizable; facial chrome is less prominent and looks stylized at this resolution. Exact likeness is not approved.",
+    "No independent real-time playback or listening review. Native sound decoded successfully; specific effects and absence of speech remain unverified."
+  ],
+  "assistant_verdict": "Full story beats present; release physics, stronger acceleration and likeness/camera polish remain.",
+  "full_playback_reviewed": false,
+  "audio_listened": false,
+  "contact_sheet": "assets/06-shots/reviews/shot-09-reflexes-coffee-fpp-tpp-minimax-v01/contact-sheet.jpg",
+  "transition_detail": "assets/06-shots/reviews/shot-09-reflexes-coffee-fpp-tpp-minimax-v01/pov-transition-detail.jpg",
+  "technical_inspection": "assets/06-shots/reviews/shot-09-reflexes-coffee-fpp-tpp-minimax-v01/inspection.json",
+  "native_audio": "assets/06-shots/reviews/shot-09-reflexes-coffee-fpp-tpp-minimax-v01/native-audio.wav",
+  "native_audio_levels": "assets/06-shots/reviews/shot-09-reflexes-coffee-fpp-tpp-minimax-v01/native-audio-levels.txt",
+  "user_approved_at": "2026-10-31T22:58:47+05:30",
+  "approval_note": "User accepts this rendered take. Earlier assistant limitations are historical observations and do not override approval."
+}

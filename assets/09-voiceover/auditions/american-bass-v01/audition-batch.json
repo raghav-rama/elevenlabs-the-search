@@ -1,0 +1,250 @@
+{
+  "status": "completed_with_selected_take",
+  "flow_id": "0DSYP67LuQmAF93hhGaq",
+  "flow_url": "https://elevenlabs.io/app/flows/0DSYP67LuQmAF93hhGaq",
+  "purpose": "Three full-script announcer auditions authorized by user; selected script A plus original opening.",
+  "user_delivery_requirement": "Say So upgrade as one continuous matter-of-fact phrase without a break after So or added emphasis on upgrade.",
+  "model_id": "eleven_v4",
+  "script": "afterhuman-vo-announcer-full-v01.txt",
+  "generations_count_per_voice": 1,
+  "selection_status": "david_full_v01_approved_selected_locked",
+  "schema": {
+    "model_id": "eleven_v4",
+    "model_name": "ElevenLabs v4",
+    "node_type": "tts",
+    "parameters": [
+      {
+        "name": "voice_id",
+        "type": "text",
+        "required": false,
+        "description": "Deprecated: legacy alias of `voice`. Accepted on input only; not written by new clients."
+      },
+      {
+        "name": "language_code",
+        "type": "text",
+        "required": false,
+        "description": "BCP-47 language code for multilingual models."
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      }
+    ],
+    "voice_settings_use": "Leave voice_settings out of a new voiceover. Set them only when the user asks to change how an existing voiceover sounds.",
+    "voice_settings": [
+      {
+        "name": "stability",
+        "type": "number",
+        "required": false,
+        "default": 0.5,
+        "min_value": 0,
+        "max_value": 1,
+        "number_type": "float",
+        "description": "Higher (0.7 and up) for steadier, more consistent takes; lower (about 0.3) for more varied ones. Mood comes from audio tags."
+      },
+      {
+        "name": "similarity",
+        "type": "number",
+        "required": false,
+        "min_value": 0,
+        "max_value": 1,
+        "number_type": "float",
+        "description": "Higher (about 0.85) keeps the read closer to the selected voice; lower it if the take sounds strained or has artifacts."
+      }
+    ]
+  },
+  "voices": [
+    {
+      "voice_id": "2cW6cjkWenOhW7QrnJbJ",
+      "name": "Desmond - Trailer & Ad Voice",
+      "slug": "desmond",
+      "node_id": "Ak65j16u63aBBsxtVEea",
+      "estimate": {
+        "credits": 320,
+        "price_cents": 464.64,
+        "generations_count": 1,
+        "currency": "inr",
+        "estimated_runtime_seconds": 5
+      },
+      "model_parameters": {
+        "voice": "2cW6cjkWenOhW7QrnJbJ",
+        "voice_id": "2cW6cjkWenOhW7QrnJbJ",
+        "output_format": "mp3_44100_128",
+        "pronunciation_dictionary_locators": []
+      },
+      "output_file": "afterhuman-vo-desmond-full-v01.mp3",
+      "generation_id": "jTPFRqFcGSlM5mgre7cA",
+      "session_id": "NQyshjw9CUnzDU1ko9Ka",
+      "generation_record": "afterhuman-vo-desmond-full-v01.generation.json",
+      "provider_duration_secs": 16.96,
+      "selected": false,
+      "user_approved": false,
+      "selection_status": "unselected_alternative_preserved"
+    },
+    {
+      "voice_id": "laTmoAT4stwoPzthxjZT",
+      "name": "David - The Movie Trailer",
+      "slug": "david",
+      "node_id": "qkuedmdGsorW0Gh9bUWL",
+      "estimate": {
+        "credits": 320,
+        "price_cents": 464.64,
+        "generations_count": 1,
+        "currency": "inr",
+        "estimated_runtime_seconds": 5
+      },
+      "model_parameters": {
+        "voice": "laTmoAT4stwoPzthxjZT",
+        "voice_id": "laTmoAT4stwoPzthxjZT",
+        "output_format": "mp3_44100_128",
+        "pronunciation_dictionary_locators": []
+      },
+      "output_file": "afterhuman-vo-david-full-v01.mp3",
+      "generation_id": "keqFQHx3Hu4Dr0dM0gGr",
+      "session_id": "TdZl6LHv768lOAuI9xWn",
+      "generation_record": "afterhuman-vo-david-full-v01.generation.json",
+      "provider_duration_secs": 16.88,
+      "selected": true,
+      "user_approved": true,
+      "selection_status": "approved_selected_locked"
+    },
+    {
+      "voice_id": "cQrSgU1CeOOz73lBM5Cb",
+      "name": "K. V. Hagen - Exceptionally Deep Bass",
+      "slug": "kv-hagen",
+      "node_id": "r5D5oCS2hJYBBWuk7epK",
+      "estimate": {
+        "credits": 320,
+        "price_cents": 464.64,
+        "generations_count": 1,
+        "currency": "inr",
+        "estimated_runtime_seconds": 5
+      },
+      "model_parameters": {
+        "voice": "cQrSgU1CeOOz73lBM5Cb",
+        "voice_id": "cQrSgU1CeOOz73lBM5Cb",
+        "output_format": "mp3_44100_128",
+        "pronunciation_dictionary_locators": []
+      },
+      "output_file": "afterhuman-vo-kv-hagen-full-v01.mp3",
+      "generation_id": "UKJXG2L7A3mbABMxXjju",
+      "session_id": "UIda0HIXad6NZwhr1EAp",
+      "generation_record": "afterhuman-vo-kv-hagen-full-v01.generation.json",
+      "provider_duration_secs": 17.76,
+      "selected": false,
+      "user_approved": false,
+      "selection_status": "unselected_alternative_preserved"
+    }
+  ],
+  "run": {
+    "session_ids": [
+      "NQyshjw9CUnzDU1ko9Ka",
+      "TdZl6LHv768lOAuI9xWn",
+      "UIda0HIXad6NZwhr1EAp"
+    ],
+    "results": [
+      {
+        "success": true,
+        "node_id": "Ak65j16u63aBBsxtVEea",
+        "session_id": "NQyshjw9CUnzDU1ko9Ka",
+        "credit_costs": {
+          "jTPFRqFcGSlM5mgre7cA": 320
+        }
+      },
+      {
+        "success": true,
+        "node_id": "qkuedmdGsorW0Gh9bUWL",
+        "session_id": "TdZl6LHv768lOAuI9xWn",
+        "credit_costs": {
+          "keqFQHx3Hu4Dr0dM0gGr": 320
+        }
+      },
+      {
+        "success": true,
+        "node_id": "r5D5oCS2hJYBBWuk7epK",
+        "session_id": "UIda0HIXad6NZwhr1EAp",
+        "credit_costs": {
+          "UKJXG2L7A3mbABMxXjju": 320
+        }
+      }
+    ],
+    "summary": {
+      "nodes_run": 3,
+      "generations_started": 3,
+      "failed": 0,
+      "generations_by_node": {
+        "Ak65j16u63aBBsxtVEea": 1,
+        "qkuedmdGsorW0Gh9bUWL": 1,
+        "r5D5oCS2hJYBBWuk7epK": 1
+      }
+    }
+  },
+  "cost": {
+    "synthesis_credits": 960,
+    "synthesis_price_cents": 1393.92,
+    "currency": "inr",
+    "qa_estimated_credits": 0,
+    "qa_reported_run_credits": 0,
+    "qa_final_price_reported": false
+  },
+  "qa": {
+    "method": "Provider word-timing output from transcription nodes connected directly to original TTS generations",
+    "limitation": "Returned text includes delivery tags and appears derived from the submitted TTS text/alignment. It is not an independent listening audit or proof of perceived emphasis. No claim that bracketed directions are spoken.",
+    "run": {
+      "session_ids": [
+        "xsiFBxACCa0E35nSlJMe",
+        "bPW2JjbSVZLzDKottxQg",
+        "j6FnSN9qXPGnYiBpbnq2"
+      ],
+      "results": [
+        {
+          "success": true,
+          "node_id": "owFJKf1AL8MfDvVMuDBu",
+          "session_id": "xsiFBxACCa0E35nSlJMe",
+          "credit_costs": {
+            "MfBMHV5FvjUUMXMFOSvg": 0
+          }
+        },
+        {
+          "success": true,
+          "node_id": "xhtQwzfETPV5ih5QvYa5",
+          "session_id": "bPW2JjbSVZLzDKottxQg",
+          "credit_costs": {
+            "8ThQQ3vT1MWMbZjhtnyj": 0
+          }
+        },
+        {
+          "success": true,
+          "node_id": "QSdnmzxzOHsTYygCfjnA",
+          "session_id": "j6FnSN9qXPGnYiBpbnq2",
+          "credit_costs": {
+            "4RzSDNdITNpElqs6x9cF": 0
+          }
+        }
+      ],
+      "summary": {
+        "nodes_run": 3,
+        "generations_started": 3,
+        "failed": 0,
+        "generations_by_node": {
+          "owFJKf1AL8MfDvVMuDBu": 1,
+          "xhtQwzfETPV5ih5QvYa5": 1,
+          "QSdnmzxzOHsTYygCfjnA": 1
+        }
+      }
+    }
+  },
+  "completed_at": "2026-10-29T22:51:21+05:30",
+  "selected_voice_id": "laTmoAT4stwoPzthxjZT",
+  "selected_generation_id": "keqFQHx3Hu4Dr0dM0gGr",
+  "selected_output_file": "afterhuman-vo-david-full-v01.mp3",
+  "approval": {
+    "approved_at": "2026-10-29T23:01:30+05:30",
+    "source": "explicit_user_message",
+    "quote": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3 is good. Lock it in",
+    "scope": "This exact full David take, as rendered; announcer option A including opening and continuous So upgrade."
+  }
+}

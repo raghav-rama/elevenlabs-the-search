@@ -1,0 +1,33 @@
+{
+  "audio_tracks" : [
+    {
+      "channels" : 2,
+      "codec_fourcc" : "aac ",
+      "duration_seconds" : 5.166666666666667,
+      "sample_rate" : 32000
+    }
+  ],
+  "duration_seconds" : 5.208333333333333,
+  "extracted_frame_seconds" : 5.166666666666667,
+  "frame_height" : 480,
+  "frame_width" : 832,
+  "last_frame_file" : "assets\/06-shots\/reviews\/pov-chase-minimax-v01\/hud-inspection\/last-frame.png",
+  "last_frame_sha256" : "07b74e1fef7b32994b9ccd1d1a429d1ffe91fc3d5e563b68daf1ed1846b77f6c",
+  "last_picture_frame_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/pov-chase-minimax-v01\/hud-inspection\/last-picture-frame.png",
+  "last_picture_frame_seconds" : 5.166666666666667,
+  "last_picture_frame_sha256" : "07b74e1fef7b32994b9ccd1d1a429d1ffe91fc3d5e563b68daf1ed1846b77f6c",
+  "last_video_sample_seconds" : 5.166666666666667,
+  "near_black_detection" : "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+  "near_black_frame_times_seconds" : [
+
+  ],
+  "nominal_fps" : 24,
+  "review_limits" : "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+  "script" : "scripts\/inspect-review-video.swift",
+  "source_file" : "assets\/06-shots\/reviews\/pov-chase-minimax-v01\/shot-08-pov-intelligence-hud-preview-v01.mp4",
+  "source_modified" : false,
+  "source_sha256" : "2f5d4a9405b50978e7364a047fae685038e0f7a199015b2d49502499f6d22a8c",
+  "video_codec_fourcc" : "avc1",
+  "video_duration_seconds" : 5.208333333333333,
+  "video_samples" : 125
+}

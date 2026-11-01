@@ -1,0 +1,24 @@
+{
+  "reviewed_at": "2026-10-31T22:31:22+05:30",
+  "status": "assistant_reviewed_pending_user",
+  "selected": false,
+  "user_approved": false,
+  "method": "14 sampled frames across the clip; final native frame additionally inspected for shots 08 and 12; AVFoundation decode and audio level checks.",
+  "observations": [
+    "The train stays lengthwise on the rails. Riley and the train travel in the same direction while the coastline streams beneath them.",
+    "Riley gains relative to the train and reaches its nose near the end."
+  ],
+  "limitations": [
+    "The ending does not show a clear full-body pass with the requested three-body-length lead; only her upper body is marginally ahead of the nose.",
+    "Riley drifts toward the rail-side boundary instead of keeping a consistent offset in the separate running lane.",
+    "The tiny overhead figure cannot establish face, chrome detail or footfall quality.",
+    "Review used 14 sampled frames plus technical decoding; no full real-time playback or independent listening review. Native audio is preserved and needs sound-design/mix review."
+  ],
+  "assistant_verdict": "needs_clearer_overtake_and_lane_separation",
+  "full_playback_reviewed": false,
+  "audio_listened": false,
+  "contact_sheet": "assets/06-shots/reviews/shot-12-overtake-coastal-minimax-startframe-v01/contact-sheet.jpg",
+  "technical_inspection": "assets/06-shots/reviews/shot-12-overtake-coastal-minimax-startframe-v01/inspection.json",
+  "native_audio": "assets/06-shots/reviews/shot-12-overtake-coastal-minimax-startframe-v01/native-audio.wav",
+  "native_audio_levels": "assets/06-shots/reviews/shot-12-overtake-coastal-minimax-startframe-v01/native-audio-levels.txt"
+}

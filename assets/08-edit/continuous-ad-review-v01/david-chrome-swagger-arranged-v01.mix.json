@@ -1,0 +1,167 @@
+{
+  "status": "picture_review_mix_pending_listening",
+  "config_file": "assets/08-edit/continuous-ad-review-v01/soundtrack-config.json",
+  "config": {
+    "purpose": "45-second assembled picture review with spaced intact David phrases and existing Chrome Swagger, no new synthesis or source retime.",
+    "duration_seconds": 45,
+    "sources": {
+      "voice": {
+        "path": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3",
+        "sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376"
+      },
+      "music": {
+        "path": "assets/07-jingle/afterhuman-instrumental-chrome-swagger-v01.mp3",
+        "sha256": "600ee8ec8049fb8196d5fb62365b26afab3ed7db33d634ec2b9f99ad45da7d6b"
+      }
+    },
+    "voice_segments": [
+      {
+        "line": "Missed your train? Still running on flesh and blood? So upgrade.",
+        "source_in_seconds": 0,
+        "duration_seconds": 4.525,
+        "timeline_start_seconds": 8.473333333333333
+      },
+      {
+        "line": "Suddenly, everything clicks.",
+        "source_in_seconds": 4.525,
+        "duration_seconds": 2.2649999999999997,
+        "timeline_start_seconds": 19.375
+      },
+      {
+        "line": "The world moves in slow motion.",
+        "source_in_seconds": 6.79,
+        "duration_seconds": 2.45,
+        "timeline_start_seconds": 23.75
+      },
+      {
+        "line": "Heavy lifting? Adorable.",
+        "source_in_seconds": 9.24,
+        "duration_seconds": 2.385,
+        "timeline_start_seconds": 32.25
+      },
+      {
+        "line": "And that train you missed?",
+        "source_in_seconds": 11.625,
+        "duration_seconds": 1.2599999999999998,
+        "timeline_start_seconds": 36.25
+      },
+      {
+        "line": "It is trying to catch you now.",
+        "source_in_seconds": 12.885,
+        "duration_seconds": 1.8350000000000009,
+        "timeline_start_seconds": 39.666666666666664
+      },
+      {
+        "line": "AFTERHUMAN. A step ahead.",
+        "source_in_seconds": 14.72,
+        "duration_seconds": 2.2073333333333327,
+        "timeline_start_seconds": 42.375
+      }
+    ],
+    "voice_duck_windows": [
+      [
+        8.6333333333,
+        12.8333333333
+      ],
+      [
+        19.49,
+        21.45
+      ],
+      [
+        23.89,
+        26.12
+      ],
+      [
+        32.57,
+        34.62
+      ],
+      [
+        36.305,
+        37.516
+      ],
+      [
+        39.742,
+        41.462
+      ],
+      [
+        42.455,
+        44.582
+      ]
+    ],
+    "music_segments": [
+      {
+        "source_in_seconds": 0,
+        "timeline_start_seconds": 12.833333333333334,
+        "duration_seconds": 14.166666666666666,
+        "fade_in_seconds": 0.005,
+        "fade_out_seconds": 0.12
+      },
+      {
+        "source_in_seconds": 0,
+        "timeline_start_seconds": 27,
+        "duration_seconds": 18,
+        "fade_in_seconds": 0.005,
+        "fade_out_seconds": 0.03
+      }
+    ],
+    "music_hit_times": [
+      12.833333333333334,
+      27
+    ],
+    "music_reference_rms_dbfs": -15.177778078062008,
+    "voice_gain_db": 0,
+    "music_under_voice_db": -17.9,
+    "music_between_lines_db": -7.9,
+    "music_initial_hit_db": -10.9,
+    "slow_motion_filter_hz": 450,
+    "slow_motion_filter_range": [
+      23.75,
+      27.0
+    ],
+    "slow_motion_music_drop_db": -8,
+    "sample_peak_ceiling_dbfs": -1.5,
+    "notes": [
+      "All original VO samples used once in contiguous source sections; gaps added only between lines, never after So.",
+      "Source edit points guided by linked TTS timing and nearby low-energy windows; not independent ASR.",
+      "Music first enters immediately after upgrade ends at 12.833333 seconds, aligned to the observed transformation onset.",
+      "Existing jingle opening/body plays into the slow-motion duck. Its full 18 seconds restart on the catch around 27 seconds, retaining the signature ending at 45 seconds.",
+      "Rhythm envelope autocorrelation peaks near 148.15 BPM, consistent with the requested 148 BPM, but the musical reset is an intentional catch accent rather than a claimed seamless bar loop."
+    ]
+  },
+  "sources": {
+    "voice": {
+      "path": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3",
+      "sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376",
+      "decoded_seconds": 16.927333333333333,
+      "levels": {
+        "sample_peak_dbfs": -0.7434420608022658,
+        "rms_dbfs": -18.684501787957903
+      }
+    },
+    "music": {
+      "path": "assets/07-jingle/afterhuman-instrumental-chrome-swagger-v01.mp3",
+      "sha256": "600ee8ec8049fb8196d5fb62365b26afab3ed7db33d634ec2b9f99ad45da7d6b",
+      "decoded_seconds": 18.0,
+      "levels": {
+        "sample_peak_dbfs": -0.032665240384716694,
+        "rms_dbfs": -17.07335717790851
+      }
+    }
+  },
+  "duration_seconds": 45.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "music_rms_match_gain_db": 1.8955790998465005,
+  "master_gain_db": -0.7789884727304905,
+  "levels": {
+    "sample_peak_dbfs": -1.5002633770788845,
+    "rms_dbfs": -22.123444155384433
+  },
+  "full_scale_samples": 0,
+  "output_file": "assets/08-edit/continuous-ad-review-v01/david-chrome-swagger-arranged-v01.wav",
+  "output_sha256": "06159ca89d0830cddc44ed72d40df5a8464eb648037555b79cc3c8ecde7d7831",
+  "source_retiming": false,
+  "new_synthesis": false,
+  "script": "scripts/mix-ad-review.py",
+  "review_limits": "Sample-peak and RMS checks, not perceptual loudness or independent listening. Native scene effects are added by the picture assembler."
+}

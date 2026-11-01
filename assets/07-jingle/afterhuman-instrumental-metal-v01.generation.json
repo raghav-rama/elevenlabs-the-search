@@ -1,0 +1,190 @@
+{
+  "status": "completed_unselected_alternative",
+  "selected": false,
+  "user_approved": false,
+  "flow_id": "C9qEH7lt72zAZFiw0Toa",
+  "flow_url": "https://elevenlabs.io/app/flows/C9qEH7lt72zAZFiw0Toa",
+  "node_id": "6HsDEsKJmtoH30En0PdK",
+  "model_id": "eleven_music_v2",
+  "model_parameters": {
+    "duration_seconds": 18,
+    "instrumental": true,
+    "lyrics_type": "instrumental",
+    "lyrics": ""
+  },
+  "prompt": "An original 18-second instrumental industrial heavy-metal advertising jingle at 160 BPM in 4/4: fast, upbeat, cocky and triumphant, with palm-muted drop-tuned guitars, a memorable four-note guitar/synth hook repeated throughout, punchy drums with tight double-kick bursts, and controlled distorted synth bass in a clean futuristic stereo mix. Start immediately on a strong downbeat with the hook; keep the middle arrangement spacious and rhythmically steady beneath a deep spoken voice, then let the hook open up for the final four seconds and finish with a crisp resolved two-note sting and short decay. Strictly instrumental: no vocals, speech, chanting, choirs or vocal samples, no long intro, no slow breakdown, no sprawling solo.",
+  "prompt_file": "prompts/afterhuman-instrumental-metal-v01.txt",
+  "generations_count": 1,
+  "seed": null,
+  "seed_note": "No seed requested or exposed.",
+  "estimate": {
+    "credits": 545.4545454545454,
+    "price_cents": 792,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 71
+  },
+  "creative_direction": {
+    "user_approved": "Fast, upbeat heavy metal instrumental; music begins immediately after spoken So upgrade; announcer narrates upgrade experience; Force Projection cited as energy reference.",
+    "assistant_choices": "18 seconds, target 160 BPM, four-note recurring guitar/synth hook, sparse middle for narration, resolved ending.",
+    "reference_usage": "Descriptive original-music prompt only; no reference song audio supplied, no lyrics requested."
+  },
+  "voiceover_reference": {
+    "path": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3",
+    "sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376",
+    "status": "approved_selected_locked",
+    "music_entry_seconds_relative_to_voiceover": 4.36,
+    "timing_basis": "Provisional provider-alignment upgrade end; final picture edit not aligned."
+  },
+  "schema": {
+    "model_id": "eleven_music_v2",
+    "model_name": "ElevenLabs Music v2",
+    "node_type": "music",
+    "parameters": [
+      {
+        "name": "duration_seconds",
+        "type": "number",
+        "required": false,
+        "min_value": 3,
+        "max_value": 600,
+        "number_type": "float"
+      },
+      {
+        "name": "lyrics_type",
+        "type": "select",
+        "required": false,
+        "default": "auto",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "custom",
+            "value": "custom"
+          },
+          {
+            "label": "instrumental",
+            "value": "instrumental"
+          }
+        ],
+        "description": "How lyrics are handled: auto-generated, custom-provided, or instrumental only."
+      },
+      {
+        "name": "instrumental",
+        "type": "boolean",
+        "required": false,
+        "default": false,
+        "description": "Generate instrumental music without vocals."
+      },
+      {
+        "name": "lyrics",
+        "type": "text",
+        "required": false,
+        "description": "Custom lyrics text or a reference to a text node's output. Ignored when lyrics_type is 'instrumental'."
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "lyrics",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "audio",
+        "modality": "audio",
+        "required": false
+      }
+    ]
+  },
+  "run": {
+    "session_ids": [
+      "pzoO9HZDQz4kgjE1ON1A"
+    ],
+    "results": [
+      {
+        "success": true,
+        "node_id": "6HsDEsKJmtoH30En0PdK",
+        "session_id": "pzoO9HZDQz4kgjE1ON1A",
+        "credit_costs": {
+          "PscCez0neu8ITWYUo7t7": 269.99999999999994
+        }
+      }
+    ],
+    "summary": {
+      "nodes_run": 1,
+      "generations_started": 1,
+      "failed": 0,
+      "generations_by_node": {
+        "6HsDEsKJmtoH30En0PdK": 1
+      }
+    }
+  },
+  "generation_id": "PscCez0neu8ITWYUo7t7",
+  "session_id": "pzoO9HZDQz4kgjE1ON1A",
+  "actual_price": {
+    "credits": 269.99999999999994,
+    "price_cents": 392.03999999999996,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793295409593,
+  "output": {
+    "file": "afterhuman-instrumental-metal-v01.mp3",
+    "bytes": 450322,
+    "sha256": "b712635357e2d36fd99f973fb0572b2eeb0af557c0fa28f578350b38740a8676",
+    "provider_duration_seconds": 18,
+    "container_duration_seconds": 18.024,
+    "valid_audio_frames": 864000,
+    "format": "MP3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "bitrate": 192000
+  },
+  "review": {
+    "status": "retained_unselected_not_rejected",
+    "checks": "Source downloaded, hash recorded, native format inspected and decoded successfully for separate audition mix.",
+    "requested_genre_and_tempo": "Industrial heavy metal; 160 BPM requested, not independently measured or confirmed by listening.",
+    "instrumental": "instrumental=true and lyrics_type=instrumental verified in actual node; absence of vocal artifacts requires listening review.",
+    "catchiness": "Recurring hook, energy, genre fit and ending remain user listening review items.",
+    "preview": "reviews/afterhuman-instrumental-metal-v01-with-david.wav",
+    "preview_record": "reviews/afterhuman-instrumental-metal-v01-with-david.mix.json",
+    "preview_config": "reviews/afterhuman-instrumental-metal-v01-preview-config.json",
+    "source_preservation": "Native music and locked David source preserved byte-for-byte; no retiming, regenerated voice or video changes.",
+    "publication": "No final Studio/public music share link or contest submission created.",
+    "latest_preview_adjustment": {
+      "at": "2026-10-29T23:20:44+05:30",
+      "user_request": "Raise the jingle volume just a tiny bit in the existing David preview.",
+      "music_gain_increase_db": 1.5,
+      "previous_preview_path": "assets/07-jingle/reviews/archive/afterhuman-metal-with-david-before-volume-lift-v01/afterhuman-instrumental-metal-v01-with-david.wav",
+      "previous_preview_sha256": "1d462aa0d5ea6510110ab7030d80691bce4615fce26982f3a6a60233fb36728f",
+      "previous_config_path": "assets/07-jingle/reviews/archive/afterhuman-metal-with-david-before-volume-lift-v01/afterhuman-instrumental-metal-v01-preview-config.json",
+      "previous_report_path": "assets/07-jingle/reviews/archive/afterhuman-metal-with-david-before-volume-lift-v01/afterhuman-instrumental-metal-v01-with-david.mix.json",
+      "validation": {
+        "narration_only_prefix_byte_identical": true,
+        "fixed_master_gain_unchanged": true,
+        "duration_seconds": 22.36,
+        "music_start_seconds": 4.36,
+        "measured_music_only_tail_gain_change_db": 1.4999981415064192,
+        "sample_peak_dbfs": -0.9343740864873697,
+        "full_scale_pcm_samples": 0
+      }
+    }
+  },
+  "completed_at": "2026-10-29T23:11:10+05:30",
+  "user_feedback": {
+    "at": "2026-10-29T23:37:16+05:30",
+    "quote": "I like it. Can we experiment with another jingle? surprise me!",
+    "interpretation": "Positive feedback on current raised-volume metal preview; preserve as liked candidate, not an exclusive final selection."
+  },
+  "user_liked": true,
+  "selection_record": {
+    "at": "2026-10-31T15:59:50+05:30",
+    "selected_asset_id": "afterhuman-instrumental-chrome-swagger-v01",
+    "outcome": "retained_alternative_not_rejected"
+  }
+}

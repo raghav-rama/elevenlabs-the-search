@@ -1,0 +1,25 @@
+{
+  "reviewed_at": "2026-10-31T16:29:44+05:30",
+  "asset_id": "shot-08-pov-intelligence-minimax-v01",
+  "method": "Visual review of 14 sampled frames plus decoded-frame format/ending inspection; not full motion playback or listening.",
+  "outcome": "usable_route_plate_pending_user_review",
+  "observations": [
+    "First-person station run and leftward passage turn are readable in sampled frames.",
+    "Skin-dominant hands and narrow cyan/chrome inlays broadly match the approved body styling."
+  ],
+  "limitations_or_defects": [
+    "The plate does not clearly establish two competing routes; the local HUD derivative supplies a provisional route-solving beat."
+  ],
+  "selected": false,
+  "user_approved": false,
+  "listening_review": "pending; native audio decoded and measured only",
+  "inspection": "assets/06-shots/reviews/shot-08-pov-intelligence-minimax-v01/inspection.json",
+  "contact_sheet": "assets/06-shots/reviews/shot-08-pov-intelligence-minimax-v01/contact-sheet.jpg",
+  "native_audio": "assets/06-shots/reviews/shot-08-pov-intelligence-minimax-v01/native-audio.wav",
+  "native_audio_levels": "assets/06-shots/reviews/shot-08-pov-intelligence-minimax-v01/native-audio-levels.txt",
+  "hud_preview": "assets/06-shots/reviews/pov-chase-minimax-v01/shot-08-pov-intelligence-hud-preview-v02.mp4",
+  "hud_review": "v02 text and arrow visually confirmed in sampled frames; screen-space concept only, not tracked VFX or a selected final design.",
+  "status": "user_rejected",
+  "user_feedback": "HUD absent/ineffective in the delivered scene.",
+  "user_reviewed_at": "2026-10-31T21:31:44+05:30"
+}

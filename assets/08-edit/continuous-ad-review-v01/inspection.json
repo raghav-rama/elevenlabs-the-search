@@ -1,0 +1,33 @@
+{
+  "audio_tracks" : [
+    {
+      "channels" : 2,
+      "codec_fourcc" : "aac ",
+      "duration_seconds" : 45,
+      "sample_rate" : 48000
+    }
+  ],
+  "duration_seconds" : 45,
+  "extracted_frame_seconds" : 44.958333333333336,
+  "frame_height" : 1080,
+  "frame_width" : 1920,
+  "last_frame_file" : "assets\/08-edit\/continuous-ad-review-v01\/last-frame.png",
+  "last_frame_sha256" : "c6b214f197ac11dbb8b0ac6209c5a90e485f31ad38c300f132820b59cfef62fb",
+  "last_picture_frame_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/08-edit\/continuous-ad-review-v01\/last-picture-frame.png",
+  "last_picture_frame_seconds" : 44.958333333333336,
+  "last_picture_frame_sha256" : "c6b214f197ac11dbb8b0ac6209c5a90e485f31ad38c300f132820b59cfef62fb",
+  "last_video_sample_seconds" : 44.958333333333336,
+  "near_black_detection" : "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+  "near_black_frame_times_seconds" : [
+
+  ],
+  "nominal_fps" : 24,
+  "review_limits" : "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+  "script" : "scripts\/inspect-review-video.swift",
+  "source_file" : "assets\/08-edit\/continuous-ad-review-v01\/afterhuman-continuous-with-david-v01.mp4",
+  "source_modified" : false,
+  "source_sha256" : "782a57621f92287c8ec29c86b443782c26b83df8413547a38449ff15253a9350",
+  "video_codec_fourcc" : "avc1",
+  "video_duration_seconds" : 45,
+  "video_samples" : 1080
+}

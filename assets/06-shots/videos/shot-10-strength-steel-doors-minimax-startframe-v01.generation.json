@@ -1,0 +1,157 @@
+{
+  "asset_id": "shot-10-strength-steel-doors-minimax-startframe-v01",
+  "title": "10 \u2014 Strength: steel doors",
+  "status": "generated_reviewed_pending_user",
+  "selected": false,
+  "user_approved": false,
+  "provider": "ElevenLabs",
+  "model_id": "minimax-h3-max",
+  "model_parameters": {
+    "start_frame": {
+      "template_node_id": "QuL6r28kX5dSDTLsL3C6"
+    },
+    "resolution": "480p",
+    "duration_secs": 5,
+    "enhance_prompt": true
+  },
+  "flow_id": "Po3Ew9qZ7xR4mOVZYC1Q",
+  "flow_url": "https://elevenlabs.io/app/flows/Po3Ew9qZ7xR4mOVZYC1Q",
+  "node_id": "99NeKcHZwZ8LoJXstGrE",
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "start_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "QuL6r28kX5dSDTLsL3C6",
+          "label": "10 \u2014 strength-steel-doors \u2014 EXACT START FRAME"
+        }
+      ]
+    },
+    {
+      "key": "end_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_images",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_videos",
+      "modality": "video",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_audios",
+      "modality": "audio",
+      "required": false,
+      "connected_to": []
+    }
+  ],
+  "prompt_file": "assets/06-shots/video-prompts/shot-10-strength-steel-doors-minimax-startframe-v01.txt",
+  "output_file": "assets/06-shots/videos/shot-10-strength-steel-doors-minimax-startframe-v01.mp4",
+  "references": [
+    {
+      "role": "exact_start_frame",
+      "order": 1,
+      "file": "assets/06-shots/images/shot-10-strength-steel-doors-start-v01.png",
+      "sha256": "c3613b82a7b3fbbbf8bf0b7012ac143fcd91b88415941adfd29decbf63b4edd8",
+      "generation_id": "CEqrHsUPs8vEan7F2i6E",
+      "node_id": "QuL6r28kX5dSDTLsL3C6"
+    }
+  ],
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "retimed": false,
+  "batch_estimate": {
+    "credits": 7575,
+    "price_cents": 10998.900000000001,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "authorization": "User: Ok then create videos of individual shots. Continued MiniMax/ElevenLabs cheap-prototyping strategy; five current starting stills including approved steel-door replacement.",
+  "notes": [
+    "Starting image bound to start_frame; no reference_images/video/audio or end_frame inputs.",
+    "Aspect ratio inherited from the 16:9 starting image; no aspect_ratio parameter supplied, per live model guide.",
+    "Native sound design is directed in the prompt; successful synthesis and audio quality require separate listening review.",
+    "Source still is authorized for this motion test, not automatically a final production selection.",
+    "Default enhance_prompt value, if exposed in effective parameters, is retained; internal expanded prompt is not supplied by connector."
+  ],
+  "prepared_at": "2026-10-31T22:24:30+05:30",
+  "prompt_sha256": "f2e6d72236f5ca74a230b96c8351722bf693ac8e18fa8ec35c57f8458bdf6274",
+  "session_id": "hCWdNgpLSpabKJNIJJqn",
+  "generation_id": "xBody7mx7hXbFNm83Zuh",
+  "reported_run_credits": 1515,
+  "width": 832,
+  "height": 480,
+  "provider_duration_seconds": 5.184,
+  "provider_reported_price": {
+    "credits": 1515,
+    "price_cents": 2199.78,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793465671864,
+  "bytes": 2646992,
+  "sha256": "e321abb59de0bbd06e42b3310e8dae21d3e607ef3270099bdf737a78df64b7ef",
+  "completed_at": "2026-10-31T22:25:37+05:30",
+  "location": "Industrial service corridor",
+  "reviewed_at": "2026-10-31T22:31:22+05:30",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-10-31T22:31:22+05:30",
+    "status": "assistant_reviewed_pending_user",
+    "selected": false,
+    "user_approved": false,
+    "method": "14 sampled frames across the clip; final native frame additionally inspected for shots 08 and 12; AVFoundation decode and audio level checks.",
+    "observations": [
+      "Both hands grip the opposing door edges in first person. The panels visibly crease and buckle outward from roughly 1.9\u20133.0 seconds.",
+      "The deformed doors stay open; hands release near the end and the view advances into the corridor."
+    ],
+    "limitations": [
+      "The setup takes nearly two seconds before the major bend; final pacing should favor the decisive pull.",
+      "Moving hand proportions and grip contact still need close playback review. No claim of frame-perfect anatomy.",
+      "Review used 14 sampled frames plus technical decoding; no full real-time playback or independent listening review. Native audio is preserved and needs sound-design/mix review."
+    ],
+    "assistant_verdict": "promising_strength_deformation_prototype",
+    "full_playback_reviewed": false,
+    "audio_listened": false,
+    "contact_sheet": "assets/06-shots/reviews/shot-10-strength-steel-doors-minimax-startframe-v01/contact-sheet.jpg",
+    "technical_inspection": "assets/06-shots/reviews/shot-10-strength-steel-doors-minimax-startframe-v01/inspection.json",
+    "native_audio": "assets/06-shots/reviews/shot-10-strength-steel-doors-minimax-startframe-v01/native-audio.wav",
+    "native_audio_levels": "assets/06-shots/reviews/shot-10-strength-steel-doors-minimax-startframe-v01/native-audio-levels.txt"
+  },
+  "review_file": "assets/06-shots/reviews/shot-10-strength-steel-doors-minimax-startframe-v01/review.json",
+  "technical_review": {
+    "inspection_file": "assets/06-shots/reviews/shot-10-strength-steel-doors-minimax-startframe-v01/inspection.json",
+    "video_samples": 124,
+    "fps": 24,
+    "dimensions": [
+      832,
+      480
+    ],
+    "video_duration_seconds": 5.167,
+    "near_black_frames": 0,
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 5.184,
+        "sample_rate": 32000
+      }
+    ],
+    "audio_listened": false
+  }
+}

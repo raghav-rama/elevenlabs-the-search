@@ -1,0 +1,70 @@
+{
+  "flow_id": "RvZqvPiEMwNzDR2Oc5LG",
+  "generations": [
+    {
+      "generation_id": "WmKYplcOM3OMPuCS7wAE",
+      "status": "completed",
+      "width": 832,
+      "height": 480,
+      "duration_secs": 5.184,
+      "price": {
+        "credits": 1515,
+        "price_cents": 2199.78,
+        "cost_fiat_currency": "inr"
+      },
+      "created_at_unix_ms": 1793443899465
+    },
+    {
+      "generation_id": "vDMxz1iY6QlByuYnD3Kl",
+      "status": "completed",
+      "width": 832,
+      "height": 480,
+      "duration_secs": 5.184,
+      "price": {
+        "credits": 1515,
+        "price_cents": 2199.78,
+        "cost_fiat_currency": "inr"
+      },
+      "created_at_unix_ms": 1793443899465
+    },
+    {
+      "generation_id": "4m1eQwsCvBtaxRSXTCpb",
+      "status": "completed",
+      "width": 832,
+      "height": 480,
+      "duration_secs": 5.184,
+      "price": {
+        "credits": 1515,
+        "price_cents": 2199.78,
+        "cost_fiat_currency": "inr"
+      },
+      "created_at_unix_ms": 1793443899466
+    },
+    {
+      "generation_id": "fFQyApdjzR4TEVXVnkpu",
+      "status": "completed",
+      "width": 832,
+      "height": 480,
+      "duration_secs": 5.184,
+      "price": {
+        "credits": 1515,
+        "price_cents": 2199.78,
+        "cost_fiat_currency": "inr"
+      },
+      "created_at_unix_ms": 1793443899465
+    },
+    {
+      "generation_id": "ELwBrfCGYFVDe097bXxP",
+      "status": "completed",
+      "width": 832,
+      "height": 480,
+      "duration_secs": 5.184,
+      "price": {
+        "credits": 1515,
+        "price_cents": 2199.78,
+        "cost_fiat_currency": "inr"
+      },
+      "created_at_unix_ms": 1793443899468
+    }
+  ]
+}

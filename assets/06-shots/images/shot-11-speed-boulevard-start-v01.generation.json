@@ -1,0 +1,103 @@
+{
+  "asset_id": "shot-11-speed-boulevard-start-v01",
+  "title": "11 \u2014 Speed / city boulevard",
+  "location": "Open city boulevard",
+  "status": "generated_visual_review_pending_user",
+  "selected": false,
+  "user_approved": false,
+  "provider": "ElevenLabs",
+  "model_id": "gpt-image-2",
+  "model_parameters": {
+    "images": [
+      {
+        "template_node_id": "oTttRPQOPwXT3RV1m5p5"
+      }
+    ],
+    "quality": "low",
+    "aspect_ratio": "16:9",
+    "resolution": "1K"
+  },
+  "flow_id": "rZN7nVDHnd64A9UCsrwK",
+  "flow_url": "https://elevenlabs.io/app/flows/rZN7nVDHnd64A9UCsrwK",
+  "node_id": "7HZWsgloHXLVT77Uj7wM",
+  "prompt_file": "assets/06-shots/prompts/shot-11-speed-boulevard-start-v01.txt",
+  "output_file": "assets/06-shots/images/shot-11-speed-boulevard-start-v01.png",
+  "references": [
+    {
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6",
+      "generation_id": "WboGh1QOlITNwOVIn0Gj",
+      "node_id": "oTttRPQOPwXT3RV1m5p5",
+      "role": "approved Riley wardrobe and natural skin/chrome inlays",
+      "order": 1
+    }
+  ],
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "oTttRPQOPwXT3RV1m5p5",
+          "label": "APPROVED \u2014 Riley gold wardrobe and skin/chrome inlays"
+        }
+      ]
+    }
+  ],
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "batch_estimate": {
+    "credits": 1478.9675675675678,
+    "price_cents": 2147.460908108108,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "authorization": "User rejected all five station-based video prototypes and requested the beginning shot of every scene as images first. One starting image per revised scene; no video/audio generation or automatic retry.",
+  "notes": [
+    "Four first-person capability stills and one overhead payoff setup in five different locations.",
+    "This is a beginning-frame concept, not evidence of successful future motion, sound, final likeness or user selection.",
+    "Selected face reference is available in the Flow but not connected: foreground hands only or distant overhead runner."
+  ],
+  "prepared_at": "2026-10-31T21:31:44+05:30",
+  "prompt_sha256": "237c161652aeac9390b39302b51a602e8e82d8d611b48f3534b1f43e08f386a6",
+  "session_id": "fFph6Lig13pW4qQfkWbP",
+  "generation_id": "R8CrhgAicrGxk236tvXZ",
+  "reported_run_credits": 252.11783783783784,
+  "completed_at": "2026-10-31T21:35:07+05:30",
+  "width": 1280,
+  "height": 720,
+  "bytes": 1631644,
+  "sha256": "de9b68191851f62fa7ebdb402ee1431aae76a0efcf0d27991bd43ac26bdf3560",
+  "provider_reported_price": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793462505426,
+  "assistant_visual_review": {
+    "observations": [
+      "First-person arm drive on an open futuristic boulevard.",
+      "Strong edge/parallax blur and directional cyan/magenta streaks establish a speed visual.",
+      "Central forward route is clear; no station/train/head-on geometry."
+    ],
+    "limitations": [
+      "Motion blur in a still does not prove convincing sprint speed; animation must provide rapid foreground displacement and arm action.",
+      "A clean or less-blurred anchor may be useful if the video model turns this into static blur; no additional image made."
+    ],
+    "reviewed_at": "2026-10-31T21:35:07+05:30",
+    "method": "Full-resolution visual inspection of generated still; no motion or listening claim.",
+    "user_selection_pending": true
+  },
+  "provider_prompt_summary": "Create one photorealistic live-action advertising frame for AFTERHUMAN, a fictional cybernetic upgrade brand. This is the STARTING FRAME of one future video shot, not a collage, storyboard sheet, post",
+  "provider_prompt_summary_truncated": true,
+  "prompt_verification": "Full prompt and input ports verified on node before run; completed-generation response exposes only first 200 characters, which match."
+}

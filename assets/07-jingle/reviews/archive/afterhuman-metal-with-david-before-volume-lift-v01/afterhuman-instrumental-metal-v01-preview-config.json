@@ -1,0 +1,18 @@
+{
+  "purpose": "Listen to the new jingle with the user-locked David performance; not a final picture edit or master mix.",
+  "voiceover_path": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3",
+  "voiceover_sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376",
+  "music_path": "assets/07-jingle/afterhuman-instrumental-metal-v01.mp3",
+  "music_sha256": "b712635357e2d36fd99f973fb0572b2eeb0af557c0fa28f578350b38740a8676",
+  "music_start_seconds": 4.36,
+  "timing_basis": "David provider alignment ends upgrade at 4.36s from VO start. Provisional audition cue, not final picture timing.",
+  "voiceover_gain_db": 0,
+  "music_under_voice_db": -17,
+  "music_initial_hit_db": -10,
+  "music_after_voice_db": -7,
+  "initial_hit_seconds": 0.12,
+  "initial_settle_seconds": 0.12,
+  "recovery_delay_seconds": 0.05,
+  "recovery_seconds": 0.5,
+  "sample_peak_ceiling_dbfs": -1
+}

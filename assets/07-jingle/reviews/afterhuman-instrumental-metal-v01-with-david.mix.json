@@ -1,0 +1,80 @@
+{
+  "status": "listening_preview_not_final_mix",
+  "config_path": "assets/07-jingle/reviews/afterhuman-instrumental-metal-v01-preview-config.json",
+  "config": {
+    "purpose": "Listen to the new jingle with the user-locked David performance; not a final picture edit or master mix.",
+    "voiceover_path": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3",
+    "voiceover_sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376",
+    "music_path": "assets/07-jingle/afterhuman-instrumental-metal-v01.mp3",
+    "music_sha256": "b712635357e2d36fd99f973fb0572b2eeb0af557c0fa28f578350b38740a8676",
+    "music_start_seconds": 4.36,
+    "timing_basis": "David provider alignment ends upgrade at 4.36s from VO start. Provisional audition cue, not final picture timing.",
+    "voiceover_gain_db": 0,
+    "music_under_voice_db": -15.5,
+    "music_initial_hit_db": -8.5,
+    "music_after_voice_db": -5.5,
+    "initial_hit_seconds": 0.12,
+    "initial_settle_seconds": 0.12,
+    "recovery_delay_seconds": 0.05,
+    "recovery_seconds": 0.5,
+    "sample_peak_ceiling_dbfs": -0.5,
+    "fixed_master_gain_db": -0.6078534327033005,
+    "revision_note": "User requested a tiny music increase: +1.5 dB at every music-envelope stage; keep prior master gain so narration remains at the same level."
+  },
+  "sources": {
+    "voiceover": {
+      "path": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3",
+      "sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376",
+      "decoded_seconds": 16.927333333333333,
+      "decoded_levels": {
+        "sample_peak_dbfs": -0.7434420608022658,
+        "rms_dbfs": -18.684501787957903
+      }
+    },
+    "music": {
+      "path": "assets/07-jingle/afterhuman-instrumental-metal-v01.mp3",
+      "sha256": "b712635357e2d36fd99f973fb0572b2eeb0af557c0fa28f578350b38740a8676",
+      "decoded_seconds": 18.0,
+      "decoded_levels": {
+        "sample_peak_dbfs": -0.5670800151285816,
+        "rms_dbfs": -15.177778078062008
+      }
+    }
+  },
+  "sample_rate": 48000,
+  "channels": 2,
+  "music_start_frame": 209280,
+  "music_start_seconds": 4.36,
+  "total_frames": 1073280,
+  "duration_seconds": 22.36,
+  "master_gain_db": -0.6078534327033005,
+  "levels": {
+    "sample_peak_dbfs": -0.9343740864873697,
+    "rms_dbfs": -19.6622572807713
+  },
+  "full_scale_pcm_samples": 0,
+  "output": {
+    "path": "assets/07-jingle/reviews/afterhuman-instrumental-metal-v01-with-david.wav",
+    "sha256": "c8538fb15f30155e677fee92fff2233b1d2240823b68ca6406fa3c5afcccf0b4",
+    "bytes": 4293164
+  },
+  "limitation": "Mix is for audition only; no perceptual listening approval or final picture alignment implied.",
+  "revision": {
+    "at": "2026-10-29T23:20:44+05:30",
+    "user_request": "Raise the jingle volume just a tiny bit in the existing David preview.",
+    "music_gain_increase_db": 1.5,
+    "previous_preview_path": "assets/07-jingle/reviews/archive/afterhuman-metal-with-david-before-volume-lift-v01/afterhuman-instrumental-metal-v01-with-david.wav",
+    "previous_preview_sha256": "1d462aa0d5ea6510110ab7030d80691bce4615fce26982f3a6a60233fb36728f",
+    "previous_config_path": "assets/07-jingle/reviews/archive/afterhuman-metal-with-david-before-volume-lift-v01/afterhuman-instrumental-metal-v01-preview-config.json",
+    "previous_report_path": "assets/07-jingle/reviews/archive/afterhuman-metal-with-david-before-volume-lift-v01/afterhuman-instrumental-metal-v01-with-david.mix.json",
+    "validation": {
+      "narration_only_prefix_byte_identical": true,
+      "fixed_master_gain_unchanged": true,
+      "duration_seconds": 22.36,
+      "music_start_seconds": 4.36,
+      "measured_music_only_tail_gain_change_db": 1.4999981415064192,
+      "sample_peak_dbfs": -0.9343740864873697,
+      "full_scale_pcm_samples": 0
+    }
+  }
+}

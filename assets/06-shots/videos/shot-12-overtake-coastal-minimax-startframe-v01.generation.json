@@ -1,0 +1,158 @@
+{
+  "asset_id": "shot-12-overtake-coastal-minimax-startframe-v01",
+  "title": "12 \u2014 Overtake: coastal race",
+  "status": "generated_reviewed_pending_user",
+  "selected": false,
+  "user_approved": false,
+  "provider": "ElevenLabs",
+  "model_id": "minimax-h3-max",
+  "model_parameters": {
+    "start_frame": {
+      "template_node_id": "R9eI9hZWxxs8TmiLRGOj"
+    },
+    "resolution": "480p",
+    "duration_secs": 5,
+    "enhance_prompt": true
+  },
+  "flow_id": "Po3Ew9qZ7xR4mOVZYC1Q",
+  "flow_url": "https://elevenlabs.io/app/flows/Po3Ew9qZ7xR4mOVZYC1Q",
+  "node_id": "aEJYygAPejtfv5m9SW4Q",
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "start_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "R9eI9hZWxxs8TmiLRGOj",
+          "label": "12 \u2014 overtake-coastal \u2014 EXACT START FRAME"
+        }
+      ]
+    },
+    {
+      "key": "end_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_images",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_videos",
+      "modality": "video",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_audios",
+      "modality": "audio",
+      "required": false,
+      "connected_to": []
+    }
+  ],
+  "prompt_file": "assets/06-shots/video-prompts/shot-12-overtake-coastal-minimax-startframe-v01.txt",
+  "output_file": "assets/06-shots/videos/shot-12-overtake-coastal-minimax-startframe-v01.mp4",
+  "references": [
+    {
+      "role": "exact_start_frame",
+      "order": 1,
+      "file": "assets/06-shots/images/shot-12-overtake-coastal-start-v01.png",
+      "sha256": "674a07b721bb39076b9ae9ad58a9319bddf7c150c0edf2d8a82628426d763e23",
+      "generation_id": "k4Quj8mwM41qe36CgKEH",
+      "node_id": "R9eI9hZWxxs8TmiLRGOj"
+    }
+  ],
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "retimed": false,
+  "batch_estimate": {
+    "credits": 7575,
+    "price_cents": 10998.900000000001,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "authorization": "User: Ok then create videos of individual shots. Continued MiniMax/ElevenLabs cheap-prototyping strategy; five current starting stills including approved steel-door replacement.",
+  "notes": [
+    "Starting image bound to start_frame; no reference_images/video/audio or end_frame inputs.",
+    "Aspect ratio inherited from the 16:9 starting image; no aspect_ratio parameter supplied, per live model guide.",
+    "Native sound design is directed in the prompt; successful synthesis and audio quality require separate listening review.",
+    "Source still is authorized for this motion test, not automatically a final production selection.",
+    "Default enhance_prompt value, if exposed in effective parameters, is retained; internal expanded prompt is not supplied by connector."
+  ],
+  "prepared_at": "2026-10-31T22:24:30+05:30",
+  "prompt_sha256": "1e27c1b99c3d0e616d5ddb45d7008542482be5c7e3ec720e87ef82717989e5bd",
+  "session_id": "KekY0d1zYuMBC0KUL6Tr",
+  "generation_id": "ALkhjRBvazxcNcJgwvdc",
+  "reported_run_credits": 1515,
+  "width": 832,
+  "height": 480,
+  "provider_duration_seconds": 5.184,
+  "provider_reported_price": {
+    "credits": 1515,
+    "price_cents": 2199.78,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793465671870,
+  "bytes": 4867603,
+  "sha256": "55fb3ac74dd46fc808139d8d609f75989dc57dc38a3a6cc212d39d434dcd4355",
+  "completed_at": "2026-10-31T22:25:37+05:30",
+  "location": "Coastal railway, vertical overhead view",
+  "reviewed_at": "2026-10-31T22:31:22+05:30",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-10-31T22:31:22+05:30",
+    "status": "assistant_reviewed_pending_user",
+    "selected": false,
+    "user_approved": false,
+    "method": "14 sampled frames across the clip; final native frame additionally inspected for shots 08 and 12; AVFoundation decode and audio level checks.",
+    "observations": [
+      "The train stays lengthwise on the rails. Riley and the train travel in the same direction while the coastline streams beneath them.",
+      "Riley gains relative to the train and reaches its nose near the end."
+    ],
+    "limitations": [
+      "The ending does not show a clear full-body pass with the requested three-body-length lead; only her upper body is marginally ahead of the nose.",
+      "Riley drifts toward the rail-side boundary instead of keeping a consistent offset in the separate running lane.",
+      "The tiny overhead figure cannot establish face, chrome detail or footfall quality.",
+      "Review used 14 sampled frames plus technical decoding; no full real-time playback or independent listening review. Native audio is preserved and needs sound-design/mix review."
+    ],
+    "assistant_verdict": "needs_clearer_overtake_and_lane_separation",
+    "full_playback_reviewed": false,
+    "audio_listened": false,
+    "contact_sheet": "assets/06-shots/reviews/shot-12-overtake-coastal-minimax-startframe-v01/contact-sheet.jpg",
+    "technical_inspection": "assets/06-shots/reviews/shot-12-overtake-coastal-minimax-startframe-v01/inspection.json",
+    "native_audio": "assets/06-shots/reviews/shot-12-overtake-coastal-minimax-startframe-v01/native-audio.wav",
+    "native_audio_levels": "assets/06-shots/reviews/shot-12-overtake-coastal-minimax-startframe-v01/native-audio-levels.txt"
+  },
+  "review_file": "assets/06-shots/reviews/shot-12-overtake-coastal-minimax-startframe-v01/review.json",
+  "technical_review": {
+    "inspection_file": "assets/06-shots/reviews/shot-12-overtake-coastal-minimax-startframe-v01/inspection.json",
+    "video_samples": 124,
+    "fps": 24,
+    "dimensions": [
+      832,
+      480
+    ],
+    "video_duration_seconds": 5.167,
+    "near_black_frames": 0,
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 5.184,
+        "sample_rate": 32000
+      }
+    ],
+    "audio_listened": false
+  }
+}

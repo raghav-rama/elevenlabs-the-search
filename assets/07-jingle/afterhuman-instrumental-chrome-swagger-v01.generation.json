@@ -1,0 +1,208 @@
+{
+  "status": "approved_selected_locked",
+  "asset_id": "afterhuman-instrumental-chrome-swagger-v01",
+  "title": "Chrome Swagger",
+  "selected": true,
+  "user_approved": true,
+  "authorization": {
+    "quote": "Can you create three more 'surprise me' versions of it please?",
+    "scope": "One take per concept, three original instrumental takes total and separate local David previews."
+  },
+  "flow_id": "1Wm2iEn6GL4TBWH62VVi",
+  "flow_url": "https://elevenlabs.io/app/flows/1Wm2iEn6GL4TBWH62VVi",
+  "node_id": "3flOx8OEYk0pZWRLO0Jb",
+  "model_id": "eleven_music_v2",
+  "model_parameters": {
+    "duration_seconds": 18,
+    "instrumental": true,
+    "lyrics_type": "instrumental",
+    "lyrics": ""
+  },
+  "prompt": "An original 18-second instrumental futuristic spy-funk advertising cue at 148 BPM, fast, cheeky and stylish, with punchy electronic drums, elastic electric bass, clipped wah-guitar, twangy surf-guitar answers and sharp brass stabs in glossy modern production. Open with a bold brass-and-bass hit, pass a memorable short motif between guitar and brass with changing answers and drum fills every two bars, briefly drop to bass and rim clicks around 7 seconds, then rebuild; keep the lead phrases sparse for a low spoken announcer through 12.5 seconds, followed by an exuberant final hook and a crisp two-hit brass/bass signature ending at 18 seconds. Fully instrumental, newly composed with no sampled recordings, singing, speech, chants, choir or vocal sounds, no long introduction or fade-out.",
+  "prompt_file": "prompts/afterhuman-instrumental-chrome-swagger-v01.txt",
+  "generations_count": 1,
+  "seed": null,
+  "seed_note": "No seed requested; preserve any seed returned.",
+  "batch_estimate": {
+    "credits": 1636.363636363636,
+    "price_cents": 2376,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 71
+  },
+  "schema": {
+    "model_id": "eleven_music_v2",
+    "model_name": "ElevenLabs Music v2",
+    "node_type": "music",
+    "parameters": [
+      {
+        "name": "duration_seconds",
+        "type": "number",
+        "required": false,
+        "min_value": 3,
+        "max_value": 600,
+        "number_type": "float"
+      },
+      {
+        "name": "lyrics_type",
+        "type": "select",
+        "required": false,
+        "default": "auto",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "custom",
+            "value": "custom"
+          },
+          {
+            "label": "instrumental",
+            "value": "instrumental"
+          }
+        ],
+        "description": "How lyrics are handled: auto-generated, custom-provided, or instrumental only."
+      },
+      {
+        "name": "instrumental",
+        "type": "boolean",
+        "required": false,
+        "default": false,
+        "description": "Generate instrumental music without vocals."
+      },
+      {
+        "name": "lyrics",
+        "type": "text",
+        "required": false,
+        "description": "Custom lyrics text or a reference to a text node's output. Ignored when lyrics_type is 'instrumental'."
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "lyrics",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "audio",
+        "modality": "audio",
+        "required": false
+      }
+    ]
+  },
+  "creative_direction": {
+    "description": "Playful futuristic spy-funk with brass, guitar and punchy electronic drums",
+    "user_feedback_addressed": "Earlier jingle sounds repetitive during narration; request evolving drums, call-and-response and a brief break rather than one unchanged loop.",
+    "requested_seconds": 18,
+    "reference_usage": "Text description only, no reference song uploaded or sampled."
+  },
+  "voiceover_reference": {
+    "path": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3",
+    "sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376",
+    "status": "approved_selected_locked",
+    "music_entry_seconds_relative_to_voiceover": 4.36
+  },
+  "comparison_reference": {
+    "music_path": "assets/07-jingle/afterhuman-instrumental-metal-v01.mp3",
+    "music_sha256": "b712635357e2d36fd99f973fb0572b2eeb0af557c0fa28f578350b38740a8676",
+    "preview_path": "assets/07-jingle/reviews/afterhuman-instrumental-metal-v01-with-david.wav",
+    "preview_sha256": "c8538fb15f30155e677fee92fff2233b1d2240823b68ca6406fa3c5afcccf0b4",
+    "music_reference_rms_dbfs": -15.177778078062008
+  },
+  "run": {
+    "session_ids": [
+      "X3Leh0uET4j6i31ulmyT"
+    ],
+    "results": [
+      {
+        "success": true,
+        "node_id": "3flOx8OEYk0pZWRLO0Jb",
+        "session_id": "X3Leh0uET4j6i31ulmyT",
+        "credit_costs": {
+          "El2epp7p4WzyqA0GLEW2": 269.99999999999994
+        }
+      }
+    ],
+    "summary": {
+      "nodes_run": 3,
+      "generations_started": 3,
+      "failed": 0,
+      "generations_by_node": {
+        "ke0GtRulCKgIYxHmIdyd": 1,
+        "3flOx8OEYk0pZWRLO0Jb": 1,
+        "OanWtsjlGquROCfKZIGP": 1
+      }
+    }
+  },
+  "generation_id": "El2epp7p4WzyqA0GLEW2",
+  "session_id": "X3Leh0uET4j6i31ulmyT",
+  "actual_price": {
+    "credits": 269.99999999999994,
+    "price_cents": 392.03999999999996,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793442051200,
+  "provider_duration_seconds": 18,
+  "completed_checked_at": "2026-10-31T15:53:47+05:30",
+  "output": {
+    "file": "afterhuman-instrumental-chrome-swagger-v01.mp3",
+    "bytes": 450322,
+    "sha256": "600ee8ec8049fb8196d5fb62365b26afab3ed7db33d634ec2b9f99ad45da7d6b",
+    "provider_duration_seconds": 18,
+    "container_duration_seconds": 18.024,
+    "valid_audio_frames": 864000,
+    "format": "MP3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "bitrate": 192000
+  },
+  "review": {
+    "status": "user_selected_music_final_mix_pending",
+    "preview": "reviews/afterhuman-instrumental-chrome-swagger-v01-with-david.wav",
+    "preview_record": "reviews/afterhuman-instrumental-chrome-swagger-v01-with-david.mix.json",
+    "preview_config": "reviews/afterhuman-instrumental-chrome-swagger-v01-preview-config.json",
+    "native_inspection": "reviews/afterhuman-instrumental-chrome-swagger-v01.afinfo.txt",
+    "checks": "MP3 format verified and decoded successfully; preview source/output hashes verified, narration prefix byte-identical to liked metal preview; same source voice gain and fixed master; zero full-scale PCM samples.",
+    "validation": {
+      "duration_seconds": 22.36,
+      "music_start_seconds": 4.36,
+      "music_rms_match_gain_db": 1.8955790998465005,
+      "music_only_peak_adjustment_db": -2.4,
+      "sample_peak_dbfs": -0.5025236682008994,
+      "full_scale_pcm_samples": 0,
+      "preview_sha256": "53927b918a824913338b23bebca0361c846e85fc00ce81488c2b3fcb2f238fa7"
+    },
+    "listening_limitations": "Genre, tempo, arrangement development, catchiness and absence of vocal artifacts are requested qualities, not independent assistant listening findings. Approximate source RMS matching is not perceptual LUFS matching or final picture alignment.",
+    "source_preservation": "Locked David, prior music and prior previews remain byte-identical.",
+    "publication": "No final public music share link or contest submission.",
+    "local_peak_guard": {
+      "reason": "Initial local render failed fixed-master sample-peak guard before writing audio; lower music only and retain narration level.",
+      "exact_bound_db": -2.3771624420185757,
+      "applied_db": -2.4,
+      "pre_adjustment_gains_db": {
+        "music_initial_hit_db": -8.5,
+        "music_under_voice_db": -15.5,
+        "music_after_voice_db": -5.5
+      },
+      "pre_adjustment_sample_peak_dbfs": -0.24840908598877348
+    }
+  },
+  "selection_record": {
+    "at": "2026-10-31T15:59:50+05:30",
+    "selected_asset_id": "afterhuman-instrumental-chrome-swagger-v01",
+    "outcome": "selected_locked"
+  },
+  "user_approval": {
+    "at": "2026-10-31T15:59:50+05:30",
+    "source": "explicit_user_message",
+    "quote": "Ok lock in chrome swagger",
+    "scope": "Lock this exact existing Chrome Swagger music take for the ad; retain the existing David preview as the listening reference. Final picture placement and master mix remain pending."
+  },
+  "user_liked": true
+}

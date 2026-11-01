@@ -1,0 +1,86 @@
+{
+  "status": "approved_selected_locked",
+  "selected": true,
+  "user_approved": true,
+  "flow_id": "0DSYP67LuQmAF93hhGaq",
+  "flow_url": "https://elevenlabs.io/app/flows/0DSYP67LuQmAF93hhGaq",
+  "node_id": "qkuedmdGsorW0Gh9bUWL",
+  "session_id": "TdZl6LHv768lOAuI9xWn",
+  "generation_id": "keqFQHx3Hu4Dr0dM0gGr",
+  "voice_id": "laTmoAT4stwoPzthxjZT",
+  "voice_name": "David - The Movie Trailer",
+  "model_id": "eleven_v4",
+  "model_parameters": {
+    "voice": "laTmoAT4stwoPzthxjZT",
+    "voice_id": "laTmoAT4stwoPzthxjZT",
+    "output_format": "mp3_44100_128",
+    "pronunciation_dictionary_locators": []
+  },
+  "seed": null,
+  "seed_note": "No seed requested or returned.",
+  "prompt": "[playful] Missed your train? Still running on flesh and blood?\n[matter of fact] So upgrade.\n[confident] Suddenly, everything clicks.\n[playful] The world moves in slow motion.\n[amused] Heavy lifting? Adorable.\n[excited] And that train you missed?\n[smug] It\u2019s trying to catch you now.\n[confident] AFTERHUMAN. A step ahead.",
+  "prompt_file": "afterhuman-vo-announcer-full-v01.txt",
+  "estimate": {
+    "credits": 320,
+    "price_cents": 464.64,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 5
+  },
+  "actual_price": {
+    "credits": 320,
+    "price_cents": 464.64,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793294243476,
+  "output": {
+    "file": "afterhuman-vo-david-full-v01.mp3",
+    "bytes": 288424,
+    "sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376",
+    "provider_duration_secs": 16.88,
+    "format": "MP3",
+    "sample_rate": 44100,
+    "channels": 1,
+    "bitrate": 128000
+  },
+  "review": {
+    "automated_metadata": "Decoded container metadata checked with afinfo; original downloaded MP3 remains unchanged.",
+    "perceived_emphasis_review": "User approved this exact take as rendered; no independent assistant listening claim.",
+    "word_timing_source": "provider TTS-linked transcription/alignment; includes nonspoken delivery tags",
+    "so": {
+      "text": "So",
+      "type": "word",
+      "start": 3.44,
+      "end": 3.6
+    },
+    "upgrade": {
+      "text": "upgrade.",
+      "type": "word",
+      "start": 3.68,
+      "end": 4.36
+    },
+    "so_to_upgrade_gap_seconds": 0.08,
+    "note": "No long pause indicated by provider alignment. Alignment alone cannot establish naturalness or word emphasis.",
+    "transcript_file": "afterhuman-vo-david-full-v01.timing.json",
+    "decoded_audio_checks_file": "audio-checks.json",
+    "decoded_audio_checks": {
+      "file": "afterhuman-vo-david-full-v01.mp3",
+      "sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376",
+      "bytes": 288424,
+      "decoded_channels": 1,
+      "decoded_sample_rate": 44100,
+      "decoded_frames": 746496,
+      "decoded_duration_seconds": 16.92734693877551,
+      "decoded_sample_peak_dbfs": -0.7059841937287497,
+      "decoded_rms_dbfs": -18.684506488807592,
+      "full_scale_pcm_samples": 0
+    },
+    "edit_integration": "pending; selected for next edit, no Final Cut or assembled-video replacement performed"
+  },
+  "approval": {
+    "approved_at": "2026-10-29T23:01:30+05:30",
+    "source": "explicit_user_message",
+    "quote": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3 is good. Lock it in",
+    "scope": "This exact full David take, as rendered; announcer option A including opening and continuous So upgrade."
+  }
+}

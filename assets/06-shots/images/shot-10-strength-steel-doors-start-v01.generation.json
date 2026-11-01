@@ -1,0 +1,113 @@
+{
+  "asset_id": "shot-10-strength-steel-doors-start-v01",
+  "title": "10 \u2014 Strength / first-person steel doors",
+  "location": "Industrial service corridor",
+  "status": "generated_visual_review_pending_user",
+  "selected": false,
+  "user_approved": false,
+  "concept_approved": true,
+  "concept_approval": "User: Sounds good, accepting the proposed eye-level POV jammed-steel-door action.",
+  "provider": "ElevenLabs",
+  "model_id": "gpt-image-2",
+  "model_parameters": {
+    "images": [
+      {
+        "template_node_id": "oTttRPQOPwXT3RV1m5p5"
+      }
+    ],
+    "quality": "low",
+    "aspect_ratio": "16:9",
+    "resolution": "1K"
+  },
+  "flow_id": "rZN7nVDHnd64A9UCsrwK",
+  "flow_url": "https://elevenlabs.io/app/flows/rZN7nVDHnd64A9UCsrwK",
+  "node_id": "M3Dot12J6esMovWbxgvL",
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "oTttRPQOPwXT3RV1m5p5",
+          "label": "APPROVED \u2014 Riley gold wardrobe and skin/chrome inlays"
+        }
+      ]
+    }
+  ],
+  "prompt_file": "assets/06-shots/prompts/shot-10-strength-steel-doors-start-v01.txt",
+  "output_file": "assets/06-shots/images/shot-10-strength-steel-doors-start-v01.png",
+  "references": [
+    {
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6",
+      "generation_id": "WboGh1QOlITNwOVIn0Gj",
+      "node_id": "oTttRPQOPwXT3RV1m5p5",
+      "order": 1,
+      "role": "approved skin tone and narrow chrome/cyan inlays only; no full-body composition"
+    }
+  ],
+  "replaces_rejected_concept": [
+    "shot-10-strength-boulder-start-v01",
+    "shot-10-strength-boulder-start-v02"
+  ],
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "estimate": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "scope": "One beginning still before the door-opening action. No motion or sound generation.",
+  "sound_plan": "Later edit: deep metal strain, sharp release, small cheerful access chime against Heavy lifting? Adorable.",
+  "prepared_at": "2026-10-31T22:12:24+05:30",
+  "concept_approved_at": "2026-10-31T22:12:24+05:30",
+  "prompt_sha256": "2af9fdb4316a37442f5182eb84c0902b958cb45ca3ab05a33709e4abd03091cc",
+  "generation_id": "CEqrHsUPs8vEan7F2i6E",
+  "session_id": "TORCilhLtjbitDw3Pilh",
+  "reported_run_credits": 252.11783783783784,
+  "run_summary": {
+    "nodes_run": 1,
+    "generations_started": 1,
+    "failed": 0,
+    "generations_by_node": {
+      "M3Dot12J6esMovWbxgvL": 1
+    }
+  },
+  "provider_reported_price": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793464944868,
+  "width": 1280,
+  "height": 720,
+  "completed_at": "2026-10-31T22:14:13+05:30",
+  "bytes": 1466831,
+  "sha256": "c3613b82a7b3fbbbf8bf0b7012ac143fcd91b88415941adfd29decbf63b4edd8",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-10-31T22:14:13+05:30",
+    "method": "Native-resolution visual inspection of starting still.",
+    "observations": [
+      "Two naturally proportioned hands grip opposing metal door edges directly ahead; no external view of Riley or extra person.",
+      "Natural skin, slim chrome/cyan inlays, paired perspective and continuous wrists replace the isolated stretched boulder-arm arrangement.",
+      "Heavy dark steel door leaves remain nearly closed around a narrow central gap, with warm light behind and cyan side lights/red status indicator.",
+      "Beginning grip is established before substantial metal deformation or corridor reveal."
+    ],
+    "limitations": [
+      "More forearm is visible than the requested 8\u201312 cm; the image does not establish metric anatomy. User judgement of POV/proportions remains pending.",
+      "Buckling steel, effortless force, hand-contact continuity and the full reveal must be tested in motion.",
+      "No sound design generated or independently verified."
+    ],
+    "user_selection_pending": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "audio_tracks" : [
+    {
+      "channels" : 2,
+      "codec_fourcc" : "aac ",
+      "duration_seconds" : 10.144,
+      "sample_rate" : 32000
+    }
+  ],
+  "duration_seconds" : 10.125,
+  "extracted_frame_seconds" : 10.083333333333334,
+  "frame_height" : 480,
+  "frame_width" : 832,
+  "last_frame_file" : "assets\/06-shots\/reviews\/shot-09-reflexes-coffee-fpp-tpp-minimax-v01\/last-frame.png",
+  "last_frame_sha256" : "1b6d3f8a8a53effd90178b9c7f3ab3951144f8ea8c5c1d571948576189871f3e",
+  "last_picture_frame_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/shot-09-reflexes-coffee-fpp-tpp-minimax-v01\/last-picture-frame.png",
+  "last_picture_frame_seconds" : 10.083333333333334,
+  "last_picture_frame_sha256" : "1b6d3f8a8a53effd90178b9c7f3ab3951144f8ea8c5c1d571948576189871f3e",
+  "last_video_sample_seconds" : 10.083333333333334,
+  "near_black_detection" : "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+  "near_black_frame_times_seconds" : [
+
+  ],
+  "nominal_fps" : 24,
+  "review_limits" : "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+  "script" : "scripts\/inspect-review-video.swift",
+  "source_file" : "assets\/06-shots\/videos\/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+  "source_modified" : false,
+  "source_sha256" : "00caba5dfc91d5a09537f9b6eb75dd9355070c8d26884da341b6737705863bb0",
+  "video_codec_fourcc" : "avc1",
+  "video_duration_seconds" : 10.125,
+  "video_samples" : 243
+}

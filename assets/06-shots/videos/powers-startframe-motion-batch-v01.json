@@ -1,0 +1,165 @@
+{
+  "status": "generated_reviewed_pending_user",
+  "flow_id": "Po3Ew9qZ7xR4mOVZYC1Q",
+  "flow_url": "https://elevenlabs.io/app/flows/Po3Ew9qZ7xR4mOVZYC1Q",
+  "model_id": "minimax-h3-max",
+  "requested_generations": 5,
+  "generations_per_shot": 1,
+  "requested_settings": {
+    "resolution": "480p",
+    "duration_secs": 5,
+    "aspect_ratio": "inherited from 16:9 start frame"
+  },
+  "estimate": {
+    "credits": 7575,
+    "price_cents": 10998.900000000001,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "shots": [
+    {
+      "asset_id": "shot-08-intelligence-rooftop-minimax-startframe-v01",
+      "node_id": "jbOXTDrjmt0AJDMoCC5i",
+      "prompt_file": "assets/06-shots/video-prompts/shot-08-intelligence-rooftop-minimax-startframe-v01.txt",
+      "output_file": "assets/06-shots/videos/shot-08-intelligence-rooftop-minimax-startframe-v01.mp4",
+      "record_file": "assets/06-shots/videos/shot-08-intelligence-rooftop-minimax-startframe-v01.generation.json",
+      "source_file": "assets/06-shots/images/shot-08-intelligence-rooftop-start-v01.png",
+      "status": "generated_reviewed_pending_user",
+      "session_id": "tNMu86PgR5gmOcRtfAtt",
+      "generation_id": "yxsr0kEMJlyXfUsg7McL",
+      "reported_run_credits": 1515,
+      "sha256": "49a71e37672d02c8b02702c3d6e32bdf1ad081ead5e00dbf7d70e088d17e5418",
+      "price": {
+        "credits": 1515,
+        "price_cents": 2199.78,
+        "cost_fiat_currency": "inr"
+      },
+      "review_file": "assets/06-shots/reviews/shot-08-intelligence-rooftop-minimax-startframe-v01/review.json",
+      "assistant_verdict": "promising_hud_motion_prototype"
+    },
+    {
+      "asset_id": "shot-09-reflexes-cafe-minimax-startframe-v01",
+      "node_id": "k4VYtaXaB5hFdAatOOwM",
+      "prompt_file": "assets/06-shots/video-prompts/shot-09-reflexes-cafe-minimax-startframe-v01.txt",
+      "output_file": "assets/06-shots/videos/shot-09-reflexes-cafe-minimax-startframe-v01.mp4",
+      "record_file": "assets/06-shots/videos/shot-09-reflexes-cafe-minimax-startframe-v01.generation.json",
+      "source_file": "assets/06-shots/images/shot-09-reflexes-cafe-start-v01.png",
+      "status": "generated_reviewed_pending_user",
+      "session_id": "21dZvoGHPrby05F7WynE",
+      "generation_id": "XQsbPIGklybYk2hcWfna",
+      "reported_run_credits": 1515,
+      "sha256": "66f21b553ea67338d1d888a3897fbf64796ae56392bfee6ee7c817d686e4bbeb",
+      "price": {
+        "credits": 1515,
+        "price_cents": 2199.78,
+        "cost_fiat_currency": "inr"
+      },
+      "review_file": "assets/06-shots/reviews/shot-09-reflexes-cafe-minimax-startframe-v01/review.json",
+      "assistant_verdict": "needs_drop_trajectory_and_reflex_timing_revision"
+    },
+    {
+      "asset_id": "shot-10-strength-steel-doors-minimax-startframe-v01",
+      "node_id": "99NeKcHZwZ8LoJXstGrE",
+      "prompt_file": "assets/06-shots/video-prompts/shot-10-strength-steel-doors-minimax-startframe-v01.txt",
+      "output_file": "assets/06-shots/videos/shot-10-strength-steel-doors-minimax-startframe-v01.mp4",
+      "record_file": "assets/06-shots/videos/shot-10-strength-steel-doors-minimax-startframe-v01.generation.json",
+      "source_file": "assets/06-shots/images/shot-10-strength-steel-doors-start-v01.png",
+      "status": "generated_reviewed_pending_user",
+      "session_id": "hCWdNgpLSpabKJNIJJqn",
+      "generation_id": "xBody7mx7hXbFNm83Zuh",
+      "reported_run_credits": 1515,
+      "sha256": "e321abb59de0bbd06e42b3310e8dae21d3e607ef3270099bdf737a78df64b7ef",
+      "price": {
+        "credits": 1515,
+        "price_cents": 2199.78,
+        "cost_fiat_currency": "inr"
+      },
+      "review_file": "assets/06-shots/reviews/shot-10-strength-steel-doors-minimax-startframe-v01/review.json",
+      "assistant_verdict": "promising_strength_deformation_prototype"
+    },
+    {
+      "asset_id": "shot-11-speed-boulevard-minimax-startframe-v01",
+      "node_id": "XIEyBzeoMsX5JMT7BmkW",
+      "prompt_file": "assets/06-shots/video-prompts/shot-11-speed-boulevard-minimax-startframe-v01.txt",
+      "output_file": "assets/06-shots/videos/shot-11-speed-boulevard-minimax-startframe-v01.mp4",
+      "record_file": "assets/06-shots/videos/shot-11-speed-boulevard-minimax-startframe-v01.generation.json",
+      "source_file": "assets/06-shots/images/shot-11-speed-boulevard-start-v01.png",
+      "status": "generated_reviewed_pending_user",
+      "session_id": "jxBtZJd1tO2eL0zIyyvM",
+      "generation_id": "M2dGmgNPELqYRp47Rhoe",
+      "reported_run_credits": 1515,
+      "sha256": "cdc8c84c4b5a9ae4eb5c304657cdd813b8d6b72bfd5fdb72a4c15980b6793912",
+      "price": {
+        "credits": 1515,
+        "price_cents": 2199.78,
+        "cost_fiat_currency": "inr"
+      },
+      "review_file": "assets/06-shots/reviews/shot-11-speed-boulevard-minimax-startframe-v01/review.json",
+      "assistant_verdict": "promising_forward_motion_prototype"
+    },
+    {
+      "asset_id": "shot-12-overtake-coastal-minimax-startframe-v01",
+      "node_id": "aEJYygAPejtfv5m9SW4Q",
+      "prompt_file": "assets/06-shots/video-prompts/shot-12-overtake-coastal-minimax-startframe-v01.txt",
+      "output_file": "assets/06-shots/videos/shot-12-overtake-coastal-minimax-startframe-v01.mp4",
+      "record_file": "assets/06-shots/videos/shot-12-overtake-coastal-minimax-startframe-v01.generation.json",
+      "source_file": "assets/06-shots/images/shot-12-overtake-coastal-start-v01.png",
+      "status": "generated_reviewed_pending_user",
+      "session_id": "KekY0d1zYuMBC0KUL6Tr",
+      "generation_id": "ALkhjRBvazxcNcJgwvdc",
+      "reported_run_credits": 1515,
+      "sha256": "55fb3ac74dd46fc808139d8d609f75989dc57dc38a3a6cc212d39d434dcd4355",
+      "price": {
+        "credits": 1515,
+        "price_cents": 2199.78,
+        "cost_fiat_currency": "inr"
+      },
+      "review_file": "assets/06-shots/reviews/shot-12-overtake-coastal-minimax-startframe-v01/review.json",
+      "assistant_verdict": "needs_clearer_overtake_and_lane_separation"
+    }
+  ],
+  "retries": 0,
+  "selected": false,
+  "user_approved": false,
+  "source_still_batch": "assets/06-shots/images/powers-startframes-batch-v01.json",
+  "rejected_prior_video_batch": "assets/06-shots/videos/pov-chase-minimax-batch-v01.json",
+  "scope": "Five individually reviewable prototype videos with directed native sound; no final edit, paid audio regeneration or production upscale.",
+  "prepared_at": "2026-10-31T22:24:30+05:30",
+  "run_summary": {
+    "nodes_run": 5,
+    "generations_started": 5,
+    "failed": 0,
+    "generations_by_node": {
+      "jbOXTDrjmt0AJDMoCC5i": 1,
+      "k4VYtaXaB5hFdAatOOwM": 1,
+      "99NeKcHZwZ8LoJXstGrE": 1,
+      "XIEyBzeoMsX5JMT7BmkW": 1,
+      "aEJYygAPejtfv5m9SW4Q": 1
+    }
+  },
+  "session_ids": [
+    "tNMu86PgR5gmOcRtfAtt",
+    "21dZvoGHPrby05F7WynE",
+    "hCWdNgpLSpabKJNIJJqn",
+    "jxBtZJd1tO2eL0zIyyvM",
+    "KekY0d1zYuMBC0KUL6Tr"
+  ],
+  "completed_generations": 5,
+  "completed_at": "2026-10-31T22:25:37+05:30",
+  "total_reported_price": {
+    "credits": 7575,
+    "price_cents": 10998.900000000001,
+    "currency": "inr"
+  },
+  "reviewed_at": "2026-10-31T22:31:22+05:30",
+  "review_index": "assets/06-shots/reviews/powers-startframe-motion-v01/README.md",
+  "gallery": "assets/06-shots/reviews/powers-startframe-motion-v01/index.html",
+  "gallery_title": "AFTERHUMAN \u00b7 Five individual motion tests",
+  "gallery_description": "Play each shot below with its native audio. Four first-person powers and one overhead race, each in a different location.",
+  "gallery_status": "Prototypes awaiting your review. The HUD, door deformation and forward sprint are promising; the phone catch and train pass need work.",
+  "gallery_footer": "MiniMax H3 Max via ElevenLabs \u00b7 480p \u00b7 Five-second requests \u00b7 One take per scene \u00b7 7,575 credits total (about \u20b9110) \u00b7 Native sound, no final mix",
+  "review_summary": "HUD route lock, permanently buckled steel and actual forward sprint visible. Phone initially rises and catch is too slow. Train geometry/direction fixed, but runner drifts inward and lacks a clear winning lead.",
+  "audio_review_status": "Native stereo audio decoded and level-checked only; not independently listened to. No sound-design or speech-free approval.",
+  "no_paid_retries": true
+}
