@@ -2115,3 +2115,9 @@ as present or silently substitute another source.
 
 - Created signed commit99ff957 with1191 changed files, preserving production iterations, selected v07 and the official-watermarked derivative. Required Codex coauthor included. Push pending.
 - Final precommit parsing/hash/secret/file-size checks passed. The aggregate whitespace assertion additionally found trailing spaces in one FFmpeg progress-log line; commit had already executed before that result was inspected. Trimmed only log-line trailing whitespace now; no rendered media or prompt changed. The prior submitted prompt intentionally retains its exact trailing blank line.
+
+## 2026-11-02T03:32:19+05:30 — All production work and submission export pushed to GitHub
+
+- Pushed99ff957e289dd1eff184357edb932863338426bf (all1191 production/export files) and b21de1c309df82fa3d418435f6e659564d89fb29 (verification receipt/log whitespace) to origin/main. git ls-remote matched b21de1c; GitHub API verified both SSH signatures with verified=true/reason=valid. Root checkout clean after push.
+- GitHub accepted all files and issued advisory50MiB size warnings for four historical review MP4s, including original v07; no file exceeded100MiB and no LFS migration was performed. Watermarked submission is40,646,545bytes, unchanged SHA04f71be660d98ec95bbbd2aac8ff022cfa713f1a54ccdb7cfa4c7274643352a7.
+- Deliver watermarked submission copy plus verified public Chrome Swagger workspace URL. User handles Drive/Frame.io upload, required social posts and final form. No assistant publication or form submission. This ledger receipt is included in a final signed documentation commit/push.
