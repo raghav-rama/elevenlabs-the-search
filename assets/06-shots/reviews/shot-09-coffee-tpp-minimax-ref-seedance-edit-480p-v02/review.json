@@ -1,0 +1,48 @@
+{
+  "asset_id": "shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02",
+  "title": "Seedance Video Edit — MiniMax performance with approved Riley references",
+  "location": "Same cyberpunk cafe orbit/catch",
+  "status": "completed_comparison_candidate_pending_user_review",
+  "output_file": "assets/06-shots/videos/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02.mp4",
+  "sha256": "870c592c1db53f93e9a32288af2453f3fd8ef741a642bda95f97f3221b208a5f",
+  "model_id": "bytedance-seedance-v2.5-edit",
+  "generation_id": "rRtNqFee9BOE2Gxzcltu",
+  "session_id": "xvOhIpV2ffsgD4cY9lsW",
+  "selected": false,
+  "user_approved": false,
+  "assistant_visual_review": {
+    "reviewed_at": "2026-11-02T00:02:52+05:30",
+    "method": "Sampled native video via 24-frame overview and nine-frame 0.125-second catch detail, compared with original full contact sheet and approved face/wardrobe stills; full-frame decode and numeric audio analysis. No real-time playback or independent listening claim.",
+    "observations": [
+      "The actual-video edit follows the preferred MiniMax performance closely in sampled frames: already-airborne mug, frontal-to-side-to-rear camera arc, catch, handback and cyan-wake departure.",
+      "Hand and mug make contact around1.75–2.0 seconds in the focused samples; no visible deliberate drop or toss.",
+      "Handback spans approximately5.1–6.1 seconds, followed by a cyan-wake exit from about6.4 seconds.",
+      "Short brown bob, gold sleeveless mini-dress, black/gold tall boots and mostly human skin with narrow cyan/chrome accents remain recognizable.",
+      "Cyan implanted eye and cheek treatment are more conspicuous than in the original source; the picture remains close to the original action and environment."
+    ],
+    "limitations": [
+      "Returned185 picture frames at24fps (7.709s), versus192 frames/eight seconds in the source: seven fewer frames, approximately0.292s shorter. Exact source timing was not preserved; the reason for this provider change is unverified. No local retiming applied.",
+      "Exact portrait likeness is not established. Face remains narrow/stylized and the detailed asymmetric silver/magenta facial and neck design is simplified; stronger cyan treatment alone is not proof of better identity consistency.",
+      "Source slow reach, near-suspended cup and weak sharp lateral eye flick remain. This edit tests appearance refinement, not a new action performance.",
+      "Camera is a broad arc, not a verified360-degree circle. Patron geography and frame-to-frame finger contact still need playback review.",
+      "Native stereo audio has been decoded and measured only; speech/music absence, event synchronization and subjective continuity have not been independently heard."
+    ]
+  },
+  "native_audio_analysis": {
+    "file": "assets/06-shots/reviews/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02/native-audio.wav",
+    "levels_file": "assets/06-shots/reviews/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02/native-audio-levels.txt",
+    "rms_dbfs": -33.35577727648407,
+    "peak_dbfs": -11.443480094835907,
+    "decoded_duration_seconds": 7.7115,
+    "listening_review": false
+  },
+  "duration_difference": {
+    "source_frames": 192,
+    "output_frames": 185,
+    "difference_frames": -7,
+    "difference_seconds": -0.2916666666666667,
+    "local_retiming": false,
+    "cause": "not established"
+  },
+  "comparison_player": "assets/06-shots/reviews/coffee-minimax-ref-seedance-edit-v02/index.html"
+}

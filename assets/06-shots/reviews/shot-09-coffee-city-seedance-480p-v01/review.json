@@ -1,0 +1,88 @@
+{
+  "asset_id": "shot-09-coffee-city-seedance-480p-v01",
+  "status": "opening_revision_requested_rest_liked",
+  "native_inspection": {
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 11.072,
+        "sample_rate": 32000
+      }
+    ],
+    "duration_seconds": 11.042,
+    "extracted_frame_seconds": 11,
+    "frame_height": 480,
+    "frame_width": 854,
+    "last_frame_file": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/last-frame.png",
+    "last_frame_sha256": "020041b2c6907dc9178399ca11044f940c0231ff43e0845c5738b564eb86f82f",
+    "last_picture_frame_file": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/last-picture-frame.png",
+    "last_picture_frame_seconds": 11,
+    "last_picture_frame_sha256": "020041b2c6907dc9178399ca11044f940c0231ff43e0845c5738b564eb86f82f",
+    "last_video_sample_seconds": 11,
+    "near_black_detection": "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+    "near_black_frame_times_seconds": [],
+    "nominal_fps": 24,
+    "review_limits": "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+    "script": "scripts/inspect-review-video.swift",
+    "source_file": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+    "source_modified": false,
+    "source_sha256": "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86",
+    "video_codec_fourcc": "avc1",
+    "video_duration_seconds": 11.042,
+    "video_samples": 265
+  },
+  "assistant_visual_review": {
+    "observations": [
+      "Opening closely follows the approved first-person cafe image and approaches the distinct male stranger with a single white mug.",
+      "The mug visibly tilts, separates from the man's hand and drops at approximately 1.25\u20131.5s, rather than being intentionally handed over.",
+      "By 2.25s Riley is revealed crouching with the caught mug; short brunette bob, asymmetric cyberware, gold dress, boots and mostly natural skin follow the approved references.",
+      "The same mug is returned around 5.5\u20137s; the man's hand closes on it before Riley withdraws.",
+      "Riley pivots around 8s and accelerates away with strong parallax and cyan motion streaks; city lighting and materials are broadly consistent."
+    ],
+    "limitations": [
+      "The generated FPP-to-TPP move inserts a tight face/eye shot around 1.6\u20132.1s. Exact hand-to-mug catch contact is hidden, so the intended uninterrupted visible rescue is not fully achieved.",
+      "Slow motion lingers on the already-caught mug/crouch for several seconds; performance and pacing still need user judgment.",
+      "Full-source cafe and rail sides reverse around 10.4s. The proposed first-10.125-second excerpt excludes this visible ending error.",
+      "Running anatomy, physical contact and exact facial likeness have only been inspected in sampled frames; this is not a user-approved replacement.",
+      "Native audio is decoded and level-checked only; no independent listening approval, speech-absence verification or final sound mix.",
+      "Existing locked MiniMax coffee and accepted ad remain unchanged; this new take and excerpt are review candidates."
+    ],
+    "reviewed_at": "2026-11-01T21:18:26+05:30",
+    "method": "23 source samples, 13 drop/catch samples, 7 exit samples, full decode and audio levels; not independent full playback/listening.",
+    "user_selection_pending": true
+  },
+  "candidate_edit": {
+    "status": "opening_revision_requested_rest_liked",
+    "source_in_frames": 0,
+    "source_out_frames_exclusive": 243,
+    "source_in_seconds": 0,
+    "source_out_seconds_exclusive": 10.125,
+    "duration_frames": 243,
+    "duration_seconds": 10.125,
+    "fps": 24,
+    "speed_multiplier": 1,
+    "output_file": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/edit-preview-v01/shot-09-coffee-edit-preview-v01.mp4",
+    "sha256": "976e51690a4dab81148cc8d126a3bf3cc311acf07c81dc878d94b9e5214c2b92",
+    "source_unchanged": true,
+    "ad_unchanged": true,
+    "local_reencode": true,
+    "audio_edge_fades_seconds": 0.008,
+    "new_credits": 0,
+    "purpose": "Exclude late cafe/rail side reversal; preserve all main story beats without retiming. Exact catch remains obscured by generated face insert."
+  },
+  "user_approved": false,
+  "user_feedback": {
+    "at": "2026-11-01T21:44:16+05:30",
+    "user_feedback": "Shot looks good, but she should run normally in FPP, look left to discover the cup already falling, then retain TPP catching it before ground impact.",
+    "scope": "Positive overall review; opening staging revision requested. Not final take lock.",
+    "cause": "v01 prompt said toward the man, directing her approach into him.",
+    "requested_opening": [
+      "Run forward parallel to storefront with man out of frame on left",
+      "Look left while continuing forward",
+      "Mug is already free-falling when first seen",
+      "TPP shows actual catch contact before impact"
+    ],
+    "preserve": "Existing Riley/city styling, third-person rescue direction, return and sprint."
+  }
+}

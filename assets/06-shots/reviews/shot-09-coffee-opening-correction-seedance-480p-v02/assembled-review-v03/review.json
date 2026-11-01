@@ -1,0 +1,105 @@
+{
+  "asset_id": "shot-09-coffee-revised-v03",
+  "title": "Coffee revision — forward run, brief edited glance, visible catch",
+  "location": "Approved cyberpunk cafe arcade",
+  "status": "user_rejected",
+  "created_at": "2026-11-01T22:03:23+05:30",
+  "selected": false,
+  "user_approved": false,
+  "output_file": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v03/shot-09-coffee-revised-v03.mp4",
+  "sha256": "4c8c0f20e887d0536c67ad623783be935637d42e6f5e3f0d33aad8929bf31366",
+  "native_dimensions": [
+    854,
+    480
+  ],
+  "fps": 24,
+  "duration_frames": 213,
+  "duration_seconds": 8.875,
+  "retimed": false,
+  "speed_multiplier": 1,
+  "timeline_file": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v03/timeline.json",
+  "cue_record": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v03/shot-09-coffee-revised-v03.cue.json",
+  "inspection_file": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v03/inspection.json",
+  "generation_record": "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.generation.json",
+  "source_ranges": [
+    {
+      "shot": "Forward FPP running",
+      "picture": "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 36,
+      "audio_gain_db": 0
+    },
+    {
+      "shot": "Leftward glimpse: mug already airborne",
+      "picture": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "source_in_frames": 32,
+      "duration_frames": 3,
+      "audio_gain_db": 0
+    },
+    {
+      "shot": "Visible third-person catch",
+      "picture": "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "source_in_frames": 69,
+      "duration_frames": 27,
+      "audio_gain_db": 0
+    },
+    {
+      "shot": "Retained original crouch, return and sprint",
+      "picture": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "source_in_frames": 96,
+      "duration_frames": 147,
+      "audio_gain_db": 0
+    }
+  ],
+  "source_hashes": [
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "sha256": "8139e8f150a87ec1d0488c0d09c3ecf266e2ee8ffcb9421e6c0c915a98093395"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "sha256": "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86"
+    }
+  ],
+  "requested_audio_gain_db": 0,
+  "audio_crossfade_half_seconds": 0.008,
+  "native_audio_final_mix_approved": false,
+  "source_modified": false,
+  "accepted_ad_modified": false,
+  "previous_slot_seconds": 10.125,
+  "shorter_by_seconds": 1.25,
+  "new_generation_credits": 5209.176,
+  "new_generation_inr": 75.63723552,
+  "local_edit_credits": 0,
+  "assistant_visual_review": {
+    "method": "Sampled opening at quarter-second intervals, native catch-detail inspection and full-frame decode count; pending user playback review.",
+    "observations": [
+      "0–1.5s: forward FPP running down the arcade; patron stays to the left of the path.",
+      "1.5–1.625s: three original FPP frames show the mug already separated from the hand.",
+      "1.625–2.75s: new TPP view shows the falling mug and actual catch before ground contact.",
+      "2.75–8.875s: original source 4.0–10.125s retains the crouch, handoff and sprint."
+    ],
+    "limitations": [
+      "The left glance is a four-frame editorial shift/blur cue, not a generated physical head turn. The patron is already visible during the forward run.",
+      "The FPP airborne glimpse is only three frames / 0.125s; its legibility and cup continuity through the cut need playback review.",
+      "The crouch join may show a small pose/cup-position change; this is a multishot edit, not one continuous generation.",
+      "8.875s is 1.25s shorter than the old coffee slot. The accepted ad has not been retimed or replaced.",
+      "Native sound is retained with short edge fades and level checks; independent listening, sound continuity and final mix remain open."
+    ]
+  },
+  "superseded_local_experiment": {
+    "directory": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v02",
+    "status": "unselected_base_edit_only",
+    "duration_seconds": 10.125,
+    "reason": "Longer forward run lingered near the patron; no whip-pan final was rendered for this experiment."
+  },
+  "user_feedback": {
+    "at": "2026-11-01T22:11:16+05:30",
+    "quote": "Nope, doesn't look great. I liked the minimax version of this shot you generated yesterday.",
+    "next_request": "Low-quality MiniMax orbit during slow-motion catch."
+  }
+}

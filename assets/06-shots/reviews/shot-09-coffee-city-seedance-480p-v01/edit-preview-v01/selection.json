@@ -1,0 +1,19 @@
+{
+  "status": "assistant_proposed_pending_user_review",
+  "source_in_frames": 0,
+  "source_out_frames_exclusive": 243,
+  "source_in_seconds": 0,
+  "source_out_seconds_exclusive": 10.125,
+  "duration_frames": 243,
+  "duration_seconds": 10.125,
+  "fps": 24,
+  "speed_multiplier": 1,
+  "output_file": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/edit-preview-v01/shot-09-coffee-edit-preview-v01.mp4",
+  "sha256": "976e51690a4dab81148cc8d126a3bf3cc311acf07c81dc878d94b9e5214c2b92",
+  "source_unchanged": true,
+  "ad_unchanged": true,
+  "local_reencode": true,
+  "audio_edge_fades_seconds": 0.008,
+  "new_credits": 0,
+  "purpose": "Exclude late cafe/rail side reversal; preserve all main story beats without retiming. Exact catch remains obscured by generated face insert."
+}

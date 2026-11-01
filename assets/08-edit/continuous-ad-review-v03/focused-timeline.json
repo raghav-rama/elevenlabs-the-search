@@ -1,0 +1,23 @@
+{
+  "title": "Floating upgrade \u2014 focused review",
+  "fps": 24,
+  "render_width": 1920,
+  "render_height": 1080,
+  "framing": "fill",
+  "audio_target_rms_dbfs": -28,
+  "audio_gain_limit_db": 12,
+  "crossfade_half_seconds": 0.04,
+  "clips": [
+    {
+      "shot": "So upgrade, floating diagnostic, return and takeoff",
+      "picture": "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+      "audio": "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+      "source_in_frames": 192,
+      "duration_frames": 273,
+      "audio_gain_db": 0
+    }
+  ],
+  "notes": [
+    "Focused preview of full-cut range 8.000 to 19.375 seconds. Source preserved."
+  ]
+}

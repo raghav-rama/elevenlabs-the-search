@@ -1,0 +1,37 @@
+{
+  "title": "AFTERHUMAN \u2014 Diagnostic return into Seedance launch, context review",
+  "fps": 24,
+  "render_width": 854,
+  "render_height": 480,
+  "framing": "fit",
+  "audio_target_rms_dbfs": -24,
+  "audio_gain_limit_db": 10,
+  "crossfade_half_seconds": 0.008,
+  "clips": [
+    {
+      "shot": "Final second of diagnostic return \u2014 silent picture context",
+      "picture": "assets/08-edit/upgrade-diagnostic-v01/upgrade-diagnostic-picture-v02.mp4",
+      "audio": "assets/08-edit/continuous-ad-review-v01/afterhuman-continuous-with-david-v01.mp4",
+      "source_in_frames": 103,
+      "duration_frames": 24,
+      "audio_gain_db": -120
+    },
+    {
+      "shot": "Full new native station launch",
+      "picture": "assets/06-shots/videos/shot-07-station-launch-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-07-station-launch-seedance-480p-v01.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 121,
+      "audio_gain_db": 0
+    }
+  ],
+  "audio_bridges": [],
+  "audio_ducks": [],
+  "editorial_notes": [
+    "Original speed and full new video; no final cut change.",
+    "Last24 diagnostic frames (103\u2013126) joined to new native121 frames.",
+    "First second is intentionally silent picture context; original ad audio is suppressed -120dB. Native launch audio unchanged apart from standard edge fades.",
+    "854\u00d7480 fit canvas; diagnostic1080p context downscaled for review.",
+    "No VO/jingle mastering, retiming or extra paid generation."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "asset_id": "shot-09-coffee-split-review-v04",
+  "title": "Combined ten-second coffee prototype",
+  "location": "Sunlit wet cyberpunk cafe walkway",
+  "output_file": "assets/06-shots/reviews/coffee-split-minimax-v04/shot-09-coffee-split-review-v04.mp4",
+  "status": "contains_user_preferred_tpp_final_edit_unlocked",
+  "selected": false,
+  "user_approved": false,
+  "reviewed_at": "2026-11-01T23:17:53+05:30",
+  "sha256": "3fb1e87b399697bef05ee5957b04ccf2615c5e4da54cd2cf705ffdcdf9838195",
+  "native_inspection": {
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 10,
+        "sample_rate": 48000
+      }
+    ],
+    "duration_seconds": 10,
+    "extracted_frame_seconds": 9.958333333333334,
+    "frame_height": 480,
+    "frame_width": 832,
+    "last_frame_file": "assets/06-shots/reviews/coffee-split-minimax-v04/last-frame.png",
+    "last_frame_sha256": "c4bb76604fa8097b758eafe540daa295ceec178767c0cc9baee6556dcc66be74",
+    "last_picture_frame_file": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/reviews/coffee-split-minimax-v04/last-picture-frame.png",
+    "last_picture_frame_seconds": 9.958333333333334,
+    "last_picture_frame_sha256": "c4bb76604fa8097b758eafe540daa295ceec178767c0cc9baee6556dcc66be74",
+    "last_video_sample_seconds": 9.958333333333334,
+    "near_black_detection": "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+    "near_black_frame_times_seconds": [],
+    "nominal_fps": 24,
+    "review_limits": "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+    "script": "scripts/inspect-review-video.swift",
+    "source_file": "assets/06-shots/reviews/coffee-split-minimax-v04/shot-09-coffee-split-review-v04.mp4",
+    "source_modified": false,
+    "source_sha256": "3fb1e87b399697bef05ee5957b04ccf2615c5e4da54cd2cf705ffdcdf9838195",
+    "video_codec_fourcc": "avc1",
+    "video_duration_seconds": 10,
+    "video_samples": 240
+  },
+  "edit_record": "assets/06-shots/reviews/coffee-split-minimax-v04/shot-09-coffee-split-review-v04.edit.json",
+  "timeline": "assets/06-shots/reviews/coffee-split-minimax-v04/timeline.json",
+  "assistant_visual_review": {
+    "observations": [
+      "Exactly ten seconds at 24 fps and native 832\u00d7480, joining two original-speed excerpts.",
+      "Hero cup first appears already airborne in the TPP shot; no held-then-released setup.",
+      "Continuous camera travel around the catch, handback and cyan-wake departure.",
+      "Native audio balanced with short cut fade; no new audio generation."
+    ],
+    "limitations": [
+      "Abrupt perspective cut remains: FPP look is gradual, without a sharp motivated head turn.",
+      "Catch reach is slower than the requested quick hand movement against the slowed world.",
+      "Lateral eye flick and reverse-angle geography are not fully resolved.",
+      "Source A invents small background table cups; hero mug remains absent until TPP.",
+      "Playback/listening approval pending. No replacement of the locked ad."
+    ]
+  },
+  "provider_costs": {
+    "images_credits": 940.9924324324325,
+    "videos_credits": 3939,
+    "total_credits": 4879.992432432433,
+    "total_inr": 70.85749011891892
+  },
+  "native_audio_peak_dbfs": -2.9499091744837482,
+  "new_provider_calls_for_edit": 0,
+  "user_feedback": {
+    "at": "2026-11-01T23:38:50+05:30",
+    "source": "explicit_user_message",
+    "quote": "Nope this looks better /Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+    "preferred_take": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+    "scope": "User prefers MiniMax v04 over the Seedance test for this TPP shot. Selection applies to this comparison, not a final ad lock, upscale or regeneration authorization."
+  },
+  "updated_at": "2026-11-01T23:38:50+05:30"
+}

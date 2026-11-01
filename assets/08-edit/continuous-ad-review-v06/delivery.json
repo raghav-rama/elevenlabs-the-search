@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-11-02T02:05:45+05:30",
+  "status": "assembled_pending_user_playback_and_listening",
+  "output_file": "assets/08-edit/continuous-ad-review-v06/afterhuman-merged-upgrade-v06.mp4",
+  "output_sha256": "149c72b1f2cdcf466cb5a4ce19a41147738cb8aa37bdfc021cdf4a1f832a6d0a",
+  "output_bytes": 51901053,
+  "duration_seconds": 44.875,
+  "frames": 1077,
+  "fps": 24,
+  "render_dimensions": [
+    1920,
+    1080
+  ],
+  "user_requested_maximum_seconds": 45,
+  "under_user_duration_limit": true,
+  "timeline": "assets/08-edit/continuous-ad-review-v06/timeline.json",
+  "soundtrack_config": "assets/08-edit/continuous-ad-review-v06/soundtrack-config.json",
+  "component_record": "assets/08-edit/floating-transformation-v02/floating-transformation-picture-v02.edit.json",
+  "transformation_and_float_simultaneous": true,
+  "natural_opaque_body": true,
+  "skeleton_rendered": false,
+  "typed_product_and_ability_text_retained": true,
+  "station_source_frames_inclusive": [
+    0,
+    288
+  ],
+  "floating_transformation_station_frames_inclusive": [
+    162,
+    288
+  ],
+  "launch_only_source_frames_inclusive": [
+    134,
+    169
+  ],
+  "source_retiming": false,
+  "new_provider_generations": 0,
+  "new_provider_credits": 0,
+  "final_cut_project_modified": false,
+  "selected": false,
+  "user_approved": false,
+  "preserved_files_record": "assets/08-edit/continuous-ad-review-v06/preserved-files.json",
+  "preserved_files_verified": 34,
+  "voice_phrases_source_ranges_unchanged": true,
+  "opening_sentence_placement_unchanged": true,
+  "no_break_added_after_so": true,
+  "voiceover_regenerated": false,
+  "jingle_regenerated": false,
+  "music_starts_seconds": 12.833333333333334,
+  "music_restart_seconds": 26.875,
+  "music_final_section_seconds": 18,
+  "audio": {
+    "channels": 2,
+    "sample_rate": 48000,
+    "codec": "AAC",
+    "decoded_sample_peak_dbfs": -1.4930221247694286,
+    "independent_listening": false
+  },
+  "verification": {
+    "inspection": "assets/08-edit/continuous-ad-review-v06/inspection.json",
+    "all_1077_frames_decoded": true,
+    "near_black_frames": 0,
+    "sampled_float_transformation_return_launch_reviewed": true,
+    "sampled_full_cut_reviewed": true,
+    "encoded_picture_and_audio_under_45_seconds": true
+  },
+  "script_hashes": {
+    "scripts/render-upgrade-diagnostic.swift": "071cbdce9373e26ca78abeef8b0028cd9d685e9944c476949c5ee93be6cc84a7",
+    "scripts/mix-ad-review.py": "956257964b4e791f73ad5fdb15b278999e56884737cbc4d8f797c8533c20f237",
+    "scripts/assemble-continuation.swift": "2e08996f1932a5033249fe9e69ad91e6c8c18a1bbe3cb5fc2c93e52e6f076b71",
+    "scripts/inspect-review-video.swift": "d68023078f745146e0e1fa99e0f50c15c21ef0ce69fe267b8e3f39810610cbd0"
+  },
+  "remaining_review": [
+    "User playback and listening review of revised full cut.",
+    "Fine matte edges and defocused station patch may need final cleanup.",
+    "Prior overhead remains temporary; matched-boulevard reference still awaits separate review.",
+    "Competition rules and final submission requirements have not been independently rechecked in this editing turn."
+  ]
+}

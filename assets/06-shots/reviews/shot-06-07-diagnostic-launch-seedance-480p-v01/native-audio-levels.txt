@@ -1,0 +1,1 @@
+frames=387048, sample_rate=48000, channels=2, duration=8.0635, rms_dbfs=-25.01569267617555, peak_dbfs=-6.817210374147472

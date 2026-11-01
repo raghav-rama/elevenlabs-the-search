@@ -1,0 +1,22 @@
+{
+  "title": "Diagnostic return → new station launch",
+  "location": "Continuity review, original speed, 6.04 seconds",
+  "output_file": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/context-review-v01/diagnostic-to-launch-v01.mp4",
+  "sha256": "1ac504588157a0a2ec765a8a24ac3f808996b8ee3f873125385c8d910704ae73",
+  "status": "local_review_pending_user",
+  "selected": false,
+  "user_approved": false,
+  "assistant_visual_review": {
+    "observations": [
+      "Last second of the existing floating-body diagnostic return joins the full new launch take. Close pose and background continuity across the join.",
+      "First second is silent picture context; native launch sound follows. No VO/jingle master change."
+    ],
+    "limitations": [
+      "The full slow wind-up remains visible; this is a continuity check, not the final1.25s launch edit.",
+      "854×480 review canvas downscales the diagnostic insert; no native launch upscale or retiming.",
+      "Playback and listening approval pending."
+    ]
+  },
+  "timeline": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/context-review-v01/timeline.json",
+  "inspection": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/context-review-v01/inspection.json"
+}

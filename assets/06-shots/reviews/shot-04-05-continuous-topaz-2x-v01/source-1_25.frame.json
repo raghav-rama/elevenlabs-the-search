@@ -1,0 +1,12 @@
+{
+  "actual_seconds" : 1.25,
+  "height" : 480,
+  "output_file" : "assets\/06-shots\/reviews\/shot-04-05-continuous-topaz-2x-v01\/source-1_25.png",
+  "requested_seconds" : 1.25,
+  "script" : "scripts\/extract-video-frame.swift",
+  "sha256" : "ce52cb6a400f2b898c39d90ecaf9ad5423446fda88f7c1d22d8f803e023a088b",
+  "source_file" : "assets\/06-shots\/videos\/shot-04-05-continuous-seedance-480p-v01.mp4",
+  "source_modified" : false,
+  "source_sha256" : "3c3413da46200a72926418e20ec5fa6cc2177af0d0dcdf203353f976111abf39",
+  "width" : 854
+}

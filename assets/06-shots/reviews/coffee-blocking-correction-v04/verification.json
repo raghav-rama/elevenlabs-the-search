@@ -1,0 +1,19 @@
+{
+  "verified_at": "2026-11-01T22:30:51+05:30",
+  "status": "technical_checks_passed",
+  "visual_result": "v04 distance corrected; v05 requested hand/table-cup changes missing",
+  "image_generations": 2,
+  "video_generations": 0,
+  "total_credits": 504.2356756756757,
+  "total_inr": 7.3215020108108115,
+  "dimensions_each": [
+    1280,
+    720
+  ],
+  "prompt_input_output_preserved_media_hashes": true,
+  "local_links_checked": 10,
+  "json_records_checked": 5,
+  "signed_urls_absent_in_checked_records": true,
+  "selected": false,
+  "user_approved": false
+}

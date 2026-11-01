@@ -1,0 +1,74 @@
+{
+  "status": "historically_approved_superseded_for_revised_opening",
+  "flow_id": "J725xEy49QY4xa6L66pw",
+  "flow_url": "https://elevenlabs.io/app/flows/J725xEy49QY4xa6L66pw",
+  "model_id": "gpt-image-2",
+  "requested_generations": 1,
+  "generations_per_shot": 1,
+  "estimate": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "selected": false,
+  "user_approved": true,
+  "retries": 0,
+  "shots": [
+    {
+      "asset_id": "shot-09-coffee-city-start-v06",
+      "title": "Coffee approach — one visible running hand",
+      "node_id": "UaRlQZIL8lZ2paPma9DL",
+      "record_file": "assets/06-shots/images/shot-09-coffee-city-start-v06.generation.json",
+      "prompt_file": "assets/06-shots/prompts/shot-09-coffee-city-start-v06.txt",
+      "output_file": "assets/06-shots/images/shot-09-coffee-city-start-v06.png",
+      "status": "historically_approved_superseded_for_revised_opening",
+      "generation_id": "q7GVWTpb30BfFtKB2Yrh",
+      "session_id": "PoUgn5ltcQq0gmS5yQJm",
+      "sha256": "059d6a58ffb80e613d6e1d7765fb2c986c8b4db88555d4d1ae3aa0f1f157d272"
+    }
+  ],
+  "submitted_at": "2026-11-01T22:35:56+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "UaRlQZIL8lZ2paPma9DL",
+        "session_id": "PoUgn5ltcQq0gmS5yQJm",
+        "credit_costs": {
+          "q7GVWTpb30BfFtKB2Yrh": 252.11783783783784
+        }
+      }
+    ],
+    "session_ids": [
+      "PoUgn5ltcQq0gmS5yQJm"
+    ],
+    "pending": [
+      {
+        "generation_id": "q7GVWTpb30BfFtKB2Yrh",
+        "kind": "image"
+      }
+    ]
+  },
+  "session_ids": [
+    "PoUgn5ltcQq0gmS5yQJm"
+  ],
+  "completed_at": "2026-11-01T22:36:27+05:30",
+  "completed_generations": 1,
+  "total_reported_price": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T22:37:57+05:30",
+  "gallery_title": "AFTERHUMAN · One-hand running reference",
+  "gallery_description": "One right hand low in frame; left arm out of view. Corrected patron distance and clear approach retained.",
+  "gallery_status": "Historically approved one-hand reference. Superseded for the new cup-free fast-running opening; retained unchanged.",
+  "gallery_footer": "GPT Image 2 via ElevenLabs · 1280×720 · One edit · 252.118 credits / INR 3.66 · No new video",
+  "approval": {
+    "at": "2026-11-01T22:46:40+05:30",
+    "quote": "Great now do the generation with the direction i gave you",
+    "scope": "Approve one-hand v06 as the starting reference and authorize one MiniMax motion test; not approval of generated video."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "audio_payload_identical" : true,
+  "audio_payload_sha256" : "c359dd5caa6a72b4def6c8db0762d87b0268b9bb2f6ba7a4655529a5a4f511d9",
+  "config" : "assets\/08-edit\/continuous-ad-review-v07\/splice-config.json",
+  "config_sha256" : "d95e191edb939acb6059bcc5e97ffc558fdbdde8f25ffab657dfbbedb1ba8d92",
+  "duration_seconds" : 44.875,
+  "export_preset" : "passthrough",
+  "fps" : 24,
+  "frames_expected" : 1077,
+  "new_provider_generations" : 0,
+  "output" : "assets\/08-edit\/continuous-ad-review-v07\/afterhuman-arm-cleanup-v07.mp4",
+  "output_sha256" : "46a8b7aa88376f203aea4031133a2bf7f64f6a7e5de285b837bf16ce76eaa148",
+  "replacement" : "assets\/08-edit\/floating-transformation-v03\/floating-transformation-picture-v03.mp4",
+  "replacement_frames" : 127,
+  "replacement_sha256" : "e115da02610671ccd74848f6363f61b007cbfdb0bf2c96da34781a407f50f0eb",
+  "script" : "scripts\/replace-picture-segment.swift",
+  "source" : "assets\/08-edit\/continuous-ad-review-v06\/afterhuman-merged-upgrade-v06.mp4",
+  "source_retimed" : false,
+  "source_sha256" : "149c72b1f2cdcf466cb5a4ce19a41147738cb8aa37bdfc021cdf4a1f832a6d0a",
+  "start_frame" : 308,
+  "status" : "pending_decode_and_user_review"
+}

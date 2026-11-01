@@ -1,0 +1,12 @@
+Polish ONLY the HUD typography in the supplied approved AFTERHUMAN tactical ocular-display still. This is the selected composition, not a redesign. Preserve its exact first-person city terrace, train, camera framing, natural-sized left hand with skin/chrome inlays, lighting, cyan route on the ramp, magenta train bracket, outer frame, left neural-network circle, right circular radar, body diagram, waveform and four bottom dials. Preserve the dense Iron Man-like peripheral instrumentation and open central view. No new people, architecture, hands or photographic changes.
+
+Replace garbled labels with crisp, larger monospaced cyan lettering. Exact text below, verbatim, no extra characters. Use the original positions with even spacing; important labels must be clear at reduced video size.
+Top row: "AFTERHUMAN" at left, "NEURAL LINK" at center, "SCENE ANALYSIS" at right. Remove the second redundant NEURAL LINK above the left circle; use "NEURAL CORE" there instead.
+Inside/below the left neural circle: "COGNITION" and "x256". Keep "NEURAL ACTIVITY" above its waveform.
+The three left meters: "LATENCY" with "0.8 ms"; "NEURAL LOAD" with "18%"; "POWER" with "94%".
+Body diagram: use only three short captions "NEURAL", "MOTOR", "VITALS". Replace all its other tiny garbled captions with clean tick marks.
+Above the right radar: "INTERCEPT ROUTE". Beneath it use three distinct columns: "TRAIN" / "96 km/h", "INTERCEPT" / "04.2 s", "SUCCESS" / "99.7%".
+The small right log should contain exactly three clean rows with no timestamps: "SCAN COMPLETE", "PATH SOLVED", "INTERCEPT READY".
+Label only the two most visible existing pedestrians "PEDESTRIAN", correctly anchored with fine leader lines. Replace all illegible distant labels with small tracking brackets without text. Remove the illegible amber obstacle caption and use one small amber edge bracket on the existing railing.
+The four bottom dials read "COGNITION", "REFLEX", "STRENGTH", "SPEED"; each has "100%" in the center and ONE "READY" beneath it. Keep them inside the frame, with no duplicate READY text.
+Replace the illegible bottom-most microtext and all other unspecified tiny gibberish with clean calibration ticks, dotted traces and short unlabeled bars. This preserves visual density without unreadable paragraphs. Keep central city, train and route unobstructed. Thin translucent cyan graphics, magenta target accents, modest bloom, no opaque panels, no new words or watermarks.

@@ -1,3 +1,35 @@
+## Latest arm-cleanup review v07
+
+[Play revised cut](continuous-ad-review-v07/index.html) — **44.875 seconds**. Restored the clipped forearm and hand during the floating transformation. All other picture frames and the compressed audio are unchanged. Before/after comparison is included in the player. Arm cleanup approved; v07 is the current review cut. The overhead replacement remains pending.
+
+## Latest merged-upgrade review v06
+
+[Play revised cut](continuous-ad-review-v06/index.html) — **44.875 seconds**, including the end card. Original transformation and central float happen together, with an opaque, naturally colored Riley and no blue skeleton. Typed product text, David and Chrome Swagger remain. Previous overhead is still temporary. Awaiting playback feedback.
+
+Earlier cuts below are preserved history. V05 exceeds the current 45-second requirement and is superseded.
+
+## Latest continuity review v05
+
+[Play revised cut](continuous-ad-review-v05/index.html) — station2× upscale and restored full transformation,51.417seconds. Previous overhead remains temporary; matched-boulevard replacement still is included below the player for review.
+
+# Latest visuals review v04
+
+[**Watch the new46.125-second full cut**](continuous-ad-review-v04/afterhuman-latest-visuals-v04.mp4) · [Player](continuous-ad-review-v04/index.html) · [Edit notes](continuous-ad-review-v04/README.md)
+
+Latest approved diagnostic/launch, HUD, strength, speed and overhead, preferred MiniMax coffee, David and Chrome Swagger. Original source speeds retained; narration gaps follow the action. New matching city-to-spiral ending. Local review assembly, no generation credits. Awaiting full-cut playback/listening feedback. Earlier exports and descriptions below are historical and remain preserved.
+
+# Floating upgrade review v03
+
+[**Watch the focused preview**](continuous-ad-review-v03/upgrade-floating-preview-v01.mp4) · [Full 45-second cut](continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4) · [Player](continuous-ad-review-v03/index.html) · [Edit notes](continuous-ad-review-v03/README.md)
+
+Riley floats into the center for a translucent diagnostic scan and terminal type, then floats back before takeoff. Local motion mock-up with quiet UI sound accents; no provider spend. Existing narration, music and 45-second picture timing are preserved. Scan detail, matte edges, shared-city footage and overhead remain production work. The user approves this motion direction; production polish remains open. Earlier cuts remain available below.
+
+# Product clarity review v02
+
+[Watch the new cut](continuous-ad-review-v02/afterhuman-product-clarity-v02.mp4) · [Edit notes](continuous-ad-review-v02/README.md) · [City/overhead design board](../06-shots/reviews/city-continuity-v01/index.html)
+
+Adds AFTERHUMAN / CYBERNETIC IMPLANTS during the upgrade and on the end card. Same 45-second timing and original AAC audio; no provider spend. World/overhead replacement remains prepared design work, with generation deferred. Pending user review.
+
 # Current assembled review
 
 [**Watch the 45-second continuous cut with David and Chrome Swagger**](continuous-ad-review-v01/afterhuman-continuous-with-david-v01.mp4) · [Timing and review notes](continuous-ad-review-v01/README.md).
@@ -80,3 +112,7 @@ The earlier departing-train/billboard continuation is superseded by the approved
 instant station upgrade, eye HUD and superhuman montage. See the
 [shot-five brief](../06-shots/video-prompts/shot-05-instant-upgrade-brief-v01.md).
 The final original jingle remains open; the exploratory demo is not selected.
+
+## Publication selection
+
+The user selected v07 and stopped further train correction. For publication use the [official-watermarked derivative](../10-submission/afterhuman-watermarked-v01/index.html), with the same 44.875-second edit and exact audio payload. Original v07 remains preserved.

@@ -1,0 +1,339 @@
+{
+  "asset_id": "shot-09-coffee-fpp-run-minimax-v04",
+  "title": "A \u2014 Cup-free first-person sprint and time dilation",
+  "status": "prototype_partial_compliance_pending_user_review",
+  "provider": "ElevenLabs",
+  "flow_id": "J725xEy49QY4xa6L66pw",
+  "flow_url": "https://elevenlabs.io/app/flows/J725xEy49QY4xa6L66pw",
+  "node_id": "T1AMnEJVRbvlDIvMkjIy",
+  "model_id": "minimax-h3-max",
+  "prepared_at": "2026-11-01T23:12:31+05:30",
+  "prompt": "Photoreal cinematic five-second first-person action shot, starting exactly on the supplied frame. Riley is already sprinting at superhuman speed straight along this same wet futuristic cafe walkway. Preserve architecture, golden sunlight, cyan/magenta palette and level horizon. This is ONE continuous first-person view throughout. [0 to 2 seconds] Propel the eye-level camera rapidly FORWARD with strong real parallax: nearby cafe pillars and side railing rush backward, pavement streams underfoot, strong directional peripheral blur on both sides, central path remains readable. One normal-sized skin-and-chrome right hand briefly pumps low at the bottom-right edge; never two hands simultaneously. Constant fast sprint, not a walking dolly or a stationary zoom. The forward lane is clear. [2 to 2.6 seconds] A sudden perceptual time-dilation beat: surrounding motion rapidly slows and directional blur resolves. Without reversing or turning around, she makes a sharp LEFT head glance toward the cafe beside her while her body still travels forward. Use horizontal camera yaw, not a rolled horizon or a cut. [2.6 to 5 seconds] Continue the same slowed leftward look with a little residual forward drift; cafe glass, nearby paving and gold/neon reflections resolve. Keep all cups, mugs, drinks and their owner outside this clip; the accident will be shown in the next editorial shot. Do not invent a held object, release, pickup, handoff or person directly ahead. No third-person view, no visible Riley face, no HUD or text. Audio: rapid rhythmic footfalls and strong air rush in the first two seconds; a short descending air suction at time dilation, then deeply muffled cafe/city ambience. No speech, no music, no glass breaking.",
+  "prompt_file": "assets/06-shots/video-prompts/shot-09-coffee-fpp-run-minimax-v04.txt",
+  "prompt_sha256": "24d13dac34c7ab4b977fc0d983165f551ee84c1144fbf40eecc2ad15cdc9b3c8",
+  "output_file": "assets/06-shots/videos/shot-09-coffee-fpp-run-minimax-v04.mp4",
+  "effective_settings": {
+    "start_frame": {
+      "template_node_id": "2dSZ3aHoQTBMZVy0KbKW"
+    },
+    "resolution": "480p",
+    "duration_secs": 5,
+    "enhance_prompt": true
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "start_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "2dSZ3aHoQTBMZVy0KbKW",
+          "label": "New image-generation node"
+        }
+      ]
+    },
+    {
+      "key": "end_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_images",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_videos",
+      "modality": "video",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_audios",
+      "modality": "audio",
+      "required": false,
+      "connected_to": []
+    }
+  ],
+  "live_schema": {
+    "model_id": "minimax-h3-max",
+    "model_name": "MiniMax H3 Max",
+    "node_type": "video-generation",
+    "parameters": [
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "768p",
+        "options": [
+          {
+            "label": "480p",
+            "value": "480p"
+          },
+          {
+            "label": "768p",
+            "value": "768p"
+          }
+        ]
+      },
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "options": [
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          }
+        ]
+      },
+      {
+        "name": "duration_secs",
+        "type": "select_number",
+        "required": false,
+        "default": 5,
+        "options": [
+          {
+            "label": "5",
+            "value": 5
+          },
+          {
+            "label": "6",
+            "value": 6
+          },
+          {
+            "label": "7",
+            "value": 7
+          },
+          {
+            "label": "8",
+            "value": 8
+          },
+          {
+            "label": "9",
+            "value": 9
+          },
+          {
+            "label": "10",
+            "value": 10
+          },
+          {
+            "label": "11",
+            "value": 11
+          },
+          {
+            "label": "12",
+            "value": 12
+          },
+          {
+            "label": "13",
+            "value": 13
+          },
+          {
+            "label": "14",
+            "value": 14
+          },
+          {
+            "label": "15",
+            "value": 15
+          }
+        ]
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "start_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "end_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_images",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_videos",
+        "modality": "video",
+        "required": false
+      },
+      {
+        "key": "reference_audios",
+        "modality": "audio",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "duration_secs": "any value: pass `values` to creative_expose_flow_parameter",
+      "enhance_prompt": [
+        "true",
+        "false"
+      ],
+      "resolution": [
+        "480p",
+        "768p"
+      ]
+    }
+  },
+  "model_guide": {
+    "model_id": "minimax-h3",
+    "guide": "# MiniMax family \u2014 minimax-h3, minimax-h3-max\n\nMiniMax H3 is a multimodal video model: text, images, video and audio all enter one\ncontext, and it returns 5-15s at 24 FPS with native audio. Generation, referencing and\nediting are the same model, so reach for it when a shot needs identity locked from a\nphoto, camera language taken from a clip, and a directed soundtrack all at once.\n\n**Which one to pick.** `minimax-h3-max` is a post-trained H3 that fal serves on their\nown inference stack: much faster and with better prompt adherence and aesthetics, but\nonly text-to-video and image-to-video, and only its two native resolutions. Prefer it\nfor iteration and for anything that just needs a prompt or a start frame. Drop to\n`minimax-h3` when you need reference-to-video (identity, motion or voice references) or\na 2K/4K render.\n\n## Prompt structure\n\n```\n[format + duration] + [timecoded shot blocks] + [grade / lens / grain] + [audio direction] + [negative direction]\n```\n\n## Give every reference an explicit job\n\nThis is the single habit that changes results most. Name each input and say what it\ncontrols \u2014 \"Use Image 1 as a locked identity and wardrobe reference for the man. Use\nImage 2 for the location, the wet ground, and the light.\" Four unlabeled images with no\nassignment produces noticeably worse output than two with a stated job.\n\nReferences are cited by modality and position in their list: `Image 1`, `Image 2`,\n`Video 1`, `Audio 1`. Put the reference part where the subject belongs in the sentence\nand the backend renders that token for you \u2014 never type it yourself.\n\n## Key strengths\n\n- **Timecoded blocks are read as a shot list.** `[0 to 4 seconds] \u2026 [4 to 8 seconds] \u2026`\n  keeps a 15s generation from drifting into a slideshow. Use them for anything over 5s.\n- **Audio is a directable track, not an afterthought.** Describe the bed, the individual\n  events and their timing, then say what you don't want (`No music, no impact stings`).\n- **Legible on-screen type.** Title cards, signage and interface panels are reachable\n  from the prompt \u2014 quote the exact string you want rendered.\n- **Negative direction lands unusually well.** Name what must not change (\"Do not change\n  the counter or the background at any point\") and what must not appear.\n\n## Variant notes\n\nEach model id covers several fal endpoints, picked from the parameters you set:\n\n- Prompt only \u2192 text-to-video. Aspect ratio is yours to choose.\n- `start_frame` (optionally with `end_frame`) \u2192 image-to-video. The output follows the\n  frame's aspect ratio, so `aspect_ratio` is rejected here.\n- `reference_images` / `reference_videos` / `reference_audios` \u2192 reference-to-video, for\n  identity locking, motion transfer, style matching and voice. **`minimax-h3` only.**\n  Cannot be combined with `start_frame` / `end_frame`.\n\nReference audio needs at least one reference image or video alongside it. Each reference\nclip must be 2-15s, and the combined duration per modality at most 15s.\n\nResolutions differ between the two: on `minimax-h3`, `480p` and `768p` are native while\n`2K` and `4K` upscale a `768p` base and cost more per output second. `minimax-h3-max`\nserves only `480p` and `768p`, and `768p` is where it is both fastest and best.\n\n## Example\n\n> Photoreal 16:9, twelve seconds. Use Image 1 as a locked identity and wardrobe reference\n> for the woman; use Image 2 for the location and its light. [0 to 5 seconds] She walks\n> toward camera down a rain-wet side street, handheld, slight sway, neon reflections\n> travelling across her jacket. [5 to 9 seconds] Hard cut to a tight frame on her hand\n> pushing a heavy steel door. [9 to 12 seconds] Pull back to a locked-off wide of the\n> empty street behind her and hold completely still for the final second. Fine 35mm\n> grain, cold neon against warm sodium. Audio: rain on asphalt, distant traffic, one\n> door hinge complaining, footsteps with a long reverb tail. No music, no whoosh.",
+    "source": "family"
+  },
+  "estimate": {
+    "credits": 1515,
+    "price_cents": 2199.78,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "generations_count": 1,
+  "retries": 0,
+  "seed": null,
+  "upscaled": false,
+  "selected": false,
+  "user_approved": false,
+  "authorization": "Yes, please do it: two planned MiniMax clips using corrected keyframes. One take each; no variants or paid reruns.",
+  "references": [
+    {
+      "node_id": "2dSZ3aHoQTBMZVy0KbKW",
+      "file": "assets/06-shots/images/shot-09-coffee-fpp-cupfree-start-v01.png",
+      "sha256": "3f688282d1d09c212b8ac0d6fd5414b56389d50cd7d24c3bcb56fde134725eec",
+      "generation_id": "IPTLtjlVQPPdbA7uyRbZ",
+      "role": "actual start_frame, not reference-only"
+    }
+  ],
+  "submitted_at": "2026-11-01T23:12:47+05:30",
+  "submission": {
+    "success": true,
+    "node_id": "T1AMnEJVRbvlDIvMkjIy",
+    "session_id": "r6OadRusONjVgNZhNVch",
+    "credit_costs": {
+      "IUpfMhajyM3DgSZ6FXXr": 1515
+    }
+  },
+  "session_ids": [
+    "r6OadRusONjVgNZhNVch"
+  ],
+  "session_id": "r6OadRusONjVgNZhNVch",
+  "generation_id": "IUpfMhajyM3DgSZ6FXXr",
+  "completed_at": "2026-11-01T23:13:35+05:30",
+  "sha256": "24be973fe71d67cd3810dfa21e951221e9a4b46916374e70b80873c06962abb3",
+  "bytes": 4386581,
+  "width": 832,
+  "height": 480,
+  "provider_generation": {
+    "id": "IUpfMhajyM3DgSZ6FXXr",
+    "status": "completed",
+    "width": 832,
+    "height": 480,
+    "duration_secs": 5.184,
+    "price": {
+      "credits": 1515,
+      "price_cents": 2199.78,
+      "cost_fiat_currency": "inr"
+    },
+    "model_id": "minimax-h3-max",
+    "created_at_unix_ms": 1793554967056
+  },
+  "provider_reported_price": {
+    "credits": 1515,
+    "price_cents": 2199.78,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T23:16:52+05:30",
+  "assistant_visual_review": {
+    "observations": [
+      "Clear forward movement and changing near-field parallax with strong peripheral motion blur.",
+      "One running hand at a time; arms alternate naturally in the generated motion.",
+      "No nearby patron or held/releasing hero mug in the first-person run.",
+      "Camera begins a shallow leftward look later in the clip."
+    ],
+    "limitations": [
+      "Time-dilation/side glance is later and more gradual than the requested sharp response.",
+      "Small background table cups appear as the cafe resolves despite the cup-free start; the hero mug remains absent.",
+      "Native audio inspected numerically only; no independent listening or speech-content approval."
+    ],
+    "method": "Native-resolution keyframes plus 0.125-second focused and 0.25/0.333-second overview contact sheets; full-frame decode. Not a real-time playback/listening claim.",
+    "reviewed_at": "2026-11-01T23:16:52+05:30"
+  },
+  "location": "Sunlit wet cyberpunk cafe walkway",
+  "native_inspection": {
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 5.184,
+        "sample_rate": 32000
+      }
+    ],
+    "duration_seconds": 5.167,
+    "extracted_frame_seconds": 5.125,
+    "frame_height": 480,
+    "frame_width": 832,
+    "last_frame_file": "assets/06-shots/reviews/shot-09-coffee-fpp-run-minimax-v04/last-frame.png",
+    "last_frame_sha256": "fc3876774b5aa447af854d1f592c59ed7a453c1c3f302ac3853d61448dcbdd4a",
+    "last_picture_frame_file": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/reviews/shot-09-coffee-fpp-run-minimax-v04/last-picture-frame.png",
+    "last_picture_frame_seconds": 5.125,
+    "last_picture_frame_sha256": "fc3876774b5aa447af854d1f592c59ed7a453c1c3f302ac3853d61448dcbdd4a",
+    "last_video_sample_seconds": 5.125,
+    "near_black_detection": "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+    "near_black_frame_times_seconds": [],
+    "nominal_fps": 24,
+    "review_limits": "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+    "script": "scripts/inspect-review-video.swift",
+    "source_file": "assets/06-shots/videos/shot-09-coffee-fpp-run-minimax-v04.mp4",
+    "source_modified": false,
+    "source_sha256": "24be973fe71d67cd3810dfa21e951221e9a4b46916374e70b80873c06962abb3",
+    "video_codec_fourcc": "avc1",
+    "video_duration_seconds": 5.167,
+    "video_samples": 124
+  },
+  "review_index": "assets/06-shots/reviews/shot-09-coffee-fpp-run-minimax-v04/README.md",
+  "review_record": "assets/06-shots/reviews/shot-09-coffee-fpp-run-minimax-v04/review.json"
+}

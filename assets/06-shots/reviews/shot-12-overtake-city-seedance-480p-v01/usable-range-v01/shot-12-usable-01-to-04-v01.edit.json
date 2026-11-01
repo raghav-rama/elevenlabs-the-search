@@ -1,0 +1,44 @@
+{
+  "audio_bridges" : [
+
+  ],
+  "audio_tracks" : 1,
+  "clips" : [
+    {
+      "audio" : "assets\/06-shots\/videos\/shot-12-overtake-city-seedance-480p-v01.mp4",
+      "audio_gain_db" : 0,
+      "audio_sha256" : "04bb665e28eff23d38d3ef32a8c6e38429a9281275c0a05f9096f0ec3e51a312",
+      "duration_seconds" : 3,
+      "picture" : "assets\/06-shots\/videos\/shot-12-overtake-city-seedance-480p-v01.mp4",
+      "picture_sha256" : "04bb665e28eff23d38d3ef32a8c6e38429a9281275c0a05f9096f0ec3e51a312",
+      "post_handle_samples" : 0,
+      "pre_handle_samples" : 0,
+      "shot" : "Overhead usable middle at original speed",
+      "source_audio_rms_dbfs" : -28.095577729148363,
+      "source_in_seconds" : 1,
+      "timeline_start_seconds" : 0
+    }
+  ],
+  "crossfade_half_seconds" : 0.0080000000000000002,
+  "decoded_aac_peak_dbfs" : -13.230531332312395,
+  "duration_seconds" : 3,
+  "fps" : 24,
+  "framing" : "fit",
+  "master_gain" : 1,
+  "mixed_wav" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/shot-12-overtake-city-seedance-480p-v01\/usable-range-v01\/shot-12-usable-01-to-04-v01.mix.wav",
+  "notes" : "Hard picture cuts; source frame ranges at original speed, aspect conformed according to the recorded framing setting. Picture re-encoded, not bitstream copied. Audio levels adjusted conservatively using RMS, not perceptual loudness. Native audio ducked under the supplied narration according to the timeline; no synthesis or speech removal by this script. Original source files remain untouched. Audio content and subjective transitions require listening review.",
+  "output" : "assets\/06-shots\/reviews\/shot-12-overtake-city-seedance-480p-v01\/usable-range-v01\/shot-12-usable-01-to-04-v01.mp4",
+  "output_sha256" : "3b4227ae98e2c8baf55400a430fef6b306d5d0f82f66369b9199a08f16ceba27",
+  "pcm_peak_dbfs" : -13.228946320067152,
+  "pcm_rms_dbfs" : -28.106236335569204,
+  "resolution" : [
+    854,
+    480
+  ],
+  "review_status" : "pending_user_playback_and_listening",
+  "script" : "scripts\/assemble-continuation.swift",
+  "speed_multiplier" : 1,
+  "timeline" : "assets\/06-shots\/reviews\/shot-12-overtake-city-seedance-480p-v01\/usable-range-v01\/timeline.json",
+  "timeline_sha256" : "7942a19f690f81590139458dfbd8cc815177f08ef50ccac0b45734e63faf1835",
+  "title" : "City overhead — user-identified usable 00:01 to 00:04 range"
+}

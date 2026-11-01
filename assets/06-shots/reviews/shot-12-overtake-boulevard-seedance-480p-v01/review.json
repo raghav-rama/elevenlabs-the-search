@@ -1,0 +1,411 @@
+{
+  "asset_id": "shot-12-overtake-boulevard-seedance-480p-v01",
+  "status": "generated_requires_motion_correction_pending_user_review",
+  "selected": false,
+  "user_approved": false,
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "node_id": "8V034VE0bQgX4UOrukky",
+  "model_id": "bytedance-seedance-v2.5",
+  "requested_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "480p",
+    "duration_secs": 5,
+    "generate_audio": true
+  },
+  "effective_settings": {
+    "aspect_ratio": "auto",
+    "resolution": "480p",
+    "duration_secs": 5,
+    "generate_audio": true
+  },
+  "prompt": "One continuous five-second high overhead tracking shot, beginning exactly from the supplied image. The race is already underway: Riley immediately drives into a very fast athletic sprint along the broad boulevard to the RIGHT of the train. The train remains on the parallel railway to her LEFT. Both travel straight toward the TOP of the image, in the same direction. Keep the train nose pointing up and aligned with the rails throughout.\n\nRiley runs much faster than the moving train. Use rapid alternating grounded foot strikes, strong opposing arm pumps and a forward sprinting lean, not a walking cycle. She closes the starting gap during the first second, draws level with the train nose around 1.6 seconds, and by 2.6 seconds her whole body including both trailing boots is visibly ahead of the nose. She continues sprinting and increasing the lead until the final frame; no easing down or stopping. The train itself keeps moving briskly forward relative to the railway, never brakes or reverses. The stabilized overhead camera translates forward with Riley, keeping both her complete running silhouette and the train nose in view; the slower train falls behind within the composition. Keep the same camera heading, height and near-vertical overhead angle, with no orbit, roll or zoom.\n\nPreserve the exact street geography, scale, outfit, short dark hair, human skin and slim cybernetic inlays of the reference. Keep the broad wet pedestrian boulevard at ground level, amber bollards, cyan-edged planters, railway on the left and tall glass frontage on the right. Ground seams and bollards sweep downward rapidly with coherent parallax and directional motion blur while Riley and the train nose remain readable. A thin cyan wake can follow her feet without hiding her body. Existing pedestrians remain off her running path and slide behind naturally; no collision or added crowd. Keep the same daylight and wet reflective materials. Do not replace this boulevard with a narrow rooftop lane, bridge junction or a different city. No sideways train movement, train rotation, rail crossing, head-on approach, teleportation, floating feet, frozen stride, slow motion, pose, cut, caption or branding.\n\nNative sound only: fast boot impacts, powerful wind rush and receding electric train rumble. No speech, narration or music.",
+  "prompt_file": "assets/06-shots/video-prompts/shot-12-overtake-boulevard-seedance-480p-v01.txt",
+  "output_file": "assets/06-shots/videos/shot-12-overtake-boulevard-seedance-480p-v01.mp4",
+  "requested_generations": 1,
+  "retries": 0,
+  "estimate": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "seed": null,
+  "seed_note": "Not exposed by the live provider schema",
+  "references": [
+    {
+      "role": "Exact user-attached approved start image",
+      "port": "start_frame",
+      "node_id": "auMJwRpCIDcwyqksrIev",
+      "content_asset_id": "PFqkIVHa2ZI9uplMVzai",
+      "file": "assets/06-shots/references/boulevard-overtake-v01/user-approved-start.png",
+      "sha256": "fde9654b1395297e3a9dc988e420b10fb58be5c64b72ad2da17a2ed4971d76ac",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "authorization_context": "User says Yes go ahead. Use this image, after discussion of replacing the overhead shot to match the preceding boulevard. One 480p Seedance test at the standing quality/cost preference. No automatic retry or upscale.",
+  "review_sample_count": 21,
+  "review_interval_seconds": 0.25,
+  "preserved_cut": {
+    "file": "assets/08-edit/continuous-ad-review-v07/afterhuman-arm-cleanup-v07.mp4",
+    "sha256": "46a8b7aa88376f203aea4031133a2bf7f64f6a7e5de285b837bf16ce76eaa148"
+  },
+  "intended_edit_slot": {
+    "timeline_start_seconds": 39.375,
+    "duration_seconds": 3,
+    "full_cut_seconds": 44.875,
+    "selection": "Pending native-motion review; no retiming implied"
+  },
+  "schema": {
+    "model_id": "bytedance-seedance-v2.5",
+    "model_name": "Seedance 2.5",
+    "node_type": "video-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "16:9",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "720p",
+        "options": [
+          {
+            "label": "480p",
+            "value": "480p"
+          },
+          {
+            "label": "720p",
+            "value": "720p"
+          },
+          {
+            "label": "1080p",
+            "value": "1080p"
+          }
+        ]
+      },
+      {
+        "name": "duration_secs",
+        "type": "select_number",
+        "required": false,
+        "default": 5,
+        "options": [
+          {
+            "label": "4",
+            "value": 4
+          },
+          {
+            "label": "5",
+            "value": 5
+          },
+          {
+            "label": "6",
+            "value": 6
+          },
+          {
+            "label": "7",
+            "value": 7
+          },
+          {
+            "label": "8",
+            "value": 8
+          },
+          {
+            "label": "9",
+            "value": 9
+          },
+          {
+            "label": "10",
+            "value": 10
+          },
+          {
+            "label": "11",
+            "value": 11
+          },
+          {
+            "label": "12",
+            "value": 12
+          },
+          {
+            "label": "13",
+            "value": 13
+          },
+          {
+            "label": "14",
+            "value": 14
+          },
+          {
+            "label": "15",
+            "value": 15
+          },
+          {
+            "label": "16",
+            "value": 16
+          },
+          {
+            "label": "17",
+            "value": 17
+          },
+          {
+            "label": "18",
+            "value": 18
+          },
+          {
+            "label": "19",
+            "value": 19
+          },
+          {
+            "label": "20",
+            "value": 20
+          },
+          {
+            "label": "21",
+            "value": 21
+          },
+          {
+            "label": "22",
+            "value": 22
+          },
+          {
+            "label": "23",
+            "value": 23
+          },
+          {
+            "label": "24",
+            "value": 24
+          },
+          {
+            "label": "25",
+            "value": 25
+          },
+          {
+            "label": "26",
+            "value": 26
+          },
+          {
+            "label": "27",
+            "value": 27
+          },
+          {
+            "label": "28",
+            "value": 28
+          },
+          {
+            "label": "29",
+            "value": 29
+          },
+          {
+            "label": "30",
+            "value": 30
+          }
+        ]
+      },
+      {
+        "name": "generate_audio",
+        "type": "boolean",
+        "required": false,
+        "default": true
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "start_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "end_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_images",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_videos",
+        "modality": "video",
+        "required": false
+      },
+      {
+        "key": "reference_audios",
+        "modality": "audio",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "duration_secs": "any value: pass `values` to creative_expose_flow_parameter",
+      "generate_audio": [
+        "true",
+        "false"
+      ],
+      "resolution": [
+        "480p",
+        "720p",
+        "1080p"
+      ]
+    }
+  },
+  "provider_guide": {
+    "model_id": "bytedance-seedance-v2.5",
+    "guide": "# Seedance family — bytedance-seedance-v1-pro, bytedance-seedance-v1.5-pro, bytedance-seedance-v2, bytedance-seedance-v2-fast, bytedance-seedance-v2.5, bytedance-seedance-v2.5-edit, bytedance-seedance-v2.5-extend, bytedance-seedance-v2-us, bytedance-seedance-v2.5-us, bytedance-seedance-v2.5-edit-us, bytedance-seedance-v2.5-extend-us\n\nByteDance's flagship video model. The first model supporting simultaneous quad-modal input (text, image, video, and audio). Strong motion realism, character consistency, and multi-shot storytelling.\n\n## Inputs\n\n- Text prompt\n- Optional reference image. The model cites these as `@image1`, `@image2` — but do not type that yourself: place an `image_reference` part where the reference belongs and the backend renders the token there.\n- Optional reference video\n- Optional audio track (model choreographs video to sound, beat-matched)\n- Parameters: resolution and duration vary by variant (see below)\n\n## Variant notes\n\n- **Seedance 2.0 / 2.0 Fast** — up to 4K (2.0) or 1080p (Fast); clips 4–15s.\n- **Seedance 2.5** (`bytedance-seedance-v2.5`) — sharper realism; up to 1080p; clips up to 30s; much larger reference budget (upto 10 image, video, and audio refs). Prefer 2.5 over 2.0 unless the user names 2.0.\n- **Seedance 2.5 Edit** (`bytedance-seedance-v2.5-edit`) — edit an existing clip by describing the change. Duration follows the source.\n- **Seedance 2.5 Extend** (`bytedance-seedance-v2.5-extend`) — continue from the end of an existing clip. Prompt what happens next.\n- **US-hosted variants** (`bytedance-seedance-v2-us`, `bytedance-seedance-v2.5-us`, `-edit-us`, `-extend-us`) — the same models served from US infrastructure, offered where the standard ids are not available; same resolutions as their counterparts, and 2.0 US takes no seed. Prompt them exactly like their counterparts.\n- Fast and Pro / 2.5 share prompting style. Longer variants tolerate longer prompts.\n\n## Prompt structure\n\n```\n[shot] + [subject] + [action] + [environment / lighting] + [style]\n```\n\n## Key strengths\n\n- **Handles physical interactions** (pouring, splashing, hand-object contact) better than most models. Describe them concretely.\n- **Good at weather and atmospheric effects.**\n- **Audio-to-video** — upload an audio track and the model choreographs video to the sound with beat-matched cuts and lip sync.\n- **Negative prompts work** — phrases like \"no distortion, no stretching,\" \"no grain, no shadows\" are effective.\n- **Seedream + Seedance pipeline** — generate reference images with Seedream, then use as visual references for maximum control.\n\n## For image-to-video\n\n- **Describe the motion, not the image.** \"Camera slowly orbits around her\" works far better than re-describing what she looks like.\n- **Lock the character with consistency language** — add \"maintain exact appearance from reference image\" or \"consistent character throughout, no deformation or drift.\"\n\n## Rules\n\n- **A wired audio reference needs `generate_audio` on.** With it off the render comes back silent and the track you connected is thrown away, so connecting audio turns it back on — never set it to false to keep a voiceover \"clean\".\n- **Use one continuous action per clip.** Multi-beat narratives drift.\n- **For start/end frame inputs**, write a prompt that bridges the two states (\"from sealed package to fully revealed product\"), not a static description.\n\n## Example\n\n> Wide tracking shot of a courier riding an electric scooter through a rainy Shanghai night market. Neon shopfronts reflect on wet pavement. Wisps of steam rise from food stalls as he weaves between pedestrians. Cinematic, slightly desaturated, shallow depth of field.\n\n## What to avoid\n\n- Re-describing the reference image in image-to-video prompts (wastes prompt budget).\n- Abstract or heavily stylized prompts without specificity.",
+    "source": "family"
+  },
+  "preparation_issues": [
+    "Skill lookup initially used an absent 1.3.2 path; read the available 1.0.0 creative-studio skill.",
+    "Initial schema query node_type video rejected; corrected to live video-generation before configuration or billing."
+  ],
+  "prepared_at": "2026-11-02T02:30:37+05:30",
+  "prompt_sha256": "3d5ff98c73a3a4d0b66e8b5481b784ccdee8f1d8ad02c2fcd7570fbad5da8254",
+  "submitted_at": "2026-11-02T02:31:26+05:30",
+  "session_ids": [
+    "hVZ3ffPDPLR6vXL5WHz7"
+  ],
+  "run_summary": {
+    "nodes_run": 1,
+    "generations_started": 1,
+    "failed": 0,
+    "generations_by_node": {
+      "8V034VE0bQgX4UOrukky": 1
+    }
+  },
+  "run_results": [
+    {
+      "success": true,
+      "node_id": "8V034VE0bQgX4UOrukky",
+      "session_id": "hVZ3ffPDPLR6vXL5WHz7",
+      "credit_costs": {
+        "jRFy4Wsb79wKdkjPViot": 6511.470000000001
+      }
+    }
+  ],
+  "generation_id": "jRFy4Wsb79wKdkjPViot",
+  "reported_submission_credits": 6511.470000000001,
+  "completed_at": "2026-11-02T02:35:14+05:30",
+  "provider_generation": {
+    "id": "jRFy4Wsb79wKdkjPViot",
+    "status": "completed",
+    "model_id": "bytedance-seedance-v2.5",
+    "modality": "video",
+    "duration_secs": 5.056,
+    "width": 852,
+    "height": 480,
+    "created_at_unix_ms": 1793566851925,
+    "price": {
+      "credits": 6511.470000000001,
+      "price_cents": 9454.654440000002,
+      "cost_fiat_currency": "inr"
+    }
+  },
+  "sha256": "4ca6c218ebdd643ba874ba1d37e67c6a45506e5d76005c1acb6a2f91f021169a",
+  "size_bytes": 4630600,
+  "download_content_type": "video/mp4",
+  "actual_price": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-02T02:38:29+05:30",
+  "title": "Matched-boulevard overhead — Seedance 2.5 / 480p / take1",
+  "location": "Broad wet boulevard to the right of the left railway, matching the approved sprint world",
+  "assistant_visual_review": {
+    "status": "generated_requires_motion_correction_pending_user_review",
+    "method": "Full native decode,21 quarter-second overview samples,16 finer stride samples and native2.25s/end frames. Not independent real-time playback or listening approval.",
+    "observations": [
+      "Exact user-attached frame used; broad boulevard, left-hand railway, glass frontage, gold bollards and cyan planters remain consistent.",
+      "Train stays longitudinally aligned with its railway and points upframe. Riley remains to its right on the separate boulevard.",
+      "The middle frames show changing running poses and reduced distance to the train nose.",
+      "The required complete overtake does not occur in the inspected sequence: Riley does not get both boots clearly ahead of the nose, and the gap increases near the ending."
+    ],
+    "limitations": [
+      "Motion fails the requested decisive win, so this is not recommended as the final replacement.",
+      "Full-speed playback is needed to judge running cadence and whether the speed feels superhuman.",
+      "Native480p scale limits facial and fine cyberware detail.",
+      "Native audio was decoded/measured; speech absence and perceptual sound quality are not independently verified.",
+      "Existing v07 remains the selected44.875s review. Context1–4s excerpt is a world-match test, not an approved motion range."
+    ]
+  },
+  "native_video": {
+    "width": 852,
+    "height": 480,
+    "fps": 24,
+    "frames": 121,
+    "video_duration_seconds": 5.042,
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 5.056,
+        "sample_rate": 32000
+      }
+    ]
+  },
+  "review_file": "assets/06-shots/reviews/shot-12-overtake-boulevard-seedance-480p-v01/review.json",
+  "review_index": "assets/06-shots/reviews/shot-12-overtake-boulevard-seedance-480p-v01/index.html",
+  "assistant_recommends_selection": false,
+  "new_generation_count": 1,
+  "source_retimed": false,
+  "actual_reported_inr": 94.54654440000002,
+  "context_review": {
+    "file": "assets/06-shots/reviews/shot-12-overtake-boulevard-seedance-480p-v01/context-review-v01/sprint-to-overhead-world-test-v01.mp4",
+    "sha256": "6d5fa8dcfb05a6feed5ebe8854e299a9eea423e24e0845a74a06da0295666c79",
+    "duration_seconds": 5.5,
+    "status": "world_match_test_not_selected",
+    "overhead_source_range_seconds": [
+      1,
+      4
+    ],
+    "source_retimed": false
+  }
+}

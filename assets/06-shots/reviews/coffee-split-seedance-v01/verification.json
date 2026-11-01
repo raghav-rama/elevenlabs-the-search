@@ -1,0 +1,71 @@
+{
+  "verified_at": "2026-11-01T23:34:57+05:30",
+  "checks_passed": true,
+  "paid_generations": 1,
+  "paid_retries": 0,
+  "actual_credits": 10418.352,
+  "actual_inr": 151.27447104,
+  "native_sha256": "aadb78f46a93ad57339541313688258208deb30dcb92b337da8135747cc2bc25",
+  "combined_sha256": "8b920debe2b9661f05f8cc26fd1af1d2d7a72cf1aa5f874cb528a0db7b1fe021",
+  "native_frames": 193,
+  "combined_frames": 240,
+  "combined_seconds": 10,
+  "fps": 24,
+  "near_black_frames": 0,
+  "decoded_aac_peak_dbfs": -4.92711854379119,
+  "preserved_files": [
+    {
+      "file": "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+      "sha256": "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/edit-preview-v01/shot-08-hud-c-edit-preview-v01.mp4",
+      "sha256": "cd63556da707cf6fee969976cb27a7112bb178d372c799fdef5ec3d2982cc51e"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4",
+      "sha256": "3b4227ae98e2c8baf55400a430fef6b306d5d0f82f66369b9199a08f16ceba27"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+      "sha256": "00caba5dfc91d5a09537f9b6eb75dd9355070c8d26884da341b6737705863bb0"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "sha256": "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/edit-preview-v01/shot-09-coffee-edit-preview-v01.mp4",
+      "sha256": "976e51690a4dab81148cc8d126a3bf3cc311acf07c81dc878d94b9e5214c2b92"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v03/shot-09-coffee-revised-v03.mp4",
+      "sha256": "4c8c0f20e887d0536c67ad623783be935637d42e6f5e3f0d33aad8929bf31366"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-reflexes-coffee-orbit-minimax-v02.mp4",
+      "sha256": "782ebc616937139fbea3610a1c9a5604a035c5f5db6c53704d5fdd4b429b7c38"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-fpp-run-minimax-v04.mp4",
+      "sha256": "24be973fe71d67cd3810dfa21e951221e9a4b46916374e70b80873c06962abb3"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+      "sha256": "f5efe45d4615c8e650ede34edc5f542c285d934a44d790287617efcb77e5343c"
+    },
+    {
+      "file": "assets/06-shots/reviews/coffee-split-minimax-v04/shot-09-coffee-split-review-v04.mp4",
+      "sha256": "3fb1e87b399697bef05ee5957b04ccf2615c5e4da54cd2cf705ffdcdf9838195"
+    }
+  ],
+  "reference_hashes_verified": true,
+  "prompt_hash_verified": true,
+  "json_files_parsed": 10,
+  "local_gallery_links_valid": true,
+  "signed_urls_present": false,
+  "limits": [
+    "Choreography remains partial; output is not automatically selected.",
+    "Frame sampling and numeric audio checks do not constitute playback/listening approval."
+  ]
+}

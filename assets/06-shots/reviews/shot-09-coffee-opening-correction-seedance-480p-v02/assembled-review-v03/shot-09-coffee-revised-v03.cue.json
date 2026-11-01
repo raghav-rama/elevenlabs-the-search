@@ -1,0 +1,17 @@
+{
+  "config_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/shot-09-coffee-opening-correction-seedance-480p-v02\/assembled-review-v03\/whip-pan-config.json",
+  "config_sha256" : "029ec4ec798f815a8c445922a559560880b687fcf56d4e1d7f528b88d8de0dc6",
+  "duration_seconds" : 8.875,
+  "end_frame_exclusive" : 36,
+  "max_blur_pixels" : 36,
+  "max_shift_fraction" : 0.10000000000000001,
+  "note" : "Editorial screen-right shift and motion blur suggest a left glance. This is not a generated physical head rotation. Existing source audio retained through export; no new synthesis.",
+  "output_file" : "assets\/06-shots\/reviews\/shot-09-coffee-opening-correction-seedance-480p-v02\/assembled-review-v03\/shot-09-coffee-revised-v03.mp4",
+  "output_sha256" : "4c8c0f20e887d0536c67ad623783be935637d42e6f5e3f0d33aad8929bf31366",
+  "retimed" : false,
+  "script" : "scripts\/add-whip-pan-cue.swift",
+  "source_file" : "assets\/06-shots\/reviews\/shot-09-coffee-opening-correction-seedance-480p-v02\/assembled-review-v03\/coffee-recut-base-v03.mp4",
+  "source_modified" : false,
+  "source_sha256" : "ecbc9163c34e85e424c19d63ce7f143cbbf82364a4cf23db194c3bdf4fd86ae0",
+  "start_frame" : 32
+}

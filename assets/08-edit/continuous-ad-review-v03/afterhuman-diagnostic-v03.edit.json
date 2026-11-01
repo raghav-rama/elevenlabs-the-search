@@ -1,0 +1,93 @@
+{
+  "audio_bridges" : [
+    {
+      "duration_seconds" : 45,
+      "gain_db" : 0,
+      "source" : "assets\/08-edit\/upgrade-diagnostic-v01\/afterhuman-diagnostic-mix-v01.wav",
+      "source_in_seconds" : 0,
+      "source_sha256" : "fc8a8a9103d79fb1917197c0c7cd53a1ba4ab5790f92bed3f21fa2af38e9fa7b",
+      "timeline_start_seconds" : 0
+    }
+  ],
+  "audio_tracks" : 1,
+  "clips" : [
+    {
+      "audio" : "assets\/08-edit\/continuous-ad-review-v01\/afterhuman-continuous-with-david-v01.mp4",
+      "audio_gain_db" : -120,
+      "audio_sha256" : "782a57621f92287c8ec29c86b443782c26b83df8413547a38449ff15253a9350",
+      "duration_seconds" : 12.833333333333334,
+      "picture" : "assets\/08-edit\/continuous-ad-review-v01\/afterhuman-continuous-with-david-v01.mp4",
+      "picture_sha256" : "782a57621f92287c8ec29c86b443782c26b83df8413547a38449ff15253a9350",
+      "post_handle_samples" : 1920,
+      "pre_handle_samples" : 0,
+      "shot" : "Original opening through So upgrade",
+      "source_audio_rms_dbfs" : -21.256143580253784,
+      "source_in_seconds" : 0,
+      "timeline_start_seconds" : 0
+    },
+    {
+      "audio" : "assets\/08-edit\/continuous-ad-review-v01\/afterhuman-continuous-with-david-v01.mp4",
+      "audio_gain_db" : -120,
+      "audio_sha256" : "782a57621f92287c8ec29c86b443782c26b83df8413547a38449ff15253a9350",
+      "duration_seconds" : 5.291666666666667,
+      "picture" : "assets\/08-edit\/upgrade-diagnostic-v01\/upgrade-diagnostic-picture-v02.mp4",
+      "picture_sha256" : "cf97986e8bb98ec575313a5cd51c58e2600dda6f4749a56bfc0a6c4b1d52f6dd",
+      "post_handle_samples" : 1920,
+      "pre_handle_samples" : 0,
+      "shot" : "Floating Riley diagnostic and terminal type",
+      "source_audio_rms_dbfs" : -21.806970072929008,
+      "source_in_seconds" : 0,
+      "timeline_start_seconds" : 12.833333333333334
+    },
+    {
+      "audio" : "assets\/08-edit\/continuous-ad-review-v01\/afterhuman-continuous-with-david-v01.mp4",
+      "audio_gain_db" : -120,
+      "audio_sha256" : "782a57621f92287c8ec29c86b443782c26b83df8413547a38449ff15253a9350",
+      "duration_seconds" : 24.375,
+      "picture" : "assets\/08-edit\/continuous-ad-review-v01\/afterhuman-continuous-with-david-v01.mp4",
+      "picture_sha256" : "782a57621f92287c8ec29c86b443782c26b83df8413547a38449ff15253a9350",
+      "post_handle_samples" : 1920,
+      "pre_handle_samples" : 1920,
+      "shot" : "Original launch and complete power sequence",
+      "source_audio_rms_dbfs" : -21.749302133640668,
+      "source_in_seconds" : 18.125,
+      "timeline_start_seconds" : 18.125
+    },
+    {
+      "audio" : "assets\/08-edit\/continuous-ad-review-v01\/afterhuman-continuous-with-david-v01.mp4",
+      "audio_gain_db" : -120,
+      "audio_sha256" : "782a57621f92287c8ec29c86b443782c26b83df8413547a38449ff15253a9350",
+      "duration_seconds" : 2.5,
+      "picture" : "assets\/08-edit\/continuous-ad-review-v02\/afterhuman-brand-outro-v02.mp4",
+      "picture_sha256" : "9e285a7f561c5475ef286f2bc49d778b44ad1e10bea2feaa041854a4b70bc56d",
+      "post_handle_samples" : 0,
+      "pre_handle_samples" : 0,
+      "shot" : "Product descriptor end card",
+      "source_audio_rms_dbfs" : -22.033829365808639,
+      "source_in_seconds" : 0,
+      "timeline_start_seconds" : 42.5
+    }
+  ],
+  "crossfade_half_seconds" : 0.040000000000000001,
+  "decoded_aac_peak_dbfs" : -1.4992696771383871,
+  "duration_seconds" : 45,
+  "fps" : 24,
+  "framing" : "fill",
+  "master_gain" : 0.99981174437291009,
+  "mixed_wav" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/08-edit\/continuous-ad-review-v03\/afterhuman-diagnostic-v03.mix.wav",
+  "notes" : "Hard picture cuts; source frame ranges at original speed, aspect conformed according to the recorded framing setting. Picture re-encoded, not bitstream copied. Audio levels adjusted conservatively using RMS, not perceptual loudness. Native audio ducked under the supplied narration according to the timeline; no synthesis or speech removal by this script. Original source files remain untouched. Audio content and subjective transitions require listening review.",
+  "output" : "assets\/08-edit\/continuous-ad-review-v03\/afterhuman-diagnostic-v03.mp4",
+  "output_sha256" : "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd",
+  "pcm_peak_dbfs" : -1.4999999999999996,
+  "pcm_rms_dbfs" : -21.821723518348499,
+  "resolution" : [
+    1920,
+    1080
+  ],
+  "review_status" : "pending_user_playback_and_listening",
+  "script" : "scripts\/assemble-continuation.swift",
+  "speed_multiplier" : 1,
+  "timeline" : "assets\/08-edit\/continuous-ad-review-v03\/timeline.json",
+  "timeline_sha256" : "5a7901b35de75a48e2a4b7a1a715feee5230c76b7c727d64329c88d38e1fe9d3",
+  "title" : "AFTERHUMAN — Floating diagnostic review v03"
+}

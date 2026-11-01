@@ -1,0 +1,32 @@
+{
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "model_id": "bytedance-seedance-v2.5-edit",
+  "status": "not_selected_train_motion_unresolved_user_stopped",
+  "estimate": {
+    "credits": 7901.278156800001,
+    "price_cents": 11472.655883673602,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "session_ids": [
+    "AFt07NoYeD1n1CnuKSW8"
+  ],
+  "generation_id": "A8JhkxJ2GEDjunQjQL9w",
+  "review_sample_count": 21,
+  "review_interval_seconds": 0.25,
+  "shots": [
+    {
+      "asset_id": "shot-11-12-train-forward-seedance-edit-480p-v02",
+      "record_file": "assets/06-shots/videos/shot-11-12-train-forward-seedance-edit-480p-v02.generation.json",
+      "output_file": "assets/06-shots/videos/shot-11-12-train-forward-seedance-edit-480p-v02.mp4",
+      "prompt_file": "assets/06-shots/video-prompts/shot-11-12-train-forward-seedance-edit-480p-v02.txt",
+      "node_id": "xBr0DWSKHdi5LfRFV237",
+      "generation_id": "A8JhkxJ2GEDjunQjQL9w",
+      "session_id": "AFt07NoYeD1n1CnuKSW8",
+      "status": "not_selected_train_motion_unresolved_user_stopped",
+      "sha256": "ad4875bd80f7cb5fc6ea142eccb77140d8c74d5c73e382b82a5c2e41fe0878b1"
+    }
+  ]
+}

@@ -4,9 +4,10 @@ import AppKit
 import CryptoKit
 
 // Local editorial spiral/end card. No generative service; sources are read only.
-guard CommandLine.arguments.count == 3 else {
-    fatalError("Usage: render-brand-outro.swift ENDING_FRAME.png NEW_OUTRO.mp4")
+guard (3...4).contains(CommandLine.arguments.count) else {
+    fatalError("Usage: render-brand-outro.swift ENDING_FRAME.png NEW_OUTRO.mp4 [PRODUCT_DESCRIPTOR]")
 }
+let descriptor = CommandLine.arguments.count == 4 ? CommandLine.arguments[3] : nil
 let source = URL(fileURLWithPath: CommandLine.arguments[1])
 let output = URL(fileURLWithPath: CommandLine.arguments[2])
 let record = output.deletingPathExtension().appendingPathExtension("edit.json")
@@ -88,7 +89,12 @@ for frame in 0..<frames {
         (text as NSString).draw(at: CGPoint(x: (1920 - measured.width) / 2, y: y), withAttributes: attrs)
     }
     centered("AFTERHUMAN", y: 455, size: 138, kern: 10, color: .white, weight: .heavy)
-    centered("A STEP AHEAD.", y: 365, size: 39, kern: 8, color: cyan, weight: .medium)
+    if let descriptor = descriptor {
+        centered(descriptor, y: 390, size: 42, kern: 5, color: .white, weight: .medium)
+        centered("A STEP AHEAD.", y: 300, size: 34, kern: 7, color: cyan, weight: .medium)
+    } else {
+        centered("A STEP AHEAD.", y: 365, size: 39, kern: 8, color: cyan, weight: .medium)
+    }
     NSGraphicsContext.restoreGraphicsState()
     CVPixelBufferUnlockBaseAddress(pixel, [])
     guard adaptor.append(pixel, withPresentationTime: CMTime(value: Int64(frame), timescale: fps)) else {
@@ -108,6 +114,7 @@ let report: [String: Any] = ["status": "editorial_end_card_pending_user_review",
     "output_sha256": try hash(output), "frames": frames, "fps": fps, "duration_seconds": 2.5,
     "dimensions": [width, height], "audio": "none; assembled soundtrack supplied separately",
     "script": "scripts/render-brand-outro.swift", "paid_generation": false,
+    "product_descriptor": descriptor ?? "",
     "note": "Local spiral transition from the held ending frame into exact brand typography; not a newly approved identity/logo design."]
 try JSONSerialization.data(withJSONObject: report, options: [.prettyPrinted, .sortedKeys]).write(to: record)
 print("Saved 60-frame editorial outro: \(output.path)")

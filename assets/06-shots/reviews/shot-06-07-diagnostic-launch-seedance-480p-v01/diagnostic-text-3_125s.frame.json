@@ -1,0 +1,12 @@
+{
+  "actual_seconds" : 3.125,
+  "height" : 480,
+  "output_file" : "assets\/06-shots\/reviews\/shot-06-07-diagnostic-launch-seedance-480p-v01\/diagnostic-text-3_125s.png",
+  "requested_seconds" : 3.125,
+  "script" : "scripts\/extract-video-frame.swift",
+  "sha256" : "c746254345a3c7cb9838aa0809c76c9e321481ac442d68cbeba72b9029ae9c66",
+  "source_file" : "assets\/06-shots\/videos\/shot-06-07-diagnostic-launch-seedance-480p-v01.mp4",
+  "source_modified" : false,
+  "source_sha256" : "dacbdc7e5c7f03047dcfd91251b4d4554d0d20b54fe88bb740aca22533c7841d",
+  "width" : 854
+}

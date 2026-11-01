@@ -1,0 +1,417 @@
+{
+  "asset_id": "shot-08-intelligence-city-seedance-480p-v02",
+  "title": "Intelligence \u2014 selected C tactical HUD",
+  "status": "user_approved_range_locked",
+  "provider": "ElevenLabs",
+  "model_id": "bytedance-seedance-v2.5",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "node_id": "PsSNhznu73ibMqCYegnw",
+  "prompt": "Five-second continuous photoreal first-person shot through upgraded Riley's eyes, starting from the supplied selected tactical HUD frame. Maintain its exact composition, adult-sized skin-and-chrome left hand, city, train, light and dense cyan interface. Single action: her enhanced intelligence instantly resolves the interception route.\n\nFrom 0.0 to 0.7 seconds, a narrow radar sweep crosses the EXISTING right circular map, two faint amber route alternatives pulse briefly, the left neural-network ring lights in a fast clockwise sequence and its waveform responds. By 1.0 second, one cyan map route clearly wins and the alternatives dim. A bright cyan pulse then travels along the EXISTING ramp arrows toward the train. By 1.3 seconds, the magenta train-tracking bracket tightens once, with a short confirmation flash. Hold the solved route visibly from 1.3 to 5.0 seconds; only small radar sweeps, gentle waveform activity and a slow cyan flow along the route continue. The result must be unmistakable within the first two seconds.\n\nKeep all HUD panel positions fixed to the viewer. Preserve the original lettering and numbers exactly; labels do not animate, scroll or morph. Animate ONLY ring segments, graph traces, radar sweep and route highlights inside the existing display. No new text or panels. Keep AFTERHUMAN, NEURAL LINK, SCENE ANALYSIS, neural readouts, radar, three log rows and all four bottom subsystem dials continuously visible. The train bracket follows its target; ramp arrows remain attached to the walkway. Maintain thin translucent cyan graphics, magenta train bracket and restrained amber alternatives, no opaque glow.\n\nCamera stays nearly locked behind the parapet, with tiny natural breathing sway only: no zoom, crop, tilt, push through the railing or camera transition. Riley's one hand subtly relaxes its fingers without pointing, stretching or changing anatomy. The distant train moves steadily toward screen-left along the existing elevated rails, with rigid cars and no sudden speed changes; small pedestrians walk naturally. Buildings, rails and ramp remain rigid. No sprint or extra action.\n\nSound: restrained city air and distant electric train hum, a quick sequence of soft neural-computation ticks during the initial scan, one concise satisfying route-lock chirp at 1.3 seconds, then ambience. No voice, speech, narration or music. No cuts, screen blackouts, new symbols, flickering letters, extra fingers, broad hand gestures or changing HUD design.",
+  "prompt_file": "assets/06-shots/video-prompts/shot-08-intelligence-city-seedance-480p-v02.txt",
+  "output_file": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v02.mp4",
+  "requested_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "480p",
+    "duration_secs": 5,
+    "generate_audio": true
+  },
+  "effective_settings": {
+    "aspect_ratio": "auto",
+    "resolution": "480p",
+    "duration_secs": 5,
+    "generate_audio": true,
+    "start_frame": {
+      "template_node_id": "cKG1QSqenD59qvxzGcOV"
+    }
+  },
+  "references": [
+    {
+      "file": "assets/06-shots/images/shot-08-hud-c-tactical-v02.png",
+      "sha256": "c3ab7dab7282a2929813b83587aec496d79b5e406115351446e8fe4d076ec372",
+      "node_id": "cKG1QSqenD59qvxzGcOV",
+      "generation_id": "cEbukhtVbZ3xXrWBj1dp",
+      "port": "start_frame"
+    }
+  ],
+  "estimate": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "generations_count": 1,
+  "seed": null,
+  "seed_note": "No seed exposed by live schema.",
+  "selected": true,
+  "user_approved": true,
+  "authorization_context": "User selected C then said Continue after proposed typography polish then replacement video.",
+  "retries": 0,
+  "prepared_at": "2026-11-01T20:57:14+05:30",
+  "prompt_sha256": "b4a45a7c98fd0d0801edb3972dea92c05fd9d80c3b1a02c7da0621a572935915",
+  "preserved_files": [
+    {
+      "file": "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+      "sha256": "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4",
+      "sha256": "3b4227ae98e2c8baf55400a430fef6b306d5d0f82f66369b9199a08f16ceba27"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v01.mp4",
+      "sha256": "9155424f03d016c9082dae9aee6fdc3d5d40471c42809b86bcced6e4c244f036"
+    }
+  ],
+  "submitted_at": "2026-11-01T20:57:34+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "PsSNhznu73ibMqCYegnw",
+        "session_id": "HY4UQG6gDUf1VIiQyVNO",
+        "credit_costs": {
+          "z0kmtBp1Q5as6vk2UIc5": 6511.470000000001
+        }
+      }
+    ],
+    "session_ids": [
+      "HY4UQG6gDUf1VIiQyVNO"
+    ],
+    "pending": [
+      {
+        "generation_id": "z0kmtBp1Q5as6vk2UIc5",
+        "kind": "video"
+      }
+    ]
+  },
+  "session_ids": [
+    "HY4UQG6gDUf1VIiQyVNO"
+  ],
+  "live_schema": {
+    "model_id": "bytedance-seedance-v2.5",
+    "model_name": "Seedance 2.5",
+    "node_type": "video-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "16:9",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "720p",
+        "options": [
+          {
+            "label": "480p",
+            "value": "480p"
+          },
+          {
+            "label": "720p",
+            "value": "720p"
+          },
+          {
+            "label": "1080p",
+            "value": "1080p"
+          }
+        ]
+      },
+      {
+        "name": "duration_secs",
+        "type": "select_number",
+        "required": false,
+        "default": 5,
+        "options": [
+          {
+            "label": "4",
+            "value": 4
+          },
+          {
+            "label": "5",
+            "value": 5
+          },
+          {
+            "label": "6",
+            "value": 6
+          },
+          {
+            "label": "7",
+            "value": 7
+          },
+          {
+            "label": "8",
+            "value": 8
+          },
+          {
+            "label": "9",
+            "value": 9
+          },
+          {
+            "label": "10",
+            "value": 10
+          },
+          {
+            "label": "11",
+            "value": 11
+          },
+          {
+            "label": "12",
+            "value": 12
+          },
+          {
+            "label": "13",
+            "value": 13
+          },
+          {
+            "label": "14",
+            "value": 14
+          },
+          {
+            "label": "15",
+            "value": 15
+          },
+          {
+            "label": "16",
+            "value": 16
+          },
+          {
+            "label": "17",
+            "value": 17
+          },
+          {
+            "label": "18",
+            "value": 18
+          },
+          {
+            "label": "19",
+            "value": 19
+          },
+          {
+            "label": "20",
+            "value": 20
+          },
+          {
+            "label": "21",
+            "value": 21
+          },
+          {
+            "label": "22",
+            "value": 22
+          },
+          {
+            "label": "23",
+            "value": 23
+          },
+          {
+            "label": "24",
+            "value": 24
+          },
+          {
+            "label": "25",
+            "value": 25
+          },
+          {
+            "label": "26",
+            "value": 26
+          },
+          {
+            "label": "27",
+            "value": 27
+          },
+          {
+            "label": "28",
+            "value": 28
+          },
+          {
+            "label": "29",
+            "value": 29
+          },
+          {
+            "label": "30",
+            "value": 30
+          }
+        ]
+      },
+      {
+        "name": "generate_audio",
+        "type": "boolean",
+        "required": false,
+        "default": true
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "start_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "end_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_images",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_videos",
+        "modality": "video",
+        "required": false
+      },
+      {
+        "key": "reference_audios",
+        "modality": "audio",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "duration_secs": "any value: pass `values` to creative_expose_flow_parameter",
+      "generate_audio": [
+        "true",
+        "false"
+      ],
+      "resolution": [
+        "480p",
+        "720p",
+        "1080p"
+      ]
+    }
+  },
+  "completed_at": "2026-11-01T21:00:38+05:30",
+  "generation_id": "z0kmtBp1Q5as6vk2UIc5",
+  "session_id": "HY4UQG6gDUf1VIiQyVNO",
+  "sha256": "da8a4c389e608b276f31e872372fb1fef135139ec8c28fd8b30e144ada3c9403",
+  "bytes": 2589836,
+  "provider_reported_price": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T21:03:36+05:30",
+  "location": "First-person terrace in the approved cyberpunk city",
+  "assistant_visual_review": {
+    "observations": [
+      "Selected C density remains visible: neural circle, waveform, body diagnostics, circular radar, route data and four subsystem dials.",
+      "Amber route branch lights by 0.25s, with a bright cyan radar route by approximately 0.75s.",
+      "A clear bright pulse travels up the real ramp at approximately 2.25\u20132.9s; city and first-person hand composition remain recognizable.",
+      "Panels stay mostly fixed within the view; distant train and pedestrians move, with increasing finger curl late in the take."
+    ],
+    "limitations": [
+      "Main ramp pulse occurs later than the requested 1.3-second confirmation; no clear sustained early route-lock beat.",
+      "Fine type and numeric readouts change or soften in animation, including the cognition multiplier. Exact production text needs an editorial pass.",
+      "Magenta train bracket disappears around 2.9\u20133.0s although the HUD and train remain visible; tracking and colored pedestrian labels are not perfectly stable.",
+      "Strong hand curl late in the source is outside the proposed excerpt. Natural motion and geography still need user playback judgment.",
+      "Native audio has been decoded and level-checked only; speech absence, chirp timing and mix continuity have not had an independent listening review.",
+      "Proposed 2.75-second excerpt is not user-selected and has not replaced the shot in the accepted ad."
+    ],
+    "method": "21 sampled frames across the source, 6 native-sized route-detail frames, exact last frames, full decode and audio level checks; not an independent playback/listening review.",
+    "reviewed_at": "2026-11-01T21:03:36+05:30",
+    "user_selection_pending": true
+  },
+  "native_inspection": {
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 5.056,
+        "sample_rate": 32000
+      }
+    ],
+    "duration_seconds": 5.042,
+    "extracted_frame_seconds": 5,
+    "frame_height": 480,
+    "frame_width": 854,
+    "last_frame_file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/last-frame.png",
+    "last_frame_sha256": "87db567593b477a4cf32ae6eea8179009c6f3afe401d6af7b7ad3a8518a7502e",
+    "last_picture_frame_file": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/last-picture-frame.png",
+    "last_picture_frame_seconds": 5,
+    "last_picture_frame_sha256": "87db567593b477a4cf32ae6eea8179009c6f3afe401d6af7b7ad3a8518a7502e",
+    "last_video_sample_seconds": 5,
+    "near_black_detection": "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+    "near_black_frame_times_seconds": [],
+    "nominal_fps": 24,
+    "review_limits": "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+    "script": "scripts/inspect-review-video.swift",
+    "source_file": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v02.mp4",
+    "source_modified": false,
+    "source_sha256": "da8a4c389e608b276f31e872372fb1fef135139ec8c28fd8b30e144ada3c9403",
+    "video_codec_fourcc": "avc1",
+    "video_duration_seconds": 5.042,
+    "video_samples": 121
+  },
+  "candidate_edit": {
+    "status": "user_approved_locked",
+    "source_in_frames": 6,
+    "source_out_frames_exclusive": 72,
+    "source_in_seconds": 0.25,
+    "source_out_seconds_exclusive": 3.0,
+    "duration_frames": 66,
+    "duration_seconds": 2.75,
+    "fps": 24,
+    "speed_multiplier": 1,
+    "output_file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/edit-preview-v01/shot-08-hud-c-edit-preview-v01.mp4",
+    "sha256": "cd63556da707cf6fee969976cb27a7112bb178d372c799fdef5ec3d2982cc51e",
+    "source_unchanged": true,
+    "ad_unchanged": true,
+    "local_reencode": true,
+    "audio_edge_fades_seconds": 0.008,
+    "new_credits": 0,
+    "selected": true,
+    "user_approved": true,
+    "approved_at": "2026-11-01T21:08:16+05:30",
+    "approval_evidence": "Lock it and continue",
+    "approval_scope": "The delivered 2.75-second HUD excerpt, source [0.25,3.00), frames 6\u201371 at original speed; not blanket approval of the full-source tail or final audio master."
+  },
+  "approved_at": "2026-11-01T21:08:16+05:30",
+  "approval_evidence": "Lock it and continue",
+  "approval_scope": "The delivered 2.75-second HUD excerpt, source [0.25,3.00), frames 6\u201371 at original speed; not blanket approval of the full-source tail or final audio master."
+}

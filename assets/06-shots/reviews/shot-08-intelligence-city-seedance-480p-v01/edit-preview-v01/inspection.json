@@ -1,0 +1,33 @@
+{
+  "audio_tracks" : [
+    {
+      "channels" : 2,
+      "codec_fourcc" : "aac ",
+      "duration_seconds" : 2.75,
+      "sample_rate" : 48000
+    }
+  ],
+  "duration_seconds" : 2.75,
+  "extracted_frame_seconds" : 2.7083333333333335,
+  "frame_height" : 480,
+  "frame_width" : 854,
+  "last_frame_file" : "assets\/06-shots\/reviews\/shot-08-intelligence-city-seedance-480p-v01\/edit-preview-v01\/last-frame.png",
+  "last_frame_sha256" : "0896303269f797f053bbe5515a85662737a7892e88c2d12a8c31db9188684d36",
+  "last_picture_frame_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/shot-08-intelligence-city-seedance-480p-v01\/edit-preview-v01\/last-picture-frame.png",
+  "last_picture_frame_seconds" : 2.7083333333333335,
+  "last_picture_frame_sha256" : "0896303269f797f053bbe5515a85662737a7892e88c2d12a8c31db9188684d36",
+  "last_video_sample_seconds" : 2.7083333333333335,
+  "near_black_detection" : "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+  "near_black_frame_times_seconds" : [
+
+  ],
+  "nominal_fps" : 24,
+  "review_limits" : "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+  "script" : "scripts\/inspect-review-video.swift",
+  "source_file" : "assets\/06-shots\/reviews\/shot-08-intelligence-city-seedance-480p-v01\/edit-preview-v01\/shot-08-hud-edit-preview-v01.mp4",
+  "source_modified" : false,
+  "source_sha256" : "c99815be60cdbba2e54a0bb6631e599fcb76be03cf7b5847d623f1c3d981350e",
+  "video_codec_fourcc" : "avc1",
+  "video_duration_seconds" : 2.75,
+  "video_samples" : 66
+}

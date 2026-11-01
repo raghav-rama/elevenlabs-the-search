@@ -1,0 +1,185 @@
+{
+  "asset_id": "shot-08-intelligence-city-seedance-480p-v01",
+  "title": "Intelligence HUD — Seedance 2.5 / 480p / take 1",
+  "location": "Raised terrace in the approved bright cyberpunk station district",
+  "status": "revision_requested_hud_density",
+  "selected": false,
+  "user_approved": false,
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "node_id": "YZKPB4nR2oirJzFFRqMQ",
+  "model_id": "bytedance-seedance-v2.5",
+  "requested_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "480p",
+    "duration_secs": 5,
+    "generate_audio": true
+  },
+  "effective_settings": {
+    "aspect_ratio": "auto",
+    "resolution": "480p",
+    "duration_secs": 5,
+    "generate_audio": true,
+    "start_frame": {
+      "template_node_id": "zle93ij2plTfimqPEqso"
+    }
+  },
+  "seed": null,
+  "seed_note": "No seed control exposed by current model schema.",
+  "prompt": "Five-second continuous photoreal first-person shot, starting exactly from the approved city terrace image. We are seeing through upgraded Riley's eyes. The clearly visible transparent cyan optical HUD is part of her vision, not a handheld device. Maintain the exact bright hazy daylight, futuristic terrace and elevated railway, parapet, adult-sized natural left hand and thin chrome/cyan inlays. One hand only, stable anatomy, no third-person view.\n\nThe single action is an almost-instant intelligent route solution. Within the first 0.8 seconds, a fine scan sweeps across the skyline while two faint alternate branches briefly flicker inside the EXISTING upper-right route map. By 1.3 seconds these alternatives dim out and one strong cyan route resolves. Cyan arrow segments race in sequence along the EXISTING pedestrian-ramp path toward the railway interception point. At 1.5 seconds the magenta rail target bracket tightens once and a single crisp cyan pulse confirms the solution. From 1.5 through 5 seconds the selected path and target remain clearly visible and stable, with only subtle directional travel of the route arrows. Communicate fast calculation, a decisive choice, and confidence; do not spend the whole shot calculating.\n\nKeep the existing NEURAL LINK and INTERCEPT ROUTE labels in their original positions, sharp and unchanged. Do not add words, numbers, dialogue captions, logos or extra floating windows. Keep the interface thin and translucent so the real city remains readable. HUD corner panels stay fixed relative to the viewer; the train bracket follows its tracked target and the route stays attached to the actual ramp. No HUD disappearance, full-screen glow, glitching text or opaque hologram.\n\nCamera remains at eye level behind the same parapet with only tiny natural head movement. After route lock, a subtle gaze/upper-body lean toward the ramp suggests the next move; no forward travel through the barrier and no new action sequence. The visible hand makes only a slight natural finger relaxation, never points at or operates a screen. The train moves steadily leftward along its existing elevated rails with its nose leading; distant pedestrians move naturally. Preserve rigid buildings, rails, ramp and parapet geometry.\n\nNative sound: quiet city air and distant electric train movement, a very short rapid series of soft scanning ticks, one satisfying electronic route-lock chirp at 1.5 seconds, then city ambience. No voice, narration, speech or music. No cuts, zoom, orbit, camera roll, jump, sprint launch, slow motion, extra hands, finger stretching, new obstructions or morphing architecture.",
+  "prompt_file": "assets/06-shots/video-prompts/shot-08-intelligence-city-seedance-480p-v01.txt",
+  "output_file": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v01.mp4",
+  "requested_generations": 1,
+  "generations_per_shot": 1,
+  "retries": 0,
+  "estimate": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "references": [
+    {
+      "port": "start_frame",
+      "node_id": "zle93ij2plTfimqPEqso",
+      "generation_id": "L6rqTHE2WjQw2BdZyDng",
+      "file": "assets/06-shots/images/shot-08-intelligence-city-start-v02.png",
+      "sha256": "f6c559b149b6693a78c45486dc5bf07dc321d83f27528f672496faaca6fd2e6b"
+    }
+  ],
+  "authorization_context": "User says Go ahead immediately after the proposed next intelligence/HUD shot. One five-second 480p Seedance 2.5 take at the quoted cost; other shots and retries not included.",
+  "review_sample_count": 21,
+  "review_interval_seconds": 0.25,
+  "current_edit_slot": {
+    "start_seconds": 19.375,
+    "end_seconds": 22.125,
+    "duration_seconds": 2.75
+  },
+  "prepared_at": "2026-11-01T20:03:23+05:30",
+  "preserved_files": [
+    {
+      "file": "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+      "sha256": "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-12-overtake-city-seedance-480p-v01.mp4",
+      "sha256": "04bb665e28eff23d38d3ef32a8c6e38429a9281275c0a05f9096f0ec3e51a312"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4",
+      "sha256": "3b4227ae98e2c8baf55400a430fef6b306d5d0f82f66369b9199a08f16ceba27"
+    }
+  ],
+  "prompt_sha256": "b0b39542bcd1501bf609cfd5d1ce83e58605f707f2a6c937e3b2d44e884c0647",
+  "submitted_at": "2026-11-01T20:03:59+05:30",
+  "session_ids": [
+    "T69JHWOi4Mn0Fwhx1Zx7"
+  ],
+  "run_summary": {
+    "nodes_run": 1,
+    "generations_started": 1,
+    "failed": 0,
+    "generations_by_node": {
+      "YZKPB4nR2oirJzFFRqMQ": 1
+    }
+  },
+  "run_results": [
+    {
+      "success": true,
+      "node_id": "YZKPB4nR2oirJzFFRqMQ",
+      "session_id": "T69JHWOi4Mn0Fwhx1Zx7",
+      "credit_costs": {
+        "9vYJywyyDVQZbV40Rmr8": 6511.470000000001
+      }
+    }
+  ],
+  "generation_id": "9vYJywyyDVQZbV40Rmr8",
+  "reported_submission_credits": 6511.470000000001,
+  "completed_at": "2026-11-01T20:06:53+05:30",
+  "provider_generation": {
+    "id": "9vYJywyyDVQZbV40Rmr8",
+    "status": "completed",
+    "model_id": "bytedance-seedance-v2.5",
+    "modality": "video",
+    "prompt": "Five-second continuous photoreal first-person shot, starting exactly from the approved city terrace image. We are seeing through upgraded Riley's eyes. The clearly visible transparent cyan optical HUD",
+    "duration_secs": 5.056,
+    "width": 854,
+    "height": 480,
+    "created_at_unix_ms": 1793543604427,
+    "price": {
+      "credits": 6511.470000000001,
+      "price_cents": 9454.654440000002,
+      "cost_fiat_currency": "inr"
+    }
+  },
+  "sha256": "9155424f03d016c9082dae9aee6fdc3d5d40471c42809b86bcced6e4c244f036",
+  "size_bytes": 3162932,
+  "download_content_type": "video/mp4",
+  "actual_price": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T20:11:09+05:30",
+  "assistant_visual_review": {
+    "status": "generated_pending_user_review",
+    "method": "Full decode; 21 samples across the five-second source, 11 larger samples from 1.25 to 3.75 seconds, and native final frame. Technical preview verification only; independent real-time playback and listening approval not established.",
+    "observations": [
+      "Transparent cyan HUD, pedestrian-ramp route arrows and upper-right map stay visible throughout sampled frames.",
+      "Horizontal scan traverses the view early; the upper-right selected cyan branch becomes bright around 2.0 seconds.",
+      "Magenta rail bracket tightens and a cyan destination/confirmation diamond appears around 3.5 seconds, later than the prompted 1.5-second lock.",
+      "First-person viewpoint remains behind the parapet with one natural skin hand and narrow chrome/cyan inlays; bright cyberpunk architecture is coherent with the approved starting image.",
+      "The train and pedestrians move while the hand makes small finger movements. Camera leans slightly toward the ramp late in the take."
+    ],
+    "limitations": [
+      "Full-source confirmation is late for the 2.75-second edit slot. A proposed original-speed [1.25,4.00) preview includes the scan tail, route highlight and final cue; it is not user-approved or inserted into the ad.",
+      "The upper-left NEURAL LINK heading becomes partly obscured near the source ending as the viewpoint changes; HUD is not perfectly fixed to the viewer. Exact typography/tracking may need editorial cleanup.",
+      "Competing-route evaluation is subtle and the pedestrian route is present from the beginning, so the shot may read more as navigation than an unmistakable comparison of alternatives.",
+      "The train appears to progress toward screen right rather than the requested leftward motion; confirm intended geography in the assembled sequence before locking.",
+      "Native audio is decoded/level-checked only. Speech absence, scan/confirmation sound timing and continuity with David/Chrome Swagger are not independently verified.",
+      "Fine hand anatomy, optical tracking and perceived intelligence/action clarity require user playback review. No retake or upscale has been started."
+    ]
+  },
+  "candidate_edit": {
+    "status": "assistant_proposed_pending_user_review",
+    "source_in_frames": 30,
+    "source_out_frames_exclusive": 96,
+    "source_in_seconds": 1.25,
+    "source_out_seconds_exclusive": 4,
+    "duration_frames": 66,
+    "duration_seconds": 2.75,
+    "fps": 24,
+    "speed_multiplier": 1,
+    "output_file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v01/edit-preview-v01/shot-08-hud-edit-preview-v01.mp4",
+    "sha256": "c99815be60cdbba2e54a0bb6631e599fcb76be03cf7b5847d623f1c3d981350e",
+    "source_unchanged": true,
+    "ad_unchanged": true,
+    "local_reencode": true,
+    "audio_edge_fades_seconds": 0.008,
+    "new_credits": 0
+  },
+  "review_file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v01/review.json",
+  "review_index": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v01/index.html",
+  "native_video": {
+    "width": 854,
+    "height": 480,
+    "fps": 24,
+    "frames": 121,
+    "video_duration_seconds": 5.042,
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 5.056,
+        "sample_rate": 32000
+      }
+    ]
+  },
+  "hud_revision_request": {
+    "recorded_at": "2026-11-01T20:20:15+05:30",
+    "feedback": "More HUD items, kinda like Iron Man.",
+    "scope": "HUD information-density revision; generate three still concepts for review before any new video. Preserve city/hand composition.",
+    "status": "hud_revision_requested_new_stills_pending"
+  }
+}

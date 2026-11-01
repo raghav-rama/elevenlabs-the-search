@@ -1,0 +1,33 @@
+{
+  "audio_tracks" : [
+    {
+      "channels" : 2,
+      "codec_fourcc" : "aac ",
+      "duration_seconds" : 12.064,
+      "sample_rate" : 32000
+    }
+  ],
+  "duration_seconds" : 12.042,
+  "extracted_frame_seconds" : 12,
+  "frame_height" : 960,
+  "frame_width" : 1708,
+  "last_frame_file" : "assets\/06-shots\/reviews\/shot-04-05-continuous-topaz-2x-v01\/last-frame.png",
+  "last_frame_sha256" : "211f7754ff2df560198c01db9f03e8841dbf28aba33ff772b001c3acd10515d5",
+  "last_picture_frame_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/shot-04-05-continuous-topaz-2x-v01\/last-picture-frame.png",
+  "last_picture_frame_seconds" : 12,
+  "last_picture_frame_sha256" : "211f7754ff2df560198c01db9f03e8841dbf28aba33ff772b001c3acd10515d5",
+  "last_video_sample_seconds" : 12,
+  "near_black_detection" : "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+  "near_black_frame_times_seconds" : [
+
+  ],
+  "nominal_fps" : 24,
+  "review_limits" : "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+  "script" : "scripts\/inspect-review-video.swift",
+  "source_file" : "assets\/06-shots\/videos\/shot-04-05-continuous-topaz-2x-v01.mp4",
+  "source_modified" : false,
+  "source_sha256" : "83b6da113f490c82fc95bc4b53cab6f841e69a439e0046292f88b63d2b7228bf",
+  "video_codec_fourcc" : "hvc1",
+  "video_duration_seconds" : 12.042,
+  "video_samples" : 289
+}

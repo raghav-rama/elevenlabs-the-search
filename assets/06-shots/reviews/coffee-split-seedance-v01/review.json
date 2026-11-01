@@ -1,0 +1,73 @@
+{
+  "asset_id": "shot-09-coffee-seedance-review-v01",
+  "title": "New \u2014 MiniMax FPP + Seedance rescue",
+  "location": "Same cafe scene; ten-second comparison edit",
+  "status": "not_selected_minimax_v04_preferred",
+  "selected": false,
+  "user_approved": false,
+  "output_file": "assets/06-shots/reviews/coffee-split-seedance-v01/shot-09-coffee-seedance-review-v01.mp4",
+  "sha256": "8b920debe2b9661f05f8cc26fd1af1d2d7a72cf1aa5f874cb528a0db7b1fe021",
+  "reviewed_at": "2026-11-01T23:34:17+05:30",
+  "native_inspection": {
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 10,
+        "sample_rate": 48000
+      }
+    ],
+    "duration_seconds": 10,
+    "extracted_frame_seconds": 9.958333333333334,
+    "frame_height": 480,
+    "frame_width": 854,
+    "last_frame_file": "assets/06-shots/reviews/coffee-split-seedance-v01/last-frame.png",
+    "last_frame_sha256": "abea34dcd3254c1ef97b22181a3a3c511b6149216dde78f94a34d2bd6bd003aa",
+    "last_picture_frame_file": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/reviews/coffee-split-seedance-v01/last-picture-frame.png",
+    "last_picture_frame_seconds": 9.958333333333334,
+    "last_picture_frame_sha256": "abea34dcd3254c1ef97b22181a3a3c511b6149216dde78f94a34d2bd6bd003aa",
+    "last_video_sample_seconds": 9.958333333333334,
+    "near_black_detection": "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+    "near_black_frame_times_seconds": [],
+    "nominal_fps": 24,
+    "review_limits": "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+    "script": "scripts/inspect-review-video.swift",
+    "source_file": "assets/06-shots/reviews/coffee-split-seedance-v01/shot-09-coffee-seedance-review-v01.mp4",
+    "source_modified": false,
+    "source_sha256": "8b920debe2b9661f05f8cc26fd1af1d2d7a72cf1aa5f874cb528a0db7b1fe021",
+    "video_codec_fourcc": "avc1",
+    "video_duration_seconds": 10,
+    "video_samples": 240
+  },
+  "edit_record": "assets/06-shots/reviews/coffee-split-seedance-v01/shot-09-coffee-seedance-review-v01.edit.json",
+  "timeline": "assets/06-shots/reviews/coffee-split-seedance-v01/timeline.json",
+  "assistant_visual_review": {
+    "observations": [
+      "Same liked MiniMax FPP excerpt and new Seedance TPP take, 240 frames / ten seconds at 24fps.",
+      "Original speed, hard perspective cut, native audio with conservative gain adjustment.",
+      "Full Seedance 854\u00d7480 canvas; FPP fitted without stretching or cropping."
+    ],
+    "limitations": [
+      "FPP gradual glance is inherited unchanged.",
+      "Seedance catch remains slow and lateral eye motion is weak.",
+      "Native audio is a review mix, not a listening-approved final mix.",
+      "No replacement of the accepted ad or MiniMax fallback."
+    ]
+  },
+  "cost": {
+    "credits": 10418.352,
+    "price_cents": 15127.447104000003,
+    "cost_fiat_currency": "inr"
+  },
+  "new_paid_generations": 1,
+  "new_stills_or_audio_generations": 0,
+  "decoded_aac_peak_dbfs": -4.92711854379119,
+  "user_feedback": {
+    "at": "2026-11-01T23:38:50+05:30",
+    "source": "explicit_user_message",
+    "quote": "Nope this looks better /Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+    "preferred_take": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+    "scope": "User prefers MiniMax v04 over the Seedance test for this TPP shot. Selection applies to this comparison, not a final ad lock, upscale or regeneration authorization."
+  },
+  "updated_at": "2026-11-01T23:38:50+05:30"
+}

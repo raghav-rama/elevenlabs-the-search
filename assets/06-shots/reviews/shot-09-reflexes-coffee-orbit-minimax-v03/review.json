@@ -1,0 +1,78 @@
+{
+  "asset_id": "shot-09-reflexes-coffee-orbit-minimax-v03",
+  "title": "Coffee orbit — approved one-hand start and close downward catch",
+  "location": "Approved cyberpunk cafe sidewalk",
+  "status": "revision_requested_hidden_release_and_speed",
+  "output_file": "assets/06-shots/videos/shot-09-reflexes-coffee-orbit-minimax-v03.mp4",
+  "sha256": "89159ef7a9e9e37bcde040bb995dd56e6e6cdee9236bf70e1581619733ded4c0",
+  "generation_record": "assets/06-shots/videos/shot-09-reflexes-coffee-orbit-minimax-v03.generation.json",
+  "selected": false,
+  "user_approved": false,
+  "assistant_visual_review": {
+    "reviewed_at": "2026-11-01T22:52:13+05:30",
+    "status": "assistant_reviewed_partial_prompt_compliance",
+    "method": "25 sampled overview frames, 13 approach/release samples, nine catch-contact samples, full video decode and numeric audio checks.",
+    "observations": [
+      "Opening visibly follows approved v06: one foreground hand, man farther ahead on the left, clear cafe sidewalk.",
+      "Riley approaches without first running past him. He remains nearby for the rescue.",
+      "Cup separates around 2.3s and follows a mainly downward path toward the ground; no large upward floating move like v02 is evident in the sampled sequence.",
+      "Third-person low view shows a nearby mug, crouched reach and visible low catch around 6.5–6.75s, followed by handback around 7.4–8.4s.",
+      "Departure around 8.8–10s shows real forward displacement and a cyan trail."
+    ],
+    "limitations": [
+      "She looks toward the man while he is still holding the cup; TPP begins about 2.1s before release. The requested discovery of an already-falling mug in FPP is missing.",
+      "Camera uses an over-shoulder angle and then a low-side cut around 3s; the catch remains mainly in that view with limited travel. A broad continuous circular orbit is not achieved.",
+      "Riley wardrobe/identity drift: longer asymmetric gold dress and gold heeled sandals replace approved mini-dress/black-gold boots; facial cyberware differs. Fixed-start mode cannot also take the approved identity images.",
+      "Mug timing lingers, coffee drains out and the exact grip/empty-cup continuity require playback judgment. Low catch is visible but not claimed physically exact.",
+      "Opening aims increasingly toward the patron; this is not a fully convincing casual passing glance.",
+      "Native audio has numeric checks only; no independent listening, speech-absence guarantee or final sound mix approval."
+    ],
+    "criteria": {
+      "approved_start_composition": "present",
+      "no_passing_before_rescue": "improved",
+      "already_airborne_when_fpp_looks": "not_achieved",
+      "close_downward_cup_path": "improved_in_sampled_frames",
+      "visible_low_catch": "present",
+      "broad_continuous_orbit": "not_achieved",
+      "approved_tpp_identity_wardrobe": "drifted"
+    },
+    "assistant_verdict": "Approach and low downward rescue improved; first-person airborne discovery, circular camera and approved wardrobe are not achieved. Not ready to lock.",
+    "full_playback_reviewed": false,
+    "audio_listened": false,
+    "contact_sheet": "assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v03/contact-sheet.jpg",
+    "glance_detail": "assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v03/glance-drop-detail.jpg",
+    "catch_detail": "assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v03/catch-contact-detail.jpg"
+  },
+  "technical_review": {
+    "inspection_file": "assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v03/inspection.json",
+    "dimensions": [
+      832,
+      480
+    ],
+    "fps": 24,
+    "video_samples": 243,
+    "video_duration_seconds": 10.125,
+    "near_black_frames": 0,
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 10.144,
+        "sample_rate": 32000
+      }
+    ],
+    "audio_rms_dbfs": -23.376774427194178,
+    "audio_peak_dbfs": -1.0991640074505884,
+    "audio_listened": false
+  },
+  "native_source_unmodified": true,
+  "actual_credits": 3030,
+  "actual_inr": 43.9956,
+  "user_feedback": {
+    "at": "2026-11-01T23:02:36+05:30",
+    "source": "explicit_user_message",
+    "summary": "Opening cup must be out of frame. Fast FPP with blurred sides, sudden slow motion and side glance, switch to TPP with readable sideways eye movement, circular camera during a quick nearby catch. Visible release repeatedly reads intentional.",
+    "scope": "Revised choreography and reference requirements; existing outputs are not accepted by this feedback.",
+    "plan": "assets/06-shots/shot-09-coffee-hidden-drop-direction-v04.md"
+  }
+}

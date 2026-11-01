@@ -1,0 +1,95 @@
+{
+  "created_at": "2026-11-01T16:31:52+05:30",
+  "status": "city_design_preparation_pending_user_review",
+  "scope": "Local reference board, prompt drafts and overhead staging schematic. No new image/video generation.",
+  "reference_assets": {
+    "station": {
+      "path": "assets/04-station/images/station-01-v01.png",
+      "sha256": "451e056e320bb139ef9bb1c7f2b2b13613ecad26ca3f91cad36ab1c443e1a5c5"
+    },
+    "screen_continuity": {
+      "path": "assets/06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/last-picture-frame.png",
+      "sha256": "c0e544d85a36ece78e5455ca84632130e692f9e5ed9c9c3835a8047dc8ea3ba0"
+    },
+    "train": {
+      "path": "assets/05-train/images/train-01-v02.png",
+      "sha256": "6191d92b40f7cf54ebb763892720315cb15a4cb44b3a663cc31d732b762ed2b5"
+    },
+    "face": {
+      "path": "assets/01-riley/images/riley-cyberpunk-03-v01.png",
+      "sha256": "4df29f1f3ed615cc454ae91d983f56046e203cc0be225b854c22bcdffc5ca009"
+    },
+    "wardrobe": {
+      "path": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6"
+    }
+  },
+  "shots": [
+    {
+      "shot": "08",
+      "concept": "intelligence",
+      "prompt": "assets/06-shots/prompts/shot-08-intelligence-city-start-v02.txt",
+      "prompt_sha256": "202479db51bd4516c08d827b7e4225f16458816a97d1c3e74eb0a874fa053787",
+      "edit_start_seconds": 19.375,
+      "edit_end_seconds": 22.125,
+      "status": "draft_for_design_review_not_generated"
+    },
+    {
+      "shot": "09",
+      "concept": "coffee",
+      "prompt": "assets/06-shots/prompts/shot-09-coffee-city-start-v02.txt",
+      "prompt_sha256": "3c5fff9a109c9204449cc915837944b8876275898018f827f687844d36d88686",
+      "edit_start_seconds": 22.125,
+      "edit_end_seconds": 32.25,
+      "status": "draft_for_design_review_not_generated"
+    },
+    {
+      "shot": "10",
+      "concept": "strength",
+      "prompt": "assets/06-shots/prompts/shot-10-strength-city-start-v02.txt",
+      "prompt_sha256": "ed1cd0813d979bf811e04329f2c2935317412e4606213b7129538dfa07773d49",
+      "edit_start_seconds": 32.25,
+      "edit_end_seconds": 36,
+      "status": "draft_for_design_review_not_generated"
+    },
+    {
+      "shot": "11",
+      "concept": "speed",
+      "prompt": "assets/06-shots/prompts/shot-11-speed-city-start-v02.txt",
+      "prompt_sha256": "107b271b43aa373ba0d9921949020d62204a73ea250511edaf70e13fd530ab27",
+      "edit_start_seconds": 36,
+      "edit_end_seconds": 38.5,
+      "status": "draft_for_design_review_not_generated"
+    },
+    {
+      "shot": "12",
+      "concept": "overtake-start",
+      "prompt": "assets/06-shots/prompts/shot-12-overtake-city-start-v02.txt",
+      "prompt_sha256": "34b076e2b6ba930d61e96decc5bfcc91df811622fb2e5703ca28ab0b1c4deb4d",
+      "edit_start_seconds": 38.5,
+      "edit_end_seconds": 42.5,
+      "status": "draft_for_design_review_not_generated"
+    },
+    {
+      "shot": "12",
+      "concept": "overtake-end",
+      "prompt": "assets/06-shots/prompts/shot-12-overtake-city-end-v02.txt",
+      "prompt_sha256": "e8992319e4101a887861d37ae83eb1ccb8a30fd7760747a98160c3100ee41dd5",
+      "edit_start_seconds": 38.5,
+      "edit_end_seconds": 42.5,
+      "status": "draft_for_design_review_not_generated"
+    }
+  ],
+  "new_provider_generations": 0,
+  "new_provider_credits": 0,
+  "seedance_status": "deferred_by_user",
+  "overhead_staging": {
+    "direction": "both subjects travel to image-top",
+    "lane": "Riley stays image-left in a separate parallel lane",
+    "start": "Riley one body length behind the nose",
+    "end": "trailing boot at least one body length beyond nose",
+    "framing": "nose and part of lead car, Riley roughly 12–16 percent frame height; believable relative scale",
+    "timing": "pass near 40.5 seconds, hold visible lead through 42.5 seconds",
+    "schematic_note": "Layout illustration only; not a generated frame or approved final shot."
+  }
+}

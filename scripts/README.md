@@ -477,6 +477,20 @@ python scripts/review-pov-chase-prototypes.py assets/06-shots/videos/pov-chase-m
 
 Its successful output does not establish full playback, listening or user approval. Saved findings and individual links are in the [batch review](../assets/06-shots/reviews/pov-chase-minimax-v01/README.md).
 
+The shared-city still board uses the existing gallery builder with per-image visual findings and batch-specific status copy:
+
+```sh
+python3 scripts/build-startframe-gallery.py assets/06-shots/images/city-continuity-stills-batch-v02.json NEW_CITY_REVIEW_DIRECTORY
+```
+
+See [shared-city still review](../assets/06-shots/reviews/city-continuity-stills-v02/README.md) for the current generation count, costs and pending corrections. This command only builds HTML from existing native images; it makes no provider calls.
+
+For the subsequent [corrected six-image review](../assets/06-shots/reviews/city-continuity-stills-v03/README.md), use its curated review batch; the generation batch separately records the four newly charged images:
+
+```sh
+python3 scripts/build-startframe-gallery.py assets/06-shots/reviews/city-continuity-stills-v03/review-batch.json NEW_CORRECTED_CITY_REVIEW_DIRECTORY
+```
+
 ## Add the intelligence HUD concept locally
 
 `add-pov-hud-preview.swift INPUT.mp4 NEW_OUTPUT.mp4` uses AVFoundation/CoreAnimation and rasterized text. It adds screen-space panels and a timed arrow, preserves the native source, retains audio, and writes hashes/provenance in an adjacent `.edit.json`. This helper targets the current five-second, 24 fps landscape plate; it is not a general tracker. No provider/API call. Outputs must be unused paths.
@@ -535,3 +549,220 @@ swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache 
 ```
 
 Run from repository root with unused output paths. The assembly command reads the saved derivative paths in its timeline; to use newly rebuilt components elsewhere, copy the timeline and update those paths. The 1080p canvas includes scaled 480p footage. Decode, source-hash and sample-peak checks do not establish independent listening or final competition readiness.
+
+
+## Product clarity edit and preserved audio
+
+[Product clarity review v02](../assets/08-edit/continuous-ad-review-v02/README.md) introduces the product descriptor at the transformation and on the end card. `render-brand-outro.swift` accepts an optional product descriptor; omitting it retains the original layout.
+
+`add-product-clarity.swift CONFIG.json` composites the transformation label and substitutes the new end card at frame 1020, preserving all other cut timings. It renders picture only, remuxes the source AAC with passthrough and verifies identical compressed audio payload. Zero-sample boundary markers are skipped; missing data for nonzero sample counts is an error. It refuses existing outputs. `--verify-existing` checks a completed export and writes absent provenance without rerendering.
+
+```sh
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache scripts/render-brand-outro.swift assets/06-shots/reviews/shot-12-overtake-coastal-minimax-startframe-v01/last-picture-frame.png NEW_OUTRO.mp4 'CYBERNETIC IMPLANTS'
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache scripts/add-product-clarity.swift NEW_CONFIG.json
+```
+
+Copy `assets/08-edit/continuous-ad-review-v02/product-clarity-config.json`, set fresh `outro` and `output` paths, then run. Input SHA-256, frame boundaries and exact label text are recorded. Media verification uses the existing `inspect-review-video.swift` and `extract-contact-sheet.swift` commands. The [city design board](../assets/06-shots/reviews/city-continuity-v01/index.html) uses existing linked reference images and a local SVG/JavaScript staging diagram; it makes no provider calls.
+
+## Floating-body diagnostic mock-up
+
+[Review and limitations](../assets/08-edit/continuous-ad-review-v03/README.md). These local macOS helpers use AVFoundation, Vision, Core Image/Core Graphics and `afconvert`; no external generation. The scripts target this existing 1920×1080 / 24 fps cut and its 127-frame upgrade window, not arbitrary footage.
+
+- `prepare-upgrade-mattes.swift SOURCE.mp4 START_FRAME COUNT NEW_DIRECTORY [person|foreground]` saves source-frame masks, 2D poses and source hash. Default `foreground` includes Riley's dark boots; the earlier `person` test did not. The renderer limits masks to her known screen region.
+- `render-upgrade-diagnostic.swift CONFIG.json` verifies source/matte provenance, floats Riley to the center and back, composites the temporary background patch, scan/callouts and exact terminal text. Output MP4, `.edit.json` and sampled PNGs use fresh paths. The anatomical lines and manual ankle anchors are mock-up guides.
+- `mix-upgrade-diagnostic-sfx.py CONFIG.json NEW_MIX.wav` adds deterministic low-level typing, module locks, confirmation and air accents to the existing 45-second mix only within the insert. Writes mix, effects-only stem and provenance; source audio is decoded and re-encoded, not AAC passthrough.
+
+Run from the repo root. Create an unused temporary folder, copy the final config and assign its new matte/output paths:
+
+```sh
+diagnostic_work=$(mktemp -d /private/tmp/afterhuman-diagnostic.XXXXXX)
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache scripts/prepare-upgrade-mattes.swift assets/08-edit/continuous-ad-review-v01/afterhuman-continuous-with-david-v01.mp4 308 127 "$diagnostic_work/mattes" foreground
+python3 - "$diagnostic_work" <<'PY'
+import json, sys
+from pathlib import Path
+work = Path(sys.argv[1])
+config = json.loads(Path('assets/08-edit/upgrade-diagnostic-v01/diagnostic-config-v02.json').read_text())
+config['mattes'] = str(work / 'mattes/mattes.json')
+config['output'] = str(work / 'diagnostic-picture.mp4')
+(work / 'config.json').write_text(json.dumps(config, indent=2) + '\n')
+PY
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache scripts/render-upgrade-diagnostic.swift "$diagnostic_work/config.json"
+python3 scripts/mix-upgrade-diagnostic-sfx.py "$diagnostic_work/config.json" "$diagnostic_work/diagnostic-mix.wav"
+```
+
+To reassemble the saved final review directly from the retained components:
+
+```sh
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache scripts/assemble-continuation.swift assets/08-edit/continuous-ad-review-v03/timeline.json /private/tmp/afterhuman-diagnostic-review-new.mp4
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache scripts/assemble-continuation.swift assets/08-edit/continuous-ad-review-v03/focused-timeline.json /private/tmp/afterhuman-diagnostic-focus-new.mp4
+```
+
+For newly rebuilt components, copy the timelines and substitute the new picture/mix paths first. The focused timeline reads full-cut 8.000–19.375s. Verify with `inspect-review-video.swift`, sampled frames and listening; technical decode/level checks alone do not establish final sound or production readiness.
+
+## Review the city Seedance overhead take
+
+[Take 1 and limitations](../assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/README.md). Uses the existing inspection/gallery helpers without modifying the native video:
+
+```sh
+python3 scripts/review-pov-chase-prototypes.py assets/06-shots/videos/city-overhead-seedance-batch-v01.json
+python3 scripts/build-startframe-gallery.py assets/06-shots/videos/city-overhead-seedance-batch-v01.json /private/tmp/afterhuman-overhead-player-new
+```
+
+This batch samples 21 frames across five seconds and extracts native audio. Use a fresh gallery destination; optional finer stride-sampling command is in the linked take README. Native audio decoding does not establish listening approval.
+
+The overhead take now also has a [usable 00:01–00:04 review extraction](../assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/README.md). Its saved timeline uses source-in frame 24 and 72 frames at original 24 fps/native 854×480; reproduce with the existing assembler and unused output paths as documented there. This is a local re-encode, not a new generation or source retime.
+
+## Review the city intelligence Seedance take
+
+[Take 1, candidate edit and limitations](../assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v01/README.md). Reuse the existing review/gallery helpers with assets/06-shots/videos/city-intelligence-seedance-batch-v01.json. Its 21 samples span five seconds.
+
+The saved assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v01/edit-preview-v01/timeline.json uses source frame 30 and 66 frames at original 24 fps/native 854×480. Reproduce with assemble-continuation.swift and a fresh output filename; exact commands and finer route-lock sampling are in the take README. This is a local review re-encode with normal 8 ms audio edge fades, not a source retime or selected final edit.
+
+## Compare richer intelligence HUD stills
+
+[Gallery](../assets/06-shots/reviews/intelligence-hud-concepts-v01/index.html) and [notes](../assets/06-shots/reviews/intelligence-hud-concepts-v01/README.md). Reuse build-startframe-gallery.py with assets/06-shots/images/intelligence-hud-concepts-batch-v01.json and a fresh destination. Original and generated PNGs are linked without image processing; prompts/costs remain in adjacent records.
+
+## Review selected C HUD replacement
+
+[Take 2 and candidate excerpt](../assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/README.md) use the existing review/gallery helpers with assets/06-shots/videos/city-intelligence-seedance-batch-v02.json. The review samples 21 source frames and extracts native audio. The saved edit-preview-v01/timeline.json takes source frames 6–71 (00:00.25–00:03.00) at original speed for the 2.75-second slot. Reproduction commands and fresh-output instructions are in the linked README; no new script or accepted-cut change.
+
+## Review the city Seedance coffee rescue
+
+[Take and proposed 10.125-second excerpt](../assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/README.md) use existing helpers with assets/06-shots/videos/city-coffee-seedance-batch-v01.json. The review samples 23 frames, plus detailed drop/catch and exit sheets, and extracts native audio. Its saved edit-preview-v01/timeline.json takes the first 243 frames at original speed, excluding the late scene-side reversal. Exact catch contact remains obscured by a generated face insert. Commands and fresh-output instructions are in the take README; no new script or accepted-cut edit.
+
+## Extract a native source frame for continuity
+
+`extract-video-frame.swift INPUT SECONDS OUTPUT.png` writes one native-resolution PNG and an adjacent `.frame.json` containing requested/actual time, dimensions and source/output hashes. It refuses existing outputs and does not crop, label or modify the source. Example: `swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache scripts/extract-video-frame.swift assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4 4 /private/tmp/afterhuman-coffee-join-new.png`. The coffee-opening correction uses this frame to reference the existing third-person crouch without paying to ingest the full source video.
+
+## Add a brief editorial whip-pan cue
+
+`add-whip-pan-cue.swift CONFIG.json` uses AVFoundation/Core Image to translate the picture screen-right and add directional blur over a configured frame range, suggesting a leftward glance. It preserves duration and source speed, retains audio through export, refuses existing outputs and writes adjacent `.cue.json` provenance/hashes. Clamped edge pixels avoid black borders. This is a 2D editorial cue, not a generated camera rotation.
+
+Config keys: `input`, `output`, `fps`, `start_frame`, `end_frame_exclusive`, `max_shift_fraction`, `max_blur_pixels`. Run with `swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache scripts/add-whip-pan-cue.swift NEW_CONFIG.json`. See the [coffee correction review](../assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/README.md) for full fresh-output assembly and verification commands. That review keeps the original handoff/sprint, replaces the hidden catch and records the remaining glance limitations.
+
+## Review the MiniMax coffee orbit prototype
+
+[Orbit test and limitations](../assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v02/README.md) use existing review/gallery helpers with `assets/06-shots/videos/reflexes-coffee-orbit-batch-v02.json`. The batch samples 25 frames across ten seconds; separate drop/transition and catch-contact sheets test the airborne reveal, catch and camera travel. Exact fresh-output commands are in the review README. No new editing script or accepted-cut modification.
+
+## Review the corrected coffee approach still
+
+[Starting-reference correction v04](../assets/06-shots/reviews/coffee-blocking-correction-v04/README.md) reuses `build-startframe-gallery.py` with `assets/06-shots/images/coffee-blocking-correction-batch-v04.json` and a fresh destination. It records corrected starting distance separately from the remaining mug-hand and motion constraints. No video or local image-editing script in this pass.
+
+The [single-hand running reference v06](../assets/06-shots/reviews/coffee-running-hand-v06/README.md) uses the same gallery helper with `assets/06-shots/images/coffee-running-hand-batch-v06.json`. It is a targeted image edit; no new script or video.
+
+## Review the fixed-start MiniMax coffee test
+
+[Coffee v03 review](../assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v03/README.md) uses existing helpers with `assets/06-shots/videos/reflexes-coffee-orbit-batch-v03.json`. Native output, 25-frame overview and focused release/contact sheets distinguish improved approach from missing orbit/airborne-discovery and wardrobe drift. Commands and source-preserving inspection limits are in the review README.
+
+## Review the two-part coffee prototype
+
+[Coffee split v04](../assets/06-shots/reviews/coffee-split-minimax-v04/README.md) reuses the existing inspection, contact-sheet, gallery and original-speed assembly helpers. Its saved timeline joins 49 FPP frames to 191 TPP frames for exactly ten seconds at native 832×480/24 fps. Individual sources, image/video generation records, review limits and fresh-output reproduction commands are linked in that README. No new helper script or accepted-cut modification.
+
+## Review the Seedance coffee orbit comparison
+
+[Seedance coffee comparison v01](../assets/06-shots/reviews/coffee-split-seedance-v01/README.md) reuses the inspection, gallery, contact-sheet and original-speed assembly helpers. The timeline preserves the liked MiniMax FPP frames and substitutes the first191 Seedance frames for a ten-second review. One paid video only; native outputs and prior edit stay unchanged. Fresh-output reproduction commands and choreography limits are in the review README.
+
+## Resize a video reference for provider input limits
+
+`resize-video-reference.swift INPUT OUTPUT.mp4 WIDTH HEIGHT` uniformly enlarges integer-frame-rate video to even dimensions with the same aspect ratio, preserving duration and audio tracks without crop, padding, retiming or interpolation. It refuses existing outputs and writes source/output hashes and preparation metadata. The [coffee Seedance Edit reference](../assets/06-shots/references/coffee-minimax-seedance-edit-v01/README.md) uses884×510 to clear the reported407696-pixel minimum;192 frames/8s/24fps verified. This prepares input only, with no provider generation.
+
+## Review an actual-video Seedance edit
+
+[Coffee Video Edit comparison](../assets/06-shots/reviews/coffee-minimax-ref-seedance-edit-v02/README.md) reuses the inspection, contact-sheet and gallery helpers. It compares unchanged native files, records the provider output of185 frames versus192 input frames, and avoids local retiming. Exact local reproduction commands and audio/likeness limitations are in the review README.
+
+## Review the city strength Seedance take
+
+[Strength review](../assets/06-shots/reviews/shot-10-strength-city-seedance-480p-v01/README.md) reuses `review-pov-chase-prototypes.py` and `build-startframe-gallery.py` with `city-strength-seedance-batch-v01.json`. It retains the full native take, compares the approved intact-door still and records material-deformation and timing limitations before any edit. Reproduction commands are in the review README.
+
+## Review the boulevard speed Seedance take
+
+[Speed review](../assets/06-shots/reviews/shot-11-speed-city-seedance-480p-v01/README.md) reuses `review-pov-chase-prototypes.py` and `build-startframe-gallery.py` with `city-speed-seedance-batch-v01.json`. It retains the native five-second take and records actual foreground translation, hand alternation and playback limitations before choosing the final 2.5-second excerpt. Reproduction commands are in the review README.
+
+## Review station launch after the diagnostic return
+
+[Station launch review](../assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/README.md) reuses inspection, contact-sheet, gallery and `assemble-continuation.swift`. Its saved context timeline joins the last24 diagnostic frames to the full121-frame new take, preserving original speed. The first second is silent context; native launch sound follows. Prompt timing misses and reproducible commands are documented in the review README.
+
+## Review the continuous diagnostic and launch take
+
+[Combined Seedance diagnostic/launch v01](../assets/06-shots/reviews/shot-06-07-diagnostic-launch-seedance-480p-v01/README.md) uses the existing inspection, contact-sheet, native-frame extraction and gallery helpers with `assets/06-shots/videos/diagnostic-launch-seedance-batch-v01.json`. Review includes32 overview samples,24 focused return samples, full-size terminal text and full native decode/audio levels. The README contains reproducible fresh-output commands. Both actual reference videos and three image references are tracked separately; no local assembly or retiming was used to create the returned shot.
+
+## Assemble the latest approved visuals review v04
+
+[Latest full-cut review](../assets/08-edit/continuous-ad-review-v04/README.md) reuses `mix-ad-review.py`, `render-brand-outro.swift`, `assemble-continuation.swift`, `inspect-review-video.swift` and the contact-sheet helper. Exact source ranges and narration/music spacing are in the v04 timeline, timing plan and soundtrack config.1107frames/46.125seconds, original source speeds, approved HUD/overhead ranges, full diagnostic/launch and preferred coffee. The README documents fresh-output reproduction. No new provider request or editing helper was introduced.
+
+## Restore transformation and review the station upscale (v05)
+
+Latest player: [continuity review v05](../assets/08-edit/continuous-ad-review-v05/index.html). Preserve original source motion and audio; timeline-upscaled.json swaps picture only to the289-frame Topaz2x derivative.
+
+```sh
+python3 scripts/mix-ad-review.py assets/08-edit/continuous-ad-review-v05/soundtrack-config.json /private/tmp/afterhuman-v05-reproduced.wav
+# Copy timeline-upscaled.json to a fresh working file and point audio_bridges[0].source to that WAV.
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache scripts/assemble-continuation.swift /private/tmp/afterhuman-v05-timeline.json /private/tmp/afterhuman-v05-reproduced.mp4
+```
+
+Use a fresh directory for inspect-review-video.swift because its last-picture-frame.png is fixed within the output directory. Restoring the entire source adds127frames. The old overhead remains temporary until the new still is reviewed. Matched-world still gallery can be reproduced with build-startframe-gallery.py using assets/06-shots/images/boulevard-overhead-correction-batch-v01.json and a fresh directory.
+
+## Merge the original transformation and float, without skeleton (v06)
+
+The optional `person_style: "natural"` in `render-upgrade-diagnostic.swift` keeps the original person opaque and naturally colored, disabling the skeleton, hologram, blue outline and scan sweep. Existing configs retain diagnostic mode. Optional `picture_source`, `picture_source_sha256` and `picture_start_frame` allow the same validated source mattes to be paired with an enhanced copy of exactly those frames. The source is conformed to the1080p canvas with the same fill transform used by the assembler. It verifies both source hashes and exact frame timestamps.
+
+```sh
+# Use fresh output paths in copied configs; these recorded outputs already exist.
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache scripts/render-upgrade-diagnostic.swift assets/08-edit/floating-transformation-v02/config.json
+python3 scripts/mix-ad-review.py assets/08-edit/continuous-ad-review-v06/soundtrack-config.json /private/tmp/afterhuman-v06-mix.wav
+# Copy timeline.json, point picture and audio_bridges[0].source to the reproduced outputs.
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache scripts/assemble-continuation.swift /private/tmp/afterhuman-v06-timeline.json /private/tmp/afterhuman-v06-reproduced.mp4
+```
+
+Review duration is1077frames /24fps =44.875seconds. Transformation frames162–288 are preserved at original speed, displayed while floating in the existing127frame window. The approved combined take contributes only launch frames134–169; all skeletal footage is excluded. Preserve original native transformation sound using an aligned bridge from6.75s, and reuse the existing UI-effects stem quietly. No paid media generation.
+
+## Refine the floating Riley mask and preserve the existing cut (v07)
+
+[Arm-cleanup review](../assets/08-edit/continuous-ad-review-v07/index.html) corrects the missing forearm/hand in the approved merged transformation. It retains the original source motion, 44.875-second runtime and exact compressed audio.
+
+- `refine-upgrade-mattes.swift CONFIG.json` uses local Apple Vision on a tightly framed crop of the verified higher-resolution source. It retains the old frame IDs/pose records, records the actual segmentation source separately, and saves new masks plus sampled before/after crops. Configurable morphology regions and bounded exclusion rectangles remove narrow background-light spill. Coordinates are relative to the crop with a bottom-left origin. The final configuration uses `foreground`; person/hybrid experiments are preserved but unselected.
+- `render-upgrade-diagnostic.swift CONFIG.json` renders the same 127-frame natural-color float with the new masks, unchanged text and movement. No skeleton.
+- `replace-picture-segment.swift CONFIG.json` inserts an equal-duration corrected picture segment using AVFoundation compressed passthrough. It preserves the source AAC and verifies its payload hash. Requires matching dimensions, fps and exact durations; refuses existing files.
+- `verify-picture-replacement.swift SPLICE_CONFIG.json` decodes both full cuts and the inserted component. It compares every visible BGRA pixel outside/inside the replaced interval with the corresponding original/component and checks every 24 fps timestamp. It writes a verification record and three before/after crops.
+
+Use copies of these configs with **fresh output paths**; never overwrite accepted files. Update the splice config's replacement SHA after reproducing the component, because encoder bytes can vary.
+
+```sh
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  scripts/refine-upgrade-mattes.swift NEW_MATTE_CONFIG.json
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  scripts/render-upgrade-diagnostic.swift NEW_COMPONENT_CONFIG.json
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  scripts/replace-picture-segment.swift NEW_SPLICE_CONFIG.json
+swift -suppress-warnings -module-cache-path /private/tmp/afterhuman-swift-cache \
+  scripts/verify-picture-replacement.swift NEW_SPLICE_CONFIG.json
+```
+
+Saved configs: `assets/08-edit/floating-transformation-v03/matte-config.json`, `assets/08-edit/floating-transformation-v03/config.json`, and `assets/08-edit/continuous-ad-review-v07/splice-config.json`. Final verification: all 950 unaffected frames pixel-identical, all 127 replacement frames match the component, all 1,077 timestamps exact, original AAC payload identical. The passthrough container's approximate nominal-rate field reads 23.911358; actual presentation timestamps remain exactly 24 fps throughout. No source retiming or new provider generation.
+
+## Matched-boulevard overhead take 1 review
+
+[Native and sprint-context player](../assets/06-shots/reviews/shot-12-overtake-boulevard-seedance-480p-v01/index.html) uses the exact user-supplied start image. One Seedance 2.5 five-second480p generation; geography matches, decisive overtake is not achieved, so it remains unselected.
+
+Reproduce native checks with `python3 scripts/review-pov-chase-prototypes.py assets/06-shots/videos/boulevard-overhead-seedance-batch-v01.json`. The context uses the existing `assemble-continuation.swift` with `assets/06-shots/reviews/shot-12-overtake-boulevard-seedance-480p-v01/context-review-v01/timeline.json` and a fresh output filename. It joins the approved2.5-second sprint to the new source[1,4) range with the existing ad mix excerpt, at original speed. The132-frame/5.5s context is a world-match test, not a selected replacement. The approved44.875s cut remains unchanged.
+
+## Inspect the continuous POV-to-overhead race test
+
+The one-take test and review live under `assets/06-shots/reviews/shot-11-12-fpp-overhead-seedance-480p-v01/`. It starts from native source frame0.75s of the approved speed take and uses `shot-12-boulevard-overtake-end-v01.png` as the finish. Source files and accepted full ad are unchanged.
+
+```sh
+python3 scripts/review-pov-chase-prototypes.py assets/06-shots/videos/fpp-overhead-seedance-batch-v01.json
+python3 scripts/build-startframe-gallery.py assets/06-shots/videos/fpp-overhead-seedance-batch-v01.json /private/tmp/afterhuman-fpp-overhead-review
+```
+
+Use a fresh gallery directory. Existing inspector outputs are preserved. Fine contact-sheet reproduction uses `assets/06-shots/reviews/extract-contact-sheet.swift`: camera-rise arguments `1.25 0.0833333333333333 13 4 427 240`; final-pass arguments `4 0.0833333333333333 13 4 427 240`. The native-frame helper extracts2s and4s. No retiming or accepted-cut replacement. Audio is decoded/measured, not independently listened to.
+
+## Add the official contest watermark
+
+```sh
+python3 scripts/add-contest-watermark.py assets/10-submission/afterhuman-watermarked-v01/watermark-config.json --ffmpeg /path/to/ffmpeg
+```
+
+Uses FFmpeg 7.1 with libx264, the unmodified official PNG and selected v07. Verifies input hashes, refuses existing outputs, adds a 480px-wide bottom-right mark throughout, and stream-copies audio. Reproduction requires a copied config with a fresh output path. Original command is in render JSON. Verify with `scripts/inspect-review-video.swift` and compare stream-copy ADTS hashes; see submission records.
+
+The stopped train-motion diagnostic is retained at `assets/06-shots/reviews/shot-11-12-train-forward-local-v03/inspect-train-world-motion.py`; its local README contains the command. It produced diagnostic images only, not a corrected video.

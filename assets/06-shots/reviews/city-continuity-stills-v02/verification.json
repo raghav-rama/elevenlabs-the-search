@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-11-01T18:35:35+05:30",
+  "images_verified": [
+    "shot-08-intelligence-city-start-v02",
+    "shot-09-coffee-city-start-v02",
+    "shot-10-strength-city-start-v02",
+    "shot-11-speed-city-start-v02",
+    "shot-12-overtake-city-start-v02"
+  ],
+  "native_dimensions": [
+    1280,
+    720
+  ],
+  "output_prompt_reference_hashes_match": true,
+  "browser_images_loaded": 5,
+  "browser_horizontal_overflow": false,
+  "new_video_generations": 0,
+  "new_upscales": 0,
+  "generated_images": 5,
+  "expected_plan_images": 6,
+  "overhead_end_status": "not_generated_pending_usable_start",
+  "correction_status": "not_run_pending_user_choice",
+  "actual_credits": 3225.9945945945947,
+  "actual_price_inr": 46.841441513513516,
+  "review_limit": "Native still inspection only; no motion or user selection inferred."
+}

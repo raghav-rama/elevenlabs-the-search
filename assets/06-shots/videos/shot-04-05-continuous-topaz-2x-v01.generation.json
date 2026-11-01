@@ -1,0 +1,259 @@
+{
+  "asset_id": "shot-04-05-continuous-topaz-2x-v01",
+  "status": "generated_pending_review",
+  "source_file": "assets/06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4",
+  "source_sha256": "3c3413da46200a72926418e20ec5fa6cc2177af0d0dcdf203353f976111abf39",
+  "output_file": "assets/06-shots/videos/shot-04-05-continuous-topaz-2x-v01.mp4",
+  "flow_id": "A3IyZdzDXLKJFfEAS3R0",
+  "node_id": "node_c345c759-3db4-4428-9f9b-dabd83458dd8",
+  "model_id": "topaz-video-upscale-v2",
+  "model_parameters": {
+    "upscale_factor": 2.25,
+    "target_fps": 24,
+    "model": "Proteus Natural"
+  },
+  "prompt": "",
+  "estimate": {
+    "credits": 606,
+    "price_cents": 879.912,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 147
+  },
+  "submission": {
+    "flow_id": "A3IyZdzDXLKJFfEAS3R0",
+    "flow_created": false,
+    "results": [
+      {
+        "success": true,
+        "node_id": "node_c345c759-3db4-4428-9f9b-dabd83458dd8",
+        "session_id": "ZflexhULVWTwVd4cWl9H",
+        "credit_costs": {
+          "QvGocMRbxmKS5e0VAjDi": 606
+        }
+      }
+    ],
+    "summary": {
+      "nodes_run": 1,
+      "generations_started": 1,
+      "failed": 0,
+      "generations_by_node": {
+        "node_c345c759-3db4-4428-9f9b-dabd83458dd8": 1
+      }
+    },
+    "session_ids": [
+      "ZflexhULVWTwVd4cWl9H"
+    ],
+    "pending": [
+      {
+        "generation_id": "QvGocMRbxmKS5e0VAjDi",
+        "kind": "video"
+      }
+    ],
+    "poll_after_seconds": 30,
+    "notes": "Not finished yet. If a generation view is shown it tracks progress and polls by itself, so there is nothing to do here. Only call creative_get_flow_run_status yourself if no view appeared: wait poll_after_seconds, then call it with this flow_id and session_ids, repeating until all_completed or has_failures is true.",
+    "view_state_id": "viewstate_01m6cbm4bafata02emh9368jmy"
+  },
+  "preflight": {
+    "flow_id": "A3IyZdzDXLKJFfEAS3R0",
+    "flow_created": false,
+    "node_id": "node_c345c759-3db4-4428-9f9b-dabd83458dd8",
+    "node_type": "generation",
+    "node_label": "04\u201305 \u2014 Accepted station take \u2014 Topaz 1080p",
+    "prompt": "",
+    "model_id": "topaz-video-upscale-v2",
+    "model_parameters": {
+      "upscale_factor": 2.25,
+      "target_fps": 24,
+      "model": "Proteus Natural",
+      "video": {
+        "template_node_id": "fAflXamEGQoTLqJbyiY2"
+      }
+    },
+    "input_ports": [
+      {
+        "key": "video",
+        "modality": "video",
+        "required": true,
+        "connected_to": [
+          {
+            "id": "fAflXamEGQoTLqJbyiY2",
+            "label": "04\u201305 \u2014 Continuous departure + upgrade \u2014 Seedance 480p v01"
+          }
+        ]
+      }
+    ],
+    "notes": [],
+    "parameters": [
+      {
+        "current_value_summary": "2.25",
+        "schema_info": {
+          "name": "upscale_factor",
+          "type": "number",
+          "required": false,
+          "default": 2,
+          "number_type": "float"
+        }
+      },
+      {
+        "current_value_summary": "24",
+        "schema_info": {
+          "name": "target_fps",
+          "type": "number",
+          "required": false,
+          "min_value": 16,
+          "max_value": 60,
+          "number_type": "int"
+        }
+      },
+      {
+        "current_value_summary": "Proteus Natural",
+        "schema_info": {
+          "name": "model",
+          "type": "select",
+          "required": false,
+          "default": "Starlight Fast 2",
+          "options": [
+            {
+              "label": "Proteus",
+              "value": "Proteus"
+            },
+            {
+              "label": "Proteus Natural",
+              "value": "Proteus Natural"
+            },
+            {
+              "label": "Rhea",
+              "value": "Rhea"
+            },
+            {
+              "label": "Artemis Medium Quality",
+              "value": "Artemis Medium Quality"
+            },
+            {
+              "label": "Iris",
+              "value": "Iris"
+            },
+            {
+              "label": "Dione TV",
+              "value": "Dione TV"
+            },
+            {
+              "label": "Theia Fine Tune Fidelity",
+              "value": "Theia Fine Tune Fidelity"
+            },
+            {
+              "label": "Gaia HQ",
+              "value": "Gaia HQ"
+            },
+            {
+              "label": "Gaia 2",
+              "value": "Gaia 2"
+            },
+            {
+              "label": "Starlight Precise 2.6",
+              "value": "Starlight Precise 2.6"
+            },
+            {
+              "label": "Starlight HQ",
+              "value": "Starlight HQ"
+            },
+            {
+              "label": "Starlight Mini",
+              "value": "Starlight Mini"
+            },
+            {
+              "label": "Starlight Fast 2",
+              "value": "Starlight Fast 2"
+            }
+          ]
+        }
+      },
+      {
+        "schema_info": {
+          "name": "compression",
+          "type": "number",
+          "required": false,
+          "min_value": 0,
+          "max_value": 1,
+          "number_type": "float"
+        }
+      },
+      {
+        "schema_info": {
+          "name": "noise",
+          "type": "number",
+          "required": false,
+          "min_value": 0,
+          "max_value": 1,
+          "number_type": "float"
+        }
+      },
+      {
+        "schema_info": {
+          "name": "halo",
+          "type": "number",
+          "required": false,
+          "min_value": 0,
+          "max_value": 1,
+          "number_type": "float"
+        }
+      },
+      {
+        "schema_info": {
+          "name": "grain",
+          "type": "number",
+          "required": false,
+          "min_value": 0,
+          "max_value": 0.1,
+          "number_type": "float"
+        }
+      },
+      {
+        "schema_info": {
+          "name": "recover_detail",
+          "type": "number",
+          "required": false,
+          "min_value": 0,
+          "max_value": 1,
+          "number_type": "float"
+        }
+      },
+      {
+        "schema_info": {
+          "name": "softness",
+          "type": "number",
+          "required": false,
+          "min_value": 1,
+          "max_value": 5,
+          "number_type": "float"
+        }
+      }
+    ],
+    "image_sizes": {},
+    "generations": []
+  },
+  "generations_count": 1,
+  "source_retimed": false,
+  "submitted_at": "2026-11-02T01:38:56+05:30",
+  "output_sha256": "83b6da113f490c82fc95bc4b53cab6f841e69a439e0046292f88b63d2b7228bf",
+  "effective_upscale_factor": 2,
+  "reported_width": 1708,
+  "reported_height": 960,
+  "generation_id": "QvGocMRbxmKS5e0VAjDi",
+  "session_id": "ZflexhULVWTwVd4cWl9H",
+  "resolution_note": "Requested factor2.25; backend ran factor2.0 and reported1708x960. This is a2x AI upscale, not native1080p. No automatic rerun.",
+  "assistant_review": {
+    "status": "usable_derived_upscale_pending_user_quality_review",
+    "observations": [
+      "Native1708x960 confirmed,289picture frames at24fps, duration12.042s matching source.",
+      "Sampled train door1.25s preserves composition, Riley anatomy and existing train livery with crisper edges.",
+      "No near-black frames on full decode."
+    ],
+    "limitations": [
+      "Faces and distant textures remain limited by original480p source.",
+      "Requested2.25factor became2.0 atprovider; not native1080p.",
+      "No final sharpness or listening approval inferred."
+    ]
+  }
+}

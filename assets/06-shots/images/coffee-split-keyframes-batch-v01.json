@@ -1,0 +1,90 @@
+{
+  "status": "completed_assistant_reviewed_for_prototype",
+  "flow_id": "J725xEy49QY4xa6L66pw",
+  "created_at": "2026-11-01T23:09:01+05:30",
+  "estimate": {
+    "credits": 940.9924324324325,
+    "price_cents": 1366.3210118918919,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "generations_per_shot": 1,
+  "requested_generations": 2,
+  "shots": [
+    {
+      "asset_id": "shot-09-coffee-fpp-cupfree-start-v01",
+      "node_id": "2dSZ3aHoQTBMZVy0KbKW",
+      "record_file": "assets/06-shots/images/shot-09-coffee-fpp-cupfree-start-v01.generation.json",
+      "prompt_file": "assets/06-shots/prompts/shot-09-coffee-fpp-cupfree-start-v01.txt",
+      "output_file": "assets/06-shots/images/shot-09-coffee-fpp-cupfree-start-v01.png",
+      "session_id": "3iIrOXZT7s1VBoaAnBij",
+      "generation_id": "IPTLtjlVQPPdbA7uyRbZ",
+      "status": "assistant_reviewed_prototype_input_not_user_selected",
+      "sha256": "3f688282d1d09c212b8ac0d6fd5414b56389d50cd7d24c3bcb56fde134725eec"
+    },
+    {
+      "asset_id": "shot-09-coffee-tpp-airborne-start-v01",
+      "node_id": "ZvixrWRuxw2KZiBD6Duh",
+      "record_file": "assets/06-shots/images/shot-09-coffee-tpp-airborne-start-v01.generation.json",
+      "prompt_file": "assets/06-shots/prompts/shot-09-coffee-tpp-airborne-start-v01.txt",
+      "output_file": "assets/06-shots/images/shot-09-coffee-tpp-airborne-start-v01.png",
+      "session_id": "5IRkLmbUQjpmPehh63Bp",
+      "generation_id": "ti6FiJZRO4XOuvxXfmbj",
+      "status": "assistant_reviewed_prototype_input_not_user_selected",
+      "sha256": "12000fde65a082f55839bc8fa029d6ef2be87571e512af62fb77bc03204b4d70"
+    }
+  ],
+  "retries": 0,
+  "submitted_at": "2026-11-01T23:09:20+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "2dSZ3aHoQTBMZVy0KbKW",
+        "session_id": "3iIrOXZT7s1VBoaAnBij",
+        "credit_costs": {
+          "IPTLtjlVQPPdbA7uyRbZ": 252.11783783783784
+        }
+      },
+      {
+        "success": true,
+        "node_id": "ZvixrWRuxw2KZiBD6Duh",
+        "session_id": "5IRkLmbUQjpmPehh63Bp",
+        "credit_costs": {
+          "ti6FiJZRO4XOuvxXfmbj": 688.8745945945946
+        }
+      }
+    ],
+    "session_ids": [
+      "3iIrOXZT7s1VBoaAnBij",
+      "5IRkLmbUQjpmPehh63Bp"
+    ],
+    "pending": [
+      {
+        "generation_id": "IPTLtjlVQPPdbA7uyRbZ",
+        "kind": "image"
+      },
+      {
+        "generation_id": "ti6FiJZRO4XOuvxXfmbj",
+        "kind": "image"
+      }
+    ]
+  },
+  "session_ids": [
+    "3iIrOXZT7s1VBoaAnBij",
+    "5IRkLmbUQjpmPehh63Bp"
+  ],
+  "completed_at": "2026-11-01T23:12:31+05:30",
+  "completed_generations": 2,
+  "total_reported_price": {
+    "credits": 940.9924324324325,
+    "price_cents": 1366.3210118918919,
+    "cost_fiat_currency": "inr"
+  },
+  "gallery_title": "AFTERHUMAN \u00b7 Coffee split keyframes",
+  "gallery_description": "Cup-free FPP opening and identity-referenced third-person airborne-cup setup.",
+  "gallery_status": "Assistant-reviewed inputs for the authorized prototype; not user-selected assets.",
+  "gallery_footer": "GPT Image 2 low / 1K \u00b7 Two images \u00b7 940.992432 credits / INR 13.66",
+  "review_index": "assets/06-shots/reviews/coffee-split-minimax-v04/README.md"
+}

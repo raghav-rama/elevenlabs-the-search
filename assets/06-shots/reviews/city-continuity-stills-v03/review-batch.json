@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-11-01T18:53:26+05:30",
+  "status": "user_approved_still_compositions",
+  "shots": [
+    {
+      "asset_id": "shot-08-intelligence-city-start-v02",
+      "record_file": "assets/06-shots/images/shot-08-intelligence-city-start-v02.generation.json",
+      "output_file": "assets/06-shots/images/shot-08-intelligence-city-start-v02.png",
+      "sha256": "f6c559b149b6693a78c45486dc5bf07dc321d83f27528f672496faaca6fd2e6b",
+      "selected": true,
+      "user_approved": true
+    },
+    {
+      "asset_id": "shot-09-coffee-city-start-v03",
+      "record_file": "assets/06-shots/images/shot-09-coffee-city-start-v03.generation.json",
+      "output_file": "assets/06-shots/images/shot-09-coffee-city-start-v03.png",
+      "sha256": "736546f20206e8574e7ea48de18cb6e97bd6a15b55f90c4a57159bcf5ab0ca07",
+      "selected": true,
+      "user_approved": true
+    },
+    {
+      "asset_id": "shot-10-strength-city-start-v03",
+      "record_file": "assets/06-shots/images/shot-10-strength-city-start-v03.generation.json",
+      "output_file": "assets/06-shots/images/shot-10-strength-city-start-v03.png",
+      "sha256": "0814b2efafdba015b5819b664813d9c894c06bb935bdfc62573b26fc2fc3b87f",
+      "selected": true,
+      "user_approved": true
+    },
+    {
+      "asset_id": "shot-11-speed-city-start-v02",
+      "record_file": "assets/06-shots/images/shot-11-speed-city-start-v02.generation.json",
+      "output_file": "assets/06-shots/images/shot-11-speed-city-start-v02.png",
+      "sha256": "45a89895c62267f9b4ecb1347bde5a6f0536cac805a54435c4ebb16f8ded041f",
+      "selected": true,
+      "user_approved": true
+    },
+    {
+      "asset_id": "shot-12-overtake-city-start-v03",
+      "record_file": "assets/06-shots/images/shot-12-overtake-city-start-v03.generation.json",
+      "output_file": "assets/06-shots/images/shot-12-overtake-city-start-v03.png",
+      "sha256": "f8c4759f8f40c4a20c0fd8e4e456b5601d16007072c6c070910c9dfba644e961",
+      "selected": true,
+      "user_approved": true
+    },
+    {
+      "asset_id": "shot-12-overtake-city-end-v03",
+      "record_file": "assets/06-shots/images/shot-12-overtake-city-end-v03.generation.json",
+      "output_file": "assets/06-shots/images/shot-12-overtake-city-end-v03.png",
+      "sha256": "bd3e17465b79e59857bcfce7726c2a4a8512388b3c4a11b606302117dd159a07",
+      "selected": true,
+      "user_approved": true
+    }
+  ],
+  "new_generation_batch": "assets/06-shots/images/city-continuity-corrections-batch-v03.json",
+  "new_generations": 4,
+  "retained_existing_images": 2,
+  "actual_new_credits": 1008.4713513513514,
+  "actual_new_price_inr": 14.643004021621623,
+  "gallery_title": "AFTERHUMAN \u00b7 Corrected city stills",
+  "gallery_description": "Six compositions in one cyberpunk city. The coffee and strength starts are corrected; the overhead pair now shows the same travel direction and a clear completed pass. Click each image for its native file.",
+  "gallery_status": "Still compositions approved by the user. Motion, catch timing and the animated overtake remain to be tested.",
+  "gallery_footer": "GPT Image 2 via ElevenLabs \u00b7 1280\u00d7720 \u00b7 Three targeted fixes + one matching end \u00b7 1,008.471 credits / \u20b914.64 new spend \u00b7 Intelligence and speed retained",
+  "user_approved": true,
+  "approved_at": "2026-11-01T19:00:22+05:30",
+  "approval_evidence": "Looks good now",
+  "approval_scope": "The six current still compositions as the visual references for subsequent motion work; no video generation authorized by this feedback."
+}

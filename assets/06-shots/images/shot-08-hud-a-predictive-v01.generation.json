@@ -1,0 +1,99 @@
+{
+  "key": "a",
+  "asset_id": "shot-08-hud-a-predictive-v01",
+  "title": "A — Predictive pursuit HUD",
+  "density": "rich but readable",
+  "prompt": "Edit the supplied first-person city image into an original AFTERHUMAN cybernetic-eye interface concept for a cinematic advertisement. The user wants a much richer HUD, with the immersive layered information density of Iron Man's in-helmet displays, viewed OUT through Riley's eyes. This is an ocular implant interface, not a new character portrait or a physical control screen.\n\nPRESERVE: the exact camera position and 16:9 framing, city buildings and elevated train, daylight and colors, pedestrian ramp and its existing cyan route, railings, pedestrians, and the single natural-sized left hand with the same fingers, pose, skin and narrow chrome inlays. Treat the underlying image as a locked photographic plate. Change only the optical HUD graphics.\n\nDesign thin luminous cyan and white vector lines, magenta target accents and restrained amber alternatives. Curved rings, fine tick marks, leader lines, tiny charts and data blocks should feel integrated into a sophisticated cinematic ocular display. Keep all large labels inside a 5% safe margin and use readable condensed monospaced uppercase lettering. Use the supplied exact short labels; no paragraphs of gibberish. Translucent fills at most 15%, crisp lettering and thin strokes, no bloom washing out the city. Keep the middle of the train and pedestrian path readable. Put more information primarily along the top, left and right edges and low peripheral strip. No helmet, armor, face inset, extra hand, weapon, comic art, physical floating monitor, changed train geometry or different lighting. No Iron Man, Marvel or Stark logo; the interface is for the original AFTERHUMAN brand. One coherent still, not a collage. Fine generated type is a concept and will be recreated editorially if needed.\n\nVARIANT A — PREDICTIVE PURSUIT. Aim for about ten useful HUD components and a clear visual hierarchy. This is noticeably richer than the source while keeping generous open view down the middle.\n- Upper-left header \"AFTERHUMAN\" above \"NEURAL LINK\", followed by a compact neural waveform and \"COGNITION x256\".\n- Left mid-edge: a route-comparison stack headed \"ROUTE ANALYSIS\", with three thin rows \"A 12.8s\", \"B 08.1s\", \"C 04.2s\". Dim the first two in amber and highlight C in cyan with a small tick.\n- Top-center: a fine compass ruler with numeric bearing ticks and a compact \"PREDICTIVE VISION\" label.\n- Surround the current magenta train target with precise broken concentric circles and four tracking ticks, leaving the train itself visible. A short leader points to \"TRAIN 07\", \"96 km/h\" and \"RANGE 84m\".\n- Preserve the upper-right \"INTERCEPT ROUTE\" map but add a dotted projected segment and cyan intercept diamond. Below it, two compact fields: \"INTERCEPT 04.2s\" and \"CONFIDENCE 99.7%\".\n- Add three delicate tracking brackets on existing real scene features: a pedestrian, ramp entry and rail destination. Use very short labels \"PEDESTRIAN\", \"RAMP\" and \"TARGET\".\n- A thin bottom peripheral status strip has four small icon/readout pairs: \"COGNITION ONLINE\", \"REFLEX READY\", \"STRENGTH READY\", \"SPEED READY\". Keep the hand anatomically unchanged and unobscured.\nThe image should communicate that she can compare options and predict an interception in an instant, with a rich premium HUD rather than just a navigation line.",
+  "node_id": "TuQsshwFe3tVBVTvWF8O",
+  "status": "unselected_alternative_retained",
+  "provider": "ElevenLabs",
+  "model_id": "gpt-image-2",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "prompt_file": "assets/06-shots/prompts/shot-08-hud-a-predictive-v01.txt",
+  "prompt_sha256": "b7bdcda190d490a99c3c696824116fc80939449a9c454cf5375c9d433dd31964",
+  "output_file": "assets/06-shots/images/shot-08-hud-a-predictive-v01.png",
+  "location": "Same approved terrace; HUD-only concept",
+  "requested_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "1K",
+    "quality": "low"
+  },
+  "effective_settings": {
+    "images": [
+      {
+        "template_node_id": "zle93ij2plTfimqPEqso"
+      }
+    ],
+    "quality": "low",
+    "aspect_ratio": "16:9",
+    "resolution": "1K"
+  },
+  "references": [
+    {
+      "node_id": "zle93ij2plTfimqPEqso",
+      "generation_id": "L6rqTHE2WjQw2BdZyDng",
+      "port": "images",
+      "file": "assets/06-shots/images/shot-08-intelligence-city-start-v02.png",
+      "sha256": "f6c559b149b6693a78c45486dc5bf07dc321d83f27528f672496faaca6fd2e6b"
+    }
+  ],
+  "generations_count": 1,
+  "seed": null,
+  "seed_note": "No seed parameter exposed by this schema.",
+  "upscaled": false,
+  "selected": false,
+  "user_approved": false,
+  "prepared_at": "2026-11-01T20:20:15+05:30",
+  "submitted_at": "2026-11-01T20:20:51+05:30",
+  "generation_id": "pYw7Bjq3LGaGC0iYxZpf",
+  "session_id": "xyOfXLQ3yQ5pGkkvEMma",
+  "reported_submission_credits": 252.11783783783784,
+  "completed_at": "2026-11-01T20:22:05+05:30",
+  "provider_generation": {
+    "id": "pYw7Bjq3LGaGC0iYxZpf",
+    "status": "completed",
+    "model_id": "gpt-image-2",
+    "modality": "image",
+    "prompt": "Edit the supplied first-person city image into an original AFTERHUMAN cybernetic-eye interface concept for a cinematic advertisement. The user wants a much richer HUD, with the immersive layered infor",
+    "width": 1280,
+    "height": 720,
+    "created_at_unix_ms": 1793544616059,
+    "price": {
+      "credits": 252.11783783783784,
+      "price_cents": 366.0751005405406,
+      "cost_fiat_currency": "inr"
+    }
+  },
+  "provider_reported_price": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "cost_fiat_currency": "inr"
+  },
+  "sha256": "2ce54ec475465b06eec87cc7f55562c66f47f53faac57d284aa41da7c6e08d32",
+  "bytes": 1708510,
+  "width": 1280,
+  "height": 720,
+  "assistant_visual_review": {
+    "observations": [
+      "Three route options with a highlighted cyan winner make the prediction decision easy to find.",
+      "Train data, intercept timing/confidence, neural waveform and four power-readiness indicators add useful density.",
+      "Central train and ramp remain readable; hand pose and scene composition visually follow the source."
+    ],
+    "limitations": [
+      "Tiny bearing/range typography and some object-label anchors need cleanup.",
+      "Peripheral treatment slightly darkens the source.",
+      "The least dense option; weaker in the requested immersive helmet-HUD feel."
+    ],
+    "method": "Native 1280x720 visual inspection; static concept only.",
+    "reviewed_at": "2026-11-01T20:25:29+05:30",
+    "user_selection_pending": true
+  },
+  "reviewed_at": "2026-11-01T20:25:29+05:30",
+  "user_review": {
+    "reviewed_at": "2026-11-01T20:32:38+05:30",
+    "evidence": "C",
+    "outcome": "alternative_not_selected",
+    "scope": "Retained alternative, not an explicit rejection."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "asset_id": "shot-06-07-diagnostic-launch-seedance-480p-v01",
+  "title": "06\u201307 \u2014 Continuous diagnostic and preferred launch",
+  "location": "Daylight wet cyberpunk station, train departed",
+  "status": "user_approved_take",
+  "output_file": "assets/06-shots/videos/shot-06-07-diagnostic-launch-seedance-480p-v01.mp4",
+  "sha256": "dacbdc7e5c7f03047dcfd91251b4d4554d0d20b54fe88bb740aca22533c7841d",
+  "model_id": "bytedance-seedance-v2.5",
+  "generation_id": "CeI75xz4e5uwe849gN9N",
+  "session_id": "4pDBLjaLuF9VQzubhCHY",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-11-02T01:05:03+05:30",
+    "method": "32 native samples at0.25-second intervals,24 return-transition samples at1/12-second intervals, native full-size diagnostic frame at3.125s, original launch contact sheet and diagnostic/outfit references. Full picture decode and numeric audio analysis. No independent continuous playback or listening claim.",
+    "observations": [
+      "Full-body Riley floats from the station into the centered cyan scan, then returns to the wet station before running screen-left and away. Both supplied reference sequences are visibly reflected in the output.",
+      "Brand text visibly progresses from partial letters to AFTERHUMAN; CYBERNETIC IMPLANTS and INTELLIGENCE,REFLEXES,STRENGTH,SPEED are readable in the native3.125s frame. Four callouts appear sequentially, with ONLINE sublabels and a completion state.",
+      "Scan visualization remains a non-gory translucent technical overlay. Gold wrap dress, dark/gold boots, brunette bob and human arms/legs broadly retained; small facial and cyberware detail limited by wide480p framing.",
+      "Interface dissolves and the full station returns around4.3\u20135.0s. Sampled return transitions gradually without an obvious hard cut; background recovers from blur and framing shifts slightly.",
+      "Head/body turn begins around5.6\u20135.9s, compact lowered stance around6.2s, then rapid leftward travel around6.3\u20137.0s. Riley disappears into the distance and trails fade by the ending. This closely resembles the preferred MiniMax action.",
+      "Tracks remain clear; no train reappears. Broad daylight cyan/gold station continuity remains."
+    ],
+    "limitations": [
+      "Return does not flow instantly into launch: approximately0.6s of standing after settling, then turn/wind-up. Strong acceleration begins around6.3s rather than the requested running by5.5s. Exact commercial timing needs user judgment.",
+      "Fine terminal sublabels and numerical readout are soft and may distort. Major brand/product/ability labels read correctly in the inspected full-size frame; this is not a frame-by-frame typography certification.",
+      "Background framing/perspective shifts slightly during the return; this is not an exact locked-camera reproduction of the reference.",
+      "Bright cyan/magenta trails broadly match MiniMax but can dominate the late frame. Exact foot contact, speed impression and facial likeness require playback review.",
+      "Native audio decoded and measured only; speech/music absence and listening quality are not independently certified. Existing David VO/Chrome Swagger mix was not reassembled or replaced.",
+      "Generated take pending user review; no local retime, upscale, accepted-ad replacement, automatic retry or extra generation."
+    ]
+  },
+  "native_audio_analysis": {
+    "file": "assets/06-shots/reviews/shot-06-07-diagnostic-launch-seedance-480p-v01/native-audio.wav",
+    "levels_file": "assets/06-shots/reviews/shot-06-07-diagnostic-launch-seedance-480p-v01/native-audio-levels.txt",
+    "rms_dbfs": -25.01569267617555,
+    "peak_dbfs": -6.817210374147472,
+    "decoded_duration_seconds": 8.0635,
+    "listening_review": false
+  },
+  "selected": true,
+  "user_approved": true,
+  "reviewed_at": "2026-11-02T01:05:03+05:30",
+  "native_picture_frames": 193,
+  "native_picture_seconds": 8.042,
+  "nominal_fps": 24,
+  "source_retimed": false,
+  "accepted_ad_modified": false,
+  "approval": {
+    "at": "2026-11-02T01:09:23+05:30",
+    "quote": "Okay looks good. Let's move on",
+    "source": "explicit_user_message",
+    "scope": "Approve the combined diagnostic/launch take for use. Continue with local full-cut assembly using latest approved/preferred visuals and locked David/Chrome Swagger audio; final assembled review remains pending."
+  }
+}

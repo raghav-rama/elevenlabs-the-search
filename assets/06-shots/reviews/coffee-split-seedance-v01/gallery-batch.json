@@ -1,0 +1,28 @@
+{
+  "gallery_title": "AFTERHUMAN \u00b7 Seedance / MiniMax coffee comparison",
+  "gallery_description": "Compare the same FPP opening with the new Seedance rescue and the liked MiniMax rescue. Individual TPP takes are below.",
+  "gallery_status": "Seedance test not selected: user prefers MiniMax v04 TPP. Both versions retained for comparison.",
+  "gallery_footer": "Seedance 2.5 \u00b7 480p \u00b7 One eight-second request \u00b7 10,418.352 credits / INR 151.27 \u00b7 No retries",
+  "shots": [
+    {
+      "record_file": "assets/06-shots/reviews/coffee-split-seedance-v01/review.json"
+    },
+    {
+      "record_file": "assets/06-shots/reviews/coffee-split-minimax-v04/review.json"
+    },
+    {
+      "record_file": "assets/06-shots/reviews/shot-09-coffee-tpp-orbit-seedance-480p-v01/review.json"
+    },
+    {
+      "record_file": "assets/06-shots/reviews/shot-09-coffee-tpp-orbit-minimax-v04/review.json"
+    }
+  ],
+  "user_feedback": {
+    "at": "2026-11-01T23:38:50+05:30",
+    "source": "explicit_user_message",
+    "quote": "Nope this looks better /Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+    "preferred_take": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+    "scope": "User prefers MiniMax v04 over the Seedance test for this TPP shot. Selection applies to this comparison, not a final ad lock, upscale or regeneration authorization."
+  },
+  "updated_at": "2026-11-01T23:38:50+05:30"
+}

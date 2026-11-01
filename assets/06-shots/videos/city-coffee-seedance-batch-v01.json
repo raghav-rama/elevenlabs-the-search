@@ -1,0 +1,120 @@
+{
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "model_id": "bytedance-seedance-v2.5",
+  "status": "opening_revision_requested_rest_liked",
+  "requested_generations": 1,
+  "generations_per_shot": 1,
+  "requested_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "480p",
+    "duration_secs": 11,
+    "generate_audio": true
+  },
+  "estimate": {
+    "credits": 14325.234000000002,
+    "price_cents": 20800.239768000003,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "selected": false,
+  "user_approved": false,
+  "retries": 0,
+  "review_sample_count": 23,
+  "review_interval_seconds": 0.5,
+  "shots": [
+    {
+      "asset_id": "shot-09-coffee-city-seedance-480p-v01",
+      "title": "Coffee reflex rescue \u2014 FPP to TPP",
+      "node_id": "OFE4zm6RcnEfvZSdlY8H",
+      "record_file": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.generation.json",
+      "prompt_file": "assets/06-shots/video-prompts/shot-09-coffee-city-seedance-480p-v01.txt",
+      "output_file": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "source_file": "assets/06-shots/images/shot-09-coffee-city-start-v03.png",
+      "status": "opening_revision_requested_rest_liked",
+      "generation_id": "TpRqAwhXMckaIKRpDQs5",
+      "session_id": "OAH2GQf9hM95smID7YKg",
+      "sha256": "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86",
+      "review_file": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/review.json"
+    }
+  ],
+  "submitted_at": "2026-11-01T21:10:58+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "OFE4zm6RcnEfvZSdlY8H",
+        "session_id": "OAH2GQf9hM95smID7YKg",
+        "credit_costs": {
+          "TpRqAwhXMckaIKRpDQs5": 14325.234000000002
+        }
+      }
+    ],
+    "session_ids": [
+      "OAH2GQf9hM95smID7YKg"
+    ],
+    "pending": [
+      {
+        "generation_id": "TpRqAwhXMckaIKRpDQs5",
+        "kind": "video"
+      }
+    ]
+  },
+  "session_ids": [
+    "OAH2GQf9hM95smID7YKg"
+  ],
+  "completed_at": "2026-11-01T21:14:57+05:30",
+  "completed_generations": 1,
+  "total_reported_price": {
+    "credits": 14325.234000000002,
+    "price_cents": 20800.239768000003,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T21:18:26+05:30",
+  "candidate_edit": {
+    "status": "opening_revision_requested_rest_liked",
+    "source_in_frames": 0,
+    "source_out_frames_exclusive": 243,
+    "source_in_seconds": 0,
+    "source_out_seconds_exclusive": 10.125,
+    "duration_frames": 243,
+    "duration_seconds": 10.125,
+    "fps": 24,
+    "speed_multiplier": 1,
+    "output_file": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/edit-preview-v01/shot-09-coffee-edit-preview-v01.mp4",
+    "sha256": "976e51690a4dab81148cc8d126a3bf3cc311acf07c81dc878d94b9e5214c2b92",
+    "source_unchanged": true,
+    "ad_unchanged": true,
+    "local_reencode": true,
+    "audio_edge_fades_seconds": 0.008,
+    "new_credits": 0,
+    "purpose": "Exclude late cafe/rail side reversal; preserve all main story beats without retiming. Exact catch remains obscured by generated face insert."
+  },
+  "gallery_title": "AFTERHUMAN \u00b7 Seedance coffee reflexes",
+  "gallery_description": "One eleven-second production take in the approved cyberpunk cafe. FPP approach, mug drop, third-person rescue, return and sprint.",
+  "gallery_status": "Pending review. One generation: 14,325.234 credits / INR 208.00. No retries. Candidate excerpt avoids the late geography reversal; catch contact is still obscured.",
+  "gallery_footer": "Seedance 2.5 \u00b7 Native 854\u00d7480 / 24 fps \u00b7 Native audio \u00b7 No upscale",
+  "review_index": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/index.html",
+  "run_summary": {
+    "nodes_run": 1,
+    "generations_started": 1,
+    "failed": 0,
+    "generations_by_node": {
+      "OFE4zm6RcnEfvZSdlY8H": 1
+    }
+  },
+  "user_feedback": {
+    "at": "2026-11-01T21:44:16+05:30",
+    "user_feedback": "Shot looks good, but she should run normally in FPP, look left to discover the cup already falling, then retain TPP catching it before ground impact.",
+    "scope": "Positive overall review; opening staging revision requested. Not final take lock.",
+    "cause": "v01 prompt said toward the man, directing her approach into him.",
+    "requested_opening": [
+      "Run forward parallel to storefront with man out of frame on left",
+      "Look left while continuing forward",
+      "Mug is already free-falling when first seen",
+      "TPP shows actual catch contact before impact"
+    ],
+    "preserve": "Existing Riley/city styling, third-person rescue direction, return and sprint."
+  }
+}

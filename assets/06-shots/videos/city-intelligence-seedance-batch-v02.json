@@ -1,0 +1,116 @@
+{
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "model_id": "bytedance-seedance-v2.5",
+  "requested_generations": 1,
+  "generations_per_shot": 1,
+  "requested_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "480p",
+    "duration_secs": 5,
+    "generate_audio": true
+  },
+  "estimate": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "status": "user_approved_range_locked",
+  "selected": true,
+  "user_approved": true,
+  "retries": 0,
+  "review_sample_count": 21,
+  "review_interval_seconds": 0.25,
+  "shots": [
+    {
+      "asset_id": "shot-08-intelligence-city-seedance-480p-v02",
+      "title": "Intelligence \u2014 selected C tactical HUD",
+      "node_id": "PsSNhznu73ibMqCYegnw",
+      "record_file": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v02.generation.json",
+      "prompt_file": "assets/06-shots/video-prompts/shot-08-intelligence-city-seedance-480p-v02.txt",
+      "output_file": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v02.mp4",
+      "source_file": "assets/06-shots/images/shot-08-hud-c-tactical-v02.png",
+      "status": "user_approved_range_locked",
+      "generation_id": "z0kmtBp1Q5as6vk2UIc5",
+      "session_id": "HY4UQG6gDUf1VIiQyVNO",
+      "sha256": "da8a4c389e608b276f31e872372fb1fef135139ec8c28fd8b30e144ada3c9403",
+      "review_file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/review.json",
+      "selected": true,
+      "user_approved": true
+    }
+  ],
+  "submitted_at": "2026-11-01T20:57:34+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "PsSNhznu73ibMqCYegnw",
+        "session_id": "HY4UQG6gDUf1VIiQyVNO",
+        "credit_costs": {
+          "z0kmtBp1Q5as6vk2UIc5": 6511.470000000001
+        }
+      }
+    ],
+    "session_ids": [
+      "HY4UQG6gDUf1VIiQyVNO"
+    ],
+    "pending": [
+      {
+        "generation_id": "z0kmtBp1Q5as6vk2UIc5",
+        "kind": "video"
+      }
+    ]
+  },
+  "session_ids": [
+    "HY4UQG6gDUf1VIiQyVNO"
+  ],
+  "completed_at": "2026-11-01T21:00:38+05:30",
+  "completed_generations": 1,
+  "total_reported_price": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T21:03:36+05:30",
+  "candidate_edit": {
+    "status": "user_approved_locked",
+    "source_in_frames": 6,
+    "source_out_frames_exclusive": 72,
+    "source_in_seconds": 0.25,
+    "source_out_seconds_exclusive": 3.0,
+    "duration_frames": 66,
+    "duration_seconds": 2.75,
+    "fps": 24,
+    "speed_multiplier": 1,
+    "output_file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/edit-preview-v01/shot-08-hud-c-edit-preview-v01.mp4",
+    "sha256": "cd63556da707cf6fee969976cb27a7112bb178d372c799fdef5ec3d2982cc51e",
+    "source_unchanged": true,
+    "ad_unchanged": true,
+    "local_reencode": true,
+    "audio_edge_fades_seconds": 0.008,
+    "new_credits": 0,
+    "selected": true,
+    "user_approved": true,
+    "approved_at": "2026-11-01T21:08:16+05:30",
+    "approval_evidence": "Lock it and continue",
+    "approval_scope": "The delivered 2.75-second HUD excerpt, source [0.25,3.00), frames 6\u201371 at original speed; not blanket approval of the full-source tail or final audio master."
+  },
+  "gallery_title": "AFTERHUMAN \u00b7 Selected C tactical HUD in motion",
+  "gallery_description": "Five-second Seedance 2.5 replacement, plus a 2.75-second proposed edit excerpt. Dense HUD from the selected C direction.",
+  "gallery_status": "2.75-second excerpt locked by the user. One video: 6,511.47 credits / INR 94.55. With one still cleanup: 6,931.16 credits / INR 100.64. No retries.",
+  "gallery_footer": "Native 854\u00d7480 \u00b7 24 fps \u00b7 Native audio \u00b7 No upscale \u00b7 Fine text still needs editorial finishing",
+  "review_index": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/index.html",
+  "run_summary": {
+    "nodes_run": 1,
+    "generations_started": 1,
+    "failed": 0,
+    "generations_by_node": {
+      "PsSNhznu73ibMqCYegnw": 1
+    }
+  },
+  "approved_at": "2026-11-01T21:08:16+05:30",
+  "approval_evidence": "Lock it and continue",
+  "approval_scope": "The delivered 2.75-second HUD excerpt, source [0.25,3.00), frames 6\u201371 at original speed; not blanket approval of the full-source tail or final audio master."
+}

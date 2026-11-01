@@ -1,0 +1,351 @@
+{
+  "created_at": "2026-11-01T18:48:05+05:30",
+  "status": "user_approved_corrected_still_references",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "estimate_three_corrections": {
+    "credits": 756.3535135135135,
+    "price_cents": 1098.2253016216218,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "schema": {
+    "model_id": "gpt-image-2",
+    "model_name": "GPT Image 2",
+    "node_type": "image-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "16:9",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "4:5",
+            "value": "4:5"
+          },
+          {
+            "label": "5:4",
+            "value": "5:4"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "2:3",
+            "value": "2:3"
+          },
+          {
+            "label": "3:2",
+            "value": "3:2"
+          },
+          {
+            "label": "1:2",
+            "value": "1:2"
+          },
+          {
+            "label": "2:1",
+            "value": "2:1"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "1:3",
+            "value": "1:3"
+          },
+          {
+            "label": "3:1",
+            "value": "3:1"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "1K",
+        "options": [
+          {
+            "label": "1K",
+            "value": "1K"
+          },
+          {
+            "label": "2K",
+            "value": "2K"
+          },
+          {
+            "label": "4K",
+            "value": "4K"
+          }
+        ]
+      },
+      {
+        "name": "quality",
+        "type": "select",
+        "required": false,
+        "default": "medium",
+        "options": [
+          {
+            "label": "low",
+            "value": "low"
+          },
+          {
+            "label": "medium",
+            "value": "medium"
+          },
+          {
+            "label": "high",
+            "value": "high"
+          }
+        ]
+      },
+      {
+        "name": "custom_width",
+        "type": "number",
+        "required": false,
+        "min_value": 64,
+        "max_value": 3840,
+        "number_type": "int"
+      },
+      {
+        "name": "custom_height",
+        "type": "number",
+        "required": false,
+        "min_value": 64,
+        "max_value": 3840,
+        "number_type": "int"
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "images",
+        "modality": "image",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "1:1",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "2:3",
+        "3:2",
+        "1:2",
+        "2:1",
+        "9:16",
+        "16:9",
+        "21:9",
+        "1:3",
+        "3:1"
+      ],
+      "quality": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "resolution": [
+        "1K",
+        "2K",
+        "4K"
+      ]
+    }
+  },
+  "shots": [
+    {
+      "asset_id": "shot-12-overtake-city-start-v03",
+      "concept": "overhead",
+      "node_id": "aYqLIq6SpASveO6cwvQS",
+      "record_file": "assets/06-shots/images/shot-12-overtake-city-start-v03.generation.json",
+      "output_file": "assets/06-shots/images/shot-12-overtake-city-start-v03.png",
+      "status": "user_approved_still_reference",
+      "generation_id": "aso9vVxmccyeGPsAYP3o",
+      "session_id": "L9afvstjblGdagLYGrc3",
+      "sha256": "f8c4759f8f40c4a20c0fd8e4e456b5601d16007072c6c070910c9dfba644e961",
+      "width": 1280,
+      "height": 720,
+      "price": {
+        "credits": 252.11783783783784,
+        "price_cents": 366.0751005405406,
+        "cost_fiat_currency": "inr"
+      },
+      "selected": true,
+      "user_approved": true
+    },
+    {
+      "asset_id": "shot-09-coffee-city-start-v03",
+      "concept": "coffee",
+      "node_id": "Q5MtC1XJtXPGFZwzZrAJ",
+      "record_file": "assets/06-shots/images/shot-09-coffee-city-start-v03.generation.json",
+      "output_file": "assets/06-shots/images/shot-09-coffee-city-start-v03.png",
+      "status": "user_approved_still_reference",
+      "generation_id": "szfN8H6gx2b1YVLRxPrB",
+      "session_id": "bCScF6lkQyifomQ665FW",
+      "sha256": "736546f20206e8574e7ea48de18cb6e97bd6a15b55f90c4a57159bcf5ab0ca07",
+      "width": 1280,
+      "height": 720,
+      "price": {
+        "credits": 252.11783783783784,
+        "price_cents": 366.0751005405406,
+        "cost_fiat_currency": "inr"
+      },
+      "selected": true,
+      "user_approved": true
+    },
+    {
+      "asset_id": "shot-10-strength-city-start-v03",
+      "concept": "strength",
+      "node_id": "KUuSnfPixqllUfbpelUI",
+      "record_file": "assets/06-shots/images/shot-10-strength-city-start-v03.generation.json",
+      "output_file": "assets/06-shots/images/shot-10-strength-city-start-v03.png",
+      "status": "user_approved_still_reference",
+      "generation_id": "q67smGvK5j2KnkkB8uTn",
+      "session_id": "nN9FsE232V7GSLbTUaR8",
+      "sha256": "0814b2efafdba015b5819b664813d9c894c06bb935bdfc62573b26fc2fc3b87f",
+      "width": 1280,
+      "height": 720,
+      "price": {
+        "credits": 252.11783783783784,
+        "price_cents": 366.0751005405406,
+        "cost_fiat_currency": "inr"
+      },
+      "selected": true,
+      "user_approved": true
+    },
+    {
+      "asset_id": "shot-12-overtake-city-end-v03",
+      "concept": "overtake-end",
+      "node_id": "AZPI2Rt0lpKVdsINgtdM",
+      "record_file": "assets/06-shots/images/shot-12-overtake-city-end-v03.generation.json",
+      "output_file": "assets/06-shots/images/shot-12-overtake-city-end-v03.png",
+      "status": "user_approved_still_reference",
+      "generation_id": "IQ2ONBuhzp0M99ig8nJY",
+      "session_id": "r4w5jxFNfEhX8hdIVvLC",
+      "sha256": "bd3e17465b79e59857bcfce7726c2a4a8512388b3c4a11b606302117dd159a07",
+      "width": 1280,
+      "height": 720,
+      "price": {
+        "credits": 252.11783783783784,
+        "price_cents": 366.0751005405406,
+        "cost_fiat_currency": "inr"
+      },
+      "selected": true,
+      "user_approved": true
+    }
+  ],
+  "user_instruction": "Yup, noticed that too. Fix it",
+  "planned_work": "Three targeted corrections plus the already-planned matching overhead end",
+  "new_video_generations": 0,
+  "run": {
+    "session_ids": [
+      "L9afvstjblGdagLYGrc3",
+      "bCScF6lkQyifomQ665FW",
+      "nN9FsE232V7GSLbTUaR8"
+    ],
+    "summary": {
+      "nodes_run": 3,
+      "generations_started": 3,
+      "failed": 0,
+      "generations_by_node": {
+        "aYqLIq6SpASveO6cwvQS": 1,
+        "Q5MtC1XJtXPGFZwzZrAJ": 1,
+        "KUuSnfPixqllUfbpelUI": 1
+      }
+    },
+    "results": [
+      {
+        "success": true,
+        "node_id": "aYqLIq6SpASveO6cwvQS",
+        "session_id": "L9afvstjblGdagLYGrc3",
+        "credit_costs": {
+          "aso9vVxmccyeGPsAYP3o": 252.11783783783784
+        }
+      },
+      {
+        "success": true,
+        "node_id": "Q5MtC1XJtXPGFZwzZrAJ",
+        "session_id": "bCScF6lkQyifomQ665FW",
+        "credit_costs": {
+          "szfN8H6gx2b1YVLRxPrB": 252.11783783783784
+        }
+      },
+      {
+        "success": true,
+        "node_id": "KUuSnfPixqllUfbpelUI",
+        "session_id": "nN9FsE232V7GSLbTUaR8",
+        "credit_costs": {
+          "q67smGvK5j2KnkkB8uTn": 252.11783783783784
+        }
+      }
+    ]
+  },
+  "estimate_end": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "end_run": {
+    "session_ids": [
+      "r4w5jxFNfEhX8hdIVvLC"
+    ],
+    "summary": {
+      "nodes_run": 1,
+      "generations_started": 1,
+      "failed": 0,
+      "generations_by_node": {
+        "AZPI2Rt0lpKVdsINgtdM": 1
+      }
+    },
+    "results": [
+      {
+        "success": true,
+        "node_id": "AZPI2Rt0lpKVdsINgtdM",
+        "session_id": "r4w5jxFNfEhX8hdIVvLC",
+        "credit_costs": {
+          "IQ2ONBuhzp0M99ig8nJY": 252.11783783783784
+        }
+      }
+    ]
+  },
+  "completed_at": "2026-11-01T18:53:26+05:30",
+  "new_generations": 4,
+  "actual_credits": 1008.4713513513514,
+  "actual_price_cents": 1464.3004021621623,
+  "currency": "inr",
+  "new_upscales": 0,
+  "selected": true,
+  "user_approved": true,
+  "approved_at": "2026-11-01T19:00:22+05:30"
+}

@@ -1,0 +1,145 @@
+{
+  "concept": "overtake-start",
+  "asset_id": "shot-12-overtake-city-start-v02",
+  "prompt_file": "assets/06-shots/prompts/shot-12-overtake-city-start-v02-run.txt",
+  "draft_prompt": "assets/06-shots/prompts/shot-12-overtake-city-start-v02.txt",
+  "prompt_sha256": "5fe00d0cc31ba2051ebd181f264e612846aacca75efa87347fb485ba0769d73c",
+  "prompt": "Reference roles: the transformed Riley station frame supplies CITY ARCHITECTURE, materials and daylight only; create a new district location, do not copy the station platform or its standing Riley. The full-body gold outfit reference supplies her exact gold wrap dress, black-and-gold boots, natural skin and slim chrome/cyan inlays. The portrait supplies Riley identity, brown bob with teal detail and the selected asymmetric facial cyberware; do not mirror it. The train side reference supplies graphite metal, cyan trim and warm gold detailing only, not its side-view camera. One image, no collage.\n\nPhotoreal cinematic commercial, 16:9. One coherent near-future city matching the supplied approved station frame: layered glass megastructures, brushed dark metal, elevated rail and skybridges, cyan light strips, restrained magenta signage and warm gold practical lighting. Bright hazy daylight, slightly damp reflective surfaces, natural skin and physical materials. Preserve the station's welcoming luminous look; do not change to a night city. Background pedestrians wear plausible future-city streetwear, not matching uniforms. Establish infrastructure and architecture as futuristic; neon added to an otherwise contemporary street is insufficient. No illegible foreground advertising, title cards or model-generated AFTERHUMAN typography; exact product labels will be added editorially.\n\nStrict top-down camera perpendicular to the ground. Elevated rail corridor through the same futuristic city, not a coastline. The approved dark train with cyan trim and warm gold detailing runs lengthwise along straight rails pointing to the top of the image. Frame the streamlined nose and front portion of the lead car, not the entire train. A clearly separated parallel maintenance/run lane lies on image-left with a physical divider and about two metres of lateral clearance to the rail envelope. Upgraded Riley in the exact gold outfit, tall boots and natural skin with slim chrome inlays faces and runs toward the top, centered in that lane. Her projected body length occupies roughly 12\u201316 percent of image height with believable scale relative to the train. At the beginning her leading hand/head remain around one body length behind the train nose. Both travel upward. No rotation, crossing paths, head-on encounter, full chrome limbs, Riley on the rails or giant Riley. This is the beginning position, not a completed overtake.\n\nComposition target in normalized screen coordinates: the straight track and train axis is vertical at x=0.68. The rounded leading nose is near y=0.36; the train body extends DOWN from the nose and out of the lower edge. Two rails continue straight UP beyond the nose, and remain aligned underneath the train. Riley runs upward in the separate lane at x=0.36, crown/leading hand about y=0.53 and trailing boot about y=0.66. Her back and crown are visible from directly above, never her frontal face. Keep her human-scale and the train roughly three metres wide. These are staging targets, not visible diagrams or text. A few subtle cyan wake flecks trail downward behind her; they do not hide her pose. No front-facing standing figure pasted into an aerial shot.\n",
+  "node_id": "r8jzkkvo69R42VWsR3xD",
+  "reference_keys": [
+    "world",
+    "wardrobe",
+    "face",
+    "train"
+  ],
+  "model_parameters": {
+    "images": [
+      {
+        "template_node_id": "oq4i1gtPgBZQWZjKpyK9"
+      },
+      {
+        "template_node_id": "LsmAOIUrwmaZEKFGxI1L"
+      },
+      {
+        "template_node_id": "ldx3dNdFkLfKBC2giOfl"
+      },
+      {
+        "template_node_id": "KKt8of3l6YC47FIQnVG9"
+      }
+    ],
+    "quality": "low",
+    "aspect_ratio": "16:9",
+    "resolution": "1K"
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "oq4i1gtPgBZQWZjKpyK9",
+          "label": "WORLD \u2014 approved transformation ending, city architecture and daylight"
+        },
+        {
+          "id": "LsmAOIUrwmaZEKFGxI1L",
+          "label": "APPROVED \u2014 Gold dress, natural skin, narrow chrome inlays"
+        },
+        {
+          "id": "ldx3dNdFkLfKBC2giOfl",
+          "label": "APPROVED \u2014 Riley face and asymmetric cyberware"
+        },
+        {
+          "id": "KKt8of3l6YC47FIQnVG9",
+          "label": "TRAIN \u2014 graphite, cyan and warm gold; livery and city materials"
+        }
+      ]
+    }
+  ],
+  "title": "12A \u2014 Train race / beginning",
+  "location": "Elevated urban rail with separated running lane",
+  "status": "revision_requested_source_preserved",
+  "selected": false,
+  "user_approved": false,
+  "provider": "ElevenLabs",
+  "model_id": "gpt-image-2",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "output_file": "assets/06-shots/images/shot-12-overtake-city-start-v02.png",
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "prepared_at": "2026-11-01T18:28:47+05:30",
+  "references": [
+    {
+      "node_id": "oq4i1gtPgBZQWZjKpyK9",
+      "content_asset_id": "31PjGeIKM3pQc1ShkXkD",
+      "file": "assets/06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/last-picture-frame.png",
+      "sha256": "c0e544d85a36ece78e5455ca84632130e692f9e5ed9c9c3835a8047dc8ea3ba0",
+      "order": 1,
+      "role": "approved station architecture/daylight only"
+    },
+    {
+      "node_id": "LsmAOIUrwmaZEKFGxI1L",
+      "generation_id": "WboGh1QOlITNwOVIn0Gj",
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6",
+      "order": 2,
+      "role": "approved gold dress, boots, natural skin and narrow chrome inlays"
+    },
+    {
+      "node_id": "ldx3dNdFkLfKBC2giOfl",
+      "generation_id": "MTCPGsxYC5HZK0tNPdKO",
+      "file": "assets/01-riley/images/riley-cyberpunk-03-v01.png",
+      "sha256": "4df29f1f3ed615cc454ae91d983f56046e203cc0be225b854c22bcdffc5ca009",
+      "order": 3,
+      "role": "approved Riley identity and facial cyberware"
+    },
+    {
+      "node_id": "KKt8of3l6YC47FIQnVG9",
+      "content_asset_id": "tFT9KA7avFVxxFzuLkMj",
+      "file": "assets/05-train/images/train-01-v02.png",
+      "sha256": "6191d92b40f7cf54ebb763892720315cb15a4cb44b3a663cc31d732b762ed2b5",
+      "order": 4,
+      "role": "approved train livery and materials"
+    }
+  ],
+  "session_id": "bO802HdMaDRATrt5wznz",
+  "generation_id": "EazB0GjtutLD06I0Vqjm",
+  "estimate": {
+    "credits": 907.252972972973,
+    "price_cents": 1317.331316756757,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "provider_reported_price": {
+    "credits": 907.252972972973,
+    "price_cents": 1317.331316756757,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793537892301,
+  "sha256": "2abcddb83d532242f4402aa04f905942dcbf150e5893c8f93db9babb720c5250",
+  "bytes": 1946933,
+  "width": 1280,
+  "height": 720,
+  "completed_at": "2026-11-01T18:29:09+05:30",
+  "assistant_visual_review": {
+    "observations": [
+      "City materials, separate left lane and gold wardrobe are present.",
+      "Train is longitudinally aligned with rails."
+    ],
+    "limitations": [
+      "Train nose points downward while Riley runs upward; the requested same-direction staging failed.",
+      "Cannot use this as the animation start or matching-end authority."
+    ],
+    "user_selection_pending": true
+  },
+  "user_feedback": "User acknowledged the listed error and requested a fix."
+}

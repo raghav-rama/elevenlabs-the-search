@@ -1,0 +1,34 @@
+{
+  "verified_at": "2026-11-01T23:51:51+05:30",
+  "source_sha256": "f5efe45d4615c8e650ede34edc5f542c285d934a44d790287617efcb77e5343c",
+  "prepared_sha256": "192a97a1064db5a6b05e4baa5d2c6cadd21db335ede6266756b7ff9abebbaa53",
+  "dimensions": [
+    884,
+    510
+  ],
+  "pixel_count": 450840,
+  "provider_pixel_range": [
+    407696,
+    8295044
+  ],
+  "frames": 192,
+  "seconds": 8,
+  "fps": 24,
+  "uniform_scale": 1.0625,
+  "source_unchanged": true,
+  "crop_or_padding": false,
+  "retimed": false,
+  "new_paid_generation_submitted": false,
+  "quote_credits": 12502.022400000002,
+  "quote_inr": 181.52936524800003,
+  "billing_refund_confirmed": false,
+  "visual_review": "Eight samples show the same rescue/camera progression; full decode confirms192 frames and no near-black frames. No playback/listening claim.",
+  "later_status": {
+    "at": "2026-11-02T00:02:52+05:30",
+    "provider_input_accepted": true,
+    "retry_generation_id": "rRtNqFee9BOE2Gxzcltu",
+    "retry_status": "completed",
+    "first_attempt_refund": "user_confirmed_not_independently_verified",
+    "review": "assets/06-shots/reviews/coffee-minimax-ref-seedance-edit-v02/README.md"
+  }
+}

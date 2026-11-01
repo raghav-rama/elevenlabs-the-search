@@ -1,0 +1,83 @@
+{
+  "status": "not_selected_minimax_v04_preferred",
+  "created_at": "2026-11-01T23:24:29+05:30",
+  "flow_id": "J725xEy49QY4xa6L66pw",
+  "flow_url": "https://elevenlabs.io/app/flows/J725xEy49QY4xa6L66pw",
+  "model_id": "bytedance-seedance-v2.5",
+  "requested_generations": 1,
+  "generations_per_shot": 1,
+  "retries": 0,
+  "estimate": {
+    "credits": 10418.352,
+    "price_cents": 15127.447104000003,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "selected": false,
+  "user_approved": false,
+  "review_sample_count": 24,
+  "review_interval_seconds": 0.3333333333,
+  "shots": [
+    {
+      "asset_id": "shot-09-coffee-tpp-orbit-seedance-480p-v01",
+      "title": "Seedance \u2014 airborne-cup reflex and orbit",
+      "node_id": "8qkqhgYUvy3WDhmqs0Pw",
+      "record_file": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-seedance-480p-v01.generation.json",
+      "prompt_file": "assets/06-shots/video-prompts/shot-09-coffee-tpp-orbit-seedance-480p-v01.txt",
+      "output_file": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-seedance-480p-v01.mp4",
+      "session_id": "BnsroGw9G1RLt6CIWOQr",
+      "generation_id": "LiTtOeqHu8HCVpPHoUkW",
+      "status": "not_selected_minimax_v04_preferred",
+      "sha256": "aadb78f46a93ad57339541313688258208deb30dcb92b337da8135747cc2bc25",
+      "latest_review_record": "assets/06-shots/reviews/shot-09-coffee-tpp-orbit-seedance-480p-v01/review.json",
+      "selected": false,
+      "user_approved": false
+    }
+  ],
+  "submitted_at": "2026-11-01T23:24:30+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "8qkqhgYUvy3WDhmqs0Pw",
+        "session_id": "BnsroGw9G1RLt6CIWOQr",
+        "credit_costs": {
+          "LiTtOeqHu8HCVpPHoUkW": 10418.352
+        }
+      }
+    ],
+    "session_ids": [
+      "BnsroGw9G1RLt6CIWOQr"
+    ],
+    "pending": [
+      {
+        "generation_id": "LiTtOeqHu8HCVpPHoUkW",
+        "kind": "video"
+      }
+    ]
+  },
+  "session_ids": [
+    "BnsroGw9G1RLt6CIWOQr"
+  ],
+  "completed_at": "2026-11-01T23:31:45+05:30",
+  "completed_generations": 1,
+  "total_reported_price": {
+    "credits": 10418.352,
+    "price_cents": 15127.447104000003,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T23:34:17+05:30",
+  "review_index": "assets/06-shots/reviews/coffee-split-seedance-v01/README.md",
+  "review_player": "assets/06-shots/reviews/coffee-split-seedance-v01/index.html",
+  "combined_review": "assets/06-shots/reviews/coffee-split-seedance-v01/shot-09-coffee-seedance-review-v01.mp4",
+  "user_feedback": {
+    "at": "2026-11-01T23:38:50+05:30",
+    "source": "explicit_user_message",
+    "quote": "Nope this looks better /Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+    "preferred_take": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+    "scope": "User prefers MiniMax v04 over the Seedance test for this TPP shot. Selection applies to this comparison, not a final ad lock, upscale or regeneration authorization."
+  },
+  "updated_at": "2026-11-01T23:38:50+05:30",
+  "gallery_status": "Seedance test not selected: user prefers MiniMax v04 TPP. Both versions retained for comparison."
+}

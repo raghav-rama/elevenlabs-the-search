@@ -1,0 +1,25 @@
+{
+  "title": "Intelligence HUD \u2014 proposed 2.75-second original-speed edit",
+  "fps": 24,
+  "render_width": 854,
+  "render_height": 480,
+  "framing": "fit",
+  "audio_target_rms_dbfs": -28,
+  "audio_gain_limit_db": 0,
+  "crossfade_half_seconds": 0.008,
+  "clips": [
+    {
+      "shot": "HUD scan, selected route and confirmation",
+      "picture": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v01.mp4",
+      "source_in_frames": 30,
+      "duration_frames": 66,
+      "audio_gain_db": 0
+    }
+  ],
+  "notes": [
+    "Proposed source [1.25,4.00) excerpt to fit the unchanged 2.75-second intelligence slot. Candidate only, pending user review.",
+    "Keeps scan tail, cyan map-route highlight near source 2 seconds and confirmation diamond around source 3.5 seconds with a short hold.",
+    "Original playback speed and native dimensions. Local review re-encode with normal 8 ms audio edge fades; no source or assembled-cut change."
+  ]
+}

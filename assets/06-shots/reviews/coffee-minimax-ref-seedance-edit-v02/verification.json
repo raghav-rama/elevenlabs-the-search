@@ -1,0 +1,119 @@
+{
+  "checked_at": "2026-11-02T00:03:27+05:30",
+  "status": "passed",
+  "files": [
+    {
+      "file": "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+      "sha256": "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd",
+      "matches": true
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/edit-preview-v01/shot-08-hud-c-edit-preview-v01.mp4",
+      "sha256": "cd63556da707cf6fee969976cb27a7112bb178d372c799fdef5ec3d2982cc51e",
+      "matches": true
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4",
+      "sha256": "3b4227ae98e2c8baf55400a430fef6b306d5d0f82f66369b9199a08f16ceba27",
+      "matches": true
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+      "sha256": "00caba5dfc91d5a09537f9b6eb75dd9355070c8d26884da341b6737705863bb0",
+      "matches": true
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "sha256": "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86",
+      "matches": true
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/edit-preview-v01/shot-09-coffee-edit-preview-v01.mp4",
+      "sha256": "976e51690a4dab81148cc8d126a3bf3cc311acf07c81dc878d94b9e5214c2b92",
+      "matches": true
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v03/shot-09-coffee-revised-v03.mp4",
+      "sha256": "4c8c0f20e887d0536c67ad623783be935637d42e6f5e3f0d33aad8929bf31366",
+      "matches": true
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-reflexes-coffee-orbit-minimax-v02.mp4",
+      "sha256": "782ebc616937139fbea3610a1c9a5604a035c5f5db6c53704d5fdd4b429b7c38",
+      "matches": true
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-fpp-run-minimax-v04.mp4",
+      "sha256": "24be973fe71d67cd3810dfa21e951221e9a4b46916374e70b80873c06962abb3",
+      "matches": true
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+      "sha256": "f5efe45d4615c8e650ede34edc5f542c285d934a44d790287617efcb77e5343c",
+      "matches": true
+    },
+    {
+      "file": "assets/06-shots/reviews/coffee-split-minimax-v04/shot-09-coffee-split-review-v04.mp4",
+      "sha256": "3fb1e87b399697bef05ee5957b04ccf2615c5e4da54cd2cf705ffdcdf9838195",
+      "matches": true
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-seedance-480p-v01.mp4",
+      "sha256": "aadb78f46a93ad57339541313688258208deb30dcb92b337da8135747cc2bc25",
+      "matches": true
+    },
+    {
+      "file": "assets/06-shots/reviews/coffee-split-seedance-v01/shot-09-coffee-seedance-review-v01.mp4",
+      "sha256": "8b920debe2b9661f05f8cc26fd1af1d2d7a72cf1aa5f874cb528a0db7b1fe021",
+      "matches": true
+    },
+    {
+      "file": "assets/06-shots/references/coffee-minimax-seedance-edit-v01/shot-09-minimax-v04-reference-884x510.mp4",
+      "sha256": "192a97a1064db5a6b05e4baa5d2c6cadd21db335ede6266756b7ff9abebbaa53",
+      "matches": true
+    },
+    {
+      "file": "assets/01-riley/images/riley-cyberpunk-03-v01.png",
+      "sha256": "4df29f1f3ed615cc454ae91d983f56046e203cc0be225b854c22bcdffc5ca009",
+      "matches": true
+    },
+    {
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6",
+      "matches": true
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02.mp4",
+      "sha256": "870c592c1db53f93e9a32288af2453f3fd8ef741a642bda95f97f3221b208a5f",
+      "matches": true
+    },
+    {
+      "file": "assets/06-shots/video-prompts/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02.txt",
+      "sha256": "d9c5ac408e1d810a55e40a72ad82bf6e6dd2b161a81640e9d4612d499355f514",
+      "matches": true
+    }
+  ],
+  "provider_output_decode": {
+    "frames": 185,
+    "fps": 24,
+    "picture_duration_seconds": 7.709,
+    "near_black_frames": 0
+  },
+  "source_frames": 192,
+  "source_timing_exactly_preserved": false,
+  "local_retiming": false,
+  "paid_retry_count_this_turn": 1,
+  "quote_matches_reported_charge": true,
+  "credits": 12502.022400000002,
+  "inr": 181.52936524800003,
+  "previous_failure_refund": "user_confirmed_not_independently_verified",
+  "preferred_minimax_unchanged": true,
+  "selected": false,
+  "user_approved": false,
+  "gallery_local_links_valid": true,
+  "json_parsing": "passed",
+  "signed_auth_url_scan": "passed",
+  "git_diff_check": "passed",
+  "listening_review": false,
+  "commit_or_push": false
+}

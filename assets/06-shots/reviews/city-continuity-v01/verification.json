@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-11-01T16:39:04+05:30",
+  "method": "Playwright MCP local browser via temporary localhost server",
+  "reference_images_loaded": 4,
+  "all_board_links_http_200": true,
+  "overhead_buttons_verified": [
+    "Behind",
+    "Passing",
+    "Ahead"
+  ],
+  "horizontal_overflow_at_tested_desktop_viewport": false,
+  "screenshot_visually_reviewed": true,
+  "source_and_prompt_hashes_match": true,
+  "new_provider_generations": 0,
+  "limits": "Layout illustration and existing references, not photoreal generated new scenes; not a production geometry simulation."
+}

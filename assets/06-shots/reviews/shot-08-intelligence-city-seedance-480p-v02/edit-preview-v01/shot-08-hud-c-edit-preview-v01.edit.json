@@ -1,0 +1,44 @@
+{
+  "audio_bridges" : [
+
+  ],
+  "audio_tracks" : 1,
+  "clips" : [
+    {
+      "audio" : "assets\/06-shots\/videos\/shot-08-intelligence-city-seedance-480p-v02.mp4",
+      "audio_gain_db" : 0,
+      "audio_sha256" : "da8a4c389e608b276f31e872372fb1fef135139ec8c28fd8b30e144ada3c9403",
+      "duration_seconds" : 2.75,
+      "picture" : "assets\/06-shots\/videos\/shot-08-intelligence-city-seedance-480p-v02.mp4",
+      "picture_sha256" : "da8a4c389e608b276f31e872372fb1fef135139ec8c28fd8b30e144ada3c9403",
+      "post_handle_samples" : 0,
+      "pre_handle_samples" : 0,
+      "shot" : "Rich HUD scan and route pulse",
+      "source_audio_rms_dbfs" : -30.234758300623472,
+      "source_in_seconds" : 0.25,
+      "timeline_start_seconds" : 0
+    }
+  ],
+  "crossfade_half_seconds" : 0.0080000000000000002,
+  "decoded_aac_peak_dbfs" : -16.119456228035588,
+  "duration_seconds" : 2.75,
+  "fps" : 24,
+  "framing" : "fit",
+  "master_gain" : 1,
+  "mixed_wav" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/shot-08-intelligence-city-seedance-480p-v02\/edit-preview-v01\/shot-08-hud-c-edit-preview-v01.mix.wav",
+  "notes" : "Hard picture cuts; source frame ranges at original speed, aspect conformed according to the recorded framing setting. Picture re-encoded, not bitstream copied. Audio levels adjusted conservatively using RMS, not perceptual loudness. Native audio ducked under the supplied narration according to the timeline; no synthesis or speech removal by this script. Original source files remain untouched. Audio content and subjective transitions require listening review.",
+  "output" : "assets\/06-shots\/reviews\/shot-08-intelligence-city-seedance-480p-v02\/edit-preview-v01\/shot-08-hud-c-edit-preview-v01.mp4",
+  "output_sha256" : "cd63556da707cf6fee969976cb27a7112bb178d372c799fdef5ec3d2982cc51e",
+  "pcm_peak_dbfs" : -16.119452088256828,
+  "pcm_rms_dbfs" : -30.242259655924041,
+  "resolution" : [
+    854,
+    480
+  ],
+  "review_status" : "pending_user_playback_and_listening",
+  "script" : "scripts\/assemble-continuation.swift",
+  "speed_multiplier" : 1,
+  "timeline" : "assets\/06-shots\/reviews\/shot-08-intelligence-city-seedance-480p-v02\/edit-preview-v01\/timeline.json",
+  "timeline_sha256" : "e05aa70690af06ccee635a75e214caca2e3e26bb05032dc498a1a9ffd3356cf1",
+  "title" : "Selected C tactical HUD — proposed 2.75-second excerpt"
+}

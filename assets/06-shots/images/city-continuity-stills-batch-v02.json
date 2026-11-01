@@ -1,0 +1,694 @@
+{
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "schema": {
+    "model_id": "gpt-image-2",
+    "model_name": "GPT Image 2",
+    "node_type": "image-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "16:9",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "4:5",
+            "value": "4:5"
+          },
+          {
+            "label": "5:4",
+            "value": "5:4"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "2:3",
+            "value": "2:3"
+          },
+          {
+            "label": "3:2",
+            "value": "3:2"
+          },
+          {
+            "label": "1:2",
+            "value": "1:2"
+          },
+          {
+            "label": "2:1",
+            "value": "2:1"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "1:3",
+            "value": "1:3"
+          },
+          {
+            "label": "3:1",
+            "value": "3:1"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "1K",
+        "options": [
+          {
+            "label": "1K",
+            "value": "1K"
+          },
+          {
+            "label": "2K",
+            "value": "2K"
+          },
+          {
+            "label": "4K",
+            "value": "4K"
+          }
+        ]
+      },
+      {
+        "name": "quality",
+        "type": "select",
+        "required": false,
+        "default": "medium",
+        "options": [
+          {
+            "label": "low",
+            "value": "low"
+          },
+          {
+            "label": "medium",
+            "value": "medium"
+          },
+          {
+            "label": "high",
+            "value": "high"
+          }
+        ]
+      },
+      {
+        "name": "custom_width",
+        "type": "number",
+        "required": false,
+        "min_value": 64,
+        "max_value": 3840,
+        "number_type": "int"
+      },
+      {
+        "name": "custom_height",
+        "type": "number",
+        "required": false,
+        "min_value": 64,
+        "max_value": 3840,
+        "number_type": "int"
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "images",
+        "modality": "image",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "1:1",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "2:3",
+        "3:2",
+        "1:2",
+        "2:1",
+        "9:16",
+        "16:9",
+        "21:9",
+        "1:3",
+        "3:1"
+      ],
+      "quality": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "resolution": [
+        "1K",
+        "2K",
+        "4K"
+      ]
+    }
+  },
+  "model_guide": {
+    "model_id": "gpt-image-2",
+    "guide": "# GPT Image family \u2014 gpt-image-1, gpt-image-1.5, gpt-image-2\n\nOpenAI's most capable image model. Excels at text rendering (95%+ accuracy), spatial awareness, infographics, multi-panel layouts, UI mockups, and reasoning-aware generation via Thinking Mode. Supports up to 10 reference images. Outputs PNG (with transparency) and WebP.\n\n## Prompt structure\n\n```\n[background/scene] > [subject] > [key details] > [constraints]\n```\n\nState the intended use (ad, UI mock, infographic) so the model picks the right mode and polish level.\n\nAny prompt format works \u2014 minimal prompts, descriptive paragraphs, JSON-style structures, instruction-style, tag-based. Consistency matters more than format.\n\n## Key principles\n\n- GPT Image 2 is a natural-language model with reasoning on top. It rewards clear, structured description and ignores keyword spam.\n- Write like you are briefing a photographer or art director. Describe surfaces, light sources, lenses, exact copy, and what must not drift.\n- \"Stunning, cinematic, 8K, ultra-detailed\" is background noise. \"Overhead fluorescents, one bulb dimmer than the rest, pale blue scrubs with a coffee stain on the cuff\" is information the model can draw.\n- Be concrete about materials, shapes, textures, and medium (photo, watercolor, 3D render).\n\n## Text rendering \u2014 the headline feature\n\n- **Place exact copy in quotation marks or ALL CAPS.**\n- **Spell out tricky brand names letter by letter** if needed.\n- **Specify font style, weight, color, and placement explicitly.**\n- **Add \"verbatim \u2014 no extra characters, no substitutions\"** when text accuracy is critical.\n- **For multi-line text, describe hierarchy line by line.**\n- **Keep text to 1\u20135 words for best results.**\n\nExample: `EXACT TEXT: SUMMER COLLECTION in bold uppercase serif, centered, white on charcoal`\n\n## Editing \u2014 two-column logic\n\n```\nChange: [exactly what should change]\n\nPreserve: [face, identity, pose, lighting, framing, background, geometry, text, layout]\n\nConstraints: [no extra objects, no redesign, no logo drift, no watermark]\n```\n\n## Multi-image referencing\n\n- Give each input a role, then describe what to do with it.\n- On gpt-image-1.5 / gpt-image-2 the model cites inputs as `Image 1`, `Image 2`. Do not type those labels: place an `image_reference` part where each input belongs and the backend renders the label there, in order.\n- Example: a prompt part reading \"apply the colour palette and texture of \", then the style `image_reference`, then \" to \", then the product `image_reference`.\n\n## Custom resolution (gpt-image-2)\n\n- Set `custom_width` and `custom_height` together (pixels) to override `aspect_ratio` + `resolution`. Edges 64\u20133840, ratio at most 3:1.\n- Pass both on `creative_update_node` when you want a new size. Omitting them keeps a previously set custom size; pass both as `null` to clear it and return to the aspect-ratio preset.\n- `creative_run_flow_nodes` uses whatever is stored on the node \u2014 if custom size is missing it falls back to the standard size for that aspect ratio (e.g. 3:1 1K \u2192 1440\u00d7480).\n\n## Thinking Mode\n\n- Reasons through composition, object counts, lighting, and constraints before rendering.\n- Dramatically reduces reroll prompts for complex briefs.\n- Available on Plus/Pro/Business tiers.\n- Does not add latency for simple prompts. Let the model determine when deeper reasoning is warranted.\n\n## What to avoid\n\n- Generic quality words (\"beautiful,\" \"stunning,\" \"4K,\" \"8K\").\n- Forgetting the preserve list on edits (the model may drift on faces, logos, or text).\n- Resolutions above 2K (flagged as experimental by OpenAI). For production, generate at `quality=low` plus a dedicated upscaler.\n- A quality word in `resolution`. On gpt-image-2 `quality` is low, medium or high, and `resolution` is 1K, 2K or 4K.\n- Vague text instructions (\"add a title\" vs. specifying the exact text).",
+    "source": "family"
+  },
+  "estimates": {
+    "five_starts": {
+      "credits": 3225.9945945945947,
+      "price_cents": 4684.144151351352,
+      "generations_count": 1,
+      "currency": "inr",
+      "estimated_runtime_seconds": 30
+    },
+    "overhead_start": {
+      "credits": 907.252972972973,
+      "price_cents": 1317.331316756757,
+      "generations_count": 1,
+      "currency": "inr",
+      "estimated_runtime_seconds": 30
+    },
+    "four_abilities": {
+      "credits": 2318.7416216216216,
+      "price_cents": 3366.812834594595,
+      "generations_count": 1,
+      "currency": "inr",
+      "estimated_runtime_seconds": 30
+    }
+  },
+  "shots": [
+    {
+      "concept": "intelligence",
+      "asset_id": "shot-08-intelligence-city-start-v02",
+      "prompt_file": "assets/06-shots/prompts/shot-08-intelligence-city-start-v02-run.txt",
+      "draft_prompt": "assets/06-shots/prompts/shot-08-intelligence-city-start-v02.txt",
+      "prompt_sha256": "99b2bec65af2c408d2d7a5f1d283381a43621bef73c2da4d2f0f3b760ae70220",
+      "prompt": "Reference roles: the transformed Riley station frame supplies CITY ARCHITECTURE, materials and daylight only; create a new district location, do not copy the station platform or its standing Riley. The full-body gold outfit reference supplies her exact gold wrap dress, black-and-gold boots, natural skin and slim chrome/cyan inlays. The train side reference supplies graphite metal, cyan trim and warm gold detailing only, not its side-view camera. One image, no collage.\n\nPhotoreal cinematic commercial, 16:9. One coherent near-future city matching the supplied approved station frame: layered glass megastructures, brushed dark metal, elevated rail and skybridges, cyan light strips, restrained magenta signage and warm gold practical lighting. Bright hazy daylight, slightly damp reflective surfaces, natural skin and physical materials. Preserve the station's welcoming luminous look; do not change to a night city. Background pedestrians wear plausible future-city streetwear, not matching uniforms. Establish infrastructure and architecture as futuristic; neon added to an otherwise contemporary street is insufficient. No illegible foreground advertising, title cards or model-generated AFTERHUMAN typography; exact product labels will be added editorially.\n\nRaised pedestrian terrace beside the station district. First-person eye-level view over the same skyline and elevated railway seen in the opening. A low parapet in the lower fifth; one relaxed natural hand with the selected slim chrome/cyan inlays, normal adult proportions and short visible forearm. Show a clearly visible but restrained transparent cyan optical HUD: two thin corner panels reading NEURAL LINK and INTERCEPT ROUTE, a small route map at upper right, a magenta target bracket around the elevated rail destination, and one cyan selected route tracing toward the pedestrian ramp. The scene remains clearly visible through the interface. HUD is seen through her eyes, not a physical screen. Final typography and animation will be rebuilt in editing, but the still MUST visibly communicate augmented intelligence. The selected train's rail line is the destination. A visible pedestrian ramp continues into the caf\u00e9 district. No third-person body or giant arm.\n",
+      "node_id": "zle93ij2plTfimqPEqso",
+      "reference_keys": [
+        "world",
+        "wardrobe",
+        "train"
+      ],
+      "model_parameters": {
+        "images": [
+          {
+            "template_node_id": "oq4i1gtPgBZQWZjKpyK9"
+          },
+          {
+            "template_node_id": "LsmAOIUrwmaZEKFGxI1L"
+          },
+          {
+            "template_node_id": "KKt8of3l6YC47FIQnVG9"
+          }
+        ],
+        "quality": "low",
+        "aspect_ratio": "16:9",
+        "resolution": "1K"
+      },
+      "input_ports": [
+        {
+          "key": "prompt",
+          "modality": "text",
+          "required": false,
+          "connected_to": []
+        },
+        {
+          "key": "images",
+          "modality": "image",
+          "required": false,
+          "connected_to": [
+            {
+              "id": "oq4i1gtPgBZQWZjKpyK9",
+              "label": "WORLD \u2014 approved transformation ending, city architecture and daylight"
+            },
+            {
+              "id": "LsmAOIUrwmaZEKFGxI1L",
+              "label": "APPROVED \u2014 Gold dress, natural skin, narrow chrome inlays"
+            },
+            {
+              "id": "KKt8of3l6YC47FIQnVG9",
+              "label": "TRAIN \u2014 graphite, cyan and warm gold; livery and city materials"
+            }
+          ]
+        }
+      ],
+      "record_file": "assets/06-shots/images/shot-08-intelligence-city-start-v02.generation.json",
+      "output_file": "assets/06-shots/images/shot-08-intelligence-city-start-v02.png",
+      "status": "generated_visual_review_pending_user",
+      "generation_id": "L6rqTHE2WjQw2BdZyDng",
+      "session_id": "x6bIAKh3hsbq7hVhuIZt",
+      "sha256": "f6c559b149b6693a78c45486dc5bf07dc321d83f27528f672496faaca6fd2e6b",
+      "width": 1280,
+      "height": 720,
+      "price": {
+        "credits": 688.8745945945946,
+        "price_cents": 1000.2459113513514,
+        "cost_fiat_currency": "inr"
+      },
+      "selected": false,
+      "user_approved": false
+    },
+    {
+      "concept": "coffee",
+      "asset_id": "shot-09-coffee-city-start-v02",
+      "prompt_file": "assets/06-shots/prompts/shot-09-coffee-city-start-v02-run.txt",
+      "draft_prompt": "assets/06-shots/prompts/shot-09-coffee-city-start-v02.txt",
+      "prompt_sha256": "e785e652d54d770dab50ffff087dab984b32bf4e3375d7c07c3ec8b4ed88f548",
+      "prompt": "Reference roles: the transformed Riley station frame supplies CITY ARCHITECTURE, materials and daylight only; create a new district location, do not copy the station platform or its standing Riley. The full-body gold outfit reference supplies her exact gold wrap dress, black-and-gold boots, natural skin and slim chrome/cyan inlays. One image, no collage.\n\nPhotoreal cinematic commercial, 16:9. One coherent near-future city matching the supplied approved station frame: layered glass megastructures, brushed dark metal, elevated rail and skybridges, cyan light strips, restrained magenta signage and warm gold practical lighting. Bright hazy daylight, slightly damp reflective surfaces, natural skin and physical materials. Preserve the station's welcoming luminous look; do not change to a night city. Background pedestrians wear plausible future-city streetwear, not matching uniforms. Establish infrastructure and architecture as futuristic; neon added to an otherwise contemporary street is insufficient. No illegible foreground advertising, title cards or model-generated AFTERHUMAN typography; exact product labels will be added editorially.\n\nPedestrian caf\u00e9 arcade in the same station district, with charcoal metal-and-glass shopfronts, overhead skybridge, cyan edge lighting and restrained magenta signage. Eye-level first-person jogging view down the sidewalk. An adult stranger in understated future-city clothes stands at the outer side, holding a plain ceramic coffee mug by its handle; the mug is still in their own hand before the accidental slip. Riley's natural hands with slim chrome inlays appear briefly at the lower edges at believable scale. Keep clear space between the stranger and camera for the falling-mug action. No handoff, raised offering gesture, brick suburb, contemporary cars or extra mug. Preserve the later approved FPP-to-TPP catch, return and departure beats; external views must match the exact face and gold wardrobe references.\n",
+      "node_id": "3NwhSOowyCHoT44Ovs8g",
+      "reference_keys": [
+        "world",
+        "wardrobe"
+      ],
+      "model_parameters": {
+        "images": [
+          {
+            "template_node_id": "oq4i1gtPgBZQWZjKpyK9"
+          },
+          {
+            "template_node_id": "LsmAOIUrwmaZEKFGxI1L"
+          }
+        ],
+        "quality": "low",
+        "aspect_ratio": "16:9",
+        "resolution": "1K"
+      },
+      "input_ports": [
+        {
+          "key": "prompt",
+          "modality": "text",
+          "required": false,
+          "connected_to": []
+        },
+        {
+          "key": "images",
+          "modality": "image",
+          "required": false,
+          "connected_to": [
+            {
+              "id": "oq4i1gtPgBZQWZjKpyK9",
+              "label": "WORLD \u2014 approved transformation ending, city architecture and daylight"
+            },
+            {
+              "id": "LsmAOIUrwmaZEKFGxI1L",
+              "label": "APPROVED \u2014 Gold dress, natural skin, narrow chrome inlays"
+            }
+          ]
+        }
+      ],
+      "record_file": "assets/06-shots/images/shot-09-coffee-city-start-v02.generation.json",
+      "output_file": "assets/06-shots/images/shot-09-coffee-city-start-v02.png",
+      "status": "assistant_flagged_object_and_start_state_errors",
+      "generation_id": "bt3uwyuSgoU9c2yUUGQx",
+      "session_id": "WRViUXuqVMZa0OcV7yca",
+      "sha256": "6d00718d340a852f8153a95c0291aa4fb33d6587193a5f058391435712d4c514",
+      "width": 1280,
+      "height": 720,
+      "price": {
+        "credits": 470.4962162162163,
+        "price_cents": 683.160505945946,
+        "cost_fiat_currency": "inr"
+      },
+      "selected": false,
+      "user_approved": false
+    },
+    {
+      "concept": "strength",
+      "asset_id": "shot-10-strength-city-start-v02",
+      "prompt_file": "assets/06-shots/prompts/shot-10-strength-city-start-v02-run.txt",
+      "draft_prompt": "assets/06-shots/prompts/shot-10-strength-city-start-v02.txt",
+      "prompt_sha256": "b445eb41b2264795586a95b0521a96b7701ba2364fad03357b7477025f8ef876",
+      "prompt": "Reference roles: the transformed Riley station frame supplies CITY ARCHITECTURE, materials and daylight only; create a new district location, do not copy the station platform or its standing Riley. The full-body gold outfit reference supplies her exact gold wrap dress, black-and-gold boots, natural skin and slim chrome/cyan inlays. One image, no collage.\n\nPhotoreal cinematic commercial, 16:9. One coherent near-future city matching the supplied approved station frame: layered glass megastructures, brushed dark metal, elevated rail and skybridges, cyan light strips, restrained magenta signage and warm gold practical lighting. Bright hazy daylight, slightly damp reflective surfaces, natural skin and physical materials. Preserve the station's welcoming luminous look; do not change to a night city. Background pedestrians wear plausible future-city streetwear, not matching uniforms. Establish infrastructure and architecture as futuristic; neon added to an otherwise contemporary street is insufficient. No illegible foreground advertising, title cards or model-generated AFTERHUMAN typography; exact product labels will be added editorially.\n\nFirst-person eye-level view in a transit service passage connecting the caf\u00e9 district to the boulevard. Heavy jammed brushed-steel bulkhead doors share the station's bevels, cyan status strips and warm gold service lights. Two natural adult hands with slim chrome inlays grip opposing edges of a narrow vertical gap. Wrists close to the body, elbows bent outside the frame, only short distal forearms visible; no external torso or extended spaghetti arms. Starting state before bending, dark steel still nearly flush. Warm corridor visible through the gap. The ensuing motion must visibly deform the metal; opening an ordinary unlocked door is not the action.\n",
+      "node_id": "QfVCzhaRtnILiD2S3UCI",
+      "reference_keys": [
+        "world",
+        "wardrobe"
+      ],
+      "model_parameters": {
+        "images": [
+          {
+            "template_node_id": "oq4i1gtPgBZQWZjKpyK9"
+          },
+          {
+            "template_node_id": "LsmAOIUrwmaZEKFGxI1L"
+          }
+        ],
+        "quality": "low",
+        "aspect_ratio": "16:9",
+        "resolution": "1K"
+      },
+      "input_ports": [
+        {
+          "key": "prompt",
+          "modality": "text",
+          "required": false,
+          "connected_to": []
+        },
+        {
+          "key": "images",
+          "modality": "image",
+          "required": false,
+          "connected_to": [
+            {
+              "id": "oq4i1gtPgBZQWZjKpyK9",
+              "label": "WORLD \u2014 approved transformation ending, city architecture and daylight"
+            },
+            {
+              "id": "LsmAOIUrwmaZEKFGxI1L",
+              "label": "APPROVED \u2014 Gold dress, natural skin, narrow chrome inlays"
+            }
+          ]
+        }
+      ],
+      "record_file": "assets/06-shots/images/shot-10-strength-city-start-v02.generation.json",
+      "output_file": "assets/06-shots/images/shot-10-strength-city-start-v02.png",
+      "status": "assistant_flagged_start_state_mismatch",
+      "generation_id": "Q5S7G1qSAMPNz37UZPdB",
+      "session_id": "EMymNjTCndpLyveVeuZl",
+      "sha256": "406627023b0e16b1b7c456591b88580202ca35d1afc1f84cd048d759c15f22b5",
+      "width": 1280,
+      "height": 720,
+      "price": {
+        "credits": 470.4962162162163,
+        "price_cents": 683.160505945946,
+        "cost_fiat_currency": "inr"
+      },
+      "selected": false,
+      "user_approved": false
+    },
+    {
+      "concept": "speed",
+      "asset_id": "shot-11-speed-city-start-v02",
+      "prompt_file": "assets/06-shots/prompts/shot-11-speed-city-start-v02-run.txt",
+      "draft_prompt": "assets/06-shots/prompts/shot-11-speed-city-start-v02.txt",
+      "prompt_sha256": "81a09255b3bab64fc9af2d775d8fa0737b2f0f132663802a4be0fdb9abe354ba",
+      "prompt": "Reference roles: the transformed Riley station frame supplies CITY ARCHITECTURE, materials and daylight only; create a new district location, do not copy the station platform or its standing Riley. The full-body gold outfit reference supplies her exact gold wrap dress, black-and-gold boots, natural skin and slim chrome/cyan inlays. The train side reference supplies graphite metal, cyan trim and warm gold detailing only, not its side-view camera. One image, no collage.\n\nPhotoreal cinematic commercial, 16:9. One coherent near-future city matching the supplied approved station frame: layered glass megastructures, brushed dark metal, elevated rail and skybridges, cyan light strips, restrained magenta signage and warm gold practical lighting. Bright hazy daylight, slightly damp reflective surfaces, natural skin and physical materials. Preserve the station's welcoming luminous look; do not change to a night city. Background pedestrians wear plausible future-city streetwear, not matching uniforms. Establish infrastructure and architecture as futuristic; neon added to an otherwise contemporary street is insufficient. No illegible foreground advertising, title cards or model-generated AFTERHUMAN typography; exact product labels will be added editorially.\n\nFirst-person view down a straight futuristic boulevard under the same elevated rail viaduct, with the same skyline, reflective metal/glass facades, cyan strips and restrained magenta signage in hazy daylight. Clear forward path; ordinary-scale alternating hands with the selected thin chrome inlays near the lower frame edges. Low roadside bollards and paving joints create strong near-field parallax for subsequent acceleration; do not rely on painted motion streaks alone. Glimpse the established dark cyan-and-gold train moving in the same forward direction on the parallel elevated line. No oncoming train and no modern brick neighborhood.\n",
+      "node_id": "R4yYXsOJddxHFO6pdJ0Q",
+      "reference_keys": [
+        "world",
+        "wardrobe",
+        "train"
+      ],
+      "model_parameters": {
+        "images": [
+          {
+            "template_node_id": "oq4i1gtPgBZQWZjKpyK9"
+          },
+          {
+            "template_node_id": "LsmAOIUrwmaZEKFGxI1L"
+          },
+          {
+            "template_node_id": "KKt8of3l6YC47FIQnVG9"
+          }
+        ],
+        "quality": "low",
+        "aspect_ratio": "16:9",
+        "resolution": "1K"
+      },
+      "input_ports": [
+        {
+          "key": "prompt",
+          "modality": "text",
+          "required": false,
+          "connected_to": []
+        },
+        {
+          "key": "images",
+          "modality": "image",
+          "required": false,
+          "connected_to": [
+            {
+              "id": "oq4i1gtPgBZQWZjKpyK9",
+              "label": "WORLD \u2014 approved transformation ending, city architecture and daylight"
+            },
+            {
+              "id": "LsmAOIUrwmaZEKFGxI1L",
+              "label": "APPROVED \u2014 Gold dress, natural skin, narrow chrome inlays"
+            },
+            {
+              "id": "KKt8of3l6YC47FIQnVG9",
+              "label": "TRAIN \u2014 graphite, cyan and warm gold; livery and city materials"
+            }
+          ]
+        }
+      ],
+      "record_file": "assets/06-shots/images/shot-11-speed-city-start-v02.generation.json",
+      "output_file": "assets/06-shots/images/shot-11-speed-city-start-v02.png",
+      "status": "generated_visual_review_pending_user",
+      "generation_id": "yEkmgOxfbhVEsv0aItJk",
+      "session_id": "a6ayncGPbnVOuBbXqOOf",
+      "sha256": "45a89895c62267f9b4ecb1347bde5a6f0536cac805a54435c4ebb16f8ded041f",
+      "width": 1280,
+      "height": 720,
+      "price": {
+        "credits": 688.8745945945946,
+        "price_cents": 1000.2459113513514,
+        "cost_fiat_currency": "inr"
+      },
+      "selected": false,
+      "user_approved": false
+    },
+    {
+      "concept": "overtake-start",
+      "asset_id": "shot-12-overtake-city-start-v02",
+      "prompt_file": "assets/06-shots/prompts/shot-12-overtake-city-start-v02-run.txt",
+      "draft_prompt": "assets/06-shots/prompts/shot-12-overtake-city-start-v02.txt",
+      "prompt_sha256": "5fe00d0cc31ba2051ebd181f264e612846aacca75efa87347fb485ba0769d73c",
+      "prompt": "Reference roles: the transformed Riley station frame supplies CITY ARCHITECTURE, materials and daylight only; create a new district location, do not copy the station platform or its standing Riley. The full-body gold outfit reference supplies her exact gold wrap dress, black-and-gold boots, natural skin and slim chrome/cyan inlays. The portrait supplies Riley identity, brown bob with teal detail and the selected asymmetric facial cyberware; do not mirror it. The train side reference supplies graphite metal, cyan trim and warm gold detailing only, not its side-view camera. One image, no collage.\n\nPhotoreal cinematic commercial, 16:9. One coherent near-future city matching the supplied approved station frame: layered glass megastructures, brushed dark metal, elevated rail and skybridges, cyan light strips, restrained magenta signage and warm gold practical lighting. Bright hazy daylight, slightly damp reflective surfaces, natural skin and physical materials. Preserve the station's welcoming luminous look; do not change to a night city. Background pedestrians wear plausible future-city streetwear, not matching uniforms. Establish infrastructure and architecture as futuristic; neon added to an otherwise contemporary street is insufficient. No illegible foreground advertising, title cards or model-generated AFTERHUMAN typography; exact product labels will be added editorially.\n\nStrict top-down camera perpendicular to the ground. Elevated rail corridor through the same futuristic city, not a coastline. The approved dark train with cyan trim and warm gold detailing runs lengthwise along straight rails pointing to the top of the image. Frame the streamlined nose and front portion of the lead car, not the entire train. A clearly separated parallel maintenance/run lane lies on image-left with a physical divider and about two metres of lateral clearance to the rail envelope. Upgraded Riley in the exact gold outfit, tall boots and natural skin with slim chrome inlays faces and runs toward the top, centered in that lane. Her projected body length occupies roughly 12\u201316 percent of image height with believable scale relative to the train. At the beginning her leading hand/head remain around one body length behind the train nose. Both travel upward. No rotation, crossing paths, head-on encounter, full chrome limbs, Riley on the rails or giant Riley. This is the beginning position, not a completed overtake.\n\nComposition target in normalized screen coordinates: the straight track and train axis is vertical at x=0.68. The rounded leading nose is near y=0.36; the train body extends DOWN from the nose and out of the lower edge. Two rails continue straight UP beyond the nose, and remain aligned underneath the train. Riley runs upward in the separate lane at x=0.36, crown/leading hand about y=0.53 and trailing boot about y=0.66. Her back and crown are visible from directly above, never her frontal face. Keep her human-scale and the train roughly three metres wide. These are staging targets, not visible diagrams or text. A few subtle cyan wake flecks trail downward behind her; they do not hide her pose. No front-facing standing figure pasted into an aerial shot.\n",
+      "node_id": "r8jzkkvo69R42VWsR3xD",
+      "reference_keys": [
+        "world",
+        "wardrobe",
+        "face",
+        "train"
+      ],
+      "model_parameters": {
+        "images": [
+          {
+            "template_node_id": "oq4i1gtPgBZQWZjKpyK9"
+          },
+          {
+            "template_node_id": "LsmAOIUrwmaZEKFGxI1L"
+          },
+          {
+            "template_node_id": "ldx3dNdFkLfKBC2giOfl"
+          },
+          {
+            "template_node_id": "KKt8of3l6YC47FIQnVG9"
+          }
+        ],
+        "quality": "low",
+        "aspect_ratio": "16:9",
+        "resolution": "1K"
+      },
+      "input_ports": [
+        {
+          "key": "prompt",
+          "modality": "text",
+          "required": false,
+          "connected_to": []
+        },
+        {
+          "key": "images",
+          "modality": "image",
+          "required": false,
+          "connected_to": [
+            {
+              "id": "oq4i1gtPgBZQWZjKpyK9",
+              "label": "WORLD \u2014 approved transformation ending, city architecture and daylight"
+            },
+            {
+              "id": "LsmAOIUrwmaZEKFGxI1L",
+              "label": "APPROVED \u2014 Gold dress, natural skin, narrow chrome inlays"
+            },
+            {
+              "id": "ldx3dNdFkLfKBC2giOfl",
+              "label": "APPROVED \u2014 Riley face and asymmetric cyberware"
+            },
+            {
+              "id": "KKt8of3l6YC47FIQnVG9",
+              "label": "TRAIN \u2014 graphite, cyan and warm gold; livery and city materials"
+            }
+          ]
+        }
+      ],
+      "record_file": "assets/06-shots/images/shot-12-overtake-city-start-v02.generation.json",
+      "output_file": "assets/06-shots/images/shot-12-overtake-city-start-v02.png",
+      "status": "assistant_rejected_geometry_pending_user_choice",
+      "generation_id": "EazB0GjtutLD06I0Vqjm",
+      "session_id": "bO802HdMaDRATrt5wznz",
+      "sha256": "2abcddb83d532242f4402aa04f905942dcbf150e5893c8f93db9babb720c5250",
+      "width": 1280,
+      "height": 720,
+      "price": {
+        "credits": 907.252972972973,
+        "price_cents": 1317.331316756757,
+        "cost_fiat_currency": "inr"
+      },
+      "selected": false,
+      "user_approved": false
+    }
+  ],
+  "references": {
+    "world": {
+      "node_id": "oq4i1gtPgBZQWZjKpyK9",
+      "content_asset_id": "31PjGeIKM3pQc1ShkXkD",
+      "file": "assets/06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/last-picture-frame.png",
+      "sha256": "c0e544d85a36ece78e5455ca84632130e692f9e5ed9c9c3835a8047dc8ea3ba0"
+    },
+    "wardrobe": {
+      "node_id": "LsmAOIUrwmaZEKFGxI1L",
+      "generation_id": "WboGh1QOlITNwOVIn0Gj",
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6"
+    },
+    "face": {
+      "node_id": "ldx3dNdFkLfKBC2giOfl",
+      "generation_id": "MTCPGsxYC5HZK0tNPdKO",
+      "file": "assets/01-riley/images/riley-cyberpunk-03-v01.png",
+      "sha256": "4df29f1f3ed615cc454ae91d983f56046e203cc0be225b854c22bcdffc5ca009"
+    },
+    "train": {
+      "node_id": "KKt8of3l6YC47FIQnVG9",
+      "content_asset_id": "tFT9KA7avFVxxFzuLkMj",
+      "file": "assets/05-train/images/train-01-v02.png",
+      "sha256": "6191d92b40f7cf54ebb763892720315cb15a4cb44b3a663cc31d732b762ed2b5"
+    }
+  },
+  "created_at": "2026-11-01T18:27:52+05:30",
+  "status": "initial_exploration_superseded_by_corrected_review",
+  "requested_generations": 6,
+  "generations_per_scene": 1,
+  "new_video_generations": 0,
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "runs": [
+    {
+      "stage": "overhead-start",
+      "session_ids": [
+        "bO802HdMaDRATrt5wznz"
+      ],
+      "summary": {
+        "nodes_run": 1,
+        "generations_started": 1,
+        "failed": 0,
+        "generations_by_node": {
+          "r8jzkkvo69R42VWsR3xD": 1
+        }
+      },
+      "results": [
+        {
+          "success": true,
+          "node_id": "r8jzkkvo69R42VWsR3xD",
+          "session_id": "bO802HdMaDRATrt5wznz",
+          "credit_costs": {
+            "EazB0GjtutLD06I0Vqjm": 907.252972972973
+          }
+        }
+      ]
+    },
+    {
+      "stage": "four-ability-stills",
+      "session_ids": [
+        "x6bIAKh3hsbq7hVhuIZt",
+        "WRViUXuqVMZa0OcV7yca",
+        "EMymNjTCndpLyveVeuZl",
+        "a6ayncGPbnVOuBbXqOOf"
+      ],
+      "summary": {
+        "nodes_run": 4,
+        "generations_started": 4,
+        "failed": 0,
+        "generations_by_node": {
+          "zle93ij2plTfimqPEqso": 1,
+          "3NwhSOowyCHoT44Ovs8g": 1,
+          "QfVCzhaRtnILiD2S3UCI": 1,
+          "R4yYXsOJddxHFO6pdJ0Q": 1
+        }
+      },
+      "results": [
+        {
+          "success": true,
+          "node_id": "zle93ij2plTfimqPEqso",
+          "session_id": "x6bIAKh3hsbq7hVhuIZt",
+          "credit_costs": {
+            "L6rqTHE2WjQw2BdZyDng": 688.8745945945946
+          }
+        },
+        {
+          "success": true,
+          "node_id": "3NwhSOowyCHoT44Ovs8g",
+          "session_id": "WRViUXuqVMZa0OcV7yca",
+          "credit_costs": {
+            "bt3uwyuSgoU9c2yUUGQx": 470.4962162162163
+          }
+        },
+        {
+          "success": true,
+          "node_id": "QfVCzhaRtnILiD2S3UCI",
+          "session_id": "EMymNjTCndpLyveVeuZl",
+          "credit_costs": {
+            "Q5S7G1qSAMPNz37UZPdB": 470.4962162162163
+          }
+        },
+        {
+          "success": true,
+          "node_id": "R4yYXsOJddxHFO6pdJ0Q",
+          "session_id": "a6ayncGPbnVOuBbXqOOf",
+          "credit_costs": {
+            "yEkmgOxfbhVEsv0aItJk": 688.8745945945946
+          }
+        }
+      ]
+    }
+  ],
+  "overhead_correction": {
+    "node_id": "aYqLIq6SpASveO6cwvQS",
+    "prompt_file": "assets/06-shots/prompts/shot-12-overtake-city-start-v03.txt",
+    "estimate": {
+      "credits": 252.11783783783784,
+      "price_cents": 366.0751005405406,
+      "generations_count": 1,
+      "currency": "inr",
+      "estimated_runtime_seconds": 30
+    },
+    "status": "completed_visually_verified_pending_user_review",
+    "generation_id": "aso9vVxmccyeGPsAYP3o"
+  },
+  "generated_count": 5,
+  "completed_at": "2026-11-01T18:33:19+05:30",
+  "actual_credits": 3225.9945945945947,
+  "actual_price_cents": 4684.144151351352,
+  "currency": "inr",
+  "new_upscales": 0,
+  "user_approved": false,
+  "gallery_title": "AFTERHUMAN \u00b7 One city \u00b7 Still review v02",
+  "gallery_description": "Four ability concepts plus the first overhead test. The skyline, architecture, materials and daylight are anchored to the approved station. Click images for native files.",
+  "gallery_status": "Concept review only. Coffee has a duplicate mug; strength is already mid-bend; overhead direction is wrong. The matching overhead end is held pending a usable start. No video generated.",
+  "gallery_footer": "GPT Image 2 via ElevenLabs \u00b7 1280\u00d7720 \u00b7 Five images generated \u00b7 3,225.995 credits / \u20b946.84 \u00b7 No upscale",
+  "followup_batch": "assets/06-shots/images/city-continuity-corrections-batch-v03.json",
+  "latest_review": "assets/06-shots/reviews/city-continuity-stills-v03/index.html"
+}

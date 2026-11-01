@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-11-02T02:24:00+05:30",
+  "status": "user_selected_for_publication",
+  "output_file": "assets/08-edit/continuous-ad-review-v07/afterhuman-arm-cleanup-v07.mp4",
+  "output_sha256": "46a8b7aa88376f203aea4031133a2bf7f64f6a7e5de285b837bf16ce76eaa148",
+  "duration_seconds": 44.875,
+  "frames": 1077,
+  "actual_fps_verified_from_all_timestamps": 24,
+  "container_nominal_fps": 23.911357879638672,
+  "container_note": "AVFoundation estimates nominal rate as 23.911358 after compressed splicing; all 1077 visible timestamps were individually verified on the exact 24 fps grid. No missing, repeated or retimed picture frames.",
+  "render_dimensions": [
+    1920,
+    1080
+  ],
+  "source_retiming": false,
+  "new_provider_generations": 0,
+  "new_provider_credits": 0,
+  "audio_payload_identical": true,
+  "audio_payload_sha256": "c359dd5caa6a72b4def6c8db0762d87b0268b9bb2f6ba7a4655529a5a4f511d9",
+  "unchanged_frames_pixel_identical": 950,
+  "replacement_frames_pixel_identical": 127,
+  "replacement_timeline_frames_inclusive": [
+    308,
+    434
+  ],
+  "replacement_source_frames_inclusive": [
+    162,
+    288
+  ],
+  "refined_mattes": "assets/08-edit/floating-transformation-v03/mattes/mattes.json",
+  "matte_config": "assets/08-edit/floating-transformation-v03/matte-config.json",
+  "component_config": "assets/08-edit/floating-transformation-v03/config.json",
+  "splice_config": "assets/08-edit/continuous-ad-review-v07/splice-config.json",
+  "verification": "assets/08-edit/continuous-ad-review-v07/afterhuman-arm-cleanup-v07.verification.json",
+  "inspection": "assets/08-edit/continuous-ad-review-v07/inspection.json",
+  "source_media_preserved": true,
+  "final_cut_project_modified": false,
+  "user_approved": true,
+  "selected": true,
+  "reviewed_samples": [
+    "Exact user-reported arm-loss frame348: restored full forearm/hand.",
+    "Raised hands/arms at368 and392.",
+    "Forty-frame overview of float, transformation, return and launch."
+  ],
+  "remaining": [
+    "User-managed publication/submission; train correction discontinued."
+  ],
+  "script_hashes": {
+    "scripts/refine-upgrade-mattes.swift": "880978e0895b52ba75b7ea656b304f2a54f7000e22ab9e2d2d9b83c23f2e019e",
+    "scripts/render-upgrade-diagnostic.swift": "071cbdce9373e26ca78abeef8b0028cd9d685e9944c476949c5ee93be6cc84a7",
+    "scripts/replace-picture-segment.swift": "3a23013df64b8bb4aa0d61cef4bf761ba2526dbc36a09a903966fee10a31d096",
+    "scripts/verify-picture-replacement.swift": "a5e2035d4818f3113950cbe4954c1c36c506965df38da58bf87b9ae7a0d1007e"
+  },
+  "approval": {
+    "at": "2026-11-02T02:26:31+05:30",
+    "source": "explicit_user_message",
+    "quote": "Looks great now",
+    "scope": "Approve v07 arm-mask cleanup and use it as the current review cut. Not final-submission approval; matched-boulevard overhead replacement remains pending."
+  },
+  "publication_selection": {
+    "at": "2026-11-02T03:15:11+05:30",
+    "quote": "Ok just leave it. Just commit everything and push. I'm gonna publish this: /Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/08-edit/continuous-ad-review-v07/afterhuman-arm-cleanup-v07.mp4",
+    "file_sha256": "46a8b7aa88376f203aea4031133a2bf7f64f6a7e5de285b837bf16ce76eaa148",
+    "published_by_assistant": false
+  }
+}

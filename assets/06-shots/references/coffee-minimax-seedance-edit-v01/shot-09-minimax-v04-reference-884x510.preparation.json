@@ -1,0 +1,26 @@
+{
+  "audio_tracks" : 1,
+  "crop_or_padding" : false,
+  "fps" : 24,
+  "frame_interpolation" : false,
+  "motion_speed_changed" : false,
+  "notes" : "Uniform reference resize for provider input compatibility, not a generative upscale. Original duration and audio tracks retained; export may re-encode audio. No audio gain\/filter, retiming, added frames, crop or padding requested.",
+  "output_dimensions" : [
+    884,
+    510
+  ],
+  "output_duration_seconds" : 8,
+  "output_file" : "assets\/06-shots\/references\/coffee-minimax-seedance-edit-v01\/shot-09-minimax-v04-reference-884x510.mp4",
+  "output_pixel_count" : 450840,
+  "output_sha256" : "192a97a1064db5a6b05e4baa5d2c6cadd21db335ede6266756b7ff9abebbaa53",
+  "script" : "scripts\/resize-video-reference.swift",
+  "source_dimensions" : [
+    832,
+    480
+  ],
+  "source_duration_seconds" : 8,
+  "source_file" : "assets\/06-shots\/videos\/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+  "source_modified" : false,
+  "source_sha256" : "f5efe45d4615c8e650ede34edc5f542c285d934a44d790287617efcb77e5343c",
+  "uniform_scale" : 1.0625
+}

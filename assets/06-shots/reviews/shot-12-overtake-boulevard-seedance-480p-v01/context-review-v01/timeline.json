@@ -1,0 +1,45 @@
+{
+  "title": "AFTERHUMAN \u2014 Boulevard continuity test; overtake not yet successful",
+  "fps": 24,
+  "render_width": 1920,
+  "render_height": 1080,
+  "framing": "fill",
+  "audio_target_rms_dbfs": -28,
+  "audio_gain_limit_db": 0,
+  "crossfade_half_seconds": 0.008,
+  "clips": [
+    {
+      "shot": "Approved FPP boulevard sprint \u2014 unchanged original-speed range",
+      "picture": "assets/06-shots/videos/shot-11-speed-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-11-speed-city-seedance-480p-v01.mp4",
+      "source_in_frames": 18,
+      "duration_frames": 60,
+      "audio_gain_db": -120
+    },
+    {
+      "shot": "New overhead source1\u20134s \u2014 world-match test, no complete overtake",
+      "picture": "assets/06-shots/videos/shot-12-overtake-boulevard-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-12-overtake-boulevard-seedance-480p-v01.mp4",
+      "source_in_frames": 24,
+      "duration_frames": 72,
+      "audio_gain_db": -120
+    }
+  ],
+  "audio_bridges": [
+    {
+      "source": "assets/08-edit/continuous-ad-review-v07/afterhuman-arm-cleanup-v07.mp4",
+      "source_in_seconds": 36.875,
+      "timeline_start_seconds": 0,
+      "duration_seconds": 5.5,
+      "gain_db": 0
+    }
+  ],
+  "audio_ducks": [],
+  "notes": [
+    "Context only, not selected replacement. Current v07 remains unchanged.",
+    "New source1\u20134s chosen to compare against the existing three-second slot, not as an approved usable range.",
+    "All picture source frames run at original speed. New native audio is muted in context; reuses the existing review mix segment, decoded/reencoded with normal edge fades.",
+    "The full native five-second take is provided separately with original generated audio.",
+    "The model preserves boulevard geography but fails the required clear full-body pass."
+  ]
+}

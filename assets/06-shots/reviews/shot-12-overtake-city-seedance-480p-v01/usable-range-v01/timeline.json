@@ -1,0 +1,25 @@
+{
+  "title": "City overhead \u2014 user-identified usable 00:01 to 00:04 range",
+  "fps": 24,
+  "render_width": 854,
+  "render_height": 480,
+  "framing": "fit",
+  "audio_target_rms_dbfs": -28,
+  "audio_gain_limit_db": 0,
+  "crossfade_half_seconds": 0.008,
+  "clips": [
+    {
+      "shot": "Overhead usable middle at original speed",
+      "picture": "assets/06-shots/videos/shot-12-overtake-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-12-overtake-city-seedance-480p-v01.mp4",
+      "source_in_frames": 24,
+      "duration_frames": 72,
+      "audio_gain_db": 0
+    }
+  ],
+  "notes": [
+    "User identified roughly 1\u20134 seconds as usable because speed ramps up and down outside that span. Exact [1.0,4.0) is a review extraction, not a new generation or final cut decision.",
+    "Native dimensions and original 24 fps preserved. Existing assembler re-encodes picture/audio and applies its fixed 8 ms audio edge fades; source remains untouched.",
+    "The current assembled overhead slot lasts four seconds, leaving a one-second timing decision for later assembly. Do not slow the three-second selection to fill the slot."
+  ]
+}

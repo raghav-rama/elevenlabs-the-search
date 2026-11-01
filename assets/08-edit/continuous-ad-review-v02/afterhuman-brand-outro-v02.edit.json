@@ -1,0 +1,19 @@
+{
+  "audio" : "none; assembled soundtrack supplied separately",
+  "dimensions" : [
+    1920,
+    1080
+  ],
+  "duration_seconds" : 2.5,
+  "fps" : 24,
+  "frames" : 60,
+  "note" : "Local spiral transition from the held ending frame into exact brand typography; not a newly approved identity\/logo design.",
+  "output_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/08-edit\/continuous-ad-review-v02\/afterhuman-brand-outro-v02.mp4",
+  "output_sha256" : "9e285a7f561c5475ef286f2bc49d778b44ad1e10bea2feaa041854a4b70bc56d",
+  "paid_generation" : false,
+  "product_descriptor" : "CYBERNETIC IMPLANTS",
+  "script" : "scripts\/render-brand-outro.swift",
+  "source_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/shot-12-overtake-coastal-minimax-startframe-v01\/last-picture-frame.png",
+  "source_sha256" : "79330a05f670b8aff544517aeaeee491e1652e2cc0eebcfde6f1a8c164e6679b",
+  "status" : "editorial_end_card_pending_user_review"
+}

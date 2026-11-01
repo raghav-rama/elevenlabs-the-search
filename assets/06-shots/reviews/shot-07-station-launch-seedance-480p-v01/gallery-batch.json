@@ -1,0 +1,15 @@
+{
+  "gallery_title": "AFTERHUMAN · Station launch / Seedance480p",
+  "gallery_description": "The approved upgrade ending now feeds a new launch. Compare the contextual join with the untouched native take.",
+  "gallery_status": "Pending review. Pose/background continuity holds in sampled frames; launch begins around2.2s and is slower than requested.",
+  "gallery_footer": "One Seedance2.5 generation via ElevenLabs ·6,511.470 credits /₹94.55 · No retry, new still or upscale. Context preview is silent for its first second.",
+  "shots": [
+    {
+      "record_file": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/context-review-v01/review.json"
+    },
+    {
+      "record_file": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/review.json",
+      "source_file": "assets/06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/last-picture-frame.png"
+    }
+  ]
+}

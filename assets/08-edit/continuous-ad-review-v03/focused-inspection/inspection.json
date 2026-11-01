@@ -1,0 +1,35 @@
+{
+  "audio_tracks": [
+    {
+      "channels": 2,
+      "codec_fourcc": "aac ",
+      "duration_seconds": 11.375,
+      "sample_rate": 48000
+    }
+  ],
+  "duration_seconds": 11.375,
+  "extracted_frame_seconds": 11.333333333333334,
+  "frame_height": 1080,
+  "frame_width": 1920,
+  "last_frame_file": "assets/08-edit/continuous-ad-review-v03/focused-inspection/afterhuman-floating-preview-last.png",
+  "last_frame_sha256": "dca2ec528381d1486e858b0b8d78e60d68e541f612cb9176349d60633a6e25ad",
+  "last_picture_frame_file": "assets/08-edit/continuous-ad-review-v03/focused-inspection/last-picture-frame.png",
+  "last_picture_frame_seconds": 11.333333333333334,
+  "last_picture_frame_sha256": "dca2ec528381d1486e858b0b8d78e60d68e541f612cb9176349d60633a6e25ad",
+  "last_video_sample_seconds": 11.333333333333334,
+  "near_black_detection": "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+  "near_black_frame_times_seconds": [],
+  "nominal_fps": 24,
+  "review_limits": "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+  "script": "scripts/inspect-review-video.swift",
+  "source_file": "assets/08-edit/continuous-ad-review-v03/upgrade-floating-preview-v01.mp4",
+  "source_modified": false,
+  "source_sha256": "da73e358de4f11fd87ae713ae2b22a07f5997f0bb08441943b49245c83c6ba6a",
+  "video_codec_fourcc": "avc1",
+  "video_duration_seconds": 11.375,
+  "video_samples": 273,
+  "original_inspection_paths": {
+    "last_frame_file": "/private/tmp/afterhuman-floating-preview-last.png",
+    "last_picture_frame_file": "/private/tmp/last-picture-frame.png"
+  }
+}

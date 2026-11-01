@@ -1,0 +1,350 @@
+{
+  "title": "Seedance Video Edit — MiniMax performance with approved Riley references",
+  "location": "Same cyberpunk cafe orbit/catch",
+  "provider": "ElevenLabs",
+  "model_id": "bytedance-seedance-v2.5-edit",
+  "flow_id": "J725xEy49QY4xa6L66pw",
+  "flow_url": "https://elevenlabs.io/app/flows/J725xEy49QY4xa6L66pw",
+  "prompt": "Edit the supplied eight-second coffee-rescue VIDEO, preserving it as the source performance. Keep the original shot duration, camera path and orbit direction, framing, body poses, running stride, speed changes, cup trajectory, exact catch/contact timing, handback timing and departure timing. Keep the same man, his position, wet cyberpunk cafe, architecture, light and reflections. Do not invent a new version of the action.\n\nMake only a character-consistency refinement to Riley. Use the close portrait image for her exact facial identity, short brown bob, asymmetric cheek and neck cyberware, and cyan implanted eye. Use the full-body gold-outfit image for her exact gold wrap mini-dress, black-and-gold tall boots, natural skin with thin chrome/cyan arm and thigh accents, and body proportions. These images supply appearance only; do not copy their standing pose, studio background or the portrait's white office blouse. Keep Riley recognizably human and keep the source video's expressions and gaze movements.\n\nThe mug is already airborne in the source opening. Preserve that: no visible release, toss or deliberate drop. Preserve one normal-sized mug, visible finger contact, the existing slow-motion circular rescue, return to the same patron and cyan-wake exit exactly as staged in the source. No extra eye close-up, cut, reframing, new move, altered choreography, duplicated limb, stretched arm, altered costume, robot body or replacement face. Maintain coherent facial and outfit details from frame to frame. Preserve the source sound-event timing; no added dialogue, music or new sound events.",
+  "live_schema": {
+    "model_id": "bytedance-seedance-v2.5-edit",
+    "model_name": "Seedance 2.5 Video Edit",
+    "node_type": "video-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "auto",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "720p",
+        "options": [
+          {
+            "label": "480p",
+            "value": "480p"
+          },
+          {
+            "label": "720p",
+            "value": "720p"
+          },
+          {
+            "label": "1080p",
+            "value": "1080p"
+          }
+        ]
+      },
+      {
+        "name": "generate_audio",
+        "type": "boolean",
+        "required": false,
+        "default": true
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "reference_images",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_videos",
+        "modality": "video",
+        "required": true
+      },
+      {
+        "key": "reference_audios",
+        "modality": "audio",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "auto"
+      ],
+      "duration_secs": "any value: pass `values` to creative_expose_flow_parameter",
+      "generate_audio": [
+        "true",
+        "false"
+      ],
+      "resolution": [
+        "480p",
+        "720p",
+        "1080p"
+      ]
+    }
+  },
+  "model_guide": {
+    "model_id": "bytedance-seedance-v2.5-edit",
+    "guide": "# Seedance family — bytedance-seedance-v1-pro, bytedance-seedance-v1.5-pro, bytedance-seedance-v2, bytedance-seedance-v2-fast, bytedance-seedance-v2.5, bytedance-seedance-v2.5-edit, bytedance-seedance-v2.5-extend, bytedance-seedance-v2-us, bytedance-seedance-v2.5-us, bytedance-seedance-v2.5-edit-us, bytedance-seedance-v2.5-extend-us\n\nByteDance's flagship video model. The first model supporting simultaneous quad-modal input (text, image, video, and audio). Strong motion realism, character consistency, and multi-shot storytelling.\n\n## Inputs\n\n- Text prompt\n- Optional reference image. The model cites these as `@image1`, `@image2` — but do not type that yourself: place an `image_reference` part where the reference belongs and the backend renders the token there.\n- Optional reference video\n- Optional audio track (model choreographs video to sound, beat-matched)\n- Parameters: resolution and duration vary by variant (see below)\n\n## Variant notes\n\n- **Seedance 2.0 / 2.0 Fast** — up to 4K (2.0) or 1080p (Fast); clips 4–15s.\n- **Seedance 2.5** (`bytedance-seedance-v2.5`) — sharper realism; up to 1080p; clips up to 30s; much larger reference budget (upto 10 image, video, and audio refs). Prefer 2.5 over 2.0 unless the user names 2.0.\n- **Seedance 2.5 Edit** (`bytedance-seedance-v2.5-edit`) — edit an existing clip by describing the change. Duration follows the source.\n- **Seedance 2.5 Extend** (`bytedance-seedance-v2.5-extend`) — continue from the end of an existing clip. Prompt what happens next.\n- **US-hosted variants** (`bytedance-seedance-v2-us`, `bytedance-seedance-v2.5-us`, `-edit-us`, `-extend-us`) — the same models served from US infrastructure, offered where the standard ids are not available; same resolutions as their counterparts, and 2.0 US takes no seed. Prompt them exactly like their counterparts.\n- Fast and Pro / 2.5 share prompting style. Longer variants tolerate longer prompts.\n\n## Prompt structure\n\n```\n[shot] + [subject] + [action] + [environment / lighting] + [style]\n```\n\n## Key strengths\n\n- **Handles physical interactions** (pouring, splashing, hand-object contact) better than most models. Describe them concretely.\n- **Good at weather and atmospheric effects.**\n- **Audio-to-video** — upload an audio track and the model choreographs video to the sound with beat-matched cuts and lip sync.\n- **Negative prompts work** — phrases like \"no distortion, no stretching,\" \"no grain, no shadows\" are effective.\n- **Seedream + Seedance pipeline** — generate reference images with Seedream, then use as visual references for maximum control.\n\n## For image-to-video\n\n- **Describe the motion, not the image.** \"Camera slowly orbits around her\" works far better than re-describing what she looks like.\n- **Lock the character with consistency language** — add \"maintain exact appearance from reference image\" or \"consistent character throughout, no deformation or drift.\"\n\n## Rules\n\n- **A wired audio reference needs `generate_audio` on.** With it off the render comes back silent and the track you connected is thrown away, so connecting audio turns it back on — never set it to false to keep a voiceover \"clean\".\n- **Use one continuous action per clip.** Multi-beat narratives drift.\n- **For start/end frame inputs**, write a prompt that bridges the two states (\"from sealed package to fully revealed product\"), not a static description.\n\n## Example\n\n> Wide tracking shot of a courier riding an electric scooter through a rainy Shanghai night market. Neon shopfronts reflect on wet pavement. Wisps of steam rise from food stalls as he weaves between pedestrians. Cinematic, slightly desaturated, shallow depth of field.\n\n## What to avoid\n\n- Re-describing the reference image in image-to-video prompts (wastes prompt budget).\n- Abstract or heavily stylized prompts without specificity.",
+    "source": "family"
+  },
+  "preserved_files": [
+    {
+      "file": "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+      "sha256": "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/edit-preview-v01/shot-08-hud-c-edit-preview-v01.mp4",
+      "sha256": "cd63556da707cf6fee969976cb27a7112bb178d372c799fdef5ec3d2982cc51e"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4",
+      "sha256": "3b4227ae98e2c8baf55400a430fef6b306d5d0f82f66369b9199a08f16ceba27"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+      "sha256": "00caba5dfc91d5a09537f9b6eb75dd9355070c8d26884da341b6737705863bb0"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "sha256": "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/edit-preview-v01/shot-09-coffee-edit-preview-v01.mp4",
+      "sha256": "976e51690a4dab81148cc8d126a3bf3cc311acf07c81dc878d94b9e5214c2b92"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v03/shot-09-coffee-revised-v03.mp4",
+      "sha256": "4c8c0f20e887d0536c67ad623783be935637d42e6f5e3f0d33aad8929bf31366"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-reflexes-coffee-orbit-minimax-v02.mp4",
+      "sha256": "782ebc616937139fbea3610a1c9a5604a035c5f5db6c53704d5fdd4b429b7c38"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-fpp-run-minimax-v04.mp4",
+      "sha256": "24be973fe71d67cd3810dfa21e951221e9a4b46916374e70b80873c06962abb3"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+      "sha256": "f5efe45d4615c8e650ede34edc5f542c285d934a44d790287617efcb77e5343c"
+    },
+    {
+      "file": "assets/06-shots/reviews/coffee-split-minimax-v04/shot-09-coffee-split-review-v04.mp4",
+      "sha256": "3fb1e87b399697bef05ee5957b04ccf2615c5e4da54cd2cf705ffdcdf9838195"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-seedance-480p-v01.mp4",
+      "sha256": "aadb78f46a93ad57339541313688258208deb30dcb92b337da8135747cc2bc25"
+    },
+    {
+      "file": "assets/06-shots/reviews/coffee-split-seedance-v01/shot-09-coffee-seedance-review-v01.mp4",
+      "sha256": "8b920debe2b9661f05f8cc26fd1af1d2d7a72cf1aa5f874cb528a0db7b1fe021"
+    }
+  ],
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "source_video": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+  "source_video_sha256": "f5efe45d4615c8e650ede34edc5f542c285d934a44d790287617efcb77e5343c",
+  "asset_id": "shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02",
+  "status": "completed_comparison_candidate_pending_user_review",
+  "node_id": "fjRmlz80yA55gaYbexiw",
+  "prepared_at": "2026-11-01T23:51:51+05:30",
+  "prompt_file": "assets/06-shots/video-prompts/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02.txt",
+  "prompt_sha256": "d9c5ac408e1d810a55e40a72ad82bf6e6dd2b161a81640e9d4612d499355f514",
+  "output_file": "assets/06-shots/videos/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02.mp4",
+  "effective_settings": {
+    "aspect_ratio": "auto",
+    "resolution": "480p",
+    "duration_secs": -1,
+    "generate_audio": true,
+    "reference_images": [
+      {
+        "template_node_id": "ek70pI2z7KWOjwc0U44W"
+      },
+      {
+        "template_node_id": "K6MAgMWzBizRlUuc5tYV"
+      }
+    ],
+    "reference_videos": [
+      {
+        "template_node_id": "b9BKhATapA4sQnZIlhpr"
+      }
+    ]
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "ek70pI2z7KWOjwc0U44W",
+          "label": "IMAGE 2 — Selected Riley face, bob, eye and neck cyberware"
+        },
+        {
+          "id": "K6MAgMWzBizRlUuc5tYV",
+          "label": "IMAGE 1 — Selected gold outfit, boots and skin/chrome body"
+        }
+      ]
+    },
+    {
+      "key": "reference_videos",
+      "modality": "video",
+      "required": true,
+      "connected_to": [
+        {
+          "id": "b9BKhATapA4sQnZIlhpr",
+          "label": "MiniMax v04 — same motion, 884x510 reference compatibility"
+        }
+      ]
+    },
+    {
+      "key": "reference_audios",
+      "modality": "audio",
+      "required": false,
+      "connected_to": []
+    }
+  ],
+  "estimate": {
+    "credits": 12502.022400000002,
+    "price_cents": 18152.936524800003,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "references": [
+    {
+      "node_id": "b9BKhATapA4sQnZIlhpr",
+      "content_asset_id": "qGyHvY7RwomCbXDQVIW9",
+      "file": "assets/06-shots/references/coffee-minimax-seedance-edit-v01/shot-09-minimax-v04-reference-884x510.mp4",
+      "sha256": "192a97a1064db5a6b05e4baa5d2c6cadd21db335ede6266756b7ff9abebbaa53",
+      "role": "reference_videos: uniformly enlarged source copy, unchanged192 frames/8s",
+      "preparation_record": "assets/06-shots/references/coffee-minimax-seedance-edit-v01/shot-09-minimax-v04-reference-884x510.preparation.json"
+    },
+    {
+      "file": "assets/01-riley/images/riley-cyberpunk-03-v01.png",
+      "node_id": "ek70pI2z7KWOjwc0U44W",
+      "generation_id": "MTCPGsxYC5HZK0tNPdKO",
+      "sha256": "4df29f1f3ed615cc454ae91d983f56046e203cc0be225b854c22bcdffc5ca009",
+      "role": "reference_images[0]: exact face, bob and facial/neck cyberware"
+    },
+    {
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "node_id": "K6MAgMWzBizRlUuc5tYV",
+      "generation_id": "WboGh1QOlITNwOVIn0Gj",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6",
+      "role": "reference_images[1]: outfit, boots, natural skin with narrow chrome accents"
+    }
+  ],
+  "selected": false,
+  "user_approved": false,
+  "submitted_generations": 1,
+  "retries_submitted": 1,
+  "planned_retry_of": "5YB3U3mQqIH9cj6OFEEN",
+  "authorization": "User explicitly confirms first failure was refunded and says Retry again. Authorizes exactly one corrected-input 480p Seedance Edit attempt at refreshed12502.0224-credit quote.",
+  "prior_attempt_billing": "refunded_user_confirmed",
+  "provider_minimum_verified_numerically": true,
+  "provider_acceptance_not_yet_tested": false,
+  "authorized_at": "2026-11-01T23:54:02+05:30",
+  "prior_attempt_refund": {
+    "at": "2026-11-01T23:54:02+05:30",
+    "source": "explicit_user_message",
+    "quote": "Yes it was refunded. Retry again",
+    "independently_verified": false,
+    "status": "refunded_user_confirmed"
+  },
+  "submitted_at": "2026-11-01T23:54:04+05:30",
+  "submission": {
+    "success": true,
+    "node_id": "fjRmlz80yA55gaYbexiw",
+    "session_id": "xvOhIpV2ffsgD4cY9lsW",
+    "credit_costs": {
+      "rRtNqFee9BOE2Gxzcltu": 12502.022400000002
+    }
+  },
+  "session_ids": [
+    "xvOhIpV2ffsgD4cY9lsW"
+  ],
+  "session_id": "xvOhIpV2ffsgD4cY9lsW",
+  "generation_id": "rRtNqFee9BOE2Gxzcltu",
+  "completed_at": "2026-11-01T23:58:05+05:30",
+  "sha256": "870c592c1db53f93e9a32288af2453f3fd8ef741a642bda95f97f3221b208a5f",
+  "bytes": 4808814,
+  "width": 842,
+  "height": 486,
+  "provider_generation": {
+    "id": "rRtNqFee9BOE2Gxzcltu",
+    "status": "completed",
+    "model_id": "bytedance-seedance-v2.5-edit",
+    "width": 842,
+    "height": 486,
+    "duration_secs": 7.712,
+    "created_at_unix_ms": 1793557443815,
+    "price": {
+      "credits": 12502.022400000002,
+      "price_cents": 18152.936524800003,
+      "cost_fiat_currency": "inr"
+    }
+  },
+  "provider_reported_price": {
+    "credits": 12502.022400000002,
+    "price_cents": 18152.936524800003,
+    "cost_fiat_currency": "inr"
+  },
+  "output_created": true,
+  "provider_input_accepted": true,
+  "assistant_visual_review": {
+    "reviewed_at": "2026-11-02T00:02:52+05:30",
+    "method": "Sampled native video via 24-frame overview and nine-frame 0.125-second catch detail, compared with original full contact sheet and approved face/wardrobe stills; full-frame decode and numeric audio analysis. No real-time playback or independent listening claim.",
+    "observations": [
+      "The actual-video edit follows the preferred MiniMax performance closely in sampled frames: already-airborne mug, frontal-to-side-to-rear camera arc, catch, handback and cyan-wake departure.",
+      "Hand and mug make contact around1.75–2.0 seconds in the focused samples; no visible deliberate drop or toss.",
+      "Handback spans approximately5.1–6.1 seconds, followed by a cyan-wake exit from about6.4 seconds.",
+      "Short brown bob, gold sleeveless mini-dress, black/gold tall boots and mostly human skin with narrow cyan/chrome accents remain recognizable.",
+      "Cyan implanted eye and cheek treatment are more conspicuous than in the original source; the picture remains close to the original action and environment."
+    ],
+    "limitations": [
+      "Returned185 picture frames at24fps (7.709s), versus192 frames/eight seconds in the source: seven fewer frames, approximately0.292s shorter. Exact source timing was not preserved; the reason for this provider change is unverified. No local retiming applied.",
+      "Exact portrait likeness is not established. Face remains narrow/stylized and the detailed asymmetric silver/magenta facial and neck design is simplified; stronger cyan treatment alone is not proof of better identity consistency.",
+      "Source slow reach, near-suspended cup and weak sharp lateral eye flick remain. This edit tests appearance refinement, not a new action performance.",
+      "Camera is a broad arc, not a verified360-degree circle. Patron geography and frame-to-frame finger contact still need playback review.",
+      "Native stereo audio has been decoded and measured only; speech/music absence, event synchronization and subjective continuity have not been independently heard."
+    ]
+  },
+  "inspection_file": "assets/06-shots/reviews/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02/inspection.json",
+  "review_file": "assets/06-shots/reviews/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02/review.json",
+  "comparison_player": "assets/06-shots/reviews/coffee-minimax-ref-seedance-edit-v02/index.html",
+  "native_picture_frames": 185,
+  "native_picture_seconds": 7.709,
+  "nominal_fps": 24,
+  "reviewed_at": "2026-11-02T00:02:52+05:30",
+  "native_audio_analysis": {
+    "file": "assets/06-shots/reviews/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02/native-audio.wav",
+    "levels_file": "assets/06-shots/reviews/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02/native-audio-levels.txt",
+    "rms_dbfs": -33.35577727648407,
+    "peak_dbfs": -11.443480094835907,
+    "decoded_duration_seconds": 7.7115,
+    "listening_review": false
+  },
+  "duration_difference": {
+    "source_frames": 192,
+    "output_frames": 185,
+    "difference_frames": -7,
+    "difference_seconds": -0.2916666666666667,
+    "local_retiming": false,
+    "cause": "not established"
+  }
+}

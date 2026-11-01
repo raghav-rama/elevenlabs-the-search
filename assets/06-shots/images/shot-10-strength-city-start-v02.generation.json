@@ -1,0 +1,110 @@
+{
+  "concept": "strength",
+  "asset_id": "shot-10-strength-city-start-v02",
+  "prompt_file": "assets/06-shots/prompts/shot-10-strength-city-start-v02-run.txt",
+  "draft_prompt": "assets/06-shots/prompts/shot-10-strength-city-start-v02.txt",
+  "prompt_sha256": "b445eb41b2264795586a95b0521a96b7701ba2364fad03357b7477025f8ef876",
+  "prompt": "Reference roles: the transformed Riley station frame supplies CITY ARCHITECTURE, materials and daylight only; create a new district location, do not copy the station platform or its standing Riley. The full-body gold outfit reference supplies her exact gold wrap dress, black-and-gold boots, natural skin and slim chrome/cyan inlays. One image, no collage.\n\nPhotoreal cinematic commercial, 16:9. One coherent near-future city matching the supplied approved station frame: layered glass megastructures, brushed dark metal, elevated rail and skybridges, cyan light strips, restrained magenta signage and warm gold practical lighting. Bright hazy daylight, slightly damp reflective surfaces, natural skin and physical materials. Preserve the station's welcoming luminous look; do not change to a night city. Background pedestrians wear plausible future-city streetwear, not matching uniforms. Establish infrastructure and architecture as futuristic; neon added to an otherwise contemporary street is insufficient. No illegible foreground advertising, title cards or model-generated AFTERHUMAN typography; exact product labels will be added editorially.\n\nFirst-person eye-level view in a transit service passage connecting the caf\u00e9 district to the boulevard. Heavy jammed brushed-steel bulkhead doors share the station's bevels, cyan status strips and warm gold service lights. Two natural adult hands with slim chrome inlays grip opposing edges of a narrow vertical gap. Wrists close to the body, elbows bent outside the frame, only short distal forearms visible; no external torso or extended spaghetti arms. Starting state before bending, dark steel still nearly flush. Warm corridor visible through the gap. The ensuing motion must visibly deform the metal; opening an ordinary unlocked door is not the action.\n",
+  "node_id": "QfVCzhaRtnILiD2S3UCI",
+  "reference_keys": [
+    "world",
+    "wardrobe"
+  ],
+  "model_parameters": {
+    "images": [
+      {
+        "template_node_id": "oq4i1gtPgBZQWZjKpyK9"
+      },
+      {
+        "template_node_id": "LsmAOIUrwmaZEKFGxI1L"
+      }
+    ],
+    "quality": "low",
+    "aspect_ratio": "16:9",
+    "resolution": "1K"
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "oq4i1gtPgBZQWZjKpyK9",
+          "label": "WORLD \u2014 approved transformation ending, city architecture and daylight"
+        },
+        {
+          "id": "LsmAOIUrwmaZEKFGxI1L",
+          "label": "APPROVED \u2014 Gold dress, natural skin, narrow chrome inlays"
+        }
+      ]
+    }
+  ],
+  "title": "10 \u2014 Strength / transit bulkhead",
+  "location": "Transit service passage",
+  "status": "revision_requested_source_preserved",
+  "selected": false,
+  "user_approved": false,
+  "provider": "ElevenLabs",
+  "model_id": "gpt-image-2",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "output_file": "assets/06-shots/images/shot-10-strength-city-start-v02.png",
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "prepared_at": "2026-11-01T18:28:47+05:30",
+  "references": [
+    {
+      "node_id": "oq4i1gtPgBZQWZjKpyK9",
+      "content_asset_id": "31PjGeIKM3pQc1ShkXkD",
+      "file": "assets/06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/last-picture-frame.png",
+      "sha256": "c0e544d85a36ece78e5455ca84632130e692f9e5ed9c9c3835a8047dc8ea3ba0",
+      "order": 1,
+      "role": "approved station architecture/daylight only"
+    },
+    {
+      "node_id": "LsmAOIUrwmaZEKFGxI1L",
+      "generation_id": "WboGh1QOlITNwOVIn0Gj",
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6",
+      "order": 2,
+      "role": "approved gold dress, boots, natural skin and narrow chrome inlays"
+    }
+  ],
+  "session_id": "EMymNjTCndpLyveVeuZl",
+  "generation_id": "Q5S7G1qSAMPNz37UZPdB",
+  "provider_reported_price": {
+    "credits": 470.4962162162163,
+    "price_cents": 683.160505945946,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793538028536,
+  "sha256": "406627023b0e16b1b7c456591b88580202ca35d1afc1f84cd048d759c15f22b5",
+  "bytes": 1523286,
+  "width": 1280,
+  "height": 720,
+  "completed_at": "2026-11-01T18:31:58+05:30",
+  "assistant_visual_review": {
+    "observations": [
+      "Two first-person skin hands with thin chrome inlays grip heavy dark metal doors.",
+      "Gold and cyan lighting and visible city structures match the shared environment.",
+      "Metal deformation reads clearly as strength."
+    ],
+    "limitations": [
+      "Doors are already bent and the gap is wider than the requested nearly-closed starting state. Useful action/keyframe concept, not a clean before-state.",
+      "Passage reads as an entrance to a populated arcade rather than a secluded transit service corridor.",
+      "Further deformation and grip continuity remain motion tests."
+    ],
+    "reviewed_at": "2026-11-01T18:33:19+05:30",
+    "method": "Native 1280x720 still inspection",
+    "user_selection_pending": true
+  },
+  "user_feedback": "User acknowledged the listed error and requested a fix."
+}

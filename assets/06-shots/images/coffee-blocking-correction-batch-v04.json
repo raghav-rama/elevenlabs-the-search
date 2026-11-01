@@ -1,0 +1,75 @@
+{
+  "status": "starting_distance_corrected_pending_user_review",
+  "flow_id": "J725xEy49QY4xa6L66pw",
+  "flow_url": "https://elevenlabs.io/app/flows/J725xEy49QY4xa6L66pw",
+  "model_id": "gpt-image-2",
+  "requested_generations": 1,
+  "generations_per_shot": 1,
+  "estimate": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "selected": false,
+  "user_approved": false,
+  "retries": 0,
+  "shots": [
+    {
+      "asset_id": "shot-09-coffee-city-start-v04",
+      "title": "Coffee starting frame — patron farther ahead",
+      "node_id": "qFgyDWMdtTm9ZaJuCb6t",
+      "record_file": "assets/06-shots/images/shot-09-coffee-city-start-v04.generation.json",
+      "prompt_file": "assets/06-shots/prompts/shot-09-coffee-city-start-v04.txt",
+      "output_file": "assets/06-shots/images/shot-09-coffee-city-start-v04.png",
+      "status": "starting_distance_corrected_pending_user_review",
+      "generation_id": "HvzY1rLX6vjf9Vtp17Rp",
+      "session_id": "oiBNnZPVxdDhwjlzzzMX",
+      "sha256": "408ebe84e8cdb864a70649424adcdaae887ca55ce48b35ebd72362071b81fcad"
+    }
+  ],
+  "submitted_at": "2026-11-01T22:23:43+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "qFgyDWMdtTm9ZaJuCb6t",
+        "session_id": "oiBNnZPVxdDhwjlzzzMX",
+        "credit_costs": {
+          "HvzY1rLX6vjf9Vtp17Rp": 252.11783783783784
+        }
+      }
+    ],
+    "session_ids": [
+      "oiBNnZPVxdDhwjlzzzMX"
+    ],
+    "pending": [
+      {
+        "generation_id": "HvzY1rLX6vjf9Vtp17Rp",
+        "kind": "image"
+      }
+    ]
+  },
+  "session_ids": [
+    "oiBNnZPVxdDhwjlzzzMX"
+  ],
+  "completed_at": "2026-11-01T22:24:13+05:30",
+  "completed_generations": 1,
+  "total_reported_price": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T22:26:35+05:30",
+  "gallery_title": "AFTERHUMAN · Coffee approach reference",
+  "gallery_description": "Patron moved farther ahead beside the cafe, with clear approach space before Riley draws level.",
+  "gallery_status": "Starting distance corrected; pending review. Mug hand placement still needs attention before the motion pass.",
+  "gallery_footer": "GPT Image 2 via ElevenLabs · 1280×720 · Two image edits / 504.236 credits / INR 7.32 total · Follow-up prop edit unsuccessful · No new video",
+  "correction_pass_totals": {
+    "image_generations": 2,
+    "credits": 504.2356756756757,
+    "inr": 7.3215020108108115,
+    "video_generations": 0
+  }
+}

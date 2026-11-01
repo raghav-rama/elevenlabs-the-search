@@ -1,0 +1,46 @@
+{
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "status": "generated_camera_transition_motion_needs_review",
+  "model_id": "bytedance-seedance-v2.5",
+  "requested_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "480p",
+    "duration_secs": 5,
+    "generate_audio": true
+  },
+  "requested_generations": 1,
+  "session_ids": [
+    "qKTAd8BmP1ggBnzZu2YI"
+  ],
+  "generation_id": "Tndu2ARyNCecJj1W57Xz",
+  "estimate": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "review_sample_count": 21,
+  "review_interval_seconds": 0.25,
+  "shots": [
+    {
+      "asset_id": "shot-11-12-fpp-overhead-seedance-480p-v01",
+      "title": "Continuous POV to overhead overtake",
+      "location": "Approved wet cyberpunk boulevard",
+      "record_file": "assets/06-shots/videos/shot-11-12-fpp-overhead-seedance-480p-v01.generation.json",
+      "prompt_file": "assets/06-shots/video-prompts/shot-11-12-fpp-overhead-seedance-480p-v01.txt",
+      "output_file": "assets/06-shots/videos/shot-11-12-fpp-overhead-seedance-480p-v01.mp4",
+      "node_id": "sCPaBuh6Y8ZqPFcM9VRb",
+      "generation_id": "Tndu2ARyNCecJj1W57Xz",
+      "session_id": "qKTAd8BmP1ggBnzZu2YI",
+      "status": "generated_camera_transition_motion_needs_review",
+      "source_file": "assets/06-shots/references/fpp-overhead-v01/speed-native-0.75s.png",
+      "sha256": "d52ad8f09107434fd521ce16b1d5622dcd1e7d064ccc5a51e8c7dc2b631e6521"
+    }
+  ],
+  "gallery_title": "AFTERHUMAN · POV to overhead",
+  "gallery_description": "One continuous camera-rise test. Exact approved sprint frame to the matching overhead finish.",
+  "gallery_status": "Pending your review. Camera transition improved; late train motion needs scrutiny. Approved v07 unchanged.",
+  "gallery_footer": "Seedance2.5 · 854×480 · 24fps · One video take plus one finish-frame reference · Total 6,920.52 credits / ₹100.49"
+}

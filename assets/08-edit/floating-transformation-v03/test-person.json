@@ -1,0 +1,23 @@
+{
+  "source": "assets/06-shots/videos/shot-04-05-continuous-topaz-2x-v01.mp4",
+  "source_sha256": "83b6da113f490c82fc95bc4b53cab6f841e69a439e0046292f88b63d2b7228bf",
+  "original_mattes": "assets/08-edit/upgrade-diagnostic-v01/mattes/mattes.json",
+  "output": "assets/08-edit/floating-transformation-v03/test-person",
+  "source_start_frame": 162,
+  "frame_count": 127,
+  "fps": 24,
+  "crop": [
+    850,
+    130,
+    430,
+    880
+  ],
+  "mode": "person",
+  "indices": [
+    24,
+    40,
+    48,
+    60,
+    84
+  ]
+}

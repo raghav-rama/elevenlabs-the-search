@@ -1,0 +1,54 @@
+{
+  "config" : "assets\/08-edit\/upgrade-diagnostic-v01\/diagnostic-config.json",
+  "config_sha256" : "5e13f14ea25280412d215753524bf878802ab5bc4e9148e52b28e3490dae15bf",
+  "duration_seconds" : 5.291666666666667,
+  "float_out_seconds" : [
+    0,
+    0.75
+  ],
+  "float_return_seconds" : [
+    3.8500000000000001,
+    5
+  ],
+  "fps" : 24,
+  "frames" : 127,
+  "limitations" : [
+    "Local foreground segmentation and a temporary cloned\/defocused background patch; detailed edge cleanup remains production work.",
+    "Stylized implant cage and pose-guided routes, not photoreal internal anatomy; dark-boot ankle anchors are hand positioned.",
+    "Existing native 480p source detail is not improved."
+  ],
+  "mattes" : "assets\/08-edit\/upgrade-diagnostic-v01\/mattes\/mattes.json",
+  "mattes_record_sha256" : "153d888a5b2165e042bad0cec393446da01335158a000b08222f691420733df8",
+  "new_provider_generations" : 0,
+  "output" : "assets\/08-edit\/upgrade-diagnostic-v01\/upgrade-diagnostic-picture-v01.mp4",
+  "output_sha256" : "330ae11a77389052495a1f54632364db4b124e4493ed1783f7c0977c82091438",
+  "resolution" : [
+    1920,
+    1080
+  ],
+  "saved_review_frames" : [
+    "frame-000.png",
+    "frame-004.png",
+    "frame-008.png",
+    "frame-012.png",
+    "frame-018.png",
+    "frame-024.png",
+    "frame-030.png",
+    "frame-036.png",
+    "frame-048.png",
+    "frame-060.png",
+    "frame-072.png",
+    "frame-084.png",
+    "frame-092.png",
+    "frame-100.png",
+    "frame-108.png",
+    "frame-114.png",
+    "frame-120.png",
+    "frame-126.png"
+  ],
+  "script" : "scripts\/render-upgrade-diagnostic.swift",
+  "source" : "assets\/08-edit\/continuous-ad-review-v01\/afterhuman-continuous-with-david-v01.mp4",
+  "source_retimed" : false,
+  "source_sha256" : "782a57621f92287c8ec29c86b443782c26b83df8413547a38449ff15253a9350",
+  "status" : "local_diagnostic_motion_mockup_pending_user_review"
+}

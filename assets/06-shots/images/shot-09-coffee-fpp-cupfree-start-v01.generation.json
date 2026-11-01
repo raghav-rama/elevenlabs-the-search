@@ -1,0 +1,288 @@
+{
+  "asset_id": "shot-09-coffee-fpp-cupfree-start-v01",
+  "title": "Cup-free fast first-person approach",
+  "status": "assistant_reviewed_prototype_input_not_user_selected",
+  "provider": "ElevenLabs",
+  "flow_id": "J725xEy49QY4xa6L66pw",
+  "flow_url": "https://elevenlabs.io/app/flows/J725xEy49QY4xa6L66pw",
+  "node_id": "2dSZ3aHoQTBMZVy0KbKW",
+  "model_id": "gpt-image-2",
+  "prepared_at": "2026-11-01T23:09:01+05:30",
+  "prompt": "Prepare a cinematic first-person sprint opening frame for the AFTERHUMAN ad by editing the supplied cyberpunk cafe walkway. Preserve this same sunlit wet elevated city, glass cafe on the left, magenta neon, planted rail on the right, layered transit and gold/cyan reflections. Remove the nearby man completely and remove EVERY cup, mug and drink from the visible frame, including the cup on the foreground table. Keep the immediate forward running lane empty. A few tiny distant pedestrians are fine. Riley is already sprinting rapidly straight down the walkway: convincing strong longitudinal motion blur along the left and right peripheral edges and streaked pavement close to camera; the central route and vanishing point stay readable. Exactly ONE naturally sized skin-and-chrome RIGHT hand appears partially at the very bottom-right edge during a running arm swing, loosely curled and pointing along motion, never extended toward camera. No left hand, no floating hands, no visible runner body in this first-person view. Keep eye-level forward viewpoint and level horizon. No cup, no held object, no falling object, no nearby patron, no hovering HUD or added words. Single photoreal 16:9 image, not a montage.",
+  "prompt_file": "assets/06-shots/prompts/shot-09-coffee-fpp-cupfree-start-v01.txt",
+  "prompt_sha256": "c6578887b60f333ffdf5c1a6d7c22336a478d23746b5260bfe21598537fed96a",
+  "output_file": "assets/06-shots/images/shot-09-coffee-fpp-cupfree-start-v01.png",
+  "effective_settings": {
+    "images": [
+      {
+        "template_node_id": "UaRlQZIL8lZ2paPma9DL"
+      }
+    ],
+    "quality": "low",
+    "aspect_ratio": "16:9",
+    "resolution": "1K"
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "UaRlQZIL8lZ2paPma9DL",
+          "label": "New image-generation node"
+        }
+      ]
+    }
+  ],
+  "live_schema": {
+    "model_id": "gpt-image-2",
+    "model_name": "GPT Image 2",
+    "node_type": "image-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "16:9",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "4:5",
+            "value": "4:5"
+          },
+          {
+            "label": "5:4",
+            "value": "5:4"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "2:3",
+            "value": "2:3"
+          },
+          {
+            "label": "3:2",
+            "value": "3:2"
+          },
+          {
+            "label": "1:2",
+            "value": "1:2"
+          },
+          {
+            "label": "2:1",
+            "value": "2:1"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "1:3",
+            "value": "1:3"
+          },
+          {
+            "label": "3:1",
+            "value": "3:1"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "1K",
+        "options": [
+          {
+            "label": "1K",
+            "value": "1K"
+          },
+          {
+            "label": "2K",
+            "value": "2K"
+          },
+          {
+            "label": "4K",
+            "value": "4K"
+          }
+        ]
+      },
+      {
+        "name": "quality",
+        "type": "select",
+        "required": false,
+        "default": "medium",
+        "options": [
+          {
+            "label": "low",
+            "value": "low"
+          },
+          {
+            "label": "medium",
+            "value": "medium"
+          },
+          {
+            "label": "high",
+            "value": "high"
+          }
+        ]
+      },
+      {
+        "name": "custom_width",
+        "type": "number",
+        "required": false,
+        "min_value": 64,
+        "max_value": 3840,
+        "number_type": "int"
+      },
+      {
+        "name": "custom_height",
+        "type": "number",
+        "required": false,
+        "min_value": 64,
+        "max_value": 3840,
+        "number_type": "int"
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "images",
+        "modality": "image",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "1:1",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "2:3",
+        "3:2",
+        "1:2",
+        "2:1",
+        "9:16",
+        "16:9",
+        "21:9",
+        "1:3",
+        "3:1"
+      ],
+      "quality": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "resolution": [
+        "1K",
+        "2K",
+        "4K"
+      ]
+    }
+  },
+  "model_guide": {
+    "model_id": "gpt-image-2",
+    "guide": "# GPT Image family \u2014 gpt-image-1, gpt-image-1.5, gpt-image-2\n\nOpenAI's most capable image model. Excels at text rendering (95%+ accuracy), spatial awareness, infographics, multi-panel layouts, UI mockups, and reasoning-aware generation via Thinking Mode. Supports up to 10 reference images. Outputs PNG (with transparency) and WebP.\n\n## Prompt structure\n\n```\n[background/scene] > [subject] > [key details] > [constraints]\n```\n\nState the intended use (ad, UI mock, infographic) so the model picks the right mode and polish level.\n\nAny prompt format works \u2014 minimal prompts, descriptive paragraphs, JSON-style structures, instruction-style, tag-based. Consistency matters more than format.\n\n## Key principles\n\n- GPT Image 2 is a natural-language model with reasoning on top. It rewards clear, structured description and ignores keyword spam.\n- Write like you are briefing a photographer or art director. Describe surfaces, light sources, lenses, exact copy, and what must not drift.\n- \"Stunning, cinematic, 8K, ultra-detailed\" is background noise. \"Overhead fluorescents, one bulb dimmer than the rest, pale blue scrubs with a coffee stain on the cuff\" is information the model can draw.\n- Be concrete about materials, shapes, textures, and medium (photo, watercolor, 3D render).\n\n## Text rendering \u2014 the headline feature\n\n- **Place exact copy in quotation marks or ALL CAPS.**\n- **Spell out tricky brand names letter by letter** if needed.\n- **Specify font style, weight, color, and placement explicitly.**\n- **Add \"verbatim \u2014 no extra characters, no substitutions\"** when text accuracy is critical.\n- **For multi-line text, describe hierarchy line by line.**\n- **Keep text to 1\u20135 words for best results.**\n\nExample: `EXACT TEXT: SUMMER COLLECTION in bold uppercase serif, centered, white on charcoal`\n\n## Editing \u2014 two-column logic\n\n```\nChange: [exactly what should change]\n\nPreserve: [face, identity, pose, lighting, framing, background, geometry, text, layout]\n\nConstraints: [no extra objects, no redesign, no logo drift, no watermark]\n```\n\n## Multi-image referencing\n\n- Give each input a role, then describe what to do with it.\n- On gpt-image-1.5 / gpt-image-2 the model cites inputs as `Image 1`, `Image 2`. Do not type those labels: place an `image_reference` part where each input belongs and the backend renders the label there, in order.\n- Example: a prompt part reading \"apply the colour palette and texture of \", then the style `image_reference`, then \" to \", then the product `image_reference`.\n\n## Custom resolution (gpt-image-2)\n\n- Set `custom_width` and `custom_height` together (pixels) to override `aspect_ratio` + `resolution`. Edges 64\u20133840, ratio at most 3:1.\n- Pass both on `creative_update_node` when you want a new size. Omitting them keeps a previously set custom size; pass both as `null` to clear it and return to the aspect-ratio preset.\n- `creative_run_flow_nodes` uses whatever is stored on the node \u2014 if custom size is missing it falls back to the standard size for that aspect ratio (e.g. 3:1 1K \u2192 1440\u00d7480).\n\n## Thinking Mode\n\n- Reasons through composition, object counts, lighting, and constraints before rendering.\n- Dramatically reduces reroll prompts for complex briefs.\n- Available on Plus/Pro/Business tiers.\n- Does not add latency for simple prompts. Let the model determine when deeper reasoning is warranted.\n\n## What to avoid\n\n- Generic quality words (\"beautiful,\" \"stunning,\" \"4K,\" \"8K\").\n- Forgetting the preserve list on edits (the model may drift on faces, logos, or text).\n- Resolutions above 2K (flagged as experimental by OpenAI). For production, generate at `quality=low` plus a dedicated upscaler.\n- A quality word in `resolution`. On gpt-image-2 `quality` is low, medium or high, and `resolution` is 1K, 2K or 4K.\n- Vague text instructions (\"add a title\" vs. specifying the exact text).",
+    "source": "family"
+  },
+  "estimate": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "generations_count": 1,
+  "retries": 0,
+  "seed": null,
+  "selected": false,
+  "user_approved": false,
+  "authorization": "User approved proposed two-clip revision with Yes, please do it. Prepare one low-cost opening and one TPP keyframe, then one MiniMax take each.",
+  "references": [
+    {
+      "node_id": "UaRlQZIL8lZ2paPma9DL",
+      "file": "assets/06-shots/images/shot-09-coffee-city-start-v06.png",
+      "sha256": "059d6a58ffb80e613d6e1d7765fb2c986c8b4db88555d4d1ae3aa0f1f157d272"
+    }
+  ],
+  "submitted_at": "2026-11-01T23:09:20+05:30",
+  "submission": {
+    "success": true,
+    "node_id": "2dSZ3aHoQTBMZVy0KbKW",
+    "session_id": "3iIrOXZT7s1VBoaAnBij",
+    "credit_costs": {
+      "IPTLtjlVQPPdbA7uyRbZ": 252.11783783783784
+    }
+  },
+  "session_ids": [
+    "3iIrOXZT7s1VBoaAnBij"
+  ],
+  "session_id": "3iIrOXZT7s1VBoaAnBij",
+  "generation_id": "IPTLtjlVQPPdbA7uyRbZ",
+  "completed_at": "2026-11-01T23:11:04+05:30",
+  "sha256": "3f688282d1d09c212b8ac0d6fd5414b56389d50cd7d24c3bcb56fde134725eec",
+  "bytes": 1646007,
+  "width": 1280,
+  "height": 720,
+  "provider_generation": {
+    "id": "IPTLtjlVQPPdbA7uyRbZ",
+    "status": "completed",
+    "width": 1280,
+    "height": 720,
+    "price": {
+      "credits": 252.11783783783784,
+      "price_cents": 366.0751005405406,
+      "cost_fiat_currency": "inr"
+    },
+    "model_id": "gpt-image-2",
+    "created_at_unix_ms": 1793554760710
+  },
+  "provider_reported_price": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T23:12:31+05:30",
+  "assistant_visual_review": {
+    "observations": [
+      "No visible cups or nearby patron; one low right running hand.",
+      "Strong edge blur with readable central lane and established city."
+    ],
+    "limitations": [
+      "Static frame cannot establish forward parallax, running speed or head turn."
+    ]
+  },
+  "location": "Sunlit wet cyberpunk cafe walkway"
+}

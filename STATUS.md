@@ -1442,3 +1442,671 @@ as present or silently substitute another source.
 - Created signed commit 8969fb12b7686b5ae7e2da94ae808b1914e5b395, Save narrated ad review, selected audio and power prototypes, with Co-authored-by: codex <noreply@openai.com>. Published all 251 staged project files (244 additions, seven modified files); no source deletions. Includes the exact 45-second review and selected source assets, experiments, provenance, reproducible scripts and latest production recommendations.
 - Push to origin/main succeeded. Fresh git ls-remote reports the exact commit above; GitHub API reports signature verified=true, reason=valid. Final precommit checks: JSON and Python/Swift syntax, staged whitespace, preserved review/selected media hashes, file-size and credential-pattern checks passed. No new provider generation, cost, media correction, Final Cut edits or competition submission.
 - User's positive audience-feedback follow-up arrived during upload and is included in the next signed documentation commit together with this publication record. That documentation commit will be pushed and its remote hash/signature/worktree state verified before handback. Production Seedance remains deferred; no narrative rewrite requested.
+
+## 2026-11-01T16:39:04+05:30 — Product clarity review rendered; shared-city design and overhead staging prepared
+
+- User approves doing the proposed first stage before further discussion. Executed the local product-label edit plus design preparation; continued to defer Seedance/paid generation. Preserved the successful story, David delivery, Chrome Swagger, full selected coffee action, 45-second timing and original source files. New output and city design await user review; no blanket production/source approvals inferred.
+- Saved assets/08-edit/continuous-ad-review-v02/afterhuman-product-clarity-v02.mp4, SHA-256 0e116de8202ba1ac21ba1d59cee182953d8f3612ecb435925a59297fa7dcc0ea. Exact AFTERHUMAN / CYBERNETIC IMPLANTS label appears lower-left from frame 308 to 416 (12.833–17.333s), with 0.2-second fades, synchronized to the existing upgrade/music entry. Replaced only the final 60-frame local spiral/card with the same treatment plus CYBERNETIC IMPLANTS and A STEP AHEAD. Same 45.000 seconds, 1,080 frames, 24 fps, 1920×1080 review canvas. Source-resolution limitations persist.
+- Passed through the original compressed AAC mix; exact audio payload hash bfce6b8337347ca330d64d795dcad7672a1573e9da0d78fe797ee8e9d8c42d01 matches. Independent decodes each contain 2,160,000 stereo frames / 45 seconds, same peak about -1.498 dBFS; float decode differences peak at -134.952 dBFS. Do not claim decoded WAV byte identity. No speech/music synthesis, retime, changed loudness or new audio mix.
+- Initial local render completed, but post-export verification stopped on a zero-sample AAC boundary marker. Corrected add-product-clarity.swift to skip only zero-sample markers and used its --verify-existing recovery to verify the same export and write missing provenance; no media rerender or paid retry. Added optional descriptor support to render-brand-outro.swift, retaining the original default layout. Reproduction and checks are documented in scripts/README.md and the new review directory.
+- Prepared assets/06-shots/reviews/city-continuity-v01/: HTML reference board, shared-city brief, input-hash/design record, verification and interactive same-direction overhead schematic. Uses existing approved station/actual transformation frame, train, face and wardrobe references. Connects terrace HUD, futuristic café arcade, transit bulkhead, avenue and elevated urban rail within one bright cyberpunk city. Six unrun still-prompt drafts under assets/06-shots/prompts cover four ability starts and overhead start/end. World replacement, higher-detail imagery and actual overhead correction remain future generation work; the current video still contains the original prototype settings/race.
+- Verified full video decode with no near-black frames, sampled label and ending-frame typography, source/reference/prompt hashes, original v01 hash, JSON, Swift syntax and whitespace. Playwright loaded the new video with 45-second metadata and no media error; all four board images and all linked artifacts load, three staging controls work, no desktop horizontal overflow. Browser file-protocol access was unavailable, so checks used a temporary localhost-only server; a screenshot path outside allowed roots was declined and the screenshot was saved under the allowed .playwright-mcp directory instead. No deployment or external upload.
+- Updated manifest/edit index and saved exact edit settings, provenance, delivery/inspection and audio-comparison records. No provider calls, credit spend, Final Cut modification, new commit/push or competition submission. Hand back the new cut and design board for discussion; keep production generation deferred.
+
+## 2026-11-01T16:53:27+05:30 — Centered body diagnostic and terminal typing proposed by user
+
+- User supplies a cyberware-body interface reference and asks whether Riley can transition into a centered diagnostic body view during the upgrade, then return to the original scene before takeoff. Requests character-by-character terminal-font text such as A, AF, AFT. Treat as a feasibility/design request; no generated output or production approval inferred.
+- Archived the supplied reference with provenance under assets/08-edit/references/upgrade-diagnostic/ and documented the proposed treatment in assets/08-edit/upgrade-diagnostic-insert-v01.md. Reference is for visual inspiration, not to reproduce its generic body, inventory grid or embedded meme text in the ad.
+- Verified current timing: music/upgrade starts 12.833333s and launch begins 18.125s, leaving 5.291667s within the existing 45-second cut. Proposed sequence: station dims and Riley centers; cyan/gold body scan with four power callouts and typed brand/product; interface collapses and upgraded Riley returns to her exact scene placement; takeoff remains at the existing time. This would replace the simple lower-left upgrade label in a future derived version.
+- Assessment: type-on text, scan overlays and interface motion can be composited; matching Riley's body isolation/scan plate and the return pose is the hard continuity step. Sound accents and any new scan imagery remain proposals. Existing cut, voice, music and source footage unchanged; no provider calls, spend, render, commit or push. Seedance production remains deferred.
+
+## 2026-11-01T17:18:31+05:30 — Floating-body upgrade mock-up rendered with terminal type and sound accents
+
+- User approves proceeding and clarifies the edit: Riley's body floats into the center and then floats back. Implemented as local compositing inside the existing upgrade interval; rendered output remains pending user review. No new Seedance/provider generation or spending authorized or performed; production generation stays deferred.
+- New full cut: assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4, SHA-256 c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd, exactly 45 seconds / 1,080 frames / 24 fps, 1920×1080 review canvas. Focused preview upgrade-floating-preview-v01.mp4, SHA-256 da73e358de4f11fd87ae713ae2b22a07f5997f0bb08441943b49245c83c6ba6a, covers full-cut 8.000–19.375 seconds, 273 frames / 11.375 seconds, including narration, scan, return and takeoff. Existing v01/v02 exports retained.
+- Used original frames 308–434 (12.833333–18.125s) with 127 local Apple Vision foreground masks. Riley lifts/moves to the center, the station dims/defocuses, a translucent cyan diagnostic network and four intelligence/reflexes/strength/speed callouts appear, AFTERHUMAN and CYBERNETIC IMPLANTS type on in a terminal font, then UPGRADE COMPLETE resolves to upgraded Riley. She returns to original placement by 17.833333s before the existing 18.125s launch. Exact type is composited; source footage speed and all cut timings are preserved.
+- Added quiet deterministic local typing/module/confirmation/air effects only within the insert. Existing David narration, uninterrupted So upgrade and Chrome Swagger timing remain intact. Audio is decoded/mixed/re-encoded, not the byte-identical AAC passthrough of v02. Final full-cut AAC sample peak approximately -1.499 dBFS with negligible master gain 0.9998117444. Source float audio outside the insert was unchanged before quantization/final mastering adjustment. No independent full listening/mastering claim.
+- Local issues: person segmentation omitted dark boots, superseded by foreground-instance masks; initial Swift large-closure type-check failure fixed by extracting renderFrame before successful rendering; first render briefly overlapped integration counter and completion label, corrected in picture v02. Preserved both matte tests and superseded render. A documentation link check ran before delivery.json existed; wrote the record then reran all links successfully. No paid retries. The scan is stylized pose-guided line work with manual boot anchors, not photoreal anatomy; matte edges and temporary blurred background patch need production cleanup.
+- Added prepare-upgrade-mattes.swift, render-upgrade-diagnostic.swift and mix-upgrade-diagnostic-sfx.py with reproducible commands in scripts/README.md; saved settings, per-frame poses/masks, render/mix provenance, contact/sample images, focused/full timelines, inspections, delivery record and local player. Updated manifest, edit index and treatment follow-up. No source deletions.
+- Verified full/focused decoding (1,080/273 frames), duration/dimensions, no near-black frames at the documented threshold, sampled scan/return/launch frames, source hashes, local links, JSON/Python syntax and whitespace. Playwright loaded both videos with expected durations and no media error; linked artifacts and posters returned HTTP 200 with no desktop horizontal overflow. Original review v01/v02, selected Seedance continuous take, full selected coffee, David and Chrome Swagger hashes unchanged. Technical/sample review does not establish final playback/listening approval.
+- Hand back the focused motion test and full 45-second derived cut. Shared-city visuals, overhead correction and final scan/matte polish remain open. No Final Cut edits, competition submission, commit or push this turn.
+
+## 2026-11-01T18:12:53+05:30 — Floating-body upgrade treatment approved
+
+- User reviews the delivered floating-body diagnostic and says “Looks great!” Record approval of the motion/edit direction: float into the center, typed AFTERHUMAN/category text and four capability callouts, then float back before takeoff. Preserve this treatment for production polish. This is not a request to start deferred paid generation or a final-master approval.
+- Updated v03 delivery, manifest and review/index notes to reflect the positive review. Existing video/audio files are unchanged. Anatomical detail, matte/background cleanup, world continuity and overhead quality remain open. No generation, spend, Final Cut modification, commit or push.
+
+## 2026-11-01T18:14:10+05:30 — Proposed next stage: shared-city starting frames before production video
+
+- User asks what comes next after approving the floating-body diagnostic. Recommended next step is review/produce a six-still continuity board from the existing city design and unrun prompts: four ability starts plus overhead start/end. Lead with the overhead pair to resolve train alignment, believable scale and clear same-direction overtake before costly motion generation. This is a proposed sequence, not new generation authorization.
+- Preserve the approved story, David, Chrome Swagger, diagnostic motion and coffee action. Use distinct connected locations in the station's bright cyberpunk city: terrace HUD, café arcade, transit bulkhead, avenue and elevated rail. Existing city-continuity-v01 brief and prompts remain the starting material. A replacement coffee render still requires review.
+- After still composition review, check live model schemas/quotes and plan the Seedance production replacements one shot at a time. Finish diagnostic matte/background detail, stable HUD graphics, grade and sound after picture selections. Paid generation remains deferred; no provider calls, price claims, media edits, Final Cut changes, commit or push.
+
+## 2026-11-01T18:27:52+05:30 — Six shared-city stills authorized and prepared
+
+- User approves proceeding with the six-frame plan: overhead start/end first, followed by four ability starts. Scope is six economical stills, one per scene/endpoint; production video and upscaling remain deferred. Preserve approved edit and source media.
+- Live ElevenLabs GPT Image 2 schema/guide checked; use 16:9, 1K, low. New Flow https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM. Reused selected face/wardrobe, train livery and actual transformation-ending station frame. Exact executed prompts and reference hashes in city-continuity-stills-batch-v02.json. Ending will reference the generated start.
+- Five-start estimate 3225.9945945945947 credits / INR 46.841441513513516. Overhead start estimate 907.252972972973 credits. Sixth frame will be quoted once its starting reference is ready. No automatic paid retries or variants.
+- Asset-name searches did not find the original filenames; existing flow/library IDs resolved the approved references. One library query exceeded the actual maximum of 50 items and was corrected; no paid call occurred.
+
+## 2026-11-01T18:31:22+05:30 — Overhead direction failed; independent ability stills running
+
+- First overhead start completed: generation EazB0GjtutLD06I0Vqjm, 1280×720, 907.252973 credits / INR 13.173313. Native review shows aligned rails and separate lane, but the train nose points down while Riley runs up. Marked assistant_rejected_geometry_pending_user_choice; source preserved and not usable as the animation start.
+- Prepared a targeted direction correction node aYqLIq6SpASveO6cwvQS with a live quote of 252.117838 credits / INR 3.660751. Requested user choice asynchronously because it would add one image beyond the six planned outputs. Correction is not run, and overhead ending is held pending usable geometry.
+- Started the four originally authorized ability stills once each: quote 2318.741622 credits / INR 33.668128. Run IDs and exact settings recorded in the batch. No video, upscale or paid automatic retries.
+
+## 2026-11-01T18:35:35+05:30 — Shared-city concepts reviewed; overhead correction choice pending
+
+- Four ability stills completed once each: intelligence L6rqTHE2WjQw2BdZyDng, coffee bt3uwyuSgoU9c2yUUGQx, strength Q5S7G1qSAMPNz37UZPdB and speed yEkmgOxfbhVEsv0aItJk. Including the first overhead, five native 1280×720 PNGs are saved under assets/06-shots/images/. Total actual reported spend 3225.994595 credits / INR 46.841442, matching the combined quotes. Exact prompts, settings, source hashes, output hashes and IDs are in adjacent records and city-continuity-stills-batch-v02.json.
+- Native visual review: HUD is clearly present and all locations share the opening's architecture/materials/daylight. Coffee has two mugs and a stranger resembling Riley, so requires object/person/start-state correction. Strength starts with already-bent doors rather than the requested nearly-closed before-state. Speed has good avenue/parallax staging but both hands are similarly extended; running cadence and speed remain untested. These are explicit findings, not selected production assets.
+- Overhead start still has reversed train direction. One targeted 252.117838-credit correction remains prepared and unrun pending the asynchronous user choice. The sixth planned image, matching overhead end, is held until a usable start exists; no approval inferred from elapsed time. No additional correction, video, upscale, audio generation or accepted-cut change.
+- Built assets/06-shots/reviews/city-continuity-stills-v02/index.html with per-image findings, README and verification. Updated manifest and design/script indexes. Checked all five PNG dimensions and output/prompt/reference hashes, absence of signed URLs in new generation records, JSON, local review links and whitespace; Playwright loads all five native images with no desktop overflow. Original source media and approved diagnostic cut remain intact. No Final Cut edits, commit or push.
+
+## 2026-11-01T18:48:05+05:30 — User authorizes correcting the three shared-city still errors
+
+- User confirms the observed problems and says Fix it. This authorizes the overhead direction correction and targeted coffee/strength repairs without another approval question. Use one low-cost edit each, then complete the already-planned matching overhead end from a usable corrected start. Production video/upscaling remains deferred.
+- Live GPT Image 2 schema and current source nodes rechecked. All correction nodes have exactly one source image, 16:9 / 1K / low settings. Three-edit quote 756.3535135135135 credits / INR 10.982253016216218. Exact prompts, hashes, inputs and preflight records saved in city-continuity-corrections-batch-v03.json and adjacent image records.
+- Coffee correction removes the airborne duplicate, restores pre-slip state and makes the stranger clearly distinct. Strength resets the bent metal to intact near-closed panels with a narrow grip gap. Overhead reverses the train to match Riley's upward travel and keeps her behind its nose. These are requested outcomes, pending native visual review.
+
+## 2026-11-01T18:51:43+05:30 — Three targeted corrections pass native still review; overhead ending running
+
+- Completed exactly one edit for each requested correction: overhead start aso9vVxmccyeGPsAYP3o, coffee szfN8H6gx2b1YVLRxPrB, strength q67smGvK5j2KnkkB8uTn. Saved native 1280×720 v03 PNGs and generation records. Actual total 756.353514 credits / INR 10.982253, matching quote. No duplicate generation calls.
+- Visual review confirms one mug held by a distinct male stranger with no airborne duplicate; intact straight door panels with a narrow starting gap; and upward-facing train nose with Riley behind it in the separate left lane. Marked correction_visually_verified_pending_user_review, not user-selected. Original erroneous images remain preserved.
+- Prepared and launched the already-planned matching overhead ending, referencing only corrected start v03. Verified 16:9 / 1K / low and exact input, quoted 252.117838 credits / INR 3.660751. Generation IQ2ONBuhzp0M99ig8nJY, session r4w5jxFNfEhX8hdIVvLC. Prompt targets a camera advancing with Riley so her whole body clears the nose; no motion/video generated. Final end-frame review pending.
+
+## 2026-11-01T18:55:37+05:30 — Corrected six-image city board ready for user review
+
+- Matching overhead end completed as IQ2ONBuhzp0M99ig8nJY: shot-12-overtake-city-end-v03.png, SHA-256 bd3e17465b79e59857bcfce7726c2a4a8512388b3c4a11b606302117dd159a07, native 1280×720. Visual inspection confirms same upward-facing train, separated left lane, one runner, and her entire body ahead of the nose with a visible gap. Camera translation and the animated pass remain untested; keep headroom during eventual motion.
+- This pass generated exactly four images: three targeted fixes plus the planned ending. Actual total 1008.471351 credits / INR 14.643004, matching estimates; cumulative city exploration 4234.465946 credits / approximately INR 61.48 across nine images. No further correction calls, variants, videos, upscale or audio generation.
+- New board assets/06-shots/reviews/city-continuity-stills-v03/index.html displays the six current compositions: unchanged intelligence/speed, corrected coffee/strength and corrected overhead start/end. Saved review-batch.json, README and verification. Updated manifest/current board pointers, recorded prior errors as revision-requested, and retained the earlier board/images/provenance. All new outputs are pending user selection; no final-production approval inferred.
+- Verified all six native dimensions, output/prompt/reference hashes, four new generation count/cost, original source PNG preservation, approved 45-second diagnostic cut hash, JSON, 18 local document links and whitespace. Playwright loaded all six native images without horizontal overflow. No Final Cut modification, accepted-cut replacement, competition submission, commit or push. Seedance production remains deferred.
+
+## 2026-11-01T19:00:22+05:30 — Corrected six still compositions approved
+
+- User reviews the corrected board and says Looks good now. Approve the six currently displayed still compositions as the visual references for subsequent motion work: intelligence v02, coffee v03, strength v03, speed v02, and overhead start/end v03. Preserve these images and the successful shared-city direction. This feedback does not authorize new paid video generation or approve untested motion.
+- Updated the six image records, curated review batch/gallery/README, correction batch and manifest to reflect user selection. Historical erroneous outputs remain preserved. No image/audio/video changes, provider calls, spend, Final Cut edits, commit or push. Production Seedance remains deferred.
+
+## 2026-11-01T19:08:36+05:30 — Live Seedance 480p budget checked for remaining videos
+
+- User asks for the cost of all remaining Seedance videos at 480p. Pricing only; no production-generation approval inferred. Rechecked the live ElevenLabs Seedance 2.5 schema/guide and approved timeline. Created two clearly labelled unrun price-check nodes in existing city Flow https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM; preserved every selected still and source.
+- Live one-take image-to-video quotes with generated audio: 4 seconds = 5209.176 credits; 5 seconds = 6511.470; 11 seconds = 14325.234. Equivalent rate 1302.294 credits/second. INR conversion uses the user's INR 145.20 per 10,000 credits and agrees with provider quote.
+- Proposed editing margin: five seconds each for intelligence, strength, speed and overhead; eleven seconds for coffee to cover its current 10.125-second slot. Five city videos total 40371.114 credits / INR 586.19, 31 generated seconds. Adding a five-second station-launch replacement makes six videos / 36 seconds / 46882.584 credits / INR 680.74. Overhead start/end comprise one video. Retakes, upscaling and new image/audio work excluded; existing opening, Seedance transformation, audio and local diagnostic/title reused.
+- Lower-duration alternative: four seconds per short shot, eleven seconds coffee = 31 seconds across all six, 40371.114 credits / INR 586.19, with less trim margin. No change to approved edit timing proposed.
+- First coffee quote returned a no-charge validation error: Seedance reference images cannot be combined with start/end frames. Disconnected only the two newly added reference-image edges, retained approved start image, and obtained a valid quote. Final quote nodes have no generations. Exact settings, prompts, node IDs, quotes, duration arithmetic and error/remedy saved in assets/06-shots/reviews/seedance-480p-budget-v01.json. Refresh prices before any future paid run.
+- No generation started, zero credits spent, no media changes, Final Cut edits, commit or push. Production video remains deferred pending user instruction.
+
+## 2026-11-01T19:42:30+05:30 — Start Seedance production with one overhead overtake take
+
+- User asks to start after the live 480p budget. Begin with one five-second overhead overtake, the most uncertain motion/geometry, then review before spending on other shots. No automatic retakes or batch launch.
+- Rechecked live Seedance 2.5 schema and existing unrun node. Prepared a motion-specific prompt and retained only the selected city overhead start/end v03 on start_frame/end_frame. 480p, five seconds, generated audio, requested 16:9 / effective auto from 16:9 reference frames. No separate image/video/audio refs; no seed control exposed.
+- Refreshed single-take quote: 6511.470 credits / INR 94.55. Flow https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM, node nVLnU4nMeH0dkSKlKUow. Exact prompt, settings, reference IDs/hashes and preserved-cut hash saved in assets/06-shots/videos/shot-12-overtake-city-seedance-480p-v01.generation.json. Target: rapid believable sprint, forward-moving train on parallel rails, entire runner clearing the nose, cinematic city continuity, no generated speech/music.
+- Paid run not yet started at this entry; record the returned session/generation IDs immediately after submission. Approved cut, stills, audio and all historical takes remain intact. Other city shots and station takeoff remain unrun.
+
+## 2026-11-01T19:43:06+05:30 — Single Seedance overhead take submitted
+
+- Started exactly one generation on node nVLnU4nMeH0dkSKlKUow; generation 01IPVWDcGCJnyAtYf3dX, session Fed6mSXPSfygMGpzlaU6. Submission reports 6511.470 credits / INR 94.55, matching the refreshed quote. Record and batch include exact returned IDs/counts.
+- Generation is pending. Poll existing session only; do not submit again. No other shots, retries or upscale started, and no accepted media changed.
+
+## 2026-11-01T19:51:30+05:30 — First Seedance city overhead video ready for review
+
+- Completed and downloaded exactly one overhead generation 01IPVWDcGCJnyAtYf3dX, session Fed6mSXPSfygMGpzlaU6. Native asset assets/06-shots/videos/shot-12-overtake-city-seedance-480p-v01.mp4, SHA-256 04bb665e28eff23d38d3ef32a8c6e38429a9281275c0a05f9096f0ec3e51a312; 854×480 / 24 fps / 121 picture frames / 5.042 seconds, stereo AAC 32 kHz / 5.056 seconds. Actual cost 6511.470 credits / INR 94.55 matches the quote; no retries or other new paid operations.
+- Sampled visual review finds the train consistently aligned with the right-hand tracks, one Riley on the separate left lane, changing stride poses, and a clear full-body lead in the ending frame. Bright cyberpunk city, gold dress, bob and dark boots remain recognizable. A wider lane junction passes through the middle; full-speed camera/ground/train coherence, convincing superhuman speed and precise foot contacts still need playback judgment. Mark generated_pending_user_review; do not infer selection or final quality from successful generation.
+- Saved full frame inspection, 21-sample contact sheet, 12-sample stride detail, final frames, native WAV/levels, review JSON, README and local player under assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/. Native audio peak -13.229 dBFS / RMS -29.122 dBFS; decoded and measured only, no speech-absence or independent listening claim. Updated generation/batch/manifest and script reproduction notes. A documentation tool call initially failed JavaScript parsing before any execution; corrected quoting, with no media or provider effect.
+- Verified full decode with no near-black frames, native/reference/prompt and approved-cut hashes, one-generation count/cost, JSON, local document links and absence of signed URLs in new records. Results-only provider view confirms one completed video without failures. Earlier stills, previous videos and approved 45-second cut remain unchanged.
+- Deliver this first take for review before proceeding to the remaining five videos. No retime, upscale, montage replacement, Final Cut edits, commit, push or submission.
+
+## 2026-11-01T19:57:18+05:30 — User identifies overhead middle three seconds as usable
+
+- User reports gradual acceleration and deceleration and identifies roughly source 00:01–00:04 as the usable region. Record range-specific feedback, not approval of the full take or native audio. Preserve source and defer further paid generations.
+- Created assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4 from exact source [1.000, 4.000), frames 24–95: 72 frames / 3.000 seconds / 24 fps / native 854×480. Original playback speed retained; no upscale. Existing assemble-continuation.swift re-encodes the review picture/audio with zero requested gain and its standard eight-millisecond audio edge fades. Output SHA-256 3b4227ae98e2c8baf55400a430fef6b306d5d0f82f66369b9199a08f16ceba27. Source and selected refs/approved-cut hashes remain unchanged.
+- Saved trim timeline, edit provenance, decode inspection, ending frames and selection JSON. Updated source generation/review/batch records, gallery/README, manifest and script reproduction notes. Swift emitted a non-interleaved audio setting warning and completed successfully; decoded output has one stereo track. Full decode verifies exactly 72 frames, three seconds, expected dimensions/rate and no near-black frames. Native listening and exact cut-boundary approval remain open.
+- Existing ad overhead slot is four seconds at 38.5–42.5s; this selection leaves one second to redistribute in a later edit. Proposed extending the preceding speed shot instead of slowing the usable pass; no assembled timeline/media changed. Future sprint prompts should maintain established full speed through the usable action, avoiding unwanted deceleration at the end.
+- No provider call, new credits, retake, Final Cut modification, commit or push. Deliver the three-second review trim.
+
+## 2026-11-01T20:00:11+05:30 — Three-second overhead trim approved
+
+- User says Ok good after the delivered original-speed 00:01–00:04 review trim. Mark the exact three-second range (source frames 24–95, 72 frames at 24 fps) approved for use in the edit. This is range-specific approval, not selection of the full five-second take or final-master/audio approval.
+- Updated generation/review/batch records, trim selection JSON, manifest and review notes/gallery. Verified trim, full source and existing approved-cut hashes unchanged. No media alteration, provider call, spend, final-cut replacement, Final Cut modification, commit or push.
+- Assembly still needs to redistribute one second from the old four-second overhead slot; the preceding sprint is the proposed recipient. Remaining five Seedance clips are unrun. Preserve the approved range and original speed.
+
+## 2026-11-01T20:03:23+05:30 — Intelligence HUD Seedance take authorized and prepared
+
+- User says Go ahead after the proposed intelligence/HUD shot. Prepare one five-second Seedance 2.5 take at 480p, with native audio, using approved city intelligence start v02. Other shots and automatic retries are outside this run.
+- Live model schema and actual source/output node wiring rechecked. Exact quote 6511.470 credits / INR 94.55; zero previous generations on node YZKPB4nR2oirJzFFRqMQ in https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM. Only start_frame is connected; effective aspect is auto from the 16:9 image, no seed control.
+- Prompt targets a quick route computation and lock by 1.5 seconds, then a sustained visible result. Existing cyan HUD labels remain unchanged, route follows the real ramp, magenta bracket tracks the train, and the first-person camera stays behind the parapet. Requested sound is city air, brief scan ticks and a lock chirp, no speech/music. Exact typography will be reviewed rather than assumed correct.
+- Saved exact prompt, settings, input/reference hashes, quote and preserved overhead/approved-cut hashes in assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v01.generation.json. Current edit slot remains 2.75 seconds; this five-second take provides selection room. Paid generation not yet submitted at this entry.
+
+## 2026-11-01T20:03:59+05:30 — Single Seedance intelligence video submitted
+
+- Submitted exactly one take on node YZKPB4nR2oirJzFFRqMQ; generation 9vYJywyyDVQZbV40Rmr8, session T69JHWOi4Mn0Fwhx1Zx7. Reported cost 6511.470 credits / INR 94.55 matches the quote. Recorded returned IDs/counts in the adjacent generation record and city-intelligence-seedance-batch-v01.json.
+- Pending generation; poll the existing session only. No new stills, alternate takes, other videos or changes to the approved overhead range/cut.
+
+## 2026-11-01T20:12:08+05:30 — Intelligence HUD Seedance take and timed edit preview ready
+
+- Completed and saved exactly one generation 9vYJywyyDVQZbV40Rmr8, session T69JHWOi4Mn0Fwhx1Zx7, as assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v01.mp4. SHA-256 9155424f03d016c9082dae9aee6fdc3d5d40471c42809b86bcced6e4c244f036; native 854×480 / 24 fps / 121 frames / 5.042 seconds, stereo AAC 32 kHz / 5.056 seconds. Actual cost 6511.470 credits / INR 94.55 matches the quote. No paid retry or other generation.
+- Sampled review: HUD and route remain visible; scan occurs early, map branch brightens near 2.0s, and bracket/confirmation diamond resolves around 3.5s, later than the requested 1.5s. City, hand and chrome styling follow the approved image. Upper-left heading becomes partly obscured near the full-source ending; target/UI tracking is imperfect. Alternate-route comparison is subtle, and apparent rightward train travel differs from the leftward prompt. Record these limits for playback/edit review, not a final quality claim.
+- Created a proposed local edit preview at assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v01/edit-preview-v01/shot-08-hud-edit-preview-v01.mp4: source [1.25,4.00), frames 30–95, 66 frames / 2.75 seconds / original speed / native dimensions. SHA-256 c99815be60cdbba2e54a0bb6631e599fcb76be03cf7b5847d623f1c3d981350e. It retains scan tail, selected-route highlight and confirmation within the existing 19.375–22.125s slot length. The accepted ad is unchanged; candidate and full take are pending user review. Existing assembler re-encodes review picture/audio with zero gain requested and normal 8 ms audio edge fades. A non-interleaved audio-setting warning was emitted; export and decode succeeded.
+- Saved exact prompt, input/settings/IDs/costs, 21-frame full contact sheet, 11-frame route detail, final frames, decode inspections, native WAV/levels, review JSON, preview timeline/provenance, README and player. Native sample peak -17.367 dBFS / RMS -32.101 dBFS; numerical checks only, no independent listening or speech-absence claim.
+- Verified source/preview/reference/prompt and prior approved-cut/overhead hashes; full/preview decodes contain 121/66 frames and no near-black frames; checked JSON, local links, one-generation cost/count and absence of signed URLs in new records. Provider results view confirms one completed take. Updated manifest and script reproduction notes. Two city Seedance takes have now been generated, total 13022.940 credits / INR 189.09; overhead middle three seconds remains approved, intelligence remains pending.
+- Four videos remain unrun: station takeoff, coffee reflexes, strength and speed. No source retime/upscale, final-cut replacement, Final Cut edit, commit, push or submission. Deliver the candidate excerpt and full source for review.
+
+## 2026-11-01T20:20:15+05:30 — Richer Iron Man-inspired HUD stills authorized and prepared
+
+- User requests more HUD items on the supplied city image, several stills to review, then a fresh video after selection. Clarifies Kinda like iron man. Prepare three original AFTERHUMAN ocular HUD options: A predictive pursuit, B neural systems, C full tactical perception. Keep the first-person city/hand composition and compare increasing density. No fresh video authorized in this step.
+- Verified the supplied clipboard PNG is pixel-identical to the existing approved city intelligence still v02; source comparison hashes/provenance are recorded in assets/06-shots/images/intelligence-hud-concepts-batch-v01.json. Reuse the existing same-Flow source rather than upload/duplicate the image. Check live GPT Image 2 schema/guide and all node settings/wiring: 16:9 / 1K / low, exactly one source image per concept.
+- Three-image quote 756.353514 credits / INR 10.98; one result per direction, no extra variations or automatic reruns. Exact prompts, node IDs, settings, source/prompt hashes and preserved-media hashes are saved in the batch and adjacent image records. The HUD concepts add rings, scene labels, neural/physiological readouts, route comparisons and power status, while keeping the central train/path readable.
+- Prior Seedance intelligence video is revision_requested_hud_density, retained unchanged. Its actual generated output and earlier observations remain historical evidence. Approved overhead trim and ad are preserved. Paid still run not yet started at this entry.
+
+## 2026-11-01T20:20:51+05:30 — Three HUD concept stills submitted
+
+- Started exactly three GPT Image 2 low-quality 1K image edits, one per direction: A pYw7Bjq3LGaGC0iYxZpf, B hmOZm9mMz062nE43S43h, C v0QvUiaiLRXVaR6DPFic. Session/node mappings retained in intelligence-hud-concepts-batch-v01.json. Submission reports 252.117838 credits per image, 756.353514 total / INR 10.98, matching quote.
+- Pending native inspection and user choice. Poll these sessions only; no further still variants, video, audio or upscale started.
+
+## 2026-11-01T20:26:34+05:30 — Three richer ocular HUD concepts ready for selection
+
+- Completed exactly three native 1280×720 GPT Image 2 still edits: A shot-08-hud-a-predictive-v01 (pYw7Bjq3LGaGC0iYxZpf), B shot-08-hud-b-neural-v01 (hmOZm9mMz062nE43S43h), C shot-08-hud-c-tactical-v01 (v0QvUiaiLRXVaR6DPFic). Files and adjacent provenance are under assets/06-shots/images/; exact prompts under prompts/. Actual total 756.353514 credits / INR 10.98, matching the quote; no retries.
+- Native review: A offers the clearest route-choice hierarchy; B uses a brain diagram and neural/body telemetry to make intelligence explicit; C is closest to the requested Iron Man-like density, with neural-core/radar rings, object annotations, diagnostics, log and four power dials. Underlying first-person city/hand composition is visually consistent, but these generative edits slightly darken the periphery and are not claimed pixel-identical to the source.
+- Some small labels are malformed, especially in B/C, and a few object anchors or duplicate headings need cleanup. Keep these as concept_pending_user_selection; do not upscale or generate a new video until the user chooses a direction. Assistant recommends C for style or B for intelligence clarity, not an inferred approval.
+- Saved comparison gallery assets/06-shots/reviews/intelligence-hud-concepts-v01/index.html, README, per-image review observations/limits and verification; updated manifest, script notes and prior intelligence-video revision status. A documentation tool call failed JavaScript parsing before execution; corrected quote handling, with no provider or media effect. Earlier sparse-HUD video/preview remain retained and unselected.
+- Verified all three native dimensions, output/prompt/reference hashes, exact three-generation count and cost, source-attachment pixel identity, preserved approved overhead/ad and old-intelligence video hashes, JSON, local links and absence of signed URLs in new records. Provider results view confirms all three complete without failures.
+- No fresh video, audio, upscale, source deletion, final-cut change, Final Cut edit, commit, push or submission. Await HUD choice as explicitly requested.
+
+## 2026-11-01T20:32:38+05:30 — C tactical HUD direction selected
+
+- User selects C from the three HUD concepts. Lock shot-08-hud-c-tactical-v01.png (generation v0QvUiaiLRXVaR6DPFic) as the intelligence-shot HUD direction, with existing city/hand composition and rich peripheral instrumentation. This is concept selection; small generated labels, duplicate headings and object anchors remain to be polished.
+- Updated batch, all three image records, manifest and comparison gallery/README. A and B are retained as unselected alternatives, not marked rejected. Historical generation/visual-review records preserved.
+- Verified all three still hashes and preserved ad, overhead trim and prior intelligence video hashes unchanged. No media modification, provider generation, new credits, commit or push. Next: polish C typography, then prepare the fresh intelligence video using the selected HUD.
+
+## 2026-11-01T20:53:54+05:30 — C HUD polish and replacement intelligence shot authorized
+
+- User says Continue after selecting C and the proposed label cleanup then replacement video. Proceed with one GPT Image 2 medium/1K typography edit and one five-second Seedance 2.5 480p intelligence replacement, reviewing the cleaned still before video submission. No batch or automatic retries.
+- Live image/video schema and guides checked. Image polish node cKG1QSqenD59qvxzGcOV uses only selected C as images input; quote 419.687651 credits / INR 6.09. Exact prompt, inputs/settings and source hash recorded in shot-08-hud-c-tactical-v02.generation.json. Neither new generation has started at this entry. Preserve selected C original and all existing accepted media.
+
+## 2026-11-01T20:55:12+05:30 — Single C typography edit submitted
+
+- Submitted one image edit on cKG1QSqenD59qvxzGcOV: generation cEbukhtVbZ3xXrWBj1dp, session iZQY8CGz8vRgsAzDlfrd. Submission cost 419.687651 credits / INR 6.09 matches quote. Image is still generating; no retries. Video not yet submitted.
+
+## 2026-11-01T20:57:14+05:30 — C polish reviewed and replacement video priced
+
+- Downloaded shot-08-hud-c-tactical-v02.png, 1280×720, SHA-256 c3ab7dab7282a2929813b83587aec496d79b5e406115351446e8fe4d076ec372. Main labels/readouts and pedestrian anchors improved while retaining selected C composition. Repeated NEURAL CORE/READY and some tiny bottom text remain; retain for editorial finishing, no extra image retry. Assistant-reviewed as video input, not a new user-approved final asset.
+- New video node PsSNhznu73ibMqCYegnw uses only polished C start_frame, Seedance 2.5, 480p, five seconds, native audio. Effective aspect auto derives from 16:9 still. Live quote 6511.470 credits / INR 94.55. Exact motion prompt and provenance saved in shot-08-intelligence-city-seedance-480p-v02.generation.json; one video not yet submitted.
+- Animation targets early route solution, subtle independent gauge activity and stable text; no camera zoom or barrier crossing. Image plus video quote totals 6931.157651 credits / INR 100.64.
+
+## 2026-11-01T20:57:34+05:30 — Replacement intelligence video submitted
+
+- Exactly one Seedance take submitted on PsSNhznu73ibMqCYegnw. Generation z0kmtBp1Q5as6vk2UIc5, session HY4UQG6gDUf1VIiQyVNO. Reported cost 6511.470 credits / INR 94.55 matches quote. Existing run will be polled; no automatic retry.
+
+## 2026-11-01T21:04:49+05:30 — Selected C tactical HUD replacement ready for review
+
+- Completed exactly one Seedance generation z0kmtBp1Q5as6vk2UIc5 / session HY4UQG6gDUf1VIiQyVNO. Saved assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v02.mp4, SHA-256 da8a4c389e608b276f31e872372fb1fef135139ec8c28fd8b30e144ada3c9403. Native 854×480, 24 fps, 121 frames / 5.042 seconds; stereo AAC 32 kHz / 5.056 seconds. Actual video 6511.470 credits / INR 94.55; with one still polish 6931.157651 credits / INR 100.64, matching quotes. No retries.
+- Sampled review: dense C interface stays visible; amber radar route lights early, cyan route bright by about 0.75s, strong ramp pulse at about 2.25–2.9s. Main confirmation remains later than requested. Fine type/numbers drift; magenta train bracket disappears near 2.9–3s and hand curls more strongly late. Preserve these limits for review; do not infer acceptance from generation success.
+- Created proposed 2.75-second original-speed excerpt [0.25,3.00), frames 6–71, at native dimensions under reviews/shot-08-intelligence-city-seedance-480p-v02/edit-preview-v01/shot-08-hud-c-edit-preview-v01.mp4; SHA-256 cd63556da707cf6fee969976cb27a7112bb178d372c799fdef5ec3d2982cc51e. Includes the scan and bright ramp pulse, with target bracket loss at the ending. Standard local re-encode and eight-millisecond audio edge fades. Known non-interleaved-audio-setting warning did not prevent export/decode.
+- Saved full/contact/detail frames, native audio/levels, inspection, exact prompt/settings/schema/IDs, review notes, player, preview timeline/provenance and verification. Audio RMS -31.724 dBFS / peak -16.119 dBFS; numerical checks only, no independent listening or speech-absence claim. Updated manifest and script notes. C original remains the user-selected direction; polish and replacement motion remain pending user review.
+- Verified source and excerpt full decode (121/66 frames, no near-black frames), hashes, costs, JSON, local links and absence of signed URLs in new records. Approved overhead range, current 45-second ad and previous sparse-HUD video hashes unchanged. No other video generation, audio generation, retime, upscale, Final Cut modification, commit or push. Deliver the candidate and full take for review.
+
+## 2026-11-01T21:08:16+05:30 — HUD excerpt locked; coffee production authorized
+
+- User says Lock it and continue. Lock delivered intelligence v02 excerpt source [0.25,3.00), frames 6–71, 66 frames / 2.75 seconds / original speed, SHA-256 cd63556da707cf6fee969976cb27a7112bb178d372c799fdef5ec3d2982cc51e. Approval covers this edit range, not the full-source tail or final native audio master. Update selection, generation/review/batch, manifest and review notes. Media unchanged.
+- Continue one shot at a time with the coffee-reflexes production replacement, Seedance 2.5 480p, planned eleven seconds to cover the 10.125-second slot. Preserve the locked MiniMax coffee story and current ad pending a reviewed replacement. Include approved city, face and wardrobe references for the FPP-to-TPP reveal; refresh live schema/quote, one take and no automatic retry.
+
+## 2026-11-01T21:10:42+05:30 — Coffee reflex take prepared with identity references
+
+- Verified selected cafe v03 and imported approved Riley/wardrobe nodes. Switched the existing unrun price-check node OFE4zm6RcnEfvZSdlY8H to reference-images-only: cafe scene plus gold wardrobe/body and Riley facial identity. Start/end ports empty; preserves identity during FPP-to-TPP reveal, with composition-guided rather than pixel-exact opening. No new still generated.
+- Eleven-second Seedance 2.5 / 480p / 16:9 / native audio; zero prior node generations. Live quote 14325.234 credits / INR 208.00 matches prior budget. Exact prompt, refs/hashes, schema/settings and preserved-media hashes saved in shot-09-coffee-city-seedance-480p-v01.generation.json. One continuous accidental slip/catch/return/acceleration, natural anatomy, one mug; no dialogue/music. Generation not yet submitted at this entry.
+
+## 2026-11-01T21:10:58+05:30 — Single coffee-reflex Seedance take submitted
+
+- Submitted generation TpRqAwhXMckaIKRpDQs5, session OAH2GQf9hM95smID7YKg on OFE4zm6RcnEfvZSdlY8H. Reported cost 14325.234 credits / INR 208.00 matches quote. Poll this run only; no retries or other video generations.
+
+## 2026-11-01T21:19:51+05:30 — Coffee Seedance take and excerpt ready for review
+
+- Completed exactly one generation TpRqAwhXMckaIKRpDQs5 / session OAH2GQf9hM95smID7YKg. Saved assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4, SHA-256 ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86. Native 854×480 / 24 fps / 265 frames / 11.042 seconds; stereo AAC 32 kHz / 11.072 seconds. Actual 14325.234 credits / INR 208.00, matching quote; no retries or additional image/audio generation.
+- Sampled review: mug visibly leaves the man at 1.25–1.5s; generated tight eye/face insert at about 1.6–2.1s obscures exact catch contact; by 2.25s Riley holds the caught mug. Gold wardrobe, skin/chrome styling and cyberpunk city broadly follow references. Return occurs around 5.5–7s, acceleration around 8s. Full ending reverses cafe/rail sides near 10.4s. Motion is not fully continuous as prompted; preserve limits and await user review.
+- Created native-size original-speed candidate [0,10.125), frames 0–242, 243 frames / 10.125 seconds, at reviews/shot-09-coffee-city-seedance-480p-v01/edit-preview-v01/shot-09-coffee-edit-preview-v01.mp4; SHA-256 976e51690a4dab81148cc8d126a3bf3cc311acf07c81dc878d94b9e5214c2b92. Omits late geography reversal, fits current coffee slot, and retains all story beats. Does not repair hidden catch contact. Local re-encode with standard eight-millisecond audio edge fades; known non-interleaved setting warning did not prevent export.
+- Saved 23-frame source/contact review, 13-frame drop/catch and seven-frame exit detail, native audio/levels, full and preview decode inspection, exact inputs/prompt/schema/settings/IDs, provenance, review notes/player and verification. Native RMS -26.440 dBFS / peak -3.666 dBFS; numerical checks only, no independent listening or final mix approval. Updated manifest and scripts README.
+- Verified source/prompt/reference and all preserved media hashes, one-generation price/count, full/excerpt decode (265/243 frames, no near-black frames), JSON, local links and no signed URLs in new generation record. HUD 2.75-second range is user-locked; new coffee remains pending review. Approved overhead trim, locked MiniMax coffee and current 45-second ad remain unchanged.
+- No further paid generation, source retime, upscale, accepted-cut replacement, Final Cut edit, commit or push. Three other production videos remain unrun: strength, speed and station takeoff.
+
+## 2026-11-01T21:44:16+05:30 — Coffee opening staging correction requested
+
+- User likes the shot overall but rejects running toward the man. Required opening: ordinary forward FPP running parallel to storefront, leftward glance revealing a mug already falling, then third-person catch before impact. Preserve the existing third-person rescue direction and later handoff/sprint. This is not a final take lock.
+- Reviewed first-three-second samples and original prompt; assistant prompt explicitly directed toward the man, causing the mistaken staging. Plan one four-second replacement opening with original video as world/pose reference plus approved wardrobe/face, then local splice into unchanged later source. This avoids regenerating the full eleven seconds; compare join quality before delivering. Original media preserved.
+
+## 2026-11-01T21:48:05+05:30 — Short coffee-opening correction priced using still references
+
+- Live Seedance schema/guide and source verified. Initial full-video-reference quote was 11776.905101 credits / INR 171.00 for a four-second output; did not run it. Extracted exact native frame at source 4.000s with new scripts/extract-video-frame.swift, preserving source, and attached it as existing-pose reference gDoEOsC5oSxLxcv9Q4lB / asset wAzvSvYopL94hRrSBJFz. PNG SHA-256 26d38783237dfaee068e5fc5bb04152c3d0e552b1320b3394b2eaed7b39c436b.
+- Final node IlNUVcYI6ccniIfG7Tl2 uses four still references (wardrobe, face, cafe, crouch pose), no video/start/end/audio inputs, 16:9 / 480p / four seconds / native audio. Refreshed quote 5209.176 credits / INR 75.64. No generation yet. Prompts, inputs/hashes, both estimates and schema/settings saved in shot-09-coffee-opening-correction-seedance-480p-v02.generation.json.
+- Planned join: revised opening into original later crouch/return/sprint, retaining the existing 10.125-second slot if framing/action permit. A deliberate cut on the falling cup replaces the unwanted eye close-up. Review actual result and join before claiming correction complete.
+
+## 2026-11-01T21:48:29+05:30 — Single coffee opening correction submitted
+
+- Generation 9SkgpIT0q8CSzsSidqOF, session OHQaQ2KeFsIrosa06aMb submitted once on IlNUVcYI6ccniIfG7Tl2. Reported 5209.176 credits / INR 75.64 matches final quote. No full-video generation, no paid retry. Poll existing run only.
+
+## 2026-11-01T22:04:11+05:30 — Coffee opening correction and local recut ready for review
+
+- Completed one four-second Seedance 2.5 / 480p generation 9SkgpIT0q8CSzsSidqOF, session OHQaQ2KeFsIrosa06aMb. Actual 5209.176 credits / INR 75.64 matches final quote; no retry. Saved shot-09-coffee-opening-correction-seedance-480p-v02.mp4, native 854×480 / 24 fps / 97 frames / 4.042s, SHA-256 8139e8f150a87ec1d0488c0d09c3ecf266e2ee8ffcb9421e6c0c915a98093395. Full-video-reference quote was never submitted.
+- Raw take only partly follows requested staging: clearer forward run and visible TPP catch, but patron remains visible left holding cup during FPP and no physical left head turn is generated. Marked partial_staging_failure_locally_recut_pending_user_review, not approved or fully corrected.
+- Created local revised edit at assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v03/shot-09-coffee-revised-v03.mp4, SHA-256 4c8c0f20e887d0536c67ad623783be935637d42e6f5e3f0d33aad8929bf31366. 213 frames / 8.875s at original 24 fps and native dimensions: new forward run 1.5s, three original FPP airborne-mug frames, new visible TPP catch 1.125s, original source [4.0,10.125) crouch/return/sprint. Omits old eye insert. All sources original speed.
+- Four-frame screen-right shift/blur gives an editorial left-glance cue. It is not a generated physical head rotation. The three-frame FPP glimpse is only 0.125s; legibility, cup/camera continuity and small pose change at the original crouch join need user playback review. Final candidate is 1.25s shorter than the old slot. The longer assembled-review-v02 base remains an unselected experiment; its planned whip-pan output was not rendered.
+- Added reproducible scripts/add-whip-pan-cue.swift and documented it alongside scripts/extract-video-frame.swift; saved timelines, cue config/provenance, raw/final inspection, sampled sheets, review player/README and verification. Updated manifest and original take review pointer. Native audio retained with short edge fades; new source RMS -33.096 dBFS / peak -13.756 dBFS. Numeric checks do not establish listening approval or final sound continuity.
+- Verified all source/reference/prompt/preserved-media hashes, one-generation cost/count, raw/final full decode (97/213 frames; no near-black frames), source ranges, JSON, local review links, signed-URL absence in checked records and git diff --check. HUD range remains locked; approved overhead, MiniMax coffee and accepted 45-second ad are unchanged. No extra generation, source retime, upscale, Final Cut change, commit or push. User review of corrected coffee candidate is next; station takeoff, strength and speed remain unrun.
+
+## 2026-11-01T22:11:16+05:30 — MiniMax slow-motion coffee orbit test authorized and priced
+
+- User rejects the latest Seedance recut and prefers yesterday's locked MiniMax coffee shot. Requests low-quality MiniMax: ordinary FPP run, cup already airborne when noticed, transition to TPP and circular camera travel around the slow-motion catch. Mark rejected recut accordingly; retain all media and the original approved MiniMax.
+- Read old MiniMax prompt/review and inspected its contact sheet as choreography benchmark. Prepare exactly one ten-second MiniMax H3 / 480p / 16:9 test on new node rv4Y9yFpbnR1eXQf0jvH in flow J725xEy49QY4xa6L66pw. Three approved image references: gold wardrobe, Riley face and cafe v03 (new asset node Pmpfom2e83YTiSZo97Ds). No full-video reference or new still generation.
+- Live schema/guide, reference order and effective settings checked. Quote 3030 credits / INR 44.00 for one take; no retries. Prompt targets an actual 180–220-degree camera orbit with parallax and level horizon, catch above paving, then brief handback/sprint. References, prompt/settings/schema/guide, hashes and estimate saved in shot-09-reflexes-coffee-orbit-minimax-v02.generation.json and reflexes-coffee-orbit-batch-v02.json. Generation not yet submitted at this entry.
+
+## 2026-11-01T22:11:45+05:30 — Single MiniMax coffee orbit test submitted
+
+- Started one generation ary0MpAozOyBi1tIWiKz / session D1ZLToBK3c6HzEAJhqWA on node rv4Y9yFpbnR1eXQf0jvH. Submission reports 3030 credits / INR 44.00, matching quote. Ten seconds, 480p, three approved still references. Poll this run only; no retries or additional paid work.
+
+## 2026-11-01T22:16:24+05:30 — MiniMax coffee orbit prototype ready for review
+
+- Completed one generation ary0MpAozOyBi1tIWiKz / session D1ZLToBK3c6HzEAJhqWA, MiniMax H3, requested ten seconds at 480p. Charged 3030 credits / INR 44.00 matches quote. Saved assets/06-shots/videos/shot-09-reflexes-coffee-orbit-minimax-v02.mp4, SHA-256 782ebc616937139fbea3610a1c9a5604a035c5f5db6c53704d5fdd4b429b7c38; native 832×480, 24 fps, 243 frames / 10.125s, stereo AAC 32 kHz / 10.144s. No retries or additional still/audio generation.
+- Sampled review: forward sidewalk FPP; left-facing view at about 1.6s shows an already-airborne cup; TPP around 2.6s; broad circular camera travel with changing background perspective roughly 2.9–7.5s. Visible catch contact around 3.5–3.75s, handback around 7.9–8.8s, then departure. Approved cyberpunk cafe, gold outfit and skin/chrome styling broadly retained.
+- Known limits: patron briefly holds mug at far left in opening; gaze/TPP changes read as angle cuts; airborne cup rises/floats before descending; catch is around waist height rather than near ground. Strongest orbit continues after contact. Likeness, hand contact, natural trajectory and convincing super-speed exit need playback review. Mark prototype_pending_user_review, not selected.
+- Saved 25-frame overview plus 13-frame drop/transition and nine-frame catch detail, native audio, full decode inspection, prompts/schema/guide/settings/references/hashes, price and request IDs, review JSON/README/player and verification. Native audio RMS -22.641 dBFS, peak -2.432 dBFS; numeric check only, no listening approval. Reproduction uses existing scripts and is documented in scripts/README.md.
+- Verified source/reference/preserved-media hashes, exact prompt, three-reference wiring, one-generation count/cost, 243-frame full decode with no near-black frames, JSON and local links; checked records contain no signed URLs. Previous locked MiniMax, HUD/overhead excerpts and accepted ad remain unchanged. Earlier Seedance recut is explicitly user_rejected in its review, gallery/batch and manifest.
+- A documentation Python command failed syntax parsing before execution; corrected and reran with no generation or media effect. No extra generation, source retime, local visual repair, upscale, accepted-cut replacement, Final Cut change, commit or push. Await user assessment of the new orbit prototype.
+
+## 2026-11-01T22:23:11+05:30 — Coffee orbit rejected; starting-frame geometry correction prepared
+
+- User rejects MiniMax orbit v02: Riley has passed the man before noticing, mug floats upward and sits too far from her. Requests fixing reference image: man farther ahead; when she draws level she looks sideways, discovers cup already falling within reach, then TPP slow-motion circular camera. Marked video/review/batch/manifest rejected and cafe v03 distance revision requested; historical approval and all media retained.
+- Prepared one GPT Image 2 low-quality / 1K / 16:9 edit, node qFgyDWMdtTm9ZaJuCb6t in J725xEy49QY4xa6L66pw, using cafe v03 as sole source. Move same man approximately five metres ahead just left of the forward lane, later passing distance 60–80cm, mug upright before the event, clear foreground and relaxed natural hands. Live schema/guide/input/price verified: 252.117838 credits / INR 3.66, one image, no variants/retries. Records under coffee-blocking-correction-batch-v04.json and shot-09-coffee-city-start-v04.generation.json.
+- Fix and inspect the still before another motion run; this image cannot itself establish downward gravity or an orbit. No video submitted.
+
+## 2026-11-01T22:23:43+05:30 — Corrected coffee starting image submitted
+
+- Started exactly one GPT Image 2 edit: generation HvzY1rLX6vjf9Vtp17Rp / session oiBNnZPVxdDhwjlzzzMX, node qFgyDWMdtTm9ZaJuCb6t. Reported 252.117838 credits / INR 3.66 matches quote. Poll existing run; no video or retries.
+
+## 2026-11-01T22:28:12+05:30 — Starting distance corrected; targeted mug-hand follow-up prepared
+
+- Completed v04 image HvzY1rLX6vjf9Vtp17Rp, 1280×720, SHA-256 408ebe84e8cdb864a70649424adcdaae887ca55ce48b35ebd72362071b81fcad, 252.117838 credits / INR 3.66. Man is farther ahead with clear foreground; native inspection found mug still held on cafe side near chest and an extra table cup. Recorded these limits rather than treating distance alone as complete blocking.
+- Prepare one targeted follow-up v05 on 4QBQyb9lOcq8xPyd9XGs, using v04 only: preserve distance, move hero mug to image-right/sidewalk-facing hand at hip/waist and remove table duplicate. Live quote another 252.117838 credits / INR 3.66, same low/1K settings. Announced total reference work approximately INR 7.32 before submission. This is a distinct prop-placement edit, not a blind rerun or another video.
+
+## 2026-11-01T22:28:34+05:30 — Single cup-placement image edit submitted
+
+- Submitted v05 generation HIYIGZLR1boitcZcOSru / session qAZQd9jHSmRuwahtVjfu on 4QBQyb9lOcq8xPyd9XGs. Reported 252.117838 credits / INR 3.66 matches quote. Two image edits total in this reference correction, no automatic variants, video or upscale.
+
+## 2026-11-01T22:30:51+05:30 — Corrected coffee approach still ready; prop edit unsuccessful
+
+- v04 supplies a clearer starting composition: same patron smaller and farther ahead on the left, full body visible, ample foreground and clear approach; established cyberpunk city and first-person skin/chrome hands retained. Candidate assets/06-shots/images/shot-09-coffee-city-start-v04.png, native 1280×720, SHA-256 408ebe84e8cdb864a70649424adcdaae887ca55ce48b35ebd72362071b81fcad. User selection pending. Distances are visual targets, not measured geometry.
+- Follow-up v05 generation HIYIGZLR1boitcZcOSru completed, SHA-256 75a1c5f946e90296e094cf62a0df617bfd98e6ff331ab622b4cf5d7e897585f6, but native inspection confirms requested hand change and table-cup removal did not occur. Mark assistant_rejected_requested_prop_changes_missing. Retain v04 as review candidate and v05 as unsuccessful history. No third image or video submitted.
+- Actual correction-pass spend: two image edits, 504.235676 credits / INR 7.32, each matching its 252.117838-credit quote. Zero video, audio or upscale generations. Mug still sits on cafe side near chest; a background table cup remains. Do not claim arm-reach/drop/orbit choreography solved by starting distance alone.
+- Future motion staging recorded: Riley draws level before side glance, cup already descending from empty hand nearby, then TPP slow-motion orbit and visible catch before ground contact; no passing-and-turning-back, rising cup or lateral drift.
+- Saved source/prompt/schema/settings/IDs/price/hashes and truthful review outcomes for both edits, gallery/README and verification; manifest points to v04 candidate and records rejected orbit/failed prop edit. Verified native dimensions, source/reference/prompt/preserved-media hashes, two image charges, JSON/local links and absence of signed URLs in checked records. Original accepted media unchanged. No Final Cut edit, commit or push.
+
+## 2026-11-01T22:35:39+05:30 — One-hand running reference requested and priced
+
+- User likes the corrected approach overall but asks for only one foreground hand so Riley reads as already running. Preserve v04 spacing/cafe and remove the left foreground arm, retaining the right hand low in a running swing. This is a targeted revision, not final approval of motion.
+- Prepared exactly one GPT Image 2 low / 1K / 16:9 edit on UaRlQZIL8lZ2paPma9DL, sole source qFgyDWMdtTm9ZaJuCb6t (v04). Live schema/input/settings checked; quote 252.117838 credits / INR 3.66. Prompt and provenance under shot-09-coffee-city-start-v06.generation.json and coffee-running-hand-batch-v06.json. No video or extra variants.
+
+## 2026-11-01T22:35:56+05:30 — Single running-hand image edit submitted
+
+- Started generation q7GVWTpb30BfFtKB2Yrh / session PoUgn5ltcQq0gmS5yQJm on UaRlQZIL8lZ2paPma9DL. Submission reports 252.117838 credits / INR 3.66, matching quote. One still only; poll existing run.
+
+## 2026-11-01T22:37:57+05:30 — Single-hand running reference ready
+
+- Completed one GPT Image 2 edit q7GVWTpb30BfFtKB2Yrh / session PoUgn5ltcQq0gmS5yQJm. Saved assets/06-shots/images/shot-09-coffee-city-start-v06.png, native 1280×720, SHA-256 059d6a58ffb80e613d6e1d7765fb2c986c8b4db88555d4d1ae3aa0f1f157d272. Actual 252.117838 credits / INR 3.66 matches quote. No retries.
+- Native inspection confirms left foreground hand/forearm removed and paving restored; one right hand remains low at frame edge with skin/chrome styling. Patron distance, clear approach and cyberpunk world visually preserved. This addresses the requested hand count; actual running cadence and mug/orbit motion are not established by a still. Prior mug-hand/table-cup details unchanged.
+- Updated record, batch, review/player paths, manifest and previous-reference pointer. V04 overall composition was liked with hand-count revision requested; v06 remains pending user review, not auto-selected. Verified source/prompt/output hashes, dimensions, sole input and one-generation quote/charge. No new video, upscale, source overwrite, Final Cut edit, commit or push.
+
+## 2026-11-01T22:46:40+05:30 — One-hand reference approved; fixed-start MiniMax video prepared
+
+- User says Great now do the generation with the direction i gave you. Lock v06 still as the starting reference, preserving its existing limits; authorize one ten-second low-quality MiniMax test. Updated still record/batch/gallery and manifest approval scope.
+- New node 5jHW78vrFD1fITuajiRd in J725xEy49QY4xa6L66pw: MiniMax H3 / 480p / ten seconds, actual start_frame UaRlQZIL8lZ2paPma9DL, no other references. Aspect derives from 16:9 input. Live schema/guide and wiring checked; fixed-start mode cannot combine identity image references, so TPP face/outfit are text-described and likeness remains a review item.
+- Prompt prioritizes reaching his side before looking, mug already descending close by, continuous downward height through knee level, low visible catch with circular camera during the reach, then handback/departure. Static table cup excluded from action. Quote 3030 credits / INR 44.00 for one take, no retries; records in shot-09-reflexes-coffee-orbit-minimax-v03.generation.json and reflexes-coffee-orbit-batch-v03.json. Not yet submitted at this entry.
+
+## 2026-11-01T22:47:08+05:30 — Fixed-start MiniMax coffee test submitted
+
+- Submitted one generation NiVvrwfK6h9Vih4TJXmH / session 59azPRk7wO0kYlNqgywm on 5jHW78vrFD1fITuajiRd. Reported 3030 credits / INR 44.00 matches estimate. Existing session will be polled; no repeat run, other video or still generation.
+
+## 2026-11-01T22:52:55+05:30 — Fixed-start MiniMax coffee take ready with partial compliance
+
+- Completed NiVvrwfK6h9Vih4TJXmH / session 59azPRk7wO0kYlNqgywm. Saved assets/06-shots/videos/shot-09-reflexes-coffee-orbit-minimax-v03.mp4, SHA-256 89159ef7a9e9e37bcde040bb995dd56e6e6cdee9236bf70e1581619733ded4c0. Native 832×480, 24 fps, 243 frames / 10.125s; stereo AAC 32 kHz / 10.144s. Actual 3030 credits / INR 44.00 matches quote. Exactly one take, no retry.
+- Approved v06 starts the video. Sampled approach no longer passes the man before rescue; mug releases around 2.3s, moves mainly downward close by, then low catch around 6.5–6.75s, handback and departure. No large upward float from prior take apparent in sampled frames.
+- Major misses remain: Riley sees him holding the mug and TPP begins before release, so FPP discovery of an already-falling cup is absent. Over-shoulder/low-side cuts replace broad continuous orbit. TPP identity/outfit drift to longer gold dress, gold heeled sandals and different facial cyberware; fixed-start mode cannot also take approved identity images. These are recorded, not accepted or hidden by editing. Status prototype_partial_prompt_compliance_pending_user_review.
+- Saved native output, exact prompt/input/schema/guide/settings/IDs/price, full decode inspection, 25-frame overview, 13-frame glance/drop and nine-frame contact sheets, audio/levels, review JSON/README/player and verification. Native RMS -23.377 dBFS, peak -1.099 dBFS; numerical check only, no independent listening or final mix approval. Existing review commands documented.
+- Verified reference/prompt/output/preserved-media hashes, v06 approval and sole start-frame wiring, one-generation charge/count, 243-frame decode with no near-black frames, JSON/local links and no signed URLs in checked records. Approved HUD/overhead, original locked MiniMax and accepted ad unchanged. No additional still/video, local visual repair, source retime, upscale, Final Cut change, commit or push. User review pending; assistant does not recommend locking this take as the complete requested shot.
+
+## 2026-11-01T23:02:36+05:30 — Coffee direction revised to discover an unseen accident
+
+- User identifies deliberate-looking releases across tests. New direction: no cup visible during fast FPP run, peripheral motion blur, abrupt slow motion, side glance, TPP reveal with sideways eye motion, then circular camera while Riley quickly catches the cup. Interpret cup exclusion as opening-only; its first reveal is already airborne during the rescue. Preserve close reach, downward trajectory and no overshoot.
+- Working diagnosis from prompts/references/outputs: visible cup-holder start plus drop instruction repeatedly produces a conspicuous hold/release gesture. Do not claim knowledge of model internals. Record revised direction in assets/06-shots/shot-09-coffee-hidden-drop-direction-v04.md.
+- Latest v03 motion marked revision_requested_hidden_release_and_speed. V06's prior approval retained historically, but it is superseded as the new opening because held/table cups are visible. Approved city/identity/outfit sources and original accepted ad remain untouched.
+- Assistant proposes two controlled clips joined at the requested perspective change: cup-free high-speed FPP/time-dilation turn, then a dedicated identity-referenced TPP reaction/orbit/catch. Exact ten-second timing and sound accents are proposals, not new approvals. Future TPP shows a quick lateral eye flick within action framing rather than a separate extreme eye insert.
+- Updated manifest and active review pointers. No provider calls, generations, credits, source-media modification, commit or push in this direction update.
+
+## 2026-11-01T23:09:01+05:30 — Two-clip coffee revision authorized; keyframes prepared
+
+- User approves cup-free FPP run followed by identity-referenced TPP reaction/orbit/catch with Yes, please do it. Prepare two keyframes and one low-resolution MiniMax take per segment, no variants or automatic retries. Handback/departure retained.
+- Live GPT Image 2 low/1K/16:9 schema, inputs and quote checked. Opening node 2dSZ3aHoQTBMZVy0KbKW; TPP node ZvixrWRuxw2KZiBD6Duh; flow J725xEy49QY4xa6L66pw. Two images total 940.9924324324325 credits / INR 13.66. Exact prompts, source hashes and individual estimates in coffee-split-keyframes-batch-v01.json and linked generation records.
+- Will inspect keyframes before video spend; existing accepted media remains preserved.
+
+## 2026-11-01T23:09:20+05:30 — Two coffee keyframes submitted
+
+- Submitted one image per planned frame. Sessions 3iIrOXZT7s1VBoaAnBij, 5IRkLmbUQjpmPehh63Bp. Generation/node IDs and charges are in coffee-split-keyframes-batch-v01.json and linked records. No video submitted yet; inspect these results first.
+
+## 2026-11-01T23:12:31+05:30 — Coffee keyframes inspected; two MiniMax videos priced
+
+- Completed both stills: cup-free FPP shot-09-coffee-fpp-cupfree-start-v01 and already-airborne TPP shot-09-coffee-tpp-airborne-start-v01. Actual total 940.992432 credits / INR 13.66 matches quote. Opening has one hand and no cup/patron; TPP retains approved gold outfit, bob/cyberware and mostly natural skin. Cup lower than specified; reverse-angle geography and lateral eye action remain review points. Stills approved by assistant only as cheap test inputs.
+- MiniMax H3 Max chosen per live provider guide for fixed-start animation, 480p, five seconds A plus eight seconds B; no aspect ratio override. Exact wiring/settings verified. Quote 3939 credits / INR 57.19. Whole pass approximately INR 70.86. Records in coffee-split-minimax-batch-v04.json.
+- Initial node-add attempt with explicit enhance_prompt=false returned no authoritative node; setup retried without that optional parameter, no paid generation. Effective enhance_prompt=true recorded. Two valid video nodes only, still unrun at this entry.
+
+## 2026-11-01T23:12:47+05:30 — Two-part coffee motion test submitted
+
+- Submitted exactly two MiniMax H3 Max takes, A five seconds and B eight seconds, 480p. Sessions r6OadRusONjVgNZhNVch, HoAb4oZbNlCkV1yOOrAo. Reported combined charge 3939 credits / INR 57.19 matches quote. Existing sessions only; no automatic reruns or variants. Request IDs in coffee-split-minimax-batch-v04.json.
+
+## 2026-11-01T23:18:43+05:30 — Two-part coffee prototype and ten-second review ready
+
+- Completed exactly two MiniMax H3 Max / 480p takes: FPP IUpfMhajyM3DgSZ6FXXr (1515 credits; native 832×480, 24fps, 124 frames/5.167s) and TPP 0cMoOnHP1IFaoQRroLMC (2424 credits; 192 frames/8s). Saved shot-09-coffee-fpp-run-minimax-v04.mp4 and shot-09-coffee-tpp-orbit-minimax-v04.mp4 with exact prompts, sources, live schemas/settings, IDs, quote/charge and hashes. No paid retries. Two stills plus two videos total 4879.992432 credits / INR 70.86.
+- Sampled review: strong forward FPP blur/parallax; hero cup absent until already-airborne TPP reveal, with empty patron hands. Visible catch around 1.75–2.1s of B, broad continuous camera arc during rescue, handback around 5.3–6.3s and fast cyan-wake departure around 6.7s onward. No visible deliberate release. Approved styling broadly retained.
+- Remaining misses honestly recorded: gradual/late FPP glance, slow reaching hand, weak distinct lateral eye flick, near-suspended early cup, reverse-angle/patron geography and some generated background table cups. Broad orbit is not verified as full 360 degrees. All new outputs pending user review, not locked.
+- Built assets/06-shots/reviews/coffee-split-minimax-v04/shot-09-coffee-split-review-v04.mp4, exactly ten seconds/240 frames at native 832×480/24fps. A source frames23–71 plus B0–190, original speed, hard perspective cut, native audio gains -2/+8dB and short fades. Decoded AAC peak -2.950dBFS. No new VO/music/SFX, optical flow, artificial head-turn effect or accepted-ad update; no independent listening claim.
+- Added combined/individual player, keyframe gallery, native audio copies and levels, contact sheets, review notes, timeline/edit provenance, verification, manifest pointers and reproducible commands in scripts/README.md. All new/reference/preserved hashes verified; full decode has no near-black frames; checked JSON/local links and absence of signed URLs.
+- Local combined contact-sheet call initially requested a sample fractionally past exact duration; corrected sample count and succeeded. No source change or generation effect. Existing accepted ad, locked MiniMax fallback, HUD and overhead excerpts remain unchanged. No commit or push.
+
+## 2026-11-01T23:21:53+05:30 — User likes split coffee prototype; Seedance discussed only
+
+- User says Looks great and asks whether to generate with Seedance, explicitly Just a question. Record positive review of the two-part prototype; do not infer final lock, replacement of accepted ad or authorization for a paid run.
+- Checked current ElevenLabs Seedance 2.5 model guide read-only. Recommend preserving the two-clip structure and references, evaluating one 480p TPP orbit/catch first, then deciding whether the simpler FPP run needs replacement. Sharper eye reaction and faster hand action should be explicit motion goals; model choice does not guarantee them. Refresh exact schema and price before any authorized future run.
+- No generation, new node, credit spend, media edit, commit or push in this discussion turn.
+
+## 2026-11-01T23:24:29+05:30 — One Seedance coffee orbit test authorized and priced
+
+- User says Ok then please start, authorizing the proposed single eight-second Seedance 2.5 / 480p TPP orbit-catch test. Reuse same already-airborne TPP start image; retain liked MiniMax FPP and TPP as fallback. No new FPP generation, still, variants or automatic retries.
+- Live model schema/guide, availability, sole start_frame and settings verified. Node 8qkqhgYUvy3WDhmqs0Pw in J725xEy49QY4xa6L66pw; effective aspect auto derives from 16:9 input, native audio on. Quote 10418.352 credits / INR 151.27. Exact prompt and records in coffee-tpp-orbit-seedance-batch-v01.json.
+- Motion priorities: quick lateral/downward eye detection, decisive hand contact by roughly 1.1s against slow surroundings, circular camera through catch, handback then fast departure. Existing sources and liked review hashes captured before generation.
+
+## 2026-11-01T23:24:30+05:30 — Seedance coffee orbit submitted
+
+- Submitted exactly one generation LiTtOeqHu8HCVpPHoUkW / session BnsroGw9G1RLt6CIWOQr. Reported charge 10418.352 credits / INR 151.27 matches quote. Await this run only; no further paid work.
+
+## 2026-11-01T23:34:57+05:30 — Seedance orbit test and comparison ready
+
+- Completed one generation LiTtOeqHu8HCVpPHoUkW / session BnsroGw9G1RLt6CIWOQr, saved assets/06-shots/videos/shot-09-coffee-tpp-orbit-seedance-480p-v01.mp4; SHA-256 aadb78f46a93ad57339541313688258208deb30dcb92b337da8135747cc2bc25. Native 854×480, 24fps, 193 picture frames/8.042s, stereo AAC32kHz/8.064s. Charge 10418.352 credits / INR 151.27 matches quote. No retry, extra image, FPP generation or paid audio.
+- Sampled review: already-airborne cup and empty patron hands, no visible release; continuous broad camera arc through rescue, handback around 4.9–5.6s and cyan-wake departure from approximately6.1s. Approved styling broadly retained. Contact around2.125–2.5s is later than requested1.1s and later than liked MiniMax; sharp lateral eye flick remains weak and cup lingers suspended. Record comparison_candidate_partial_compliance_pending_user_review, not selected.
+- Built ten-second original-speed comparison at assets/06-shots/reviews/coffee-split-seedance-v01/shot-09-coffee-seedance-review-v01.mp4, SHA-256 8b920debe2b9661f05f8cc26fd1af1d2d7a72cf1aa5f874cb528a0db7b1fe021. Same MiniMax FPP frames23–71 plus new Seedance0–190; 854×480 fit canvas, hard cut, native audio gains-2/-1dB and short fades. Decoded AAC peak-4.927dBFS. No accepted-cut, David or Chrome Swagger changes; no independent listening approval.
+- Saved individual/comparison review players, exact prompt/schema/guide/settings/IDs/price, source and reference hashes, full decode, focused/overview contact sheets, native audio/levels, timeline/edit provenance, verification and reproducible commands in scripts/README.md. Verified all source/reference/preserved hashes, one-generation quote/charge, 240-frame ten-second review with no near-black frames, local links, JSON and no signed URLs in records. Updated manifest. No commit or push.
+
+## 2026-11-01T23:38:50+05:30 — MiniMax v04 preferred over Seedance for the coffee catch
+
+- User explicitly says Nope this looks better and supplies assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4. Record MiniMax v04 as the preferred TPP orbit/catch take for this comparison; Seedance v01 not selected. Do not infer final ad lock or additional generation/upscale authorization.
+- Updated both native generation/review records, batches, combined-review selection notes, gallery headers and manifest current pointers. MiniMax combined review is the current preview again. Preserved all earlier technical observations and both source videos/comparison edits unchanged; hashes verified. No credit spend, media edit, new render, commit or push.
+
+## 2026-11-01T23:41:09+05:30 — Video-reference high-resolution route discussed only
+
+- User asks whether preferred MiniMax v04 can guide a high-resolution Seedance render for character consistency. This is a question, not generation authorization. MiniMax remains preferred.
+- Verified live Seedance 2.5 Video Edit schema: required reference_videos, optional reference_images/audio, 480p/720p/1080p, source-following duration per guide. Earlier Seedance orbit test used only the starting still; it did not ingest the MiniMax motion.
+- Advice: actual MiniMax video can supply action/camera guidance, while approved Riley face and wardrobe images anchor identity. Video Edit still regenerates imagery and may change timing/contact/appearance; higher resolution alone does not enforce consistency. Dedicated upscaling is the more conservative route when the existing appearance and motion are already liked; video edit is a test route when changing likeness/styling is needed. No live price quoted, no node prepared, no generation or spend, no media changes, commit or push.
+
+## 2026-11-01T23:45:14+05:30 — One 480p source-video Seedance Edit test authorized
+
+- User requests generating in 480p first to evaluate the actual-video-reference approach. Prepare exactly one Seedance 2.5 Video Edit using preferred MiniMax TPP v04 as reference_videos, approved Riley portrait and gold/skin-chrome wardrobe as reference_images. Preserve choreography/camera/timing; refine character consistency only. No new still/FPP/high-resolution or upscale work.
+- Live edit schema/guide, model availability, source-generation identity and input wiring checked. Node t0b0SzwnFJRUwEGYzWvD in J725xEy49QY4xa6L66pw; resolution480p, aspect auto, native audio on, provider duration_secs=-1 follows eight-second source. Quote 12502.022400000002 credits / INR 181.53. Records: coffee-minimax-ref-seedance-edit-batch-v01.json and linked prompt/generation record.
+- All source/reference and preserved-media hashes verified before submission. No paid retry authorized.
+
+## 2026-11-01T23:45:15+05:30 — Source-video Seedance Edit submitted
+
+- Submitted exactly one generation 5YB3U3mQqIH9cj6OFEEN / session UBSv7DG214ppfNOyl3fE. Reported charge12502.0224 credits / INR181.53 matches quote. Monitor this session only. Preferred MiniMax v04 remains selected; no accepted edit changes.
+
+## 2026-11-01T23:47:33+05:30 — Seedance Edit rejected MiniMax input pixel count
+
+- Generation 5YB3U3mQqIH9cj6OFEEN failed: Pixel count must be between 407696 and 8295044. Please adjust your input and try again.. Native MiniMax source is832×480=399360 pixels, below minimum407696. No output produced. Earlier public model schema/guide did not expose this constraint.
+- Failed response retains12502.0224-credit / INR181.53 price but exposes no settled-charge/refund field; billing unresolved, do not claim a refund or confirmed net charge. No retry submitted. Prepare a minimally enlarged reference copy preserving aspect, eight-second timing and original media; verify and quote corrected-input run before any further paid attempt.
+
+## 2026-11-01T23:51:51+05:30 — Corrected Seedance Edit input prepared and priced; retry unrun
+
+- Added scripts/resize-video-reference.swift; prepared884×510 reference (450840 pixels,1.0625× uniform scale) from the unchanged preferred MiniMax v04. Exact same192 frames/eight seconds/24fps, original aspect/audio track count, no crop/padding/retiming/interpolation. SHA-256 192a97a1064db5a6b05e4baa5d2c6cadd21db335ede6266756b7ff9abebbaa53. Full decode and sampled visual check passed; preparation/upload/verification records and reproduction command in assets/06-shots/references/coffee-minimax-seedance-edit-v01/.
+- Uploaded asset qGyHvY7RwomCbXDQVIW9 / node b9BKhATapA4sQnZIlhpr. Prepared new unrun Seedance Edit node fjRmlz80yA55gaYbexiw with this source and unchanged face/wardrobe/prompt;480p, source-duration auto, native audio on. Quote unchanged12502.0224 credits / INR181.53. Records coffee-minimax-ref-seedance-edit-batch-v02.json. No corrected generation submitted.
+- Read-only browser check of existing flow corroborates failure but exposes no refund information; connector also has no billing/refund field or suitable billing tool. First attempt net cost remains unverified. Additional paid attempt requires scoped approval under Creative Studio no-repeat-generation guidance; input fix and quote are concrete/reviewable first. Preferred MiniMax and all existing media retained. No commit/push.
+
+## 2026-11-01T23:54:02+05:30 — Refund confirmed by user; one corrected-input retry authorized
+
+- User says Yes it was refunded. Retry again. Record first failed generation5YB3U3mQqIH9cj6OFEEN as refunded based on explicit user confirmation, not independent billing verification.
+- Refreshed corrected-node fjRmlz80yA55gaYbexiw inputs/settings and quote: one480p Seedance2.5VideoEdit, same884×510 eight-second source, same face/wardrobe and exact prompt.12502.0224 credits / INR181.53, unchanged. Source/prompt/reference/preserved hashes rechecked. User authorizes this single corrected attempt; no further automatic retry.
+
+## 2026-11-01T23:54:04+05:30 — Corrected-input Seedance Edit retry submitted
+
+- Submitted generation rRtNqFee9BOE2Gxzcltu / session xvOhIpV2ffsgD4cY9lsW on fjRmlz80yA55gaYbexiw. Reported12502.0224 credits / INR181.53 matches refreshed quote. Exactly one user-authorized retry. Prior failure refunded per user. Await existing session, preserve selected MiniMax.
+
+## 2026-11-02T00:03:27+05:30 — Corrected Seedance Video Edit completed and compared
+
+- The single user-authorized retry succeeded: generation rRtNqFee9BOE2Gxzcltu / session xvOhIpV2ffsgD4cY9lsW. Saved assets/06-shots/videos/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02.mp4, SHA-256 870c592c1db53f93e9a32288af2453f3fd8ef741a642bda95f97f3221b208a5f. Charge12,502.0224 credits / INR181.53 matches the refreshed quote. Prior failed attempt refunded according to explicit user confirmation; no independent billing verification. No additional generation.
+- Provider accepted the884×510 source copy. Native output842×486,24fps,185 picture frames/7.709s, AAC stereo32kHz. Source remains192 frames/eight seconds; output is seven frames shorter. Exact timing preservation failed, cause unverified; no local retiming.
+- Sampled visual comparison closely retains MiniMax action/camera: already-airborne cup, contact around1.75–2.0s, broad orbit, handback around5.1–6.1s and cyan-wake exit around6.4s. Cyan eye/cheek hardware is more visible. Exact portrait match is not established; facial/neck details simplified, slow reach and suspended-cup appearance persist. New edit pending user review; MiniMax remains preferred.
+- Comparison player and README at assets/06-shots/reviews/coffee-minimax-ref-seedance-edit-v02/. Saved native overview/catch detail, inspection, audio and levels, review, exact provenance and verification. Full decode has no near-black frames; decoded audio RMS−33.356dBFS/peak−11.443dBFS, no independent listening claim.
+- Verified13 preserved-media hashes, three inputs, output and prompt hashes, one-retry quote/charge, JSON/local player links, no signed/auth URLs and git diff --check. Updated manifest, preparation status and scripts/README. Existing accepted cut, VO/jingle, preferred MiniMax, HUD and overhead unchanged. No commit or push. Next: user compares edit with preferred MiniMax before further work.
+
+## 2026-11-02T00:19:23+05:30 — Move on to the next city strength shot
+
+- User says Ok let's move on after the coffee Video Edit comparison. Continue the existing staged Seedance480p production with one five-second strength take next. Preserve coffee candidates and existing preference; moving on does not identify a new final coffee selection.
+- Reuse approved shot-10-strength-city-start-v03, intact steel doors with first-person skin/chrome hands. Motion: effortless outward pull visibly buckles steel, hands release, camera advances through into the same cyan/gold transit city. Avoid a normal automatic opening; no rejected boulder or cart references.
+- Live schema/guide, available model, approved input generation, node wiring and quote verified. New node w3vv7riEIeAxVfwckIyL in 3dGbKlj9VZitLDr91dyM; Seedance2.5,480p,five seconds,native audio, sole approved start_frame. Quote6511.470 credits / INR94.55. Exact prompt/settings/input and preserved hashes in city-strength-seedance-batch-v01.json and linked generation record. One take, no automatic retry or other shots in this pass.
+
+## 2026-11-02T00:19:46+05:30 — Strength Seedance take submitted
+
+- Submitted exactly one five-second480p take: generation gF7MsrC0zARjrTCTszXj, session XmQzAZCJnXkDj6HycmkD. Submission price6511.470 credits / INR94.55 matches quote. Monitor this run only; no automatic repeat. Strength output pending review; station launch and boulevard speed still unrun.
+
+## 2026-11-02T00:24:58+05:30 — City strength Seedance take ready for review
+
+- Completed the single authorized next-shot test: generation gF7MsrC0zARjrTCTszXj / session XmQzAZCJnXkDj6HycmkD. Saved assets/06-shots/videos/shot-10-strength-city-seedance-480p-v01.mp4, SHA-256 bbbc2398da759064a5e0ae8fae54d53e6d09dc38aaaa96b273996fce2b580778. Native854×480,24fps,121 picture frames/5.042s, stereo AAC32kHz. Reported6511.470 credits / INR94.55 matches quote; no retry, variant, new still or other generation.
+- Sampled review: first-person skin/chrome hands remain, door edges visibly bend and retain folds after release around3.5–3.75s, camera advances through around4s into the cyan/gold transit city. Caveats: rounded/soft deformation rather than sharply creased heavy steel, slow force application, exact finger contact/material weight and audio need playback judgment. Mark generated_pending_user_review, not selected.
+- Saved native inspection, overview, ending frames, audio/levels, review record, README and video/still gallery under assets/06-shots/reviews/shot-10-strength-city-seedance-480p-v01/. Full decode has no near-black frames; audio RMS−27.548dBFS/peak−12.038dBFS measured only, no independent listening claim. Existing3.75s edit slot left unchanged; native5.042s delivered for review without retiming.
+- Verified source/prompt/output plus17 preserved asset hashes, exact one-generation count and price, JSON, local gallery links, absence of signed/auth URLs and git diff --check. Updated manifest and scripts/README. Coffee alternatives, approved cut, voiceover/jingle, HUD and overhead retained. No Final Cut modification, commit or push. Next: review strength; boulevard speed and station launch remain unrun.
+
+## 2026-11-02T00:26:39+05:30 — Strength take approved; continue to boulevard speed
+
+- User says Looks good, continue. Mark shot-10-strength-city-seedance-480p-v01 as approved/selected for use, preserving its native file and earlier technical observations. Exact3.75s trim and final audio mix remain editing decisions. Updated native generation/review, batch, gallery and manifest.
+- Continue with one five-second Seedance2.5 /480p boulevard-speed take using approved shot-11-speed-city-start-v02. Keep true first-person travel, natural alternating hands and rapid foreground parallax within the same daylight cyan/gold city. No new still, batch, automatic retake or accepted-ad replacement.
+
+## 2026-11-02T00:27:59+05:30 — One boulevard speed take prepared and priced
+
+- Live schema, available model, approved start generation, sole start-frame wiring and quote verified. Node qnHd7DPaivpKNC9qXmoG in 3dGbKlj9VZitLDr91dyM; Seedance2.5, five seconds,480p,native audio. Quote6511.470 credits / INR94.55. User continuation authorizes this next take only.
+- Prompt emphasizes actual fast foreground translation, natural alternating lower-frame hands, full speed by0.5s and sustained through the ending, clear central path and same-direction left elevated train. Approved city still retained; no new images. Exact prompt/settings/reference and preserved-media hashes recorded in city-speed-seedance-batch-v01.json and adjacent generation record.
+
+## 2026-11-02T00:28:00+05:30 — Boulevard speed Seedance take submitted
+
+- Submitted exactly one five-second480p take: generation ozRVXJ1A6BM28QNaLiE6, session BblzD2mNvNYSuEFkGtw2. Reported6511.470 credits / INR94.55 matches quote. Await this run only; no extra generations. Station-launch replacement remains unrun.
+
+## 2026-11-02T00:35:10+05:30 — Boulevard speed Seedance take ready for review
+
+- Completed exactly one five-second480p Seedance2.5 video: generation ozRVXJ1A6BM28QNaLiE6 / session BblzD2mNvNYSuEFkGtw2. Saved assets/06-shots/videos/shot-11-speed-city-seedance-480p-v01.mp4, SHA-256 56119b42fe65e94cd4dd546386b5c4b4f2f5a2845c08e61d4c20b30e19acc3ec. Native854×480,24fps,121 picture frames/5.042s, stereo AAC32kHz. Reported6511.470 credits / INR94.55 matches quote; no retry, variant or additional image.
+- Sampled frames show alternating hands, actual forward translation of bollards/paving/supports, approaching/passing skybridges and continued motion through the ending. Daylight cyberpunk world persists; train stays aligned on left rail. Exact speed/cadence, continuous motion smoothness and independent train direction still require playback judgment. Cyan trails are prominent; fine finger detail blurred. Mark generated_pending_user_review.
+- Saved inspection, contact sheet, final frames, native audio/levels, review JSON, README, native video/still gallery and verification under assets/06-shots/reviews/shot-11-speed-city-seedance-480p-v01/. Full decode has no near-black frames. Audio RMS−23.677dBFS/peak−7.312dBFS measured only; no independent listening claim. Full take delivered; existing2.5s edit slot unchanged, no retime or accepted-ad replacement.
+- Verified source/prompt/output plus19 preserved assets, strength approval propagation, one-generation price/count, JSON, local gallery links, absence of signed/auth URLs and git diff --check. Updated manifest and scripts/README. Station-launch replacement is the only remaining unrun shot in this city production pass. No Final Cut modification, commit or push. Next: user reviews speed, then station launch.
+
+## 2026-11-02T00:39:22+05:30 — Boulevard speed approved; continue to station launch
+
+- User says Looks good, continue. Approve/select shot-11-speed-city-seedance-480p-v01 for use; update generation/review, batch, gallery and manifest. Exact2.5s excerpt and final sound remain editing choices. Native source hash verified unchanged.
+- Proceed with the announced final remaining station-launch replacement, one five-second480p Seedance take. Inspect the actual approved transformation/diagnostic ending for pose and cleared-track continuity. Reuse existing final-frame reference rather than generating another still. Preserve all accepted sources and earlier launch alternatives.
+
+## 2026-11-02T00:40:47+05:30 — Station launch prepared from approved Seedance ending
+
+- Inspected native approved transformation final frame and diagnostic return ending: same standing Riley pose, wet station and cleared tracks. Reuse existing uploaded frame asset31PjGeIKM3pQc1ShkXkD/nodeoq4i1gtPgBZQWZjKpyK9, no new still. Prompt asks immediate turn, grounded push-off and fast screen-left/away exit along platform; no train reset or eye insert.
+- Live schema/availability, input wiring and quote verified. Node XwPL8xZX94fJf91vnq2e in 3dGbKlj9VZitLDr91dyM; Seedance2.5,five seconds,480p,native audio. Quote6511.470 credits / INR94.55. Exact prompt/settings/source and preserved hashes recorded in city-station-launch-seedance-batch-v01.json and linked generation record. One authorized take; no automatic retry. Existing1.25s launch slot remains unchanged pending review.
+
+## 2026-11-02T00:40:49+05:30 — Station-launch Seedance take submitted
+
+- Submitted exactly one generation V4MVm01Dprm02tEwE8AP, session T3nBw6ue3LlWhg7pkTkm. Five seconds480p,6511.470 credits / INR94.55 reported, matching quote. Monitor this run only. This completes submission of the planned replacement shot types; it does not approve pending outputs or the assembled edit.
+
+## 2026-11-02T00:47:03+05:30 — Station launch and diagnostic continuity preview ready
+
+- Completed exactly one Seedance2.5 five-second480p generation V4MVm01Dprm02tEwE8AP / session T3nBw6ue3LlWhg7pkTkm. Saved assets/06-shots/videos/shot-07-station-launch-seedance-480p-v01.mp4, SHA-256 54d1fbbad858bcde419dab345a8534e940f2fa46fa6d841321409b3c382dd355;854×480,24fps,121 picture frames/5.042s, stereo AAC32kHz. Reported6511.470 credits / INR94.55 matches quote; no retry/new still/variant/upscale.
+- Sampled review: standing-pose/world continuity from the approved Seedance ending, same broad outfit/cyberware, leftward-and-away grounded run and empty tracks. Timing misses: running begins around2.2–2.5s instead of0.5s; Riley remains in the distance at the ending rather than exiting by1.8s. Existing1.25s edit slot needs a pacing decision. Output is pending user review, not selected.
+- Built original-speed contextual preview assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/context-review-v01/diagnostic-to-launch-v01.mp4, SHA-256 1ac504588157a0a2ec765a8a24ac3f808996b8ee3f873125385c8d910704ae73:24 final diagnostic frames +121 launch frames,145 total/6.0417s at854×480. First second intentionally silent, then native launch audio with standard fades. Sampled join holds pose/composition closely. Accepted45s cut and VO/jingle untouched.
+- Native and context fully decoded with no near-black frames. Native audio RMS−25.553dBFS/peak−4.519dBFS; context AAC peak−4.532dBFS measured only. No independent listening claim. Saved exact prompt/settings/IDs/pricing, native/contact/ending frames, audio/levels, context timeline/edit provenance, review/player and verification. AVFoundation emitted its non-interleaved-audio warning; render and decoded audio completed normally.
+- Verified23 preserved assets plus reference/prompt/output/context hashes, speed approval propagation, one-generation count/price, JSON/local gallery links, no signed/auth URLs and git diff --check. Manifest/scripts README updated. All planned replacement shot types now have outputs; pending choices, pacing and final assembly remain. No Final Cut edit, commit or push.
+
+## 2026-11-02T00:57:11+05:30 — Preferred MiniMax launch and continuous diagnostic test authorized
+
+- User prefers original shot-07-speed-launch-departure-minimax-v02 over the newer Seedance launch. Updated selection/comparison records; both native files retained.
+- User explicitly requests supplying this actual launch video plus the full diagnostic video to Seedance and generating one continuous480p shot. Preparing one eight-second take: float to center, typed implant diagnostics, return to original platform position, immediate MiniMax-style screen-left launch. Add approved portrait, gold wardrobe and station frame for continuity. No eye insert or new still required.
+- Read live Seedance2.5 schema/guide and availability. Both native reference videos exceed the known input pixel minimum. Preserve accepted45s cut, narration/music and all earlier takes. One generation, no automatic variants or retry; quote before submission.
+
+## 2026-11-02T00:58:22+05:30 — Combined diagnostic-launch take prepared and priced
+
+- Verified both actual videos connected on reference_videos: diagnostic asset3dO81G7mF5cGpeXWC4Ea and preferred launch generationej2C9dJQ3zVUYbMXcOTm. Approved face, gold wardrobe and cleared-station still connected on reference_images; no start/end-frame mixing.
+- Seedance2.5 nodezNANNye0YNbi06f1AE6w,480p,eight seconds,16:9,native audio. Live quote14,436.450168credits / INR209.62 for one take. Exact prompt/schema/guide/settings/inputs/hashes recorded in diagnostic-launch-seedance-batch-v01.json and linked generation record.25 preserved-media hashes checked.
+
+## 2026-11-02T00:58:42+05:30 — Continuous diagnostic-launch Seedance submitted
+
+- Submitted exactly one generationCeI75xz4e5uwe849gN9N / session4pDBLjaLuF9VQzubhCHY. Reported14,436.450168credits / INR209.62 matches live quote. Eight seconds480p with both actual video references and three approved image references. Monitor this session only; no automatic retries. Native source files and accepted edit unchanged.
+
+## 2026-11-02T01:05:38+05:30 — Continuous diagnostic-launch Seedance take generated and reviewed
+
+- Completed exactly one authorized eight-second480p Seedance2.5 take using both actual video references: generationCeI75xz4e5uwe849gN9N / session4pDBLjaLuF9VQzubhCHY. Saved assets/06-shots/videos/shot-06-07-diagnostic-launch-seedance-480p-v01.mp4, SHA-256 dacbdc7e5c7f03047dcfd91251b4d4554d0d20b54fe88bb740aca22533c7841d. Native854×480,24fps,193 picture frames/8.042s; stereo AAC32kHz/8.064s. Reported14,436.450168credits / INR209.62 matches quote. No retry, extra take or upscale.
+- Sampled sequence shows floating centered cyan diagnostic, typed AFTERHUMAN/CYBERNETIC IMPLANTS, four readable ability headings, return to the station, then the preferred MiniMax-like screen-left/away launch. Gold wardrobe and human limbs broadly preserved, tracks remain clear.
+- Timing remains imperfect: settles around5.0s, turn around5.6–5.9s, strong acceleration around6.3s versus requested running by5.5s. Small terminal text is soft, return has slight background/framing shift, bright trails dominate late action. Mark generated_pending_user_review, not approved or selected; no claim of exact typography, likeness or footfall fidelity.
+- Saved32-frame overview,24-sample return detail, native3.125s text frame, full decode, audio/levels, review/player, provenance and verification under assets/06-shots/reviews/shot-06-07-diagnostic-launch-seedance-480p-v01/. No near-black frames; measured native audio RMS−25.016dBFS/peak−6.817dBFS, no independent listening claim.
+- Verified25 preserved media hashes plus five reference hashes, exact prompt, native output, reference wiring, one-generation count/price, local player links, JSON and no signed/auth URLs. Updated manifest, prior launch preference, reference provenance and scripts/README. Accepted45s cut, David narration and Chrome Swagger unchanged; no local retime/assembly, Final Cut changes, commit or push. Next: user reviews this combined candidate.
+
+## 2026-11-02T01:09:23+05:30 — Combined diagnostic-launch approved; move to full review assembly
+
+- User says Okay looks good. Let's move on. Mark shot-06-07-diagnostic-launch-seedance-480p-v01 approved/selected for use. Native checksum unchanged; generation/review/batch/gallery/manifest updated without removing earlier timing observations.
+- All planned shot types have takes. Continue locally with a new full narrated review: approved opening, combined diagnostic/launch, locked HUD range, preferred MiniMax coffee split, approved strength and speed, approved overhead1–4s range and matching brand ending. Keep exact source speeds and source files; fit locked David narration/Chrome Swagger to revised picture durations. This is a new review, not final-master approval or a paid-regeneration request.
+
+## 2026-11-02T01:11:15+05:30 — Latest-visuals full review timeline prepared
+
+- Prepared continuous-ad-review-v04 at46.125seconds/1107frames/24fps. Preserve first308picture frames and opening VO timing; use full193-frame approved diagnostic/launch. HUD source6–71 and overhead24–95 exactly retained. Preferred coffee split49+191frames stays intact. Proposed original-speed strength[0.5,5.0) and speed[0.75,3.25) excerpts keep door release/forward travel and fast boulevard action.
+- Rearrange only pauses between intact David phrases; So upgrade remains unbroken. Chrome Swagger begins12.833s and its full18-second ending section restarts28.125s after coffee contact. Retain mix gains and slow-motion treatment. Regenerate existing editorial spiral locally from selected city ending frame; no provider generation/credits. Full-cut review pending.
+
+## 2026-11-02T01:16:35+05:30 — Latest approved visuals assembled with David and Chrome Swagger
+
+- Saved assets/08-edit/continuous-ad-review-v04/afterhuman-latest-visuals-v04.mp4, SHA-256 352081daf595535c50748752ab2834c35840422f8647974e84806e16d0ca1865.46.125s/1107frames/24fps,1920×1080 review canvas, one stereo48kHz AAC track. Native480p footage scaled for review, no AI upscale. New assembled review pending user playback/listening; no final-master approval inferred.
+- Preserved first308opening frames and original opening sentence timing. Uses full approved193-frame diagnostic/launch, exact locked HUD6–71 and overhead24–95, preferred MiniMax coffee split49+191frames, approved strength/speed with proposed original-speed excerpts[0.5,5.0) and[0.75,3.25). Retained existing spiral design but regenerated locally from the selected city-overhead ending, removing the old coastal visual at the join.
+- Locked David source phrases unchanged; spacing adjusted to current action, no break after So. Chrome Swagger begins12.833s; complete18-second section restarts28.125s after coffee contact and ends46.125s. Existing ducking/slow-motion filter retained; conservative native scene gains and short audio blends. No old diagnostic effect stem duplicated. Numeric decoded AAC sample peak−1.434dBFS, no independent listening claim.
+- Verified all1107frames decode, zero near-black frames,32 preserved media hashes, exact source ranges, narration phrase preservation, native-video/audio metadata, JSON/player links and sampled overview/overhead-outro join. Browser loaded/decoded correct video with no media error; temporary basicHTTP server lacks seeking support, so chapter seeking unverified; tool blocked file-protocol navigation. AVFoundation emitted its usual non-interleaved-audio warning but export/audio decode passed.
+- Saved configs,timing plan,export/mix provenance,contact sheets,player,delivery checks and reproduction instructions. Updated manifest,assets/08-edit/README and scripts/README.0 provider generations/credits, no source retiming, original source or earlier-cut overwrite, Final Cut edit, commit or push. Next: user reviews the complete revised cut for pace/sound before final polish.
+
+## 2026-11-02T01:31:48+05:30 — Full review v04 revision requested
+
+- User requests higher-resolution station departure, restoration of the missing visible transformation around13s, and an overhead race in the same boulevard as the preceding FPP speed shot. v04 assembly needs revision; previous sources and approvals retained as history.
+- Confirmed the edit cuts approved departure/transformation at source6.75s, before its real change. Restore full289-frame take, including transformation and hand inspection, into a new original-speed review.
+- One Nano Banana2 1K overhead still prepared from actual boulevard start, approved gold wardrobe/identity and train livery; quote1218.06credits / INR17.6862. Review still before a paid replacement video.
+- Topaz v2 is listed live but the connector enum only accepts the retired v1 ID. No upscale submitted; inspect the existing generation in the browser for available upscale settings.
+
+## 2026-11-02T01:45:07+05:30 — Station upscale and transformation restored; matched overhead still ready
+
+- Saved one Topaz Proteus Natural upscale generationQvGocMRbxmKS5e0VAjDi/sessionZflexhULVWTwVd4cWl9H,606credits / INR8.79912. Native1708x960,24fps,289frames/12.042s; requested2.25factor was converted to2.0 by provider. File shot-04-05-continuous-topaz-2x-v01.mp4 SHA83b6da113f490c82fc95bc4b53cab6f841e69a439e0046292f88b63d2b7228bf. Browser-created v2node worked around stale connector model enum; subsequent configuration/quote/run used connector. This is2x upscale, not native1080p.
+- New cut assets/08-edit/continuous-ad-review-v05/afterhuman-continuity-v05.mp4 SHA496440b894e75aad883edc8bb4629ac15aee68e7819f934aef451b88a2059836,51.416667s/1234frames. Restored all289 approved departure/transformation frames, including physical change and hand inspection, before approved193-frame diagnostic-launch; no source retiming. Swapped picture to upscale while retaining original audio. Locked David source phrases and initial So upgrade/music cue preserved; later pauses/music arrangement extended.
+- Three low-cost still steps: v04 world concept yLnQd1UlAwn8BxMaBpuX,1218.06credits, matched location but wrong oblique/front-facing camera; v05 ozzdlmkFo13KKTyRWab8,688.874595credits, corrected overhead but train nose wrong direction; v06 zLzfUFMYpcMEcekvOOFE,252.117838credits, targeted train-only reversal. v06 shows parallel upframe directions, left elevated rail and broad ground-level boulevard consistent with shot11. Native1280x720; SHA5724ebd224ae6e46ad4330596613920b858cec3f955d7e996ea4cda9440d7c3c. Still pending user review, no new overhead video or automatic run retry. Initial train lead is about two body lengths; overhead exposure darker, may need final grade.
+- Total this revision2765.052432credits / INR40.148561 for1upscale+3images. Exact prompts/settings/references/IDs/quotes/output hashes and rejected iteration notes retained. Prior overhead stays explicitly temporary in full review; original accepted sources and earlier edits preserved.
+- Both new videos fully decoded; no near-black frames; frame count/fps preserved;33prior media hashes verified. Sampled station comparison and transformation join checked. Decoded full-cut AAC sample peak−1.533dBFS, no independent listening claim. First final-inspection attempt hit existing last-picture-frame.png safeguard; fresh final-checks folder passed. UI preview access initially failed because overlays/tiny canvas intercepted actions; no source deletion or paid retry resulted.
+- Updated local players, manifest, edit overview and reproducible script notes. Next: user reviews new overhead reference before replacement video, and revised cut pace/sharpness/sound. No Final Cut modification, commit or push.
+
+## 2026-11-02T01:46:18+05:30 — Continuity revision handoff checks complete
+
+- Verified three local players and all linked media, current timeline source hashes,1234frame total, unchanged complete David phrase source ranges, JSON validity and absence of signed/auth URLs in new records. git diff --check passed. Saved live image schemas; provider exposes no seed. Renamed the Topaz canvas node to verified1708x960 output.
+- Deliver v05 with restored transformation and station2x upscale. Matched-boulevard overhead v06 remains a still for user review under the established stills-first workflow; old overhead is explicitly temporary in the full cut.
+
+## 2026-11-02T01:58:19+05:30 — Hard45second cap; merge transformation and floating body, remove skeleton
+
+- User states entries longer than45seconds will not be judged. Treat45seconds as hard delivery cap; prior51.417s review is unsuitable for that constraint. User requests original physical transformation while floating centrally, replacing separate blue-skeleton diagnostics. This supersedes prior approval of skeletal treatment; source takes retained.
+- Build a local44.875s review: original transformation plus central float share the existing127frame window, then only36launch frames from the approved combined take. Preserve complete opening, coffee split, other power shots, voice phrase source samples and original playback speeds. Keep typed product/ability callouts, with Riley opaque and naturally colored.
+- Reuse existing validated masks on the same source frames, use latest2x station picture and original audio, no new generation/credits. Matched-boulevard overhead still remains pending separate review; do not infer approval from this direction change.
+
+## 2026-11-02T02:06:21+05:30 — Merged transformation and float review v06 ready under 45 seconds
+
+- Saved assets/08-edit/continuous-ad-review-v06/afterhuman-merged-upgrade-v06.mp4, SHA-256 149c72b1f2cdcf466cb5a4ce19a41147738cb8aa37bdfc021cdf4a1f832a6d0a. Encoded picture and audio both 44.875 seconds; 1,077 frames at 24 fps, 1920×1080 review canvas, stereo 48 kHz AAC. Includes the complete end card. Pending user playback/listening, not final submission approval.
+- Original transformation and center float now share 12.833333–18.125 seconds. Reused existing masks on the exact original station frames 162–288, using the prior 1708×960 Topaz picture. Riley remains opaque and naturally colored; no skeleton, translucent anatomical overlay or scan sweep. Exact typed AFTERHUMAN / CYBERNETIC IMPLANTS and four ability callouts remain. Returns to the platform, then uses only launch frames 134–169 from the approved combined take, bypassing its superseded skeleton section.
+- Preserved opening, full preferred MiniMax coffee split and other selected source ranges at original speed. All seven original David phrases remain intact and used once; opening sentence and unbroken So upgrade placement unchanged. Chrome Swagger starts at 12.833333 seconds, with its complete 18-second ending section at 26.875 seconds. Reused original transformation audio and existing quiet UI stem; no audio generation.
+- Fully decoded all 1,077 picture frames, zero near-black frames. Reviewed sampled transformation/float/return/launch joins and full-cut contact sheet. Decoded AAC sample peak −1.493 dBFS; no independent listening claim. Verified 34 preserved media hashes, 11 timeline picture hashes, original voice phrase ranges, all seven player links, JSON/config/script hashes and git diff --check. A metadata helper initially used hashlib.file_digest unavailable in the system Python; switched to streamed SHA-256, then checks passed. No media changed by that helper failure.
+- Saved reproducible component/render/mix configs, reports, inspection, contact sheets, player and delivery record. Updated manifest, edit overview and script instructions. V05 is superseded for duration and skeleton treatment; historical approvals and source takes remain. Fine matte edges/defocused station patch remain review limitations. Matched-boulevard overhead still awaits separate user review; old overhead remains explicitly temporary in this cut.
+- Zero provider generations or credits in this turn. No source retiming, original-file overwrite, Final Cut project changes, commit or push. Competition rules were not independently rechecked in this editing turn; the user's 45-second cap is satisfied by the measured file duration.
+
+## 2026-11-02T02:13:59+05:30 — Merged upgrade direction approved; arm masking cleanup noted
+
+- User likes v06 and identifies part of Riley's arm disappearing in the centered transformation. Treat as approval of the merged edit direction, with foreground mask quality flagged; not final-master approval.
+- The cutout mask clips the arm, consistent with the recorded local segmentation limitation. Recommend targeted arm/hand mask cleanup before competition delivery because the centered body is the focus; preserve the original transformation, timing, typed text and 44.875-second duration. No new video generation is needed for this proposed local correction.
+- Feedback recorded in the manifest. No media changes, paid generation, commit or push in this discussion turn. Matched overhead replacement remains separately pending.
+
+## 2026-11-02T02:20:34+05:30 — Local arm-mask correction authorized and prepared
+
+- User says Go ahead to targeted local mask cleanup. Keep approved v06 timing/audio and 44.875-second duration, no new provider generation.
+- Original full-frame foreground mask visibly removed part of Riley's screen-left forearm at component frame 40. Tested tight-crop foreground and person masks on the verified Topaz source; cropped foreground preserves full limbs better. Person/hybrid tests introduced poorer edges and were not selected.
+- Prepared 127 refined masks under assets/08-edit/floating-transformation-v03/mattes using crop [850,130,430,880] on the same conformed source frames 162–288. Local narrow-projection cleanup and two bounded exclusions remove station-lamp spill while hands are raised. Original pose records, float movement and source images remain unchanged. Sampled before/after at frames 40,60,84,96,108 confirms restored arms/hands. Rendering new component and full review next.
+
+## 2026-11-02T02:25:01+05:30 — Arm-mask cleanup v07 rendered and verified
+
+- Saved assets/08-edit/continuous-ad-review-v07/afterhuman-arm-cleanup-v07.mp4, SHA-256 46a8b7aa88376f203aea4031133a2bf7f64f6a7e5de285b837bf16ce76eaa148. Picture/audio duration remains 44.875 seconds, 1,077 visible frames, 1920×1080. New render is pending user playback review.
+- Replaced only timeline frames 308–434 with the refined 127-frame float component. Tightly cropped local foreground segmentation restores the missing forearm/hand at the exact reported frame (timeline348 /14.5s) and keeps both hands through their inspection. Checked encoded before/after frames348,368,392 plus40-sample float/return/launch overview. Source softness and the defocused background patch remain; no claim of perfect edge cleanup.
+- Lossless compressed splice verified: all950 unaffected decoded frames pixel-identical to v06; all127 inserted frames pixel-identical to the corrected component. Every presentation timestamp checked at exactly24fps. Original compressed AAC payload is identical, preserving VO, Chrome Swagger, effects, timing and levels. Full decode has zero near-black frames. AVFoundation's approximate nominal-fps field reports23.911358 after splicing; this is recorded, while all actual timestamps and frame count prove unchanged24fps cadence.
+- Verified35 preserved media hashes including v06, exact127-mask/source-frame mapping, current source/component/config/script hashes, all11local player links, valid JSON and git diff --check. Original masks, source files, v06 and local segmentation experiments retained. Person/hybrid variants were not selected; selected tight-crop foreground received bounded station-light cleanup.
+- Added reproducible mask-refinement, picture-splice and full-pixel-verification scripts; documented commands in scripts/README.md. Review page includes before/after at the reported arm-loss moment. Updated manifest and edit overview. No paid generation/credits, source retiming, audio remix, Final Cut edit, commit or push. Old overhead remains temporary pending separate replacement review.
+
+## 2026-11-02T02:26:31+05:30 — Arm cleanup approved; v07 is current review cut
+
+- User says Looks great now. Approved the corrected arm/hand masks and selected continuous-ad-review-v07/afterhuman-arm-cleanup-v07.mp4 as the current review cut. No final-submission approval inferred.
+- Updated manifest, delivery status and review notes. Picture remains44.875seconds with unchanged original audio; no media modification, generation, credits, commit or push.
+- Next unresolved visual is the matched-boulevard overhead: prepared start-frame v06 still awaits separate review before replacement video generation.
+
+## 2026-11-02T02:30:37+05:30 — Exact attached boulevard start approved; one overhead take prepared
+
+- User says Yes go ahead. Use this image. Archive the exact attached1672×941 PNG under assets/06-shots/references/boulevard-overtake-v01/, SHAfde9654b1395297e3a9dc988e420b10fb58be5c64b72ad2da17a2ed4971d76ac. Uploaded content assetPFqkIVHa2ZI9uplMVzai/nodeauMJwRpCIDcwyqksrIev; verified start_frame edge into new node8V034VE0bQgX4UOrukky on flow3dGbKlj9VZitLDr91dyM. No new still or substituted image.
+- Live Seedance2.5 schema/guide and availability checked. Five seconds480p, native audio, aspectauto from attached frame; requested16:9. Quote6511.470credits / INR94.5465444 for exactly one authorized take. Prompt preserves left railway/right broad boulevard, same upframe travel, immediate sprint and complete overtake by2.6s with continuing speed.
+- Exact prompt/settings/schema/guide/quote/reference provenance saved in the generation and batch records. Preserve approved v07,44.875s/audio; replacement selection/context assembly pending review. No retry/upscale authorized by this submission.
+
+## 2026-11-02T02:31:26+05:30 — Matched-boulevard overhead submitted
+
+- Submitted exactly one Seedance2.5 five-second480p generationjRFy4Wsb79wKdkjPViot, sessionhVZ3ffPDPLR6vXL5WHz7. Reported6511.470credits / INR94.55 matches live quote. Poll this run only; no automatic retry. Approved v07 remains unchanged.
+
+## 2026-11-02T02:39:50+05:30 — Matched-boulevard overhead generated; motion needs correction
+
+- Completed exactly one authorized Seedance2.5 five-second480p generationjRFy4Wsb79wKdkjPViot/sessionhVZ3ffPDPLR6vXL5WHz7. Saved shot-12-overtake-boulevard-seedance-480p-v01.mp4 SHA4ca6c218ebdd643ba874ba1d37e67c6a45506e5d76005c1acb6a2f91f021169a. Native852×480,24fps,121frames/5.042s; AAC32kHz/5.056s. Reported6511.470credits / INR94.55 matches quote. No extra image, upscale or retry.
+- Exact attached image successfully preserves broad wet boulevard, left railway, glass frontage, bollards and cyan planters. Train stays aligned and points upframe; Riley stays on the separate right boulevard. Motion misses the intended decisive pass: she approaches the nose in the middle but never clearly gets both boots ahead, and the gap increases toward the end. Mark generated_requires_motion_correction_pending_user_review, not selected.
+- Reviewed21 quarter-second samples,16 finer stride samples, native2.25s and ending frame. Full decode has zero near-black frames. Native audio RMS−31.027dBFS/peak−12.009dBFS measured; no independent listening claim.
+- Made an original-speed5.5s/132frame context at context-review-v01/sprint-to-overhead-world-test-v01.mp4 SHA6d5fa8dcfb05a6feed5ebe8854e299a9eea423e24e0845a74a06da0295666c79: approved FPP sprint source[0.75,3.25), new overhead[1,4), existing v07 mix excerpt[36.875,42.375). This is a world-match comparison, not an approved usable range or full-cut replacement. New native effects muted in context; original mix is decoded/reencoded. Full context decode/sample join passed. AVFoundation's normal non-interleaved-audio warning did not prevent export.
+- Verified36 preserved-media hashes, prompt/reference/output/context hashes, exact attached start-frame wiring, single-generation quote/charge, JSON, local player links and no signed/auth URLs in records. Updated generation/batch/review/verification, manifest and scripts README. Approved v07 remains unchanged at44.875s; no Final Cut edits, commit or push.
+- Next: user reviews the native take and context. For a future correction, prepare an explicit matching end frame with Riley fully ahead to constrain the overtake; no further generation started.
+
+## 2026-11-02T02:46:16+05:30 — Retry revised to continuous POV-to-overhead overtake
+
+- User says Try it again, then Just show her zooming past it, then Or better yet, transition the camera from the FPP to the overhead shot. Latest direction supersedes a standalone overhead retry. Prepare one five-second480p Seedance2.5 continuous sprint/camera-rise/overtake test, preserving approved v07.
+- Prepared exact native FPP source frame at0.75s under assets/06-shots/references/fpp-overhead-v01/. One Nano Banana2 512 end-frame edit of the user overhead reference submitted, quoted409.05credits / INR5.939406; it places both boots ahead of the train nose. Exact prompt/schema/settings/quote/run saved. No separate overhead video submitted during interrupted read-only preparation.
+
+## 2026-11-02T02:48:24+05:30 — Continuous POV-to-overhead test submitted
+
+- End-frame generationto0ehtGaEXtZfwiK68u6 completed at688×384; Riley is ahead and her trailing boot narrowly clears the nose, although the requested full-body-length gap was not achieved. Reviewed native image and used it as finish anchor with exact approved FPP native0.75s start. No accepted source retiming or changes.
+- Verified start/end wiring and live Seedance2.5 settings/quote, submitted exactly one5s480p video Tndu2ARyNCecJj1W57Xz/sessionqKTAd8BmP1ggBnzZu2YI,6511.47credits / INR94.55. Combined spend including one end-frame is6920.52credits / INR100.4859504. One continuous fast POV, crane rise, overhead pass; no separate second overhead retry. Exact prompts and records saved.
+- Approved44.875s v07 remains unchanged. New take pending generation and review.
+
+## 2026-11-02T02:55:04+05:30 — Continuous POV-to-overhead take ready; late motion needs review
+
+- Completed one Seedance2.5 generationTndu2ARyNCecJj1W57Xz/sessionqKTAd8BmP1ggBnzZu2YI. Saved assets/06-shots/videos/shot-11-12-fpp-overhead-seedance-480p-v01.mp4, SHA-256 d52ad8f09107434fd521ce16b1d5622dcd1e7d064ccc5a51e8c7dc2b631e6521. Native854×480,24fps,121frames/5.042picture seconds; AACstereo32kHz/5.056s. Video6511.47credits plus end frame409.05credits, total6920.52credits / INR100.49, matches quotes. No additional retry.
+- Camera now rises progressively out of the actual approved sprint POV into the overhead boulevard; rail remains left and glass frontage right. Riley ends ahead, but full-body clearance arrives only near the final quarter-second. Close review flags possible backward train drift against nearby planters in the late overhead, exaggerated high arm swing and a strapless-looking dress back. Record camera improvement separately from race/wardrobe limitations; not approved or selected.
+- Reviewed21 overview frames,13 camera-rise samples,13 ending samples and native2s/4s/5s frames. Fully decoded121frames, zero near-black frames. Native audio decoded/measured RMS-25.797dBFS/peak-6.421dBFS; no independent listening claim.
+- Verified37 preserved media hashes, prompt/input/output hashes, exact start/end wiring, quote versus reported prices, JSON, local player links and no signed/auth URLs in saved records. Saved native take, exact prompts/settings/IDs, end-frame provenance, audio extraction, contact sheets, player, review and verification; updated manifest and scripts README. Approved44.875s v07, David and Chrome Swagger remain unchanged. No Final Cut edit, commit or push.
+- Next: user playback review of the continuous camera move and train motion before selection or any further paid correction.
+
+## 2026-11-02T02:58:24+05:30 — Camera move approved; backward train correction authorized
+
+- User explicitly likes the camera movement in shot-11-12-fpp-overhead-seedance-480p-v01 and rejects the train sliding backward. Preserve the accepted continuous POV-to-overhead move; authorize one targeted480p Seedance2.5VideoEdit using the actual five-second take as reference. No new image/end-frame anchor.
+- Inference: the previous finish still placed the train back against fixed pavement, likely encouraging reverse world motion. Correct forward travel relative to fixed planters/rail landmarks, with Riley moving faster; do not confuse camera-relative retreat with physical reversal.
+- Live edit schema/model guide verified. Native854×480=409920 pixels clears the previously observed407696 minimum; no reference resize needed. Original take hash verified. Quote and input wiring pending before generation; approved44.875s full cut unchanged.
+
+## 2026-11-02T03:00:14+05:30 - Train-forward video edit submitted
+
+- Submitted exactly one Seedance2.5VideoEdit at480p, source duration follows the5.056s reference. Generation A8JhkxJ2GEDjunQjQL9w/session AFt07NoYeD1n1CnuKSW8, node xBr0DWSKHdi5LfRFV237. Quote and reported charge7901.2781568credits / INR114.73. Only exact source video is wired; no start/end image or other reference.
+- Prompt preserves the approved camera and corrects train travel against fixed trackside landmarks, with Riley faster. Verified38 preserved-media hashes. Original camera take and44.875s ad unchanged.
+- Initial metadata write hit an encoding error before writing files; re-saved with ASCII-safe JSON. The paid generation was submitted once and is running; no duplicate generation or retry. Exact prompt/schema/settings/IDs/price now saved.
+
+## 2026-11-02T03:15:11+05:30 — Train correction stopped; v07 chosen for publication
+
+- User explicitly stops further correction, requests commit everything and push, and chooses assets/08-edit/continuous-ad-review-v07/afterhuman-arm-cleanup-v07.mp4 for publication. Verified unchanged SHA-256 46a8b7aa88376f203aea4031133a2bf7f64f6a7e5de285b837bf16ce76eaa148,44.875s from matching delivery/inspection evidence. No media edits or platform publication performed.
+- Seedance train edit A8JhkxJ2GEDjunQjQL9w completed at854×480,121frames/5.042s, SHA ad4875bd80f7cb5fc6ea142eccb77140d8c74d5c73e382b82a5c2e41fe0878b1; charged7901.2781568credits / INR114.73. Camera retained but backward motion persists, so not selected. No further paid retry.
+- Local optical-flow/homography experiment retained under shot-11-12-train-forward-local-v03 with its diagnostic script. No corrected composite video was produced; early perspective alignment remains unsuitable. All local correction work is stopped.
+- Updated current publication selection, stopped-work records and provenance. Preparing signed Git commit/push of all project work.
+
+## 2026-11-02T03:21:15+05:30 — Submission rules rechecked; official watermark authorized
+
+- User requests official ElevenCreative watermark on selected v07 and supplies the competition rules URL. Rechecked live terms, brief and official asset folder. Requirements include 15–45s, an original ElevenCreative jingle with a public share link, official watermark, public social posts on at least two listed platforms with required tags/hashtags, raw video on Drive/Frame.io, and a process description. Formal rules deadline: November 1, 2026 23:59 Pacific, equivalent November 2 13:29 IST. Eligibility/rights are entrant representations, not independently certified.
+- Retrieved official logo and placement guide from contest-linked Drive folder; 16:9 guide specifies quarter-frame width at bottom right. Prepare separate 1920x1080 submission copy of v07 with 480px-wide official white logo throughout; retain audio payload and duration. Original v07 preserved. No generation/credits.
+- Music flow 1Wm2iEn6GL4TBWH62VVi already has Public Access enabled. A fresh isolated signed-out browser opens the flow and loads all three 18-second previews; Chrome Swagger is node3flOx8OEYk0pZWRLO0Jb. Public sharing state was not changed. Label selected node and verify exact audio before handing over the form link.
+
+## 2026-11-02T03:26:48+05:30 — Watermarked submission copy and public music link verified
+
+- Saved assets/10-submission/afterhuman-watermarked-v01/afterhuman-submission-watermarked-v01.mp4, SHA-256 04f71be660d98ec95bbbd2aac8ff022cfa713f1a54ccdb7cfa4c7274643352a7. Full decode verifies1920x1080,24fps,1077frames,44.875s picture/audio. Official logo480x48px at bottom right with32px margins and subtle shadow throughout including end card. Original v07/logo hashes unchanged. AAC stream-copy hash identical; no audio remix/retime. Sampled watermark on opening/station/transform/speed/brand frames. User playback of derived copy pending.
+- Public music workspace verified anonymously with exact locked Chrome Swagger bytes (SHA600ee8ec8049fb8196d5fb62365b26afab3ed7db33d634ec2b9f99ad45da7d6b). Label-only change identifies chosen node. Existing sharing unchanged; no paid generation. Live form inspected read-only and confirms public workspace link, raw video hosted on Drive/Frame.io and social posts. No submission or social/raw-video publication by assistant.
+- Reproduction script/config, official asset provenance, export verification and submission notes saved. Earlier train corrections remain stopped/unselected. Preparing signed commit/push of all requested work. Whitespace check flags only an existing exact submitted prompt trailing blank line; preserved to avoid changing recorded prompt bytes. JSON/Python parsing, credential-pattern scan and sub100MiB file checks passed. Initial metadata helper had a JavaScript duplicate-declaration syntax error before execution; corrected without altering media.

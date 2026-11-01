@@ -1,0 +1,52 @@
+{
+  "title": "Coffee revision \u2014 tighter forward run, edited left glance and visible catch",
+  "fps": 24,
+  "render_width": 854,
+  "render_height": 480,
+  "framing": "fit",
+  "audio_target_rms_dbfs": -28,
+  "audio_gain_limit_db": 0,
+  "crossfade_half_seconds": 0.008,
+  "clips": [
+    {
+      "shot": "Forward FPP running",
+      "picture": "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 36,
+      "audio_gain_db": 0
+    },
+    {
+      "shot": "Leftward glimpse: mug already airborne",
+      "picture": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "source_in_frames": 32,
+      "duration_frames": 3,
+      "audio_gain_db": 0
+    },
+    {
+      "shot": "Visible third-person catch",
+      "picture": "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "source_in_frames": 69,
+      "duration_frames": 27,
+      "audio_gain_db": 0
+    },
+    {
+      "shot": "Retained original crouch, return and sprint",
+      "picture": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "source_in_frames": 96,
+      "duration_frames": 147,
+      "audio_gain_db": 0
+    }
+  ],
+  "notes": [
+    "Total 213 frames / 8.875 seconds, all sources at original speed. Shorter than old coffee slot by 1.25 seconds; no accepted ad timing changed.",
+    "New generated opening failed literal left yaw and already-falling first reveal. Assemble corrected ordering from new forward-running/catch footage and three old FPP airborne-mug frames.",
+    "Local whip-pan cue at timeline frames 32\u201335 before three airborne-mug frames; editorial cue rather than physical generated head rotation.",
+    "First-person airborne glimpse is brief (three frames / 0.125 s). Review legibility and cup continuity through the TPP cut.",
+    "Original footage source [4.0,10.125) retained after new visible catch. Approved ad unchanged.",
+    "Shorter lead-in excludes the new source lingering near the man after about 1.5 seconds. Earlier 10.125-second base remains as a non-selected assembly experiment."
+  ]
+}

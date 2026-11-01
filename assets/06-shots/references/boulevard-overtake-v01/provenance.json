@@ -1,0 +1,16 @@
+{
+  "imported_at": "2026-11-02T02:30:37+05:30",
+  "source": "User attachment in current conversation",
+  "user_instruction": "Yes go ahead. Use this image",
+  "source_path": "/var/folders/w1/7l882pl14b73zt97rm8r6qk80000gn/T/codex-clipboard-iSfa4N.png",
+  "file": "assets/06-shots/references/boulevard-overtake-v01/user-approved-start.png",
+  "sha256": "fde9654b1395297e3a9dc988e420b10fb58be5c64b72ad2da17a2ed4971d76ac",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "provider_content_asset_id": "PFqkIVHa2ZI9uplMVzai",
+  "flow_node_id": "auMJwRpCIDcwyqksrIev",
+  "modified": false,
+  "relationship": "User-provided copy of approved matched-boulevard direction; exact attached bytes used, no rescale or substitution."
+}

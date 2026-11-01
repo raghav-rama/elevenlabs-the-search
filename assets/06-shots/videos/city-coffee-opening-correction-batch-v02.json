@@ -1,0 +1,78 @@
+{
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "model_id": "bytedance-seedance-v2.5",
+  "status": "user_rejected_editorial_candidate",
+  "requested_generations": 1,
+  "generations_per_shot": 1,
+  "requested_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "480p",
+    "duration_secs": 4,
+    "generate_audio": true
+  },
+  "estimate": {
+    "credits": 5209.176,
+    "price_cents": 7563.723552000001,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "selected": false,
+  "user_approved": false,
+  "retries": 0,
+  "review_sample_count": 17,
+  "review_interval_seconds": 0.25,
+  "shots": [
+    {
+      "asset_id": "shot-09-coffee-opening-correction-seedance-480p-v02",
+      "title": "Coffee opening correction — run forward, look left, catch",
+      "node_id": "IlNUVcYI6ccniIfG7Tl2",
+      "record_file": "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.generation.json",
+      "prompt_file": "assets/06-shots/video-prompts/shot-09-coffee-opening-correction-seedance-480p-v02.txt",
+      "output_file": "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "status": "partial_staging_failure_locally_recut_pending_user_review",
+      "generation_id": "9SkgpIT0q8CSzsSidqOF",
+      "session_id": "OHQaQ2KeFsIrosa06aMb",
+      "sha256": "8139e8f150a87ec1d0488c0d09c3ecf266e2ee8ffcb9421e6c0c915a98093395",
+      "latest_review_record": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v03/review.json"
+    }
+  ],
+  "submitted_at": "2026-11-01T21:48:29+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "IlNUVcYI6ccniIfG7Tl2",
+        "session_id": "OHQaQ2KeFsIrosa06aMb",
+        "credit_costs": {
+          "9SkgpIT0q8CSzsSidqOF": 5209.176
+        }
+      }
+    ],
+    "session_ids": [
+      "OHQaQ2KeFsIrosa06aMb"
+    ],
+    "pending": [
+      {
+        "generation_id": "9SkgpIT0q8CSzsSidqOF",
+        "kind": "video"
+      }
+    ]
+  },
+  "session_ids": [
+    "OHQaQ2KeFsIrosa06aMb"
+  ],
+  "completed_at": "2026-11-01T21:51:56+05:30",
+  "completed_generations": 1,
+  "total_reported_price": {
+    "credits": 5209.176,
+    "price_cents": 7563.723552000001,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T22:03:23+05:30",
+  "gallery_title": "AFTERHUMAN · Coffee opening revision",
+  "gallery_description": "Forward run, a brief edited leftward glance at the falling mug, a visible catch, then the original handoff and sprint.",
+  "gallery_status": "User rejected this edit. Retained for history; next test uses a MiniMax slow-motion orbit.",
+  "gallery_footer": "One four-second Seedance 2.5 / 480p take · 5,209.176 credits / INR 75.64 · Original footage retained"
+}

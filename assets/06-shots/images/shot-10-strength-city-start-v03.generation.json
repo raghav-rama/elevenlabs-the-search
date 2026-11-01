@@ -1,0 +1,94 @@
+{
+  "key": "strength",
+  "asset_id": "shot-10-strength-city-start-v03",
+  "source_node": "QfVCzhaRtnILiD2S3UCI",
+  "source_asset": "shot-10-strength-city-start-v02",
+  "title": "10 \u2014 Strength / intact doors before bending",
+  "location": "Transit service entrance",
+  "prompt": "Edit the supplied first-person door image into the BEFORE-STATE, just before Riley applies superhuman force. Preserve the camera height, natural skin/chrome-inlay hands, paired first-person perspective, dark brushed metal finish, gold edge-lighting, cyan accents and overall city-world palette.\n\nReplace both distorted door leaves with INTACT, rigid, flat heavy steel bulkhead panels. Their inner edges are straight vertical lines, parallel and nearly together. The center opening is only a narrow roughly 6\u20138 cm vertical slit from top to bottom: it occupies about 4 percent of the image width, not the current wide opening. A sliver of warm service-corridor light is visible through it; no full person or wide street view can be seen through this tiny gap.\n\nRemove every buckle, wavy fold, pinched surface, crumple, dent and bent edge. These doors have not yet moved or deformed. Manufactured shallow panel seams and smooth bevels may remain, but never wrinkles or metal that follows the finger outlines. The steel must look heavy, straight and undamaged.\n\nRiley has two ordinary adult hands, five natural fingers each. Both hands sit close together near the central slit, one gripping each opposing straight inner edge with fingers hooking through the gap. Their contact is established without deforming the steel. Keep wrists near the body, elbows outside frame and only short lower forearms visible. Retain mostly human skin and narrow flush chrome/cyan inlays, not robotic hands. No external body or giant/stretched arms. This is the exact moment BEFORE the pull begins, not a mid-action shot. One photoreal 16:9 still, no typography.",
+  "prompt_file": "assets/06-shots/prompts/shot-10-strength-city-start-v03.txt",
+  "node_id": "KUuSnfPixqllUfbpelUI",
+  "model_parameters": {
+    "images": [
+      {
+        "template_node_id": "QfVCzhaRtnILiD2S3UCI"
+      }
+    ],
+    "quality": "low",
+    "aspect_ratio": "16:9",
+    "resolution": "1K"
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "QfVCzhaRtnILiD2S3UCI",
+          "label": "shot-10-strength-city-start-v02 \u2014 STILL / REVIEW"
+        }
+      ]
+    }
+  ],
+  "provider": "ElevenLabs",
+  "model_id": "gpt-image-2",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "status": "user_approved_still_reference",
+  "selected": true,
+  "user_approved": true,
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "prepared_at": "2026-11-01T18:48:05+05:30",
+  "prompt_sha256": "c8b98c97085f73b6325306abc8e35c378613a333b17c21abced79630a64f2c6f",
+  "output_file": "assets/06-shots/images/shot-10-strength-city-start-v03.png",
+  "revision_of": "shot-10-strength-city-start-v02",
+  "references": [
+    {
+      "order": 1,
+      "role": "source image for targeted correction",
+      "file": "assets/06-shots/images/shot-10-strength-city-start-v02.png",
+      "sha256": "406627023b0e16b1b7c456591b88580202ca35d1afc1f84cd048d759c15f22b5",
+      "generation_id": "Q5S7G1qSAMPNz37UZPdB",
+      "node_id": "QfVCzhaRtnILiD2S3UCI"
+    }
+  ],
+  "session_id": "nN9FsE232V7GSLbTUaR8",
+  "generation_id": "q67smGvK5j2KnkkB8uTn",
+  "provider_reported_price": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793539086348,
+  "sha256": "0814b2efafdba015b5819b664813d9c894c06bb935bdfc62573b26fc2fc3b87f",
+  "bytes": 1363018,
+  "width": 1280,
+  "height": 720,
+  "completed_at": "2026-11-01T18:49:38+05:30",
+  "assistant_visual_review": {
+    "observations": [
+      "Both door leaves now have straight, intact inner edges with a narrow vertical opening.",
+      "The earlier crumples and wide mid-bend gap are gone.",
+      "Paired first-person hands grip near the center; natural skin and narrow chrome/cyan inlays remain."
+    ],
+    "limitations": [
+      "Grip contact and eventual metal bending must remain coherent during animation.",
+      "Centimetre-scale gap and real-world hand dimensions are prompt targets, not measured physical quantities."
+    ],
+    "reviewed_at": "2026-11-01T18:51:43+05:30",
+    "method": "Native 1280x720 still inspection against original erroneous source",
+    "user_selection_pending": false
+  },
+  "approved_at": "2026-11-01T19:00:22+05:30",
+  "approval_evidence": "Looks good now",
+  "approval_scope": "Still composition/reference for the next motion pass; animation remains untested."
+}

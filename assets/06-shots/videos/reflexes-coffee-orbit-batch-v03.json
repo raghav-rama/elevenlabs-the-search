@@ -1,0 +1,83 @@
+{
+  "status": "revision_requested_hidden_release_and_speed",
+  "flow_id": "J725xEy49QY4xa6L66pw",
+  "flow_url": "https://elevenlabs.io/app/flows/J725xEy49QY4xa6L66pw",
+  "model_id": "minimax-h3",
+  "requested_generations": 1,
+  "generations_per_shot": 1,
+  "requested_settings": {
+    "resolution": "480p",
+    "duration_secs": 10
+  },
+  "estimate": {
+    "credits": 3030,
+    "price_cents": 4399.56,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 240
+  },
+  "selected": false,
+  "user_approved": false,
+  "retries": 0,
+  "review_sample_count": 25,
+  "review_interval_seconds": 0.4166666667,
+  "shots": [
+    {
+      "asset_id": "shot-09-reflexes-coffee-orbit-minimax-v03",
+      "title": "Coffee orbit — approved one-hand start and close downward catch",
+      "node_id": "5jHW78vrFD1fITuajiRd",
+      "record_file": "assets/06-shots/videos/shot-09-reflexes-coffee-orbit-minimax-v03.generation.json",
+      "prompt_file": "assets/06-shots/video-prompts/shot-09-reflexes-coffee-orbit-minimax-v03.txt",
+      "output_file": "assets/06-shots/videos/shot-09-reflexes-coffee-orbit-minimax-v03.mp4",
+      "status": "revision_requested_hidden_release_and_speed",
+      "generation_id": "NiVvrwfK6h9Vih4TJXmH",
+      "session_id": "59azPRk7wO0kYlNqgywm",
+      "sha256": "89159ef7a9e9e37bcde040bb995dd56e6e6cdee9236bf70e1581619733ded4c0",
+      "latest_review_record": "assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v03/review.json"
+    }
+  ],
+  "submitted_at": "2026-11-01T22:47:08+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "5jHW78vrFD1fITuajiRd",
+        "session_id": "59azPRk7wO0kYlNqgywm",
+        "credit_costs": {
+          "NiVvrwfK6h9Vih4TJXmH": 3030
+        }
+      }
+    ],
+    "session_ids": [
+      "59azPRk7wO0kYlNqgywm"
+    ],
+    "pending": [
+      {
+        "generation_id": "NiVvrwfK6h9Vih4TJXmH",
+        "kind": "video"
+      }
+    ]
+  },
+  "session_ids": [
+    "59azPRk7wO0kYlNqgywm"
+  ],
+  "completed_at": "2026-11-01T22:48:36+05:30",
+  "completed_generations": 1,
+  "total_reported_price": {
+    "credits": 3030,
+    "price_cents": 4399.56,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T22:52:13+05:30",
+  "gallery_title": "AFTERHUMAN · Coffee fixed-start MiniMax test",
+  "gallery_description": "Approved one-hand starting image. A close downward rescue, handback and departure.",
+  "gallery_status": "Revision requested: hide cup/release during fast FPP; discover airborne cup after time dilation and TPP reaction, then orbit catch.",
+  "gallery_footer": "MiniMax H3 via ElevenLabs · 832×480 · 24 fps · 10.125s · One take · 3,030 credits / INR 44.00",
+  "user_feedback": {
+    "at": "2026-11-01T23:02:36+05:30",
+    "source": "explicit_user_message",
+    "summary": "Opening cup must be out of frame. Fast FPP with blurred sides, sudden slow motion and side glance, switch to TPP with readable sideways eye movement, circular camera during a quick nearby catch. Visible release repeatedly reads intentional.",
+    "scope": "Revised choreography and reference requirements; existing outputs are not accepted by this feedback.",
+    "plan": "assets/06-shots/shot-09-coffee-hidden-drop-direction-v04.md"
+  }
+}

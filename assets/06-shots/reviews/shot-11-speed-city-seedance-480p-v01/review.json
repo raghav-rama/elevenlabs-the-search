@@ -1,0 +1,46 @@
+{
+  "asset_id": "shot-11-speed-city-seedance-480p-v01",
+  "title": "11 — First-person boulevard super-speed",
+  "location": "Daylight cyberpunk avenue beneath elevated rail",
+  "status": "user_approved_take",
+  "output_file": "assets/06-shots/videos/shot-11-speed-city-seedance-480p-v01.mp4",
+  "sha256": "56119b42fe65e94cd4dd546386b5c4b4f2f5a2845c08e61d4c20b30e19acc3ec",
+  "model_id": "bytedance-seedance-v2.5",
+  "generation_id": "ozRVXJ1A6BM28QNaLiE6",
+  "session_id": "BblzD2mNvNYSuEFkGtw2",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-11-02T00:34:40+05:30",
+    "method": "Twenty frames sampled every0.25 seconds plus full-frame decode; compared with the approved starting still. Numeric audio review only, not continuous playback or independent listening.",
+    "observations": [
+      "The initial paired reaching pose changes into alternating lower-frame hands; only brief portions of ordinary-scale forearms remain visible.",
+      "Bollards, paving, nearby pedestrians and rail supports translate past the viewpoint; successive skybridges approach and pass overhead. Forward movement is present rather than just a stationary blurred frame.",
+      "Peripheral blur and cyan trails accompany continued motion across the sampled middle and ending; no stationary final pose is visible.",
+      "Bright glass towers, warm gold lights, cyan rail accents and damp reflections remain consistent with the selected cyberpunk city.",
+      "The train stays longitudinally aligned with the elevated rail on the left; no perpendicular train turn or head-on reveal is apparent in the samples."
+    ],
+    "limitations": [
+      "Sampled frames cannot establish exact perceived speed, constant velocity, convincing running cadence or smoothness; judge full-speed playback against the music.",
+      "The train has limited distinguishing features; its independent travel direction/speed cannot be firmly separated from camera movement in this inspection.",
+      "Cyan hand trails and motion blur become prominent, and the moving finger anatomy is not fully resolved at480p.",
+      "Native audio decoded/measured only; no independent listening approval or verification of dialogue/music absence.",
+      "Full source is5.042 picture seconds while the current speed slot is2.5s. No final range selection, retiming or accepted-ad replacement has been performed."
+    ]
+  },
+  "native_audio_analysis": {
+    "file": "assets/06-shots/reviews/shot-11-speed-city-seedance-480p-v01/native-audio.wav",
+    "levels_file": "assets/06-shots/reviews/shot-11-speed-city-seedance-480p-v01/native-audio-levels.txt",
+    "rms_dbfs": -23.677436581561857,
+    "peak_dbfs": -7.312068080302071,
+    "decoded_duration_seconds": 5.0555,
+    "listening_review": false
+  },
+  "selected": true,
+  "user_approved": true,
+  "reviewed_at": "2026-11-02T00:34:40+05:30",
+  "approval": {
+    "at": "2026-11-02T00:39:22+05:30",
+    "quote": "Looks good, continue",
+    "source": "explicit_user_message",
+    "scope": "Approve delivered boulevard speed take for use; exact final excerpt and sound mix remain editing decisions. Continue the announced station-launch replacement."
+  }
+}

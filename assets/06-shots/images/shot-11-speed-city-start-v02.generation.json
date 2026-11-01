@@ -1,0 +1,128 @@
+{
+  "concept": "speed",
+  "asset_id": "shot-11-speed-city-start-v02",
+  "prompt_file": "assets/06-shots/prompts/shot-11-speed-city-start-v02-run.txt",
+  "draft_prompt": "assets/06-shots/prompts/shot-11-speed-city-start-v02.txt",
+  "prompt_sha256": "81a09255b3bab64fc9af2d775d8fa0737b2f0f132663802a4be0fdb9abe354ba",
+  "prompt": "Reference roles: the transformed Riley station frame supplies CITY ARCHITECTURE, materials and daylight only; create a new district location, do not copy the station platform or its standing Riley. The full-body gold outfit reference supplies her exact gold wrap dress, black-and-gold boots, natural skin and slim chrome/cyan inlays. The train side reference supplies graphite metal, cyan trim and warm gold detailing only, not its side-view camera. One image, no collage.\n\nPhotoreal cinematic commercial, 16:9. One coherent near-future city matching the supplied approved station frame: layered glass megastructures, brushed dark metal, elevated rail and skybridges, cyan light strips, restrained magenta signage and warm gold practical lighting. Bright hazy daylight, slightly damp reflective surfaces, natural skin and physical materials. Preserve the station's welcoming luminous look; do not change to a night city. Background pedestrians wear plausible future-city streetwear, not matching uniforms. Establish infrastructure and architecture as futuristic; neon added to an otherwise contemporary street is insufficient. No illegible foreground advertising, title cards or model-generated AFTERHUMAN typography; exact product labels will be added editorially.\n\nFirst-person view down a straight futuristic boulevard under the same elevated rail viaduct, with the same skyline, reflective metal/glass facades, cyan strips and restrained magenta signage in hazy daylight. Clear forward path; ordinary-scale alternating hands with the selected thin chrome inlays near the lower frame edges. Low roadside bollards and paving joints create strong near-field parallax for subsequent acceleration; do not rely on painted motion streaks alone. Glimpse the established dark cyan-and-gold train moving in the same forward direction on the parallel elevated line. No oncoming train and no modern brick neighborhood.\n",
+  "node_id": "R4yYXsOJddxHFO6pdJ0Q",
+  "reference_keys": [
+    "world",
+    "wardrobe",
+    "train"
+  ],
+  "model_parameters": {
+    "images": [
+      {
+        "template_node_id": "oq4i1gtPgBZQWZjKpyK9"
+      },
+      {
+        "template_node_id": "LsmAOIUrwmaZEKFGxI1L"
+      },
+      {
+        "template_node_id": "KKt8of3l6YC47FIQnVG9"
+      }
+    ],
+    "quality": "low",
+    "aspect_ratio": "16:9",
+    "resolution": "1K"
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "oq4i1gtPgBZQWZjKpyK9",
+          "label": "WORLD \u2014 approved transformation ending, city architecture and daylight"
+        },
+        {
+          "id": "LsmAOIUrwmaZEKFGxI1L",
+          "label": "APPROVED \u2014 Gold dress, natural skin, narrow chrome inlays"
+        },
+        {
+          "id": "KKt8of3l6YC47FIQnVG9",
+          "label": "TRAIN \u2014 graphite, cyan and warm gold; livery and city materials"
+        }
+      ]
+    }
+  ],
+  "title": "11 \u2014 Speed / avenue under elevated rail",
+  "location": "Avenue beneath elevated rail",
+  "status": "user_approved_still_reference",
+  "selected": true,
+  "user_approved": true,
+  "provider": "ElevenLabs",
+  "model_id": "gpt-image-2",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "output_file": "assets/06-shots/images/shot-11-speed-city-start-v02.png",
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "prepared_at": "2026-11-01T18:28:47+05:30",
+  "references": [
+    {
+      "node_id": "oq4i1gtPgBZQWZjKpyK9",
+      "content_asset_id": "31PjGeIKM3pQc1ShkXkD",
+      "file": "assets/06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/last-picture-frame.png",
+      "sha256": "c0e544d85a36ece78e5455ca84632130e692f9e5ed9c9c3835a8047dc8ea3ba0",
+      "order": 1,
+      "role": "approved station architecture/daylight only"
+    },
+    {
+      "node_id": "LsmAOIUrwmaZEKFGxI1L",
+      "generation_id": "WboGh1QOlITNwOVIn0Gj",
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6",
+      "order": 2,
+      "role": "approved gold dress, boots, natural skin and narrow chrome inlays"
+    },
+    {
+      "node_id": "KKt8of3l6YC47FIQnVG9",
+      "content_asset_id": "tFT9KA7avFVxxFzuLkMj",
+      "file": "assets/05-train/images/train-01-v02.png",
+      "sha256": "6191d92b40f7cf54ebb763892720315cb15a4cb44b3a663cc31d732b762ed2b5",
+      "order": 3,
+      "role": "approved train livery and materials"
+    }
+  ],
+  "session_id": "a6ayncGPbnVOuBbXqOOf",
+  "generation_id": "yEkmgOxfbhVEsv0aItJk",
+  "provider_reported_price": {
+    "credits": 688.8745945945946,
+    "price_cents": 1000.2459113513514,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793538028528,
+  "sha256": "45a89895c62267f9b4ecb1347bde5a6f0536cac805a54435c4ebb16f8ded041f",
+  "bytes": 1978715,
+  "width": 1280,
+  "height": 720,
+  "completed_at": "2026-11-01T18:32:00+05:30",
+  "assistant_visual_review": {
+    "observations": [
+      "Open central avenue with dense glass towers, skybridges, elevated train and consistent daylight palette.",
+      "Close bollards and paving provide foreground references for future acceleration.",
+      "First-person hands retain skin and cyan/chrome accents."
+    ],
+    "limitations": [
+      "Static image cannot demonstrate speed; acceleration must come from actual foreground translation.",
+      "Both hands are extended similarly rather than alternating in a sprint pose.",
+      "Train travel direction is not established by this side-view still; motion prompt must preserve parallel travel."
+    ],
+    "reviewed_at": "2026-11-01T18:33:19+05:30",
+    "method": "Native 1280x720 still inspection",
+    "user_selection_pending": false
+  },
+  "approved_at": "2026-11-01T19:00:22+05:30",
+  "approval_evidence": "Looks good now",
+  "approval_scope": "Still composition/reference for the next motion pass; animation remains untested."
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://elevenlabs.io/app/flows/1Wm2iEn6GL4TBWH62VVi",
+  "loggedOut": true,
+  "label": "Chrome Swagger \u2014 SELECTED AFTERHUMAN jingle\n\nEleven Music\n\n0:17\n\nLyrics",
+  "audios": [
+    {
+      "duration": 18,
+      "status": 200,
+      "bytes": 450322,
+      "sha256": "ebc682cc873c721e9e87f13538b9d77c9a726338e2f6ae0592c105dcf4ebb09e"
+    },
+    {
+      "duration": 18,
+      "status": 200,
+      "bytes": 450322,
+      "sha256": "600ee8ec8049fb8196d5fb62365b26afab3ed7db33d634ec2b9f99ad45da7d6b"
+    },
+    {
+      "duration": 18,
+      "status": 200,
+      "bytes": 450322,
+      "sha256": "fda62fc337f3ec0219b7960e4e64ba068bec8e93bccfd8211b2c99d574d1841f"
+    }
+  ],
+  "verification": "Fresh browser context without sign-in; fetched each public audio preview and matched locked Chrome Swagger SHA-256.",
+  "sharing_changed": false,
+  "node_id": "3flOx8OEYk0pZWRLO0Jb",
+  "selected_sha256": "600ee8ec8049fb8196d5fb62365b26afab3ed7db33d634ec2b9f99ad45da7d6b"
+}

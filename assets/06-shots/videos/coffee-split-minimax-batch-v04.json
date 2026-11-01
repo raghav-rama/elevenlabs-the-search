@@ -1,0 +1,113 @@
+{
+  "status": "tpp_user_preferred_over_seedance",
+  "flow_id": "J725xEy49QY4xa6L66pw",
+  "flow_url": "https://elevenlabs.io/app/flows/J725xEy49QY4xa6L66pw",
+  "created_at": "2026-11-01T23:12:31+05:30",
+  "model_id": "minimax-h3-max",
+  "estimate": {
+    "credits": 3939,
+    "price_cents": 5719.428,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "requested_generations": 2,
+  "generations_per_shot": 1,
+  "retries": 0,
+  "selected": false,
+  "user_approved": false,
+  "review_sample_count": 21,
+  "review_interval_seconds": 0.25,
+  "shots": [
+    {
+      "asset_id": "shot-09-coffee-fpp-run-minimax-v04",
+      "title": "A \u2014 Cup-free first-person sprint and time dilation",
+      "node_id": "T1AMnEJVRbvlDIvMkjIy",
+      "record_file": "assets/06-shots/videos/shot-09-coffee-fpp-run-minimax-v04.generation.json",
+      "prompt_file": "assets/06-shots/video-prompts/shot-09-coffee-fpp-run-minimax-v04.txt",
+      "output_file": "assets/06-shots/videos/shot-09-coffee-fpp-run-minimax-v04.mp4",
+      "duration_secs": 5,
+      "session_id": "r6OadRusONjVgNZhNVch",
+      "generation_id": "IUpfMhajyM3DgSZ6FXXr",
+      "status": "prototype_partial_compliance_pending_user_review",
+      "sha256": "24be973fe71d67cd3810dfa21e951221e9a4b46916374e70b80873c06962abb3",
+      "latest_review_record": "assets/06-shots/reviews/shot-09-coffee-fpp-run-minimax-v04/review.json"
+    },
+    {
+      "asset_id": "shot-09-coffee-tpp-orbit-minimax-v04",
+      "title": "B \u2014 Sideways reaction, orbit catch, handback and launch",
+      "node_id": "9tvfvZOr870lEHrhMAJQ",
+      "record_file": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.generation.json",
+      "prompt_file": "assets/06-shots/video-prompts/shot-09-coffee-tpp-orbit-minimax-v04.txt",
+      "output_file": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+      "duration_secs": 8,
+      "session_id": "HoAb4oZbNlCkV1yOOrAo",
+      "generation_id": "0cMoOnHP1IFaoQRroLMC",
+      "status": "user_preferred_over_seedance",
+      "sha256": "f5efe45d4615c8e650ede34edc5f542c285d934a44d790287617efcb77e5343c",
+      "latest_review_record": "assets/06-shots/reviews/shot-09-coffee-tpp-orbit-minimax-v04/review.json",
+      "selected": true,
+      "user_approved": true
+    }
+  ],
+  "submitted_at": "2026-11-01T23:12:47+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "T1AMnEJVRbvlDIvMkjIy",
+        "session_id": "r6OadRusONjVgNZhNVch",
+        "credit_costs": {
+          "IUpfMhajyM3DgSZ6FXXr": 1515
+        }
+      },
+      {
+        "success": true,
+        "node_id": "9tvfvZOr870lEHrhMAJQ",
+        "session_id": "HoAb4oZbNlCkV1yOOrAo",
+        "credit_costs": {
+          "0cMoOnHP1IFaoQRroLMC": 2424
+        }
+      }
+    ],
+    "session_ids": [
+      "r6OadRusONjVgNZhNVch",
+      "HoAb4oZbNlCkV1yOOrAo"
+    ],
+    "pending": [
+      {
+        "generation_id": "IUpfMhajyM3DgSZ6FXXr",
+        "kind": "video"
+      },
+      {
+        "generation_id": "0cMoOnHP1IFaoQRroLMC",
+        "kind": "video"
+      }
+    ]
+  },
+  "session_ids": [
+    "r6OadRusONjVgNZhNVch",
+    "HoAb4oZbNlCkV1yOOrAo"
+  ],
+  "completed_at": "2026-11-01T23:13:35+05:30",
+  "completed_generations": 2,
+  "total_reported_price": {
+    "credits": 3939,
+    "price_cents": 5719.428,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T23:16:52+05:30",
+  "gallery_title": "AFTERHUMAN \u00b7 Coffee split prototype v04",
+  "gallery_description": "Two separate MiniMax takes: fast first-person run, then third-person airborne-cup rescue.",
+  "gallery_status": "MiniMax v04 TPP is the user-preferred catch. Combined edit retained; no final ad lock implied.",
+  "gallery_footer": "MiniMax H3 Max \u00b7 Native 832\u00d7480 \u00b7 24 fps \u00b7 Two takes \u00b7 Video cost 3,939 credits / INR 57.19",
+  "review_index": "assets/06-shots/reviews/coffee-split-minimax-v04/README.md",
+  "user_feedback": {
+    "at": "2026-11-01T23:38:50+05:30",
+    "source": "explicit_user_message",
+    "quote": "Nope this looks better /Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+    "preferred_take": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+    "scope": "User prefers MiniMax v04 over the Seedance test for this TPP shot. Selection applies to this comparison, not a final ad lock, upscale or regeneration authorization."
+  },
+  "updated_at": "2026-11-01T23:38:50+05:30"
+}

@@ -1,0 +1,88 @@
+{
+  "status": "user_approved_take",
+  "created_at": "2026-11-02T00:27:59+05:30",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "model_id": "bytedance-seedance-v2.5",
+  "generations_per_shot": 1,
+  "requested_generations": 1,
+  "submitted_generations": 1,
+  "retries_submitted": 0,
+  "estimate": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "review_sample_count": 20,
+  "review_interval_seconds": 0.25,
+  "shots": [
+    {
+      "asset_id": "shot-11-speed-city-seedance-480p-v01",
+      "title": "11 — First-person boulevard super-speed",
+      "node_id": "qnHd7DPaivpKNC9qXmoG",
+      "record_file": "assets/06-shots/videos/shot-11-speed-city-seedance-480p-v01.generation.json",
+      "prompt_file": "assets/06-shots/video-prompts/shot-11-speed-city-seedance-480p-v01.txt",
+      "output_file": "assets/06-shots/videos/shot-11-speed-city-seedance-480p-v01.mp4",
+      "status": "user_approved_take",
+      "session_id": "BblzD2mNvNYSuEFkGtw2",
+      "generation_id": "ozRVXJ1A6BM28QNaLiE6",
+      "sha256": "56119b42fe65e94cd4dd546386b5c4b4f2f5a2845c08e61d4c20b30e19acc3ec",
+      "latest_review_record": "assets/06-shots/reviews/shot-11-speed-city-seedance-480p-v01/review.json",
+      "selected": true,
+      "user_approved": true
+    }
+  ],
+  "submitted_at": "2026-11-02T00:28:00+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "qnHd7DPaivpKNC9qXmoG",
+        "session_id": "BblzD2mNvNYSuEFkGtw2",
+        "credit_costs": {
+          "ozRVXJ1A6BM28QNaLiE6": 6511.470000000001
+        }
+      }
+    ],
+    "session_ids": [
+      "BblzD2mNvNYSuEFkGtw2"
+    ],
+    "pending": [
+      {
+        "generation_id": "ozRVXJ1A6BM28QNaLiE6",
+        "kind": "video"
+      }
+    ],
+    "summary": {
+      "nodes_run": 1,
+      "generations_started": 1,
+      "failed": 0,
+      "generations_by_node": {
+        "qnHd7DPaivpKNC9qXmoG": 1
+      }
+    }
+  },
+  "session_ids": [
+    "BblzD2mNvNYSuEFkGtw2"
+  ],
+  "completed_at": "2026-11-02T00:33:28+05:30",
+  "completed_generations": 1,
+  "total_reported_price": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-02T00:34:40+05:30",
+  "review": "assets/06-shots/reviews/shot-11-speed-city-seedance-480p-v01/README.md",
+  "review_player": "assets/06-shots/reviews/shot-11-speed-city-seedance-480p-v01/index.html",
+  "selected": true,
+  "user_approved": true,
+  "approval": {
+    "at": "2026-11-02T00:39:22+05:30",
+    "quote": "Looks good, continue",
+    "source": "explicit_user_message",
+    "scope": "Approve delivered boulevard speed take for use; exact final excerpt and sound mix remain editing decisions. Continue the announced station-launch replacement."
+  }
+}

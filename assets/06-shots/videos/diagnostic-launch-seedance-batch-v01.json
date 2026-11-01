@@ -1,0 +1,93 @@
+{
+  "status": "user_approved_take",
+  "created_at": "2026-11-02T00:58:22+05:30",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "model_id": "bytedance-seedance-v2.5",
+  "generations_per_shot": 1,
+  "requested_generations": 1,
+  "submitted_generations": 1,
+  "retries_submitted": 0,
+  "estimate": {
+    "credits": 14436.450168058802,
+    "price_cents": 20961.725644021382,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "review_sample_count": 32,
+  "review_interval_seconds": 0.25,
+  "shots": [
+    {
+      "asset_id": "shot-06-07-diagnostic-launch-seedance-480p-v01",
+      "title": "06\u201307 \u2014 Continuous diagnostic and preferred launch",
+      "node_id": "zNANNye0YNbi06f1AE6w",
+      "record_file": "assets/06-shots/videos/shot-06-07-diagnostic-launch-seedance-480p-v01.generation.json",
+      "prompt_file": "assets/06-shots/video-prompts/shot-06-07-diagnostic-launch-seedance-480p-v01.txt",
+      "output_file": "assets/06-shots/videos/shot-06-07-diagnostic-launch-seedance-480p-v01.mp4",
+      "status": "user_approved_take",
+      "generation_id": "CeI75xz4e5uwe849gN9N",
+      "session_id": "4pDBLjaLuF9VQzubhCHY",
+      "sha256": "dacbdc7e5c7f03047dcfd91251b4d4554d0d20b54fe88bb740aca22533c7841d",
+      "latest_review_record": "assets/06-shots/reviews/shot-06-07-diagnostic-launch-seedance-480p-v01/review.json",
+      "source_file": "assets/06-shots/reviews/shot-06-07-diagnostic-launch-seedance-480p-v01/diagnostic-text-3_125s.png",
+      "selected": true,
+      "user_approved": true
+    }
+  ],
+  "submitted_at": "2026-11-02T00:58:42+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "zNANNye0YNbi06f1AE6w",
+        "session_id": "4pDBLjaLuF9VQzubhCHY",
+        "credit_costs": {
+          "CeI75xz4e5uwe849gN9N": 14436.450168058802
+        }
+      }
+    ],
+    "summary": {
+      "nodes_run": 1,
+      "generations_started": 1,
+      "failed": 0,
+      "generations_by_node": {
+        "zNANNye0YNbi06f1AE6w": 1
+      }
+    },
+    "session_ids": [
+      "4pDBLjaLuF9VQzubhCHY"
+    ],
+    "pending": [
+      {
+        "generation_id": "CeI75xz4e5uwe849gN9N",
+        "kind": "video"
+      }
+    ]
+  },
+  "session_ids": [
+    "4pDBLjaLuF9VQzubhCHY"
+  ],
+  "completed_at": "2026-11-02T01:02:40+05:30",
+  "completed_generations": 1,
+  "total_reported_price": {
+    "credits": 14436.450168058802,
+    "price_cents": 20961.725644021382,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-02T01:05:03+05:30",
+  "review": "assets/06-shots/reviews/shot-06-07-diagnostic-launch-seedance-480p-v01/README.md",
+  "review_player": "assets/06-shots/reviews/shot-06-07-diagnostic-launch-seedance-480p-v01/index.html",
+  "gallery_title": "AFTERHUMAN \u00b7 Continuous diagnostic and launch",
+  "gallery_description": "One generated take using the full diagnostic video and preferred original MiniMax launch as actual motion references, plus approved Riley, wardrobe and station images.",
+  "gallery_status": "Combined diagnostic and launch take approved for use. Original timing retained; final full-cut assembly is the next review.",
+  "gallery_footer": "Seedance 2.5 via ElevenLabs \u00b7 854\u00d7480 \u00b7 24fps \u00b7 193 picture frames /8.042s \u00b7 14,436.45 credits /\u20b9209.62 \u00b7 Native output, no retiming",
+  "selected": true,
+  "user_approved": true,
+  "approval": {
+    "at": "2026-11-02T01:09:23+05:30",
+    "quote": "Okay looks good. Let's move on",
+    "source": "explicit_user_message",
+    "scope": "Approve the combined diagnostic/launch take for use. Continue with local full-cut assembly using latest approved/preferred visuals and locked David/Chrome Swagger audio; final assembled review remains pending."
+  }
+}

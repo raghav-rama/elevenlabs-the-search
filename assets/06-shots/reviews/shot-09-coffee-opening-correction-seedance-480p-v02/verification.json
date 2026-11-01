@@ -1,0 +1,29 @@
+{
+  "verified_at": "2026-11-01T22:03:48+05:30",
+  "status": "passed",
+  "source_reference_and_preserved_file_hashes_checked": [
+    "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+    "assets/01-riley/images/riley-cyberpunk-03-v01.png",
+    "assets/06-shots/images/shot-09-coffee-city-start-v03.png",
+    "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/opening-correction-v02/tpp-join-04s.png",
+    "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+    "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/edit-preview-v01/shot-08-hud-c-edit-preview-v01.mp4",
+    "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4",
+    "assets/06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+    "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+    "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/edit-preview-v01/shot-09-coffee-edit-preview-v01.mp4",
+    "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+    "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4"
+  ],
+  "prompt_and_outputs_match": true,
+  "one_generation_no_retries": true,
+  "credits": 5209.176,
+  "final_decoded_frames": 213,
+  "final_duration_seconds": 8.875,
+  "near_black_frames": 0,
+  "source_ranges_verified": true,
+  "local_review_links_checked": 12,
+  "json_files_parsed": 13,
+  "signed_urls_absent_in_checked_json": true,
+  "review_limitations": "Sampled visuals and numeric audio checks only; editorial glance and joins need user playback review."
+}

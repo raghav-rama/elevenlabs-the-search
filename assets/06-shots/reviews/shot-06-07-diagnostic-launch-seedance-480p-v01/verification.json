@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-02T01:05:38+05:30",
+  "generation_id": "CeI75xz4e5uwe849gN9N",
+  "session_id": "4pDBLjaLuF9VQzubhCHY",
+  "one_generation_no_retry": true,
+  "quote_matches_reported_charge": true,
+  "actual_credits": 14436.450168058802,
+  "actual_inr": 209.61725644021382,
+  "two_actual_videos_three_images_verified": true,
+  "output_sha256": "dacbdc7e5c7f03047dcfd91251b4d4554d0d20b54fe88bb740aca22533c7841d",
+  "native_size": [
+    854,
+    480
+  ],
+  "native_frames": 193,
+  "fps": 24,
+  "near_black_frames": 0,
+  "preserved_files_verified": 25,
+  "reference_hashes_verified": 5,
+  "prompt_hash_verified": true,
+  "review_links_verified": [
+    "../../videos/shot-06-07-diagnostic-launch-seedance-480p-v01.mp4",
+    "../../videos/shot-06-07-diagnostic-launch-seedance-480p-v01.mp4"
+  ],
+  "json_and_no_signed_auth_urls_checked": true,
+  "accepted_ad_modified": false,
+  "source_retimed": false,
+  "audio_listening_review": false,
+  "user_review_pending": true
+}

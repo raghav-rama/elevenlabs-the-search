@@ -1,0 +1,71 @@
+{
+  "status": "failed_source_video_pixel_count",
+  "created_at": "2026-11-01T23:45:14+05:30",
+  "flow_id": "J725xEy49QY4xa6L66pw",
+  "flow_url": "https://elevenlabs.io/app/flows/J725xEy49QY4xa6L66pw",
+  "model_id": "bytedance-seedance-v2.5-edit",
+  "requested_generations": 1,
+  "generations_per_shot": 1,
+  "retries": 0,
+  "estimate": {
+    "credits": 12502.022400000002,
+    "price_cents": 18152.936524800003,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "selected": false,
+  "user_approved": false,
+  "review_sample_count": 24,
+  "review_interval_seconds": 0.3333333333,
+  "shots": [
+    {
+      "asset_id": "shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v01",
+      "title": "Seedance Video Edit \u2014 MiniMax performance with approved Riley references",
+      "node_id": "t0b0SzwnFJRUwEGYzWvD",
+      "record_file": "assets/06-shots/videos/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v01.generation.json",
+      "prompt_file": "assets/06-shots/video-prompts/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v01.txt",
+      "output_file": "assets/06-shots/videos/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v01.mp4",
+      "session_id": "UBSv7DG214ppfNOyl3fE",
+      "generation_id": "5YB3U3mQqIH9cj6OFEEN",
+      "status": "failed_source_video_pixel_count"
+    }
+  ],
+  "submitted_at": "2026-11-01T23:45:15+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "t0b0SzwnFJRUwEGYzWvD",
+        "session_id": "UBSv7DG214ppfNOyl3fE",
+        "credit_costs": {
+          "5YB3U3mQqIH9cj6OFEEN": 12502.022400000002
+        }
+      }
+    ],
+    "session_ids": [
+      "UBSv7DG214ppfNOyl3fE"
+    ],
+    "pending": [
+      {
+        "generation_id": "5YB3U3mQqIH9cj6OFEEN",
+        "kind": "video"
+      }
+    ]
+  },
+  "session_ids": [
+    "UBSv7DG214ppfNOyl3fE"
+  ],
+  "failed_at": "2026-11-01T23:47:33+05:30",
+  "failed_generations": 1,
+  "completed_generations": 0,
+  "error_message": "Pixel count must be between 407696 and 8295044. Please adjust your input and try again.",
+  "billing_status": "refunded_user_confirmed",
+  "refund": {
+    "at": "2026-11-01T23:54:02+05:30",
+    "source": "explicit_user_message",
+    "quote": "Yes it was refunded. Retry again",
+    "independently_verified": false,
+    "status": "refunded_user_confirmed"
+  }
+}

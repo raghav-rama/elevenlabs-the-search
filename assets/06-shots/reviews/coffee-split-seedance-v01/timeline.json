@@ -1,0 +1,37 @@
+{
+  "title": "AFTERHUMAN \u2014 Seedance coffee orbit comparison v01",
+  "fps": 24,
+  "render_width": 854,
+  "render_height": 480,
+  "framing": "fit",
+  "audio_target_rms_dbfs": -24,
+  "audio_gain_limit_db": 10,
+  "crossfade_half_seconds": 0.025,
+  "clips": [
+    {
+      "shot": "A \u2014 FPP fast run and beginning of left look",
+      "picture": "assets/06-shots/videos/shot-09-coffee-fpp-run-minimax-v04.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-fpp-run-minimax-v04.mp4",
+      "source_in_frames": 23,
+      "duration_frames": 49,
+      "audio_gain_db": -2
+    },
+    {
+      "shot": "B \u2014 Seedance airborne-cup orbit, handback and launch",
+      "picture": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-seedance-480p-v01.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 191,
+      "audio_gain_db": -1
+    }
+  ],
+  "audio_bridges": [],
+  "audio_ducks": [],
+  "editorial_notes": [
+    "Same source range for liked MiniMax FPP: frames23-71, 49 frames.",
+    "Seedance B first191 frames; all original speed, ten seconds total.",
+    "854x480 canvas preserves full Seedance raster; FPP fitted with narrow side bars, no stretching/crop.",
+    "A native audio -2dB, Seedance -1dB. Different gain offsets account for different native levels; no new sound generation.",
+    "Choreography limitations remain visible; no optical flow, artificial head turn or accepted-cut replacement."
+  ]
+}

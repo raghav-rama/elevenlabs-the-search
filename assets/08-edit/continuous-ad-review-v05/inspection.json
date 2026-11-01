@@ -1,0 +1,33 @@
+{
+  "audio_tracks" : [
+    {
+      "channels" : 2,
+      "codec_fourcc" : "aac ",
+      "duration_seconds" : 51.416666666666664,
+      "sample_rate" : 48000
+    }
+  ],
+  "duration_seconds" : 51.416666666666664,
+  "extracted_frame_seconds" : 51.375,
+  "frame_height" : 1080,
+  "frame_width" : 1920,
+  "last_frame_file" : "assets\/08-edit\/continuous-ad-review-v05\/last-frame.png",
+  "last_frame_sha256" : "90e98850596598f8a3bc598868e0610bed762d1a4255aadd18d1ada10603626d",
+  "last_picture_frame_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/08-edit\/continuous-ad-review-v05\/last-picture-frame.png",
+  "last_picture_frame_seconds" : 51.375,
+  "last_picture_frame_sha256" : "90e98850596598f8a3bc598868e0610bed762d1a4255aadd18d1ada10603626d",
+  "last_video_sample_seconds" : 51.375,
+  "near_black_detection" : "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+  "near_black_frame_times_seconds" : [
+
+  ],
+  "nominal_fps" : 24,
+  "review_limits" : "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+  "script" : "scripts\/inspect-review-video.swift",
+  "source_file" : "assets\/08-edit\/continuous-ad-review-v05\/afterhuman-transformation-restored-v05.mp4",
+  "source_modified" : false,
+  "source_sha256" : "8ce18620513749af5bc08a4c7516991b55630c6b6edf014e71953a1099d93ae3",
+  "video_codec_fourcc" : "avc1",
+  "video_duration_seconds" : 51.416666666666664,
+  "video_samples" : 1234
+}

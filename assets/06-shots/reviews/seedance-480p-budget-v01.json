@@ -1,0 +1,427 @@
+{
+  "status": "estimate_only_no_generation_authorized_or_started",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "model_id": "bytedance-seedance-v2.5",
+  "resolution": "480p",
+  "generate_audio": true,
+  "generations_per_shot": 1,
+  "live_schema": {
+    "model_id": "bytedance-seedance-v2.5",
+    "model_name": "Seedance 2.5",
+    "node_type": "video-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "16:9",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "720p",
+        "options": [
+          {
+            "label": "480p",
+            "value": "480p"
+          },
+          {
+            "label": "720p",
+            "value": "720p"
+          },
+          {
+            "label": "1080p",
+            "value": "1080p"
+          }
+        ]
+      },
+      {
+        "name": "duration_secs",
+        "type": "select_number",
+        "required": false,
+        "default": 5,
+        "options": [
+          {
+            "label": "4",
+            "value": 4
+          },
+          {
+            "label": "5",
+            "value": 5
+          },
+          {
+            "label": "6",
+            "value": 6
+          },
+          {
+            "label": "7",
+            "value": 7
+          },
+          {
+            "label": "8",
+            "value": 8
+          },
+          {
+            "label": "9",
+            "value": 9
+          },
+          {
+            "label": "10",
+            "value": 10
+          },
+          {
+            "label": "11",
+            "value": 11
+          },
+          {
+            "label": "12",
+            "value": 12
+          },
+          {
+            "label": "13",
+            "value": 13
+          },
+          {
+            "label": "14",
+            "value": 14
+          },
+          {
+            "label": "15",
+            "value": 15
+          },
+          {
+            "label": "16",
+            "value": 16
+          },
+          {
+            "label": "17",
+            "value": 17
+          },
+          {
+            "label": "18",
+            "value": 18
+          },
+          {
+            "label": "19",
+            "value": 19
+          },
+          {
+            "label": "20",
+            "value": 20
+          },
+          {
+            "label": "21",
+            "value": 21
+          },
+          {
+            "label": "22",
+            "value": 22
+          },
+          {
+            "label": "23",
+            "value": 23
+          },
+          {
+            "label": "24",
+            "value": 24
+          },
+          {
+            "label": "25",
+            "value": 25
+          },
+          {
+            "label": "26",
+            "value": 26
+          },
+          {
+            "label": "27",
+            "value": 27
+          },
+          {
+            "label": "28",
+            "value": 28
+          },
+          {
+            "label": "29",
+            "value": 29
+          },
+          {
+            "label": "30",
+            "value": 30
+          }
+        ]
+      },
+      {
+        "name": "generate_audio",
+        "type": "boolean",
+        "required": false,
+        "default": true
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "start_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "end_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_images",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_videos",
+        "modality": "video",
+        "required": false
+      },
+      {
+        "key": "reference_audios",
+        "modality": "audio",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "duration_secs": "any value: pass `values` to creative_expose_flow_parameter",
+      "generate_audio": [
+        "true",
+        "false"
+      ],
+      "resolution": [
+        "480p",
+        "720p",
+        "1080p"
+      ]
+    }
+  },
+  "quote_tool": "creative_run_flow_nodes",
+  "estimate_only": true,
+  "live_quotes": [
+    {
+      "seconds": 4,
+      "node_id": "nVLnU4nMeH0dkSKlKUow",
+      "estimate": {
+        "credits": 5209.176,
+        "price_cents": 7563.723552000001,
+        "generations_count": 1,
+        "currency": "inr",
+        "estimated_runtime_seconds": 150
+      }
+    },
+    {
+      "seconds": 5,
+      "node_id": "nVLnU4nMeH0dkSKlKUow",
+      "estimate": {
+        "credits": 6511.470000000001,
+        "price_cents": 9454.654440000002,
+        "generations_count": 1,
+        "currency": "inr",
+        "estimated_runtime_seconds": 150
+      }
+    },
+    {
+      "seconds": 11,
+      "node_id": "OFE4zm6RcnEfvZSdlY8H",
+      "estimate": {
+        "credits": 14325.234000000002,
+        "price_cents": 20800.239768000003,
+        "generations_count": 1,
+        "currency": "inr",
+        "estimated_runtime_seconds": 150
+      }
+    }
+  ],
+  "quote_nodes": [
+    {
+      "node_id": "nVLnU4nMeH0dkSKlKUow",
+      "label": "PRICE CHECK ONLY — Seedance 480p short clip — UNRUN",
+      "model_id": "bytedance-seedance-v2.5",
+      "prompt": "PRICE CHECK ONLY — NOT APPROVED TO RUN. Overhead camera tracks upgraded Riley sprinting in the separate left lane, overtaking the train on straight parallel tracks. Both move upward in the same world direction. Maintain the provided start and end composition, believable running cadence and fixed proportions; no train rotation, reverse motion or extra runners.",
+      "model_parameters": {
+        "aspect_ratio": "auto",
+        "resolution": "480p",
+        "duration_secs": 5,
+        "generate_audio": true,
+        "start_frame": {
+          "template_node_id": "aYqLIq6SpASveO6cwvQS"
+        },
+        "end_frame": {
+          "template_node_id": "AZPI2Rt0lpKVdsINgtdM"
+        }
+      },
+      "generations": []
+    },
+    {
+      "node_id": "OFE4zm6RcnEfvZSdlY8H",
+      "label": "PRICE CHECK ONLY — Seedance 480p coffee 11s — UNRUN",
+      "model_id": "bytedance-seedance-v2.5",
+      "prompt": "PRICE CHECK ONLY — NOT APPROVED TO RUN. In the approved futuristic city arcade, Riley runs past the male stranger as he accidentally drops his single coffee mug. Transition from her first-person view to a third-person tracking view. Brief slow motion as she catches the mug before it reaches the ground, returns the same mug to his hand, then immediately accelerates away. Preserve Riley's approved face, outfit and narrow chrome inlays, natural skin, one stranger and one mug. Continuous physically coherent action, no dialogue or music.",
+      "model_parameters": {
+        "aspect_ratio": "auto",
+        "resolution": "480p",
+        "duration_secs": 11,
+        "generate_audio": true,
+        "start_frame": {
+          "template_node_id": "Q5MtC1XJtXPGFZwzZrAJ"
+        },
+        "reference_images": []
+      },
+      "generations": []
+    }
+  ],
+  "credits_per_second": 1302.2940000000003,
+  "inr_per_credit": 0.01452,
+  "conversion_source": "User supplied INR 145.20 per 10,000 credits; provider INR quote also agrees.",
+  "timeline_source": "assets/08-edit/continuous-ad-review-v01/timeline.json",
+  "current_cut": "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+  "shots": [
+    {
+      "shot": "07",
+      "description": "Station takeoff",
+      "generation_seconds": 5,
+      "used_seconds": 1.25,
+      "scope": "additional remaining MiniMax replacement",
+      "estimated_credits": 6511.470000000001,
+      "estimated_inr": 94.54654440000002
+    },
+    {
+      "shot": "08",
+      "description": "Intelligence HUD",
+      "generation_seconds": 5,
+      "used_seconds": 2.75,
+      "scope": "approved city still",
+      "estimated_credits": 6511.470000000001,
+      "estimated_inr": 94.54654440000002
+    },
+    {
+      "shot": "09",
+      "description": "Coffee reflex rescue",
+      "generation_seconds": 11,
+      "used_seconds": 10.125,
+      "scope": "approved city still",
+      "estimated_credits": 14325.234000000002,
+      "estimated_inr": 208.00239768000003
+    },
+    {
+      "shot": "10",
+      "description": "Steel-door strength",
+      "generation_seconds": 5,
+      "used_seconds": 3.75,
+      "scope": "approved city still",
+      "estimated_credits": 6511.470000000001,
+      "estimated_inr": 94.54654440000002
+    },
+    {
+      "shot": "11",
+      "description": "Boulevard speed",
+      "generation_seconds": 5,
+      "used_seconds": 2.5,
+      "scope": "approved city still",
+      "estimated_credits": 6511.470000000001,
+      "estimated_inr": 94.54654440000002
+    },
+    {
+      "shot": "12",
+      "description": "Overhead train overtake",
+      "generation_seconds": 5,
+      "used_seconds": 4,
+      "scope": "approved city start and end stills, one video",
+      "estimated_credits": 6511.470000000001,
+      "estimated_inr": 94.54654440000002
+    }
+  ],
+  "totals": {
+    "five_city_videos": {
+      "count": 5,
+      "seconds": 31,
+      "credits": 40371.11400000001,
+      "inr": 586.1885752800001
+    },
+    "all_six_remaining": {
+      "count": 6,
+      "seconds": 36,
+      "credits": 46882.58400000001,
+      "inr": 680.7351196800001
+    }
+  },
+  "shorter_alternative": {
+    "description": "4 seconds for each short video; 11 seconds for coffee. Less editing margin, with exactly 4 seconds for the overhead slot.",
+    "all_six_seconds": 31,
+    "all_six_credits": 40371.114,
+    "all_six_inr": 586.18857528,
+    "five_city_seconds": 27,
+    "five_city_credits": 35161.938,
+    "five_city_inr": 510.55133976
+  },
+  "assumptions": [
+    "One take per shot, image-to-video, no input video or audio references. Short-shot costs extrapolated from directly quoted overhead start/end node; coffee quoted separately with start frame.",
+    "Requested 16:9 becomes provider aspect_ratio auto when wired to approved 1280x720 start frames.",
+    "Five-second short generations provide footage for edit trims; coffee is rounded up from 10.125 seconds used to 11 seconds.",
+    "Opening, accepted Seedance departure/transformation, David, Chrome Swagger and local diagnostic/endcard reused.",
+    "Retries, additional image work, upscaling and any new sound generation excluded.",
+    "Prices may change before a paid run; refresh quote then. Quote-only nodes are not completed production shot setups."
+  ],
+  "validation_error_and_resolution": {
+    "initial_quote": {
+      "credits": 0,
+      "price_cents": 0,
+      "generations_count": 1,
+      "blocking_errors": [
+        "Node 'PRICE CHECK ONLY — Seedance 480p coffee 11s — UNRUN': 1 validation error for BytedanceSeedance25Parameters\n  Value error, Reference images/videos/audios cannot be used with start or end frame [type=value_error, input_value={'aspect_ratio': 'auto', ...reference_audios': None}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"
+      ]
+    },
+    "remedy": "Removed two newly connected identity/wardrobe reference-image edges from the coffee quote node. Seedance 2.5 rejects reference_images together with start/end frames; approved coffee start frame retained. New estimate succeeds. No paid generation or retry."
+  },
+  "generations_started": 0,
+  "credits_spent": 0,
+  "checked_at": "2026-11-01T19:08:36+05:30"
+}

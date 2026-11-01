@@ -1,0 +1,429 @@
+{
+  "asset_id": "shot-09-coffee-opening-correction-seedance-480p-v02",
+  "title": "Coffee opening correction — run forward, look left, catch",
+  "location": "Same approved bright cyberpunk cafe arcade",
+  "status": "partial_staging_failure_locally_recut_pending_user_review",
+  "provider": "ElevenLabs",
+  "model_id": "bytedance-seedance-v2.5",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "node_id": "IlNUVcYI6ccniIfG7Tl2",
+  "prompt": "Create ONLY a new four-second OPENING for a coffee-rescue sequence. The user likes the existing third-person rescue, handoff and sprint; later footage will be reused in editing. Reference roles: the cafe street still establishes the same bright cyberpunk arcade, wet paving, LEFT storefront, RIGHT elevated railway and distinct male patron; do NOT copy its camera aimed at the man. The crouching Riley still defines the ENDING third-person rescue angle and pose, not the opening. The gold-dress full-body image defines her outfit and natural-skin/chrome styling; the portrait defines facial identity only, not its office clothes. No supplied image is a fixed start frame. The new start must look straight DOWN the sidewalk with the patron outside the left edge.\n\nCRITICAL CAMERA GEOGRAPHY: Riley runs STRAIGHT down the open sidewalk, PARALLEL to the cafe storefront. She is passing the man, not approaching him. Her route is down the length of the arcade. At the start the man is OUT OF FRAME to her LEFT. No man or mug centered in her forward path. No steering toward him, diagonal approach, hand reaching toward him, stopping to inspect his cup, or showing him holding an upright mug.\n\n0.00–1.10 seconds: pure first-person running, eyes looking straight down the long open sidewalk. A clear central vanishing point along the street. Cafe pillars slide past on the far left and railing on the right. Her natural-sized hands with thin chrome/cyan inlays alternate LOW at the frame edges with a normal running cadence. Steady forward progress with light head bob.\n\n1.10–1.85 seconds: while still travelling straight, her HEAD/Gaze turns quickly LEFT approximately 60–75 degrees toward movement in her peripheral vision. This is a leftward camera yaw, not a change in her running path. As the left side becomes visible, ONE white mug is ALREADY FALLING below the man's EMPTY hand. He has accidentally lost it before she looked. Show a clear air gap between hand and mug. Do not show the release or an upright mug still held by him. The mug is mid-drop around waist/knee height and continues descending, with a few suspended coffee droplets. Slow time begins as she notices it.\n\n1.85–3.35 seconds: cut ON THE FALLING MUG to a low medium-wide THIRD-PERSON side view that matches the supplied crouching-Riley still's rescue angle. Riley is on the right, the man's lower body near the left edge; same mug stays visible through the cut. Show the actual rescue contact clearly: she bends her knees, reaches down with a believable short arm movement and closes her fingers around the mug's body just above the paving before it hits. Her reflex is fast relative to the slow mug and droplets. A physical catch, no cutaway, eye close-up, portrait insert, hidden contact, extra cup, teleport, sticky stretched fingers or impact.\n\n3.35–4.00 seconds: she remains low in the side-view crouch, holding the intact mug securely in her nearer hand, ready to rise. Match the supplied crouching-Riley still's pose and camera: man at left edge, Riley crouched on the right in gold wrap dress, short brunette bob, asymmetric chrome facial/neck cyberware, mostly skin arms/legs with narrow chrome inlays and black/gold boots. This is an editing bridge, not the return or sprint. Do not hand the cup back within this four-second opening.\n\nOne woman, one male patron and one mug. Preserve the city lighting, spatial layout and human proportions. The one deliberate action cut from first-person falling mug to third-person visible catch is allowed; no other angle changes, mirrored scene or new text. Do NOT aim the opening at the man. Do NOT insert a face or eye close-up.\n\nAudio: ordinary rhythmic running footfalls and city air; a brief air turn when she glances left; sound softly stretches/muffles during the fall; one restrained tactile catch sound. No dialogue, voice, music, ceramic break or impact on the ground.",
+  "prompt_file": "assets/06-shots/video-prompts/shot-09-coffee-opening-correction-seedance-480p-v02.txt",
+  "output_file": "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+  "requested_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "480p",
+    "duration_secs": 4,
+    "generate_audio": true
+  },
+  "effective_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "480p",
+    "duration_secs": 4,
+    "generate_audio": true,
+    "reference_images": [
+      {
+        "template_node_id": "LsmAOIUrwmaZEKFGxI1L"
+      },
+      {
+        "template_node_id": "ldx3dNdFkLfKBC2giOfl"
+      },
+      {
+        "template_node_id": "Q5MtC1XJtXPGFZwzZrAJ"
+      },
+      {
+        "template_node_id": "gDoEOsC5oSxLxcv9Q4lB"
+      }
+    ],
+    "reference_videos": []
+  },
+  "live_schema": {
+    "model_id": "bytedance-seedance-v2.5",
+    "model_name": "Seedance 2.5",
+    "node_type": "video-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "16:9",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "720p",
+        "options": [
+          {
+            "label": "480p",
+            "value": "480p"
+          },
+          {
+            "label": "720p",
+            "value": "720p"
+          },
+          {
+            "label": "1080p",
+            "value": "1080p"
+          }
+        ]
+      },
+      {
+        "name": "duration_secs",
+        "type": "select_number",
+        "required": false,
+        "default": 5,
+        "options": [
+          {
+            "label": "4",
+            "value": 4
+          },
+          {
+            "label": "5",
+            "value": 5
+          },
+          {
+            "label": "6",
+            "value": 6
+          },
+          {
+            "label": "7",
+            "value": 7
+          },
+          {
+            "label": "8",
+            "value": 8
+          },
+          {
+            "label": "9",
+            "value": 9
+          },
+          {
+            "label": "10",
+            "value": 10
+          },
+          {
+            "label": "11",
+            "value": 11
+          },
+          {
+            "label": "12",
+            "value": 12
+          },
+          {
+            "label": "13",
+            "value": 13
+          },
+          {
+            "label": "14",
+            "value": 14
+          },
+          {
+            "label": "15",
+            "value": 15
+          },
+          {
+            "label": "16",
+            "value": 16
+          },
+          {
+            "label": "17",
+            "value": 17
+          },
+          {
+            "label": "18",
+            "value": 18
+          },
+          {
+            "label": "19",
+            "value": 19
+          },
+          {
+            "label": "20",
+            "value": 20
+          },
+          {
+            "label": "21",
+            "value": 21
+          },
+          {
+            "label": "22",
+            "value": 22
+          },
+          {
+            "label": "23",
+            "value": 23
+          },
+          {
+            "label": "24",
+            "value": 24
+          },
+          {
+            "label": "25",
+            "value": 25
+          },
+          {
+            "label": "26",
+            "value": 26
+          },
+          {
+            "label": "27",
+            "value": 27
+          },
+          {
+            "label": "28",
+            "value": 28
+          },
+          {
+            "label": "29",
+            "value": 29
+          },
+          {
+            "label": "30",
+            "value": 30
+          }
+        ]
+      },
+      {
+        "name": "generate_audio",
+        "type": "boolean",
+        "required": false,
+        "default": true
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "start_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "end_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_images",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_videos",
+        "modality": "video",
+        "required": false
+      },
+      {
+        "key": "reference_audios",
+        "modality": "audio",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "duration_secs": "any value: pass `values` to creative_expose_flow_parameter",
+      "generate_audio": [
+        "true",
+        "false"
+      ],
+      "resolution": [
+        "480p",
+        "720p",
+        "1080p"
+      ]
+    }
+  },
+  "estimate": {
+    "credits": 5209.176,
+    "price_cents": 7563.723552000001,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "generations_count": 1,
+  "retries": 0,
+  "seed": null,
+  "seed_note": "No seed parameter exposed.",
+  "selected": false,
+  "user_approved": false,
+  "authorization_context": "User requests correction of forward FPP running, left glance, mug already falling when noticed, then TPP visible catch; preserve liked remainder.",
+  "input_mode": "reference_images_only",
+  "superseded_unrun_quote": {
+    "estimate": {
+      "credits": 11776.905100799999,
+      "price_cents": 17100.0662063616,
+      "generations_count": 1,
+      "currency": "inr",
+      "estimated_runtime_seconds": 150
+    },
+    "reason": "Whole original video as reference added processing cost. Replaced with extracted pose still before any generation."
+  },
+  "references": [
+    {
+      "role": "wardrobe and natural-skin chrome styling",
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6",
+      "node_id": "LsmAOIUrwmaZEKFGxI1L",
+      "port": "reference_images"
+    },
+    {
+      "role": "facial identity only",
+      "file": "assets/01-riley/images/riley-cyberpunk-03-v01.png",
+      "sha256": "4df29f1f3ed615cc454ae91d983f56046e203cc0be225b854c22bcdffc5ca009",
+      "node_id": "ldx3dNdFkLfKBC2giOfl",
+      "port": "reference_images"
+    },
+    {
+      "role": "cafe setting and patron; do not copy opening framing",
+      "file": "assets/06-shots/images/shot-09-coffee-city-start-v03.png",
+      "sha256": "736546f20206e8574e7ea48de18cb6e97bd6a15b55f90c4a57159bcf5ab0ca07",
+      "node_id": "Q5MtC1XJtXPGFZwzZrAJ",
+      "generation_id": "szfN8H6gx2b1YVLRxPrB",
+      "port": "reference_images"
+    },
+    {
+      "role": "target ending pose/angle from original source at 4.0s",
+      "file": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/opening-correction-v02/tpp-join-04s.png",
+      "sha256": "26d38783237dfaee068e5fc5bb04152c3d0e552b1320b3394b2eaed7b39c436b",
+      "node_id": "gDoEOsC5oSxLxcv9Q4lB",
+      "asset_id": "wAzvSvYopL94hRrSBJFz",
+      "frame_record": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/opening-correction-v02/tpp-join-04s.frame.json",
+      "port": "reference_images"
+    }
+  ],
+  "prepared_at": "2026-11-01T21:48:05+05:30",
+  "prompt_sha256": "0dd631e69e1d5d2f6cc19ffec38e6c888edc8e878826278be9271042c741e1a8",
+  "preserved_files": [
+    {
+      "file": "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+      "sha256": "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/edit-preview-v01/shot-08-hud-c-edit-preview-v01.mp4",
+      "sha256": "cd63556da707cf6fee969976cb27a7112bb178d372c799fdef5ec3d2982cc51e"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4",
+      "sha256": "3b4227ae98e2c8baf55400a430fef6b306d5d0f82f66369b9199a08f16ceba27"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+      "sha256": "00caba5dfc91d5a09537f9b6eb75dd9355070c8d26884da341b6737705863bb0"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "sha256": "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/edit-preview-v01/shot-09-coffee-edit-preview-v01.mp4",
+      "sha256": "976e51690a4dab81148cc8d126a3bf3cc311acf07c81dc878d94b9e5214c2b92"
+    }
+  ],
+  "submitted_at": "2026-11-01T21:48:29+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "IlNUVcYI6ccniIfG7Tl2",
+        "session_id": "OHQaQ2KeFsIrosa06aMb",
+        "credit_costs": {
+          "9SkgpIT0q8CSzsSidqOF": 5209.176
+        }
+      }
+    ],
+    "session_ids": [
+      "OHQaQ2KeFsIrosa06aMb"
+    ],
+    "pending": [
+      {
+        "generation_id": "9SkgpIT0q8CSzsSidqOF",
+        "kind": "video"
+      }
+    ]
+  },
+  "session_ids": [
+    "OHQaQ2KeFsIrosa06aMb"
+  ],
+  "completed_at": "2026-11-01T21:51:56+05:30",
+  "generation_id": "9SkgpIT0q8CSzsSidqOF",
+  "session_id": "OHQaQ2KeFsIrosa06aMb",
+  "sha256": "8139e8f150a87ec1d0488c0d09c3ecf266e2ee8ffcb9421e6c0c915a98093395",
+  "bytes": 3449236,
+  "provider_reported_price": {
+    "credits": 5209.176,
+    "price_cents": 7563.723552000001,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T22:03:23+05:30",
+  "assistant_visual_review": {
+    "method": "Sampled native frames, detailed catch sheet, full decoded-frame inspection and numeric audio levels; no independent playback/listening claim.",
+    "observations": [
+      "Initial forward FPP running is clearer; the cafe patron is already visible on the left.",
+      "TPP shows the mug descending, hand contact and a low crouch without the old eye insert.",
+      "City, gold outfit and skin/chrome styling broadly match supplied references."
+    ],
+    "limitations": [
+      "Raw generation does not deliver the requested left head turn or already-falling first reveal; the patron holds the mug during the FPP run.",
+      "Not suitable as a standalone corrected opener. A local editorial recut is provided separately.",
+      "Exact anatomy and join continuity remain review items; native audio has numeric checks only."
+    ]
+  },
+  "inspection_file": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/inspection.json",
+  "latest_review_record": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v03/review.json",
+  "latest_review_video": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v03/shot-09-coffee-revised-v03.mp4",
+  "native_video": {
+    "width": 854,
+    "height": 480,
+    "fps": 24,
+    "frames": 97,
+    "seconds": 4.042
+  },
+  "native_audio_review": {
+    "status": "numeric_only_listening_pending",
+    "rms_dbfs": -33.09611158561253,
+    "peak_dbfs": -13.755999306385116,
+    "levels_file": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/native-audio-levels.txt"
+  }
+}

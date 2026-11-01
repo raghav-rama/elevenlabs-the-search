@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-11-02T02:55:04+05:30",
+  "native_frames": 121,
+  "native_dimensions": [
+    854,
+    480
+  ],
+  "native_picture_seconds": 5.042,
+  "source_sha256": "d52ad8f09107434fd521ce16b1d5622dcd1e7d064ccc5a51e8c7dc2b631e6521",
+  "preserved_media_verified": 37,
+  "local_links_checked": 3,
+  "full_native_decode": true,
+  "near_black_frames": 0,
+  "video_generations": 1,
+  "end_frame_generations": 1,
+  "automatic_retries": 0,
+  "quoted_credits_match_reported_prices": true,
+  "total_credits": 6920.52,
+  "total_inr": 100.4859504,
+  "approved_cut_modified": false,
+  "independent_listening": false,
+  "status": "pending_user_review_motion_limitations_recorded"
+}

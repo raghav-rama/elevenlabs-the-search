@@ -1,0 +1,46 @@
+{
+  "asset_id": "shot-10-strength-city-seedance-480p-v01",
+  "title": "10 — First-person steel-door strength",
+  "location": "Cyberpunk transit service passage",
+  "status": "user_approved_take",
+  "output_file": "assets/06-shots/videos/shot-10-strength-city-seedance-480p-v01.mp4",
+  "sha256": "bbbc2398da759064a5e0ae8fae54d53e6d09dc38aaaa96b273996fce2b580778",
+  "model_id": "bytedance-seedance-v2.5",
+  "generation_id": "gF7MsrC0zARjrTCTszXj",
+  "session_id": "XmQzAZCJnXkDj6HycmkD",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-11-02T00:24:29+05:30",
+    "method": "Twenty sampled frames every0.25 seconds plus full-frame decode; compared with the approved1280×720 starting still. Numeric audio review only, not continuous playback or independent listening.",
+    "observations": [
+      "The shot begins with the approved paired first-person hands, human skin/chrome inlays and nearly closed intact steel doors.",
+      "The gap gradually widens from around0.75 seconds; inner door edges visibly bow and gather lasting folds near the grip locations rather than remaining flat.",
+      "Hands broadly retain contact with their corresponding edges, release around3.5–3.75 seconds, then leave the frame.",
+      "Camera advances through the opening from about4 seconds; a coherent cyan/gold futuristic transit passage, reflective floor and layered towers are revealed.",
+      "Bent edges remain visible after hand release, so the change is persistent rather than a reset to intact doors."
+    ],
+    "limitations": [
+      "Deformation is rounded and soft-looking rather than sharply creased heavy steel; material weight and strength impact need playback judgment.",
+      "Force application takes most of the clip and is slower than the specified person-width opening by2.8 seconds.",
+      "Exact finger anatomy/contact during motion and physical passage clearance are not established by sampled frames alone.",
+      "Native audio decoded and measured only; no independent assurance of speech/music absence or sound-event synchronization.",
+      "Full take is5.042 picture seconds, while the existing edit slot is3.75 seconds. No trim, retiming, accepted-cut replacement or final selection has been applied."
+    ]
+  },
+  "native_audio_analysis": {
+    "file": "assets/06-shots/reviews/shot-10-strength-city-seedance-480p-v01/native-audio.wav",
+    "levels_file": "assets/06-shots/reviews/shot-10-strength-city-seedance-480p-v01/native-audio-levels.txt",
+    "rms_dbfs": -27.548027334058368,
+    "peak_dbfs": -12.038296941488571,
+    "decoded_duration_seconds": 5.044833333333333,
+    "listening_review": false
+  },
+  "selected": true,
+  "user_approved": true,
+  "reviewed_at": "2026-11-02T00:24:29+05:30",
+  "approval": {
+    "at": "2026-11-02T00:26:39+05:30",
+    "quote": "Looks good, continue",
+    "source": "explicit_user_message",
+    "scope": "Approve the delivered strength take for use; exact final trim and mix remain editing decisions. Continue one boulevard-speed test next."
+  }
+}

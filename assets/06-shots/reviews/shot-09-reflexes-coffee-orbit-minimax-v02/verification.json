@@ -1,0 +1,22 @@
+{
+  "verified_at": "2026-11-01T22:16:24+05:30",
+  "status": "passed",
+  "output_sha256": "782ebc616937139fbea3610a1c9a5604a035c5f5db6c53704d5fdd4b429b7c38",
+  "reference_and_preserved_media_hashes": true,
+  "prompt_hash_and_text": true,
+  "one_generation_no_retries": true,
+  "quoted_and_reported_credits": 3030,
+  "source_frames": 243,
+  "source_seconds": 10.125,
+  "native_dimensions": [
+    832,
+    480
+  ],
+  "fps": 24,
+  "near_black_frames": 0,
+  "input_wiring": true,
+  "local_links_checked": 12,
+  "json_parsed": 5,
+  "signed_urls_absent_in_checked_records": true,
+  "limitations": "Sampled visual and numeric audio review only; known motion/physics issues documented, pending user review."
+}

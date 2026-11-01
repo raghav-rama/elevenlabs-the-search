@@ -1,0 +1,57 @@
+{
+  "asset_id": "shot-07-station-launch-seedance-480p-v01",
+  "title": "07 \u2014 Station launch from approved upgrade ending",
+  "location": "Same cleared cyberpunk station platform",
+  "status": "not_selected_minimax_launch_preferred",
+  "output_file": "assets/06-shots/videos/shot-07-station-launch-seedance-480p-v01.mp4",
+  "sha256": "54d1fbbad858bcde419dab345a8534e940f2fa46fa6d841321409b3c382dd355",
+  "model_id": "bytedance-seedance-v2.5",
+  "generation_id": "V4MVm01Dprm02tEwE8AP",
+  "session_id": "T3nBw6ue3LlWhg7pkTkm",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-11-02T00:46:20+05:30",
+    "method": "Twenty native samples every0.25 seconds plus nine context-join samples every0.125 seconds and full-frame decoding; approved source/diagnostic endpoints also inspected. Numeric audio review only, not continuous playback/listening.",
+    "observations": [
+      "Starts from the approved standing Riley pose and same cleared station composition. Gold dress, bob, face/neck cyberware, human limbs with narrow chrome accents and dark/gold boots broadly retained.",
+      "Riley looks and turns screen left, then starts a visible running push-off around2.2\u20132.5 seconds.",
+      "She travels diagonally left and away along the platform, shrinking with distance; tracks stay empty and no train reset is visible.",
+      "Narrow cyan/magenta wake follows the run; camera/background remain broadly fixed.",
+      "Diagnostic-return-to-launch comparison has close composition/pose continuity around its one-second join in sampled frames."
+    ],
+    "limitations": [
+      "Launch is much later than the requested0.5 seconds; wind-up occupies roughly the first two seconds. This is not yet an immediate takeoff in the existing1.25s slot.",
+      "She remains visible in the far distance through the ending; requested clear exit/empty-platform hold by1.8 seconds was not achieved.",
+      "Full-speed impact, foot contacts and exact likeness require playback judgment; sample images do not establish believable sprint cadence.",
+      "Native audio decoded and measured only; no independent listening or speech/music absence approval.",
+      "No final range selection, retiming or accepted-ad replacement. Continuity review preserves all native timing so the delay remains visible."
+    ]
+  },
+  "native_audio_analysis": {
+    "file": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/native-audio.wav",
+    "levels_file": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/native-audio-levels.txt",
+    "rms_dbfs": -25.553099919043763,
+    "peak_dbfs": -4.5194023331525255,
+    "decoded_duration_seconds": 5.0555,
+    "listening_review": false
+  },
+  "selected": false,
+  "user_approved": false,
+  "reviewed_at": "2026-11-02T00:46:20+05:30",
+  "context_review": {
+    "file": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/context-review-v01/diagnostic-to-launch-v01.mp4",
+    "sha256": "1ac504588157a0a2ec765a8a24ac3f808996b8ee3f873125385c8d910704ae73",
+    "timeline": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/context-review-v01/timeline.json",
+    "frames": 145,
+    "seconds": 6.041666666666667,
+    "source_retimed": false,
+    "first_second_silent": true,
+    "native_launch_gain_db": 0,
+    "accepted_ad_unchanged": true
+  },
+  "user_preference": {
+    "at": "2026-11-02T00:57:11+05:30",
+    "quote": "Yup this is much better.",
+    "source": "explicit_user_message_after_original_launch_retrieval",
+    "scope": "Preferred original MiniMax launch movement over station-launch Seedance v01; use with diagnostic video as reference for one new continuous 480p Seedance take."
+  }
+}

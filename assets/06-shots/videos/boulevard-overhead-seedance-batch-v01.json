@@ -1,0 +1,74 @@
+{
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "model_id": "bytedance-seedance-v2.5",
+  "status": "generated_requires_motion_correction_pending_user_review",
+  "requested_generations": 1,
+  "retries": 0,
+  "requested_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "480p",
+    "duration_secs": 5,
+    "generate_audio": true
+  },
+  "estimate": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "review_sample_count": 21,
+  "review_interval_seconds": 0.25,
+  "shots": [
+    {
+      "asset_id": "shot-12-overtake-boulevard-seedance-480p-v01",
+      "record_file": "assets/06-shots/videos/shot-12-overtake-boulevard-seedance-480p-v01.generation.json",
+      "prompt_file": "assets/06-shots/video-prompts/shot-12-overtake-boulevard-seedance-480p-v01.txt",
+      "output_file": "assets/06-shots/videos/shot-12-overtake-boulevard-seedance-480p-v01.mp4",
+      "node_id": "8V034VE0bQgX4UOrukky",
+      "source_file": "assets/06-shots/references/boulevard-overtake-v01/user-approved-start.png",
+      "status": "generated_requires_motion_correction_pending_user_review",
+      "generation_id": "jRFy4Wsb79wKdkjPViot",
+      "session_id": "hVZ3ffPDPLR6vXL5WHz7",
+      "sha256": "4ca6c218ebdd643ba874ba1d37e67c6a45506e5d76005c1acb6a2f91f021169a"
+    }
+  ],
+  "submitted_at": "2026-11-02T02:31:26+05:30",
+  "session_ids": [
+    "hVZ3ffPDPLR6vXL5WHz7"
+  ],
+  "run_summary": {
+    "nodes_run": 1,
+    "generations_started": 1,
+    "failed": 0,
+    "generations_by_node": {
+      "8V034VE0bQgX4UOrukky": 1
+    }
+  },
+  "run_results": [
+    {
+      "success": true,
+      "node_id": "8V034VE0bQgX4UOrukky",
+      "session_id": "hVZ3ffPDPLR6vXL5WHz7",
+      "credit_costs": {
+        "jRFy4Wsb79wKdkjPViot": 6511.470000000001
+      }
+    }
+  ],
+  "generation_id": "jRFy4Wsb79wKdkjPViot",
+  "reported_submission_credits": 6511.470000000001,
+  "completed_at": "2026-11-02T02:35:14+05:30",
+  "completed_generations": 1,
+  "total_reported_price": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-02T02:38:29+05:30",
+  "gallery_title": "AFTERHUMAN · Matched boulevard overhead",
+  "gallery_description": "One five-second480p Seedance take from your exact attached image. Native output and preceding-sprint context below.",
+  "gallery_status": "World continuity improves, but the required decisive overtake is not achieved. Pending your review; v07 remains unchanged.",
+  "gallery_footer": "Seedance2.5 · Native852×480 · 24fps · One take · 6,511.47credits / ₹94.55 · No retiming or upscale",
+  "review_index": "assets/06-shots/reviews/shot-12-overtake-boulevard-seedance-480p-v01/index.html"
+}

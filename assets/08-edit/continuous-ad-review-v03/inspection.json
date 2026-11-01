@@ -1,0 +1,33 @@
+{
+  "audio_tracks" : [
+    {
+      "channels" : 2,
+      "codec_fourcc" : "aac ",
+      "duration_seconds" : 45,
+      "sample_rate" : 48000
+    }
+  ],
+  "duration_seconds" : 45,
+  "extracted_frame_seconds" : 44.958333333333336,
+  "frame_height" : 1080,
+  "frame_width" : 1920,
+  "last_frame_file" : "assets\/08-edit\/continuous-ad-review-v03\/last-frame.png",
+  "last_frame_sha256" : "a2cfa886efe7e9f0fcbe4df9bb418f74c3b79a36a1c6220c09acf74fc792b568",
+  "last_picture_frame_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/08-edit\/continuous-ad-review-v03\/last-picture-frame.png",
+  "last_picture_frame_seconds" : 44.958333333333336,
+  "last_picture_frame_sha256" : "a2cfa886efe7e9f0fcbe4df9bb418f74c3b79a36a1c6220c09acf74fc792b568",
+  "last_video_sample_seconds" : 44.958333333333336,
+  "near_black_detection" : "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+  "near_black_frame_times_seconds" : [
+
+  ],
+  "nominal_fps" : 24,
+  "review_limits" : "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+  "script" : "scripts\/inspect-review-video.swift",
+  "source_file" : "assets\/08-edit\/continuous-ad-review-v03\/afterhuman-diagnostic-v03.mp4",
+  "source_modified" : false,
+  "source_sha256" : "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd",
+  "video_codec_fourcc" : "avc1",
+  "video_duration_seconds" : 45,
+  "video_samples" : 1080
+}

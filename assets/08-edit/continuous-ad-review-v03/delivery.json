@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-11-01T17:18:31+05:30",
+  "status": "motion_treatment_approved_production_polish_pending",
+  "selected": false,
+  "user_direction": "Riley body floats into the center for diagnostic upgrade then floats back into the source shot before takeoff.",
+  "output_file": "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+  "output_sha256": "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd",
+  "focused_preview_file": "assets/08-edit/continuous-ad-review-v03/upgrade-floating-preview-v01.mp4",
+  "focused_preview_sha256": "da73e358de4f11fd87ae713ae2b22a07f5997f0bb08441943b49245c83c6ba6a",
+  "focused_preview_source_range_seconds": [
+    8,
+    19.375
+  ],
+  "focused_preview_duration_seconds": 11.375,
+  "duration_seconds": 45,
+  "frames": 1080,
+  "fps": 24,
+  "render_dimensions": [
+    1920,
+    1080
+  ],
+  "insert": {
+    "source_start_frame": 308,
+    "frame_count": 127,
+    "timeline_range_seconds": [
+      12.833333333333334,
+      18.125
+    ],
+    "picture": "assets/08-edit/upgrade-diagnostic-v01/upgrade-diagnostic-picture-v02.mp4",
+    "picture_sha256": "cf97986e8bb98ec575313a5cd51c58e2600dda6f4749a56bfc0a6c4b1d52f6dd",
+    "config": "assets/08-edit/upgrade-diagnostic-v01/diagnostic-config-v02.json",
+    "matte_method": "Local Apple Vision foreground-instance segmentation; 127 original-time frames",
+    "motion": "Float into center over 0.75s; return from 3.85 to 5.0s; source placement restored before takeoff."
+  },
+  "audio": {
+    "base": "Existing complete David/Chrome Swagger review mix, timing retained",
+    "new_content": "Local deterministic typing, module locks, short air accents and completion tone",
+    "mix_record": "assets/08-edit/upgrade-diagnostic-v01/afterhuman-diagnostic-mix-v01.mix.json",
+    "source_aac_payload_identical": false,
+    "final_master_gain": 0.9998117443729101,
+    "decoded_full_aac_sample_peak_dbfs": -1.499269677138387,
+    "independent_full_listening_completed": false
+  },
+  "checks": {
+    "full_decode_frames": 1080,
+    "focused_decode_frames": 273,
+    "full_near_black_frames": 0,
+    "focused_near_black_frames": 0,
+    "sampled_scan_and_return_frames_reviewed": true,
+    "original_v01_v02_seedance_coffee_david_chrome_swagger_hashes_unchanged": true,
+    "browser": {
+      "focused_duration_seconds": 11.375,
+      "full_duration_seconds": 45,
+      "both_video_ready_state": 4,
+      "both_video_errors": null,
+      "linked_artifacts_and_posters_http_200": true,
+      "desktop_horizontal_overflow": false
+    },
+    "local_document_links_checked": 23
+  },
+  "limitations": [
+    "Stylized pose-guided diagnostic lines, not photoreal anatomy",
+    "Temporary blurred background patch and matte edges need production cleanup",
+    "Manual boot/ankle anchors are mock-up guides",
+    "Existing varied-world and overhead prototype limitations remain",
+    "Technical audio checks are not final perceptual mastering"
+  ],
+  "new_provider_generations": 0,
+  "new_provider_credits": 0,
+  "final_cut_modified": false,
+  "source_speed_multiplier": 1,
+  "production_generation_status": "Seedance deferred",
+  "player": "assets/08-edit/continuous-ad-review-v03/index.html",
+  "components_readme": "assets/08-edit/upgrade-diagnostic-v01/README.md",
+  "motion_treatment_approved": true,
+  "user_feedback": {
+    "at": "2026-11-01T18:12:53+05:30",
+    "quote": "Looks great!",
+    "scope": "Approval of floating-body diagnostic motion and edit direction; production polish remains open."
+  }
+}

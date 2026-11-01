@@ -1,0 +1,12 @@
+{
+  "actual_seconds" : 4,
+  "height" : 480,
+  "output_file" : "assets\/06-shots\/reviews\/shot-09-coffee-city-seedance-480p-v01\/opening-correction-v02\/tpp-join-04s.png",
+  "requested_seconds" : 4,
+  "script" : "scripts\/extract-video-frame.swift",
+  "sha256" : "26d38783237dfaee068e5fc5bb04152c3d0e552b1320b3394b2eaed7b39c436b",
+  "source_file" : "assets\/06-shots\/videos\/shot-09-coffee-city-seedance-480p-v01.mp4",
+  "source_modified" : false,
+  "source_sha256" : "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86",
+  "width" : 854
+}

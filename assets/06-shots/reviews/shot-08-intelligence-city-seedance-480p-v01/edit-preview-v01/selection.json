@@ -1,0 +1,18 @@
+{
+  "status": "assistant_proposed_pending_user_review",
+  "source_in_frames": 30,
+  "source_out_frames_exclusive": 96,
+  "source_in_seconds": 1.25,
+  "source_out_seconds_exclusive": 4,
+  "duration_frames": 66,
+  "duration_seconds": 2.75,
+  "fps": 24,
+  "speed_multiplier": 1,
+  "output_file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v01/edit-preview-v01/shot-08-hud-edit-preview-v01.mp4",
+  "sha256": "c99815be60cdbba2e54a0bb6631e599fcb76be03cf7b5847d623f1c3d981350e",
+  "source_unchanged": true,
+  "ad_unchanged": true,
+  "local_reencode": true,
+  "audio_edge_fades_seconds": 0.008,
+  "new_credits": 0
+}

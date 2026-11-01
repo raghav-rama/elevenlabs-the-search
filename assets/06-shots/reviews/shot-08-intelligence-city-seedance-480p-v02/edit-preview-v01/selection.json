@@ -1,0 +1,23 @@
+{
+  "status": "user_approved_locked",
+  "source_in_frames": 6,
+  "source_out_frames_exclusive": 72,
+  "source_in_seconds": 0.25,
+  "source_out_seconds_exclusive": 3.0,
+  "duration_frames": 66,
+  "duration_seconds": 2.75,
+  "fps": 24,
+  "speed_multiplier": 1,
+  "output_file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/edit-preview-v01/shot-08-hud-c-edit-preview-v01.mp4",
+  "sha256": "cd63556da707cf6fee969976cb27a7112bb178d372c799fdef5ec3d2982cc51e",
+  "source_unchanged": true,
+  "ad_unchanged": true,
+  "local_reencode": true,
+  "audio_edge_fades_seconds": 0.008,
+  "new_credits": 0,
+  "selected": true,
+  "user_approved": true,
+  "approved_at": "2026-11-01T21:08:16+05:30",
+  "approval_evidence": "Lock it and continue",
+  "approval_scope": "The delivered 2.75-second HUD excerpt, source [0.25,3.00), frames 6\u201371 at original speed; not blanket approval of the full-source tail or final audio master."
+}

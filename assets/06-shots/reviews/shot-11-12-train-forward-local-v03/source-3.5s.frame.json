@@ -1,0 +1,12 @@
+{
+  "actual_seconds" : 3.5,
+  "height" : 480,
+  "output_file" : "assets\/06-shots\/reviews\/shot-11-12-train-forward-local-v03\/source-3.5s.png",
+  "requested_seconds" : 3.5,
+  "script" : "scripts\/extract-video-frame.swift",
+  "sha256" : "062bcd0be2103769ab7e45f54bc8299e4953d8112f08ec6740f35770a564b9f1",
+  "source_file" : "assets\/06-shots\/videos\/shot-11-12-fpp-overhead-seedance-480p-v01.mp4",
+  "source_modified" : false,
+  "source_sha256" : "d52ad8f09107434fd521ce16b1d5622dcd1e7d064ccc5a51e8c7dc2b631e6521",
+  "width" : 854
+}

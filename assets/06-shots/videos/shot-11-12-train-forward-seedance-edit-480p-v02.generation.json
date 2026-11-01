@@ -1,0 +1,238 @@
+{
+  "asset_id": "shot-11-12-train-forward-seedance-edit-480p-v02",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "node_id": "xBr0DWSKHdi5LfRFV237",
+  "model_id": "bytedance-seedance-v2.5-edit",
+  "prompt": "TARGETED MOTION CORRECTION of the supplied video. Preserve its exact continuous first-person-to-overhead rising camera path, timing, lens, composition and forward tracking. Preserve Riley's appearance, gold outfit, running action, the same boulevard, buildings, pedestrians, lighting and all stationary street geometry. Change the TRAIN'S longitudinal animation so it drives FORWARD along the left rails in the same world direction as Riley throughout. Its nose leads its body toward the top of the overhead frame. Measure this against the FIXED planters, paving joints and track sleepers: as time advances, the train nose passes each fixed trackside landmark in the forward direction, never toward a landmark it already passed. The source's train slides backward against the scenery; remove that reversal completely. Use the original train livery, scale, length and rail alignment. Set the train's initial longitudinal position so its nose is just ahead of Riley when the overhead view reveals both. The train continues genuinely forward at steady speed; Riley is substantially faster and races past its nose, with both boots clearly ahead by about four seconds, continuing to open her lead through the ending. The apparent overtake must come from Riley outrunning a forward-moving train, not from reversing, stopping, shrinking or teleporting the train or moving the scenery. Relative to the forward-tracking camera the slower train may fall behind, but relative to every fixed planter and track sleeper it must advance forward. Keep the approved smooth camera rise unchanged. No new cut, orbit, reversed footage, freeze, slow motion, wardrobe change or additional character. Preserve the five-second source duration and natural wind/footstep/train ambience; no speech or music.",
+  "requested_settings": {
+    "resolution": "480p",
+    "aspect_ratio": "auto",
+    "generate_audio": true
+  },
+  "effective_settings": {
+    "aspect_ratio": "auto",
+    "resolution": "480p",
+    "duration_secs": -1,
+    "generate_audio": true,
+    "reference_videos": [
+      {
+        "template_node_id": "sCPaBuh6Y8ZqPFcM9VRb"
+      }
+    ]
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_images",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_videos",
+      "modality": "video",
+      "required": true,
+      "connected_to": [
+        {
+          "id": "sCPaBuh6Y8ZqPFcM9VRb",
+          "label": "Shot11\u201312 \u2014 Continuous FPP to overhead pass \u2014 Seedance480p v01"
+        }
+      ]
+    },
+    {
+      "key": "reference_audios",
+      "modality": "audio",
+      "required": false,
+      "connected_to": []
+    }
+  ],
+  "live_schema": {
+    "model_id": "bytedance-seedance-v2.5-edit",
+    "model_name": "Seedance 2.5 Video Edit",
+    "node_type": "video-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "auto",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "720p",
+        "options": [
+          {
+            "label": "480p",
+            "value": "480p"
+          },
+          {
+            "label": "720p",
+            "value": "720p"
+          },
+          {
+            "label": "1080p",
+            "value": "1080p"
+          }
+        ]
+      },
+      {
+        "name": "generate_audio",
+        "type": "boolean",
+        "required": false,
+        "default": true
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "reference_images",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_videos",
+        "modality": "video",
+        "required": true
+      },
+      {
+        "key": "reference_audios",
+        "modality": "audio",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "auto"
+      ],
+      "duration_secs": "any value: pass `values` to creative_expose_flow_parameter",
+      "generate_audio": [
+        "true",
+        "false"
+      ],
+      "resolution": [
+        "480p",
+        "720p",
+        "1080p"
+      ]
+    }
+  },
+  "model_guide": {
+    "model_id": "bytedance-seedance-v2.5-edit",
+    "guide": "# Seedance family \u2014 bytedance-seedance-v1-pro, bytedance-seedance-v1.5-pro, bytedance-seedance-v2, bytedance-seedance-v2-fast, bytedance-seedance-v2.5, bytedance-seedance-v2.5-edit, bytedance-seedance-v2.5-extend, bytedance-seedance-v2-us, bytedance-seedance-v2.5-us, bytedance-seedance-v2.5-edit-us, bytedance-seedance-v2.5-extend-us\n\nByteDance's flagship video model. The first model supporting simultaneous quad-modal input (text, image, video, and audio). Strong motion realism, character consistency, and multi-shot storytelling.\n\n## Inputs\n\n- Text prompt\n- Optional reference image. The model cites these as `@image1`, `@image2` \u2014 but do not type that yourself: place an `image_reference` part where the reference belongs and the backend renders the token there.\n- Optional reference video\n- Optional audio track (model choreographs video to sound, beat-matched)\n- Parameters: resolution and duration vary by variant (see below)\n\n## Variant notes\n\n- **Seedance 2.0 / 2.0 Fast** \u2014 up to 4K (2.0) or 1080p (Fast); clips 4\u201315s.\n- **Seedance 2.5** (`bytedance-seedance-v2.5`) \u2014 sharper realism; up to 1080p; clips up to 30s; much larger reference budget (upto 10 image, video, and audio refs). Prefer 2.5 over 2.0 unless the user names 2.0.\n- **Seedance 2.5 Edit** (`bytedance-seedance-v2.5-edit`) \u2014 edit an existing clip by describing the change. Duration follows the source.\n- **Seedance 2.5 Extend** (`bytedance-seedance-v2.5-extend`) \u2014 continue from the end of an existing clip. Prompt what happens next.\n- **US-hosted variants** (`bytedance-seedance-v2-us`, `bytedance-seedance-v2.5-us`, `-edit-us`, `-extend-us`) \u2014 the same models served from US infrastructure, offered where the standard ids are not available; same resolutions as their counterparts, and 2.0 US takes no seed. Prompt them exactly like their counterparts.\n- Fast and Pro / 2.5 share prompting style. Longer variants tolerate longer prompts.\n\n## Prompt structure\n\n```\n[shot] + [subject] + [action] + [environment / lighting] + [style]\n```\n\n## Key strengths\n\n- **Handles physical interactions** (pouring, splashing, hand-object contact) better than most models. Describe them concretely.\n- **Good at weather and atmospheric effects.**\n- **Audio-to-video** \u2014 upload an audio track and the model choreographs video to the sound with beat-matched cuts and lip sync.\n- **Negative prompts work** \u2014 phrases like \"no distortion, no stretching,\" \"no grain, no shadows\" are effective.\n- **Seedream + Seedance pipeline** \u2014 generate reference images with Seedream, then use as visual references for maximum control.\n\n## For image-to-video\n\n- **Describe the motion, not the image.** \"Camera slowly orbits around her\" works far better than re-describing what she looks like.\n- **Lock the character with consistency language** \u2014 add \"maintain exact appearance from reference image\" or \"consistent character throughout, no deformation or drift.\"\n\n## Rules\n\n- **A wired audio reference needs `generate_audio` on.** With it off the render comes back silent and the track you connected is thrown away, so connecting audio turns it back on \u2014 never set it to false to keep a voiceover \"clean\".\n- **Use one continuous action per clip.** Multi-beat narratives drift.\n- **For start/end frame inputs**, write a prompt that bridges the two states (\"from sealed package to fully revealed product\"), not a static description.\n\n## Example\n\n> Wide tracking shot of a courier riding an electric scooter through a rainy Shanghai night market. Neon shopfronts reflect on wet pavement. Wisps of steam rise from food stalls as he weaves between pedestrians. Cinematic, slightly desaturated, shallow depth of field.\n\n## What to avoid\n\n- Re-describing the reference image in image-to-video prompts (wastes prompt budget).\n- Abstract or heavily stylized prompts without specificity.",
+    "source": "family"
+  },
+  "estimate": {
+    "credits": 7901.278156800001,
+    "price_cents": 11472.655883673602,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "seed": null,
+  "generations_count": 1,
+  "selected": false,
+  "user_approved": false,
+  "status": "not_selected_train_motion_unresolved_user_stopped",
+  "authorization": {
+    "quote": "Yes why tf is the train sliding backwards? fix that. camera movement looks great",
+    "scope": "Preserve approved camera movement and correct train forward travel. One480p targeted video edit, no new still, end frame, upscale or automatic retry."
+  },
+  "references": [
+    {
+      "file": "assets/06-shots/videos/shot-11-12-fpp-overhead-seedance-480p-v01.mp4",
+      "sha256": "d52ad8f09107434fd521ce16b1d5622dcd1e7d064ccc5a51e8c7dc2b631e6521",
+      "node_id": "sCPaBuh6Y8ZqPFcM9VRb",
+      "generation_id": "Tndu2ARyNCecJj1W57Xz",
+      "role": "reference_videos: exact approved camera move, targeted train-motion correction"
+    }
+  ],
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "xBr0DWSKHdi5LfRFV237",
+        "session_id": "AFt07NoYeD1n1CnuKSW8",
+        "credit_costs": {
+          "A8JhkxJ2GEDjunQjQL9w": 7901.278156800001
+        }
+      }
+    ],
+    "summary": {
+      "nodes_run": 1,
+      "generations_started": 1,
+      "failed": 0,
+      "generations_by_node": {
+        "xBr0DWSKHdi5LfRFV237": 1
+      }
+    },
+    "session_ids": [
+      "AFt07NoYeD1n1CnuKSW8"
+    ]
+  },
+  "session_ids": [
+    "AFt07NoYeD1n1CnuKSW8"
+  ],
+  "session_id": "AFt07NoYeD1n1CnuKSW8",
+  "generation_id": "A8JhkxJ2GEDjunQjQL9w",
+  "submitted_generations": 1,
+  "automatic_retries": 0,
+  "prepared_at": "2026-11-02T03:00:14+05:30",
+  "submitted_at": "2026-11-02T03:00:14+05:30",
+  "timestamp_note": "Recorded immediately after submission; provider timestamp remains authoritative.",
+  "prompt_file": "assets/06-shots/video-prompts/shot-11-12-train-forward-seedance-edit-480p-v02.txt",
+  "output_file": "assets/06-shots/videos/shot-11-12-train-forward-seedance-edit-480p-v02.mp4",
+  "prompt_sha256": "84fea04fc612164c35b436d57796b9ec8e430a146ac9ee5528f1c133fde3d136",
+  "sha256": "ad4875bd80f7cb5fc6ea142eccb77140d8c74d5c73e382b82a5c2e41fe0878b1",
+  "bytes": 3825502,
+  "provider_generation": {
+    "id": "A8JhkxJ2GEDjunQjQL9w",
+    "status": "completed",
+    "model_id": "bytedance-seedance-v2.5-edit",
+    "modality": "video",
+    "prompt": "TARGETED MOTION CORRECTION of the supplied video. Preserve its exact continuous first-person-to-overhead rising camera path, timing, lens, composition and forward tracking. Preserve Riley's appearance",
+    "duration_secs": 5.056,
+    "width": 854,
+    "height": 480,
+    "created_at_unix_ms": 1793568572608,
+    "price": {
+      "credits": 7901.278156800001,
+      "price_cents": 11472.655883673602,
+      "cost_fiat_currency": "inr"
+    }
+  },
+  "completed_at": "2026-11-02T03:02:39+05:30",
+  "stopped_at": "2026-11-02T03:15:11+05:30",
+  "assistant_visual_review": {
+    "observations": [
+      "Camera path and Riley action closely match reference; duration remains121frames/5.042picture seconds.",
+      "The same late backward train slide persists. Targeted generative correction did not meet the requested motion fix."
+    ],
+    "limitations": [
+      "No completed local-composite video; user stopped further correction and selected v07 for publication.",
+      "Native audio decoded/measured only."
+    ]
+  },
+  "native_audio_analysis": {
+    "rms_dbfs": -25.704310246939677,
+    "peak_dbfs": -6.626362302844285,
+    "independent_listening": false
+  }
+}

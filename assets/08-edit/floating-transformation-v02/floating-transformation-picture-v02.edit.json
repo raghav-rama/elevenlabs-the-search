@@ -1,0 +1,58 @@
+{
+  "config" : "assets\/08-edit\/floating-transformation-v02\/config.json",
+  "config_sha256" : "c42772b7b8110bdffdf21b9cceafc64ab94ec7aa79def041d5072fc77968abdf",
+  "duration_seconds" : 5.291666666666667,
+  "float_out_seconds" : [
+    0,
+    0.75
+  ],
+  "float_return_seconds" : [
+    3.8500000000000001,
+    5
+  ],
+  "fps" : 24,
+  "frames" : 127,
+  "limitations" : [
+    "Local foreground segmentation and a cloned\/defocused background patch; detailed edge cleanup remains production work.",
+    "Original transformation and timing preserved; source resolution and enhancement are recorded separately."
+  ],
+  "mattes" : "assets\/08-edit\/upgrade-diagnostic-v01\/mattes\/mattes.json",
+  "mattes_record_sha256" : "153d888a5b2165e042bad0cec393446da01335158a000b08222f691420733df8",
+  "new_provider_generations" : 0,
+  "output" : "assets\/08-edit\/floating-transformation-v02\/floating-transformation-picture-v02.mp4",
+  "output_sha256" : "99faccaedeee4bee352fea4695e39da404fd0f8c09fc77f94137c976df8a4a1c",
+  "person_style" : "natural",
+  "picture_source" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/videos\/shot-04-05-continuous-topaz-2x-v01.mp4",
+  "picture_source_sha256" : "83b6da113f490c82fc95bc4b53cab6f841e69a439e0046292f88b63d2b7228bf",
+  "picture_start_frame" : 162,
+  "resolution" : [
+    1920,
+    1080
+  ],
+  "saved_review_frames" : [
+    "frame-000.png",
+    "frame-004.png",
+    "frame-008.png",
+    "frame-012.png",
+    "frame-018.png",
+    "frame-024.png",
+    "frame-030.png",
+    "frame-036.png",
+    "frame-048.png",
+    "frame-060.png",
+    "frame-072.png",
+    "frame-084.png",
+    "frame-092.png",
+    "frame-100.png",
+    "frame-108.png",
+    "frame-114.png",
+    "frame-120.png",
+    "frame-126.png"
+  ],
+  "script" : "scripts\/render-upgrade-diagnostic.swift",
+  "skeleton_rendered" : false,
+  "source" : "assets\/08-edit\/continuous-ad-review-v01\/afterhuman-continuous-with-david-v01.mp4",
+  "source_retimed" : false,
+  "source_sha256" : "782a57621f92287c8ec29c86b443782c26b83df8413547a38449ff15253a9350",
+  "status" : "local_floating_upgrade_pending_user_review"
+}

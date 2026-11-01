@@ -1,0 +1,83 @@
+{
+  "status": "user_rejected",
+  "flow_id": "J725xEy49QY4xa6L66pw",
+  "flow_url": "https://elevenlabs.io/app/flows/J725xEy49QY4xa6L66pw",
+  "model_id": "minimax-h3",
+  "requested_generations": 1,
+  "generations_per_shot": 1,
+  "requested_settings": {
+    "resolution": "480p",
+    "aspect_ratio": "16:9",
+    "duration_secs": 10
+  },
+  "estimate": {
+    "credits": 3030,
+    "price_cents": 4399.56,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 240
+  },
+  "selected": false,
+  "user_approved": false,
+  "retries": 0,
+  "review_sample_count": 25,
+  "review_interval_seconds": 0.4166666667,
+  "shots": [
+    {
+      "asset_id": "shot-09-reflexes-coffee-orbit-minimax-v02",
+      "title": "Coffee reflexes — slow-motion camera orbit test",
+      "node_id": "rv4Y9yFpbnR1eXQf0jvH",
+      "record_file": "assets/06-shots/videos/shot-09-reflexes-coffee-orbit-minimax-v02.generation.json",
+      "prompt_file": "assets/06-shots/video-prompts/shot-09-reflexes-coffee-orbit-minimax-v02.txt",
+      "output_file": "assets/06-shots/videos/shot-09-reflexes-coffee-orbit-minimax-v02.mp4",
+      "status": "user_rejected",
+      "generation_id": "ary0MpAozOyBi1tIWiKz",
+      "session_id": "D1ZLToBK3c6HzEAJhqWA",
+      "sha256": "782ebc616937139fbea3610a1c9a5604a035c5f5db6c53704d5fdd4b429b7c38",
+      "latest_review_record": "assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v02/review.json"
+    }
+  ],
+  "submitted_at": "2026-11-01T22:11:45+05:30",
+  "submission": {
+    "session_ids": [
+      "D1ZLToBK3c6HzEAJhqWA"
+    ],
+    "results": [
+      {
+        "success": true,
+        "node_id": "rv4Y9yFpbnR1eXQf0jvH",
+        "session_id": "D1ZLToBK3c6HzEAJhqWA",
+        "credit_costs": {
+          "ary0MpAozOyBi1tIWiKz": 3030
+        }
+      }
+    ],
+    "pending": [
+      {
+        "generation_id": "ary0MpAozOyBi1tIWiKz",
+        "kind": "video"
+      }
+    ]
+  },
+  "session_ids": [
+    "D1ZLToBK3c6HzEAJhqWA"
+  ],
+  "completed_at": "2026-11-01T22:12:25+05:30",
+  "completed_generations": 1,
+  "total_reported_price": {
+    "credits": 3030,
+    "price_cents": 4399.56,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T22:15:43+05:30",
+  "review_index": "assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v02/README.md",
+  "gallery_title": "AFTERHUMAN · MiniMax coffee orbit test",
+  "gallery_description": "Ten-second 480p motion test: forward run, airborne-cup reveal, third-person slow-motion orbit, handback and departure.",
+  "gallery_status": "User rejected: passing order, rising cup and rescue distance. Starting reference correction is next.",
+  "gallery_footer": "MiniMax H3 via ElevenLabs · 832×480 · 24 fps · 10.125s · One take · 3,030 credits / INR 44.00",
+  "user_feedback": {
+    "at": "2026-11-01T22:23:11+05:30",
+    "source": "explicit_user_message",
+    "summary": "Rejected: Riley passes the man before noticing; cup rises from below and is too far away. Correct starting reference with man farther ahead. As she draws level, side glance sees cup already falling nearby, then slow-motion circular camera move."
+  }
+}

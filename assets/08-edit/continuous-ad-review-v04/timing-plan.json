@@ -1,0 +1,208 @@
+{
+  "fps": 24,
+  "total_frames": 1107,
+  "duration_seconds": 46.125,
+  "picture": [
+    {
+      "shot": "01\u201303 \u2014 Preserved user FCP opening",
+      "picture": "assets/08-edit/fcp-opening-trimmed-v01/fcp-opening-trimmed-v01.mov",
+      "audio": "assets/08-edit/fcp-opening-trimmed-v01/fcp-opening-trimmed-v01.mov",
+      "source_in_frames": 0,
+      "duration_frames": 146,
+      "audio_gain_db": 0,
+      "selection_status": "approved opening, unchanged source range",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 0,
+      "timeline_start_seconds": 0.0,
+      "timeline_end_seconds": 6.083333333333333,
+      "source_sha256": "8bc7ed866eb7d5b3f3484fbe7173ac9cad86f61f98873ba46319aeb7449a75d9"
+    },
+    {
+      "shot": "04\u201305 \u2014 Missed train, departure and upgrade cue",
+      "picture": "assets/06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 162,
+      "audio_gain_db": -10,
+      "selection_status": "same prefix through frame307 as accepted diagnostic review",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 146,
+      "timeline_start_seconds": 6.083333333333333,
+      "timeline_end_seconds": 12.833333333333334,
+      "source_sha256": "3c3413da46200a72926418e20ec5fa6cc2177af0d0dcdf203353f976111abf39"
+    },
+    {
+      "shot": "06\u201307 \u2014 Approved continuous diagnostic and launch",
+      "picture": "assets/06-shots/videos/shot-06-07-diagnostic-launch-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-06-07-diagnostic-launch-seedance-480p-v01.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 193,
+      "audio_gain_db": -6,
+      "selection_status": "user-approved take, full native193 picture frames",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 308,
+      "timeline_start_seconds": 12.833333333333334,
+      "timeline_end_seconds": 20.875,
+      "source_sha256": "dacbdc7e5c7f03047dcfd91251b4d4554d0d20b54fe88bb740aca22533c7841d"
+    },
+    {
+      "shot": "08 \u2014 Approved tactical intelligence HUD",
+      "picture": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v02.mp4",
+      "audio": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v02.mp4",
+      "source_in_frames": 6,
+      "duration_frames": 66,
+      "audio_gain_db": 0,
+      "selection_status": "exact locked source[0.25,3.00) range",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 501,
+      "timeline_start_seconds": 20.875,
+      "timeline_end_seconds": 23.625,
+      "source_sha256": "da8a4c389e608b276f31e872372fb1fef135139ec8c28fd8b30e144ada3c9403"
+    },
+    {
+      "shot": "09A \u2014 Fast FPP coffee approach",
+      "picture": "assets/06-shots/videos/shot-09-coffee-fpp-run-minimax-v04.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-fpp-run-minimax-v04.mp4",
+      "source_in_frames": 23,
+      "duration_frames": 49,
+      "audio_gain_db": -8,
+      "selection_status": "existing reviewed split range; no new take selection inferred",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 567,
+      "timeline_start_seconds": 23.625,
+      "timeline_end_seconds": 25.666666666666668,
+      "source_sha256": "24be973fe71d67cd3810dfa21e951221e9a4b46916374e70b80873c06962abb3"
+    },
+    {
+      "shot": "09B \u2014 Preferred MiniMax airborne cup and orbit catch",
+      "picture": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 191,
+      "audio_gain_db": 6,
+      "selection_status": "user-preferred TPP; retain existing split range and complete handback/exit",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 616,
+      "timeline_start_seconds": 25.666666666666668,
+      "timeline_end_seconds": 33.625,
+      "source_sha256": "f5efe45d4615c8e650ede34edc5f542c285d934a44d790287617efcb77e5343c"
+    },
+    {
+      "shot": "10 \u2014 Seedance steel-door strength",
+      "picture": "assets/06-shots/videos/shot-10-strength-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-10-strength-city-seedance-480p-v01.mp4",
+      "source_in_frames": 12,
+      "duration_frames": 108,
+      "audio_gain_db": 0,
+      "selection_status": "approved take; proposed[0.50,5.00) original-speed excerpt",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 807,
+      "timeline_start_seconds": 33.625,
+      "timeline_end_seconds": 38.125,
+      "source_sha256": "bbbc2398da759064a5e0ae8fae54d53e6d09dc38aaaa96b273996fce2b580778"
+    },
+    {
+      "shot": "11 \u2014 Seedance boulevard speed",
+      "picture": "assets/06-shots/videos/shot-11-speed-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-11-speed-city-seedance-480p-v01.mp4",
+      "source_in_frames": 18,
+      "duration_frames": 60,
+      "audio_gain_db": -8,
+      "selection_status": "approved take; proposed[0.75,3.25) original-speed excerpt",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 915,
+      "timeline_start_seconds": 38.125,
+      "timeline_end_seconds": 40.625,
+      "source_sha256": "56119b42fe65e94cd4dd546386b5c4b4f2f5a2845c08e61d4c20b30e19acc3ec"
+    },
+    {
+      "shot": "12 \u2014 Approved overhead overtake",
+      "picture": "assets/06-shots/videos/shot-12-overtake-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-12-overtake-city-seedance-480p-v01.mp4",
+      "source_in_frames": 24,
+      "duration_frames": 72,
+      "audio_gain_db": -2,
+      "selection_status": "exact approved native[1.00,4.00) range",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 975,
+      "timeline_start_seconds": 40.625,
+      "timeline_end_seconds": 43.625,
+      "source_sha256": "04bb665e28eff23d38d3ef32a8c6e38429a9281275c0a05f9096f0ec3e51a312"
+    },
+    {
+      "shot": "13 \u2014 Matching city spiral and product end card",
+      "picture": "assets/08-edit/continuous-ad-review-v04/afterhuman-brand-outro-v04.mp4",
+      "audio": "assets/08-edit/continuous-ad-review-v04/david-chrome-swagger-arranged-v04.wav",
+      "source_in_frames": 0,
+      "duration_frames": 60,
+      "audio_gain_db": -120,
+      "selection_status": "existing editorial design rebuilt from selected city ending; derived review",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 1047,
+      "timeline_start_seconds": 43.625,
+      "timeline_end_seconds": 46.125,
+      "source_sha256": "eb38f265d835da6206acb0546e5435ee14944636cc3d9783742fec7bb4fee971"
+    }
+  ],
+  "voiceover": [
+    {
+      "line": "Missed your train? Still running on flesh and blood? So upgrade.",
+      "source_in_seconds": 0,
+      "duration_seconds": 4.525,
+      "timeline_start_seconds": 8.473333333333333
+    },
+    {
+      "line": "Suddenly, everything clicks.",
+      "source_in_seconds": 4.525,
+      "duration_seconds": 2.2649999999999997,
+      "timeline_start_seconds": 20.875
+    },
+    {
+      "line": "The world moves in slow motion.",
+      "source_in_seconds": 6.79,
+      "duration_seconds": 2.45,
+      "timeline_start_seconds": 25.291666666666668
+    },
+    {
+      "line": "Heavy lifting? Adorable.",
+      "source_in_seconds": 9.24,
+      "duration_seconds": 2.385,
+      "timeline_start_seconds": 33.625
+    },
+    {
+      "line": "And that train you missed?",
+      "source_in_seconds": 11.625,
+      "duration_seconds": 1.2599999999999998,
+      "timeline_start_seconds": 38.375
+    },
+    {
+      "line": "It is trying to catch you now.",
+      "source_in_seconds": 12.885,
+      "duration_seconds": 1.8350000000000009,
+      "timeline_start_seconds": 41.416666666666664
+    },
+    {
+      "line": "AFTERHUMAN. A step ahead.",
+      "source_in_seconds": 14.72,
+      "duration_seconds": 2.2073333333333327,
+      "timeline_start_seconds": 43.5
+    }
+  ],
+  "music": [
+    {
+      "source_in_seconds": 0,
+      "timeline_start_seconds": 12.833333333333334,
+      "duration_seconds": 15.291666666666666,
+      "fade_in_seconds": 0.005,
+      "fade_out_seconds": 0.12
+    },
+    {
+      "source_in_seconds": 0,
+      "timeline_start_seconds": 28.125,
+      "duration_seconds": 18,
+      "fade_in_seconds": 0.005,
+      "fade_out_seconds": 0.03
+    }
+  ],
+  "source_retiming": false
+}

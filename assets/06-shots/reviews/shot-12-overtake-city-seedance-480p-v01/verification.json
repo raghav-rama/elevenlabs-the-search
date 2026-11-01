@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-11-01T19:51:30+05:30",
+  "source_and_reference_hashes_verified": [
+    "assets/06-shots/images/shot-12-overtake-city-start-v03.png",
+    "assets/06-shots/images/shot-12-overtake-city-end-v03.png",
+    "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+    "assets/06-shots/videos/shot-12-overtake-city-seedance-480p-v01.mp4",
+    "assets/06-shots/video-prompts/shot-12-overtake-city-seedance-480p-v01.txt"
+  ],
+  "json_files_verified": [
+    "assets/06-shots/videos/shot-12-overtake-city-seedance-480p-v01.generation.json",
+    "assets/06-shots/videos/city-overhead-seedance-batch-v01.json",
+    "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/review.json",
+    "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/inspection.json",
+    "assets/manifest.json"
+  ],
+  "local_links_verified": 14,
+  "generations_started": 1,
+  "credits": 6511.470000000001,
+  "no_signed_urls_in_new_records": true,
+  "approved_cut_preserved": true,
+  "user_review_pending": true
+}

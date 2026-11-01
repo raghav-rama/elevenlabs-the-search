@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-11-01T20:12:08+05:30",
+  "verified_hashes": [
+    "assets/06-shots/images/shot-08-intelligence-city-start-v02.png",
+    "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+    "assets/06-shots/videos/shot-12-overtake-city-seedance-480p-v01.mp4",
+    "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4",
+    "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v01.mp4",
+    "assets/06-shots/video-prompts/shot-08-intelligence-city-seedance-480p-v01.txt",
+    "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v01/edit-preview-v01/shot-08-hud-edit-preview-v01.mp4"
+  ],
+  "local_links_verified": 18,
+  "full_source_frames": 121,
+  "preview_frames": 66,
+  "preview_duration": 2.75,
+  "original_speed_preserved": true,
+  "prior_cut_and_overhead_preserved": true,
+  "generations_started": 1,
+  "credits": 6511.470000000001,
+  "new_signed_urls_in_records": false,
+  "user_review_pending": true
+}

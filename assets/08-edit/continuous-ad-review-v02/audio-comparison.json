@@ -1,0 +1,13 @@
+{
+  "frames_per_channel": 2160000,
+  "sample_rate": 48000,
+  "channels": 2,
+  "duration_seconds": 45,
+  "compressed_aac_payload_identical": true,
+  "decoded_pcm_bit_identical": false,
+  "differing_float_samples": 665556,
+  "maximum_absolute_sample_difference": 1.7881393432617188e-07,
+  "difference_peak_dbfs": -134.95197282431772,
+  "difference_rms_dbfs": -165.41594842719536,
+  "note": "Identical compressed AAC decoded into float PCM with tiny numerical differences; no new audio encoding or intentional audio edit."
+}

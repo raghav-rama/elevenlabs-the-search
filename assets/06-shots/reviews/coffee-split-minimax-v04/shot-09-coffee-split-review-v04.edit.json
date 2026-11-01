@@ -1,0 +1,58 @@
+{
+  "audio_bridges" : [
+
+  ],
+  "audio_tracks" : 1,
+  "clips" : [
+    {
+      "audio" : "assets\/06-shots\/videos\/shot-09-coffee-fpp-run-minimax-v04.mp4",
+      "audio_gain_db" : -2,
+      "audio_sha256" : "24be973fe71d67cd3810dfa21e951221e9a4b46916374e70b80873c06962abb3",
+      "duration_seconds" : 2.0416666666666665,
+      "picture" : "assets\/06-shots\/videos\/shot-09-coffee-fpp-run-minimax-v04.mp4",
+      "picture_sha256" : "24be973fe71d67cd3810dfa21e951221e9a4b46916374e70b80873c06962abb3",
+      "post_handle_samples" : 1200,
+      "pre_handle_samples" : 0,
+      "shot" : "A — FPP fast run and beginning of left look",
+      "source_audio_rms_dbfs" : -17.569335135655958,
+      "source_in_seconds" : 0.95833333333333337,
+      "timeline_start_seconds" : 0
+    },
+    {
+      "audio" : "assets\/06-shots\/videos\/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+      "audio_gain_db" : 8,
+      "audio_sha256" : "f5efe45d4615c8e650ede34edc5f542c285d934a44d790287617efcb77e5343c",
+      "duration_seconds" : 7.958333333333333,
+      "picture" : "assets\/06-shots\/videos\/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+      "picture_sha256" : "f5efe45d4615c8e650ede34edc5f542c285d934a44d790287617efcb77e5343c",
+      "post_handle_samples" : 0,
+      "pre_handle_samples" : 0,
+      "shot" : "B — Already airborne mug, orbital catch, handback and launch",
+      "source_audio_rms_dbfs" : -34.353269585304233,
+      "source_in_seconds" : 0,
+      "timeline_start_seconds" : 2.0416666666666665
+    }
+  ],
+  "crossfade_half_seconds" : 0.025000000000000001,
+  "decoded_aac_peak_dbfs" : -2.9499091744837482,
+  "duration_seconds" : 10,
+  "fps" : 24,
+  "framing" : "fit",
+  "master_gain" : 1,
+  "mixed_wav" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/coffee-split-minimax-v04\/shot-09-coffee-split-review-v04.mix.wav",
+  "notes" : "Hard picture cuts; source frame ranges at original speed, aspect conformed according to the recorded framing setting. Picture re-encoded, not bitstream copied. Audio levels adjusted conservatively using RMS, not perceptual loudness. Native audio ducked under the supplied narration according to the timeline; no synthesis or speech removal by this script. Original source files remain untouched. Audio content and subjective transitions require listening review.",
+  "output" : "assets\/06-shots\/reviews\/coffee-split-minimax-v04\/shot-09-coffee-split-review-v04.mp4",
+  "output_sha256" : "3fb1e87b399697bef05ee5957b04ccf2615c5e4da54cd2cf705ffdcdf9838195",
+  "pcm_peak_dbfs" : -2.9850894554883016,
+  "pcm_rms_dbfs" : -23.875518967728965,
+  "resolution" : [
+    832,
+    480
+  ],
+  "review_status" : "pending_user_playback_and_listening",
+  "script" : "scripts\/assemble-continuation.swift",
+  "speed_multiplier" : 1,
+  "timeline" : "assets\/06-shots\/reviews\/coffee-split-minimax-v04\/timeline.json",
+  "timeline_sha256" : "a386ddaac4f224359eb030130480b2d90e8092bc93eeed93b474289f5f6948b0",
+  "title" : "AFTERHUMAN — Coffee reflex split prototype v04"
+}

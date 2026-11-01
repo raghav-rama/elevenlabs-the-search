@@ -1,0 +1,234 @@
+{
+  "prompt": "Edit the supplied overhead boulevard image into the END FRAME of a fast train-overtaking shot. Keep the exact camera heading, overhead perspective, image aspect ratio, wet tiled boulevard, left railway alignment, cyan planters, gold bollards, glass building on the right, lighting, train design and Riley's gold dress/black boots/natural skin. Change only the race positions and Riley's running pose: Riley is sprinting toward the TOP edge in the same center-right path, at x=49% with her head at y=11% and trailing boot at y=23%. The same train travels toward the TOP on the left rails, its front nose now at y=44%, body continuing below the bottom edge. Therefore Riley's ENTIRE body including both boots is well ahead of the leading train nose by at least one full body length. Her torso leans forward, opposing arms pump and legs form a powerful athletic mid-stride, with subtle cyan streak trailing behind. Remove her previous lower-frame figure cleanly and restore pavement there. One Riley only. Keep the other pedestrians out of her clear running lane. This is a realistic cinematic still, no text or diagram, no skeletal limbs, no duplicated runner. Do not change the input aspect ratio.",
+  "schema": {
+    "model_id": "gemini-3.1-flash-image",
+    "model_name": "Google Nano Banana 2",
+    "node_type": "image-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "16:9",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "2:3",
+            "value": "2:3"
+          },
+          {
+            "label": "3:2",
+            "value": "3:2"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "4:5",
+            "value": "4:5"
+          },
+          {
+            "label": "5:4",
+            "value": "5:4"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "1:4",
+            "value": "1:4"
+          },
+          {
+            "label": "4:1",
+            "value": "4:1"
+          },
+          {
+            "label": "1:8",
+            "value": "1:8"
+          },
+          {
+            "label": "8:1",
+            "value": "8:1"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "1K",
+        "options": [
+          {
+            "label": "512",
+            "value": "512"
+          },
+          {
+            "label": "1K",
+            "value": "1K"
+          },
+          {
+            "label": "2K",
+            "value": "2K"
+          },
+          {
+            "label": "4K",
+            "value": "4K"
+          }
+        ]
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "images",
+        "modality": "image",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "16:9",
+        "21:9",
+        "1:4",
+        "4:1",
+        "1:8",
+        "8:1"
+      ],
+      "resolution": [
+        "512",
+        "1K",
+        "2K",
+        "4K"
+      ]
+    }
+  },
+  "guide": {
+    "model_id": "gemini-3.1-flash-image",
+    "guide": "# Nano Banana family \u2014 gemini-2.5-flash-image, gemini-3.1-flash-image, gemini-3-pro-image\n\nGoogle's natively multimodal image generation models. Marketing names map to model ids as follows:\n\n- \"Nano Banana\" \u2192 `gemini-2.5-flash-image` \u2014 original Flash variant; fastest and cheapest.\n- \"Nano Banana 2\" \u2192 `gemini-3.1-flash-image` \u2014 near-Pro quality at Flash speed.\n- \"Nano Banana Pro\" \u2192 `gemini-3-pro-image` \u2014 highest fidelity in the family, best text rendering.\n\n## Key strengths\n\n- **Deep language understanding** \u2014 a narrative paragraph always outperforms disconnected tags.\n- **Editing with reference images** \u2014 upload an image and use text prompts to add, remove, or modify elements.\n- **Multi-image composition** \u2014 provide multiple inputs to compose a new scene or transfer style.\n- **Character consistency** \u2014 describe the character once in detail, then reference them in subsequent prompts within the same session.\n- **Step-by-step instructions for complex scenes** \u2014 split your request into ordered steps.\n\n## How to think about prompts\n\n- Start with a clear action when useful: generate, edit, transform, restyle, compose, localize, visualize.\n- Describe what should be present, not just what should be removed.\n- Be concrete about the important parts of the image:\n  - subject\n  - action or pose\n  - environment or context\n  - composition and framing\n  - lighting\n  - camera or lens feel\n  - texture and materials\n  - color grade or overall visual style\n  - text treatment, if the image includes words\n- When editing, clearly separate what changes from what must remain unchanged.\n- When reference images are provided, explain what each reference is being used for, such as identity, pose, outfit, product shape, texture, style, or composition.\n- When the image depends on real-world facts or current conditions, ground the prompt in those facts before visualizing.\n- Prefer prompts that are easy to iterate. Small follow-up changes are better than rewriting the entire scene unless necessary.\n\n## What good Nano Banana prompting tends to look like\n\nA strong prompt usually includes:\n- what the image is about\n- what is happening\n- where it is happening\n- how it should be framed\n- what kind of light or atmosphere it has\n- what visual style it should resemble\n\nTwo patterns work well \u2014 pick whichever fits the brief:\n\nRecipe pattern:\n`[subject] + [action] + [context] + [composition] + [style/look]`\n\nSentence pattern:\n> A [style] [shot type] of [subject], [action or expression], set in [environment]. The scene is illuminated by [lighting], creating a [mood] atmosphere. Captured with [camera/lens details], emphasizing [textures and details].\n\nExample:\n> Generate an image of a premium smartwatch on a sculpted stone pedestal. The watch is angled slightly three-quarters toward camera, screen awake with a minimal fitness dashboard. Scene: a clean luxury studio set with a muted graphite backdrop. Composition: close product hero shot, center-weighted, tight crop with negative space above. Lighting: soft studio lighting with a subtle rim light. Style: high-end commercial campaign. Materials: brushed titanium, polished glass, matte stone.\n\n## Using references well\n\nWhen references are present, do not just say \"use these references.\" Explain what each one contributes.\n\nBetter:\n> Using the attached references:\n> - Reference 1 provides the exact sneaker shape and branding\n> - Reference 2 provides the marble texture and luxury material feel\n>\n> Create a new premium ad image that preserves the sneaker silhouette, logo placement, and color blocking exactly, while placing it in a cool-toned luxury showroom. Low-angle hero shot, glossy studio highlights, modern sportswear campaign feel.\n\nReference template:\n> Using the attached references:\n> - Reference 1 provides [what it contributes]\n> - Reference 2 provides [what it contributes]\n>\n> Create [the new image description] preserving [specific elements] while [specific changes].\n\n## Editing guidance\n\nFor edits, always be explicit about:\n- what to change\n- what to keep exactly the same\n\nEdit template:\n> Edit the provided image.\n>\n> Change: [exactly what to change]\n>\n> Keep: [everything else \u2014 be explicit]\n>\n> Match the original image seamlessly.\n\nExample:\n> Edit the provided image. Change the jacket from black leather to navy blue tweed. Keep the model's face, pose, camera angle, framing, background, and lighting exactly the same. Match the original image seamlessly.\n\nAnother example:\n> Edit the provided image. Remove the person in the far background near the doorway. Keep the main subject, crop, shadows, perspective, and room lighting exactly the same.\n\n## Compositing guidance\n\nWhen adding or combining elements, ask for physical believability.\n\nExample:\n> Add the attached perfume bottle into the existing vanity scene. Match the perspective, scale, lighting direction, reflections, and shadow softness so it looks naturally photographed in the scene. Keep the rest of the image unchanged.\n\n## Style transfer guidance\n\nWhen changing style, preserve content unless the user wants structural changes too.\n\nExample:\n> Recreate the exact content of the provided street photo in an expressive oil painting style. Keep the street layout, people positions, building shapes, and perspective intact. Change only the rendering into thick brushstrokes, rich impasto texture, and luminous color contrast.\n\n## Text-in-image guidance\n\nWhen the image includes text:\n- put the exact text in quotes\n- specify hierarchy line by line\n- describe the font or name the font when that matters\n- specify the text color\n- specify approximate size or relative prominence when useful\n- specify weight and styling when useful: bold, italic, condensed, uppercase / lowercase\n- specify placement and layout\n- specify alignment and spacing when useful\n- mention any text effects that matter, such as outline, shadow, glow, embossing, metallic foil, or neon treatment\n- mention localization explicitly if needed\n\nThe more important the typography is, the more explicit the prompt should be. Don't just describe the words \u2014 describe how they should look.\n\nText template:\n> Render the following text exactly:\n> - Top line: \"[TEXT]\" in [font or typography style], [color], [size or relative scale], [weight/style]\n> - Middle line: \"[TEXT]\" in [font or typography style], [color], [size or relative scale], [weight/style]\n> - Bottom line: \"[TEXT]\" in [font or typography style], [color], [size or relative scale], [weight/style]\n>\n> Layout: [placement, alignment, spacing, hierarchy]\n> Effects: [outline, glow, drop shadow, metallic finish, etc.]\n> Background/scene: [visual setting]\n\nExample:\n> Generate a cosmetic poster. Render the following text exactly:\n> - Top line: \"GLOW\" in a flowing Brush Script style, white, large, slightly italic, elegant and airy.\n> - Middle line: \"10% OFF\" in a heavy Impact-style font, bright coral, much larger than the top line, bold and tightly spaced.\n> - Bottom line: \"Your First Order\" in a thin geometric sans-serif, soft beige, smaller, clean and understated.\n>\n> Layout: all three lines stacked vertically to the right of the product, left-aligned, with generous spacing between the top and middle lines and tighter spacing between the middle and bottom lines.\n> Effects: subtle soft shadow for separation from the background.\n> Background: warm nude studio backdrop with a glossy moisturizer jar.\n\nLocalization example:\n> Generate the same poster, but localize the text into Korean while preserving the same hierarchy, colors, emphasis, and overall design feel.\n\n## Grounded / real-world visual generation\n\nWhen the image depends on current conditions, search or gather the facts first, then translate them visually.\n\nExample:\n> Search for the current weather and conditions in Tokyo. Use that information to determine the sky, clothing cues, and lighting. Then generate a miniature Tokyo city scene embedded inside a realistic smartphone weather app interface. Style: polished product-demo visual with realistic UI and macro photography feel.\n\n## Creative direction details you can add when helpful\n\nLighting ideas:\n- soft overcast daylight\n- golden-hour backlight\n- dramatic chiaroscuro\n- glossy studio softboxes\n- neon practical lighting\n- subtle rim light\n\nCamera and framing ideas:\n- close hero shot\n- wide environmental shot\n- low-angle perspective\n- aerial view\n- macro lens feel\n- 85mm portrait look\n- shallow depth of field\n- deep focus documentary feel\n\nMaterial and texture ideas:\n- brushed aluminum\n- polished chrome\n- matte rubber\n- glazed ceramic\n- weathered concrete\n- translucent acrylic\n- navy tweed\n- etched silver leaf\n\nColor and finishing ideas:\n- cinematic muted tones\n- warm tungsten palette\n- slightly grainy analog film feel\n- crisp luxury commercial finish\n- saturated editorial color\n- restrained documentary realism\n\n## How to refine prompts\n\nPrefer small, controlled follow-ups such as:\n- \"Keep everything else identical, but make the lighting warmer and more golden-hour.\"\n- \"Same subject and framing, but change the background to brushed steel.\"\n- \"Preserve the product exactly; redesign only the environment as a futuristic showroom.\"\n- \"Keep the composition and pose, but restyle the rendering into a painterly editorial illustration.\"\n- \"Keep the text hierarchy and layout, but localize into Japanese.\"\n\n## Aspect-ratio quirks\n\n- Aspect ratios can be unreliable through prompting alone \u2014 provide a reference image with the correct dimensions if needed.\n- When editing, the model may struggle maintaining aspect ratios \u2014 add \"Do not change the input aspect ratio\" explicitly.\n- If uploading multiple images with different aspect ratios, the model adopts the ratio of the last image provided.\n\n## What to avoid\n\n- vague instructions like \"make it cool\" or \"make it better\"\n- long lists of disconnected keywords; keyword spam (\"8k, masterpiece, trending\") does nothing\n- heavy use of negative phrasing\n- prompts that mention references without saying what they are for\n- edit requests that do not specify what must remain unchanged\n- text-in-image requests that do not quote the exact wording",
+    "source": "family"
+  },
+  "quote": {
+    "credits": 409.05,
+    "price_cents": 593.9406,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "run": {
+    "session_ids": [
+      "fofJuOd8c9h4aLvCBeQs"
+    ],
+    "results": [
+      {
+        "success": true,
+        "node_id": "h9Zczw08Cb4j21heahAJ",
+        "session_id": "fofJuOd8c9h4aLvCBeQs",
+        "credit_costs": {
+          "to0ehtGaEXtZfwiK68u6": 409.05
+        }
+      }
+    ],
+    "pending": [
+      {
+        "id": "to0ehtGaEXtZfwiK68u6",
+        "kind": "image"
+      }
+    ],
+    "summary": {
+      "nodes_run": 1,
+      "generations_started": 1,
+      "failed": 0,
+      "generations_by_node": {
+        "h9Zczw08Cb4j21heahAJ": 1
+      }
+    }
+  },
+  "node_id": "h9Zczw08Cb4j21heahAJ",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "prepared_at": "2026-11-02T02:46:16+05:30",
+  "status": "prepared_reference_for_authorized_video",
+  "selected": false,
+  "user_approved": false,
+  "source_file": "assets/06-shots/references/boulevard-overtake-v01/user-approved-start.png",
+  "source_sha256": "fde9654b1395297e3a9dc988e420b10fb58be5c64b72ad2da17a2ed4971d76ac",
+  "source_node_id": "auMJwRpCIDcwyqksrIev",
+  "prompt_file": "assets/06-shots/prompts/shot-12-boulevard-overtake-end-v01.txt",
+  "prompt_sha256": "90c71beb6651e760ab90ea80b62003f904b82ec9f3e5825b07c4abaa10602f4b",
+  "output_file": "assets/06-shots/images/shot-12-boulevard-overtake-end-v01.png",
+  "sha256": "6d052005d508273dfd1e6c59390a479e42998fbc4cecf504b9e37f9e2eaab77c",
+  "bytes": 722829,
+  "width": 688,
+  "height": 384,
+  "generation_id": "to0ehtGaEXtZfwiK68u6",
+  "session_id": "fofJuOd8c9h4aLvCBeQs",
+  "completed_at": "2026-11-02T02:47:30+05:30",
+  "visual_review": {
+    "method": "viewed native end frame",
+    "observation": "Riley and train face upframe. Riley is ahead and trailing boot clears train nose narrowly; requested full-body-length clearance not achieved. World and gold wardrobe retained. Sufficient finish anchor for this single test, not user-selected new still."
+  },
+  "model_id": "gemini-3.1-flash-image",
+  "requested_settings": {
+    "resolution": "512",
+    "aspect_ratio": "16:9"
+  },
+  "generations_count": 1,
+  "seed": null,
+  "provider_generation": {
+    "id": "to0ehtGaEXtZfwiK68u6",
+    "status": "completed",
+    "model_id": "gemini-3.1-flash-image",
+    "modality": "image",
+    "prompt": "Edit the supplied overhead boulevard image into the END FRAME of a fast train-overtaking shot. Keep the exact camera heading, overhead perspective, image aspect ratio, wet tiled boulevard, left railwa",
+    "width": 688,
+    "height": 384,
+    "created_at_unix_ms": 1793567776128,
+    "price": {
+      "credits": 409.05,
+      "price_cents": 593.9406,
+      "cost_fiat_currency": "inr"
+    }
+  },
+  "input_ports": [
+    {
+      "key": "images",
+      "connected_to": [
+        {
+          "id": "auMJwRpCIDcwyqksrIev"
+        }
+      ]
+    }
+  ]
+}

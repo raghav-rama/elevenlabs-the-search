@@ -1,0 +1,25 @@
+{
+  "title": "Original MiniMax v04 — current user preference",
+  "location": "Sunlit wet cyberpunk cafe walkway",
+  "output_file": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+  "assistant_visual_review": {
+    "observations": [
+      "Starts with a single mug already airborne and the patron hands empty; no deliberate release shown.",
+      "Riley tracks the cup, reaches down and visibly catches around 1.75-2.1 seconds in sampled frames.",
+      "Camera travels continuously from frontal toward side/rear angles with changing background parallax during the reach, catch and handback.",
+      "Handback around 5.3-6.3 seconds; cyan-wake fast departure around 6.7 seconds to end.",
+      "Gold mini outfit, bob, face/neck implants, narrow arm/thigh chrome and tall boots broadly preserved."
+    ],
+    "limitations": [
+      "Reach takes roughly two seconds and feels slow alongside the slow world; it is not yet the desired fast snatch.",
+      "Eye reaction reads mostly as a downward/head turn rather than a distinct fast lateral eye flick.",
+      "Orbit is a broad arc; a complete 360-degree revolution is not established.",
+      "Cup motion lingers nearly suspended early; downward motion is small in the time-dilated interval.",
+      "Patron/geography continuity and exact likeness need playback review; the reverse-angle start repeats cafe-left geography.",
+      "Native audio inspected numerically only; no independent listening or speech-content approval."
+    ],
+    "method": "Native-resolution keyframes plus 0.125-second focused and 0.25/0.333-second overview contact sheets; full-frame decode. Not a real-time playback/listening claim.",
+    "reviewed_at": "2026-11-01T23:16:52+05:30"
+  },
+  "source_review": "assets/06-shots/reviews/shot-09-coffee-tpp-orbit-minimax-v04/review.json"
+}

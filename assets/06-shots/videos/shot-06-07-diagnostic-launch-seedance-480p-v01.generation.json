@@ -1,0 +1,623 @@
+{
+  "asset_id": "shot-06-07-diagnostic-launch-seedance-480p-v01",
+  "title": "06\u201307 \u2014 Continuous diagnostic and preferred launch",
+  "location": "Daylight wet cyberpunk station, train departed",
+  "provider": "ElevenLabs Creative Studio",
+  "model_id": "bytedance-seedance-v2.5",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "node_id": "zNANNye0YNbi06f1AE6w",
+  "prompt": "One continuous eight-second photorealistic cinematic advertising shot, 16:9. Combine the two supplied VIDEO references into a single fluid performance: first the floating-body diagnostic sequence, then the decisive high-speed launch. Do not create a montage or a cut between them.\n\nREFERENCE ROLES: The diagnostic video (dark cyan terminal interface, Riley floats into the middle and back) controls the first part, the readable product explanation and the return transition. The MiniMax launch video (gold-dressed Riley accelerates down the wet empty platform leaving cyan/magenta trails) controls the second part: use its actual turn, planted push-off, rapid physical acceleration and screen-left/away travel, especially its first 2.4 seconds. The portrait image defines Riley's facial identity and asymmetric cyberware ONLY; do not copy its office blouse or lanyard. The full-body gold-outfit image defines her outfit, boots, human skin and narrow chrome inlays. The station still defines the original standing position, camera angle, wet platform, cleared tracks and daylight. Maintain the same person, costume and station throughout.\n\n0.00\u20130.75: Begin with upgraded Riley standing full-body in her original platform position, slightly right of center, as in the station reference. Without a cut, her single body rises gently and glides toward the screen center as the station dims behind her. The camera remains fixed. Keep her full silhouette connected and recognizable; no duplicate body left behind.\n0.75\u20133.80: She is suspended centrally in an elegant cyan translucent diagnostic visualization. A non-gory technical scan reveals clean schematic implant lines over her human form, not exposed organs. Use the diagnostic reference's terminal interface, subtle grid and four callout panels around her, keeping the center silhouette clear. At upper left, type the exact brand letter by letter: A, AF, AFT, AFTERHUMAN. Beneath it type CYBERNETIC IMPLANTS. Four neat white/cyan monospaced labels appear sequentially: INTELLIGENCE, REFLEXES, STRENGTH, SPEED. Connect them respectively to head, nervous system, arms and legs with thin cyan lines. Each indicates ONLINE. Her outfit and human anatomy remain identifiable through the scan; she is not a chrome robot. Crisp typography, clean margins, no overlapping labels.\n3.80\u20135.05: The scan completes. The same body smoothly glides back from screen center into her exact original platform position and original scale. The interface dissolves while the daylight station returns naturally, maintaining unchanged columns, rails, perspective and reflections. Restore opaque human skin and gold fabric seamlessly. Both boots settle on the same platform surface; no jump cut or pose reset.\n5.05\u20137.20: The instant her boots settle, she turns LEFT toward the departed train's direction, loads the planted boot in one compact movement and explosively accelerates along the platform toward the distant LEFT vanishing point. Match the speed and choreography of the MiniMax launch reference, with the run underway by 5.5 seconds. Real alternating grounded strides, strong forward lean and hair/dress reacting to acceleration. Brief cyan and magenta wakes trail BEHIND her, tracking the actual physical run. She becomes tiny and disappears into the left distance by 7.2 seconds. No extra standing pause, slow jog, floating sprint, teleport, eye close-up or camera cut.\n7.20\u20138.00: Hold the same cleared platform as the light trails decay. The train has already left before this shot and never reappears. No new people, moving architecture, reversed travel or tracks crossing her path. Fixed wide camera, consistent daylight cyberpunk city, dark steel, warm gold lighting and wet cyan reflections.\n\nNatural human arms and legs with skin and narrow chrome stripes; preserve the gold wrap mini-dress and selected black/gold boots. Same brunette bob, teal accent and facial hardware. No anatomy stretching, duplicated limbs or full metallic replacement. Audio: subtle electronic scanning ticks and activation tone, boot plant and rapidly receding footfalls into a short air rush, quiet continuous station ambience. No speech, voiceover, music or vocal exclamations; the existing David narration and Chrome Swagger music will be mixed separately.\n",
+  "prompt_file": "assets/06-shots/video-prompts/shot-06-07-diagnostic-launch-seedance-480p-v01.txt",
+  "prompt_sha256": "a58132dd221ccb1ade5e243a3697b1bca38fa79f8974ea5f0c6562eee92bc525",
+  "effective_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "480p",
+    "duration_secs": 8,
+    "generate_audio": true,
+    "reference_images": [
+      {
+        "template_node_id": "ldx3dNdFkLfKBC2giOfl"
+      },
+      {
+        "template_node_id": "LsmAOIUrwmaZEKFGxI1L"
+      },
+      {
+        "template_node_id": "oq4i1gtPgBZQWZjKpyK9"
+      }
+    ],
+    "reference_videos": [
+      {
+        "template_node_id": "F3uai0wFoA6K2POFAznE"
+      },
+      {
+        "template_node_id": "tkTpsKvMIQWB5YZu3I44"
+      }
+    ]
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "start_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "end_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "ldx3dNdFkLfKBC2giOfl",
+          "label": "APPROVED \u2014 Riley face and asymmetric cyberware"
+        },
+        {
+          "id": "LsmAOIUrwmaZEKFGxI1L",
+          "label": "APPROVED \u2014 Gold dress, natural skin, narrow chrome inlays"
+        },
+        {
+          "id": "oq4i1gtPgBZQWZjKpyK9",
+          "label": "WORLD \u2014 approved transformation ending, city architecture and daylight"
+        }
+      ]
+    },
+    {
+      "key": "reference_videos",
+      "modality": "video",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "F3uai0wFoA6K2POFAznE",
+          "label": "DIAGNOSTIC REFERENCE \u2014 Full float / terminal labels / return v02"
+        },
+        {
+          "id": "tkTpsKvMIQWB5YZu3I44",
+          "label": "PREFERRED MOTION \u2014 Original MiniMax departure launch v02"
+        }
+      ]
+    },
+    {
+      "key": "reference_audios",
+      "modality": "audio",
+      "required": false,
+      "connected_to": []
+    }
+  ],
+  "live_schema": {
+    "model_id": "bytedance-seedance-v2.5",
+    "model_name": "Seedance 2.5",
+    "node_type": "video-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "16:9",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "720p",
+        "options": [
+          {
+            "label": "480p",
+            "value": "480p"
+          },
+          {
+            "label": "720p",
+            "value": "720p"
+          },
+          {
+            "label": "1080p",
+            "value": "1080p"
+          }
+        ]
+      },
+      {
+        "name": "duration_secs",
+        "type": "select_number",
+        "required": false,
+        "default": 5,
+        "options": [
+          {
+            "label": "4",
+            "value": 4
+          },
+          {
+            "label": "5",
+            "value": 5
+          },
+          {
+            "label": "6",
+            "value": 6
+          },
+          {
+            "label": "7",
+            "value": 7
+          },
+          {
+            "label": "8",
+            "value": 8
+          },
+          {
+            "label": "9",
+            "value": 9
+          },
+          {
+            "label": "10",
+            "value": 10
+          },
+          {
+            "label": "11",
+            "value": 11
+          },
+          {
+            "label": "12",
+            "value": 12
+          },
+          {
+            "label": "13",
+            "value": 13
+          },
+          {
+            "label": "14",
+            "value": 14
+          },
+          {
+            "label": "15",
+            "value": 15
+          },
+          {
+            "label": "16",
+            "value": 16
+          },
+          {
+            "label": "17",
+            "value": 17
+          },
+          {
+            "label": "18",
+            "value": 18
+          },
+          {
+            "label": "19",
+            "value": 19
+          },
+          {
+            "label": "20",
+            "value": 20
+          },
+          {
+            "label": "21",
+            "value": 21
+          },
+          {
+            "label": "22",
+            "value": 22
+          },
+          {
+            "label": "23",
+            "value": 23
+          },
+          {
+            "label": "24",
+            "value": 24
+          },
+          {
+            "label": "25",
+            "value": 25
+          },
+          {
+            "label": "26",
+            "value": 26
+          },
+          {
+            "label": "27",
+            "value": 27
+          },
+          {
+            "label": "28",
+            "value": 28
+          },
+          {
+            "label": "29",
+            "value": 29
+          },
+          {
+            "label": "30",
+            "value": 30
+          }
+        ]
+      },
+      {
+        "name": "generate_audio",
+        "type": "boolean",
+        "required": false,
+        "default": true
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "start_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "end_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_images",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_videos",
+        "modality": "video",
+        "required": false
+      },
+      {
+        "key": "reference_audios",
+        "modality": "audio",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "duration_secs": "any value: pass `values` to creative_expose_flow_parameter",
+      "generate_audio": [
+        "true",
+        "false"
+      ],
+      "resolution": [
+        "480p",
+        "720p",
+        "1080p"
+      ]
+    }
+  },
+  "model_guide": {
+    "model_id": "bytedance-seedance-v2.5",
+    "guide": "# Seedance family \u2014 bytedance-seedance-v1-pro, bytedance-seedance-v1.5-pro, bytedance-seedance-v2, bytedance-seedance-v2-fast, bytedance-seedance-v2.5, bytedance-seedance-v2.5-edit, bytedance-seedance-v2.5-extend, bytedance-seedance-v2-us, bytedance-seedance-v2.5-us, bytedance-seedance-v2.5-edit-us, bytedance-seedance-v2.5-extend-us\n\nByteDance's flagship video model. The first model supporting simultaneous quad-modal input (text, image, video, and audio). Strong motion realism, character consistency, and multi-shot storytelling.\n\n## Inputs\n\n- Text prompt\n- Optional reference image. The model cites these as `@image1`, `@image2` \u2014 but do not type that yourself: place an `image_reference` part where the reference belongs and the backend renders the token there.\n- Optional reference video\n- Optional audio track (model choreographs video to sound, beat-matched)\n- Parameters: resolution and duration vary by variant (see below)\n\n## Variant notes\n\n- **Seedance 2.0 / 2.0 Fast** \u2014 up to 4K (2.0) or 1080p (Fast); clips 4\u201315s.\n- **Seedance 2.5** (`bytedance-seedance-v2.5`) \u2014 sharper realism; up to 1080p; clips up to 30s; much larger reference budget (upto 10 image, video, and audio refs). Prefer 2.5 over 2.0 unless the user names 2.0.\n- **Seedance 2.5 Edit** (`bytedance-seedance-v2.5-edit`) \u2014 edit an existing clip by describing the change. Duration follows the source.\n- **Seedance 2.5 Extend** (`bytedance-seedance-v2.5-extend`) \u2014 continue from the end of an existing clip. Prompt what happens next.\n- **US-hosted variants** (`bytedance-seedance-v2-us`, `bytedance-seedance-v2.5-us`, `-edit-us`, `-extend-us`) \u2014 the same models served from US infrastructure, offered where the standard ids are not available; same resolutions as their counterparts, and 2.0 US takes no seed. Prompt them exactly like their counterparts.\n- Fast and Pro / 2.5 share prompting style. Longer variants tolerate longer prompts.\n\n## Prompt structure\n\n```\n[shot] + [subject] + [action] + [environment / lighting] + [style]\n```\n\n## Key strengths\n\n- **Handles physical interactions** (pouring, splashing, hand-object contact) better than most models. Describe them concretely.\n- **Good at weather and atmospheric effects.**\n- **Audio-to-video** \u2014 upload an audio track and the model choreographs video to the sound with beat-matched cuts and lip sync.\n- **Negative prompts work** \u2014 phrases like \"no distortion, no stretching,\" \"no grain, no shadows\" are effective.\n- **Seedream + Seedance pipeline** \u2014 generate reference images with Seedream, then use as visual references for maximum control.\n\n## For image-to-video\n\n- **Describe the motion, not the image.** \"Camera slowly orbits around her\" works far better than re-describing what she looks like.\n- **Lock the character with consistency language** \u2014 add \"maintain exact appearance from reference image\" or \"consistent character throughout, no deformation or drift.\"\n\n## Rules\n\n- **A wired audio reference needs `generate_audio` on.** With it off the render comes back silent and the track you connected is thrown away, so connecting audio turns it back on \u2014 never set it to false to keep a voiceover \"clean\".\n- **Use one continuous action per clip.** Multi-beat narratives drift.\n- **For start/end frame inputs**, write a prompt that bridges the two states (\"from sealed package to fully revealed product\"), not a static description.\n\n## Example\n\n> Wide tracking shot of a courier riding an electric scooter through a rainy Shanghai night market. Neon shopfronts reflect on wet pavement. Wisps of steam rise from food stalls as he weaves between pedestrians. Cinematic, slightly desaturated, shallow depth of field.\n\n## What to avoid\n\n- Re-describing the reference image in image-to-video prompts (wastes prompt budget).\n- Abstract or heavily stylized prompts without specificity.",
+    "source": "family"
+  },
+  "estimate": {
+    "credits": 14436.450168058802,
+    "price_cents": 20961.725644021382,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "generations_count": 1,
+  "seed": null,
+  "selected": true,
+  "user_approved": true,
+  "upscaled": false,
+  "status": "user_approved_take",
+  "prepared_at": "2026-11-02T00:58:22+05:30",
+  "authorization": "Explicit user asks to feed preferred original launch and diagnostic videos as references and generate the full continuous shot in480p. One eight-second take; no automatic retry.",
+  "output_file": "assets/06-shots/videos/shot-06-07-diagnostic-launch-seedance-480p-v01.mp4",
+  "submitted_generations": 1,
+  "retries_submitted": 0,
+  "references": [
+    {
+      "role": "diagnostic float, typed product labels, return",
+      "file": "assets/08-edit/upgrade-diagnostic-v01/upgrade-diagnostic-picture-v02.mp4",
+      "node_id": "F3uai0wFoA6K2POFAznE",
+      "content_asset_id": "3dO81G7mF5cGpeXWC4Ea",
+      "modality": "video",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "picture_frames": 127,
+      "fps": 24,
+      "sha256": "cf97986e8bb98ec575313a5cd51c58e2600dda6f4749a56bfc0a6c4b1d52f6dd"
+    },
+    {
+      "role": "preferred actual launch movement",
+      "file": "assets/06-shots/videos/shot-07-speed-launch-departure-minimax-v02.mp4",
+      "node_id": "tkTpsKvMIQWB5YZu3I44",
+      "generation_id": "ej2C9dJQ3zVUYbMXcOTm",
+      "modality": "video",
+      "dimensions": [
+        1344,
+        768
+      ],
+      "picture_frames": 124,
+      "fps": 24,
+      "sha256": "d8e5053657819ac1806a33a319aa7587d524f1dbee2f9684e86479314ad09314"
+    },
+    {
+      "role": "face identity and asymmetric cyberware only",
+      "file": "assets/01-riley/images/riley-cyberpunk-03-v01.png",
+      "node_id": "ldx3dNdFkLfKBC2giOfl",
+      "generation_id": "MTCPGsxYC5HZK0tNPdKO",
+      "modality": "image",
+      "sha256": "4df29f1f3ed615cc454ae91d983f56046e203cc0be225b854c22bcdffc5ca009"
+    },
+    {
+      "role": "gold outfit, boots, skin and chrome stripes",
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "node_id": "LsmAOIUrwmaZEKFGxI1L",
+      "generation_id": "WboGh1QOlITNwOVIn0Gj",
+      "modality": "image",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6"
+    },
+    {
+      "role": "original station pose, camera, world and cleared track",
+      "file": "assets/06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/last-picture-frame.png",
+      "node_id": "oq4i1gtPgBZQWZjKpyK9",
+      "content_asset_id": "31PjGeIKM3pQc1ShkXkD",
+      "modality": "image",
+      "sha256": "c0e544d85a36ece78e5455ca84632130e692f9e5ed9c9c3835a8047dc8ea3ba0"
+    }
+  ],
+  "preserved_files": [
+    {
+      "file": "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+      "sha256": "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/edit-preview-v01/shot-08-hud-c-edit-preview-v01.mp4",
+      "sha256": "cd63556da707cf6fee969976cb27a7112bb178d372c799fdef5ec3d2982cc51e"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4",
+      "sha256": "3b4227ae98e2c8baf55400a430fef6b306d5d0f82f66369b9199a08f16ceba27"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+      "sha256": "00caba5dfc91d5a09537f9b6eb75dd9355070c8d26884da341b6737705863bb0"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "sha256": "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/edit-preview-v01/shot-09-coffee-edit-preview-v01.mp4",
+      "sha256": "976e51690a4dab81148cc8d126a3bf3cc311acf07c81dc878d94b9e5214c2b92"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v03/shot-09-coffee-revised-v03.mp4",
+      "sha256": "4c8c0f20e887d0536c67ad623783be935637d42e6f5e3f0d33aad8929bf31366"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-reflexes-coffee-orbit-minimax-v02.mp4",
+      "sha256": "782ebc616937139fbea3610a1c9a5604a035c5f5db6c53704d5fdd4b429b7c38"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-fpp-run-minimax-v04.mp4",
+      "sha256": "24be973fe71d67cd3810dfa21e951221e9a4b46916374e70b80873c06962abb3"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+      "sha256": "f5efe45d4615c8e650ede34edc5f542c285d934a44d790287617efcb77e5343c"
+    },
+    {
+      "file": "assets/06-shots/reviews/coffee-split-minimax-v04/shot-09-coffee-split-review-v04.mp4",
+      "sha256": "3fb1e87b399697bef05ee5957b04ccf2615c5e4da54cd2cf705ffdcdf9838195"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-seedance-480p-v01.mp4",
+      "sha256": "aadb78f46a93ad57339541313688258208deb30dcb92b337da8135747cc2bc25"
+    },
+    {
+      "file": "assets/06-shots/reviews/coffee-split-seedance-v01/shot-09-coffee-seedance-review-v01.mp4",
+      "sha256": "8b920debe2b9661f05f8cc26fd1af1d2d7a72cf1aa5f874cb528a0db7b1fe021"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02.mp4",
+      "sha256": "870c592c1db53f93e9a32288af2453f3fd8ef741a642bda95f97f3221b208a5f"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-10-strength-steel-doors-minimax-startframe-v01.mp4",
+      "sha256": "e321abb59de0bbd06e42b3310e8dae21d3e607ef3270099bdf737a78df64b7ef"
+    },
+    {
+      "file": "assets/01-riley/images/riley-cyberpunk-03-v01.png",
+      "sha256": "4df29f1f3ed615cc454ae91d983f56046e203cc0be225b854c22bcdffc5ca009"
+    },
+    {
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-10-strength-city-seedance-480p-v01.mp4",
+      "sha256": "bbbc2398da759064a5e0ae8fae54d53e6d09dc38aaaa96b273996fce2b580778"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-11-speed-boulevard-minimax-startframe-v01.mp4",
+      "sha256": "cdc8c84c4b5a9ae4eb5c304657cdd813b8d6b72bfd5fdb72a4c15980b6793912"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-11-speed-city-seedance-480p-v01.mp4",
+      "sha256": "56119b42fe65e94cd4dd546386b5c4b4f2f5a2845c08e61d4c20b30e19acc3ec"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4",
+      "sha256": "3c3413da46200a72926418e20ec5fa6cc2177af0d0dcdf203353f976111abf39"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-07-speed-launch-departure-minimax-v02.mp4",
+      "sha256": "d8e5053657819ac1806a33a319aa7587d524f1dbee2f9684e86479314ad09314"
+    },
+    {
+      "file": "assets/08-edit/upgrade-diagnostic-v01/upgrade-diagnostic-picture-v02.mp4",
+      "sha256": "cf97986e8bb98ec575313a5cd51c58e2600dda6f4749a56bfc0a6c4b1d52f6dd"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-07-station-launch-seedance-480p-v01.mp4",
+      "sha256": "54d1fbbad858bcde419dab345a8534e940f2fa46fa6d841321409b3c382dd355"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/context-review-v01/diagnostic-to-launch-v01.mp4",
+      "sha256": "1ac504588157a0a2ec765a8a24ac3f808996b8ee3f873125385c8d910704ae73"
+    }
+  ],
+  "source_retimed": false,
+  "accepted_ad_modified": false,
+  "reference_upload": {
+    "node_id": "F3uai0wFoA6K2POFAznE",
+    "content_asset_id": "3dO81G7mF5cGpeXWC4Ea",
+    "method": "Creative Studio upload node, Playwright setInputFiles on scoped video-node input; verified filled asset with get_flow. Browser click alone did not open a file chooser; no generation was attempted with empty input."
+  },
+  "submitted_at": "2026-11-02T00:58:42+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "zNANNye0YNbi06f1AE6w",
+        "session_id": "4pDBLjaLuF9VQzubhCHY",
+        "credit_costs": {
+          "CeI75xz4e5uwe849gN9N": 14436.450168058802
+        }
+      }
+    ],
+    "summary": {
+      "nodes_run": 1,
+      "generations_started": 1,
+      "failed": 0,
+      "generations_by_node": {
+        "zNANNye0YNbi06f1AE6w": 1
+      }
+    },
+    "session_ids": [
+      "4pDBLjaLuF9VQzubhCHY"
+    ],
+    "pending": [
+      {
+        "generation_id": "CeI75xz4e5uwe849gN9N",
+        "kind": "video"
+      }
+    ]
+  },
+  "session_ids": [
+    "4pDBLjaLuF9VQzubhCHY"
+  ],
+  "generation_id": "CeI75xz4e5uwe849gN9N",
+  "session_id": "4pDBLjaLuF9VQzubhCHY",
+  "completed_at": "2026-11-02T01:02:40+05:30",
+  "sha256": "dacbdc7e5c7f03047dcfd91251b4d4554d0d20b54fe88bb740aca22533c7841d",
+  "bytes": 3483435,
+  "width": 854,
+  "height": 480,
+  "provider_generation": {
+    "id": "CeI75xz4e5uwe849gN9N",
+    "status": "completed",
+    "model_id": "bytedance-seedance-v2.5",
+    "modality": "video",
+    "created_at_unix_ms": 1793561304247,
+    "price": {
+      "credits": 14436.450168058802,
+      "price_cents": 20961.725644021382,
+      "cost_fiat_currency": "inr"
+    },
+    "width": 854,
+    "height": 480,
+    "duration_secs": 8.064
+  },
+  "provider_reported_price": {
+    "credits": 14436.450168058802,
+    "price_cents": 20961.725644021382,
+    "cost_fiat_currency": "inr"
+  },
+  "output_created": true,
+  "reviewed_at": "2026-11-02T01:05:03+05:30",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-11-02T01:05:03+05:30",
+    "method": "32 native samples at0.25-second intervals,24 return-transition samples at1/12-second intervals, native full-size diagnostic frame at3.125s, original launch contact sheet and diagnostic/outfit references. Full picture decode and numeric audio analysis. No independent continuous playback or listening claim.",
+    "observations": [
+      "Full-body Riley floats from the station into the centered cyan scan, then returns to the wet station before running screen-left and away. Both supplied reference sequences are visibly reflected in the output.",
+      "Brand text visibly progresses from partial letters to AFTERHUMAN; CYBERNETIC IMPLANTS and INTELLIGENCE,REFLEXES,STRENGTH,SPEED are readable in the native3.125s frame. Four callouts appear sequentially, with ONLINE sublabels and a completion state.",
+      "Scan visualization remains a non-gory translucent technical overlay. Gold wrap dress, dark/gold boots, brunette bob and human arms/legs broadly retained; small facial and cyberware detail limited by wide480p framing.",
+      "Interface dissolves and the full station returns around4.3\u20135.0s. Sampled return transitions gradually without an obvious hard cut; background recovers from blur and framing shifts slightly.",
+      "Head/body turn begins around5.6\u20135.9s, compact lowered stance around6.2s, then rapid leftward travel around6.3\u20137.0s. Riley disappears into the distance and trails fade by the ending. This closely resembles the preferred MiniMax action.",
+      "Tracks remain clear; no train reappears. Broad daylight cyan/gold station continuity remains."
+    ],
+    "limitations": [
+      "Return does not flow instantly into launch: approximately0.6s of standing after settling, then turn/wind-up. Strong acceleration begins around6.3s rather than the requested running by5.5s. Exact commercial timing needs user judgment.",
+      "Fine terminal sublabels and numerical readout are soft and may distort. Major brand/product/ability labels read correctly in the inspected full-size frame; this is not a frame-by-frame typography certification.",
+      "Background framing/perspective shifts slightly during the return; this is not an exact locked-camera reproduction of the reference.",
+      "Bright cyan/magenta trails broadly match MiniMax but can dominate the late frame. Exact foot contact, speed impression and facial likeness require playback review.",
+      "Native audio decoded and measured only; speech/music absence and listening quality are not independently certified. Existing David VO/Chrome Swagger mix was not reassembled or replaced.",
+      "Generated take pending user review; no local retime, upscale, accepted-ad replacement, automatic retry or extra generation."
+    ]
+  },
+  "native_picture_frames": 193,
+  "native_picture_seconds": 8.042,
+  "nominal_fps": 24,
+  "inspection_file": "assets/06-shots/reviews/shot-06-07-diagnostic-launch-seedance-480p-v01/inspection.json",
+  "review_file": "assets/06-shots/reviews/shot-06-07-diagnostic-launch-seedance-480p-v01/review.json",
+  "review_player": "assets/06-shots/reviews/shot-06-07-diagnostic-launch-seedance-480p-v01/index.html",
+  "native_audio_analysis": {
+    "file": "assets/06-shots/reviews/shot-06-07-diagnostic-launch-seedance-480p-v01/native-audio.wav",
+    "levels_file": "assets/06-shots/reviews/shot-06-07-diagnostic-launch-seedance-480p-v01/native-audio-levels.txt",
+    "rms_dbfs": -25.01569267617555,
+    "peak_dbfs": -6.817210374147472,
+    "decoded_duration_seconds": 8.0635,
+    "listening_review": false
+  },
+  "approval": {
+    "at": "2026-11-02T01:09:23+05:30",
+    "quote": "Okay looks good. Let's move on",
+    "source": "explicit_user_message",
+    "scope": "Approve the combined diagnostic/launch take for use. Continue with local full-cut assembly using latest approved/preferred visuals and locked David/Chrome Swagger audio; final assembled review remains pending."
+  }
+}

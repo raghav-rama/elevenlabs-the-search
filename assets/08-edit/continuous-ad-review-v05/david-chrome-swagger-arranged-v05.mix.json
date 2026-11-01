@@ -1,0 +1,173 @@
+{
+  "status": "picture_review_mix_pending_listening",
+  "config_file": "assets/08-edit/continuous-ad-review-v05/soundtrack-config.json",
+  "config": {
+    "purpose": "Restored transformation review v05; original source timing preserved",
+    "duration_seconds": 51.416666666666664,
+    "sources": {
+      "voice": {
+        "path": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3",
+        "sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376"
+      },
+      "music": {
+        "path": "assets/07-jingle/afterhuman-instrumental-chrome-swagger-v01.mp3",
+        "sha256": "600ee8ec8049fb8196d5fb62365b26afab3ed7db33d634ec2b9f99ad45da7d6b"
+      }
+    },
+    "voice_segments": [
+      {
+        "line": "Missed your train? Still running on flesh and blood? So upgrade.",
+        "source_in_seconds": 0,
+        "duration_seconds": 4.525,
+        "timeline_start_seconds": 8.473333333333333
+      },
+      {
+        "line": "Suddenly, everything clicks.",
+        "source_in_seconds": 4.525,
+        "duration_seconds": 2.2649999999999997,
+        "timeline_start_seconds": 26.166666666666668
+      },
+      {
+        "line": "The world moves in slow motion.",
+        "source_in_seconds": 6.79,
+        "duration_seconds": 2.45,
+        "timeline_start_seconds": 30.583333333333336
+      },
+      {
+        "line": "Heavy lifting? Adorable.",
+        "source_in_seconds": 9.24,
+        "duration_seconds": 2.385,
+        "timeline_start_seconds": 38.916666666666664
+      },
+      {
+        "line": "And that train you missed?",
+        "source_in_seconds": 11.625,
+        "duration_seconds": 1.2599999999999998,
+        "timeline_start_seconds": 43.666666666666664
+      },
+      {
+        "line": "It is trying to catch you now.",
+        "source_in_seconds": 12.885,
+        "duration_seconds": 1.8350000000000009,
+        "timeline_start_seconds": 46.70833333333333
+      },
+      {
+        "line": "AFTERHUMAN. A step ahead.",
+        "source_in_seconds": 14.72,
+        "duration_seconds": 2.2073333333333327,
+        "timeline_start_seconds": 48.791666666666664
+      }
+    ],
+    "voice_duck_windows": [
+      [
+        8.6333333333,
+        12.8333333333
+      ],
+      [
+        26.281666666666666,
+        28.241666666666667
+      ],
+      [
+        30.723333333333336,
+        32.95333333333333
+      ],
+      [
+        39.236666666666665,
+        41.28666666666666
+      ],
+      [
+        43.721666666666664,
+        44.93266666666666
+      ],
+      [
+        46.78366666666666,
+        48.50366666666667
+      ],
+      [
+        48.87166666666666,
+        50.998666666666665
+      ]
+    ],
+    "music_segments": [
+      {
+        "source_in_seconds": 0,
+        "timeline_start_seconds": 12.833333333333334,
+        "duration_seconds": 18,
+        "fade_in_seconds": 0.005,
+        "fade_out_seconds": 0.12
+      },
+      {
+        "source_in_seconds": 15.416666666666671,
+        "timeline_start_seconds": 30.833333333333336,
+        "duration_seconds": 2.5833333333333286,
+        "fade_in_seconds": 0.12,
+        "fade_out_seconds": 0.12
+      },
+      {
+        "source_in_seconds": 0,
+        "timeline_start_seconds": 33.416666666666664,
+        "duration_seconds": 18,
+        "fade_in_seconds": 0.005,
+        "fade_out_seconds": 0.03
+      }
+    ],
+    "music_hit_times": [
+      12.833333333333334,
+      33.416666666666664
+    ],
+    "music_reference_rms_dbfs": -15.177778078062008,
+    "voice_gain_db": 0,
+    "music_under_voice_db": -17.9,
+    "music_between_lines_db": -7.9,
+    "music_initial_hit_db": -10.9,
+    "slow_motion_filter_hz": 450,
+    "slow_motion_filter_range": [
+      30.583333333333336,
+      33.416666666666664
+    ],
+    "slow_motion_music_drop_db": -8,
+    "sample_peak_ceiling_dbfs": -1.5,
+    "notes": [
+      "All locked David samples used once at original speed. Opening sentence unchanged.",
+      "Music enters12.833333s immediately after upgrade. Eighteen-second opening then2.583333s tail reprise within the existing slow-motion filter; full18-second final section restarts at33.416667s.",
+      "New picture length51.416667s accommodates complete physical transformation and hand inspection without speeding footage.",
+      "No new voice/music synthesis; sound balance still needs listening review."
+    ]
+  },
+  "sources": {
+    "voice": {
+      "path": "assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3",
+      "sha256": "863c0dc1ced18082c781918b1f6e37c82af7d0cbcc0e0d97b73c80a19816c376",
+      "decoded_seconds": 16.927333333333333,
+      "levels": {
+        "sample_peak_dbfs": -0.7434420608022658,
+        "rms_dbfs": -18.684501787957903
+      }
+    },
+    "music": {
+      "path": "assets/07-jingle/afterhuman-instrumental-chrome-swagger-v01.mp3",
+      "sha256": "600ee8ec8049fb8196d5fb62365b26afab3ed7db33d634ec2b9f99ad45da7d6b",
+      "decoded_seconds": 18.0,
+      "levels": {
+        "sample_peak_dbfs": -0.032665240384716694,
+        "rms_dbfs": -17.07335717790851
+      }
+    }
+  },
+  "duration_seconds": 51.416666666666664,
+  "sample_rate": 48000,
+  "channels": 2,
+  "music_rms_match_gain_db": 1.8955790998465005,
+  "master_gain_db": -0.5055942089382517,
+  "levels": {
+    "sample_peak_dbfs": -1.5002633770788845,
+    "rms_dbfs": -21.99781650275417
+  },
+  "full_scale_samples": 0,
+  "output_file": "assets/08-edit/continuous-ad-review-v05/david-chrome-swagger-arranged-v05.wav",
+  "output_sha256": "c260f59d161cb29a15af47d9d86b9df079d9a2d58750961f1baf19e738c00e6d",
+  "source_retiming": false,
+  "new_synthesis": false,
+  "script": "scripts/mix-ad-review.py",
+  "review_limits": "Sample-peak and RMS checks, not perceptual loudness or independent listening. Native scene effects are added by the picture assembler."
+}

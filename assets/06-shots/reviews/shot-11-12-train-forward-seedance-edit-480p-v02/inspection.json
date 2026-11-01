@@ -1,0 +1,33 @@
+{
+  "audio_tracks" : [
+    {
+      "channels" : 2,
+      "codec_fourcc" : "aac ",
+      "duration_seconds" : 5.056,
+      "sample_rate" : 32000
+    }
+  ],
+  "duration_seconds" : 5.0419999999999998,
+  "extracted_frame_seconds" : 5,
+  "frame_height" : 480,
+  "frame_width" : 854,
+  "last_frame_file" : "assets\/06-shots\/reviews\/shot-11-12-train-forward-seedance-edit-480p-v02\/last-frame.png",
+  "last_frame_sha256" : "0ee5df999fb97f23ae8f8081ef4ea8b6434487d4945493f07d7d5bdbd356e8e6",
+  "last_picture_frame_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/shot-11-12-train-forward-seedance-edit-480p-v02\/last-picture-frame.png",
+  "last_picture_frame_seconds" : 5,
+  "last_picture_frame_sha256" : "0ee5df999fb97f23ae8f8081ef4ea8b6434487d4945493f07d7d5bdbd356e8e6",
+  "last_video_sample_seconds" : 5,
+  "near_black_detection" : "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+  "near_black_frame_times_seconds" : [
+
+  ],
+  "nominal_fps" : 24,
+  "review_limits" : "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+  "script" : "scripts\/inspect-review-video.swift",
+  "source_file" : "assets\/06-shots\/videos\/shot-11-12-train-forward-seedance-edit-480p-v02.mp4",
+  "source_modified" : false,
+  "source_sha256" : "ad4875bd80f7cb5fc6ea142eccb77140d8c74d5c73e382b82a5c2e41fe0878b1",
+  "video_codec_fourcc" : "avc1",
+  "video_duration_seconds" : 5.0419999999999998,
+  "video_samples" : 121
+}

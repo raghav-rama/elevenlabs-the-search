@@ -1,0 +1,346 @@
+{
+  "asset_id": "shot-09-coffee-city-start-v05",
+  "title": "Coffee approach — corrected distance and sidewalk-side mug",
+  "location": "Same cyberpunk cafe arcade",
+  "status": "assistant_rejected_requested_prop_changes_missing",
+  "provider": "ElevenLabs",
+  "model_id": "gpt-image-2",
+  "flow_id": "J725xEy49QY4xa6L66pw",
+  "flow_url": "https://elevenlabs.io/app/flows/J725xEy49QY4xa6L66pw",
+  "node_id": "4QBQyb9lOcq8xPyd9XGs",
+  "prompt": "Make a precise prop-and-hand correction to this supplied first-person cafe starting frame. Keep the man's corrected middle-distance position, his size, the clear approach, camera framing, Riley's hands, and the entire cyberpunk street exactly as close to the source as possible.\n\nThere is one man standing ahead, left of the walking lane. Move his one white coffee mug to his LEFT HAND, which is on the IMAGE-RIGHT SIDE of his body, facing the open sidewalk and Riley's later passing path. The mug should be beside his IMAGE-RIGHT HIP at normal relaxed waist height, upright and securely held by its handle. His left elbow is naturally bent and his hand holds the mug roughly 15–20 cm away from his hip toward the open lane. Make the placement clearly readable as a small white mug just to the RIGHT of his torso in the image. This is the near side for Riley when she draws level. Keep the mug normal-sized.\n\nHis opposite hand, currently holding the mug on the IMAGE-LEFT/cafe side, must now be EMPTY and hang naturally by that thigh. There is no second mug and no hand-to-hand transfer in this still. No new arms or extra fingers. Do not move the man nearer the camera or deeper into the path. Do not pose either hand as if offering the mug to Riley.\n\nRemove the other white cup from the foreground cafe table at the far LEFT of the image; leave that tabletop naturally empty. No other cups, mugs or flying coffee in the scene. Exactly one hero mug, in the man's IMAGE-RIGHT hand area at his waist. The drop has not begun yet.\n\nPreserve all other image content, geography, lighting, colors, patron identity and natural anatomy. One photoreal 16:9 image, no text, arrows, labels, diagram or watermark.",
+  "prompt_file": "assets/06-shots/prompts/shot-09-coffee-city-start-v05.txt",
+  "output_file": "assets/06-shots/images/shot-09-coffee-city-start-v05.png",
+  "effective_settings": {
+    "images": [
+      {
+        "template_node_id": "qFgyDWMdtTm9ZaJuCb6t"
+      }
+    ],
+    "quality": "low",
+    "aspect_ratio": "16:9",
+    "resolution": "1K"
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "qFgyDWMdtTm9ZaJuCb6t",
+          "label": "New image-generation node"
+        }
+      ]
+    }
+  ],
+  "live_schema": {
+    "model_id": "gpt-image-2",
+    "model_name": "GPT Image 2",
+    "node_type": "image-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "16:9",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "4:5",
+            "value": "4:5"
+          },
+          {
+            "label": "5:4",
+            "value": "5:4"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "2:3",
+            "value": "2:3"
+          },
+          {
+            "label": "3:2",
+            "value": "3:2"
+          },
+          {
+            "label": "1:2",
+            "value": "1:2"
+          },
+          {
+            "label": "2:1",
+            "value": "2:1"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "1:3",
+            "value": "1:3"
+          },
+          {
+            "label": "3:1",
+            "value": "3:1"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "1K",
+        "options": [
+          {
+            "label": "1K",
+            "value": "1K"
+          },
+          {
+            "label": "2K",
+            "value": "2K"
+          },
+          {
+            "label": "4K",
+            "value": "4K"
+          }
+        ]
+      },
+      {
+        "name": "quality",
+        "type": "select",
+        "required": false,
+        "default": "medium",
+        "options": [
+          {
+            "label": "low",
+            "value": "low"
+          },
+          {
+            "label": "medium",
+            "value": "medium"
+          },
+          {
+            "label": "high",
+            "value": "high"
+          }
+        ]
+      },
+      {
+        "name": "custom_width",
+        "type": "number",
+        "required": false,
+        "min_value": 64,
+        "max_value": 3840,
+        "number_type": "int"
+      },
+      {
+        "name": "custom_height",
+        "type": "number",
+        "required": false,
+        "min_value": 64,
+        "max_value": 3840,
+        "number_type": "int"
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "images",
+        "modality": "image",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "1:1",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "2:3",
+        "3:2",
+        "1:2",
+        "2:1",
+        "9:16",
+        "16:9",
+        "21:9",
+        "1:3",
+        "3:1"
+      ],
+      "quality": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "resolution": [
+        "1K",
+        "2K",
+        "4K"
+      ]
+    }
+  },
+  "estimate": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "selected": false,
+  "user_approved": false,
+  "generations_count": 1,
+  "retries": 0,
+  "seed": null,
+  "upscaled": false,
+  "revision_of": "shot-09-coffee-city-start-v04",
+  "references": [
+    {
+      "file": "assets/06-shots/images/shot-09-coffee-city-start-v04.png",
+      "sha256": "408ebe84e8cdb864a70649424adcdaae887ca55ce48b35ebd72362071b81fcad",
+      "node_id": "qFgyDWMdtTm9ZaJuCb6t",
+      "generation_id": "HvzY1rLX6vjf9Vtp17Rp",
+      "role": "Completed distance correction; preserve spacing, change cup hand and remove duplicate background cup"
+    }
+  ],
+  "authorization": "Targeted completion of user's reference correction after inspection found the hero cup still on the cafe side. Cost disclosed before submission; one follow-up edit, no motion run.",
+  "video_generated": false,
+  "prepared_at": "2026-11-01T22:28:12+05:30",
+  "prompt_sha256": "9b85599c17df448ef8b3e8d5c0b1668d533f1cf3ec16cbd204575deed5cf8d34",
+  "preserved_files": [
+    {
+      "file": "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+      "sha256": "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/edit-preview-v01/shot-08-hud-c-edit-preview-v01.mp4",
+      "sha256": "cd63556da707cf6fee969976cb27a7112bb178d372c799fdef5ec3d2982cc51e"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4",
+      "sha256": "3b4227ae98e2c8baf55400a430fef6b306d5d0f82f66369b9199a08f16ceba27"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+      "sha256": "00caba5dfc91d5a09537f9b6eb75dd9355070c8d26884da341b6737705863bb0"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "sha256": "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/edit-preview-v01/shot-09-coffee-edit-preview-v01.mp4",
+      "sha256": "976e51690a4dab81148cc8d126a3bf3cc311acf07c81dc878d94b9e5214c2b92"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v03/shot-09-coffee-revised-v03.mp4",
+      "sha256": "4c8c0f20e887d0536c67ad623783be935637d42e6f5e3f0d33aad8929bf31366"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-reflexes-coffee-orbit-minimax-v02.mp4",
+      "sha256": "782ebc616937139fbea3610a1c9a5604a035c5f5db6c53704d5fdd4b429b7c38"
+    }
+  ],
+  "future_motion_constraints": [
+    "Draw level with patron before side glance; do not pass and turn back.",
+    "At sideways discovery, cup is already separated from his empty hand and descending; no prior handoff or upward toss.",
+    "Cup remains beside Riley within a bent-arm reach, under the patron's mug hand; no drift toward camera or across the sidewalk.",
+    "FPP to TPP slow-motion camera orbit around physical catch; cup stays above paving.",
+    "Starting still is pre-drop; no video generation until composition is reviewed."
+  ],
+  "submitted_at": "2026-11-01T22:28:34+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "4QBQyb9lOcq8xPyd9XGs",
+        "session_id": "qAZQd9jHSmRuwahtVjfu",
+        "credit_costs": {
+          "HIYIGZLR1boitcZcOSru": 252.11783783783784
+        }
+      }
+    ],
+    "session_ids": [
+      "qAZQd9jHSmRuwahtVjfu"
+    ],
+    "pending": [
+      {
+        "generation_id": "HIYIGZLR1boitcZcOSru",
+        "kind": "image"
+      }
+    ]
+  },
+  "session_ids": [
+    "qAZQd9jHSmRuwahtVjfu"
+  ],
+  "generation_id": "HIYIGZLR1boitcZcOSru",
+  "session_id": "qAZQd9jHSmRuwahtVjfu",
+  "completed_at": "2026-11-01T22:29:07+05:30",
+  "sha256": "75a1c5f946e90296e094cf62a0df617bfd98e6ff331ab622b4cf5d7e897585f6",
+  "bytes": 1810496,
+  "width": 1280,
+  "height": 720,
+  "provider_generation": {
+    "id": "HIYIGZLR1boitcZcOSru",
+    "status": "completed",
+    "width": 1280,
+    "height": 720,
+    "model_id": "gpt-image-2",
+    "price": {
+      "credits": 252.11783783783784,
+      "price_cents": 366.0751005405406,
+      "cost_fiat_currency": "inr"
+    },
+    "created_at_unix_ms": 1793552293588
+  },
+  "provider_reported_price": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "cost_fiat_currency": "inr"
+  },
+  "assistant_visual_review": {
+    "method": "Native 1280x720 image inspection against v04.",
+    "reviewed_at": "2026-11-01T22:30:51+05:30",
+    "observations": [
+      "Corrected middle-distance position and clear approach are retained."
+    ],
+    "limitations": [
+      "Requested prop edit failed: the hero mug remains in the original image-left/cafe-side hand near the chest.",
+      "The white cup on the foreground cafe table remains.",
+      "Do not infer successful cup-hand correction or improved fall geometry from this completed generation."
+    ],
+    "assistant_verdict": "Follow-up did not make requested prop changes; keep v04 as the distance-correction candidate and retain v05 as an unsuccessful edit."
+  },
+  "reviewed_at": "2026-11-01T22:30:51+05:30"
+}

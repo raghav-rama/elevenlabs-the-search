@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-11-01T16:36:31+05:30",
+  "status": "product_clarity_review_pending_user_review",
+  "selected": false,
+  "output_file": "assets/08-edit/continuous-ad-review-v02/afterhuman-product-clarity-v02.mp4",
+  "output_sha256": "0e116de8202ba1ac21ba1d59cee182953d8f3612ecb435925a59297fa7dcc0ea",
+  "duration_seconds": 45,
+  "fps": 24,
+  "frames": 1080,
+  "render_dimensions": [
+    1920,
+    1080
+  ],
+  "source_edit": "assets/08-edit/continuous-ad-review-v01/afterhuman-continuous-with-david-v01.mp4",
+  "changes": [
+    "Product label AFTERHUMAN / CYBERNETIC IMPLANTS from 12.833333 to 17.333333 seconds, with 0.2 second fades.",
+    "Same spiral end card, now with CYBERNETIC IMPLANTS and A STEP AHEAD."
+  ],
+  "audio_payload_identical": true,
+  "audio_payload_sha256": "bfce6b8337347ca330d64d795dcad7672a1573e9da0d78fe797ee8e9d8c42d01",
+  "source_speed_multiplier": 1,
+  "new_provider_generations": 0,
+  "new_provider_credits": 0,
+  "source_resolution_note": "Same mixed-resolution prototype footage on 1080p review canvas; no production upscale.",
+  "world_and_overhead_status": "design_prepared_not_generated; current footage remains unchanged",
+  "design_board": "assets/06-shots/reviews/city-continuity-v01/index.html",
+  "review_method": "Full video decode and sampled label/ending frames; compressed AAC payload compared byte for byte. No independent continuous listening.",
+  "near_black_frames": 0,
+  "local_issue_and_resolution": "Initial verification halted on zero-sample AAC boundary markers after a successful render. Updated checker to skip only zero-sample markers; verified the existing export without rerender or generation.",
+  "audio_comparison_file": "assets/08-edit/continuous-ad-review-v02/audio-comparison.json",
+  "decoded_audio_note": "Same AAC payload and 45-second decoded duration; floating-point decode differences peak at about -135 dBFS, not bit-identical decoded WAVs.",
+  "browser_check": {
+    "local_player_loads": true,
+    "duration_seconds": 45,
+    "width": 1920,
+    "height": 1080,
+    "media_error": null
+  }
+}

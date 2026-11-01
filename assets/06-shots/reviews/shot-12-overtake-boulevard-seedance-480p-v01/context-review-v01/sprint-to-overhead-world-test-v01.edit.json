@@ -1,0 +1,65 @@
+{
+  "audio_bridges" : [
+    {
+      "duration_seconds" : 5.5,
+      "gain_db" : 0,
+      "source" : "assets\/08-edit\/continuous-ad-review-v07\/afterhuman-arm-cleanup-v07.mp4",
+      "source_in_seconds" : 36.875,
+      "source_sha256" : "46a8b7aa88376f203aea4031133a2bf7f64f6a7e5de285b837bf16ce76eaa148",
+      "timeline_start_seconds" : 0
+    }
+  ],
+  "audio_tracks" : 1,
+  "clips" : [
+    {
+      "audio" : "assets\/06-shots\/videos\/shot-11-speed-city-seedance-480p-v01.mp4",
+      "audio_gain_db" : -120,
+      "audio_sha256" : "56119b42fe65e94cd4dd546386b5c4b4f2f5a2845c08e61d4c20b30e19acc3ec",
+      "duration_seconds" : 2.5,
+      "picture" : "assets\/06-shots\/videos\/shot-11-speed-city-seedance-480p-v01.mp4",
+      "picture_sha256" : "56119b42fe65e94cd4dd546386b5c4b4f2f5a2845c08e61d4c20b30e19acc3ec",
+      "post_handle_samples" : 384,
+      "pre_handle_samples" : 0,
+      "shot" : "Approved FPP boulevard sprint — unchanged original-speed range",
+      "source_audio_rms_dbfs" : -24.127393349387404,
+      "source_in_seconds" : 0.75,
+      "timeline_start_seconds" : 0
+    },
+    {
+      "audio" : "assets\/06-shots\/videos\/shot-12-overtake-boulevard-seedance-480p-v01.mp4",
+      "audio_gain_db" : -120,
+      "audio_sha256" : "4ca6c218ebdd643ba874ba1d37e67c6a45506e5d76005c1acb6a2f91f021169a",
+      "duration_seconds" : 3,
+      "picture" : "assets\/06-shots\/videos\/shot-12-overtake-boulevard-seedance-480p-v01.mp4",
+      "picture_sha256" : "4ca6c218ebdd643ba874ba1d37e67c6a45506e5d76005c1acb6a2f91f021169a",
+      "post_handle_samples" : 0,
+      "pre_handle_samples" : 384,
+      "shot" : "New overhead source1–4s — world-match test, no complete overtake",
+      "source_audio_rms_dbfs" : -32.424110367922417,
+      "source_in_seconds" : 1,
+      "timeline_start_seconds" : 2.5
+    }
+  ],
+  "crossfade_half_seconds" : 0.0080000000000000002,
+  "decoded_aac_peak_dbfs" : -2.2878161368656444,
+  "duration_seconds" : 5.5,
+  "fps" : 24,
+  "framing" : "fill",
+  "master_gain" : 1,
+  "mixed_wav" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/shot-12-overtake-boulevard-seedance-480p-v01\/context-review-v01\/sprint-to-overhead-world-test-v01.mix.wav",
+  "notes" : "Hard picture cuts; source frame ranges at original speed, aspect conformed according to the recorded framing setting. Picture re-encoded, not bitstream copied. Audio levels adjusted conservatively using RMS, not perceptual loudness. Native audio ducked under the supplied narration according to the timeline; no synthesis or speech removal by this script. Original source files remain untouched. Audio content and subjective transitions require listening review.",
+  "output" : "assets\/06-shots\/reviews\/shot-12-overtake-boulevard-seedance-480p-v01\/context-review-v01\/sprint-to-overhead-world-test-v01.mp4",
+  "output_sha256" : "6d5fa8dcfb05a6feed5ebe8854e299a9eea423e24e0845a74a06da0295666c79",
+  "pcm_peak_dbfs" : -2.4308532082427368,
+  "pcm_rms_dbfs" : -20.227771166264972,
+  "resolution" : [
+    1920,
+    1080
+  ],
+  "review_status" : "pending_user_playback_and_listening",
+  "script" : "scripts\/assemble-continuation.swift",
+  "speed_multiplier" : 1,
+  "timeline" : "assets\/06-shots\/reviews\/shot-12-overtake-boulevard-seedance-480p-v01\/context-review-v01\/timeline.json",
+  "timeline_sha256" : "2d9872f4f5179f5da4d6068ed2509537024def3b10092ba3fd02767a0252a852",
+  "title" : "AFTERHUMAN — Boulevard continuity test; overtake not yet successful"
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Coffee revision \u2014 forward run, edited left glance, visible catch, retained return/sprint",
+  "fps": 24,
+  "render_width": 854,
+  "render_height": 480,
+  "framing": "fit",
+  "audio_target_rms_dbfs": -28,
+  "audio_gain_limit_db": 0,
+  "crossfade_half_seconds": 0.008,
+  "clips": [
+    {
+      "shot": "Forward FPP running",
+      "picture": "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 66,
+      "audio_gain_db": 0
+    },
+    {
+      "shot": "Leftward glimpse: mug already airborne",
+      "picture": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "source_in_frames": 32,
+      "duration_frames": 3,
+      "audio_gain_db": 0
+    },
+    {
+      "shot": "Visible third-person catch",
+      "picture": "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "source_in_frames": 69,
+      "duration_frames": 27,
+      "audio_gain_db": 0
+    },
+    {
+      "shot": "Retained original crouch, return and sprint",
+      "picture": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "source_in_frames": 96,
+      "duration_frames": 147,
+      "audio_gain_db": 0
+    }
+  ],
+  "notes": [
+    "Total 243 frames / 10.125 seconds, all source ranges at original speed.",
+    "New generated opening failed literal left yaw and already-falling first reveal. Assemble corrected ordering from new forward-running/catch footage and three old FPP airborne-mug frames.",
+    "Whip-pan cue will be added locally on timeline frames 62\u201365 before the airborne glimpse; it is an editorial camera cue, not generated physical head rotation.",
+    "First-person airborne glimpse is brief (three frames / 0.125 s). Review legibility and cup continuity through the TPP cut.",
+    "Original footage source [4.0,10.125) retained after new visible catch. Approved ad unchanged."
+  ]
+}

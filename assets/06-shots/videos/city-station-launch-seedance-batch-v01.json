@@ -1,0 +1,84 @@
+{
+  "status": "not_selected_minimax_launch_preferred",
+  "created_at": "2026-11-02T00:40:47+05:30",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "model_id": "bytedance-seedance-v2.5",
+  "generations_per_shot": 1,
+  "requested_generations": 1,
+  "submitted_generations": 1,
+  "retries_submitted": 0,
+  "estimate": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "review_sample_count": 20,
+  "review_interval_seconds": 0.25,
+  "shots": [
+    {
+      "asset_id": "shot-07-station-launch-seedance-480p-v01",
+      "title": "07 \u2014 Station launch from approved upgrade ending",
+      "node_id": "XwPL8xZX94fJf91vnq2e",
+      "record_file": "assets/06-shots/videos/shot-07-station-launch-seedance-480p-v01.generation.json",
+      "prompt_file": "assets/06-shots/video-prompts/shot-07-station-launch-seedance-480p-v01.txt",
+      "output_file": "assets/06-shots/videos/shot-07-station-launch-seedance-480p-v01.mp4",
+      "status": "not_selected_minimax_launch_preferred",
+      "session_id": "T3nBw6ue3LlWhg7pkTkm",
+      "generation_id": "V4MVm01Dprm02tEwE8AP",
+      "sha256": "54d1fbbad858bcde419dab345a8534e940f2fa46fa6d841321409b3c382dd355",
+      "latest_review_record": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/review.json"
+    }
+  ],
+  "submitted_at": "2026-11-02T00:40:49+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "XwPL8xZX94fJf91vnq2e",
+        "session_id": "T3nBw6ue3LlWhg7pkTkm",
+        "credit_costs": {
+          "V4MVm01Dprm02tEwE8AP": 6511.470000000001
+        }
+      }
+    ],
+    "session_ids": [
+      "T3nBw6ue3LlWhg7pkTkm"
+    ],
+    "pending": [
+      {
+        "generation_id": "V4MVm01Dprm02tEwE8AP",
+        "kind": "video"
+      }
+    ],
+    "summary": {
+      "nodes_run": 1,
+      "generations_started": 1,
+      "failed": 0,
+      "generations_by_node": {
+        "XwPL8xZX94fJf91vnq2e": 1
+      }
+    }
+  },
+  "session_ids": [
+    "T3nBw6ue3LlWhg7pkTkm"
+  ],
+  "completed_at": "2026-11-02T00:43:54+05:30",
+  "completed_generations": 1,
+  "total_reported_price": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-02T00:46:20+05:30",
+  "review": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/README.md",
+  "review_player": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/index.html",
+  "user_preference": {
+    "at": "2026-11-02T00:57:11+05:30",
+    "quote": "Yup this is much better.",
+    "source": "explicit_user_message_after_original_launch_retrieval",
+    "scope": "Preferred original MiniMax launch movement over station-launch Seedance v01; use with diagnostic video as reference for one new continuous 480p Seedance take."
+  }
+}

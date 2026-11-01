@@ -1,0 +1,51 @@
+{
+  "source": "assets/08-edit/continuous-ad-review-v01/afterhuman-continuous-with-david-v01.mp4",
+  "source_sha256": "782a57621f92287c8ec29c86b443782c26b83df8413547a38449ff15253a9350",
+  "mattes": "assets/08-edit/upgrade-diagnostic-v01/mattes/mattes.json",
+  "output": "assets/08-edit/floating-transformation-v02/floating-transformation-picture-v02.mp4",
+  "fps": 24,
+  "start_frame": 308,
+  "frame_count": 127,
+  "source_pivot": [
+    1057,
+    560
+  ],
+  "target_pivot": [
+    960,
+    595
+  ],
+  "center_scale": 0.92,
+  "fly_in_seconds": 0.75,
+  "return_start_seconds": 3.85,
+  "return_end_seconds": 5.0,
+  "brand": "AFTERHUMAN",
+  "descriptor": "CYBERNETIC IMPLANTS",
+  "modules": [
+    {
+      "label": "INTELLIGENCE",
+      "sub": "NEURAL LINK",
+      "at": 1.25
+    },
+    {
+      "label": "REFLEXES",
+      "sub": "SYNAPTIC ARRAY",
+      "at": 1.75
+    },
+    {
+      "label": "STRENGTH",
+      "sub": "MYOFIBER ASSIST",
+      "at": 2.25
+    },
+    {
+      "label": "SPEED",
+      "sub": "LOCOMOTION DRIVE",
+      "at": 2.75
+    }
+  ],
+  "note": "Original physical transformation remains visible, full color and opaque, while Riley floats centrally and returns. No skeletal or translucent body overlay.",
+  "revision_note": "Reuse exact original source-frame mattes with the verified2x upscale of the same source frames162\u2013288; unchanged24fps timing.",
+  "person_style": "natural",
+  "picture_source": "assets/06-shots/videos/shot-04-05-continuous-topaz-2x-v01.mp4",
+  "picture_source_sha256": "83b6da113f490c82fc95bc4b53cab6f841e69a439e0046292f88b63d2b7228bf",
+  "picture_start_frame": 162
+}

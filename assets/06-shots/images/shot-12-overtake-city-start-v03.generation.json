@@ -1,0 +1,94 @@
+{
+  "key": "overhead",
+  "asset_id": "shot-12-overtake-city-start-v03",
+  "node_id": "aYqLIq6SpASveO6cwvQS",
+  "source_node": "r8jzkkvo69R42VWsR3xD",
+  "source_asset": "shot-12-overtake-city-start-v02",
+  "title": "12A \u2014 Overhead / corrected train direction",
+  "location": "Elevated urban rail and separate running lane",
+  "prompt_file": "assets/06-shots/prompts/shot-12-overtake-city-start-v03.txt",
+  "prompt": "Edit the supplied overhead race image to fix the TRAIN'S DIRECTION. Keep the city, camera looking straight down, running lane, barriers, lighting, materials, Riley's gold outfit, human proportions and her upward running direction.\n\nThe source train points DOWN while Riley runs UP. That is wrong. Rebuild only the train and the rails revealed by moving it: rotate the train's longitudinal orientation 180 degrees so its rounded cockpit NOSE is at the TOP end of the visible train, near x=0.60 y=0.32. Its long roof and body extend straight DOWN from that nose, through the bottom edge. Rails continue vertically UP ahead of the nose. This is an UPWARD-moving train, same direction as Riley. There must be no second nose at the bottom. Keep its graphite body, cyan roof-edge trim and gold cockpit detailing. Maintain its physical width and lane placement.\n\nRiley remains in her left separated lane, around x=0.34, with head/leading hand around y=0.52 and trailing boot around y=0.67, so she starts BEHIND the upward-facing nose by about one projected body length. Show her back and crown, not her frontal face. Keep her current believable size. Exactly one Riley, one train. No typography. One corrected START frame, not collage. The train direction and behind-the-nose starting position are the only changes.",
+  "model_parameters": {
+    "images": [
+      {
+        "template_node_id": "r8jzkkvo69R42VWsR3xD"
+      }
+    ],
+    "quality": "low",
+    "aspect_ratio": "16:9",
+    "resolution": "1K"
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "r8jzkkvo69R42VWsR3xD",
+          "label": "shot-12-overtake-city-start-v02 \u2014 STILL / REVIEW"
+        }
+      ]
+    }
+  ],
+  "provider": "ElevenLabs",
+  "model_id": "gpt-image-2",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "status": "user_approved_still_reference",
+  "selected": true,
+  "user_approved": true,
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "prepared_at": "2026-11-01T18:48:05+05:30",
+  "prompt_sha256": "fa230c515f0b5fdf7341c2dce58e208de4357ba423f11c136adad45b405b6634",
+  "output_file": "assets/06-shots/images/shot-12-overtake-city-start-v03.png",
+  "revision_of": "shot-12-overtake-city-start-v02",
+  "references": [
+    {
+      "order": 1,
+      "role": "source image for targeted correction",
+      "file": "assets/06-shots/images/shot-12-overtake-city-start-v02.png",
+      "sha256": "2abcddb83d532242f4402aa04f905942dcbf150e5893c8f93db9babb720c5250",
+      "generation_id": "EazB0GjtutLD06I0Vqjm",
+      "node_id": "r8jzkkvo69R42VWsR3xD"
+    }
+  ],
+  "session_id": "L9afvstjblGdagLYGrc3",
+  "generation_id": "aso9vVxmccyeGPsAYP3o",
+  "provider_reported_price": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793539086349,
+  "sha256": "f8c4759f8f40c4a20c0fd8e4e456b5601d16007072c6c070910c9dfba644e961",
+  "bytes": 1829039,
+  "width": 1280,
+  "height": 720,
+  "completed_at": "2026-11-01T18:49:34+05:30",
+  "assistant_visual_review": {
+    "observations": [
+      "Train nose now points toward image-top and body extends downward, matching Riley's upward heading.",
+      "Riley remains behind the nose in a physically separated left lane.",
+      "Rail alignment, gold outfit, city architecture and overall overhead framing are retained."
+    ],
+    "limitations": [
+      "The generated nose is higher in frame than the numeric prompt target; the ending uses camera advance to retain space for a readable pass.",
+      "A still establishes heading and staging but cannot prove train or runner motion."
+    ],
+    "reviewed_at": "2026-11-01T18:51:43+05:30",
+    "method": "Native 1280x720 still inspection against original erroneous source",
+    "user_selection_pending": false
+  },
+  "approved_at": "2026-11-01T19:00:22+05:30",
+  "approval_evidence": "Looks good now",
+  "approval_scope": "Still composition/reference for the next motion pass; animation remains untested."
+}

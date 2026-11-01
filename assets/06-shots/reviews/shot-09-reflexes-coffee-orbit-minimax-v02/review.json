@@ -1,0 +1,68 @@
+{
+  "asset_id": "shot-09-reflexes-coffee-orbit-minimax-v02",
+  "title": "Coffee reflexes — slow-motion camera orbit test",
+  "location": "Approved bright cyberpunk cafe sidewalk",
+  "status": "user_rejected",
+  "output_file": "assets/06-shots/videos/shot-09-reflexes-coffee-orbit-minimax-v02.mp4",
+  "sha256": "782ebc616937139fbea3610a1c9a5604a035c5f5db6c53704d5fdd4b429b7c38",
+  "generation_record": "assets/06-shots/videos/shot-09-reflexes-coffee-orbit-minimax-v02.generation.json",
+  "selected": false,
+  "user_approved": false,
+  "assistant_visual_review": {
+    "reviewed_at": "2026-11-01T22:15:43+05:30",
+    "status": "assistant_reviewed_pending_user",
+    "method": "25 sampled frames over 0–10s, 13 drop/transition samples, 9 catch-contact samples and full decoded-frame inspection.",
+    "observations": [
+      "Forward FPP running follows the cafe sidewalk; the patron exits the far left early.",
+      "A left-facing view at about 1.6s reveals a mug already separated from the empty hand.",
+      "TPP begins around 2.6s. From about 2.9–7.5s the camera makes a broad circular move around Riley, with changing cafe/rail background perspective.",
+      "Finger-to-mug contact is visible around 3.5–3.75s; the orbit continues while she holds the cup.",
+      "Handback is visible around 7.9–8.8s, followed by Riley running away. Gold outfit, skin/chrome styling and cyberpunk setting broadly follow references."
+    ],
+    "limitations": [
+      "Patron briefly holds the cup at the extreme left in the opening frame, contrary to the requested absence before the glance.",
+      "Left-facing view and FPP-to-TPP transition read as generated angle cuts rather than a continuous head turn and camera pull-out.",
+      "The cup is airborne at the reveal but rises/floats toward camera before descending again. Gravity and scale remain imperfect.",
+      "Catch occurs around waist height instead of just above the paving.",
+      "Strongest orbit continues after contact and spends substantial time on the held cup. No precise angle or full 360-degree claim.",
+      "Likeness and hand contact need playback scrutiny. Exit reads as a run with a cyan trail; super-speed acceleration still needs polish.",
+      "Native audio was extracted and level-checked only; no independent listening, speech-absence verification or final mix approval."
+    ],
+    "assistant_verdict": "Circular camera motion and visible catch present; cup trajectory, rescue height and perspective transition still need polish.",
+    "full_playback_reviewed": false,
+    "audio_listened": false,
+    "contact_sheet": "assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v02/contact-sheet.jpg",
+    "transition_detail": "assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v02/drop-transition-detail.jpg",
+    "catch_detail": "assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v02/catch-contact-detail.jpg"
+  },
+  "technical_review": {
+    "inspection_file": "assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v02/inspection.json",
+    "dimensions": [
+      832,
+      480
+    ],
+    "fps": 24,
+    "video_samples": 243,
+    "video_duration_seconds": 10.125,
+    "near_black_frames": 0,
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 10.144,
+        "sample_rate": 32000
+      }
+    ],
+    "native_audio_rms_dbfs": -22.641242870591554,
+    "native_audio_peak_dbfs": -2.432308775891686,
+    "audio_listened": false
+  },
+  "new_generation_credits": 3030,
+  "new_generation_inr": 43.9956,
+  "native_unmodified_output": true,
+  "user_feedback": {
+    "at": "2026-11-01T22:23:11+05:30",
+    "source": "explicit_user_message",
+    "summary": "Rejected: Riley passes the man before noticing; cup rises from below and is too far away. Correct starting reference with man farther ahead. As she draws level, side glance sees cup already falling nearby, then slow-motion circular camera move."
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "asset_id": "shot-09-reflexes-coffee-orbit-minimax-v02",
+  "title": "Coffee reflexes — slow-motion camera orbit test",
+  "location": "Approved bright cyberpunk cafe sidewalk",
+  "status": "user_rejected",
+  "provider": "ElevenLabs",
+  "model_id": "minimax-h3",
+  "flow_id": "J725xEy49QY4xa6L66pw",
+  "flow_url": "https://elevenlabs.io/app/flows/J725xEy49QY4xa6L66pw",
+  "node_id": "rv4Y9yFpbnR1eXQf0jvH",
+  "prompt": "Photoreal live-action AFTERHUMAN commercial, ten seconds, landscape 16:9. A first-person sidewalk run becomes a third-person bullet-time circular camera move around a superhuman coffee rescue. This is a motion test: the orbit and visible catch are the hero moment.\n\nREFERENCE ROLES: Image 1 locks adult Riley's gold asymmetric sleeveless mini-dress, black-and-gold tall boots, natural skin with narrow chrome/cyan inlays and human limb proportions. Image 2 locks her face, short brunette bob, asymmetric facial/neck cyberware and cyan eye only; ignore its office shirt, badge and bag. Image 3 supplies the bright futuristic cafe architecture, wet pavement, bronze/glass surfaces, elevated city structures and cyan/magenta light accents. Do not copy Image 3's camera aiming at the patron. Begin looking straight ALONG the sidewalk, with cafe on the LEFT. Make the city unmistakably cyberpunk.\n\n[0 to 1.5 seconds] Strict first-person view through Riley's eyes, already running straight forward down the clear sidewalk, parallel to the cafe. Natural-sized hands with fine cyan inlays pump low at frame corners. Strong forward parallax and a clear vanishing point along the path. She is simply passing the cafe; she is not running at a person. The nearby patron and his mug are outside the LEFT edge.\n\n[1.5 to 2.5 seconds] Her gaze turns LEFT while her forward path stays straight. The very FIRST view of the white ceramic mug shows it ALREADY IN MID-AIR, below an adult male patron's EMPTY hand, with a clear gap. The accident has already happened offscreen. One mug with one handle, tilted and descending, a few suspended coffee droplets. Never show the patron holding or offering it beforehand. No upward toss. Time slows dramatically as she notices the fall.\n\n[2.5 to 7 seconds] The camera pulls smoothly outward from her viewpoint into a medium-wide THIRD-PERSON view and then makes a pronounced continuous CLOCKWISE CIRCULAR ORBIT approximately 180–220 degrees around Riley and the falling mug. This is physical camera travel around the action with strong changing background parallax: see Riley from one three-quarter side, across a frontal view, then the opposite three-quarter side. Keep horizon level, consistent camera radius and both her hand and mug readable. Do not merely pan in place, zoom, roll the frame, or have Riley spin.\n\nIn extreme cinematic slow motion, the stranger and airborne droplets barely move while Riley reacts faster. She bends her knees and reaches naturally with a bent elbow, catches the descending mug around its body about fifteen centimetres above the paving BEFORE it touches the ground, then brings it upright and lifts it while the camera continues circling. Show the precise finger-to-mug contact clearly in the latter half of the orbit, without a cutaway. One physically continuous fall and rescue. The mug never rests on the ground. Her face, outstretched hand, the single mug and the gap above pavement remain visible at contact. Calm confident half-smile as she rises. The CAMERA circles; Riley does not twirl.\n\n[7 to 8.5 seconds] Orbit eases to a stop and normal time returns. Riley returns the intact mug to the same patron. He securely grasps its handle before she releases it. He is surprised, not intentionally passing her a cup.\n\n[8.5 to 10 seconds] Riley turns toward the open sidewalk and accelerates away with real fast displacement and a short cyan air streak. Camera stays beside the patron holding his recovered mug.\n\nGrounded sunlight and neon reflections, realistic skin, normal anatomy, consistent face/outfit, smooth camera path and fixed geography throughout. No eye close-up, face insert, montage, repeated drop, extra mug, extra Riley, cup teleportation, hovering upward, floor contact, broken cup, elastic arms, mirrored environment, rotating background plate or random camera roll.\n\nNative sound: rhythmic running footfalls and city ambience; brief left-glance air swish; time-dilation suction into muffled ambience and stretched droplets through the orbit; crisp restrained catch contact, no ceramic break; ordinary ambience returns for handback, then a sharp boot push and accelerating whoosh. No speech, narration or music.",
+  "prompt_file": "assets/06-shots/video-prompts/shot-09-reflexes-coffee-orbit-minimax-v02.txt",
+  "output_file": "assets/06-shots/videos/shot-09-reflexes-coffee-orbit-minimax-v02.mp4",
+  "requested_settings": {
+    "resolution": "480p",
+    "aspect_ratio": "16:9",
+    "duration_secs": 10
+  },
+  "effective_settings": {
+    "resolution": "480p",
+    "aspect_ratio": "16:9",
+    "duration_secs": 10,
+    "enhance_prompt": true,
+    "reference_images": [
+      {
+        "template_node_id": "K6MAgMWzBizRlUuc5tYV"
+      },
+      {
+        "template_node_id": "ek70pI2z7KWOjwc0U44W"
+      },
+      {
+        "template_node_id": "Pmpfom2e83YTiSZo97Ds"
+      }
+    ]
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "start_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "end_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "K6MAgMWzBizRlUuc5tYV",
+          "label": "IMAGE 1 — Selected gold outfit, boots and skin/chrome body"
+        },
+        {
+          "id": "ek70pI2z7KWOjwc0U44W",
+          "label": "IMAGE 2 — Selected Riley face, bob, eye and neck cyberware"
+        },
+        {
+          "id": "Pmpfom2e83YTiSZo97Ds",
+          "label": "IMAGE 3 — Approved cyberpunk cafe world; opening direction is prompt-defined"
+        }
+      ]
+    },
+    {
+      "key": "reference_videos",
+      "modality": "video",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_audios",
+      "modality": "audio",
+      "required": false,
+      "connected_to": []
+    }
+  ],
+  "live_schema": {
+    "model_id": "minimax-h3",
+    "model_name": "MiniMax H3",
+    "node_type": "video-generation",
+    "parameters": [
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "2K",
+        "options": [
+          {
+            "label": "480p",
+            "value": "480p"
+          },
+          {
+            "label": "768p",
+            "value": "768p"
+          },
+          {
+            "label": "2K",
+            "value": "2K"
+          },
+          {
+            "label": "4K",
+            "value": "4K"
+          }
+        ]
+      },
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "options": [
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          }
+        ]
+      },
+      {
+        "name": "duration_secs",
+        "type": "select_number",
+        "required": false,
+        "default": 5,
+        "options": [
+          {
+            "label": "5",
+            "value": 5
+          },
+          {
+            "label": "6",
+            "value": 6
+          },
+          {
+            "label": "7",
+            "value": 7
+          },
+          {
+            "label": "8",
+            "value": 8
+          },
+          {
+            "label": "9",
+            "value": 9
+          },
+          {
+            "label": "10",
+            "value": 10
+          },
+          {
+            "label": "11",
+            "value": 11
+          },
+          {
+            "label": "12",
+            "value": 12
+          },
+          {
+            "label": "13",
+            "value": 13
+          },
+          {
+            "label": "14",
+            "value": 14
+          },
+          {
+            "label": "15",
+            "value": 15
+          }
+        ]
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "start_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "end_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_images",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_videos",
+        "modality": "video",
+        "required": false
+      },
+      {
+        "key": "reference_audios",
+        "modality": "audio",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "duration_secs": "any value: pass `values` to creative_expose_flow_parameter",
+      "enhance_prompt": [
+        "true",
+        "false"
+      ],
+      "resolution": [
+        "480p",
+        "768p",
+        "2K",
+        "4K"
+      ]
+    }
+  },
+  "model_guide": {
+    "model_id": "minimax-h3",
+    "guide": "# MiniMax family — minimax-h3, minimax-h3-max\n\nMiniMax H3 is a multimodal video model: text, images, video and audio all enter one\ncontext, and it returns 5-15s at 24 FPS with native audio. Generation, referencing and\nediting are the same model, so reach for it when a shot needs identity locked from a\nphoto, camera language taken from a clip, and a directed soundtrack all at once.\n\n**Which one to pick.** `minimax-h3-max` is a post-trained H3 that fal serves on their\nown inference stack: much faster and with better prompt adherence and aesthetics, but\nonly text-to-video and image-to-video, and only its two native resolutions. Prefer it\nfor iteration and for anything that just needs a prompt or a start frame. Drop to\n`minimax-h3` when you need reference-to-video (identity, motion or voice references) or\na 2K/4K render.\n\n## Prompt structure\n\n```\n[format + duration] + [timecoded shot blocks] + [grade / lens / grain] + [audio direction] + [negative direction]\n```\n\n## Give every reference an explicit job\n\nThis is the single habit that changes results most. Name each input and say what it\ncontrols — \"Use Image 1 as a locked identity and wardrobe reference for the man. Use\nImage 2 for the location, the wet ground, and the light.\" Four unlabeled images with no\nassignment produces noticeably worse output than two with a stated job.\n\nReferences are cited by modality and position in their list: `Image 1`, `Image 2`,\n`Video 1`, `Audio 1`. Put the reference part where the subject belongs in the sentence\nand the backend renders that token for you — never type it yourself.\n\n## Key strengths\n\n- **Timecoded blocks are read as a shot list.** `[0 to 4 seconds] … [4 to 8 seconds] …`\n  keeps a 15s generation from drifting into a slideshow. Use them for anything over 5s.\n- **Audio is a directable track, not an afterthought.** Describe the bed, the individual\n  events and their timing, then say what you don't want (`No music, no impact stings`).\n- **Legible on-screen type.** Title cards, signage and interface panels are reachable\n  from the prompt — quote the exact string you want rendered.\n- **Negative direction lands unusually well.** Name what must not change (\"Do not change\n  the counter or the background at any point\") and what must not appear.\n\n## Variant notes\n\nEach model id covers several fal endpoints, picked from the parameters you set:\n\n- Prompt only → text-to-video. Aspect ratio is yours to choose.\n- `start_frame` (optionally with `end_frame`) → image-to-video. The output follows the\n  frame's aspect ratio, so `aspect_ratio` is rejected here.\n- `reference_images` / `reference_videos` / `reference_audios` → reference-to-video, for\n  identity locking, motion transfer, style matching and voice. **`minimax-h3` only.**\n  Cannot be combined with `start_frame` / `end_frame`.\n\nReference audio needs at least one reference image or video alongside it. Each reference\nclip must be 2-15s, and the combined duration per modality at most 15s.\n\nResolutions differ between the two: on `minimax-h3`, `480p` and `768p` are native while\n`2K` and `4K` upscale a `768p` base and cost more per output second. `minimax-h3-max`\nserves only `480p` and `768p`, and `768p` is where it is both fastest and best.\n\n## Example\n\n> Photoreal 16:9, twelve seconds. Use Image 1 as a locked identity and wardrobe reference\n> for the woman; use Image 2 for the location and its light. [0 to 5 seconds] She walks\n> toward camera down a rain-wet side street, handheld, slight sway, neon reflections\n> travelling across her jacket. [5 to 9 seconds] Hard cut to a tight frame on her hand\n> pushing a heavy steel door. [9 to 12 seconds] Pull back to a locked-off wide of the\n> empty street behind her and hold completely still for the final second. Fine 35mm\n> grain, cold neon against warm sodium. Audio: rain on asphalt, distant traffic, one\n> door hinge complaining, footsteps with a long reverb tail. No music, no whoosh.",
+    "source": "family"
+  },
+  "estimate": {
+    "credits": 3030,
+    "price_cents": 4399.56,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 240
+  },
+  "generations_count": 1,
+  "retries": 0,
+  "seed": null,
+  "seed_note": "No seed parameter exposed.",
+  "selected": false,
+  "user_approved": false,
+  "upscaled": false,
+  "retimed": false,
+  "authorization": "User rejects Seedance recut, prefers yesterday's MiniMax, requests low-quality MiniMax test of FPP run, already-airborne mug reveal, transition to TPP and circular camera motion during slow-motion rescue.",
+  "notes": [
+    "Old MiniMax source reviewed as choreography benchmark, not connected as a video reference; preserve locked original.",
+    "Three existing approved stills only; no new still or audio generation.",
+    "180–220 degree continuous orbit requested with background parallax, level horizon and visible catch contact; not a frame roll.",
+    "enhance_prompt true is provider default; internal expanded prompt not returned.",
+    "One prototype only. No automatic retry or approval inferred from generation completion."
+  ],
+  "references": [
+    {
+      "role": "Image 1 wardrobe and skin/chrome body",
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "node_id": "K6MAgMWzBizRlUuc5tYV",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6"
+    },
+    {
+      "role": "Image 2 facial identity",
+      "file": "assets/01-riley/images/riley-cyberpunk-03-v01.png",
+      "node_id": "ek70pI2z7KWOjwc0U44W",
+      "sha256": "4df29f1f3ed615cc454ae91d983f56046e203cc0be225b854c22bcdffc5ca009"
+    },
+    {
+      "role": "Image 3 cyberpunk cafe world",
+      "file": "assets/06-shots/images/shot-09-coffee-city-start-v03.png",
+      "node_id": "Pmpfom2e83YTiSZo97Ds",
+      "generation_id": "szfN8H6gx2b1YVLRxPrB",
+      "sha256": "736546f20206e8574e7ea48de18cb6e97bd6a15b55f90c4a57159bcf5ab0ca07"
+    }
+  ],
+  "benchmark_source": "assets/06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+  "prepared_at": "2026-11-01T22:11:16+05:30",
+  "prompt_sha256": "dbb8833d1641f84ba9660e233a5df9ef2ef16b867351da7131b0ad2226d2d87a",
+  "preserved_files": [
+    {
+      "file": "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+      "sha256": "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/edit-preview-v01/shot-08-hud-c-edit-preview-v01.mp4",
+      "sha256": "cd63556da707cf6fee969976cb27a7112bb178d372c799fdef5ec3d2982cc51e"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4",
+      "sha256": "3b4227ae98e2c8baf55400a430fef6b306d5d0f82f66369b9199a08f16ceba27"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+      "sha256": "00caba5dfc91d5a09537f9b6eb75dd9355070c8d26884da341b6737705863bb0"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "sha256": "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/edit-preview-v01/shot-09-coffee-edit-preview-v01.mp4",
+      "sha256": "976e51690a4dab81148cc8d126a3bf3cc311acf07c81dc878d94b9e5214c2b92"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v03/shot-09-coffee-revised-v03.mp4",
+      "sha256": "4c8c0f20e887d0536c67ad623783be935637d42e6f5e3f0d33aad8929bf31366"
+    }
+  ],
+  "submitted_at": "2026-11-01T22:11:45+05:30",
+  "submission": {
+    "session_ids": [
+      "D1ZLToBK3c6HzEAJhqWA"
+    ],
+    "results": [
+      {
+        "success": true,
+        "node_id": "rv4Y9yFpbnR1eXQf0jvH",
+        "session_id": "D1ZLToBK3c6HzEAJhqWA",
+        "credit_costs": {
+          "ary0MpAozOyBi1tIWiKz": 3030
+        }
+      }
+    ],
+    "pending": [
+      {
+        "generation_id": "ary0MpAozOyBi1tIWiKz",
+        "kind": "video"
+      }
+    ]
+  },
+  "session_ids": [
+    "D1ZLToBK3c6HzEAJhqWA"
+  ],
+  "generation_id": "ary0MpAozOyBi1tIWiKz",
+  "session_id": "D1ZLToBK3c6HzEAJhqWA",
+  "completed_at": "2026-11-01T22:12:25+05:30",
+  "provider_generation": {
+    "id": "ary0MpAozOyBi1tIWiKz",
+    "status": "completed",
+    "model_id": "minimax-h3",
+    "width": 832,
+    "height": 480,
+    "duration_secs": 10.144,
+    "price": {
+      "credits": 3030,
+      "price_cents": 4399.56,
+      "cost_fiat_currency": "inr"
+    },
+    "created_at_unix_ms": 1793551287550
+  },
+  "sha256": "782ebc616937139fbea3610a1c9a5604a035c5f5db6c53704d5fdd4b429b7c38",
+  "bytes": 8325879,
+  "provider_reported_price": {
+    "credits": 3030,
+    "price_cents": 4399.56,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T22:15:43+05:30",
+  "review_file": "assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v02/review.json",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-11-01T22:15:43+05:30",
+    "status": "assistant_reviewed_pending_user",
+    "method": "25 sampled frames over 0–10s, 13 drop/transition samples, 9 catch-contact samples and full decoded-frame inspection.",
+    "observations": [
+      "Forward FPP running follows the cafe sidewalk; the patron exits the far left early.",
+      "A left-facing view at about 1.6s reveals a mug already separated from the empty hand.",
+      "TPP begins around 2.6s. From about 2.9–7.5s the camera makes a broad circular move around Riley, with changing cafe/rail background perspective.",
+      "Finger-to-mug contact is visible around 3.5–3.75s; the orbit continues while she holds the cup.",
+      "Handback is visible around 7.9–8.8s, followed by Riley running away. Gold outfit, skin/chrome styling and cyberpunk setting broadly follow references."
+    ],
+    "limitations": [
+      "Patron briefly holds the cup at the extreme left in the opening frame, contrary to the requested absence before the glance.",
+      "Left-facing view and FPP-to-TPP transition read as generated angle cuts rather than a continuous head turn and camera pull-out.",
+      "The cup is airborne at the reveal but rises/floats toward camera before descending again. Gravity and scale remain imperfect.",
+      "Catch occurs around waist height instead of just above the paving.",
+      "Strongest orbit continues after contact and spends substantial time on the held cup. No precise angle or full 360-degree claim.",
+      "Likeness and hand contact need playback scrutiny. Exit reads as a run with a cyan trail; super-speed acceleration still needs polish.",
+      "Native audio was extracted and level-checked only; no independent listening, speech-absence verification or final mix approval."
+    ],
+    "assistant_verdict": "Circular camera motion and visible catch present; cup trajectory, rescue height and perspective transition still need polish.",
+    "full_playback_reviewed": false,
+    "audio_listened": false,
+    "contact_sheet": "assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v02/contact-sheet.jpg",
+    "transition_detail": "assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v02/drop-transition-detail.jpg",
+    "catch_detail": "assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v02/catch-contact-detail.jpg"
+  },
+  "technical_review": {
+    "inspection_file": "assets/06-shots/reviews/shot-09-reflexes-coffee-orbit-minimax-v02/inspection.json",
+    "dimensions": [
+      832,
+      480
+    ],
+    "fps": 24,
+    "video_samples": 243,
+    "video_duration_seconds": 10.125,
+    "near_black_frames": 0,
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 10.144,
+        "sample_rate": 32000
+      }
+    ],
+    "native_audio_rms_dbfs": -22.641242870591554,
+    "native_audio_peak_dbfs": -2.432308775891686,
+    "audio_listened": false
+  },
+  "user_feedback": {
+    "at": "2026-11-01T22:23:11+05:30",
+    "source": "explicit_user_message",
+    "summary": "Rejected: Riley passes the man before noticing; cup rises from below and is too far away. Correct starting reference with man farther ahead. As she draws level, side glance sees cup already falling nearby, then slow-motion circular camera move."
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "asset_id": "shot-12-overtake-boulevard-start-v06",
+  "title": "Matched boulevard overhead \u2014 train direction corrected",
+  "location": "Same ground-level boulevard and left elevated railway as shot11",
+  "status": "generated_pending_user_review",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "node_id": "eHYpQWEBCCoxiszJNuGh",
+  "model_id": "gpt-image-2",
+  "model_parameters": {
+    "quality": "low",
+    "resolution": "1K",
+    "aspect_ratio": "16:9"
+  },
+  "prompt": "Edit only the train in this vertical-overhead photograph. Keep the camera, street, buildings, rails, bollards, planters, paving, light, and Riley exactly unchanged. Riley is running toward the TOP of the image, away from us. The train must also face toward TOP, parallel with Riley. Reverse the train end-for-end on its existing LEFT railway: place the rounded cab/nose at the UPPER end of the visible train, around y=280 of this720-pixel image, pointing to TOP. Its long roof and connected carriages extend DOWNWARD behind that nose and continue beyond the BOTTOM frame edge. Show visible empty parallel rails extending upward ahead of the nose. The train remains on the same straight left rails, same width and same graphite/cyan/gold design. Riley stays in her exact current position to the right, approximately one body length behind the new train nose. Remove the old bottom-facing cab entirely, replacing that region with the continuing carriage roof. Result: train nose above Riley, both traveling up the image together, prepared for her to overtake it. No change to any other part of the photograph. Single16:9 image.",
+  "generations_count": 1,
+  "estimate": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "reference_nodes": [
+    "IfJmTIaJAIdAFwvJDxsF"
+  ],
+  "source_file": "assets/06-shots/images/shot-12-overtake-boulevard-start-v05.png",
+  "source_sha256": "93ab1dc6dc2a0bb6f6de3ececc36f746c42c491388c2772f27fc14580687464b",
+  "output_file": "assets/06-shots/images/shot-12-overtake-boulevard-start-v06.png",
+  "generation_id": "zLzfUFMYpcMEcekvOOFE",
+  "session_id": "ULz1bqPeW4Hc6gTyCsbS",
+  "sha256": "5724ebd224ae6e46ad4330596613920b858cec3f955d7e996ea4cda9440d7c3c",
+  "width": 1280,
+  "height": 720,
+  "price": {
+    "credits": 252.11783783783784,
+    "currency": "INR",
+    "rupees": 3.660751005405406
+  },
+  "user_approved": false,
+  "selected": false,
+  "assistant_visual_review": {
+    "observations": [
+      "True overhead angle. Riley and the train nose now face upframe in parallel.",
+      "Same broad ground-level pedestrian boulevard, left elevated railway, curved glass frontage, cyan planter edges, wet paving and gold bollard rows as shot11.",
+      "Riley begins behind the train nose, leaving room for a subsequent overtaking action."
+    ],
+    "limitations": [
+      "No motion generated; actual speed, overtaking and cut continuity remain untested.",
+      "Train nose starts approximately two body lengths ahead rather than exactly one.",
+      "Top-down lighting is darker than the FPP view; final exposure matching may be needed.",
+      "Small-scale face and wardrobe details are not a likeness close-up test."
+    ]
+  },
+  "reference_hashes": {
+    "assets/06-shots/images/shot-12-overtake-boulevard-start-v05.png": "93ab1dc6dc2a0bb6f6de3ececc36f746c42c491388c2772f27fc14580687464b"
+  },
+  "prompt_file": "assets/06-shots/prompts/shot-12-overtake-boulevard-start-v06.txt",
+  "prompt_sha256": "e298d2854381f15f5f91d0c72a90b274d58d530c9fb253f1496f09eee8f1112d",
+  "reviewed_at": "2026-11-02T01:45:07+05:30",
+  "live_model_schema": {
+    "model_id": "gpt-image-2",
+    "model_name": "GPT Image 2",
+    "node_type": "image-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "16:9",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "4:5",
+            "value": "4:5"
+          },
+          {
+            "label": "5:4",
+            "value": "5:4"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "2:3",
+            "value": "2:3"
+          },
+          {
+            "label": "3:2",
+            "value": "3:2"
+          },
+          {
+            "label": "1:2",
+            "value": "1:2"
+          },
+          {
+            "label": "2:1",
+            "value": "2:1"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "1:3",
+            "value": "1:3"
+          },
+          {
+            "label": "3:1",
+            "value": "3:1"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "1K",
+        "options": [
+          {
+            "label": "1K",
+            "value": "1K"
+          },
+          {
+            "label": "2K",
+            "value": "2K"
+          },
+          {
+            "label": "4K",
+            "value": "4K"
+          }
+        ]
+      },
+      {
+        "name": "quality",
+        "type": "select",
+        "required": false,
+        "default": "medium",
+        "options": [
+          {
+            "label": "low",
+            "value": "low"
+          },
+          {
+            "label": "medium",
+            "value": "medium"
+          },
+          {
+            "label": "high",
+            "value": "high"
+          }
+        ]
+      },
+      {
+        "name": "custom_width",
+        "type": "number",
+        "required": false,
+        "min_value": 64,
+        "max_value": 3840,
+        "number_type": "int"
+      },
+      {
+        "name": "custom_height",
+        "type": "number",
+        "required": false,
+        "min_value": 64,
+        "max_value": 3840,
+        "number_type": "int"
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "images",
+        "modality": "image",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "1:1",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "2:3",
+        "3:2",
+        "1:2",
+        "2:1",
+        "9:16",
+        "16:9",
+        "21:9",
+        "1:3",
+        "3:1"
+      ],
+      "quality": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "resolution": [
+        "1K",
+        "2K",
+        "4K"
+      ]
+    }
+  },
+  "seed": "not exposed by the provider schema"
+}

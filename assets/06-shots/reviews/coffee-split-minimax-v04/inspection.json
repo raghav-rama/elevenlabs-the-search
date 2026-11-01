@@ -1,0 +1,33 @@
+{
+  "audio_tracks" : [
+    {
+      "channels" : 2,
+      "codec_fourcc" : "aac ",
+      "duration_seconds" : 10,
+      "sample_rate" : 48000
+    }
+  ],
+  "duration_seconds" : 10,
+  "extracted_frame_seconds" : 9.9583333333333339,
+  "frame_height" : 480,
+  "frame_width" : 832,
+  "last_frame_file" : "assets\/06-shots\/reviews\/coffee-split-minimax-v04\/last-frame.png",
+  "last_frame_sha256" : "c4bb76604fa8097b758eafe540daa295ceec178767c0cc9baee6556dcc66be74",
+  "last_picture_frame_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/coffee-split-minimax-v04\/last-picture-frame.png",
+  "last_picture_frame_seconds" : 9.9583333333333339,
+  "last_picture_frame_sha256" : "c4bb76604fa8097b758eafe540daa295ceec178767c0cc9baee6556dcc66be74",
+  "last_video_sample_seconds" : 9.9583333333333339,
+  "near_black_detection" : "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+  "near_black_frame_times_seconds" : [
+
+  ],
+  "nominal_fps" : 24,
+  "review_limits" : "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+  "script" : "scripts\/inspect-review-video.swift",
+  "source_file" : "assets\/06-shots\/reviews\/coffee-split-minimax-v04\/shot-09-coffee-split-review-v04.mp4",
+  "source_modified" : false,
+  "source_sha256" : "3fb1e87b399697bef05ee5957b04ccf2615c5e4da54cd2cf705ffdcdf9838195",
+  "video_codec_fourcc" : "avc1",
+  "video_duration_seconds" : 10,
+  "video_samples" : 240
+}

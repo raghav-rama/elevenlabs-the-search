@@ -1,0 +1,33 @@
+{
+  "audio_tracks" : [
+    {
+      "channels" : 2,
+      "codec_fourcc" : "aac ",
+      "duration_seconds" : 5.056,
+      "sample_rate" : 32000
+    }
+  ],
+  "duration_seconds" : 5.0419999999999998,
+  "extracted_frame_seconds" : 5,
+  "frame_height" : 480,
+  "frame_width" : 854,
+  "last_frame_file" : "assets\/06-shots\/reviews\/shot-12-overtake-city-seedance-480p-v01\/last-frame.png",
+  "last_frame_sha256" : "d7e1be2f3db50612e86d854a4253233187454cd63265cd642467b2d6e6c95cca",
+  "last_picture_frame_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/shot-12-overtake-city-seedance-480p-v01\/last-picture-frame.png",
+  "last_picture_frame_seconds" : 5,
+  "last_picture_frame_sha256" : "d7e1be2f3db50612e86d854a4253233187454cd63265cd642467b2d6e6c95cca",
+  "last_video_sample_seconds" : 5,
+  "near_black_detection" : "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+  "near_black_frame_times_seconds" : [
+
+  ],
+  "nominal_fps" : 24,
+  "review_limits" : "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+  "script" : "scripts\/inspect-review-video.swift",
+  "source_file" : "assets\/06-shots\/videos\/shot-12-overtake-city-seedance-480p-v01.mp4",
+  "source_modified" : false,
+  "source_sha256" : "04bb665e28eff23d38d3ef32a8c6e38429a9281275c0a05f9096f0ec3e51a312",
+  "video_codec_fourcc" : "avc1",
+  "video_duration_seconds" : 5.0419999999999998,
+  "video_samples" : 121
+}

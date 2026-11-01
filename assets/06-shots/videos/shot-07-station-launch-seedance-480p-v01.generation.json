@@ -1,0 +1,554 @@
+{
+  "asset_id": "shot-07-station-launch-seedance-480p-v01",
+  "title": "07 \u2014 Station launch from approved upgrade ending",
+  "location": "Same cleared cyberpunk station platform",
+  "provider": "ElevenLabs",
+  "model_id": "bytedance-seedance-v2.5",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "node_id": "XwPL8xZX94fJf91vnq2e",
+  "prompt": "Five-second photoreal single continuous fixed-wide shot, beginning EXACTLY from the supplied approved transformation-ending frame. Riley has just returned to this standing pose after her upgrade. Keep her precise position, scale, face, short brunette bob with subtle teal accents, viewer-right cheek cyberware, neck hardware, gold wrap mini-dress, black-and-gold boots, and mostly natural skin with narrow chrome/cyan inlays. No new transformation or costume change.\n\nThe train has ALREADY LEFT toward the distant SCREEN-LEFT vanishing point. The tracks behind Riley remain EMPTY throughout. Same wet station platform, morning light, architecture, signs and reflections as the start frame. The camera remains locked in place without reframing, zooming, tracking or cuts.\n\nImmediate decisive takeoff: during the first0.35 seconds she flicks her gaze toward SCREEN LEFT, turns her shoulders and hips in that direction, and plants a boot with a compact athletic knee bend. No long pose, eye close-up, theatrical crouch, hovering or hesitation. By0.5 seconds she pushes HARD off the platform, launching diagonally toward SCREEN LEFT and AWAY from the camera along the safe platform path, parallel to the empty tracks. Show two or three clear connected running strides and rapidly increasing displacement. Her feet contact the ground naturally; she never crosses or jumps onto the rails. Hair and dress respond to the speed; maintain covered gold dress fabric over her back and hips.\n\nBy roughly1.8 seconds she has raced into the far-left distance, becoming small from actual travel rather than teleporting. Use a narrow brief cyan/magenta wake with restrained bloom, always behind her; keep her body and initial leg action readable. The wake fades, leaving the same empty platform for the remainder. The train must not reappear. No reverse direction, toward-camera run, extra people, duplicate Riley, stretched limbs, changed costume, fully robotic body, explosion or new obstacles.\n\nNative sound: one tight boot plant, rapidly accelerating foot contacts and a short forceful air rush on launch, fading into quiet station ambience and a distant receding train. No speech, grunts, narration or music. Stylish confident speed with believable physical push-off.",
+  "effective_settings": {
+    "aspect_ratio": "auto",
+    "resolution": "480p",
+    "duration_secs": 5,
+    "generate_audio": true,
+    "start_frame": {
+      "template_node_id": "oq4i1gtPgBZQWZjKpyK9"
+    }
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "start_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "oq4i1gtPgBZQWZjKpyK9",
+          "label": "WORLD \u2014 approved transformation ending, city architecture and daylight"
+        }
+      ]
+    },
+    {
+      "key": "end_frame",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_images",
+      "modality": "image",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_videos",
+      "modality": "video",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "reference_audios",
+      "modality": "audio",
+      "required": false,
+      "connected_to": []
+    }
+  ],
+  "live_schema": {
+    "model_id": "bytedance-seedance-v2.5",
+    "model_name": "Seedance 2.5",
+    "node_type": "video-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "16:9",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "720p",
+        "options": [
+          {
+            "label": "480p",
+            "value": "480p"
+          },
+          {
+            "label": "720p",
+            "value": "720p"
+          },
+          {
+            "label": "1080p",
+            "value": "1080p"
+          }
+        ]
+      },
+      {
+        "name": "duration_secs",
+        "type": "select_number",
+        "required": false,
+        "default": 5,
+        "options": [
+          {
+            "label": "4",
+            "value": 4
+          },
+          {
+            "label": "5",
+            "value": 5
+          },
+          {
+            "label": "6",
+            "value": 6
+          },
+          {
+            "label": "7",
+            "value": 7
+          },
+          {
+            "label": "8",
+            "value": 8
+          },
+          {
+            "label": "9",
+            "value": 9
+          },
+          {
+            "label": "10",
+            "value": 10
+          },
+          {
+            "label": "11",
+            "value": 11
+          },
+          {
+            "label": "12",
+            "value": 12
+          },
+          {
+            "label": "13",
+            "value": 13
+          },
+          {
+            "label": "14",
+            "value": 14
+          },
+          {
+            "label": "15",
+            "value": 15
+          },
+          {
+            "label": "16",
+            "value": 16
+          },
+          {
+            "label": "17",
+            "value": 17
+          },
+          {
+            "label": "18",
+            "value": 18
+          },
+          {
+            "label": "19",
+            "value": 19
+          },
+          {
+            "label": "20",
+            "value": 20
+          },
+          {
+            "label": "21",
+            "value": 21
+          },
+          {
+            "label": "22",
+            "value": 22
+          },
+          {
+            "label": "23",
+            "value": 23
+          },
+          {
+            "label": "24",
+            "value": 24
+          },
+          {
+            "label": "25",
+            "value": 25
+          },
+          {
+            "label": "26",
+            "value": 26
+          },
+          {
+            "label": "27",
+            "value": 27
+          },
+          {
+            "label": "28",
+            "value": 28
+          },
+          {
+            "label": "29",
+            "value": 29
+          },
+          {
+            "label": "30",
+            "value": 30
+          }
+        ]
+      },
+      {
+        "name": "generate_audio",
+        "type": "boolean",
+        "required": false,
+        "default": true
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "start_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "end_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_images",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_videos",
+        "modality": "video",
+        "required": false
+      },
+      {
+        "key": "reference_audios",
+        "modality": "audio",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "duration_secs": "any value: pass `values` to creative_expose_flow_parameter",
+      "generate_audio": [
+        "true",
+        "false"
+      ],
+      "resolution": [
+        "480p",
+        "720p",
+        "1080p"
+      ]
+    }
+  },
+  "estimate": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "generations_count": 1,
+  "seed": null,
+  "selected": false,
+  "user_approved": false,
+  "upscaled": false,
+  "status": "not_selected_minimax_launch_preferred",
+  "authorization": {
+    "quote": "Looks good, continue",
+    "scope": "Approve boulevard speed and continue the announced final station-launch replacement: one five-second Seedance2.5 take at480p. No batch or automatic retry."
+  },
+  "prepared_at": "2026-11-02T00:40:47+05:30",
+  "prompt_file": "assets/06-shots/video-prompts/shot-07-station-launch-seedance-480p-v01.txt",
+  "prompt_sha256": "833efd67c33a1eb3100682830ee32e232af4dd9b4a4bd91afd2659da3dddcc0d",
+  "output_file": "assets/06-shots/videos/shot-07-station-launch-seedance-480p-v01.mp4",
+  "submitted_generations": 1,
+  "retries_submitted": 0,
+  "references": [
+    {
+      "node_id": "oq4i1gtPgBZQWZjKpyK9",
+      "content_asset_id": "31PjGeIKM3pQc1ShkXkD",
+      "file": "assets/06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/last-picture-frame.png",
+      "sha256": "c0e544d85a36ece78e5455ca84632130e692f9e5ed9c9c3835a8047dc8ea3ba0",
+      "order": 1,
+      "role": "start_frame: exact approved Seedance transformation ending; same standing pose used after diagnostic return"
+    }
+  ],
+  "model_guide": {
+    "model_id": "bytedance-seedance-v2.5",
+    "guide": "# Seedance family \u2014 bytedance-seedance-v1-pro, bytedance-seedance-v1.5-pro, bytedance-seedance-v2, bytedance-seedance-v2-fast, bytedance-seedance-v2.5, bytedance-seedance-v2.5-edit, bytedance-seedance-v2.5-extend, bytedance-seedance-v2-us, bytedance-seedance-v2.5-us, bytedance-seedance-v2.5-edit-us, bytedance-seedance-v2.5-extend-us\n\nByteDance's flagship video model. The first model supporting simultaneous quad-modal input (text, image, video, and audio). Strong motion realism, character consistency, and multi-shot storytelling.\n\n## Inputs\n\n- Text prompt\n- Optional reference image. The model cites these as `@image1`, `@image2` \u2014 but do not type that yourself: place an `image_reference` part where the reference belongs and the backend renders the token there.\n- Optional reference video\n- Optional audio track (model choreographs video to sound, beat-matched)\n- Parameters: resolution and duration vary by variant (see below)\n\n## Variant notes\n\n- **Seedance 2.0 / 2.0 Fast** \u2014 up to 4K (2.0) or 1080p (Fast); clips 4\u201315s.\n- **Seedance 2.5** (`bytedance-seedance-v2.5`) \u2014 sharper realism; up to 1080p; clips up to 30s; much larger reference budget (upto 10 image, video, and audio refs). Prefer 2.5 over 2.0 unless the user names 2.0.\n- **Seedance 2.5 Edit** (`bytedance-seedance-v2.5-edit`) \u2014 edit an existing clip by describing the change. Duration follows the source.\n- **Seedance 2.5 Extend** (`bytedance-seedance-v2.5-extend`) \u2014 continue from the end of an existing clip. Prompt what happens next.\n- **US-hosted variants** (`bytedance-seedance-v2-us`, `bytedance-seedance-v2.5-us`, `-edit-us`, `-extend-us`) \u2014 the same models served from US infrastructure, offered where the standard ids are not available; same resolutions as their counterparts, and 2.0 US takes no seed. Prompt them exactly like their counterparts.\n- Fast and Pro / 2.5 share prompting style. Longer variants tolerate longer prompts.\n\n## Prompt structure\n\n```\n[shot] + [subject] + [action] + [environment / lighting] + [style]\n```\n\n## Key strengths\n\n- **Handles physical interactions** (pouring, splashing, hand-object contact) better than most models. Describe them concretely.\n- **Good at weather and atmospheric effects.**\n- **Audio-to-video** \u2014 upload an audio track and the model choreographs video to the sound with beat-matched cuts and lip sync.\n- **Negative prompts work** \u2014 phrases like \"no distortion, no stretching,\" \"no grain, no shadows\" are effective.\n- **Seedream + Seedance pipeline** \u2014 generate reference images with Seedream, then use as visual references for maximum control.\n\n## For image-to-video\n\n- **Describe the motion, not the image.** \"Camera slowly orbits around her\" works far better than re-describing what she looks like.\n- **Lock the character with consistency language** \u2014 add \"maintain exact appearance from reference image\" or \"consistent character throughout, no deformation or drift.\"\n\n## Rules\n\n- **A wired audio reference needs `generate_audio` on.** With it off the render comes back silent and the track you connected is thrown away, so connecting audio turns it back on \u2014 never set it to false to keep a voiceover \"clean\".\n- **Use one continuous action per clip.** Multi-beat narratives drift.\n- **For start/end frame inputs**, write a prompt that bridges the two states (\"from sealed package to fully revealed product\"), not a static description.\n\n## Example\n\n> Wide tracking shot of a courier riding an electric scooter through a rainy Shanghai night market. Neon shopfronts reflect on wet pavement. Wisps of steam rise from food stalls as he weaves between pedestrians. Cinematic, slightly desaturated, shallow depth of field.\n\n## What to avoid\n\n- Re-describing the reference image in image-to-video prompts (wastes prompt budget).\n- Abstract or heavily stylized prompts without specificity.",
+    "source": "family"
+  },
+  "model_guide_verified_in_prior_strength_pass": true,
+  "preserved_files": [
+    {
+      "file": "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+      "sha256": "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/edit-preview-v01/shot-08-hud-c-edit-preview-v01.mp4",
+      "sha256": "cd63556da707cf6fee969976cb27a7112bb178d372c799fdef5ec3d2982cc51e"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4",
+      "sha256": "3b4227ae98e2c8baf55400a430fef6b306d5d0f82f66369b9199a08f16ceba27"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+      "sha256": "00caba5dfc91d5a09537f9b6eb75dd9355070c8d26884da341b6737705863bb0"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "sha256": "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/edit-preview-v01/shot-09-coffee-edit-preview-v01.mp4",
+      "sha256": "976e51690a4dab81148cc8d126a3bf3cc311acf07c81dc878d94b9e5214c2b92"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v03/shot-09-coffee-revised-v03.mp4",
+      "sha256": "4c8c0f20e887d0536c67ad623783be935637d42e6f5e3f0d33aad8929bf31366"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-reflexes-coffee-orbit-minimax-v02.mp4",
+      "sha256": "782ebc616937139fbea3610a1c9a5604a035c5f5db6c53704d5fdd4b429b7c38"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-fpp-run-minimax-v04.mp4",
+      "sha256": "24be973fe71d67cd3810dfa21e951221e9a4b46916374e70b80873c06962abb3"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+      "sha256": "f5efe45d4615c8e650ede34edc5f542c285d934a44d790287617efcb77e5343c"
+    },
+    {
+      "file": "assets/06-shots/reviews/coffee-split-minimax-v04/shot-09-coffee-split-review-v04.mp4",
+      "sha256": "3fb1e87b399697bef05ee5957b04ccf2615c5e4da54cd2cf705ffdcdf9838195"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-seedance-480p-v01.mp4",
+      "sha256": "aadb78f46a93ad57339541313688258208deb30dcb92b337da8135747cc2bc25"
+    },
+    {
+      "file": "assets/06-shots/reviews/coffee-split-seedance-v01/shot-09-coffee-seedance-review-v01.mp4",
+      "sha256": "8b920debe2b9661f05f8cc26fd1af1d2d7a72cf1aa5f874cb528a0db7b1fe021"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02.mp4",
+      "sha256": "870c592c1db53f93e9a32288af2453f3fd8ef741a642bda95f97f3221b208a5f"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-10-strength-steel-doors-minimax-startframe-v01.mp4",
+      "sha256": "e321abb59de0bbd06e42b3310e8dae21d3e607ef3270099bdf737a78df64b7ef"
+    },
+    {
+      "file": "assets/01-riley/images/riley-cyberpunk-03-v01.png",
+      "sha256": "4df29f1f3ed615cc454ae91d983f56046e203cc0be225b854c22bcdffc5ca009"
+    },
+    {
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-10-strength-city-seedance-480p-v01.mp4",
+      "sha256": "bbbc2398da759064a5e0ae8fae54d53e6d09dc38aaaa96b273996fce2b580778"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-11-speed-boulevard-minimax-startframe-v01.mp4",
+      "sha256": "cdc8c84c4b5a9ae4eb5c304657cdd813b8d6b72bfd5fdb72a4c15980b6793912"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-11-speed-city-seedance-480p-v01.mp4",
+      "sha256": "56119b42fe65e94cd4dd546386b5c4b4f2f5a2845c08e61d4c20b30e19acc3ec"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4",
+      "sha256": "3c3413da46200a72926418e20ec5fa6cc2177af0d0dcdf203353f976111abf39"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-07-speed-launch-departure-minimax-v02.mp4",
+      "sha256": "d8e5053657819ac1806a33a319aa7587d524f1dbee2f9684e86479314ad09314"
+    },
+    {
+      "file": "assets/08-edit/upgrade-diagnostic-v01/upgrade-diagnostic-picture-v02.mp4",
+      "sha256": "cf97986e8bb98ec575313a5cd51c58e2600dda6f4749a56bfc0a6c4b1d52f6dd"
+    }
+  ],
+  "continuity_review": {
+    "input_inspected": true,
+    "diagnostic_ending_inspected": "assets/08-edit/upgrade-diagnostic-v01/last-picture-frame.png",
+    "same_subject_position_and_pose": true,
+    "train_state": "already departed; tracks stay empty",
+    "launch_direction": "screen-left and away along platform, parallel to rails",
+    "current_edit_slot_seconds": 1.25,
+    "current_edit_slot_start_seconds": 18.125,
+    "timing_source": "assets/08-edit/continuous-ad-review-v01/timeline.json",
+    "exact_edit_range_not_selected": true
+  },
+  "submitted_at": "2026-11-02T00:40:49+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "XwPL8xZX94fJf91vnq2e",
+        "session_id": "T3nBw6ue3LlWhg7pkTkm",
+        "credit_costs": {
+          "V4MVm01Dprm02tEwE8AP": 6511.470000000001
+        }
+      }
+    ],
+    "session_ids": [
+      "T3nBw6ue3LlWhg7pkTkm"
+    ],
+    "pending": [
+      {
+        "generation_id": "V4MVm01Dprm02tEwE8AP",
+        "kind": "video"
+      }
+    ],
+    "summary": {
+      "nodes_run": 1,
+      "generations_started": 1,
+      "failed": 0,
+      "generations_by_node": {
+        "XwPL8xZX94fJf91vnq2e": 1
+      }
+    }
+  },
+  "generation_id": "V4MVm01Dprm02tEwE8AP",
+  "session_id": "T3nBw6ue3LlWhg7pkTkm",
+  "session_ids": [
+    "T3nBw6ue3LlWhg7pkTkm"
+  ],
+  "completed_at": "2026-11-02T00:43:54+05:30",
+  "sha256": "54d1fbbad858bcde419dab345a8534e940f2fa46fa6d841321409b3c382dd355",
+  "bytes": 1195813,
+  "width": 854,
+  "height": 480,
+  "provider_generation": {
+    "id": "V4MVm01Dprm02tEwE8AP",
+    "status": "completed",
+    "model_id": "bytedance-seedance-v2.5",
+    "width": 854,
+    "height": 480,
+    "duration_secs": 5.056,
+    "created_at_unix_ms": 1793560248856,
+    "price": {
+      "credits": 6511.470000000001,
+      "price_cents": 9454.654440000002,
+      "cost_fiat_currency": "inr"
+    }
+  },
+  "provider_reported_price": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "cost_fiat_currency": "inr"
+  },
+  "output_created": true,
+  "reviewed_at": "2026-11-02T00:46:20+05:30",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-11-02T00:46:20+05:30",
+    "method": "Twenty native samples every0.25 seconds plus nine context-join samples every0.125 seconds and full-frame decoding; approved source/diagnostic endpoints also inspected. Numeric audio review only, not continuous playback/listening.",
+    "observations": [
+      "Starts from the approved standing Riley pose and same cleared station composition. Gold dress, bob, face/neck cyberware, human limbs with narrow chrome accents and dark/gold boots broadly retained.",
+      "Riley looks and turns screen left, then starts a visible running push-off around2.2\u20132.5 seconds.",
+      "She travels diagonally left and away along the platform, shrinking with distance; tracks stay empty and no train reset is visible.",
+      "Narrow cyan/magenta wake follows the run; camera/background remain broadly fixed.",
+      "Diagnostic-return-to-launch comparison has close composition/pose continuity around its one-second join in sampled frames."
+    ],
+    "limitations": [
+      "Launch is much later than the requested0.5 seconds; wind-up occupies roughly the first two seconds. This is not yet an immediate takeoff in the existing1.25s slot.",
+      "She remains visible in the far distance through the ending; requested clear exit/empty-platform hold by1.8 seconds was not achieved.",
+      "Full-speed impact, foot contacts and exact likeness require playback judgment; sample images do not establish believable sprint cadence.",
+      "Native audio decoded and measured only; no independent listening or speech/music absence approval.",
+      "No final range selection, retiming or accepted-ad replacement. Continuity review preserves all native timing so the delay remains visible."
+    ]
+  },
+  "native_picture_frames": 121,
+  "native_picture_seconds": 5.042,
+  "nominal_fps": 24,
+  "inspection_file": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/inspection.json",
+  "review_file": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/review.json",
+  "review_player": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/index.html",
+  "native_audio_analysis": {
+    "file": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/native-audio.wav",
+    "levels_file": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/native-audio-levels.txt",
+    "rms_dbfs": -25.553099919043763,
+    "peak_dbfs": -4.5194023331525255,
+    "decoded_duration_seconds": 5.0555,
+    "listening_review": false
+  },
+  "context_review": {
+    "file": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/context-review-v01/diagnostic-to-launch-v01.mp4",
+    "sha256": "1ac504588157a0a2ec765a8a24ac3f808996b8ee3f873125385c8d910704ae73",
+    "timeline": "assets/06-shots/reviews/shot-07-station-launch-seedance-480p-v01/context-review-v01/timeline.json",
+    "frames": 145,
+    "seconds": 6.041666666666667,
+    "source_retimed": false,
+    "first_second_silent": true,
+    "native_launch_gain_db": 0,
+    "accepted_ad_unchanged": true
+  },
+  "user_preference": {
+    "at": "2026-11-02T00:57:11+05:30",
+    "quote": "Yup this is much better.",
+    "source": "explicit_user_message_after_original_launch_retrieval",
+    "scope": "Preferred original MiniMax launch movement over station-launch Seedance v01; use with diagnostic video as reference for one new continuous 480p Seedance take."
+  }
+}

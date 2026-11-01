@@ -1,0 +1,72 @@
+{
+  "status": "user_approved_usable_range",
+  "method": "Full decode, 21 time-spaced samples across 0–5 seconds, 12 additional stride-detail samples, and native ending-frame inspection. Audio decoded and measured; no independent listening or real-time perceptual approval.",
+  "observations": [
+    "The train stays longitudinally aligned with the right-hand rails, with its nose facing upward throughout sampled frames.",
+    "One Riley remains on the separated left lane. She begins behind the train nose and finishes with her entire body and both boots clearly ahead.",
+    "Finer temporal samples show changing leg positions rather than one frozen running pose. The train and Riley remain separate without crossing paths.",
+    "The gold dress, dark bob, black boots and bright cyberpunk city palette follow the approved references; no generated titles are visible.",
+    "A wider elevated-lane junction passes through the middle of the shot, introducing more environment geometry than the starting still."
+  ],
+  "limitations": [
+    "Full-speed playback is still needed to judge whether the sprint feels superhuman and whether camera, train, lane and distant-building motion remain coherent through the junction.",
+    "Exact foot contacts, facial likeness and fine chrome detail cannot be certified at this distant native 854x480 scale.",
+    "Native audio is retained and level-checked, but speech absence, effect quality and continuity with the approved mix are not independently verified.",
+    "The clip is pending user selection. No final-cut replacement, retiming, upscale or other paid take has been made."
+  ],
+  "reviewed_at": "2026-11-01T19:50:43+05:30",
+  "asset_id": "shot-12-overtake-city-seedance-480p-v01",
+  "source_file": "assets/06-shots/videos/shot-12-overtake-city-seedance-480p-v01.mp4",
+  "source_sha256": "04bb665e28eff23d38d3ef32a8c6e38429a9281275c0a05f9096f0ec3e51a312",
+  "selected": false,
+  "user_approved": false,
+  "inspection_file": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/inspection.json",
+  "contact_sheet": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/contact-sheet.jpg",
+  "stride_detail": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/stride-detail.jpg",
+  "audio_levels": {
+    "sample_peak_dbfs": -13.228946320067152,
+    "rms_dbfs": -29.121839866111443,
+    "decoded_sample_rate": 48000,
+    "channels": 2,
+    "listening_review": false
+  },
+  "user_feedback": {
+    "recorded_at": "2026-11-01T19:57:18+05:30",
+    "source": "explicit_user_message",
+    "quote": "Her speed gradually increases and slows, so the usable part of the video is roughly 00:01 to 00:04",
+    "scope": "User identifies a usable middle range; this is not approval of the full take, exact edit boundaries, native sound or final assembly."
+  },
+  "usable_range": {
+    "source_in_seconds": 1,
+    "source_out_seconds_exclusive": 4,
+    "source_in_frames": 24,
+    "source_out_frames_exclusive": 96,
+    "duration_frames": 72,
+    "fps": 24,
+    "duration_seconds": 3,
+    "speed_multiplier": 1,
+    "boundary_precision": "Delivered exact source [1.000,4.000) trim approved by user.",
+    "output_file": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4",
+    "output_sha256": "3b4227ae98e2c8baf55400a430fef6b306d5d0f82f66369b9199a08f16ceba27",
+    "review_status": "user_approved_usable_range",
+    "current_cut_slot_seconds": 4,
+    "assembly_timing_to_resolve_seconds": 1,
+    "final_assembly_changed": false,
+    "new_credits": 0,
+    "selected": true,
+    "user_approved": true,
+    "approved_at": "2026-11-01T20:00:11+05:30",
+    "approval": {
+      "recorded_at": "2026-11-01T20:00:11+05:30",
+      "quote": "Ok good",
+      "source": "explicit_user_message",
+      "scope": "Approve the delivered three-second original-speed overhead trim for use in the edit; full five-second take and final sound/assembly are not thereby approved."
+    }
+  },
+  "usable_range_approval": {
+    "recorded_at": "2026-11-01T20:00:11+05:30",
+    "quote": "Ok good",
+    "source": "explicit_user_message",
+    "scope": "Approve the delivered three-second original-speed overhead trim for use in the edit; full five-second take and final sound/assembly are not thereby approved."
+  }
+}

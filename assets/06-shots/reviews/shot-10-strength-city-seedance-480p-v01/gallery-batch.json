@@ -1,0 +1,15 @@
+{
+  "gallery_title": "AFTERHUMAN · Strength / Seedance480p",
+  "gallery_description": "First-person steel-door test using the approved city reference. Watch the native five-second take beside its starting frame.",
+  "gallery_status": "Strength take approved by user. Exact final trim and mix remain editing decisions; source retained unchanged.",
+  "gallery_footer": "One Seedance2.5 take via ElevenLabs ·6511.470 credits /₹94.55 · No additional images, retries or upscale. Native audio; listening review pending.",
+  "shots": [
+    {
+      "record_file": "assets/06-shots/reviews/shot-10-strength-city-seedance-480p-v01/review.json",
+      "source_file": "assets/06-shots/images/shot-10-strength-city-start-v03.png"
+    },
+    {
+      "record_file": "assets/06-shots/images/shot-10-strength-city-start-v03.generation.json"
+    }
+  ]
+}

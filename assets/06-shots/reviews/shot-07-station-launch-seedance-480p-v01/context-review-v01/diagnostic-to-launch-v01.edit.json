@@ -1,0 +1,58 @@
+{
+  "audio_bridges" : [
+
+  ],
+  "audio_tracks" : 1,
+  "clips" : [
+    {
+      "audio" : "assets\/08-edit\/continuous-ad-review-v01\/afterhuman-continuous-with-david-v01.mp4",
+      "audio_gain_db" : -120,
+      "audio_sha256" : "782a57621f92287c8ec29c86b443782c26b83df8413547a38449ff15253a9350",
+      "duration_seconds" : 1,
+      "picture" : "assets\/08-edit\/upgrade-diagnostic-v01\/upgrade-diagnostic-picture-v02.mp4",
+      "picture_sha256" : "cf97986e8bb98ec575313a5cd51c58e2600dda6f4749a56bfc0a6c4b1d52f6dd",
+      "post_handle_samples" : 384,
+      "pre_handle_samples" : 0,
+      "shot" : "Final second of diagnostic return — silent picture context",
+      "source_audio_rms_dbfs" : -22.360378717321161,
+      "source_in_seconds" : 4.291666666666667,
+      "timeline_start_seconds" : 0
+    },
+    {
+      "audio" : "assets\/06-shots\/videos\/shot-07-station-launch-seedance-480p-v01.mp4",
+      "audio_gain_db" : 0,
+      "audio_sha256" : "54d1fbbad858bcde419dab345a8534e940f2fa46fa6d841321409b3c382dd355",
+      "duration_seconds" : 5.041666666666667,
+      "picture" : "assets\/06-shots\/videos\/shot-07-station-launch-seedance-480p-v01.mp4",
+      "picture_sha256" : "54d1fbbad858bcde419dab345a8534e940f2fa46fa6d841321409b3c382dd355",
+      "post_handle_samples" : 0,
+      "pre_handle_samples" : 0,
+      "shot" : "Full new native station launch",
+      "source_audio_rms_dbfs" : -25.541200076847062,
+      "source_in_seconds" : 0,
+      "timeline_start_seconds" : 1
+    }
+  ],
+  "crossfade_half_seconds" : 0.0080000000000000002,
+  "decoded_aac_peak_dbfs" : -4.5318696485678176,
+  "duration_seconds" : 6.041666666666667,
+  "fps" : 24,
+  "framing" : "fit",
+  "master_gain" : 1,
+  "mixed_wav" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/shot-07-station-launch-seedance-480p-v01\/context-review-v01\/diagnostic-to-launch-v01.mix.wav",
+  "notes" : "Hard picture cuts; source frame ranges at original speed, aspect conformed according to the recorded framing setting. Picture re-encoded, not bitstream copied. Audio levels adjusted conservatively using RMS, not perceptual loudness. Native audio ducked under the supplied narration according to the timeline; no synthesis or speech removal by this script. Original source files remain untouched. Audio content and subjective transitions require listening review.",
+  "output" : "assets\/06-shots\/reviews\/shot-07-station-launch-seedance-480p-v01\/context-review-v01\/diagnostic-to-launch-v01.mp4",
+  "output_sha256" : "1ac504588157a0a2ec765a8a24ac3f808996b8ee3f873125385c8d910704ae73",
+  "pcm_peak_dbfs" : -4.5194023331525255,
+  "pcm_rms_dbfs" : -26.327405131148296,
+  "resolution" : [
+    854,
+    480
+  ],
+  "review_status" : "pending_user_playback_and_listening",
+  "script" : "scripts\/assemble-continuation.swift",
+  "speed_multiplier" : 1,
+  "timeline" : "assets\/06-shots\/reviews\/shot-07-station-launch-seedance-480p-v01\/context-review-v01\/timeline.json",
+  "timeline_sha256" : "f2ed982453f44d846eeb50f663f644278d894e1079d8760d3ecd56f1ad6c6aac",
+  "title" : "AFTERHUMAN — Diagnostic return into Seedance launch, context review"
+}

@@ -1,0 +1,12 @@
+{
+  "actual_seconds" : 4,
+  "height" : 480,
+  "output_file" : "assets\/06-shots\/reviews\/shot-11-12-fpp-overhead-seedance-480p-v01\/pass-4s.png",
+  "requested_seconds" : 4,
+  "script" : "scripts\/extract-video-frame.swift",
+  "sha256" : "397f5cd80ca77447d796e37139f4c67fdb04b5f98ebda54ebb1f752a1b5d76e2",
+  "source_file" : "assets\/06-shots\/videos\/shot-11-12-fpp-overhead-seedance-480p-v01.mp4",
+  "source_modified" : false,
+  "source_sha256" : "d52ad8f09107434fd521ce16b1d5622dcd1e7d064ccc5a51e8c7dc2b631e6521",
+  "width" : 854
+}

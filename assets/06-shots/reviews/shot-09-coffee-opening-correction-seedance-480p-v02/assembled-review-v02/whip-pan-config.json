@@ -1,0 +1,9 @@
+{
+  "input": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v02/coffee-recut-base-v02.mp4",
+  "output": "assets/06-shots/reviews/shot-09-coffee-opening-correction-seedance-480p-v02/assembled-review-v02/shot-09-coffee-revised-v02.mp4",
+  "fps": 24,
+  "start_frame": 62,
+  "end_frame_exclusive": 66,
+  "max_shift_fraction": 0.1,
+  "max_blur_pixels": 36
+}

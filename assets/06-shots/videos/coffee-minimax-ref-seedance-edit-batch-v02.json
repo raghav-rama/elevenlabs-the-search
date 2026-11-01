@@ -1,0 +1,82 @@
+{
+  "status": "completed_comparison_candidate_pending_user_review",
+  "created_at": "2026-11-01T23:51:51+05:30",
+  "flow_id": "J725xEy49QY4xa6L66pw",
+  "flow_url": "https://elevenlabs.io/app/flows/J725xEy49QY4xa6L66pw",
+  "model_id": "bytedance-seedance-v2.5-edit",
+  "estimate": {
+    "credits": 12502.022400000002,
+    "price_cents": 18152.936524800003,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "requested_generations": 1,
+  "submitted_generations": 1,
+  "generations_per_shot": 1,
+  "selected": false,
+  "user_approved": false,
+  "planned_retry_of": "5YB3U3mQqIH9cj6OFEEN",
+  "review_sample_count": 24,
+  "review_interval_seconds": 0.32,
+  "shots": [
+    {
+      "asset_id": "shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02",
+      "title": "Seedance Video Edit — MiniMax performance with approved Riley references",
+      "node_id": "fjRmlz80yA55gaYbexiw",
+      "record_file": "assets/06-shots/videos/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02.generation.json",
+      "prompt_file": "assets/06-shots/video-prompts/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02.txt",
+      "output_file": "assets/06-shots/videos/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02.mp4",
+      "status": "completed_comparison_candidate_pending_user_review",
+      "session_id": "xvOhIpV2ffsgD4cY9lsW",
+      "generation_id": "rRtNqFee9BOE2Gxzcltu",
+      "sha256": "870c592c1db53f93e9a32288af2453f3fd8ef741a642bda95f97f3221b208a5f",
+      "latest_review_record": "assets/06-shots/reviews/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02/review.json"
+    }
+  ],
+  "authorized_at": "2026-11-01T23:54:02+05:30",
+  "authorization": "User explicitly confirms first failure was refunded and says Retry again. Authorizes exactly one corrected-input 480p Seedance Edit attempt at refreshed12502.0224-credit quote.",
+  "prior_attempt_refund": {
+    "at": "2026-11-01T23:54:02+05:30",
+    "source": "explicit_user_message",
+    "quote": "Yes it was refunded. Retry again",
+    "independently_verified": false,
+    "status": "refunded_user_confirmed"
+  },
+  "submitted_at": "2026-11-01T23:54:04+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "fjRmlz80yA55gaYbexiw",
+        "session_id": "xvOhIpV2ffsgD4cY9lsW",
+        "credit_costs": {
+          "rRtNqFee9BOE2Gxzcltu": 12502.022400000002
+        }
+      }
+    ],
+    "session_ids": [
+      "xvOhIpV2ffsgD4cY9lsW"
+    ],
+    "pending": [
+      {
+        "generation_id": "rRtNqFee9BOE2Gxzcltu",
+        "kind": "video"
+      }
+    ]
+  },
+  "session_ids": [
+    "xvOhIpV2ffsgD4cY9lsW"
+  ],
+  "retries_submitted": 1,
+  "completed_at": "2026-11-01T23:58:05+05:30",
+  "completed_generations": 1,
+  "total_reported_price": {
+    "credits": 12502.022400000002,
+    "price_cents": 18152.936524800003,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-02T00:02:52+05:30",
+  "review": "assets/06-shots/reviews/shot-09-coffee-tpp-minimax-ref-seedance-edit-480p-v02/review.json",
+  "comparison_player": "assets/06-shots/reviews/coffee-minimax-ref-seedance-edit-v02/index.html"
+}

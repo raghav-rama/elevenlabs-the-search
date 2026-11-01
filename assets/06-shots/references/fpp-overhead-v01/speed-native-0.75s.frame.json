@@ -1,0 +1,12 @@
+{
+  "actual_seconds" : 0.75,
+  "height" : 480,
+  "output_file" : "assets\/06-shots\/references\/fpp-overhead-v01\/speed-native-0.75s.png",
+  "requested_seconds" : 0.75,
+  "script" : "scripts\/extract-video-frame.swift",
+  "sha256" : "099034ca78a8a5ee5432ea54e364cd1b04d89afcb710045baa417a171e62822d",
+  "source_file" : "assets\/06-shots\/videos\/shot-11-speed-city-seedance-480p-v01.mp4",
+  "source_modified" : false,
+  "source_sha256" : "56119b42fe65e94cd4dd546386b5c4b4f2f5a2845c08e61d4c20b30e19acc3ec",
+  "width" : 854
+}

@@ -1,0 +1,246 @@
+{
+  "title": "AFTERHUMAN — Refined arm masks v07",
+  "fps": 24,
+  "render_width": 1920,
+  "render_height": 1080,
+  "framing": "fill",
+  "audio_target_rms_dbfs": -28,
+  "audio_gain_limit_db": 12,
+  "crossfade_half_seconds": 0.04,
+  "clips": [
+    {
+      "shot": "01–03 — Preserved user FCP opening",
+      "picture": "assets/08-edit/fcp-opening-trimmed-v01/fcp-opening-trimmed-v01.mov",
+      "audio": "assets/08-edit/fcp-opening-trimmed-v01/fcp-opening-trimmed-v01.mov",
+      "source_in_frames": 0,
+      "duration_frames": 146,
+      "audio_gain_db": 0,
+      "selection_status": "approved opening, unchanged source range",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 0,
+      "timeline_start_seconds": 0.0,
+      "timeline_end_seconds": 6.083333333333333,
+      "source_sha256": "8bc7ed866eb7d5b3f3484fbe7173ac9cad86f61f98873ba46319aeb7449a75d9"
+    },
+    {
+      "shot": "04 — Missed train and departing train",
+      "picture": "assets/06-shots/videos/shot-04-05-continuous-topaz-2x-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 162,
+      "audio_gain_db": -10,
+      "selection_status": "Same approved/upscaled source prefix; transformation continues immediately in next composited clip",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 146,
+      "timeline_start_seconds": 6.083333333333333,
+      "timeline_end_seconds": 12.833333333333334,
+      "source_sha256": "83b6da113f490c82fc95bc4b53cab6f841e69a439e0046292f88b63d2b7228bf",
+      "audio_source_sha256": "3c3413da46200a72926418e20ec5fa6cc2177af0d0dcdf203353f976111abf39"
+    },
+    {
+      "shot": "05 — Original transformation while floating to center; no skeleton",
+      "picture": "assets/08-edit/floating-transformation-v03/floating-transformation-picture-v03.mp4",
+      "audio": "assets/06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 127,
+      "audio_gain_db": -120,
+      "source_sha256": "e115da02610671ccd74848f6363f61b007cbfdb0bf2c96da34781a407f50f0eb",
+      "selection_status": "New local natural-color composite pending user review",
+      "source_speed_multiplier": 1,
+      "native_audio_note": "Original station transformation6.75–12.041667s provided through separately aligned audio bridge",
+      "timeline_start_frames": 308,
+      "timeline_start_seconds": 12.833333333333334,
+      "timeline_end_seconds": 18.125
+    },
+    {
+      "shot": "07 — Direct launch after transformation return",
+      "picture": "assets/06-shots/videos/shot-06-07-diagnostic-launch-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-06-07-diagnostic-launch-seedance-480p-v01.mp4",
+      "source_in_frames": 134,
+      "duration_frames": 36,
+      "audio_gain_db": -6,
+      "selection_status": "Original-speed launch-only excerpt[5.583333,7.083333) from approved combined take; all skeleton/diagnostic frames excluded",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 435,
+      "timeline_start_seconds": 18.125,
+      "timeline_end_seconds": 19.625,
+      "source_sha256": "dacbdc7e5c7f03047dcfd91251b4d4554d0d20b54fe88bb740aca22533c7841d"
+    },
+    {
+      "shot": "08 — Approved tactical intelligence HUD",
+      "picture": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v02.mp4",
+      "audio": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v02.mp4",
+      "source_in_frames": 6,
+      "duration_frames": 66,
+      "audio_gain_db": 0,
+      "selection_status": "exact locked source[0.25,3.00) range",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 471,
+      "timeline_start_seconds": 19.625,
+      "timeline_end_seconds": 22.375,
+      "source_sha256": "da8a4c389e608b276f31e872372fb1fef135139ec8c28fd8b30e144ada3c9403"
+    },
+    {
+      "shot": "09A — Fast FPP coffee approach",
+      "picture": "assets/06-shots/videos/shot-09-coffee-fpp-run-minimax-v04.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-fpp-run-minimax-v04.mp4",
+      "source_in_frames": 23,
+      "duration_frames": 49,
+      "audio_gain_db": -8,
+      "selection_status": "existing reviewed split range; no new take selection inferred",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 537,
+      "timeline_start_seconds": 22.375,
+      "timeline_end_seconds": 24.416666666666668,
+      "source_sha256": "24be973fe71d67cd3810dfa21e951221e9a4b46916374e70b80873c06962abb3"
+    },
+    {
+      "shot": "09B — Preferred MiniMax airborne cup and orbit catch",
+      "picture": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 191,
+      "audio_gain_db": 6,
+      "selection_status": "user-preferred TPP; retain existing split range and complete handback/exit",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 586,
+      "timeline_start_seconds": 24.416666666666668,
+      "timeline_end_seconds": 32.375,
+      "source_sha256": "f5efe45d4615c8e650ede34edc5f542c285d934a44d790287617efcb77e5343c"
+    },
+    {
+      "shot": "10 — Seedance steel-door strength",
+      "picture": "assets/06-shots/videos/shot-10-strength-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-10-strength-city-seedance-480p-v01.mp4",
+      "source_in_frames": 12,
+      "duration_frames": 108,
+      "audio_gain_db": 0,
+      "selection_status": "approved take; proposed[0.50,5.00) original-speed excerpt",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 777,
+      "timeline_start_seconds": 32.375,
+      "timeline_end_seconds": 36.875,
+      "source_sha256": "bbbc2398da759064a5e0ae8fae54d53e6d09dc38aaaa96b273996fce2b580778"
+    },
+    {
+      "shot": "11 — Seedance boulevard speed",
+      "picture": "assets/06-shots/videos/shot-11-speed-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-11-speed-city-seedance-480p-v01.mp4",
+      "source_in_frames": 18,
+      "duration_frames": 60,
+      "audio_gain_db": -8,
+      "selection_status": "approved take; proposed[0.75,3.25) original-speed excerpt",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 885,
+      "timeline_start_seconds": 36.875,
+      "timeline_end_seconds": 39.375,
+      "source_sha256": "56119b42fe65e94cd4dd546386b5c4b4f2f5a2845c08e61d4c20b30e19acc3ec"
+    },
+    {
+      "shot": "12 — TEMP: overhead awaiting matched-world replacement",
+      "picture": "assets/06-shots/videos/shot-12-overtake-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-12-overtake-city-seedance-480p-v01.mp4",
+      "source_in_frames": 24,
+      "duration_frames": 72,
+      "audio_gain_db": -2,
+      "selection_status": "Previously selected take retained temporarily; user requests replacement matching boulevard geography",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 945,
+      "timeline_start_seconds": 39.375,
+      "timeline_end_seconds": 42.375,
+      "source_sha256": "04bb665e28eff23d38d3ef32a8c6e38429a9281275c0a05f9096f0ec3e51a312"
+    },
+    {
+      "shot": "13 — Matching city spiral and product end card",
+      "picture": "assets/08-edit/continuous-ad-review-v04/afterhuman-brand-outro-v04.mp4",
+      "audio": "assets/08-edit/continuous-ad-review-v04/david-chrome-swagger-arranged-v04.wav",
+      "source_in_frames": 0,
+      "duration_frames": 60,
+      "audio_gain_db": -120,
+      "selection_status": "existing editorial design rebuilt from selected city ending; derived review",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 1017,
+      "timeline_start_seconds": 42.375,
+      "timeline_end_seconds": 44.875,
+      "source_sha256": "eb38f265d835da6206acb0546e5435ee14944636cc3d9783742fec7bb4fee971"
+    }
+  ],
+  "audio_ducks": [
+    {
+      "start_seconds": 8.6333333333,
+      "end_seconds": 12.8333333333,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 19.74,
+      "end_seconds": 21.7,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 24.18166666666667,
+      "end_seconds": 26.411666666666665,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 32.695,
+      "end_seconds": 34.745,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 37.18,
+      "end_seconds": 38.391,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 40.242,
+      "end_seconds": 41.962,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 42.33,
+      "end_seconds": 44.457,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    }
+  ],
+  "audio_bridges": [
+    {
+      "source": "assets/08-edit/continuous-ad-review-v06/david-chrome-swagger-arranged-v06.wav",
+      "source_in_seconds": 0,
+      "timeline_start_seconds": 0,
+      "duration_seconds": 44.875,
+      "gain_db": 0
+    },
+    {
+      "source": "assets/06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4",
+      "source_in_seconds": 6.75,
+      "timeline_start_seconds": 12.833333333333334,
+      "duration_seconds": 5.291666666666667,
+      "gain_db": -10
+    },
+    {
+      "source": "assets/08-edit/upgrade-diagnostic-v01/afterhuman-diagnostic-mix-v01-effects-only.wav",
+      "source_in_seconds": 0,
+      "timeline_start_seconds": 12.833333333333334,
+      "duration_seconds": 5.291666666666667,
+      "gain_db": -6
+    }
+  ],
+  "notes": [
+    "User hard cap45seconds:1077frames at24fps=44.875seconds including complete end card.",
+    "Original visible transformation and central float occur simultaneously in127frames, replacing the separate skeleton diagnostic beat.",
+    "No skeleton or translucent blue body; full-color opaque Riley with original transformation and typed product/ability text.",
+    "Existing masks map original review frames308–434 to native station source162–288; use2x upscale for picture.",
+    "All selected footage stays at original speed; launch uses only source134–169 from approved combined take.",
+    "Original VO phrases used once unchanged; opening So upgrade and jingle entry unchanged.",
+    "Previous overhead still temporary pending user review of the matched-boulevard start frame.",
+    "Foreground isolation and defocused background patch remain local compositing techniques; review edge quality.",
+    "Delivered v07 uses splice-config.json with original v06 AAC passthrough; this timeline documents source ranges only."
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "audio_bridges" : [
+
+  ],
+  "audio_tracks" : 1,
+  "clips" : [
+    {
+      "audio" : "assets\/06-shots\/videos\/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "audio_gain_db" : 0,
+      "audio_sha256" : "8139e8f150a87ec1d0488c0d09c3ecf266e2ee8ffcb9421e6c0c915a98093395",
+      "duration_seconds" : 2.75,
+      "picture" : "assets\/06-shots\/videos\/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "picture_sha256" : "8139e8f150a87ec1d0488c0d09c3ecf266e2ee8ffcb9421e6c0c915a98093395",
+      "post_handle_samples" : 384,
+      "pre_handle_samples" : 0,
+      "shot" : "Forward FPP running",
+      "source_audio_rms_dbfs" : -34.070992718544318,
+      "source_in_seconds" : 0,
+      "timeline_start_seconds" : 0
+    },
+    {
+      "audio" : "assets\/06-shots\/videos\/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "audio_gain_db" : 0,
+      "audio_sha256" : "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86",
+      "duration_seconds" : 0.125,
+      "picture" : "assets\/06-shots\/videos\/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "picture_sha256" : "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86",
+      "post_handle_samples" : 384,
+      "pre_handle_samples" : 384,
+      "shot" : "Leftward glimpse: mug already airborne",
+      "source_audio_rms_dbfs" : -34.815918545090689,
+      "source_in_seconds" : 1.3333333333333333,
+      "timeline_start_seconds" : 2.75
+    },
+    {
+      "audio" : "assets\/06-shots\/videos\/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "audio_gain_db" : 0,
+      "audio_sha256" : "8139e8f150a87ec1d0488c0d09c3ecf266e2ee8ffcb9421e6c0c915a98093395",
+      "duration_seconds" : 1.125,
+      "picture" : "assets\/06-shots\/videos\/shot-09-coffee-opening-correction-seedance-480p-v02.mp4",
+      "picture_sha256" : "8139e8f150a87ec1d0488c0d09c3ecf266e2ee8ffcb9421e6c0c915a98093395",
+      "post_handle_samples" : 384,
+      "pre_handle_samples" : 384,
+      "shot" : "Visible third-person catch",
+      "source_audio_rms_dbfs" : -31.077692528778055,
+      "source_in_seconds" : 2.875,
+      "timeline_start_seconds" : 2.875
+    },
+    {
+      "audio" : "assets\/06-shots\/videos\/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "audio_gain_db" : 0,
+      "audio_sha256" : "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86",
+      "duration_seconds" : 6.125,
+      "picture" : "assets\/06-shots\/videos\/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "picture_sha256" : "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86",
+      "post_handle_samples" : 0,
+      "pre_handle_samples" : 384,
+      "shot" : "Retained original crouch, return and sprint",
+      "source_audio_rms_dbfs" : -26.78943822214551,
+      "source_in_seconds" : 4,
+      "timeline_start_seconds" : 4
+    }
+  ],
+  "crossfade_half_seconds" : 0.0080000000000000002,
+  "decoded_aac_peak_dbfs" : -3.711917584474743,
+  "duration_seconds" : 10.125,
+  "fps" : 24,
+  "framing" : "fit",
+  "master_gain" : 1,
+  "mixed_wav" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/shot-09-coffee-opening-correction-seedance-480p-v02\/assembled-review-v02\/coffee-recut-base-v02.mix.wav",
+  "notes" : "Hard picture cuts; source frame ranges at original speed, aspect conformed according to the recorded framing setting. Picture re-encoded, not bitstream copied. Audio levels adjusted conservatively using RMS, not perceptual loudness. Native audio ducked under the supplied narration according to the timeline; no synthesis or speech removal by this script. Original source files remain untouched. Audio content and subjective transitions require listening review.",
+  "output" : "assets\/06-shots\/reviews\/shot-09-coffee-opening-correction-seedance-480p-v02\/assembled-review-v02\/coffee-recut-base-v02.mp4",
+  "output_sha256" : "a9aac3782668e948256c60a8929f74c28b6ff1cbfc234c27d6bd6ede0d5222e7",
+  "pcm_peak_dbfs" : -3.6655367107826042,
+  "pcm_rms_dbfs" : -28.348780588329326,
+  "resolution" : [
+    854,
+    480
+  ],
+  "review_status" : "pending_user_playback_and_listening",
+  "script" : "scripts\/assemble-continuation.swift",
+  "speed_multiplier" : 1,
+  "timeline" : "assets\/06-shots\/reviews\/shot-09-coffee-opening-correction-seedance-480p-v02\/assembled-review-v02\/timeline.json",
+  "timeline_sha256" : "d014a458328442552e1600600954f31cf8f61378196fcf153fddf391d9d3ae00",
+  "title" : "Coffee revision — forward run, edited left glance, visible catch, retained return\/sprint"
+}

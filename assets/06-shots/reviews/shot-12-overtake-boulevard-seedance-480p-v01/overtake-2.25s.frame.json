@@ -1,0 +1,12 @@
+{
+  "actual_seconds" : 2.25,
+  "height" : 480,
+  "output_file" : "assets\/06-shots\/reviews\/shot-12-overtake-boulevard-seedance-480p-v01\/overtake-2.25s.png",
+  "requested_seconds" : 2.25,
+  "script" : "scripts\/extract-video-frame.swift",
+  "sha256" : "9b37ecac7d530bf600cbdf84d5094416da7ff8ee034247871b213b13cecca65e",
+  "source_file" : "assets\/06-shots\/videos\/shot-12-overtake-boulevard-seedance-480p-v01.mp4",
+  "source_modified" : false,
+  "source_sha256" : "4ca6c218ebdd643ba874ba1d37e67c6a45506e5d76005c1acb6a2f91f021169a",
+  "width" : 852
+}

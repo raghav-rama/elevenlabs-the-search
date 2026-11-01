@@ -1,0 +1,227 @@
+{
+  "asset_id": "shot-12-overtake-boulevard-start-v05",
+  "status": "generated_world_and_camera_useful_train_direction_rejected",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "node_id": "IfJmTIaJAIdAFwvJDxsF",
+  "model_id": "gpt-image-2",
+  "model_parameters": {
+    "quality": "low",
+    "resolution": "1K",
+    "aspect_ratio": "16:9"
+  },
+  "prompt": "Change the camera angle of the supplied boulevard image to a TRUE 90-DEGREE VERTICAL TOP-DOWN SHOT. The camera looks straight down at the ground, perpendicular to the paving. No horizon, no skyline, no front-facing portrait. We see the roof of the train, the top/back of Riley's head and shoulders, and the top surfaces of paving and planters. Keep the exact boulevard location, daytime palette, dark wet square paving, repeated warm-gold bollards, cyan-edged planted islands and glass building edges from the first two world references.\n\nThe final reference shows ONLY the required vertical-overhead camera orientation; do NOT copy its high viaduct setting or track side. Our actual world stays at STREET LEVEL with a broad pedestrian boulevard on the RIGHT and the ELEVATED railway on the LEFT, as in the first two images. The camera can see railway support shadows cast on the lower pavement. No chasm, rooftop walkway or floating bridge.\n\nOne graphite train with cyan edging and warm gold trim occupies the LEFT third, pointing straight toward the TOP of frame on two parallel rails. Riley in the same gold wrap mini-dress, dark boots with gold trim and mostly natural skin with thin chrome/cyan inlays is running UPFRAME on the broad ground-level pedestrian lane to its RIGHT. Her back faces camera; no visible front of her face. Both move toward TOP in exactly parallel directions. At this initial race moment she is slightly behind the train nose by one human body length. Frame both large and readable. Wet gold/cyan reflections, planters, bollard rows and tiny distant pedestrians preserve the boulevard identity. Real photography, physically consistent scale and shadows. One single16:9 image, no collage or text overlays. The mandatory change is the camera: directly overhead, not an elevated forward-looking angle.",
+  "generations_count": 1,
+  "estimate": {
+    "credits": 688.8745945945946,
+    "price_cents": 1000.2459113513514,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "reference_nodes": [
+    "R4yYXsOJddxHFO6pdJ0Q",
+    "UJNmC9r8JfUsr91ooOVN",
+    "aYqLIq6SpASveO6cwvQS"
+  ],
+  "output_file": "assets/06-shots/images/shot-12-overtake-boulevard-start-v05.png",
+  "generation_id": "ozzdlmkFo13KKTyRWab8",
+  "session_id": "T6TyRUeACLrIu5E6gPOP",
+  "sha256": "93ab1dc6dc2a0bb6f6de3ececc36f746c42c491388c2772f27fc14580687464b",
+  "width": 1280,
+  "height": 720,
+  "price": {
+    "credits": 688.8745945945946,
+    "currency": "INR",
+    "rupees": 10.002459113513513
+  },
+  "assistant_visual_review": {
+    "observations": [
+      "True vertical overhead achieved.",
+      "Broad ground-level boulevard, left railway, matching curved glass building, cyan planters and gold bollards preserved.",
+      "Riley is facing upframe."
+    ],
+    "limitations": [
+      "Train nose faces downframe, incompatible with parallel overtaking action. Targeted train-only direction correction required before animation."
+    ]
+  },
+  "reference_hashes": {
+    "assets/06-shots/images/shot-11-speed-city-start-v02.png": "45a89895c62267f9b4ecb1347bde5a6f0536cac805a54435c4ebb16f8ded041f",
+    "assets/06-shots/images/shot-12-overtake-boulevard-start-v04.png": "eaa9d9edd550a07fd04c8a79103f0d2c6b9b466aa8b976bb5e2526d8ee3b7572",
+    "assets/06-shots/images/shot-12-overtake-city-start-v03.png": "f8c4759f8f40c4a20c0fd8e4e456b5601d16007072c6c070910c9dfba644e961"
+  },
+  "prompt_file": "assets/06-shots/prompts/shot-12-overtake-boulevard-start-v05.txt",
+  "prompt_sha256": "a978315c851226dffcd68161ebab729d8eec9b99e6a2746a83d568dc9977e89b",
+  "reviewed_at": "2026-11-02T01:45:07+05:30",
+  "live_model_schema": {
+    "model_id": "gpt-image-2",
+    "model_name": "GPT Image 2",
+    "node_type": "image-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "16:9",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "4:5",
+            "value": "4:5"
+          },
+          {
+            "label": "5:4",
+            "value": "5:4"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "2:3",
+            "value": "2:3"
+          },
+          {
+            "label": "3:2",
+            "value": "3:2"
+          },
+          {
+            "label": "1:2",
+            "value": "1:2"
+          },
+          {
+            "label": "2:1",
+            "value": "2:1"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "1:3",
+            "value": "1:3"
+          },
+          {
+            "label": "3:1",
+            "value": "3:1"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "1K",
+        "options": [
+          {
+            "label": "1K",
+            "value": "1K"
+          },
+          {
+            "label": "2K",
+            "value": "2K"
+          },
+          {
+            "label": "4K",
+            "value": "4K"
+          }
+        ]
+      },
+      {
+        "name": "quality",
+        "type": "select",
+        "required": false,
+        "default": "medium",
+        "options": [
+          {
+            "label": "low",
+            "value": "low"
+          },
+          {
+            "label": "medium",
+            "value": "medium"
+          },
+          {
+            "label": "high",
+            "value": "high"
+          }
+        ]
+      },
+      {
+        "name": "custom_width",
+        "type": "number",
+        "required": false,
+        "min_value": 64,
+        "max_value": 3840,
+        "number_type": "int"
+      },
+      {
+        "name": "custom_height",
+        "type": "number",
+        "required": false,
+        "min_value": 64,
+        "max_value": 3840,
+        "number_type": "int"
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "images",
+        "modality": "image",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "1:1",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "2:3",
+        "3:2",
+        "1:2",
+        "2:1",
+        "9:16",
+        "16:9",
+        "21:9",
+        "1:3",
+        "3:1"
+      ],
+      "quality": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "resolution": [
+        "1K",
+        "2K",
+        "4K"
+      ]
+    }
+  },
+  "seed": "not exposed by the provider schema"
+}

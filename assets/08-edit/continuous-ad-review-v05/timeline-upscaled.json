@@ -1,0 +1,214 @@
+{
+  "title": "AFTERHUMAN \u2014 Restored full transformation review v05",
+  "fps": 24,
+  "render_width": 1920,
+  "render_height": 1080,
+  "framing": "fill",
+  "audio_target_rms_dbfs": -28,
+  "audio_gain_limit_db": 12,
+  "crossfade_half_seconds": 0.04,
+  "clips": [
+    {
+      "shot": "01\u201303 \u2014 Preserved user FCP opening",
+      "picture": "assets/08-edit/fcp-opening-trimmed-v01/fcp-opening-trimmed-v01.mov",
+      "audio": "assets/08-edit/fcp-opening-trimmed-v01/fcp-opening-trimmed-v01.mov",
+      "source_in_frames": 0,
+      "duration_frames": 146,
+      "audio_gain_db": 0,
+      "selection_status": "approved opening, unchanged source range",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 0,
+      "timeline_start_seconds": 0.0,
+      "timeline_end_seconds": 6.083333333333333,
+      "source_sha256": "8bc7ed866eb7d5b3f3484fbe7173ac9cad86f61f98873ba46319aeb7449a75d9"
+    },
+    {
+      "shot": "04\u201305 \u2014 Complete departure and visible transformation",
+      "picture": "assets/06-shots/videos/shot-04-05-continuous-topaz-2x-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-04-05-continuous-seedance-480p-v01.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 289,
+      "audio_gain_db": -10,
+      "selection_status": "Derived2x upscale of approved full289-frame station take; original audio retained; pending user quality review",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 146,
+      "timeline_start_seconds": 6.083333333333333,
+      "timeline_end_seconds": 18.125,
+      "source_sha256": "83b6da113f490c82fc95bc4b53cab6f841e69a439e0046292f88b63d2b7228bf",
+      "audio_source_sha256": "3c3413da46200a72926418e20ec5fa6cc2177af0d0dcdf203353f976111abf39"
+    },
+    {
+      "shot": "06\u201307 \u2014 Approved continuous diagnostic and launch",
+      "picture": "assets/06-shots/videos/shot-06-07-diagnostic-launch-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-06-07-diagnostic-launch-seedance-480p-v01.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 193,
+      "audio_gain_db": -6,
+      "selection_status": "user-approved take, full native193 picture frames",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 435,
+      "timeline_start_seconds": 18.125,
+      "timeline_end_seconds": 26.166666666666668,
+      "source_sha256": "dacbdc7e5c7f03047dcfd91251b4d4554d0d20b54fe88bb740aca22533c7841d"
+    },
+    {
+      "shot": "08 \u2014 Approved tactical intelligence HUD",
+      "picture": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v02.mp4",
+      "audio": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v02.mp4",
+      "source_in_frames": 6,
+      "duration_frames": 66,
+      "audio_gain_db": 0,
+      "selection_status": "exact locked source[0.25,3.00) range",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 628,
+      "timeline_start_seconds": 26.166666666666668,
+      "timeline_end_seconds": 28.916666666666668,
+      "source_sha256": "da8a4c389e608b276f31e872372fb1fef135139ec8c28fd8b30e144ada3c9403"
+    },
+    {
+      "shot": "09A \u2014 Fast FPP coffee approach",
+      "picture": "assets/06-shots/videos/shot-09-coffee-fpp-run-minimax-v04.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-fpp-run-minimax-v04.mp4",
+      "source_in_frames": 23,
+      "duration_frames": 49,
+      "audio_gain_db": -8,
+      "selection_status": "existing reviewed split range; no new take selection inferred",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 694,
+      "timeline_start_seconds": 28.916666666666668,
+      "timeline_end_seconds": 30.958333333333332,
+      "source_sha256": "24be973fe71d67cd3810dfa21e951221e9a4b46916374e70b80873c06962abb3"
+    },
+    {
+      "shot": "09B \u2014 Preferred MiniMax airborne cup and orbit catch",
+      "picture": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-tpp-orbit-minimax-v04.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 191,
+      "audio_gain_db": 6,
+      "selection_status": "user-preferred TPP; retain existing split range and complete handback/exit",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 743,
+      "timeline_start_seconds": 30.958333333333332,
+      "timeline_end_seconds": 38.916666666666664,
+      "source_sha256": "f5efe45d4615c8e650ede34edc5f542c285d934a44d790287617efcb77e5343c"
+    },
+    {
+      "shot": "10 \u2014 Seedance steel-door strength",
+      "picture": "assets/06-shots/videos/shot-10-strength-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-10-strength-city-seedance-480p-v01.mp4",
+      "source_in_frames": 12,
+      "duration_frames": 108,
+      "audio_gain_db": 0,
+      "selection_status": "approved take; proposed[0.50,5.00) original-speed excerpt",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 934,
+      "timeline_start_seconds": 38.916666666666664,
+      "timeline_end_seconds": 43.416666666666664,
+      "source_sha256": "bbbc2398da759064a5e0ae8fae54d53e6d09dc38aaaa96b273996fce2b580778"
+    },
+    {
+      "shot": "11 \u2014 Seedance boulevard speed",
+      "picture": "assets/06-shots/videos/shot-11-speed-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-11-speed-city-seedance-480p-v01.mp4",
+      "source_in_frames": 18,
+      "duration_frames": 60,
+      "audio_gain_db": -8,
+      "selection_status": "approved take; proposed[0.75,3.25) original-speed excerpt",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 1042,
+      "timeline_start_seconds": 43.416666666666664,
+      "timeline_end_seconds": 45.916666666666664,
+      "source_sha256": "56119b42fe65e94cd4dd546386b5c4b4f2f5a2845c08e61d4c20b30e19acc3ec"
+    },
+    {
+      "shot": "12 \u2014 TEMP: overhead awaiting matched-world replacement",
+      "picture": "assets/06-shots/videos/shot-12-overtake-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-12-overtake-city-seedance-480p-v01.mp4",
+      "source_in_frames": 24,
+      "duration_frames": 72,
+      "audio_gain_db": -2,
+      "selection_status": "Previously selected take retained temporarily; user requests replacement matching boulevard geography",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 1102,
+      "timeline_start_seconds": 45.916666666666664,
+      "timeline_end_seconds": 48.916666666666664,
+      "source_sha256": "04bb665e28eff23d38d3ef32a8c6e38429a9281275c0a05f9096f0ec3e51a312"
+    },
+    {
+      "shot": "13 \u2014 Matching city spiral and product end card",
+      "picture": "assets/08-edit/continuous-ad-review-v04/afterhuman-brand-outro-v04.mp4",
+      "audio": "assets/08-edit/continuous-ad-review-v04/david-chrome-swagger-arranged-v04.wav",
+      "source_in_frames": 0,
+      "duration_frames": 60,
+      "audio_gain_db": -120,
+      "selection_status": "existing editorial design rebuilt from selected city ending; derived review",
+      "source_speed_multiplier": 1,
+      "timeline_start_frames": 1174,
+      "timeline_start_seconds": 48.916666666666664,
+      "timeline_end_seconds": 51.416666666666664,
+      "source_sha256": "eb38f265d835da6206acb0546e5435ee14944636cc3d9783742fec7bb4fee971"
+    }
+  ],
+  "audio_ducks": [
+    {
+      "start_seconds": 8.6333333333,
+      "end_seconds": 12.8333333333,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 26.281666666666666,
+      "end_seconds": 28.241666666666667,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 30.723333333333336,
+      "end_seconds": 32.95333333333333,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 39.236666666666665,
+      "end_seconds": 41.28666666666666,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 43.721666666666664,
+      "end_seconds": 44.93266666666666,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 46.78366666666666,
+      "end_seconds": 48.50366666666667,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    },
+    {
+      "start_seconds": 48.87166666666666,
+      "end_seconds": 50.998666666666665,
+      "gain_db": -6,
+      "fade_seconds": 0.12
+    }
+  ],
+  "audio_bridges": [
+    {
+      "source": "assets/08-edit/continuous-ad-review-v05/david-chrome-swagger-arranged-v05.wav",
+      "source_in_seconds": 0,
+      "timeline_start_seconds": 0,
+      "duration_seconds": 51.416666666666664,
+      "gain_db": 0
+    }
+  ],
+  "notes": [
+    "Complete approved station transformation restored at original speed; previously cut out after source6.75s.",
+    "All289 source frames carry human Riley through transformation, hand inspection and settled upgraded pose before the approved diagnostic launch.",
+    "Only pauses between intact David narration phrases increase; So upgrade delivery and music entrance unchanged.",
+    "Overhead remains the previous take as a clearly marked temporary shot pending matched-world still approval.",
+    "Station source is a2x Topaz Proteus Natural upscale1708x960, ordinarily conformed to1080p canvas. Other footage retains its original resolution.",
+    "Earlier cuts and all source files preserved."
+  ]
+}

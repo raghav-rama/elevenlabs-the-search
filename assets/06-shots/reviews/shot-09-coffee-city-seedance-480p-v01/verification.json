@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-11-01T21:19:51+05:30",
+  "new_video_generations": 1,
+  "new_image_generations": 0,
+  "retries": 0,
+  "actual_credits": 14325.234000000002,
+  "actual_inr": 208.00239768000003,
+  "quote_matches_actual": true,
+  "source_prompt_reference_hashes_verified": true,
+  "preserved_media_hashes_verified": true,
+  "source_frames": 265,
+  "preview_frames": 243,
+  "preview_seconds": 10.125,
+  "near_black_frames": 0,
+  "hud_excerpt_user_locked": true,
+  "coffee_user_review_pending": true,
+  "local_links_checked": 15,
+  "native_audio_levels_checked": true,
+  "independent_audio_listening": false,
+  "ad_unchanged": true
+}

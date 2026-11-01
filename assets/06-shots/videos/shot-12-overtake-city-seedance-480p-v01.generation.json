@@ -1,0 +1,187 @@
+{
+  "asset_id": "shot-12-overtake-city-seedance-480p-v01",
+  "status": "user_approved_usable_range",
+  "selected": false,
+  "user_approved": false,
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "node_id": "nVLnU4nMeH0dkSKlKUow",
+  "model_id": "bytedance-seedance-v2.5",
+  "requested_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "480p",
+    "duration_secs": 5,
+    "generate_audio": true
+  },
+  "effective_settings": {
+    "aspect_ratio": "auto",
+    "resolution": "480p",
+    "duration_secs": 5,
+    "generate_audio": true
+  },
+  "seed": null,
+  "seed_note": "Not exposed by the current model schema.",
+  "prompt": "Single continuous five-second cinematic overhead tracking shot, bridging the supplied start and end frames. A high-speed race already in progress in the same bright futuristic city. One upgraded Riley sprints along the separate narrow elevated lane on the LEFT; the bullet train stays on the straight parallel rails on the RIGHT. Both face and travel toward the TOP of the frame. Keep the train nose pointing up and perfectly aligned to its rails throughout.\n\nRiley starts behind the train nose and accelerates hard, with rapid alternating foot strikes, strong opposing arm pumps and a forward athletic lean. She draws level with the nose around the middle of the shot, then her entire body including both boots clears the nose with a decisive visible lead. She keeps sprinting through the ending, never stopping or posing. Preserve her short dark bob, gold dress, black thigh-high boots, natural skin and slim chrome inlays from the approved frames, consistent anatomy and scale. Only one Riley.\n\nThe stabilized high camera translates forward in the racing direction faster than the train, keeping Riley and the train nose visible through the overtake. The train continues forward relative to the rails and city, while falling behind Riley within the camera view. Ground seams, rail sleepers and nearby structure sweep backward quickly with strong parallax and directional motion blur; keep the runner silhouette and train outline legible. Finish in the supplied end-frame relationship with clear separation between Riley's trailing boot and the train nose and enough headroom to read the win. Maintain constant camera heading, height and lens. Real-time superhuman speed, no slow motion, no zoom, no orbit, no camera roll, no cuts, no reversal, no sideways train movement, no track crossing, no teleporting or sliding feet, no duplicate limbs or people, no captions.\n\nNative sound: accelerating wind rush, rapid boot impacts and receding electric train roar. No speech, narration or music.",
+  "prompt_file": "assets/06-shots/video-prompts/shot-12-overtake-city-seedance-480p-v01.txt",
+  "output_file": "assets/06-shots/videos/shot-12-overtake-city-seedance-480p-v01.mp4",
+  "requested_generations": 1,
+  "generations_per_shot": 1,
+  "retries": 0,
+  "estimate": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "references": [
+    {
+      "port": "start_frame",
+      "node_id": "aYqLIq6SpASveO6cwvQS",
+      "generation_id": "aso9vVxmccyeGPsAYP3o",
+      "file": "assets/06-shots/images/shot-12-overtake-city-start-v03.png",
+      "sha256": "f8c4759f8f40c4a20c0fd8e4e456b5601d16007072c6c070910c9dfba644e961"
+    },
+    {
+      "port": "end_frame",
+      "node_id": "AZPI2Rt0lpKVdsINgtdM",
+      "generation_id": "IQ2ONBuhzp0M99ig8nJY",
+      "file": "assets/06-shots/images/shot-12-overtake-city-end-v03.png",
+      "sha256": "bd3e17465b79e59857bcfce7726c2a4a8512388b3c4a11b606302117dd159a07"
+    }
+  ],
+  "authorization_context": "User asks 'Hmm, so should we start?' after the live six-shot Seedance 480p quote. Begin one overhead five-second take and review before further shots, as communicated. No automatic reruns.",
+  "review_sample_count": 21,
+  "review_interval_seconds": 0.25,
+  "prepared_at": "2026-11-01T19:42:30+05:30",
+  "preserved_cut": {
+    "file": "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+    "sha256": "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd"
+  },
+  "prompt_sha256": "dec09bdc746dcac07df549cfef1e0fac79611b4626abcbc0414d01a8de6cb250",
+  "submitted_at": "2026-11-01T19:43:06+05:30",
+  "session_ids": [
+    "Fed6mSXPSfygMGpzlaU6"
+  ],
+  "run_summary": {
+    "nodes_run": 1,
+    "generations_started": 1,
+    "failed": 0,
+    "generations_by_node": {
+      "nVLnU4nMeH0dkSKlKUow": 1
+    }
+  },
+  "run_results": [
+    {
+      "success": true,
+      "node_id": "nVLnU4nMeH0dkSKlKUow",
+      "session_id": "Fed6mSXPSfygMGpzlaU6",
+      "credit_costs": {
+        "01IPVWDcGCJnyAtYf3dX": 6511.470000000001
+      }
+    }
+  ],
+  "generation_id": "01IPVWDcGCJnyAtYf3dX",
+  "reported_submission_credits": 6511.470000000001,
+  "completed_at": "2026-11-01T19:46:42+05:30",
+  "provider_generation": {
+    "id": "01IPVWDcGCJnyAtYf3dX",
+    "status": "completed",
+    "model_id": "bytedance-seedance-v2.5",
+    "modality": "video",
+    "prompt": "Single continuous five-second cinematic overhead tracking shot, bridging the supplied start and end frames. A high-speed race already in progress in the same bright futuristic city. One upgraded Riley",
+    "duration_secs": 5.056,
+    "width": 854,
+    "height": 480,
+    "created_at_unix_ms": 1793542361344,
+    "price": {
+      "credits": 6511.470000000001,
+      "price_cents": 9454.654440000002,
+      "cost_fiat_currency": "inr"
+    }
+  },
+  "sha256": "04bb665e28eff23d38d3ef32a8c6e38429a9281275c0a05f9096f0ec3e51a312",
+  "size_bytes": 4075983,
+  "download_content_type": "video/mp4",
+  "actual_price": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "cost_fiat_currency": "inr"
+  },
+  "title": "Overhead train overtake — Seedance 2.5 / 480p / take 1",
+  "location": "Elevated rail and parallel running lane in the approved bright cyberpunk city",
+  "assistant_visual_review": {
+    "status": "generated_pending_user_review",
+    "method": "Full decode, 21 time-spaced samples across 0–5 seconds, 12 additional stride-detail samples, and native ending-frame inspection. Audio decoded and measured; no independent listening or real-time perceptual approval.",
+    "observations": [
+      "The train stays longitudinally aligned with the right-hand rails, with its nose facing upward throughout sampled frames.",
+      "One Riley remains on the separated left lane. She begins behind the train nose and finishes with her entire body and both boots clearly ahead.",
+      "Finer temporal samples show changing leg positions rather than one frozen running pose. The train and Riley remain separate without crossing paths.",
+      "The gold dress, dark bob, black boots and bright cyberpunk city palette follow the approved references; no generated titles are visible.",
+      "A wider elevated-lane junction passes through the middle of the shot, introducing more environment geometry than the starting still."
+    ],
+    "limitations": [
+      "Full-speed playback is still needed to judge whether the sprint feels superhuman and whether camera, train, lane and distant-building motion remain coherent through the junction.",
+      "Exact foot contacts, facial likeness and fine chrome detail cannot be certified at this distant native 854x480 scale.",
+      "Native audio is retained and level-checked, but speech absence, effect quality and continuity with the approved mix are not independently verified.",
+      "The clip is pending user selection. No final-cut replacement, retiming, upscale or other paid take has been made."
+    ]
+  },
+  "reviewed_at": "2026-11-01T19:50:43+05:30",
+  "review_file": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/review.json",
+  "review_index": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/index.html",
+  "native_video": {
+    "width": 854,
+    "height": 480,
+    "fps": 24,
+    "frames": 121,
+    "video_duration_seconds": 5.042,
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 5.056,
+        "sample_rate": 32000
+      }
+    ]
+  },
+  "user_feedback": {
+    "recorded_at": "2026-11-01T19:57:18+05:30",
+    "source": "explicit_user_message",
+    "quote": "Her speed gradually increases and slows, so the usable part of the video is roughly 00:01 to 00:04",
+    "scope": "User identifies a usable middle range; this is not approval of the full take, exact edit boundaries, native sound or final assembly."
+  },
+  "usable_range": {
+    "source_in_seconds": 1,
+    "source_out_seconds_exclusive": 4,
+    "source_in_frames": 24,
+    "source_out_frames_exclusive": 96,
+    "duration_frames": 72,
+    "fps": 24,
+    "duration_seconds": 3,
+    "speed_multiplier": 1,
+    "boundary_precision": "Delivered exact source [1.000,4.000) trim approved by user.",
+    "output_file": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4",
+    "output_sha256": "3b4227ae98e2c8baf55400a430fef6b306d5d0f82f66369b9199a08f16ceba27",
+    "review_status": "user_approved_usable_range",
+    "current_cut_slot_seconds": 4,
+    "assembly_timing_to_resolve_seconds": 1,
+    "final_assembly_changed": false,
+    "new_credits": 0,
+    "selected": true,
+    "user_approved": true,
+    "approved_at": "2026-11-01T20:00:11+05:30",
+    "approval": {
+      "recorded_at": "2026-11-01T20:00:11+05:30",
+      "quote": "Ok good",
+      "source": "explicit_user_message",
+      "scope": "Approve the delivered three-second original-speed overhead trim for use in the edit; full five-second take and final sound/assembly are not thereby approved."
+    }
+  },
+  "usable_range_approval": {
+    "recorded_at": "2026-11-01T20:00:11+05:30",
+    "quote": "Ok good",
+    "source": "explicit_user_message",
+    "scope": "Approve the delivered three-second original-speed overhead trim for use in the edit; full five-second take and final sound/assembly are not thereby approved."
+  }
+}

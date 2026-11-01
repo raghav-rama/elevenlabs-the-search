@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-11-01T20:26:34+05:30",
+  "images": 3,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "generations": 3,
+  "credits": 756.3535135135135,
+  "inr": 10.982253016216216,
+  "quote_matches_actual": true,
+  "source_attachment_same_pixels": true,
+  "preserved_media": [
+    "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+    "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4",
+    "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v01.mp4",
+    "assets/06-shots/images/shot-08-intelligence-city-start-v02.png"
+  ],
+  "output_and_prompt_hashes_verified": true,
+  "native_visual_review": true,
+  "local_links_verified": 12,
+  "signed_urls_in_new_records": false,
+  "video_generated_this_turn": false,
+  "user_selection_pending": true
+}

@@ -1,0 +1,33 @@
+{
+  "audio_tracks" : [
+    {
+      "channels" : 2,
+      "codec_fourcc" : "aac ",
+      "duration_seconds" : 8,
+      "sample_rate" : 32000
+    }
+  ],
+  "duration_seconds" : 8,
+  "extracted_frame_seconds" : 7.958333333333333,
+  "frame_height" : 510,
+  "frame_width" : 884,
+  "last_frame_file" : "assets\/06-shots\/references\/coffee-minimax-seedance-edit-v01\/last-frame.png",
+  "last_frame_sha256" : "37c60b8a1846b2f87ee1c5fc48f83cde7ac5bf01deaa400fa787ccae3239a053",
+  "last_picture_frame_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/references\/coffee-minimax-seedance-edit-v01\/last-picture-frame.png",
+  "last_picture_frame_seconds" : 7.958333333333333,
+  "last_picture_frame_sha256" : "37c60b8a1846b2f87ee1c5fc48f83cde7ac5bf01deaa400fa787ccae3239a053",
+  "last_video_sample_seconds" : 7.958333333333333,
+  "near_black_detection" : "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+  "near_black_frame_times_seconds" : [
+
+  ],
+  "nominal_fps" : 24,
+  "review_limits" : "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+  "script" : "scripts\/inspect-review-video.swift",
+  "source_file" : "assets\/06-shots\/references\/coffee-minimax-seedance-edit-v01\/shot-09-minimax-v04-reference-884x510.mp4",
+  "source_modified" : false,
+  "source_sha256" : "192a97a1064db5a6b05e4baa5d2c6cadd21db335ede6266756b7ff9abebbaa53",
+  "video_codec_fourcc" : "avc1",
+  "video_duration_seconds" : 8,
+  "video_samples" : 192
+}

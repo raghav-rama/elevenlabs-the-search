@@ -1,0 +1,26 @@
+{
+  "title": "Coffee reflexes \u2014 proposed 10.125-second source-speed excerpt",
+  "fps": 24,
+  "render_width": 854,
+  "render_height": 480,
+  "framing": "fit",
+  "audio_target_rms_dbfs": -28,
+  "audio_gain_limit_db": 0,
+  "crossfade_half_seconds": 0.008,
+  "clips": [
+    {
+      "shot": "Coffee drop, rescue, return and sprint",
+      "picture": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "audio": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "source_in_frames": 0,
+      "duration_frames": 243,
+      "audio_gain_db": 0
+    }
+  ],
+  "notes": [
+    "Source [0.00,10.125), frames 0\u2013242 inclusive; 243 frames at original 24 fps. Candidate only, pending user review.",
+    "Retains drop, generated face-close-up transition, caught-mug reveal, return and acceleration; excludes final reversal of cafe/rail sides around 10.4 seconds.",
+    "Exact catch contact remains hidden by generated camera transition; this local trim does not repair it.",
+    "Matches existing 10.125-second coffee slot; accepted ad and locked MiniMax coffee source remain unchanged. Native dimensions, local re-encode, standard eight-millisecond audio edge fades."
+  ]
+}

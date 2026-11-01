@@ -1,0 +1,455 @@
+{
+  "asset_id": "shot-09-coffee-city-seedance-480p-v01",
+  "title": "Coffee reflex rescue \u2014 FPP to TPP",
+  "location": "Approved bright cyberpunk cafe arcade",
+  "status": "opening_revision_requested_rest_liked",
+  "provider": "ElevenLabs",
+  "model_id": "bytedance-seedance-v2.5",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "node_id": "OFE4zm6RcnEfvZSdlY8H",
+  "prompt": "Eleven-second continuous cinematic coffee-rescue action in AFTERHUMAN's bright cyberpunk city, 16:9, photoreal. Use the futuristic cafe arcade image for the opening first-person composition, the distinct middle-aged male patron, the single white mug, wet reflective paving, glass towers, elevated transit and warm daylight with cyan/magenta accents. Use the full-body gold-outfit reference for Riley's exact clothing, natural skin and narrow chrome inlays, and the portrait ONLY for her face, short brunette bob, asymmetric facial cyberware and cybernetic eye. Ignore the portrait's white office shirt and lanyard. Riley wears the approved sleeveless short gold wrap dress and black/gold boots; arms and legs remain mostly human skin with thin chrome stripes, not robot limbs.\n\nTell ONE coherent rescue in a single flowing shot:\n0\u20132 seconds: first-person view from Riley already running down the clear right side of the arcade toward the man on camera-left. Her two hands alternate naturally low in the frame. He is distracted, holding his ONE plain white ceramic coffee mug near his chest. As she comes alongside, his fingers accidentally lose their grip: show a clear gap between his hand and the falling mug. He does not pass it to her or throw it.\n2\u20135 seconds: time smoothly dilates as the SAME mug tilts and drops under gravity. The camera fluidly peels out from Riley's eye-level view into a low three-quarter side tracking view, revealing the exact referenced Riley. Follow the falling mug continuously through the camera move. She reacts instantly, lowers her body with bent knees and catches that mug around its body with her nearer hand just above the pavement, before impact. One intact mug throughout; a few coherent coffee droplets arc in slow motion. Her movement is quick and precise relative to the slowly reacting man. No collision, deliberate handoff, duplicate cup, unexplained teleport, broken ceramic, hovering mug or long stretchy arm.\n5\u20138 seconds: normal time resumes as Riley rises smoothly, steadies the SAME mug upright and returns it to the same man's waiting hand. Show his fingers close securely around its handle before she releases it. He reacts silently with surprised relief. Riley gives a small confident smile, staying recognizable.\n8\u201311 seconds: after the handoff is complete, Riley pivots into the open arcade and accelerates sharply away from camera in several grounded rapid strides. The camera follows from behind; cyan motion streaks and rapid environmental parallax convey superhuman acceleration. She continues fast through the ending with no slowdown or posing.\n\nMaintain clear mug continuity, believable limb proportions and stable identity. Preserve the same city architecture, daylight, patron and clothing through the first-to-third-person transition. Keep the man distinct from Riley. No new locations, shot cuts, new faces replacing Riley, camera orbit unrelated to the action, body morphing, extra limbs, new HUD text, captions or logos.\n\nSound: quick boot footfalls on stone, a faint ceramic handle-slip tick, a short descending electronic/air sweep as time dilates, subtly muffled city ambience during the catch, a soft decisive catch contact, a gentle ceramic handoff tap, then rising fast footfalls and a brief accelerating air rush. No crash, voice, dialogue, narration, music or song.",
+  "prompt_file": "assets/06-shots/video-prompts/shot-09-coffee-city-seedance-480p-v01.txt",
+  "output_file": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+  "requested_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "480p",
+    "duration_secs": 11,
+    "generate_audio": true
+  },
+  "effective_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "480p",
+    "duration_secs": 11,
+    "generate_audio": true,
+    "reference_images": [
+      {
+        "template_node_id": "Q5MtC1XJtXPGFZwzZrAJ"
+      },
+      {
+        "template_node_id": "LsmAOIUrwmaZEKFGxI1L"
+      },
+      {
+        "template_node_id": "ldx3dNdFkLfKBC2giOfl"
+      }
+    ]
+  },
+  "live_schema": {
+    "model_id": "bytedance-seedance-v2.5",
+    "model_name": "Seedance 2.5",
+    "node_type": "video-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "16:9",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "720p",
+        "options": [
+          {
+            "label": "480p",
+            "value": "480p"
+          },
+          {
+            "label": "720p",
+            "value": "720p"
+          },
+          {
+            "label": "1080p",
+            "value": "1080p"
+          }
+        ]
+      },
+      {
+        "name": "duration_secs",
+        "type": "select_number",
+        "required": false,
+        "default": 5,
+        "options": [
+          {
+            "label": "4",
+            "value": 4
+          },
+          {
+            "label": "5",
+            "value": 5
+          },
+          {
+            "label": "6",
+            "value": 6
+          },
+          {
+            "label": "7",
+            "value": 7
+          },
+          {
+            "label": "8",
+            "value": 8
+          },
+          {
+            "label": "9",
+            "value": 9
+          },
+          {
+            "label": "10",
+            "value": 10
+          },
+          {
+            "label": "11",
+            "value": 11
+          },
+          {
+            "label": "12",
+            "value": 12
+          },
+          {
+            "label": "13",
+            "value": 13
+          },
+          {
+            "label": "14",
+            "value": 14
+          },
+          {
+            "label": "15",
+            "value": 15
+          },
+          {
+            "label": "16",
+            "value": 16
+          },
+          {
+            "label": "17",
+            "value": 17
+          },
+          {
+            "label": "18",
+            "value": 18
+          },
+          {
+            "label": "19",
+            "value": 19
+          },
+          {
+            "label": "20",
+            "value": 20
+          },
+          {
+            "label": "21",
+            "value": 21
+          },
+          {
+            "label": "22",
+            "value": 22
+          },
+          {
+            "label": "23",
+            "value": 23
+          },
+          {
+            "label": "24",
+            "value": 24
+          },
+          {
+            "label": "25",
+            "value": 25
+          },
+          {
+            "label": "26",
+            "value": 26
+          },
+          {
+            "label": "27",
+            "value": 27
+          },
+          {
+            "label": "28",
+            "value": 28
+          },
+          {
+            "label": "29",
+            "value": 29
+          },
+          {
+            "label": "30",
+            "value": 30
+          }
+        ]
+      },
+      {
+        "name": "generate_audio",
+        "type": "boolean",
+        "required": false,
+        "default": true
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "start_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "end_frame",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_images",
+        "modality": "image",
+        "required": false
+      },
+      {
+        "key": "reference_videos",
+        "modality": "video",
+        "required": false
+      },
+      {
+        "key": "reference_audios",
+        "modality": "audio",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "duration_secs": "any value: pass `values` to creative_expose_flow_parameter",
+      "generate_audio": [
+        "true",
+        "false"
+      ],
+      "resolution": [
+        "480p",
+        "720p",
+        "1080p"
+      ]
+    }
+  },
+  "estimate": {
+    "credits": 14325.234000000002,
+    "price_cents": 20800.239768000003,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "generations_count": 1,
+  "retries": 0,
+  "seed": null,
+  "seed_note": "No seed exposed by live schema.",
+  "selected": false,
+  "user_approved": false,
+  "authorization_context": "Lock it and continue after intelligence take; one next coffee production take under approved 480p plan.",
+  "input_mode": "reference_images_only",
+  "input_mode_reason": "First-person opening does not show Riley's face or wardrobe. Reference-only mode accepts environment plus identity/wardrobe together; Seedance start/end-frame mode cannot combine other references. Opening is composition-guided, not a pixel-exact start frame.",
+  "references": [
+    {
+      "role": "scene and single-mug before-state",
+      "file": "assets/06-shots/images/shot-09-coffee-city-start-v03.png",
+      "sha256": "736546f20206e8574e7ea48de18cb6e97bd6a15b55f90c4a57159bcf5ab0ca07",
+      "node_id": "Q5MtC1XJtXPGFZwzZrAJ",
+      "generation_id": "szfN8H6gx2b1YVLRxPrB",
+      "port": "reference_images"
+    },
+    {
+      "role": "approved wardrobe and natural-skin body styling",
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6",
+      "node_id": "LsmAOIUrwmaZEKFGxI1L",
+      "source_generation_id": "WboGh1QOlITNwOVIn0Gj",
+      "port": "reference_images"
+    },
+    {
+      "role": "approved facial identity only; ignore portrait office shirt",
+      "file": "assets/01-riley/images/riley-cyberpunk-03-v01.png",
+      "sha256": "4df29f1f3ed615cc454ae91d983f56046e203cc0be225b854c22bcdffc5ca009",
+      "node_id": "ldx3dNdFkLfKBC2giOfl",
+      "source_generation_id": "MTCPGsxYC5HZK0tNPdKO",
+      "port": "reference_images"
+    }
+  ],
+  "prepared_at": "2026-11-01T21:10:42+05:30",
+  "prompt_sha256": "4be590eb739d7225b702ea801ab43f02f08c26aece21c729a1b5bff4ff40c7e0",
+  "preserved_files": [
+    {
+      "file": "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+      "sha256": "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/edit-preview-v01/shot-08-hud-c-edit-preview-v01.mp4",
+      "sha256": "cd63556da707cf6fee969976cb27a7112bb178d372c799fdef5ec3d2982cc51e"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4",
+      "sha256": "3b4227ae98e2c8baf55400a430fef6b306d5d0f82f66369b9199a08f16ceba27"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-09-reflexes-coffee-fpp-tpp-minimax-v01.mp4",
+      "sha256": "00caba5dfc91d5a09537f9b6eb75dd9355070c8d26884da341b6737705863bb0"
+    }
+  ],
+  "submitted_at": "2026-11-01T21:10:58+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "OFE4zm6RcnEfvZSdlY8H",
+        "session_id": "OAH2GQf9hM95smID7YKg",
+        "credit_costs": {
+          "TpRqAwhXMckaIKRpDQs5": 14325.234000000002
+        }
+      }
+    ],
+    "session_ids": [
+      "OAH2GQf9hM95smID7YKg"
+    ],
+    "pending": [
+      {
+        "generation_id": "TpRqAwhXMckaIKRpDQs5",
+        "kind": "video"
+      }
+    ]
+  },
+  "session_ids": [
+    "OAH2GQf9hM95smID7YKg"
+  ],
+  "completed_at": "2026-11-01T21:14:57+05:30",
+  "generation_id": "TpRqAwhXMckaIKRpDQs5",
+  "session_id": "OAH2GQf9hM95smID7YKg",
+  "sha256": "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86",
+  "bytes": 8444527,
+  "provider_reported_price": {
+    "credits": 14325.234000000002,
+    "price_cents": 20800.239768000003,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T21:18:26+05:30",
+  "assistant_visual_review": {
+    "observations": [
+      "Opening closely follows the approved first-person cafe image and approaches the distinct male stranger with a single white mug.",
+      "The mug visibly tilts, separates from the man's hand and drops at approximately 1.25\u20131.5s, rather than being intentionally handed over.",
+      "By 2.25s Riley is revealed crouching with the caught mug; short brunette bob, asymmetric cyberware, gold dress, boots and mostly natural skin follow the approved references.",
+      "The same mug is returned around 5.5\u20137s; the man's hand closes on it before Riley withdraws.",
+      "Riley pivots around 8s and accelerates away with strong parallax and cyan motion streaks; city lighting and materials are broadly consistent."
+    ],
+    "limitations": [
+      "The generated FPP-to-TPP move inserts a tight face/eye shot around 1.6\u20132.1s. Exact hand-to-mug catch contact is hidden, so the intended uninterrupted visible rescue is not fully achieved.",
+      "Slow motion lingers on the already-caught mug/crouch for several seconds; performance and pacing still need user judgment.",
+      "Full-source cafe and rail sides reverse around 10.4s. The proposed first-10.125-second excerpt excludes this visible ending error.",
+      "Running anatomy, physical contact and exact facial likeness have only been inspected in sampled frames; this is not a user-approved replacement.",
+      "Native audio is decoded and level-checked only; no independent listening approval, speech-absence verification or final sound mix.",
+      "Existing locked MiniMax coffee and accepted ad remain unchanged; this new take and excerpt are review candidates."
+    ],
+    "reviewed_at": "2026-11-01T21:18:26+05:30",
+    "method": "23 source samples, 13 drop/catch samples, 7 exit samples, full decode and audio levels; not independent full playback/listening.",
+    "user_selection_pending": true
+  },
+  "native_inspection": {
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 11.072,
+        "sample_rate": 32000
+      }
+    ],
+    "duration_seconds": 11.042,
+    "extracted_frame_seconds": 11,
+    "frame_height": 480,
+    "frame_width": 854,
+    "last_frame_file": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/last-frame.png",
+    "last_frame_sha256": "020041b2c6907dc9178399ca11044f940c0231ff43e0845c5738b564eb86f82f",
+    "last_picture_frame_file": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/last-picture-frame.png",
+    "last_picture_frame_seconds": 11,
+    "last_picture_frame_sha256": "020041b2c6907dc9178399ca11044f940c0231ff43e0845c5738b564eb86f82f",
+    "last_video_sample_seconds": 11,
+    "near_black_detection": "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+    "near_black_frame_times_seconds": [],
+    "nominal_fps": 24,
+    "review_limits": "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+    "script": "scripts/inspect-review-video.swift",
+    "source_file": "assets/06-shots/videos/shot-09-coffee-city-seedance-480p-v01.mp4",
+    "source_modified": false,
+    "source_sha256": "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86",
+    "video_codec_fourcc": "avc1",
+    "video_duration_seconds": 11.042,
+    "video_samples": 265
+  },
+  "candidate_edit": {
+    "status": "opening_revision_requested_rest_liked",
+    "source_in_frames": 0,
+    "source_out_frames_exclusive": 243,
+    "source_in_seconds": 0,
+    "source_out_seconds_exclusive": 10.125,
+    "duration_frames": 243,
+    "duration_seconds": 10.125,
+    "fps": 24,
+    "speed_multiplier": 1,
+    "output_file": "assets/06-shots/reviews/shot-09-coffee-city-seedance-480p-v01/edit-preview-v01/shot-09-coffee-edit-preview-v01.mp4",
+    "sha256": "976e51690a4dab81148cc8d126a3bf3cc311acf07c81dc878d94b9e5214c2b92",
+    "source_unchanged": true,
+    "ad_unchanged": true,
+    "local_reencode": true,
+    "audio_edge_fades_seconds": 0.008,
+    "new_credits": 0,
+    "purpose": "Exclude late cafe/rail side reversal; preserve all main story beats without retiming. Exact catch remains obscured by generated face insert."
+  },
+  "user_feedback": {
+    "at": "2026-11-01T21:44:16+05:30",
+    "user_feedback": "Shot looks good, but she should run normally in FPP, look left to discover the cup already falling, then retain TPP catching it before ground impact.",
+    "scope": "Positive overall review; opening staging revision requested. Not final take lock.",
+    "cause": "v01 prompt said toward the man, directing her approach into him.",
+    "requested_opening": [
+      "Run forward parallel to storefront with man out of frame on left",
+      "Look left while continuing forward",
+      "Mug is already free-falling when first seen",
+      "TPP shows actual catch contact before impact"
+    ],
+    "preserve": "Existing Riley/city styling, third-person rescue direction, return and sprint."
+  }
+}

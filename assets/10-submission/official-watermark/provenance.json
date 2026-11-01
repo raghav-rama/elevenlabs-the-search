@@ -1,0 +1,19 @@
+{
+  "retrieved_at": "2026-11-02T03:26:48+05:30",
+  "source_page": "https://elevenlabs.io/creative/thesearch",
+  "folder": "https://drive.google.com/drive/folders/1Ph6w2crGYMhXQ7lLulUXuE6D3wErpRDn",
+  "files": [
+    {
+      "file": "official-elevencreative-logo.png",
+      "source": "https://drive.google.com/file/d/123NlkUDVwEK2HLipqCLHJAhUZWMbrgiA/view",
+      "bytes": 3210,
+      "sha256": "aff4a3dd5f10f915c1cfcbe9f5bbf26a2e5fc80908f0bcd5cac89b9bfbf7eb78"
+    },
+    {
+      "file": "official-watermark-guidance.png",
+      "source": "https://drive.google.com/file/d/1H9Tq44TpUOEtvwGu4alGtBjfGL3WZB3P/view",
+      "bytes": 47057,
+      "sha256": "5c5b22fdec1a18771388fb5da61e9f91f92b4368ed17f18041fa85c084e163aa"
+    }
+  ]
+}

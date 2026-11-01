@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-11-02T02:39:50+05:30",
+  "status": "completed_requires_motion_correction_pending_user_review",
+  "generation_id": "jRFy4Wsb79wKdkjPViot",
+  "native_sha256": "4ca6c218ebdd643ba874ba1d37e67c6a45506e5d76005c1acb6a2f91f021169a",
+  "native_frames": 121,
+  "native_dimensions": [
+    852,
+    480
+  ],
+  "context_file": "assets/06-shots/reviews/shot-12-overtake-boulevard-seedance-480p-v01/context-review-v01/sprint-to-overhead-world-test-v01.mp4",
+  "context_sha256": "6d5fa8dcfb05a6feed5ebe8854e299a9eea423e24e0845a74a06da0295666c79",
+  "context_frames": 132,
+  "context_seconds": 5.5,
+  "context_source_retimed": false,
+  "preserved_files_verified": 36,
+  "local_links_checked": 7,
+  "native_and_context_fully_decoded": true,
+  "near_black_frames": 0,
+  "schema_and_prompt_saved": true,
+  "reference_exact_user_attachment": true,
+  "one_generation_quote_matches_reported_charge": true,
+  "credits": 6511.470000000001,
+  "cost_inr": 94.54654440000002,
+  "new_images": 0,
+  "new_upscales": 0,
+  "retries": 0,
+  "approved_cut_modified": false,
+  "assistant_recommends_selection": false,
+  "independent_listening": false
+}

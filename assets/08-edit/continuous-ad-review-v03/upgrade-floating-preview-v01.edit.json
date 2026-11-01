@@ -1,0 +1,44 @@
+{
+  "audio_bridges" : [
+
+  ],
+  "audio_tracks" : 1,
+  "clips" : [
+    {
+      "audio" : "assets\/08-edit\/continuous-ad-review-v03\/afterhuman-diagnostic-v03.mp4",
+      "audio_gain_db" : 0,
+      "audio_sha256" : "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd",
+      "duration_seconds" : 11.375,
+      "picture" : "assets\/08-edit\/continuous-ad-review-v03\/afterhuman-diagnostic-v03.mp4",
+      "picture_sha256" : "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd",
+      "post_handle_samples" : 0,
+      "pre_handle_samples" : 0,
+      "shot" : "So upgrade, floating diagnostic, return and takeoff",
+      "source_audio_rms_dbfs" : -21.367932040633512,
+      "source_in_seconds" : 8,
+      "timeline_start_seconds" : 0
+    }
+  ],
+  "crossfade_half_seconds" : 0.040000000000000001,
+  "decoded_aac_peak_dbfs" : -2.8730014130957295,
+  "duration_seconds" : 11.375,
+  "fps" : 24,
+  "framing" : "fill",
+  "master_gain" : 1,
+  "mixed_wav" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/08-edit\/continuous-ad-review-v03\/upgrade-floating-preview-v01.mix.wav",
+  "notes" : "Hard picture cuts; source frame ranges at original speed, aspect conformed according to the recorded framing setting. Picture re-encoded, not bitstream copied. Audio levels adjusted conservatively using RMS, not perceptual loudness. Native audio ducked under the supplied narration according to the timeline; no synthesis or speech removal by this script. Original source files remain untouched. Audio content and subjective transitions require listening review.",
+  "output" : "assets\/08-edit\/continuous-ad-review-v03\/upgrade-floating-preview-v01.mp4",
+  "output_sha256" : "da73e358de4f11fd87ae713ae2b22a07f5997f0bb08441943b49245c83c6ba6a",
+  "pcm_peak_dbfs" : -2.871866410997352,
+  "pcm_rms_dbfs" : -21.37313732824229,
+  "resolution" : [
+    1920,
+    1080
+  ],
+  "review_status" : "pending_user_playback_and_listening",
+  "script" : "scripts\/assemble-continuation.swift",
+  "speed_multiplier" : 1,
+  "timeline" : "assets\/08-edit\/continuous-ad-review-v03\/focused-timeline.json",
+  "timeline_sha256" : "47a370992bbfc39873755f13d7fb79070e1c2b95d18827368f65d7b7eb882b69",
+  "title" : "Floating upgrade — focused review"
+}

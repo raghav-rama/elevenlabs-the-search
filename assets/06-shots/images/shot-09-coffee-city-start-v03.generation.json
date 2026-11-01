@@ -1,0 +1,99 @@
+{
+  "key": "coffee",
+  "asset_id": "shot-09-coffee-city-start-v03",
+  "source_node": "3NwhSOowyCHoT44Ovs8g",
+  "source_asset": "shot-09-coffee-city-start-v02",
+  "title": "09 — Coffee / one mug, before the drop",
+  "location": "Futuristic café arcade",
+  "prompt": "Edit this supplied café image into the beginning of the coffee-rescue shot, BEFORE the accidental drop. Preserve the exact futuristic café arcade, glass towers, elevated rail, warm hazy daylight, cyan/magenta/gold palette, reflective pavement and first-person camera height.\n\nThere must be exactly ONE ceramic mug in the entire scene. Remove the floating mug and every splash of airborne coffee from the center foreground. Restore empty pavement and clear air where they were. The only mug is the plain white mug held securely by its handle by the café patron on image-left, close to their own chest. It is upright and not being offered to the camera. No saucer, duplicate mug, falling object or coffee splash. The drop has NOT happened yet.\n\nMake that café patron clearly different from Riley: an adult man around 45, short salt-and-pepper hair, light stubble and a dark charcoal future-city jacket. Preserve his position by the café edge and natural human proportions. He looks casually along the street, not directly at the camera. Do not give him Riley's face, bob haircut, gold dress or cyberware.\n\nRiley is the unseen first-person viewer approaching at a jog. Her hands are low near the bottom corners, relaxed and loosely curled in an ordinary running arm swing, not reaching to catch yet; keep the existing natural skin tone and thin chrome/cyan inlays. Only short portions of forearms. Keep a clear open patch of pavement between her and the patron for the later falling-mug action. One photoreal 16:9 image, no new text or watermark.",
+  "prompt_file": "assets/06-shots/prompts/shot-09-coffee-city-start-v03.txt",
+  "node_id": "Q5MtC1XJtXPGFZwzZrAJ",
+  "model_parameters": {
+    "images": [
+      {
+        "template_node_id": "3NwhSOowyCHoT44Ovs8g"
+      }
+    ],
+    "quality": "low",
+    "aspect_ratio": "16:9",
+    "resolution": "1K"
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "3NwhSOowyCHoT44Ovs8g",
+          "label": "shot-09-coffee-city-start-v02 — STILL / REVIEW"
+        }
+      ]
+    }
+  ],
+  "provider": "ElevenLabs",
+  "model_id": "gpt-image-2",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "status": "revision_requested_patron_distance",
+  "selected": true,
+  "user_approved": true,
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "prepared_at": "2026-11-01T18:48:05+05:30",
+  "prompt_sha256": "2777c3c36f7610690df61a6cfeffe9e9b9f1ebcc7785c0cf7c0cb4ffeccee406",
+  "output_file": "assets/06-shots/images/shot-09-coffee-city-start-v03.png",
+  "revision_of": "shot-09-coffee-city-start-v02",
+  "references": [
+    {
+      "order": 1,
+      "role": "source image for targeted correction",
+      "file": "assets/06-shots/images/shot-09-coffee-city-start-v02.png",
+      "sha256": "6d00718d340a852f8153a95c0291aa4fb33d6587193a5f058391435712d4c514",
+      "generation_id": "bt3uwyuSgoU9c2yUUGQx",
+      "node_id": "3NwhSOowyCHoT44Ovs8g"
+    }
+  ],
+  "session_id": "bCScF6lkQyifomQ665FW",
+  "generation_id": "szfN8H6gx2b1YVLRxPrB",
+  "provider_reported_price": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793539086349,
+  "sha256": "736546f20206e8574e7ea48de18cb6e97bd6a15b55f90c4a57159bcf5ab0ca07",
+  "bytes": 1816859,
+  "width": 1280,
+  "height": 720,
+  "completed_at": "2026-11-01T18:49:36+05:30",
+  "assistant_visual_review": {
+    "observations": [
+      "Exactly one white mug is held upright by the cafe patron; the airborne duplicate and splash are removed.",
+      "Patron is now a distinct middle-aged man, and first-person hands are lowered into a pre-catch position.",
+      "Cafe architecture, lighting and elevated transit remain consistent with the source city."
+    ],
+    "limitations": [
+      "The still does not establish the later accidental slip, camera transition or catching action.",
+      "Both hands are visible; alternating running cadence must be handled in motion."
+    ],
+    "reviewed_at": "2026-11-01T18:51:43+05:30",
+    "method": "Native 1280x720 still inspection against original erroneous source",
+    "user_selection_pending": false
+  },
+  "approved_at": "2026-11-01T19:00:22+05:30",
+  "approval_evidence": "Looks good now",
+  "approval_scope": "Still composition/reference for the next motion pass; animation remains untested.",
+  "revision_feedback": {
+    "at": "2026-11-01T22:23:11+05:30",
+    "source": "explicit_user_message",
+    "summary": "Rejected: Riley passes the man before noticing; cup rises from below and is too far away. Correct starting reference with man farther ahead. As she draws level, side glance sees cup already falling nearby, then slow-motion circular camera move."
+  }
+}

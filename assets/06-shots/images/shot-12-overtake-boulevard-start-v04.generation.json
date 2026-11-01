@@ -1,0 +1,197 @@
+{
+  "asset_id": "shot-12-overtake-boulevard-start-v04",
+  "status": "generated_world_reference_camera_direction_rejected",
+  "model_id": "gemini-3.1-flash-image",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "node_id": "UJNmC9r8JfUsr91ooOVN",
+  "model_parameters": {
+    "resolution": "1K",
+    "aspect_ratio": "16:9"
+  },
+  "prompt": "Create one photoreal cinematic 16:9 overhead frame for the next shot of this exact boulevard, as if a camera has risen directly above the runner. The supplied boulevard photograph is the controlling world and geography reference. Keep that SAME broad wet polished dark-stone pedestrian boulevard at ground level, repeated warm-gold illuminated bollards, low cyan-edged planters and rails, curved glass shop fronts on the RIGHT, tall glass towers, restrained magenta signage, and hazy bright daytime lighting. The railway remains elevated along the LEFT edge of the boulevard on its existing pillars. Show the train on that left railway, with its nose pointing toward the TOP of the frame; the rails run straight vertically under the train. The pedestrian boulevard is on the ground to the RIGHT of the railway, clearly at a lower level. Do not move Riley onto a high viaduct, narrow roof, bridge, or railway. The second reference supplies Riley's exact gold wrap mini-dress, dark boots with gold trim, natural skin and slender chrome/cyan arm and leg inlays. The third reference supplies the dark graphite train with cyan edging and warm gold details. Use the fourth portrait only for Riley's brunette bob with teal accents and facial cyberware.\n\nCamera: high, nearly vertical overhead looking down at the same street, aligned with the original running direction; north is screen TOP. Frame only one train and one Riley prominently. Riley sprints UPFRAME along the boulevard immediately to the RIGHT of the elevated railway, both traveling parallel in the SAME direction. Her head is aimed upframe, her back toward camera, natural athletic running pose, ordinary human anatomy. Start her about one body length behind the train nose, ready to overtake it in the subsequent video. Keep both clearly readable and large enough: train occupies left third, Riley near middle-right. Wet paving, planted islands and matching glowing bollard rows continue above and below frame. A few distant tiny pedestrians stay out of her path. Cyan reflections, warm-gold practicals, morning daylight and realistic materials match the reference closely. Preserve the street's level and left-right geography. This is a new viewpoint of the supplied location, not another neighborhood. Crisp photographic detail, no UI, collage, titles, map, giant hands or painted motion streaks.",
+  "reference_nodes": [
+    "R4yYXsOJddxHFO6pdJ0Q",
+    "LsmAOIUrwmaZEKFGxI1L",
+    "KKt8of3l6YC47FIQnVG9",
+    "ldx3dNdFkLfKBC2giOfl"
+  ],
+  "estimate": {
+    "credits": 1218.0600000000002,
+    "price_cents": 1768.6231200000002,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "generations_count": 1,
+  "output_file": "assets/06-shots/images/shot-12-overtake-boulevard-start-v04.png",
+  "references": [
+    "assets/06-shots/images/shot-11-speed-city-start-v02.png",
+    "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+    "assets/01-riley/images/riley-cyberpunk-03-v01.png"
+  ],
+  "prepared_at": "2026-11-02T01:31:48+05:30",
+  "reference_hashes": {
+    "assets/06-shots/images/shot-11-speed-city-start-v02.png": "45a89895c62267f9b4ecb1347bde5a6f0536cac805a54435c4ebb16f8ded041f",
+    "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6",
+    "assets/01-riley/images/riley-cyberpunk-03-v01.png": "4df29f1f3ed615cc454ae91d983f56046e203cc0be225b854c22bcdffc5ca009"
+  },
+  "generation_id": "yLnQd1UlAwn8BxMaBpuX",
+  "session_id": "qryK37Kz8RYxzXUBcP2X",
+  "sha256": "eaa9d9edd550a07fd04c8a79103f0d2c6b9b466aa8b976bb5e2526d8ee3b7572",
+  "width": 1376,
+  "height": 768,
+  "price": {
+    "credits": 1218.06,
+    "currency": "INR",
+    "rupees": 17.6862312
+  },
+  "assistant_visual_review": {
+    "observations": [
+      "Broad wet ground-level boulevard, left elevated railway, gold bollards and curved glass frontage match the controlling reference.",
+      "Riley natural limbs and gold outfit broadly retained."
+    ],
+    "limitations": [
+      "Model ignored near-vertical back-facing camera direction: output is a front-facing oblique aerial and both train and Riley approach the camera.",
+      "Not an approved overhead video start frame; no replacement video submitted."
+    ]
+  },
+  "prompt_file": "assets/06-shots/prompts/shot-12-overtake-boulevard-start-v04.txt",
+  "prompt_sha256": "a4cbefa5dee468848941893b7b82b2ec4a184b5b161c1b17960ead56e7f6bfac",
+  "reviewed_at": "2026-11-02T01:45:07+05:30",
+  "live_model_schema": {
+    "model_id": "gemini-3.1-flash-image",
+    "model_name": "Google Nano Banana 2",
+    "node_type": "image-generation",
+    "parameters": [
+      {
+        "name": "aspect_ratio",
+        "type": "select",
+        "required": false,
+        "default": "16:9",
+        "options": [
+          {
+            "label": "auto",
+            "value": "auto"
+          },
+          {
+            "label": "1:1",
+            "value": "1:1"
+          },
+          {
+            "label": "2:3",
+            "value": "2:3"
+          },
+          {
+            "label": "3:2",
+            "value": "3:2"
+          },
+          {
+            "label": "3:4",
+            "value": "3:4"
+          },
+          {
+            "label": "4:3",
+            "value": "4:3"
+          },
+          {
+            "label": "4:5",
+            "value": "4:5"
+          },
+          {
+            "label": "5:4",
+            "value": "5:4"
+          },
+          {
+            "label": "9:16",
+            "value": "9:16"
+          },
+          {
+            "label": "16:9",
+            "value": "16:9"
+          },
+          {
+            "label": "21:9",
+            "value": "21:9"
+          },
+          {
+            "label": "1:4",
+            "value": "1:4"
+          },
+          {
+            "label": "4:1",
+            "value": "4:1"
+          },
+          {
+            "label": "1:8",
+            "value": "1:8"
+          },
+          {
+            "label": "8:1",
+            "value": "8:1"
+          }
+        ]
+      },
+      {
+        "name": "resolution",
+        "type": "select",
+        "required": false,
+        "default": "1K",
+        "options": [
+          {
+            "label": "512",
+            "value": "512"
+          },
+          {
+            "label": "1K",
+            "value": "1K"
+          },
+          {
+            "label": "2K",
+            "value": "2K"
+          },
+          {
+            "label": "4K",
+            "value": "4K"
+          }
+        ]
+      }
+    ],
+    "input_ports": [
+      {
+        "key": "prompt",
+        "modality": "text",
+        "required": false
+      },
+      {
+        "key": "images",
+        "modality": "image",
+        "required": false
+      }
+    ],
+    "exposable_parameters": {
+      "aspect_ratio": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "16:9",
+        "21:9",
+        "1:4",
+        "4:1",
+        "1:8",
+        "8:1"
+      ],
+      "resolution": [
+        "512",
+        "1K",
+        "2K",
+        "4K"
+      ]
+    }
+  },
+  "seed": "not exposed by the provider schema"
+}

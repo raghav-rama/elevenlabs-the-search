@@ -1,0 +1,378 @@
+{
+  "status": "local_ui_sound_mockup_pending_listening_review",
+  "source": "assets/08-edit/continuous-ad-review-v01/afterhuman-continuous-with-david-v01.mp4",
+  "source_sha256": "782a57621f92287c8ec29c86b443782c26b83df8413547a38449ff15253a9350",
+  "config": "assets/08-edit/upgrade-diagnostic-v01/diagnostic-config-v02.json",
+  "config_sha256": "1efe939d996d67211a5aa0aac996414ec8f6e34999bceff451e43b5775d4fb22",
+  "output": "assets/08-edit/upgrade-diagnostic-v01/afterhuman-diagnostic-mix-v01.wav",
+  "output_sha256": "fc8a8a9103d79fb1917197c0c7cd53a1ba4ab5790f92bed3f21fa2af38e9fa7b",
+  "effects_stem": "assets/08-edit/upgrade-diagnostic-v01/afterhuman-diagnostic-mix-v01-effects-only.wav",
+  "effects_stem_sha256": "7feeb1e62cf93f200ae85c45ea6f057843ca882245f0f6ee7314f025cd84ac53",
+  "stem_timeline_start_seconds": 12.833333333333334,
+  "stem_duration_seconds": 5.291666666666667,
+  "effects_gain": 1.0,
+  "duration_seconds": 45,
+  "sample_rate": 48000,
+  "channels": 2,
+  "peak_dbfs_before_pcm_quantization": -1.4980269430947906,
+  "source_gain": 1,
+  "base_float_samples_outside_effect_window_unchanged": true,
+  "events": [
+    {
+      "kind": "whoosh",
+      "at_seconds_relative_to_upgrade": 0.05,
+      "length_seconds": 0.65,
+      "amplitude": 0.034,
+      "frequencies_hz": [],
+      "pan": -0.1
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 0.25,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        1750
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 0.3055555555555556,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        1855
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 0.3611111111111111,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        1960
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 0.41666666666666663,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        2065
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 0.4722222222222222,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        2170
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 0.5277777777777778,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        1750
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 0.5833333333333333,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        1855
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 0.6388888888888888,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        1960
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 0.6944444444444444,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        2065
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 0.75,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        2170
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 0.85,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        1750
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 0.882258064516129,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        1855
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 0.9145161290322581,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        1960
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 0.9467741935483871,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        2065
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 0.9790322580645161,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        2170
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 1.011290322580645,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        1750
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 1.043548387096774,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        1855
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 1.0758064516129031,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        1960
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 1.1080645161290321,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        2065
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 1.1403225806451613,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        2170
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 1.2048387096774194,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        1855
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 1.2370967741935484,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        1960
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 1.2693548387096774,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        2065
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 1.3016129032258064,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        2170
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 1.3338709677419356,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        1750
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 1.3661290322580646,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        1855
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 1.3983870967741936,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        1960
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "typing",
+      "at_seconds_relative_to_upgrade": 1.4306451612903226,
+      "length_seconds": 0.022,
+      "amplitude": 0.013,
+      "frequencies_hz": [
+        2065
+      ],
+      "pan": -0.15
+    },
+    {
+      "kind": "module_lock",
+      "at_seconds_relative_to_upgrade": 1.25,
+      "length_seconds": 0.19,
+      "amplitude": 0.04,
+      "frequencies_hz": [
+        550,
+        1100
+      ],
+      "pan": -0.45
+    },
+    {
+      "kind": "module_lock",
+      "at_seconds_relative_to_upgrade": 1.75,
+      "length_seconds": 0.19,
+      "amplitude": 0.04,
+      "frequencies_hz": [
+        660,
+        1320
+      ],
+      "pan": 0.45
+    },
+    {
+      "kind": "module_lock",
+      "at_seconds_relative_to_upgrade": 2.25,
+      "length_seconds": 0.19,
+      "amplitude": 0.04,
+      "frequencies_hz": [
+        770,
+        1540
+      ],
+      "pan": -0.45
+    },
+    {
+      "kind": "module_lock",
+      "at_seconds_relative_to_upgrade": 2.75,
+      "length_seconds": 0.19,
+      "amplitude": 0.04,
+      "frequencies_hz": [
+        880,
+        1760
+      ],
+      "pan": 0.45
+    },
+    {
+      "kind": "confirmation",
+      "at_seconds_relative_to_upgrade": 3.28,
+      "length_seconds": 0.4,
+      "amplitude": 0.055,
+      "frequencies_hz": [
+        65,
+        440,
+        554.365,
+        659.255
+      ],
+      "pan": 0
+    },
+    {
+      "kind": "whoosh",
+      "at_seconds_relative_to_upgrade": 3.9,
+      "length_seconds": 0.68,
+      "amplitude": 0.03,
+      "frequencies_hz": [],
+      "pan": 0.12
+    }
+  ],
+  "new_provider_generations": 0,
+  "script": "scripts/mix-upgrade-diagnostic-sfx.py",
+  "note": "Original voice/music/mix decoded once at original timing and gain; deterministic low-level UI effects added only within the diagnostic insert. Final 16-bit WAV/AAC encode is not byte-identical to source AAC."
+}

@@ -1,0 +1,33 @@
+{
+  "audio_tracks" : [
+    {
+      "channels" : 2,
+      "codec_fourcc" : "aac ",
+      "duration_seconds" : 44.875,
+      "sample_rate" : 48000
+    }
+  ],
+  "duration_seconds" : 44.875,
+  "extracted_frame_seconds" : 44.833333333333336,
+  "frame_height" : 1080,
+  "frame_width" : 1920,
+  "last_frame_file" : "assets\/10-submission\/afterhuman-watermarked-v01\/last-frame.png",
+  "last_frame_sha256" : "0e50f83d918f2b2a7b4654041dc5f20908076139382e81e49a1bb135376a9a06",
+  "last_picture_frame_file" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/10-submission\/afterhuman-watermarked-v01\/last-picture-frame.png",
+  "last_picture_frame_seconds" : 44.833333333333336,
+  "last_picture_frame_sha256" : "0e50f83d918f2b2a7b4654041dc5f20908076139382e81e49a1bb135376a9a06",
+  "last_video_sample_seconds" : 44.833333333333336,
+  "near_black_detection" : "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+  "near_black_frame_times_seconds" : [
+
+  ],
+  "nominal_fps" : 24,
+  "review_limits" : "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+  "script" : "scripts\/inspect-review-video.swift",
+  "source_file" : "assets\/10-submission\/afterhuman-watermarked-v01\/afterhuman-submission-watermarked-v01.mp4",
+  "source_modified" : false,
+  "source_sha256" : "04f71be660d98ec95bbbd2aac8ff022cfa713f1a54ccdb7cfa4c7274643352a7",
+  "video_codec_fourcc" : "avc1",
+  "video_duration_seconds" : 44.875,
+  "video_samples" : 1077
+}

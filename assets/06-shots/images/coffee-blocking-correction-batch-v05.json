@@ -1,0 +1,65 @@
+{
+  "status": "assistant_rejected_requested_prop_changes_missing",
+  "flow_id": "J725xEy49QY4xa6L66pw",
+  "flow_url": "https://elevenlabs.io/app/flows/J725xEy49QY4xa6L66pw",
+  "model_id": "gpt-image-2",
+  "requested_generations": 1,
+  "generations_per_shot": 1,
+  "estimate": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "selected": false,
+  "user_approved": false,
+  "retries": 0,
+  "shots": [
+    {
+      "asset_id": "shot-09-coffee-city-start-v05",
+      "title": "Coffee approach — corrected distance and sidewalk-side mug",
+      "node_id": "4QBQyb9lOcq8xPyd9XGs",
+      "record_file": "assets/06-shots/images/shot-09-coffee-city-start-v05.generation.json",
+      "prompt_file": "assets/06-shots/prompts/shot-09-coffee-city-start-v05.txt",
+      "output_file": "assets/06-shots/images/shot-09-coffee-city-start-v05.png",
+      "status": "assistant_rejected_requested_prop_changes_missing",
+      "generation_id": "HIYIGZLR1boitcZcOSru",
+      "session_id": "qAZQd9jHSmRuwahtVjfu",
+      "sha256": "75a1c5f946e90296e094cf62a0df617bfd98e6ff331ab622b4cf5d7e897585f6"
+    }
+  ],
+  "submitted_at": "2026-11-01T22:28:34+05:30",
+  "submission": {
+    "results": [
+      {
+        "success": true,
+        "node_id": "4QBQyb9lOcq8xPyd9XGs",
+        "session_id": "qAZQd9jHSmRuwahtVjfu",
+        "credit_costs": {
+          "HIYIGZLR1boitcZcOSru": 252.11783783783784
+        }
+      }
+    ],
+    "session_ids": [
+      "qAZQd9jHSmRuwahtVjfu"
+    ],
+    "pending": [
+      {
+        "generation_id": "HIYIGZLR1boitcZcOSru",
+        "kind": "image"
+      }
+    ]
+  },
+  "session_ids": [
+    "qAZQd9jHSmRuwahtVjfu"
+  ],
+  "completed_at": "2026-11-01T22:29:07+05:30",
+  "completed_generations": 1,
+  "total_reported_price": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T22:30:51+05:30"
+}

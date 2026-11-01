@@ -1,0 +1,14 @@
+{
+  "compressed_aac_identical": true,
+  "method": "SHA-256 of source and output ADTS audio extracted with stream copy",
+  "files": {
+    "source": {
+      "audio_sha256": "3147dadb7b1003177d7241b03fa8bfe84672613911f6274af3b17ed2f74abda2",
+      "bytes": 1395630
+    },
+    "output": {
+      "audio_sha256": "3147dadb7b1003177d7241b03fa8bfe84672613911f6274af3b17ed2f74abda2",
+      "bytes": 1395630
+    }
+  }
+}

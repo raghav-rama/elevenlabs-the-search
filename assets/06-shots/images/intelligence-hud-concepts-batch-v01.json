@@ -1,0 +1,185 @@
+{
+  "created_at": "2026-11-01T20:20:15+05:30",
+  "status": "c_selected_pending_typography_polish",
+  "provider": "ElevenLabs",
+  "model_id": "gpt-image-2",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "requested_generations": 3,
+  "generations_per_shot": 1,
+  "requested_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "1K",
+    "quality": "low"
+  },
+  "estimate": {
+    "credits": 756.3535135135135,
+    "price_cents": 1098.2253016216218,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "selected": true,
+  "user_approved": true,
+  "retries": 0,
+  "source_provenance": {
+    "files": [
+      {
+        "file": "/var/folders/w1/7l882pl14b73zt97rm8r6qk80000gn/T/codex-clipboard-kQp4iz.png",
+        "sha256": "e9868f6899867a4b6629e8680a549912854f2f70277afd99a460434e464b8559",
+        "size": [
+          1280,
+          720
+        ],
+        "pixel_sha256": "5b939b5d0cda05cf0ba15e14937212fa086e22b209cd6cd6bccb2cbfb77be032"
+      },
+      {
+        "file": "assets/06-shots/images/shot-08-intelligence-city-start-v02.png",
+        "sha256": "f6c559b149b6693a78c45486dc5bf07dc321d83f27528f672496faaca6fd2e6b",
+        "size": [
+          1280,
+          720
+        ],
+        "pixel_sha256": "5b939b5d0cda05cf0ba15e14937212fa086e22b209cd6cd6bccb2cbfb77be032"
+      }
+    ],
+    "same_pixels": true
+  },
+  "shared_reference": {
+    "node_id": "zle93ij2plTfimqPEqso",
+    "generation_id": "L6rqTHE2WjQw2BdZyDng",
+    "port": "images",
+    "file": "assets/06-shots/images/shot-08-intelligence-city-start-v02.png",
+    "sha256": "f6c559b149b6693a78c45486dc5bf07dc321d83f27528f672496faaca6fd2e6b"
+  },
+  "preserved_files": [
+    {
+      "file": "assets/08-edit/continuous-ad-review-v03/afterhuman-diagnostic-v03.mp4",
+      "sha256": "c3faa646d00b3d76839292de297240f90eb89bc90cd8a39007e962245fea79fd"
+    },
+    {
+      "file": "assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/shot-12-usable-01-to-04-v01.mp4",
+      "sha256": "3b4227ae98e2c8baf55400a430fef6b306d5d0f82f66369b9199a08f16ceba27"
+    },
+    {
+      "file": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v01.mp4",
+      "sha256": "9155424f03d016c9082dae9aee6fdc3d5d40471c42809b86bcced6e4c244f036"
+    }
+  ],
+  "authorization_context": "User requests more HUD items and several images to review before generating a fresh video, then clarifies Iron Man-style. Three economical HUD concepts; video deferred until selection.",
+  "shots": [
+    {
+      "asset_id": "shot-08-hud-a-predictive-v01",
+      "title": "A — Predictive pursuit HUD",
+      "node_id": "TuQsshwFe3tVBVTvWF8O",
+      "record_file": "assets/06-shots/images/shot-08-hud-a-predictive-v01.generation.json",
+      "prompt_file": "assets/06-shots/prompts/shot-08-hud-a-predictive-v01.txt",
+      "output_file": "assets/06-shots/images/shot-08-hud-a-predictive-v01.png",
+      "status": "unselected_alternative_retained",
+      "generation_id": "pYw7Bjq3LGaGC0iYxZpf",
+      "session_id": "xyOfXLQ3yQ5pGkkvEMma",
+      "sha256": "2ce54ec475465b06eec87cc7f55562c66f47f53faac57d284aa41da7c6e08d32",
+      "selected": false,
+      "user_approved": false
+    },
+    {
+      "asset_id": "shot-08-hud-b-neural-v01",
+      "title": "B — Neural systems HUD",
+      "node_id": "GDmKlWSCSdGvjBZHw1dr",
+      "record_file": "assets/06-shots/images/shot-08-hud-b-neural-v01.generation.json",
+      "prompt_file": "assets/06-shots/prompts/shot-08-hud-b-neural-v01.txt",
+      "output_file": "assets/06-shots/images/shot-08-hud-b-neural-v01.png",
+      "status": "unselected_alternative_retained",
+      "generation_id": "hmOZm9mMz062nE43S43h",
+      "session_id": "jFnvo6oVMz2xlJR86XmK",
+      "sha256": "810d7d92b399ce87beea11a19028fbe7df6443169686ead29e69cac15281945b",
+      "selected": false,
+      "user_approved": false
+    },
+    {
+      "asset_id": "shot-08-hud-c-tactical-v01",
+      "title": "C — Full tactical perception HUD",
+      "node_id": "c3yCyLVhJ97l2aARtCJK",
+      "record_file": "assets/06-shots/images/shot-08-hud-c-tactical-v01.generation.json",
+      "prompt_file": "assets/06-shots/prompts/shot-08-hud-c-tactical-v01.txt",
+      "output_file": "assets/06-shots/images/shot-08-hud-c-tactical-v01.png",
+      "status": "user_selected_hud_direction_pending_polish",
+      "generation_id": "v0QvUiaiLRXVaR6DPFic",
+      "session_id": "dP1NaqFiSbagWXqTh8gO",
+      "sha256": "8e6a9f2b180c5322e26857d8a659f4d3b8b67bc20f7b1493fad1682b98744db2",
+      "selected": true,
+      "user_approved": true
+    }
+  ],
+  "submitted_at": "2026-11-01T20:20:51+05:30",
+  "session_ids": [
+    "xyOfXLQ3yQ5pGkkvEMma",
+    "jFnvo6oVMz2xlJR86XmK",
+    "dP1NaqFiSbagWXqTh8gO"
+  ],
+  "run_summary": {
+    "nodes_run": 3,
+    "generations_started": 3,
+    "failed": 0,
+    "generations_by_node": {
+      "TuQsshwFe3tVBVTvWF8O": 1,
+      "GDmKlWSCSdGvjBZHw1dr": 1,
+      "c3yCyLVhJ97l2aARtCJK": 1
+    }
+  },
+  "run_results": [
+    {
+      "success": true,
+      "node_id": "TuQsshwFe3tVBVTvWF8O",
+      "session_id": "xyOfXLQ3yQ5pGkkvEMma",
+      "credit_costs": {
+        "pYw7Bjq3LGaGC0iYxZpf": 252.11783783783784
+      }
+    },
+    {
+      "success": true,
+      "node_id": "GDmKlWSCSdGvjBZHw1dr",
+      "session_id": "jFnvo6oVMz2xlJR86XmK",
+      "credit_costs": {
+        "hmOZm9mMz062nE43S43h": 252.11783783783784
+      }
+    },
+    {
+      "success": true,
+      "node_id": "c3yCyLVhJ97l2aARtCJK",
+      "session_id": "dP1NaqFiSbagWXqTh8gO",
+      "credit_costs": {
+        "v0QvUiaiLRXVaR6DPFic": 252.11783783783784
+      }
+    }
+  ],
+  "reported_submission_credits": 756.3535135135135,
+  "completed_generations": 3,
+  "completed_at": "2026-11-01T20:22:05+05:30",
+  "total_reported_price": {
+    "credits": 756.3535135135135,
+    "price_cents": 1098.2253016216218,
+    "currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T20:25:29+05:30",
+  "gallery_title": "AFTERHUMAN · Rich ocular HUD concepts",
+  "gallery_description": "Three Iron Man-inspired information densities on the same city terrace and Riley hand. Click an image for its native 1280×720 PNG.",
+  "gallery_status": "C selected by the user. Typography cleanup is next; replacement video has not been generated. A and B retained as alternatives.",
+  "gallery_footer": "GPT Image 2 via ElevenLabs · 16:9 / 1K / low · One image per direction · Small labels need editorial cleanup",
+  "review_index": "assets/06-shots/reviews/intelligence-hud-concepts-v01/index.html",
+  "review_readme": "assets/06-shots/reviews/intelligence-hud-concepts-v01/README.md",
+  "assistant_recommendation": {
+    "closest_to_requested_style": "C",
+    "clearest_enhanced_intelligence": "B",
+    "scope": "Recommendation only; no selection inferred."
+  },
+  "selection": {
+    "selected_at": "2026-11-01T20:32:38+05:30",
+    "user_evidence": "C",
+    "scope": "HUD concept and visual direction; typography and duplicate-label cleanup remain before replacement video.",
+    "selected_asset_id": "shot-08-hud-c-tactical-v01",
+    "selected_file": "assets/06-shots/images/shot-08-hud-c-tactical-v01.png",
+    "selected_generation_id": "v0QvUiaiLRXVaR6DPFic",
+    "next_step": "Clean exact labels and duplicate headings while retaining C density and composition; then prepare one replacement intelligence video."
+  }
+}

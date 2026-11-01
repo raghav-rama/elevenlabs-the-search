@@ -1,0 +1,14 @@
+{
+  "verified_at": "2026-11-01T22:37:57+05:30",
+  "status": "passed",
+  "source_prompt_output_hashes": true,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "one_generation": true,
+  "quote_matches_charge": true,
+  "visual_hand_count": 1,
+  "source_preserved": true,
+  "user_approved": false
+}

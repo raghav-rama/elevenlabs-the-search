@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-11-02T01:16:35+05:30",
+  "status": "assembled_review_pending_user_playback_and_listening",
+  "output_file": "assets/08-edit/continuous-ad-review-v04/afterhuman-latest-visuals-v04.mp4",
+  "output_sha256": "352081daf595535c50748752ab2834c35840422f8647974e84806e16d0ca1865",
+  "output_bytes": 53373883,
+  "duration_seconds": 46.125,
+  "frames": 1107,
+  "fps": 24,
+  "render_dimensions": [
+    1920,
+    1080
+  ],
+  "source_resolution_note": "Mixed native sources including480p scaled to1080p review canvas, no AI upscale.",
+  "timeline": "assets/08-edit/continuous-ad-review-v04/timeline.json",
+  "soundtrack_config": "assets/08-edit/continuous-ad-review-v04/soundtrack-config.json",
+  "source_retiming": false,
+  "new_provider_generations": 0,
+  "new_provider_credits": 0,
+  "accepted_prior_edit_modified": false,
+  "final_cut_project_modified": false,
+  "selected": false,
+  "user_approved": false,
+  "preserved_files_verified": 32,
+  "diagnostic_launch_approval_propagated": true,
+  "full_diagnostic_native_frames_used": 193,
+  "locked_hud_frames": [
+    6,
+    72
+  ],
+  "locked_overhead_frames": [
+    24,
+    96
+  ],
+  "coffee_source": "preferred MiniMax v04 TPP with existing49-frame FPP opening",
+  "coffee_frames": [
+    49,
+    191
+  ],
+  "strength_proposed_source_frames": [
+    12,
+    120
+  ],
+  "speed_proposed_source_frames": [
+    18,
+    78
+  ],
+  "all_source_ranges_original_speed": true,
+  "voice_phrases_source_ranges_unchanged": true,
+  "opening_sentence_placement_unchanged": true,
+  "no_break_added_after_so": true,
+  "music_starts_seconds": 12.833333333333334,
+  "music_restart_seconds": 28.125,
+  "music_final_section_seconds": 18,
+  "outro_source_file": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/reviews/shot-12-overtake-city-seedance-480p-v01/usable-range-v01/last-picture-frame.png",
+  "outro_source_sha256": "5f5d3f962935517f28fde2f6fa2184ee39aa936bdcc80da8f1870f45a61217ce",
+  "audio": {
+    "sample_peak_pcm_dbfs": -1.4999999999999996,
+    "sample_peak_aac_dbfs": -1.4337792423975204,
+    "rms_pcm_dbfs": -21.749927561478366,
+    "master_gain": 0.8990222797852497,
+    "new_synthesis": false,
+    "independent_listening": false
+  },
+  "verification": {
+    "full_decode_frames": 1107,
+    "near_black_frames": 0,
+    "source_hashes_verified": true,
+    "quote_free_local_assembly": true,
+    "voice_complete_phrases_no_retime": true,
+    "sampled_overview_and_outro_join_reviewed": true,
+    "json_valid": true,
+    "local_player_links_valid": true,
+    "browser": {
+      "metadata_loaded": true,
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 46.125,
+      "media_error": null,
+      "frames_decoded": true,
+      "muted_playback_observed": true,
+      "chapter_seek_verified": false,
+      "limitation": "Temporary SimpleHTTP server has no Range support; seeking not certified. File protocol blocked by browser tool. These do not establish a video decoding failure."
+    }
+  },
+  "remaining_review": [
+    "Overall pace and sound balance",
+    "Short approved diagnostic pause",
+    "Small480p HUD/terminal text and source sharpness",
+    "Existing coffee glance/reach and door material limitations",
+    "Final-master selection, polish and final-delivery requirements remain open"
+  ]
+}

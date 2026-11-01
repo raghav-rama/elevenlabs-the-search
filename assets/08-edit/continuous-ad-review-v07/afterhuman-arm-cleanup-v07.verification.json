@@ -1,0 +1,16 @@
+{
+  "all_three_video_streams_fully_decoded" : true,
+  "comparison" : "Every visible BGRA byte, excluding row padding; outside correction compare with original review, inside compare with corrected component",
+  "duration_seconds" : 44.875,
+  "every_frame_timestamp_verified" : true,
+  "fps" : 24,
+  "frames" : 1077,
+  "output" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/08-edit\/continuous-ad-review-v07\/afterhuman-arm-cleanup-v07.mp4",
+  "output_sha256" : "46a8b7aa88376f203aea4031133a2bf7f64f6a7e5de285b837bf16ce76eaa148",
+  "replacement_frames_pixel_identical" : 127,
+  "replacement_sha256" : "e115da02610671ccd74848f6363f61b007cbfdb0bf2c96da34781a407f50f0eb",
+  "script" : "scripts\/verify-picture-replacement.swift",
+  "source" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/08-edit\/continuous-ad-review-v06\/afterhuman-merged-upgrade-v06.mp4",
+  "source_sha256" : "149c72b1f2cdcf466cb5a4ce19a41147738cb8aa37bdfc021cdf4a1f832a6d0a",
+  "unchanged_frames_pixel_identical" : 950
+}

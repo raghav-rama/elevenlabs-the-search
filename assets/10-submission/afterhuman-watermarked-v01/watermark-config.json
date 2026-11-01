@@ -1,0 +1,12 @@
+{
+  "source": "assets/08-edit/continuous-ad-review-v07/afterhuman-arm-cleanup-v07.mp4",
+  "source_sha256": "46a8b7aa88376f203aea4031133a2bf7f64f6a7e5de285b837bf16ce76eaa148",
+  "logo": "assets/10-submission/official-watermark/official-elevencreative-logo.png",
+  "logo_sha256": "aff4a3dd5f10f915c1cfcbe9f5bbf26a2e5fc80908f0bcd5cac89b9bfbf7eb78",
+  "output": "assets/10-submission/afterhuman-watermarked-v01/afterhuman-submission-watermarked-v01.mp4",
+  "watermark_width": 480,
+  "margin_pixels": 32,
+  "placement": "bottom-right, full duration",
+  "source_rules": "https://elevenlabs.io/creative/thesearch/terms",
+  "source_guidance": "https://drive.google.com/file/d/1H9Tq44TpUOEtvwGu4alGtBjfGL3WZB3P/view"
+}

@@ -1,0 +1,101 @@
+{
+  "key": "end",
+  "asset_id": "shot-12-overtake-city-end-v03",
+  "node_id": "AZPI2Rt0lpKVdsINgtdM",
+  "source_node": "aYqLIq6SpASveO6cwvQS",
+  "source_asset": "shot-12-overtake-city-start-v03",
+  "title": "12B \u2014 Overhead / clear completed pass",
+  "location": "Same elevated urban rail and separate running lane",
+  "prompt_file": "assets/06-shots/prompts/shot-12-overtake-city-end-v03.txt",
+  "prompt": "Create the matching END FRAME of this overhead race from the supplied CORRECTED START image. This is the same shot a moment later after Riley has overtaken the train. Preserve the strict top-down view, vertical rails, train design/width, left running lane, divider, glass/metal cyberpunk city, daylight, gold/cyan/magenta accents and realistic scale. Exactly one Riley and one train.\n\nDIRECTION MUST STAY THE SAME: Riley runs UP the image. The rounded cockpit NOSE is the UPPER end of the train; its long graphite roof/body extends DOWN from the nose through the bottom edge. The train also travels upward in the world. Never reverse or rotate the train or move it across the rails.\n\nThe camera has advanced with the faster Riley, so the train falls BACK in screen position while remaining forward-facing. Put the leading train nose around x=0.60, y=0.58. Show the same cyan trim and warm gold cockpit edge; the rest of the body extends down out of frame. Straight rails are clearly visible ahead of the nose.\n\nMove Riley straight UP within the same separate image-left lane, centered at x=0.34. Her head/leading hand is around y=0.12 and her trailing boot around y=0.32. Her ENTIRE BODY, including the trailing boot, must be at least one projected body length AHEAD of the train nose. Keep her complete head and both boots in frame, same body size as the input, same exact gold wrap dress, black/gold boots, brown bob and skin with slim chrome/cyan inlays. Show her back/crown from above in a natural next sprint stride; no front-facing person. Leave an unmistakable open vertical gap between her trailing foot and the train nose. A few small cyan wake flecks may trail behind her but must not obscure her legs.\n\nPreserve coherent lane widths and architectural design; background may translate as a tracked camera would. No second Riley at her old position, no second shadow, no duplicated train nose, no side drift, no head-on geometry. One photoreal 16:9 image, no text, no arrows, no collage.",
+  "model_parameters": {
+    "images": [
+      {
+        "template_node_id": "aYqLIq6SpASveO6cwvQS"
+      }
+    ],
+    "quality": "low",
+    "aspect_ratio": "16:9",
+    "resolution": "1K"
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "aYqLIq6SpASveO6cwvQS",
+          "label": "12A \u2014 Overhead / corrected train direction \u2014 CORRECTION / REVIEW"
+        }
+      ]
+    }
+  ],
+  "estimate": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 30
+  },
+  "provider": "ElevenLabs",
+  "model_id": "gpt-image-2",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "status": "user_approved_still_reference",
+  "selected": true,
+  "user_approved": true,
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "prepared_at": "2026-11-01T18:50:59+05:30",
+  "prompt_sha256": "03f5fa7a1fb606c2ceae607b998e6112c4a017e94bddd991212e77eb19137f5d",
+  "output_file": "assets/06-shots/images/shot-12-overtake-city-end-v03.png",
+  "references": [
+    {
+      "order": 1,
+      "role": "corrected beginning composition and identity authority",
+      "file": "assets/06-shots/images/shot-12-overtake-city-start-v03.png",
+      "sha256": "f8c4759f8f40c4a20c0fd8e4e456b5601d16007072c6c070910c9dfba644e961",
+      "generation_id": "aso9vVxmccyeGPsAYP3o",
+      "node_id": "aYqLIq6SpASveO6cwvQS"
+    }
+  ],
+  "session_id": "r4w5jxFNfEhX8hdIVvLC",
+  "generation_id": "IQ2ONBuhzp0M99ig8nJY",
+  "provider_reported_price": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793539260436,
+  "sha256": "bd3e17465b79e59857bcfce7726c2a4a8512388b3c4a11b606302117dd159a07",
+  "bytes": 1728583,
+  "width": 1280,
+  "height": 720,
+  "completed_at": "2026-11-01T18:52:19+05:30",
+  "assistant_visual_review": {
+    "reviewed_at": "2026-11-01T18:53:26+05:30",
+    "method": "Native 1280x720 still comparison with corrected start",
+    "observations": [
+      "Train keeps its upward-facing nose and vertical rail alignment.",
+      "Riley stays in the separate image-left lane and her entire body is ahead of the train nose, with a clear gap after her trailing boot.",
+      "Same gold outfit, body scale, train livery and shared-city lighting are retained.",
+      "Both subjects remain visible; there is one Riley and one train."
+    ],
+    "limitations": [
+      "Stills establish endpoint staging only; the animated pass, speed and coherent camera/background translation remain to be tested.",
+      "Riley ends close to the upper frame edge, with her full head visible; retain enough headroom during motion."
+    ],
+    "user_selection_pending": false
+  },
+  "approved_at": "2026-11-01T19:00:22+05:30",
+  "approval_evidence": "Looks good now",
+  "approval_scope": "Still composition/reference for the next motion pass; animation remains untested."
+}

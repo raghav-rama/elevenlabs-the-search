@@ -1,0 +1,85 @@
+{
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "model_id": "bytedance-seedance-v2.5",
+  "requested_generations": 1,
+  "generations_per_shot": 1,
+  "requested_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "480p",
+    "duration_secs": 5,
+    "generate_audio": true
+  },
+  "estimate": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "generations_count": 1,
+    "currency": "inr",
+    "estimated_runtime_seconds": 150
+  },
+  "session_ids": [
+    "T69JHWOi4Mn0Fwhx1Zx7"
+  ],
+  "run_summary": {
+    "nodes_run": 1,
+    "generations_started": 1,
+    "failed": 0,
+    "generations_by_node": {
+      "YZKPB4nR2oirJzFFRqMQ": 1
+    }
+  },
+  "review_sample_count": 21,
+  "review_interval_seconds": 0.25,
+  "status": "revision_requested_hud_density",
+  "selected": false,
+  "user_approved": false,
+  "retries": 0,
+  "submitted_at": "2026-11-01T20:03:59+05:30",
+  "shots": [
+    {
+      "asset_id": "shot-08-intelligence-city-seedance-480p-v01",
+      "record_file": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v01.generation.json",
+      "prompt_file": "assets/06-shots/video-prompts/shot-08-intelligence-city-seedance-480p-v01.txt",
+      "output_file": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v01.mp4",
+      "node_id": "YZKPB4nR2oirJzFFRqMQ",
+      "generation_id": "9vYJywyyDVQZbV40Rmr8",
+      "session_id": "T69JHWOi4Mn0Fwhx1Zx7",
+      "status": "revision_requested_hud_density",
+      "source_file": "assets/06-shots/images/shot-08-intelligence-city-start-v02.png",
+      "review_file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v01/review.json",
+      "sha256": "9155424f03d016c9082dae9aee6fdc3d5d40471c42809b86bcced6e4c244f036"
+    }
+  ],
+  "completed_at": "2026-11-01T20:06:53+05:30",
+  "completed_generations": 1,
+  "total_reported_price": {
+    "credits": 6511.470000000001,
+    "price_cents": 9454.654440000002,
+    "cost_fiat_currency": "inr"
+  },
+  "reviewed_at": "2026-11-01T20:11:09+05:30",
+  "candidate_edit": {
+    "status": "assistant_proposed_pending_user_review",
+    "source_in_frames": 30,
+    "source_out_frames_exclusive": 96,
+    "source_in_seconds": 1.25,
+    "source_out_seconds_exclusive": 4,
+    "duration_frames": 66,
+    "duration_seconds": 2.75,
+    "fps": 24,
+    "speed_multiplier": 1,
+    "output_file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v01/edit-preview-v01/shot-08-hud-edit-preview-v01.mp4",
+    "sha256": "c99815be60cdbba2e54a0bb6631e599fcb76be03cf7b5847d623f1c3d981350e",
+    "source_unchanged": true,
+    "ad_unchanged": true,
+    "local_reencode": true,
+    "audio_edge_fades_seconds": 0.008,
+    "new_credits": 0
+  },
+  "gallery_title": "AFTERHUMAN · Seedance intelligence HUD",
+  "gallery_description": "One five-second 480p take from the approved city terrace frame. Full source below; 2.75-second edit preview is linked separately.",
+  "gallery_status": "Pending your review. One generation: 6,511.47 credits / INR 94.55. No paid retries.",
+  "gallery_footer": "Seedance 2.5 via ElevenLabs · Native 854×480 · 24 fps · Native audio · No upscaling",
+  "review_index": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v01/index.html",
+  "hud_concept_batch": "assets/06-shots/images/intelligence-hud-concepts-batch-v01.json"
+}

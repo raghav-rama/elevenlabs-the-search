@@ -1,0 +1,12 @@
+{
+  "actual_seconds" : 1.25,
+  "height" : 960,
+  "output_file" : "assets\/06-shots\/reviews\/shot-04-05-continuous-topaz-2x-v01\/upscaled-1_25.png",
+  "requested_seconds" : 1.25,
+  "script" : "scripts\/extract-video-frame.swift",
+  "sha256" : "f080c04fe5e6970629f3ed5cc5d0a55ea6d7231165411322d3655e87c0e5b47c",
+  "source_file" : "assets\/06-shots\/videos\/shot-04-05-continuous-topaz-2x-v01.mp4",
+  "source_modified" : false,
+  "source_sha256" : "83b6da113f490c82fc95bc4b53cab6f841e69a439e0046292f88b63d2b7228bf",
+  "width" : 1708
+}

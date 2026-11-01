@@ -1,0 +1,17 @@
+Edit the supplied first-person city image into an original AFTERHUMAN cybernetic-eye interface concept for a cinematic advertisement. The user wants a much richer HUD, with the immersive layered information density of Iron Man's in-helmet displays, viewed OUT through Riley's eyes. This is an ocular implant interface, not a new character portrait or a physical control screen.
+
+PRESERVE: the exact camera position and 16:9 framing, city buildings and elevated train, daylight and colors, pedestrian ramp and its existing cyan route, railings, pedestrians, and the single natural-sized left hand with the same fingers, pose, skin and narrow chrome inlays. Treat the underlying image as a locked photographic plate. Change only the optical HUD graphics.
+
+Design thin luminous cyan and white vector lines, magenta target accents and restrained amber alternatives. Curved rings, fine tick marks, leader lines, tiny charts and data blocks should feel integrated into a sophisticated cinematic ocular display. Keep all large labels inside a 5% safe margin and use readable condensed monospaced uppercase lettering. Use the supplied exact short labels; no paragraphs of gibberish. Translucent fills at most 15%, crisp lettering and thin strokes, no bloom washing out the city. Keep the middle of the train and pedestrian path readable. Put more information primarily along the top, left and right edges and low peripheral strip. No helmet, armor, face inset, extra hand, weapon, comic art, physical floating monitor, changed train geometry or different lighting. No Iron Man, Marvel or Stark logo; the interface is for the original AFTERHUMAN brand. One coherent still, not a collage. Fine generated type is a concept and will be recreated editorially if needed.
+
+VARIANT B — NEURAL SYSTEMS. Build a denser 12-component ocular HUD centered on enhanced intelligence and integrated body telemetry. Its signature is curved scientific instrumentation along both edges, not boxy dashboard cards.
+- Upper-left header "AFTERHUMAN" and "NEURAL LINK".
+- Left upper quadrant: a small transparent wireframe brain with pulsing-node dots and a segmented circular gauge around it, labelled "COGNITION x256". Keep this brain as a diagram in the overlay, not a physical object.
+- Three compact left-edge data blocks: "NEURAL LOAD 18%" with bars, "LATENCY 0.8ms" with a sparkline, "SYNAPSE SYNC 99.8%" with a tiny node network.
+- Lower-left margin, clear of the hand: a slim body-system outline and small rows "PULSE 72", "O2 99%", "CORE 36.8C". Skin/hand remains exactly as photographed.
+- Top edge: an ocular calibration arc with degree ticks and "PREDICTIVE VISION".
+- Keep the existing train target and add a segmented range circle and small velocity vector beside it. Keep the train readable.
+- Upper-right: expand the existing "INTERCEPT ROUTE" map into a curved map/radar frame. Beneath it: a triangular comparison of three projected routes with one cyan winner, labelled "BEST PATH 04.2s", plus "SOLUTION 99.7%".
+- Lower-right: three horizontal subsystem meters labelled "REFLEX", "MOTOR ASSIST", "POWER RESERVE", each with a readable small status "READY", "ONLINE", "94%".
+- Bottom-center: one compact "SYSTEMS NOMINAL" status and three small connection icons, with thin lines to the peripheral modules.
+The overall impression is a live augmented brain coordinating perception and body systems. Every module is differentiated and purposeful; keep the central city view open and photoreal.

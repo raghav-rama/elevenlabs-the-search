@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-01T18:55:37+05:30",
+  "current_compositions": 6,
+  "new_generated_images": 4,
+  "native_dimensions": [
+    1280,
+    720
+  ],
+  "output_prompt_reference_hashes_match": true,
+  "original_erroneous_images_preserved": true,
+  "approved_diagnostic_cut_hash_unchanged": true,
+  "json_parses": true,
+  "local_document_links_checked": 18,
+  "browser": {
+    "images_loaded": 6,
+    "horizontal_overflow": false
+  },
+  "correction_findings": {
+    "coffee": "one held mug; airborne duplicate removed; distinct patron",
+    "strength": "intact straight doors and narrow starting gap",
+    "overhead_start": "train and runner both face up; runner behind nose",
+    "overhead_end": "entire runner clears nose in same separate lane"
+  },
+  "new_credits": 1008.4713513513514,
+  "new_price_inr": 14.643004021621623,
+  "new_video_generations": 0,
+  "new_upscales": 0,
+  "user_selection_pending": true,
+  "review_limit": "Native still inspection only; no animation, motion continuity or final-master approval."
+}

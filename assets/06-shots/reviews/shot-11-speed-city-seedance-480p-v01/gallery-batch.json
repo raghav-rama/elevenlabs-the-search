@@ -1,0 +1,15 @@
+{
+  "gallery_title": "AFTERHUMAN · Boulevard speed / Seedance 480p",
+  "gallery_description": "One first-person speed take using the approved city frame. Watch the full native video beside its starting image.",
+  "gallery_status": "Boulevard speed take approved by user. Exact final excerpt and sound mix remain editing decisions; original source retained unchanged.",
+  "gallery_footer": "One Seedance 2.5 take via ElevenLabs · 6,511.470 credits / ₹94.55 · No new still, variant, retry or upscale. Native audio; listening review pending.",
+  "shots": [
+    {
+      "record_file": "assets/06-shots/reviews/shot-11-speed-city-seedance-480p-v01/review.json",
+      "source_file": "assets/06-shots/images/shot-11-speed-city-start-v02.png"
+    },
+    {
+      "record_file": "assets/06-shots/images/shot-11-speed-city-start-v02.generation.json"
+    }
+  ]
+}

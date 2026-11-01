@@ -1,0 +1,82 @@
+{
+  "asset_id": "shot-08-intelligence-city-seedance-480p-v02",
+  "status": "user_approved_range_locked",
+  "native_inspection": {
+    "audio_tracks": [
+      {
+        "channels": 2,
+        "codec_fourcc": "aac ",
+        "duration_seconds": 5.056,
+        "sample_rate": 32000
+      }
+    ],
+    "duration_seconds": 5.042,
+    "extracted_frame_seconds": 5,
+    "frame_height": 480,
+    "frame_width": 854,
+    "last_frame_file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/last-frame.png",
+    "last_frame_sha256": "87db567593b477a4cf32ae6eea8179009c6f3afe401d6af7b7ad3a8518a7502e",
+    "last_picture_frame_file": "/Volumes/Samsung-9100-Pro-8TB/develop/eleven-labs-the-search/assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/last-picture-frame.png",
+    "last_picture_frame_seconds": 5,
+    "last_picture_frame_sha256": "87db567593b477a4cf32ae6eea8179009c6f3afe401d6af7b7ad3a8518a7502e",
+    "last_video_sample_seconds": 5,
+    "near_black_detection": "Decoded BGRA samples every 16 pixels; maximum RGB channel <= 8. Visual verification required.",
+    "near_black_frame_times_seconds": [],
+    "nominal_fps": 24,
+    "review_limits": "Sample metadata and exact ending frame only; does not establish full playback or listening review.",
+    "script": "scripts/inspect-review-video.swift",
+    "source_file": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v02.mp4",
+    "source_modified": false,
+    "source_sha256": "da8a4c389e608b276f31e872372fb1fef135139ec8c28fd8b30e144ada3c9403",
+    "video_codec_fourcc": "avc1",
+    "video_duration_seconds": 5.042,
+    "video_samples": 121
+  },
+  "assistant_visual_review": {
+    "observations": [
+      "Selected C density remains visible: neural circle, waveform, body diagnostics, circular radar, route data and four subsystem dials.",
+      "Amber route branch lights by 0.25s, with a bright cyan radar route by approximately 0.75s.",
+      "A clear bright pulse travels up the real ramp at approximately 2.25\u20132.9s; city and first-person hand composition remain recognizable.",
+      "Panels stay mostly fixed within the view; distant train and pedestrians move, with increasing finger curl late in the take."
+    ],
+    "limitations": [
+      "Main ramp pulse occurs later than the requested 1.3-second confirmation; no clear sustained early route-lock beat.",
+      "Fine type and numeric readouts change or soften in animation, including the cognition multiplier. Exact production text needs an editorial pass.",
+      "Magenta train bracket disappears around 2.9\u20133.0s although the HUD and train remain visible; tracking and colored pedestrian labels are not perfectly stable.",
+      "Strong hand curl late in the source is outside the proposed excerpt. Natural motion and geography still need user playback judgment.",
+      "Native audio has been decoded and level-checked only; speech absence, chirp timing and mix continuity have not had an independent listening review.",
+      "Proposed 2.75-second excerpt is not user-selected and has not replaced the shot in the accepted ad."
+    ],
+    "method": "21 sampled frames across the source, 6 native-sized route-detail frames, exact last frames, full decode and audio level checks; not an independent playback/listening review.",
+    "reviewed_at": "2026-11-01T21:03:36+05:30",
+    "user_selection_pending": true
+  },
+  "candidate_edit": {
+    "status": "user_approved_locked",
+    "source_in_frames": 6,
+    "source_out_frames_exclusive": 72,
+    "source_in_seconds": 0.25,
+    "source_out_seconds_exclusive": 3.0,
+    "duration_frames": 66,
+    "duration_seconds": 2.75,
+    "fps": 24,
+    "speed_multiplier": 1,
+    "output_file": "assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/edit-preview-v01/shot-08-hud-c-edit-preview-v01.mp4",
+    "sha256": "cd63556da707cf6fee969976cb27a7112bb178d372c799fdef5ec3d2982cc51e",
+    "source_unchanged": true,
+    "ad_unchanged": true,
+    "local_reencode": true,
+    "audio_edge_fades_seconds": 0.008,
+    "new_credits": 0,
+    "selected": true,
+    "user_approved": true,
+    "approved_at": "2026-11-01T21:08:16+05:30",
+    "approval_evidence": "Lock it and continue",
+    "approval_scope": "The delivered 2.75-second HUD excerpt, source [0.25,3.00), frames 6\u201371 at original speed; not blanket approval of the full-source tail or final audio master."
+  },
+  "user_approved": true,
+  "selected": true,
+  "approved_at": "2026-11-01T21:08:16+05:30",
+  "approval_evidence": "Lock it and continue",
+  "approval_scope": "The delivered 2.75-second HUD excerpt, source [0.25,3.00), frames 6\u201371 at original speed; not blanket approval of the full-source tail or final audio master."
+}

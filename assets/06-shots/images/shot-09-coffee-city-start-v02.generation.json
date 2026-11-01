@@ -1,0 +1,109 @@
+{
+  "concept": "coffee",
+  "asset_id": "shot-09-coffee-city-start-v02",
+  "prompt_file": "assets/06-shots/prompts/shot-09-coffee-city-start-v02-run.txt",
+  "draft_prompt": "assets/06-shots/prompts/shot-09-coffee-city-start-v02.txt",
+  "prompt_sha256": "e785e652d54d770dab50ffff087dab984b32bf4e3375d7c07c3ec8b4ed88f548",
+  "prompt": "Reference roles: the transformed Riley station frame supplies CITY ARCHITECTURE, materials and daylight only; create a new district location, do not copy the station platform or its standing Riley. The full-body gold outfit reference supplies her exact gold wrap dress, black-and-gold boots, natural skin and slim chrome/cyan inlays. One image, no collage.\n\nPhotoreal cinematic commercial, 16:9. One coherent near-future city matching the supplied approved station frame: layered glass megastructures, brushed dark metal, elevated rail and skybridges, cyan light strips, restrained magenta signage and warm gold practical lighting. Bright hazy daylight, slightly damp reflective surfaces, natural skin and physical materials. Preserve the station's welcoming luminous look; do not change to a night city. Background pedestrians wear plausible future-city streetwear, not matching uniforms. Establish infrastructure and architecture as futuristic; neon added to an otherwise contemporary street is insufficient. No illegible foreground advertising, title cards or model-generated AFTERHUMAN typography; exact product labels will be added editorially.\n\nPedestrian caf\u00e9 arcade in the same station district, with charcoal metal-and-glass shopfronts, overhead skybridge, cyan edge lighting and restrained magenta signage. Eye-level first-person jogging view down the sidewalk. An adult stranger in understated future-city clothes stands at the outer side, holding a plain ceramic coffee mug by its handle; the mug is still in their own hand before the accidental slip. Riley's natural hands with slim chrome inlays appear briefly at the lower edges at believable scale. Keep clear space between the stranger and camera for the falling-mug action. No handoff, raised offering gesture, brick suburb, contemporary cars or extra mug. Preserve the later approved FPP-to-TPP catch, return and departure beats; external views must match the exact face and gold wardrobe references.\n",
+  "node_id": "3NwhSOowyCHoT44Ovs8g",
+  "reference_keys": [
+    "world",
+    "wardrobe"
+  ],
+  "model_parameters": {
+    "images": [
+      {
+        "template_node_id": "oq4i1gtPgBZQWZjKpyK9"
+      },
+      {
+        "template_node_id": "LsmAOIUrwmaZEKFGxI1L"
+      }
+    ],
+    "quality": "low",
+    "aspect_ratio": "16:9",
+    "resolution": "1K"
+  },
+  "input_ports": [
+    {
+      "key": "prompt",
+      "modality": "text",
+      "required": false,
+      "connected_to": []
+    },
+    {
+      "key": "images",
+      "modality": "image",
+      "required": false,
+      "connected_to": [
+        {
+          "id": "oq4i1gtPgBZQWZjKpyK9",
+          "label": "WORLD \u2014 approved transformation ending, city architecture and daylight"
+        },
+        {
+          "id": "LsmAOIUrwmaZEKFGxI1L",
+          "label": "APPROVED \u2014 Gold dress, natural skin, narrow chrome inlays"
+        }
+      ]
+    }
+  ],
+  "title": "09 \u2014 Reflexes / caf\u00e9 arcade",
+  "location": "Futuristic caf\u00e9 arcade",
+  "status": "revision_requested_source_preserved",
+  "selected": false,
+  "user_approved": false,
+  "provider": "ElevenLabs",
+  "model_id": "gpt-image-2",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "output_file": "assets/06-shots/images/shot-09-coffee-city-start-v02.png",
+  "generations_count": 1,
+  "seed": null,
+  "upscaled": false,
+  "prepared_at": "2026-11-01T18:28:47+05:30",
+  "references": [
+    {
+      "node_id": "oq4i1gtPgBZQWZjKpyK9",
+      "content_asset_id": "31PjGeIKM3pQc1ShkXkD",
+      "file": "assets/06-shots/reviews/shot-04-05-continuous-seedance-480p-v01/last-picture-frame.png",
+      "sha256": "c0e544d85a36ece78e5455ca84632130e692f9e5ed9c9c3835a8047dc8ea3ba0",
+      "order": 1,
+      "role": "approved station architecture/daylight only"
+    },
+    {
+      "node_id": "LsmAOIUrwmaZEKFGxI1L",
+      "generation_id": "WboGh1QOlITNwOVIn0Gj",
+      "file": "assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png",
+      "sha256": "bd20c7d79b33a7d5c7edca8f38dd99761de13d1cb572601175cb571fb462f1f6",
+      "order": 2,
+      "role": "approved gold dress, boots, natural skin and narrow chrome inlays"
+    }
+  ],
+  "session_id": "WRViUXuqVMZa0OcV7yca",
+  "generation_id": "bt3uwyuSgoU9c2yUUGQx",
+  "provider_reported_price": {
+    "credits": 470.4962162162163,
+    "price_cents": 683.160505945946,
+    "cost_fiat_currency": "inr"
+  },
+  "provider_created_at_unix_ms": 1793538028598,
+  "sha256": "6d00718d340a852f8153a95c0291aa4fb33d6587193a5f058391435712d4c514",
+  "bytes": 1870581,
+  "width": 1280,
+  "height": 720,
+  "completed_at": "2026-11-01T18:31:56+05:30",
+  "assistant_visual_review": {
+    "observations": [
+      "Futuristic caf\u00e9 arcade and elevated rail now belong to the shared city.",
+      "First-person hands and a falling mug demonstrate the intended rescue moment."
+    ],
+    "limitations": [
+      "Incorrect object count: stranger holds one mug while a second mug falls. Must correct before animation.",
+      "Stranger resembles Riley; use a clearly distinct person in the correction.",
+      "This is already mid-drop, not the requested pre-slip starting state. Hands are already reaching rather than jogging."
+    ],
+    "reviewed_at": "2026-11-01T18:33:19+05:30",
+    "method": "Native 1280x720 still inspection",
+    "user_selection_pending": true
+  },
+  "user_feedback": "User acknowledged the listed error and requested a fix."
+}

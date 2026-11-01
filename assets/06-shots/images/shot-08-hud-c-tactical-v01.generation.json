@@ -1,0 +1,108 @@
+{
+  "key": "c",
+  "asset_id": "shot-08-hud-c-tactical-v01",
+  "title": "C — Full tactical perception HUD",
+  "density": "maximal cinematic density",
+  "prompt": "Edit the supplied first-person city image into an original AFTERHUMAN cybernetic-eye interface concept for a cinematic advertisement. The user wants a much richer HUD, with the immersive layered information density of Iron Man's in-helmet displays, viewed OUT through Riley's eyes. This is an ocular implant interface, not a new character portrait or a physical control screen.\n\nPRESERVE: the exact camera position and 16:9 framing, city buildings and elevated train, daylight and colors, pedestrian ramp and its existing cyan route, railings, pedestrians, and the single natural-sized left hand with the same fingers, pose, skin and narrow chrome inlays. Treat the underlying image as a locked photographic plate. Change only the optical HUD graphics.\n\nDesign thin luminous cyan and white vector lines, magenta target accents and restrained amber alternatives. Curved rings, fine tick marks, leader lines, tiny charts and data blocks should feel integrated into a sophisticated cinematic ocular display. Keep all large labels inside a 5% safe margin and use readable condensed monospaced uppercase lettering. Use the supplied exact short labels; no paragraphs of gibberish. Translucent fills at most 15%, crisp lettering and thin strokes, no bloom washing out the city. Keep the middle of the train and pedestrian path readable. Put more information primarily along the top, left and right edges and low peripheral strip. No helmet, armor, face inset, extra hand, weapon, comic art, physical floating monitor, changed train geometry or different lighting. No Iron Man, Marvel or Stark logo; the interface is for the original AFTERHUMAN brand. One coherent still, not a collage. Fine generated type is a concept and will be recreated editorially if needed.\n\nVARIANT C — FULL TACTICAL PERCEPTION. This is the richest, most immersive option: around fourteen distinct translucent instruments, with the cockpit-like visual complexity of a cinematic Iron Man HUD, but a civilian cybernetic-eye interface with no weapons.\n- A thin double arc wraps the outer viewing perimeter, with segmented status ticks, bearing marks and tiny calibration numerals. Add short top labels \"AFTERHUMAN\", \"NEURAL LINK\" and \"SCENE ANALYSIS\".\n- Left edge: a large broken-ring \"NEURAL CORE\" gauge with a miniature branching neural network, \"COGNITION x256\" and a horizontal neural activity waveform.\n- Below it, three small labeled meters: \"LATENCY 0.8ms\", \"NEURAL LOAD 18%\", \"POWER 94%\". Include a tiny anatomical body-system diagram in the far lower-left, positioned away from her hand.\n- Right edge: a larger detailed circular city radar/map headed \"INTERCEPT ROUTE\", with concentric distance rings, train glyph, three candidate routes and one bright cyan selected trajectory.\n- Beneath the map: compact \"TARGET VELOCITY 96 km/h\", \"INTERCEPT 04.2s\" and \"SUCCESS 99.7%\" fields, plus a short scrolling-looking calculation log of only three rows \"SCAN COMPLETE\", \"PATH SOLVED\", \"INTERCEPT READY\".\n- Train remains exactly on its rails with a strong magenta double tracking reticle, a tiny range ladder and a projected dotted cyan continuation in the direction of the track.\n- Annotate three EXISTING pedestrians with small neutral cyan corner brackets and tiny \"PEDESTRIAN\" labels, plus short dotted trajectory lines on the walkway. Do not add people or ghost bodies. One amber bracket marks an actual near-side railing edge with \"OBSTACLE\"; do not invent danger or target people for weapons.\n- Preserve the main cyan arrows along the actual ramp, with faint amber alternative route traces branching only along visible walkways.\n- Bottom edge: four compact circular subsystem dials \"COGNITION\", \"REFLEX\", \"STRENGTH\", \"SPEED\", with clear cyan ready ticks and thin connecting traces.\nPreserve a clear central corridor so the viewer can still follow the train and ramp at a glance. Many fine precise instruments, fewer heavy boxes, small readable technical labels, no giant opaque panel. Strongest cinematic HUD density of the three options.",
+  "node_id": "c3yCyLVhJ97l2aARtCJK",
+  "status": "user_selected_hud_direction_pending_polish",
+  "provider": "ElevenLabs",
+  "model_id": "gpt-image-2",
+  "flow_id": "3dGbKlj9VZitLDr91dyM",
+  "flow_url": "https://elevenlabs.io/app/flows/3dGbKlj9VZitLDr91dyM",
+  "prompt_file": "assets/06-shots/prompts/shot-08-hud-c-tactical-v01.txt",
+  "prompt_sha256": "dc3f5d42beb4bc044788a8d142453444b8ff1aaf04535e5287d00f8d3d7cc307",
+  "output_file": "assets/06-shots/images/shot-08-hud-c-tactical-v01.png",
+  "location": "Same approved terrace; HUD-only concept",
+  "requested_settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "1K",
+    "quality": "low"
+  },
+  "effective_settings": {
+    "images": [
+      {
+        "template_node_id": "zle93ij2plTfimqPEqso"
+      }
+    ],
+    "quality": "low",
+    "aspect_ratio": "16:9",
+    "resolution": "1K"
+  },
+  "references": [
+    {
+      "node_id": "zle93ij2plTfimqPEqso",
+      "generation_id": "L6rqTHE2WjQw2BdZyDng",
+      "port": "images",
+      "file": "assets/06-shots/images/shot-08-intelligence-city-start-v02.png",
+      "sha256": "f6c559b149b6693a78c45486dc5bf07dc321d83f27528f672496faaca6fd2e6b"
+    }
+  ],
+  "generations_count": 1,
+  "seed": null,
+  "seed_note": "No seed parameter exposed by this schema.",
+  "upscaled": false,
+  "selected": true,
+  "user_approved": true,
+  "prepared_at": "2026-11-01T20:20:15+05:30",
+  "submitted_at": "2026-11-01T20:20:51+05:30",
+  "generation_id": "v0QvUiaiLRXVaR6DPFic",
+  "session_id": "dP1NaqFiSbagWXqTh8gO",
+  "reported_submission_credits": 252.11783783783784,
+  "completed_at": "2026-11-01T20:22:05+05:30",
+  "provider_generation": {
+    "id": "v0QvUiaiLRXVaR6DPFic",
+    "status": "completed",
+    "model_id": "gpt-image-2",
+    "modality": "image",
+    "prompt": "Edit the supplied first-person city image into an original AFTERHUMAN cybernetic-eye interface concept for a cinematic advertisement. The user wants a much richer HUD, with the immersive layered infor",
+    "width": 1280,
+    "height": 720,
+    "created_at_unix_ms": 1793544616060,
+    "price": {
+      "credits": 252.11783783783784,
+      "price_cents": 366.0751005405406,
+      "cost_fiat_currency": "inr"
+    }
+  },
+  "provider_reported_price": {
+    "credits": 252.11783783783784,
+    "price_cents": 366.0751005405406,
+    "cost_fiat_currency": "inr"
+  },
+  "sha256": "8e6a9f2b180c5322e26857d8a659f4d3b8b67bc20f7b1493fad1682b98744db2",
+  "bytes": 1805831,
+  "width": 1280,
+  "height": 720,
+  "assistant_visual_review": {
+    "observations": [
+      "Closest to the requested Iron Man-like density: neural-core ring, waveform, circular radar and segmented gauges.",
+      "Body diagnostics, scene annotations, intercept readouts, processing log and four ability dials fill the periphery.",
+      "Central train and cyan ramp stay readable; hand and scene geometry visually follow the original."
+    ],
+    "limitations": [
+      "Several tiny captions/status words are malformed; duplicate headers and lower-edge clutter need simplification.",
+      "Busy peripheral framing darkens the scene slightly.",
+      "Most demanding option for readable animation at 480p; selective emphasis and exact editorial labels will be needed."
+    ],
+    "method": "Native 1280x720 visual inspection; static concept only.",
+    "reviewed_at": "2026-11-01T20:25:29+05:30",
+    "user_selection_pending": true
+  },
+  "reviewed_at": "2026-11-01T20:25:29+05:30",
+  "user_review": {
+    "reviewed_at": "2026-11-01T20:32:38+05:30",
+    "evidence": "C",
+    "outcome": "selected_direction",
+    "scope": "HUD concept and visual direction; typography and duplicate-label cleanup remain before replacement video."
+  },
+  "selection": {
+    "selected_at": "2026-11-01T20:32:38+05:30",
+    "user_evidence": "C",
+    "scope": "HUD concept and visual direction; typography and duplicate-label cleanup remain before replacement video.",
+    "selected_asset_id": "shot-08-hud-c-tactical-v01",
+    "selected_file": "assets/06-shots/images/shot-08-hud-c-tactical-v01.png",
+    "selected_generation_id": "v0QvUiaiLRXVaR6DPFic",
+    "next_step": "Clean exact labels and duplicate headings while retaining C density and composition; then prepare one replacement intelligence video."
+  }
+}

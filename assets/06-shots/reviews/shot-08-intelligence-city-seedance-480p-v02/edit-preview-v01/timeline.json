@@ -1,0 +1,25 @@
+{
+  "title": "Selected C tactical HUD \u2014 proposed 2.75-second excerpt",
+  "fps": 24,
+  "render_width": 854,
+  "render_height": 480,
+  "framing": "fit",
+  "audio_target_rms_dbfs": -28,
+  "audio_gain_limit_db": 0,
+  "crossfade_half_seconds": 0.008,
+  "clips": [
+    {
+      "shot": "Rich HUD scan and route pulse",
+      "picture": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v02.mp4",
+      "audio": "assets/06-shots/videos/shot-08-intelligence-city-seedance-480p-v02.mp4",
+      "source_in_frames": 6,
+      "duration_frames": 66,
+      "audio_gain_db": 0
+    }
+  ],
+  "notes": [
+    "Source [0.25,3.00), frames 6\u201371 inclusive, 66 frames at original 24 fps. User approved this excerpt with Lock it and continue.",
+    "Retains initial radar scan and ramp pulse, ending as the magenta bracket disappears and before the stronger late hand curl. Target bracket loss remains a take limitation.",
+    "Matches existing 2.75-second slot; accepted ad has not been modified. Native dimensions, local re-encode, standard eight-millisecond audio edge fades."
+  ]
+}

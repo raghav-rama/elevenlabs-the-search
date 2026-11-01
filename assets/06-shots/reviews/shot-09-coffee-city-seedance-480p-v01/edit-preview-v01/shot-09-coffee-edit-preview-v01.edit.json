@@ -1,0 +1,44 @@
+{
+  "audio_bridges" : [
+
+  ],
+  "audio_tracks" : 1,
+  "clips" : [
+    {
+      "audio" : "assets\/06-shots\/videos\/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "audio_gain_db" : 0,
+      "audio_sha256" : "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86",
+      "duration_seconds" : 10.125,
+      "picture" : "assets\/06-shots\/videos\/shot-09-coffee-city-seedance-480p-v01.mp4",
+      "picture_sha256" : "ed7a03ca4d2dd9ceab3d97b016bb058076ed5b8e9dace1c677a8729428723a86",
+      "post_handle_samples" : 0,
+      "pre_handle_samples" : 0,
+      "shot" : "Coffee drop, rescue, return and sprint",
+      "source_audio_rms_dbfs" : -27.03887877558811,
+      "source_in_seconds" : 0,
+      "timeline_start_seconds" : 0
+    }
+  ],
+  "crossfade_half_seconds" : 0.0080000000000000002,
+  "decoded_aac_peak_dbfs" : -3.711917584474743,
+  "duration_seconds" : 10.125,
+  "fps" : 24,
+  "framing" : "fit",
+  "master_gain" : 1,
+  "mixed_wav" : "\/Volumes\/Samsung-9100-Pro-8TB\/develop\/eleven-labs-the-search\/assets\/06-shots\/reviews\/shot-09-coffee-city-seedance-480p-v01\/edit-preview-v01\/shot-09-coffee-edit-preview-v01.mix.wav",
+  "notes" : "Hard picture cuts; source frame ranges at original speed, aspect conformed according to the recorded framing setting. Picture re-encoded, not bitstream copied. Audio levels adjusted conservatively using RMS, not perceptual loudness. Native audio ducked under the supplied narration according to the timeline; no synthesis or speech removal by this script. Original source files remain untouched. Audio content and subjective transitions require listening review.",
+  "output" : "assets\/06-shots\/reviews\/shot-09-coffee-city-seedance-480p-v01\/edit-preview-v01\/shot-09-coffee-edit-preview-v01.mp4",
+  "output_sha256" : "976e51690a4dab81148cc8d126a3bf3cc311acf07c81dc878d94b9e5214c2b92",
+  "pcm_peak_dbfs" : -3.6655367107826042,
+  "pcm_rms_dbfs" : -27.044143238539576,
+  "resolution" : [
+    854,
+    480
+  ],
+  "review_status" : "pending_user_playback_and_listening",
+  "script" : "scripts\/assemble-continuation.swift",
+  "speed_multiplier" : 1,
+  "timeline" : "assets\/06-shots\/reviews\/shot-09-coffee-city-seedance-480p-v01\/edit-preview-v01\/timeline.json",
+  "timeline_sha256" : "36e0bec73ad20d777061ca2a98eb2e24dd48d574ef3710b4b44c0505f907d759",
+  "title" : "Coffee reflexes — proposed 10.125-second source-speed excerpt"
+}
