@@ -2135,3 +2135,8 @@ as present or silently substitute another source.
 - Documentation checks passed: 55 local paths, seven section anchors, balanced code fences, exact selected timeline duration, matching v07/watermarked media hashes, and staged whitespace. The first whitespace check flagged intentional Markdown hard-break spaces in the narration; replaced them with blockquote paragraph breaks and reran successfully.
 - Initial git verify-commit could not run because this checkout has no allowedSignersFile. Verified the SSH signature using a temporary allowed-signers file derived from the configured public signing key; persistent Git settings were unchanged. Final amended signature and checkout cleanliness are checked at handoff.
 - The README documents the whole selected film and creator direction, while preserving historical alternatives and delivery limitations. Only documentation changed; all selected media remain intact.
+
+## 2026-11-03T18:06:47+05:30 — Comprehensive README pushed to GitHub
+
+- User explicitly requests pushing the documentation. Pushed signed commit 742a7d5a307164ce6f04fb2395eb5771f2dbcc15 to origin/main; git ls-remote independently returned that exact commit for refs/heads/main.
+- README.md and the prior documentation ledger entries are published. This receipt is included in a separate signed documentation commit/push with the required Codex coauthor; final remote-head equality and checkout cleanliness are checked at handoff. No production media or provider state changed.
