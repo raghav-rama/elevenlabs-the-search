@@ -2140,3 +2140,10 @@ as present or silently substitute another source.
 
 - User explicitly requests pushing the documentation. Pushed signed commit 742a7d5a307164ce6f04fb2395eb5771f2dbcc15 to origin/main; git ls-remote independently returned that exact commit for refs/heads/main.
 - README.md and the prior documentation ledger entries are published. This receipt is included in a separate signed documentation commit/push with the required Codex coauthor; final remote-head equality and checkout cleanliness are checked at handoff. No production media or provider state changed.
+
+## 2026-11-03T18:11:48+05:30 — README timing simplified and inline asset galleries added
+
+- User rejects unnecessary three-decimal timing in the README and requests images like assets/GALLERY.md. Rounded all displayed README runtime/cue values to tenths of a second and labelled the story timeline approximate; exact production records and asset filenames remain unchanged.
+- Added 14 existing inline images, bringing the README to 15 images including its prior end card: four opening composition studies, delivered upgrade frame, two coffee keyframes, selected HUD frame, Riley before/after portraits, office/upgraded wardrobe, and station/train references. Captions distinguish development references from delivered footage and link the original galleries. No new image generation or asset duplication.
+- Checks passed for 60 local Markdown targets, all 15 PNG signatures and nonempty alt text, section anchors, 11 continuous rounded time ranges, absence of multi-decimal numbers in displayed prose, and git diff --check. Reviewed the added selected cyberware/wardrobe, upgrade, HUD, coffee and environment images. Only README.md and this ledger changed.
+- Continuing the authorized direct-main commit and push workflow for this README revision; signed commit and remote verification follow.

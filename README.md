@@ -27,7 +27,7 @@ soundtrack, editing tools, review history, and delivery files.
 | Original selected narration | [David — The Movie Trailer](assets/09-voiceover/auditions/american-bass-v01/afterhuman-vo-david-full-v01.mp3) |
 | ElevenCreative music workspace | [Chrome Swagger and retained auditions](https://elevenlabs.io/app/flows/1Wm2iEn6GL4TBWH62VVi); the selected node is labelled **Chrome Swagger — SELECTED AFTERHUMAN jingle** |
 
-The delivered video is **44.875 seconds, 1,077 frames at 24 fps, 1920 × 1080,
+The delivered video is **44.9 seconds, 1,077 frames at 24 fps, 1920 × 1080,
 16:9**, with stereo 48 kHz AAC audio. The canvas is 1080p; much of the generated
 footage originated at 480p. The station sequence received a dedicated 2× upscale.
 
@@ -50,23 +50,23 @@ to outrun the train she missed.** All four powers belong to the same commute.
 The emotional progression is frustration, curiosity, transformation, discovery,
 and confident exhilaration.
 
-Times below describe the selected v07 edit, rounded to milliseconds. The
+Times below describe the selected v07 edit, rounded to tenths of a second. The
 [frame-based timeline](assets/08-edit/continuous-ad-review-v07/timeline.json)
 contains the exact ranges.
 
-| Time | What happens | What it contributes |
+| Approximate time | What happens | What it contributes |
 | --- | --- | --- |
-| 0.000–6.083 s | Three close views: running legs in heels; a bouncing KORVEX employee badge; Riley panting through a strong under-chin fisheye. | Establishes urgency, a working person, and physical effort before revealing her destination. |
-| 6.083–12.833 s | The camera widens. Train doors close before she reaches them, and the train leaves. The announcer asks whether she is still running on flesh and blood. | Makes the problem concrete and creates the opening for the product's absurdly confident sales pitch. |
-| 12.833–18.125 s | Riley visibly transforms while floating into a centered upgrade interface. AFTERHUMAN and CYBERNETIC IMPLANTS type on; intelligence, reflexes, strength, and speed are called out. She inspects her hands and returns to the platform. | Makes the product, physical change, and promised capabilities readable in one beat. Chrome Swagger enters at the upgrade. |
-| 18.125–19.625 s | Upgraded Riley launches from the station. | Connects the transformation to action immediately. |
-| 19.625–22.375 s | First-person vision gains a dense cyan tactical HUD and a route through the city. | Shows intelligence as useful perception and navigation. “Suddenly, everything clicks.” |
-| 22.375–24.417 s | A fast first-person run along the café frontage leads into a sudden shift of attention. | Establishes normal forward motion before the reflex demonstration. |
-| 24.417–32.375 s | Third-person slow motion reveals an airborne coffee cup. The camera orbits Riley as she catches it, returns it, and continues running. | Gives reflexes a small, human consequence and provides the ad's longest comic action beat. |
-| 32.375–36.875 s | From her viewpoint, Riley forces apart heavy steel doors and continues through. | Demonstrates strength through contact, resistance, and a practical obstacle. “Heavy lifting? Adorable.” |
-| 36.875–39.375 s | First-person acceleration along a broad futuristic boulevard beside the train. | Builds toward the reversal of the opening. |
-| 39.375–42.375 s | An overhead view compares Riley's progress with the train. | Carries the race payoff under “It's trying to catch you now.” This uses the earlier selected overhead take; later replacement experiments were not adopted. |
-| 42.375–44.875 s | The city image spirals into a cyan-and-gold symbol and a black brand card. | Resolves the action into **AFTERHUMAN / CYBERNETIC IMPLANTS / A STEP AHEAD.** |
+| 0.0–6.1 s | Three close views: running legs in heels; a bouncing KORVEX employee badge; Riley panting through a strong under-chin fisheye. | Establishes urgency, a working person, and physical effort before revealing her destination. |
+| 6.1–12.8 s | The camera widens. Train doors close before she reaches them, and the train leaves. The announcer asks whether she is still running on flesh and blood. | Makes the problem concrete and creates the opening for the product's absurdly confident sales pitch. |
+| 12.8–18.1 s | Riley visibly transforms while floating into a centered upgrade interface. AFTERHUMAN and CYBERNETIC IMPLANTS type on; intelligence, reflexes, strength, and speed are called out. She inspects her hands and returns to the platform. | Makes the product, physical change, and promised capabilities readable in one beat. Chrome Swagger enters at the upgrade. |
+| 18.1–19.6 s | Upgraded Riley launches from the station. | Connects the transformation to action immediately. |
+| 19.6–22.4 s | First-person vision gains a dense cyan tactical HUD and a route through the city. | Shows intelligence as useful perception and navigation. “Suddenly, everything clicks.” |
+| 22.4–24.4 s | A fast first-person run along the café frontage leads into a sudden shift of attention. | Establishes normal forward motion before the reflex demonstration. |
+| 24.4–32.4 s | Third-person slow motion reveals an airborne coffee cup. The camera orbits Riley as she catches it, returns it, and continues running. | Gives reflexes a small, human consequence and provides the ad's longest comic action beat. |
+| 32.4–36.9 s | From her viewpoint, Riley forces apart heavy steel doors and continues through. | Demonstrates strength through contact, resistance, and a practical obstacle. “Heavy lifting? Adorable.” |
+| 36.9–39.4 s | First-person acceleration along a broad futuristic boulevard beside the train. | Builds toward the reversal of the opening. |
+| 39.4–42.4 s | An overhead view compares Riley's progress with the train. | Carries the race payoff under “It's trying to catch you now.” This uses the earlier selected overhead take; later replacement experiments were not adopted. |
+| 42.4–44.9 s | The city image spirals into a cyan-and-gold symbol and a black brand card. | Resolves the action into **AFTERHUMAN / CYBERNETIC IMPLANTS / A STEP AHEAD.** |
 
 ### The selected voiceover
 
@@ -121,6 +121,20 @@ eight-second opening. The selected full film subsequently uses the supplied
 Final Cut opening prefix and continuous departure shot. The useful distinction
 is between *fast action* and *insufficient time to understand it*.
 
+The opening's original starting-frame studies show how the hook was composed:
+
+| Running legs | Bouncing employee badge |
+| --- | --- |
+| ![Side-on starting frame of Riley running in black heels and sheer tights](assets/06-shots/images/shot-01-v03.png) | ![Close starting frame of Riley's KORVEX badge against her white shirt](assets/06-shots/images/shot-02-v02.png) |
+
+| Under-chin fisheye | Closing-door reveal |
+| --- | --- |
+| ![Strong upward fisheye starting frame of Riley panting beneath the station roof](assets/06-shots/images/shot-03-v03.png) | ![Wide starting frame revealing Riley approaching the train doors](assets/06-shots/images/shot-04a-v01.png) |
+
+These are development stills. The selected moving shots are linked in the
+[picture-source table](#selected-picture-sources); the
+[original asset gallery](assets/GALLERY.md) includes prompts and generation records.
+
 ### Direct the camera as carefully as the subject
 
 The chin shot needed a camera that felt mounted just below Riley's chin, moving
@@ -165,6 +179,11 @@ the earlier blue skeletal visualization was removed. This both honors the
 creator's aesthetic preference and fits the hard 45-second limit without
 accelerating accepted footage.
 
+![Frame from the delivered video showing Riley mid-transformation in the AFTERHUMAN upgrade interface](assets/10-submission/afterhuman-watermarked-v01/preview-00014.500.png)
+
+*The upgrade in the delivered cut: Riley remains visible while the product name
+and capability labels type onto the interface.*
+
 ### Make the coffee accident feel accidental
 
 The reflex sequence required unusually precise staging. Earlier takes made a
@@ -184,6 +203,13 @@ Riley character: even while outrunning a train, she has time to save someone's
 coffee. The creator preferred this MiniMax performance over the later Seedance
 comparison; changing models did not automatically improve the scene.
 
+| Cup-free first-person approach | Third-person discovery of the falling cup |
+| --- | --- |
+| ![Starting image for the fast first-person run beside the café, with no cup visible](assets/06-shots/images/shot-09-coffee-fpp-cupfree-start-v01.png) | ![Starting image of Riley reacting to an already airborne coffee cup](assets/06-shots/images/shot-09-coffee-tpp-airborne-start-v01.png) |
+
+*The two starting images separate the fast approach from the accidental-drop
+reveal. Their generated motion becomes the selected two-part coffee sequence.*
+
 ### Give every power a separate purpose
 
 The creator required intelligence, reflexes, strength, and speed. The selected
@@ -194,6 +220,10 @@ heavy steel doors replaced an earlier boulder concept for strength.
 Each demonstration should answer a different question: can she see the route,
 react in time, remove an obstacle, and gain on the train? Keeping them within
 one journey prevents the montage from becoming a list of unrelated effects.
+
+![Frame from the selected intelligence excerpt showing Riley's cyan tactical HUD and a route through the city](assets/06-shots/reviews/shot-08-intelligence-city-seedance-480p-v02/edit-preview-v01/last-picture-frame.png)
+
+*The selected intelligence shot makes the route visible through Riley's eyes.*
 
 ### Keep the world and motion believable
 
@@ -258,6 +288,36 @@ and the benefit; ask again the next day without hints. Those checks remain
 useful criteria for the creative intent, rather than results claimed here.
 
 ## Characters, world, and asset bible
+
+### Riley: before and after
+
+| Canonical identity | Selected facial cyberware |
+| --- | --- |
+| ![Canonical portrait of Riley before the upgrade](assets/01-riley/images/riley-01-v01.png) | ![Selected Riley concept with asymmetric mechanical jaw, neck hardware, and cyan eye](assets/01-riley/images/riley-cyberpunk-03-v01.png) |
+
+The portrait anchors likeness; the selected cyberware concept defines the
+upgraded face and neck. [Character concepts and selection notes](assets/01-riley/CYBERPUNK-GALLERY.md).
+
+### Wardrobe: office commuter to upgraded Riley
+
+| Office outfit reference | Selected gold outfit and body styling |
+| --- | --- |
+| ![Office wardrobe reference with white shirt, black skirt, tights, heels, and shoulder bag](assets/02-wardrobe/images/wardrobe-01-v01.png) | ![Selected gold wrap dress, black-and-gold boots, and natural limbs with narrow chrome inlays](assets/02-wardrobe/images/wardrobe-cyberpunk-05-v02.png) |
+
+The contrast is deliberate: an everyday work outfit becomes an expressive
+cybernetic look while Riley retains human skin and proportions.
+[Wardrobe exploration and selected revision](assets/02-wardrobe/CYBERPUNK-GALLERY.md).
+
+### Station and train
+
+| Station environment reference | Train and target-door reference |
+| --- | --- |
+| ![Futuristic morning station with reflective flooring and cyan, magenta, and gold accents](assets/04-station/images/station-01-v01.png) | ![Train side reference showing the target doors, cyan markings, and carriage 07](assets/05-train/images/train-01-v02.png) |
+
+These reference images establish the materials, lighting, train markings, and
+door geometry reused in the opening and subsequent world design.
+
+### Continuity details
 
 | Asset | Defined identity and continuity |
 | --- | --- |
@@ -340,7 +400,7 @@ selection decisions were recorded alongside the assets.
 
 Three full-script American bass auditions were generated using Eleven v4:
 Desmond, David, and K. V. Hagen. The creator selected **David — The Movie Trailer**.
-The native selected recording contains approximately 16.927 seconds of audio;
+The native selected recording contains approximately 16.9 seconds of audio;
 pauses between its complete phrases make room for the action in the longer ad.
 
 Music exploration included an early sung demo, metal, breakbeat, and three
@@ -369,9 +429,9 @@ The selected soundtrack arrangement is recorded in
 
 - David's seven edit segments use the complete original recording once, with
   unchanged source speed and pitch. “So upgrade” remains together.
-- Chrome Swagger enters at **12.833333 seconds**. Its opening section plays
-  until a full 18-second section restarts at **26.875 seconds**, carrying the
-  music's ending through the final frame at **44.875 seconds**.
+- Chrome Swagger enters at **12.8 seconds**. Its opening section plays
+  until a full 18-second section restarts at **26.9 seconds**, carrying the
+  music's ending through the final frame at **44.9 seconds**.
 - Music levels make room for speech. A temporary level drop and low-pass filter
   support the coffee slow-motion passage before the catch brings the cue back.
 - Native train, footstep, movement, and action sounds are mixed with short
@@ -406,7 +466,7 @@ the official contest watermark to a separate export and copied the audio stream.
 
 Saved checks cover source hashes, frame counts, timestamps, full video decoding,
 near-black-frame detection, source ranges, audio formats and sample peaks, and
-sampled visual joins. The watermarked export retains **44.875 seconds** of both
+sampled visual joins. The watermarked export retains **44.9 seconds** of both
 picture and audio. Its official logo is 480 pixels wide, at bottom right with
 32-pixel margins, throughout the film including the end card.
 
